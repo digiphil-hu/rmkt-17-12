@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="2" type="main">A RIMAY-MADÁCH-KÓDEXEK ISMERETLEN SZERZŐTŐL SZÁRMAZÓ VERSEI</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">A RIMAY-MADÁCH-KÓDEXEK ISMERETLEN SZERZŐTŐL SZÁRMAZÓ VERSEI</head>
+<p xml:id="p.1">A <hi rend="italic">Rimay-Madách-k.</hi>-ek ismeretlen szerzőtől származó
+                    verseiként a kolligátumnak azokat az írásait közöljük, melyeket nem tudunk
+                    meggyőző érvekkel megnyugtató módon sem <persName>Rimay János<idno type="ITIdata">Q155364</idno></persName>, sem
+                    <persName>Madách Gáspár<idno type="ITIdata">Q155937</idno></persName> vagy más valaki nevéhez fűzni. (Lásd erre
+                    vonatkozólag a <persName>Madách Gáspár</persName> hiteles verseiről mondottakat
+                    a „Művei” c. fejezetben!) Közülük összetartozó, egységes anyagot alkot az I.
+                    kötet 31–41. lapjainak egy kedvesétől távol lévő személy boldog szerelmi
+                    érzéséből fakadó verscsoportja. A füzet mai állapotából megállapítható, hogy
+                    csonkán maradt ránk. Legalább 17 verset tartalmazott a mai 15-tel szemben, de
+                    mivel első darabjának bevezető versszakai hiányoznak, nem tudjuk, mennyi veszett
+                    el az elejéről. A 15 szerelmes versen kívül ebben a részben adjuk közzé a
+                    Madách-versek közül művészi hatásuk és formai kidolgozottságuk miatt kiemelkedő
+                    2 éneket, a <persName>Wesselényi<idno corresp="Wesselényi Ferenc" type="ITIdata">Q60670</idno></persName> nevére írottat és a <hi rend="italic">Peöngeszeét koboznak</hi> kezdetűt.</p>
+<p xml:id="p.2">Mivel nincsenek kétségtelen bizonyítékaink <persName>Madách Gáspárnak<idno type="ITIdata">Q155937</idno></persName>,
+                    mint esetleges szerzőnek a kiiktatására, ezeket a verseket ugyanúgy közöljük,
+                    mint a kódex eddigi darabjait, a központozásban azonban a mai gyakorlatot
+                    követjük. A 15 szerelmes vers problémáival <persName><hi rend="smallcaps">Bóta László</hi><idno type="ITIdata">Q142877</idno></persName>
+                    foglalkozott. (<bibl><title>A Madách-Rimay-kódexek szerelmes versei</title>.
+                            <abbr>ItK</abbr> 1967.1– 24.</bibl>) A Madách rossz másolatában ránk
+                    maradt verseknél <persName>Bóta<idno corresp="Bóta László"/></persName> számos javítást, „rekonstrukciót”
+                    javasolt. Nemcsak Madách helyesírási sajátságait (pl. a szóvégi zöngés és
+                    zöngétlen hangpárok összemosódását) vette hibáknak és ajánlotta azok kijavítását
+                    (pl. <ref target="rmkt-17-12.tei.rm-k-43">43. sz.</ref> 17. sor <hi rend="italic">ohat</hi> helyett <hi rend="italic">óhadd</hi>; <ref target="rmkt-17-12.tei.rm-k-53">53. számúnál</ref> a 12. sorban <hi rend="italic">kedvet</hi> helyett
+                        <hi rend="italic">kedved</hi>; 15. sorban <hi rend="italic">mind</hi>
+                    helyett <hi rend="italic">mint</hi>; <ref target="rmkt-17-12.tei.rm-k-55">55. számúnál</ref> a 4. sorban <hi rend="italic">áldod</hi> helyett <hi rend="italic">áldott</hi>, <hi rend="italic">fogadod</hi> helyett <hi rend="italic">fogadott</hi>), hanem a
+                    szövegösszefüggésből kiindulva több logikus javítást is szükségesnek tartott.
+                    Számos rekonstrukciós ajánlata azonban az értelem logikáján túl legtöbbször
+                    nincs filológiailag kellőképpen megalapozva. Ha az általa említett esetekben
+                    elfogadnánk az értelem, szövegösszefüggés, metrum, rím stb. érdekében megkívánt
+                    javításokat, „rekonstruálásunk” könnyen hamisításnak minősülhetne vagy
+                    legalábbis önkényesnek. Az ajánlott javítások mellett ugyanis másfélék is szóba
+                    jöhetnének, és hogy valóságban mi állott az eredeti szövegben, nem tudjuk. Ezért
+                    a kétségtelenül másolási hibákon, elírásokon túlmenőleg csak a legszükségesebb
+                    értelemszerű javításokat végeztük.</p>
+</div>
+</body>
+</text>
+</TEI>

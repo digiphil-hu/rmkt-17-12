@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">89.</title>
+<title key="body" n="89" type="main">(Bátorságom inditója...)</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-89</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Varga</hi>, ItK 1979</abbr>,
+                            440–43.</bibl></p>
+<p xml:id="crit.1.p.3">A versszakok első betűi a következő értelmet adják: <hi rend="smallcaps">balassa balinthé</hi>.</p>
+<p xml:id="crit.1.p.4">Az első sor mellé <persName>Balassa Antal</persName> a következő megjegyzést írta: „Ezen dal mellé a
+                        kéziratban saját kezűleg ezt írá: [ti. <persName>Balassa Bálint</persName>!]
+                        »Haec cantio alibi applicabilis.«” Az ének előtt a következő latin sorok
+                        olvashatók Genius szájába adva:</p>
+<l>Mars me delectat, Pallas fovet et Venus urit.</l>
+<l>Virtute unita Numina bella gerunt.</l>
+<p xml:id="crit.1.p.5">Ezek mintegy tartalmazzák a magyar vers mondanivalóját is. <persName>Balassa</persName> az után a rész után illesztette be énekét, melyben
+                Venus, Cupido, Mars a Virtusszal azért vetélkedett, hogy a költőt az ő követésükre bírják.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 3. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 89.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">B</hi>átorságom inditója</l>
+<l rend="level_2" xml:id="l.2">Mars, hadaknak istene,</l>
+<l xml:id="l.3">Lévén erősek rontója,</l>
+<l rend="level_2" xml:id="l.4">Jobb karomnak mindene,</l>
+<l xml:id="l.5">Elhagyád-e hívedet?</l>
+<l rend="level_2" xml:id="l.6">Nézd, kik vannak ellene!</l>
+<l xml:id="l.7">Ezért Venus tégedet</l>
+<l rend="level_2" xml:id="l.8">Mintha nem becsűllene.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.9"><hi rend="bold">A</hi>llítottam bölcs Pallassal</l>
+<l rend="level_2" xml:id="l.10">Értem midőn vítatok,</l>
+<l xml:id="l.11">S kié maradnék – egymással</l>
+<l rend="level_2" xml:id="l.12">Harcot inditottatok,</l>
+<l xml:id="l.13">Mindketten szolgálatra</l>
+<l rend="level_2" xml:id="l.14">Erőszakkal hítatok,</l>
+<l xml:id="l.15">Hogy nem lesz gyalázatra,</l>
+<l rend="level_2" xml:id="l.16">De látom, elhagytatok.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.17"><hi rend="bold">L</hi>egelsőben csak Pallashoz</l>
+<l rend="level_2" xml:id="l.18">Adtam vala magamat,</l>
+<l xml:id="l.19">Látván egyet kapcsol máshoz;</l>
+<l rend="level_2" xml:id="l.20">Minthogy tanulságomat</l>
+<l xml:id="l.21">Fegyverrel is kisérti,<note type="critic" xml:id="note.1">a. m. kíséri</note></l>
+<l rend="level_2" xml:id="l.22">Gyujtja bátorságomat,</l>
+<l xml:id="l.23">Mert neveli s nem sérti</l>
+<l rend="level_2" xml:id="l.24">Evvel igazságomat.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.25"><hi rend="bold">A</hi>kkor te is, vitéz Marsom,</l>
+<l rend="level_2" xml:id="l.26">Elővetéd magadat,</l>
+<l xml:id="l.27">Mondván nekem: csak légy társom,</l>
+<l rend="level_2" xml:id="l.28">Őrzöm méltóságodat;</l>
+<l xml:id="l.29">Nagyra viszem nevedet,</l>
+<l rend="level_2" xml:id="l.30">Élesítem kardodat,</l>
+<l xml:id="l.31">Elterjesztvén híredet,</l>
+<l rend="level_2" xml:id="l.32">Erősítem karodat.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.33"><hi rend="bold">S</hi>emmit sem használt most nékem</l>
+<l rend="level_2" xml:id="l.34">Oltalmazó fegyvered,</l>
+<l xml:id="l.35">Mert, noha nincs ebben vétkem,</l>
+<l rend="level_2" xml:id="l.36">De szívemben tűz gerjed,</l>
+<l xml:id="l.37">Szerelemmel szívemet</l>
+<l rend="level_2" xml:id="l.38">Gyulaszták, vissza nyerjed,</l>
+<l xml:id="l.39">S oltalmazzad hívedet,</l>
+<l rend="level_2" xml:id="l.40">Mert meg lehet, csak nyerjed.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.41"><hi rend="bold">S</hi>zép Venusnak bölcseséged,</l>
+<l rend="level_2" xml:id="l.42">Minerva, mért engeded?</l>
+<l xml:id="l.43">Hun, Mavorsz,<note type="critic" xml:id="note.2">Mars régies, költői alakja</note> te dicsőséged,</l>
+<l rend="level_2" xml:id="l.44">Elvesztéd-e nevedet?</l>
+<l xml:id="l.45">Kis Cupido meggyőzte,</l>
+<l rend="level_2" xml:id="l.46">Veled együtt hívedet,</l>
+<l xml:id="l.47">S praedájáról elűzte</l>
+<l rend="level_2" xml:id="l.48">Diadalmas híredet.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.49"><hi rend="bold">A</hi>lig fordítám szememet,</l>
+<l rend="level_2" xml:id="l.50">S immár megkötve vagyok.</l>
+<l xml:id="l.51">Venus elnyerte szívemet,</l>
+<l rend="level_2" xml:id="l.52"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">S érte sebeim nagyo<corr>k</corr>.</lem><rdg wit="#W1" xml:id="rdg.1">nagyobb<note type="critic" xml:id="note.3">Értelem szerint és a rím miatt jav.</note></rdg></app></l>
+<l xml:id="l.53">Látván részűl hasonlót</l>
+<l rend="level_2" xml:id="l.54">Szívemhez, ha rá vagyok;</l>
+<l xml:id="l.55">Magát látván, meg bomlott,</l>
+<l rend="level_2" xml:id="l.56">Éltemnek békét hagyok.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.57"><hi rend="bold">B</hi>ővelkedik szépségéért</l>
+<l rend="level_2" xml:id="l.58">Szivem nagy szerelemmel,</l>
+<l xml:id="l.59">Kinlódván ékességéért</l>
+<l rend="level_2" xml:id="l.60">Kegyetlen gyötrelemmel;</l>
+<l xml:id="l.61">De ha lát galambocskám</l>
+<l rend="level_2" xml:id="l.62">Meghódolt hívségemmel,</l>
+<l xml:id="l.63">Nem késhetik sólymocskám,</l>
+<l rend="level_2" xml:id="l.64">Elsiet kegyelemmel.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.65"><hi rend="bold">A</hi>zt vélte talán bölcs Pallas,</l>
+<l rend="level_2" xml:id="l.66">Hogy hegyes kópiája,</l>
+<l xml:id="l.67">Gondolhatta azt vitéz Mars,</l>
+<l rend="level_2" xml:id="l.68">Erős vérszopó karja.</l>
+<l xml:id="l.69">Meg nem hódít engemet</l>
+<l rend="level_2" xml:id="l.70">Addig még Venus lángja,</l>
+<l xml:id="l.71">S fia nyila szívemet</l>
+<l rend="level_2" xml:id="l.72">Elébb jól meg nem rágja.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.73"><hi rend="bold">L</hi>akatot is nem vethetnek</l>
+<l rend="level_2" xml:id="l.74">Hív kötelességemre,</l>
+<l xml:id="l.75">S addig semmit sem tehetnek,</l>
+<l rend="level_2" xml:id="l.76">Meddig merészségemre</l>
+<l xml:id="l.77">Több társat nem találnak;</l>
+<l rend="level_2" xml:id="l.78">Azért búsúlt fejemre</l>
+<l xml:id="l.79">Fegyveres rendben állnak</l>
+<l rend="level_2" xml:id="l.80">S várnak bágyadt szivemre.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.81"><hi rend="bold">I</hi>mmár tudom, nem engedtek</l>
+<l rend="level_2" xml:id="l.82">Mindenestűl másoknak,</l>
+<l xml:id="l.83">Szivökből ki sem vetettek,</l>
+<l rend="level_2" xml:id="l.84">Hanem inkább társoknak</l>
+<l xml:id="l.85">Erejét is reám vették,</l>
+<l rend="level_2" xml:id="l.86">Mert addig hatalmoknak</l>
+<l xml:id="l.87">Hogy hű volnék, nem hitték,</l>
+<l rend="level_2" xml:id="l.88">S most jegyzettek magoknak.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.89"><hi rend="bold">N</hi>em ártalmas hív szerelem</l>
+<l rend="level_2" xml:id="l.90">Jó szivű emberekben,</l>
+<l xml:id="l.91">Csak ne legyen késedelem</l>
+<l rend="level_2" xml:id="l.92">Miatta fegyverekben.</l>
+<l xml:id="l.93"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Kedvesebb is állása</lem><rdg wit="#W1" xml:id="rdg.2">ál<del>d</del>lása</rdg></app></l>
+<l rend="level_2" xml:id="l.94">Vídám okos szívekben,</l>
+<l xml:id="l.95">Hogysem volna szállása</l>
+<l rend="level_2" xml:id="l.96">Félénk bolond keblekben.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.97"><hi rend="bold">T</hi>udja vitéz, az mely okos,</l>
+<l rend="level_2" xml:id="l.98">Magát ugy mérsékleni,</l>
+<l xml:id="l.99">Venusért hogy nem lesz mocskos,</l>
+<l rend="level_2" xml:id="l.100">S hozzá is fog illeni,</l>
+<l xml:id="l.101">Nem tudja hirét, nevét</l>
+<l rend="level_2" xml:id="l.102">Az bolond megbecsűlni,</l>
+<l xml:id="l.103">De bölcs szokta szerelmét</l>
+<l rend="level_2" xml:id="l.104">Tartani s kiméleni.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.105"><hi rend="bold">H</hi>oltig fogom én szeretni</l>
+<l rend="level_2" xml:id="l.106">Egy phoenix madaramat,</l>
+<l xml:id="l.107">Ő sem fog engem megvetni,</l>
+<l rend="level_2" xml:id="l.108">Mert örűli javamat,</l>
+<l xml:id="l.109">Gyógyítja, nem kedveli</l>
+<l rend="level_2" xml:id="l.110">Nagy szomorúságomat,</l>
+<l xml:id="l.111">Mert egyedűl neveli</l>
+<l rend="level_2" xml:id="l.112">Nyájas vigaságomat.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.113"><hi rend="bold">É</hi>ljen jókban, kivánom azt,</l>
+<l rend="level_2" xml:id="l.114">Mint ékes szerelmemnek,</l>
+<l xml:id="l.115">Orvosságot sem kérek mást</l>
+<l rend="level_2" xml:id="l.116">Szivbéli gyötrelmemnek,</l>
+<l xml:id="l.117">Mert szerelem oly háló,</l>
+<l rend="level_2" xml:id="l.118">Hogy ura sok szíveknek,</l>
+<l xml:id="l.119">De nem bolondnak való,</l>
+<l rend="level_2" xml:id="l.120">Sem változó szíveknek.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

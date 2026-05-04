@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">123.</title>
+<title key="body" n="123" type="main">AZ VILAGNAK MVLANDO VOLTAROL</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-123</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény I. része. 24–37.</bibl> – A mulandóság jelképeiként felsorolt rengeteg
+                    mitológiai, bibliai és történeti név részben egyezik <persName>Nyéki Vörös Mátyás<idno type="ITIdata">Q159146</idno></persName> hasonló tárgyú versével. (<bibl><abbr>RMKT XVII/2</abbr>, 182–84.</bibl>)</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 123.</fw>
+<head type="title">AZ VILAGNAK MVLANDO VOLTAROL</head>
+<fw corresp="Esterházy Pál" type="lg">XXCIX.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ô mely Boldogtalan ez Világ hiusága,</l>
+<l xml:id="l.2">Vagyon czak szerenczén uáltozandosága,</l>
+<l xml:id="l.3">Egy szempillantásni ö állandosága,</l>
+<l xml:id="l.4">Mégis sokat megh czal szines Bolondsága.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XC.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Iégen éppéttetet háznak állapottya,</l>
+<l xml:id="l.6">Szapanyos Taitéknak festet buborékia,</l>
+<l xml:id="l.7">Hegyek köszt Echonak el mulo szozattya,</l>
+<l xml:id="l.8">Ez álnok Világnak minden aiándekia.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCI.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Bizuást többet hihecz, fölyhök oszlásának,</l>
+<l xml:id="l.10">Auagy széltöl támott Tenger habiainak,</l>
+<l xml:id="l.11">Sebessen röpülö égi Madaraknak,</l>
+<l xml:id="l.12">Nap melegségétöl el oluatt hauaknak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCII.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Nagy Oceanumban léuö mélységeknek,</l>
+<l xml:id="l.14">Egekböl le esö Tüzes Ménköueknek,</l>
+<l xml:id="l.15">Mérges Berosusbol ki folyo uizeknek,</l>
+<l xml:id="l.16">Mint Világban léuö czalárd szépségeknek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCIII.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Többet bizzál ember Ætna lángiaihoz,</lem><rdg wit="#W1" xml:id="rdg.1">[Előbb:] lángiaiban</rdg></app></l>
+<l xml:id="l.18">Dühös Oroszlányok kemény fogaihoz,</l>
+<l xml:id="l.19">Mérges Sárkányoknak szörnyü haragihoz,</l>
+<l xml:id="l.20">Mint ez széles Világ minden jouaihoz.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCIV.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Miért ragaszkodol az nagy Vrasághoz,</l>
+<l xml:id="l.22">Tárházakban léuö kinczes gazdagsághoz,</l>
+<l xml:id="l.23">Auagy töruéntelen, s-mulo Méltosághoz,</l>
+<l xml:id="l.24">Néked hizelkedö bolond kéuánsághoz.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCV.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Egy szem pillantásban ezek mind el mulnak,</l>
+<l xml:id="l.26">Kicziny szelektölis mesze ragattatnak,</l>
+<l xml:id="l.27">Haragos Haláltol mind le tapottatnak,</l>
+<l xml:id="l.28">Örök kárhozatra uégre taszittatnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCVI.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Hol Nimrot királynak Babyloni Tornya,</l>
+<l xml:id="l.30">Auagy Semiramis álnok gondolattya,</l>
+<l xml:id="l.31">Nabugodonosor széles Birodalma,</l>
+<l xml:id="l.32">Gonosz Antiochus megh dühött haragia.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCVII.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Hol uan Assyrusok gyakor gyözedelme,</l>
+<l xml:id="l.34">Kiktöl Zidoságnak sokszor uolt gyötrelme,</l>
+<l xml:id="l.35">Világ nagy részének történt ueszedelme,</l>
+<l xml:id="l.36">Mert sok Nemzetségnek töllök uolt félelme?</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCVIII.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Artaxerxes király fényes Palotái,</l>
+<l xml:id="l.38">Ekes Smaragdusbol czinált asztalai,</l>
+<l xml:id="l.39">Sok drága köuekböl ki formált ágyai,</l>
+<l xml:id="l.40">Hol uannak? s-tündöklö számos pohárai?</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">XCIX.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Hazug Nicanornak hol uan czalárd nyelue,</l>
+<l xml:id="l.42">Méreggel megh töltöt Rabsacis beszéde,</l>
+<l xml:id="l.43">Hol uan Ulyssesnek okos mestersége,</l>
+<l xml:id="l.44">Vagy álnok Circének sok elmélkedése?</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">C.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Troia Városának nagy erös kö falát,</l>
+<l xml:id="l.46">Hector, s-Achyllesnek uitézül nött kariát,</l>
+<l xml:id="l.47">Görög Ilonának ékes ábrázattyát,</l>
+<l xml:id="l.48">Ez uilág el rontá, által áluán uttyát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CI.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Hol uan Cicerois Oratioiual,</l>
+<l xml:id="l.50">Auagy okos Crispus minden Déákiual,</l>
+<l xml:id="l.51">Hol uan Demostenes szép tudományual,</l>
+<l xml:id="l.52">Elmés Archimedes sok találmányual.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CII.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">El mult Bölcz Platonak okos tanitása,</l>
+<l xml:id="l.54">Aristotelesnek éles oktatása,</l>
+<l xml:id="l.55">Es Hyppocratesnek czudás oruoslása,</l>
+<l xml:id="l.56">Trismegistusnakis mélységes irása.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CIII.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Hol uan Virgilius ékes uerseiuel,</l>
+<l xml:id="l.58">Auagy Ouidius folyo uizeiuel,</l>
+<l xml:id="l.59">Hol uan Homaerusis minden Görögiuel,</l>
+<l xml:id="l.60">Vig keduö Æsopus czufos meséiuel.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CIV.</fw>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Nagy Origenesnek büuseges tentáiát,</l>
+<l xml:id="l.62">Empedoclesnekis aranyas pennáiát,</l>
+<l xml:id="l.63">Sött Democritusnak ez Világ uig uoltát,</l>
+<l xml:id="l.64">Heraclitusnakis el nyomá bánattyát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CV.</fw>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Vég uan Diananak szép Vadászatiban,</l>
+<l xml:id="l.66">Alcinoinakis édes almáiban,</l>
+<l xml:id="l.67">Delosban lakozo Venus Leányban,</l>
+<l xml:id="l.68">Alnok Cupidonak tüzes nylaiban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CVI.</fw>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Ki ád Apicusnak ziros falatokat,</l>
+<l xml:id="l.70">Auagy Torquatusnak arany Pohárokat,</l>
+<l xml:id="l.71">Boldisár királynak kedues italokat,</l>
+<l xml:id="l.72">Külömféle szinö malosa Borokat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CVII.</fw>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Polycratusnakis megh hült szerenczéie,</l>
+<l xml:id="l.74">Euripus uizének el ueszet mélysége,</l>
+<l xml:id="l.75">Könyü Daedalusnak magas röpülése,</l>
+<l xml:id="l.76">Gylkos Maedaeának gonosz mestersége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CVIII.</fw>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Apollo Istennek el mult Cytharáia,</l>
+<l xml:id="l.78">Potrohos Bacchusnak szép uinyke fáia,</l>
+<l xml:id="l.79">Hegyes Parnassusnak böuen folyo kuttya,</l>
+<l xml:id="l.80">Musák énekinek égig menö hangia.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CIX.</fw>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Iupiter, Neptunus, Pluto, Vulcanussal,<note type="critic" xml:id="note.1">A <hi rend="italic">Vulcanussal</hi> szó fölött egy
+                                áthúzott <hi rend="italic">2</hi>-es számjegy.</note></l>
+<l xml:id="l.82">Iuno, Mineruáual, Pallas, Saturnussal,
+                           <note type="critic" xml:id="note.2">A <hi rend="italic">Saturnussal</hi> szó fölött egy
+                                áthúzott <hi rend="italic">1</hi>-es számjegy.</note>]
+                        </l>
+<l xml:id="l.83">Töb számos Istenek gyors Mercuriussal,</l>
+<l xml:id="l.84">El multak, Nymphákis szárnyas Pegasussal.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CX.</fw>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Hol Midas királynak gazdag Vendégsége,</l>
+<l xml:id="l.86">Auagy Marsiasnak czalo reménsége,</l>
+<l xml:id="l.87">Samson Hadnagynakis czuda erössége,</l>
+<l xml:id="l.88">Pharao királynak dühös keménsége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXI.</fw>
+<lg xml:id="lg.23">
+<l xml:id="l.89">El mult birodalma gazdag Pompaeusnak,</l>
+<l xml:id="l.90">Megh szünt haboruia Iulius Czászárnak,</l>
+<l xml:id="l.91">Es megh hült szerelme Nagy Antoniusnak,</l>
+<l xml:id="l.92">El oluadot gyöngye szép Cleopatranak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXII.</fw>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Salamon királynak nézzed diczöségét,</l>
+<l xml:id="l.94">Iámbor Ionatasnak szemléld kegyességét,</l>
+<l xml:id="l.95">Absolon személlye ragyago szépségét,</l>
+<l xml:id="l.96">Megh czinálá éz föld ezek temetését.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXIII.</fw>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Hol uan Vitéz Cirus gazdag Praedáiual,</l>
+<l xml:id="l.98">Vagy Darius Czászár kinczes Országiual,</l>
+<l xml:id="l.99">Auagy Craesus király fénlö Aranyual,</l>
+<l xml:id="l.100">Dühös Hannibalis erös Hadnagiual.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXIV.</fw>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Porrál lött az Gazdag bibor köntösiuel,</l>
+<l xml:id="l.102">El enyészet Xerxes számos népeiuel,</l>
+<l xml:id="l.103">Világ Biro Sandor sok gyözedelmiuel</l>
+<l xml:id="l.104">Az mélységre szállot minden Hiueiuel.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXV.</fw>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Hun uér szopo Nero, s-Heliogabalus,</l>
+<l xml:id="l.106">Calligula, Galba, Otho, Vitellius,</l>
+<l xml:id="l.107">Pertinax Czaszáris, Valens, Magnentius,</l>
+<l xml:id="l.108">Maximus, Balbinus, Piso, Leontius.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXVI.</fw>
+<lg xml:id="lg.28">
+<l xml:id="l.109">Vérben telhetetlen Diocletianus,</l>
+<l xml:id="l.110">Zidoságot ronto Nagy Vespasianus,</l>
+<l xml:id="l.111">Hadakat kergetö Valentinianus,</l>
+<l xml:id="l.112">Gonosságban uszo mérges Iulianus.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXVII.</fw>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Hol Romulus, Remus, auagy Tarquinius,</l>
+<l xml:id="l.114">Tacitus, uagy Titus, Tullus Hostilius,</l>
+<l xml:id="l.115">Marcius, és Ancus, Numa Pompilius,</l>
+<l xml:id="l.116">Gyözedelmes Priscus, Drusus, Manilius,</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXVIII.</fw>
+<lg xml:id="lg.30">
+<l xml:id="l.117">Hol uan erös karia uitéz Scaeuolának,</l>
+<l xml:id="l.118">Vagy hogy sebes nyla ifiu Parisnak,</l>
+<l xml:id="l.119">Hol uan bátor sziue hatalmas Aiaxnak,</l>
+<l xml:id="l.120">Probált szerenczéie kegyes Aeneasnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXIX.</fw>
+<lg xml:id="lg.31">
+<l xml:id="l.121">Lentulus, Syluanus, Constans, Licinius,</l>
+<l xml:id="l.122">Okos szauu Catho, Probus, Demetrius,</l>
+<l xml:id="l.123">Rufinus, uagy Battus, Leo, Valerius,</l>
+<l xml:id="l.124">Ezekkel el multak Carus, Procopius.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXX.</fw>
+<lg xml:id="lg.32">
+<l xml:id="l.125">Decentius, Agis, Zeno, Miltiades,</l>
+<l xml:id="l.126">Isacusi Dion, Conon Temistocles,</l>
+<l xml:id="l.127">Angliai Pirrhus, Theseus, Tygranes,</l>
+<l xml:id="l.128">Ellenséggel uiuo Nagy Telamonides.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXI.</fw>
+<lg xml:id="lg.33">
+<l xml:id="l.129">Erös Herculesnek hol uan bai uiuása,</l>
+<l xml:id="l.130">Historicusoknak sokféle irása,</l>
+<l xml:id="l.131">Kedues Orphaeusnak szép musikálása,</l>
+<l xml:id="l.132">Vagy Pleiadeseknek örökös sirása.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXII.</fw>
+<lg xml:id="lg.34">
+<l xml:id="l.133">Hol uan Nagy Goliat, auagy magas Athlas,</l>
+<l xml:id="l.134">Lucullus, Lisander, uagy hogy Pausanias,</l>
+<l xml:id="l.135">Silanus, Mamfredus, auagy mérész Glycas,</l>
+<l xml:id="l.136">Machabaeusoknak io Vezére Iudas.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXIII.</fw>
+<lg xml:id="lg.35">
+<l xml:id="l.137">Nagy Constantinusnak széles birodalma,</l>
+<l xml:id="l.138">Pipinus Fiának Cárolynak hatalma,</l>
+<l xml:id="l.139">Okos Alphonsusnak minden diadalma,</l>
+<l xml:id="l.140">El mult, mint egy tüztöl megh emésztet szalma.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXIV.</fw>
+<lg xml:id="lg.36">
+<l xml:id="l.141">Hol Matusalemnek számos esztendeie,</l>
+<l xml:id="l.142">Battus, Scipionak kegyetlen ereie,</l>
+<l xml:id="l.143">Moyses Prophaetának hathatos ueszeie,</l>
+<l xml:id="l.144">Ifiu Nysusnak egyenes mezeie.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXV.</fw>
+<lg xml:id="lg.37">
+<l xml:id="l.145">Tekénczd Columbusnak föl talált Vilagát,</l>
+<l xml:id="l.146">Adam Attyánknakis ö ártatlanságát,</l>
+<l xml:id="l.147">Okos Sybilláknak jöuendö mondását,</l>
+<l xml:id="l.148">Apelles, Zeuxesnek io penicillussát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXVI.</fw>
+<lg xml:id="lg.38">
+<l xml:id="l.149">Amazoneseknek lássad uitézségét,</l>
+<l xml:id="l.150">Ekes Arionnak uizen euezését,</l>
+<l xml:id="l.151">Száz szemü Argusnak czuda szemlélését,</l>
+<l xml:id="l.152">Szép Ariadnának titkos mesterségét.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXVII.</fw>
+<lg xml:id="lg.39">
+<l xml:id="l.153">Hol uagyon bait uiuo Vitéz Horatius,</l>
+<l xml:id="l.154">Gazdagsággal böues Romai Curtius,</l>
+<l xml:id="l.155">Minden méltosággal tellyes Anicius,</l>
+<l xml:id="l.156"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Auagy szerenczétlen Nagy Belizarius.</lem><rdg wit="#W1" xml:id="rdg.2"> <note type="critic" xml:id="note.3">[A sor utáni őrszó:] Priamus</note></rdg></app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXVIII.</fw>
+<lg xml:id="lg.40">
+<l xml:id="l.157">Hol uan Herodesnek rutt kegyetlensége,</l>
+<l xml:id="l.158">Vagy Iason királynak Tündér sebessége,</l>
+<l xml:id="l.159">Magas Oriasok fene keménsége,</l>
+<l xml:id="l.160">Pokolbéli karok bolond keuélysége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXIX.</fw>
+<lg xml:id="lg.41">
+<l xml:id="l.161">Priamus királynak hol uan szép Várossa,</l>
+<l xml:id="l.162">Dido kiíálynénak megh holt szép ágyassa,</l>
+<l xml:id="l.163">Aegyptiusoknak el mult tanitássa,</l>
+<l xml:id="l.164">Minotaurusnakis sok Mese mondása.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXX/a</fw>
+<lg xml:id="lg.42">
+<l xml:id="l.165">Hol Porus királynak magas Elephanti,</l>
+<l xml:id="l.166">Vitéz Spartanusok okos Vezérlöi,</l>
+<l xml:id="l.167">Lacaedemonusok probált Vitézei,</l>
+<l xml:id="l.168">Régi Carthagonak hatalmas lakosi.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXX/b</fw><note type="critic" xml:id="note.4">E versszak számozását Esterházy eltévesztette.</note>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Hol uan Saul király Zidoság oszlopa,</l>
+<l xml:id="l.170">Sött Dauid királyis Israëlnek Ura,</l>
+<l xml:id="l.171">Aegyptumi Ioseph Vén Iakobnak Fia,</l>
+<l xml:id="l.172">Noë Patriarcha ez Világnak Attya.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXI.</fw>
+<lg xml:id="lg.44">
+<l xml:id="l.173">Gonocz Achacz király Boszorkánságáual,</l>
+<l xml:id="l.174">Vagy Roboam király nagy gonosságáual,</l>
+<l xml:id="l.175">Auagy hogy Manasses Báluányozásáual,</l>
+<l xml:id="l.176">Hol uagyon Ioachim ö latorságáual.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXII.</fw>
+<lg xml:id="lg.45">
+<l xml:id="l.177">Hol uannak Dauidnak erös Feiedelmi,</l>
+<l xml:id="l.178">Sadok, Achimelek, Joab, Abisai,</l>
+<l xml:id="l.179">Ionatan, Banaias, Obdias, Hussati,</l>
+<l xml:id="l.180">Eliab, Vriás, bátor Elusai?</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXIII.</fw>
+<lg xml:id="lg.46">
+<l xml:id="l.181"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Hol uannak bait uiuo uitéz Amoniták,</lem><rdg wit="#W1" xml:id="rdg.3"><del>uagyon</del><add type="corr">uannak</add>; <del>Horatius</del><add type="corr">Amoniták</add></rdg></app></l>
+<l xml:id="l.182">Ez uilagot ronto megh dühödöt Scyták,</l>
+<l xml:id="l.183">Sokszor szerenczéssen hadakozo Bélgák,</l>
+<l xml:id="l.184">Vitéz Gottusoktol megh gyözetet Gyeták.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXV.</fw>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Elsö Laiosnakis uolt nagy szerenczéie,</l>
+<l xml:id="l.186">Hunyadi Jánosnak okos uitézsége,</l>
+<l xml:id="l.187">Nagy Scander Béknekis czuda méréssége,</l>
+<l xml:id="l.188">Kinisi Pálnakis ritka keménsége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXIV.</fw>
+<lg xml:id="lg.48">
+<l xml:id="l.189">Nézd az nagy Atillát Istennek ostorát,</l>
+<l xml:id="l.190">Körösztény Világnak legh nagyob rontoiát,</l>
+<l xml:id="l.191">Száz husz esztendeigh mindenüt nagy uoltát,</l>
+<l xml:id="l.192">De mind ezek után keserues halálát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXVI.</fw>
+<lg xml:id="lg.49">
+<l xml:id="l.193">Hol uan Coruinusis Magyarok istápia,</l>
+<l xml:id="l.194">Minden Vitézeknek ki méltán uolt Apia,</l>
+<l xml:id="l.195">Ö halála után határunkat lopia,</l>
+<l xml:id="l.196">S-romlot Országunkat az Pogány el kapia.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXVII.</fw>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Egy szoual Világon ninczen állandoság,</l>
+<l xml:id="l.198">Hegyekben, Völgyekben uagyon mulandoság,</l>
+<l xml:id="l.199">Fényes Palotákban ideig uigasság,</l>
+<l xml:id="l.200">Mellyet sokszor köuet örök szomoruság.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXVIII.</fw>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Gyakorta nagy hegyek menykötöl üttetnek,</l>
+<l xml:id="l.202">Sokszor méltoságok meszi el uettetnek,</l>
+<l xml:id="l.203">Gazdag Monarchiak semmiué tétetnek,</l>
+<l xml:id="l.204">Kegyetlen haláltol földben temettetnek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXXXIX.</fw>
+<lg xml:id="lg.52">
+<l xml:id="l.205">Magas kösziklákis széltöl le hányatnak,</l>
+<l xml:id="l.206">Erös épületek uégre le romlanak,</l>
+<l xml:id="l.207">Kemény máruány köuek sokszor el hasadnak,</l>
+<l xml:id="l.208">Változandoságrol nyluán példát adnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXL.</fw>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Ne higy tehát ember uilág hiuságának,</l>
+<l xml:id="l.210">Szerencze kereke forgandoságának,</l>
+<l xml:id="l.211">Egy szempillantásni képmutatásának,</l>
+<l xml:id="l.212">Gonosz mesterséggel czinált Orczáiának.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXLI.</fw>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Mert talám maid lelked testedtöl el uálik,</l>
+<l xml:id="l.214">Minden reménségtöl feied megh fosztatik,</l>
+<l xml:id="l.215">Talán szörnyü kinra lelked taszitatik,</l>
+<l xml:id="l.216">Pokolbéli tüzben örökké tartatik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXLII.</fw>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Boldogh az ki sziböl eszt megh fontolhattya,</l>
+<l xml:id="l.218">Christus tanitását bátran megh tarthattya,</l>
+<l xml:id="l.219">Menynek Coronáiát gyorsan el kaphattya,</l>
+<l xml:id="l.220">Istennek Szent szinét örökké láthattya.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

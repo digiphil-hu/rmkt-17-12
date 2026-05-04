@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">55.</title>
+<title key="body" n="55" type="main">SZERELMESE IOB KEZENEK JRASSAT KŐSZŐNTHẎ</title>
+<author>
+<persName>
+                        Egy névtelen
+                    </persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-55</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> I,38.</bibl> Kiad.
+                                <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                        32–33.</bibl></p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I,38.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 55.</fw>
+<head type="title">SZERELMESE IOB KEZENEK JRASSAT KŐSZŐNTHẎ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">En edes iob kezem, Toled keduen vessem, Hogi nekem aianlȧtod,</l>
+<l xml:id="l.2">Assoniodnak keduit, S. hozam hẅ Szerelmit, vjaiwal Iratod,<note type="critic" xml:id="note.1">Vö. <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>
+<hi rend="italic">Szólitván nevemen</hi> kezdetű versében a 30. sorral:
+                            „Mert áldott szerelme s hozzád való kedve hű leszen.”
+                            (<bibl><abbr>RJÖM</abbr> 51.</bibl> – <bibl><hi rend="smallcaps">Bóta</hi>: i. m.
+                                14.</bibl>)</note></l>
+<l xml:id="l.3">Vessed nem kis hasznat, Ha vele ket kariat, Niakam korniul rakatod</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4">Legien Jokal aldod,<note type="critic" xml:id="note.2">áldott</note> Hogi hoza fogadod,<note type="critic" xml:id="note.3">fogadott</note> S, ki mentet ketszegembw̋ l,</l>
+<l xml:id="l.5">Mert hogi őt szerettem, .S. miatta epedtem, lathatia szemeimbeol,</l>
+<l xml:id="l.6">Azert maár vigadok, Mert oli Hitben vagiok, Hogi megh ment Szebeimbeol.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Varion vigh ȯrömmel, Mert enis Io keduel Megiek Sep
+                                Szemelliehez,</lem>
+<rdg wit="#W1" xml:id="rdg.1"><unclear>M</unclear>egiek<note type="critic" xml:id="note.4">A <hi rend="italic">Megiek</hi> szókezdő betűje nem vehető ki
+                                    tisztán, eltorzult.</note></rdg>
+</app></l>
+<l xml:id="l.8">S’ Te hozadis menten, chiokokal bekellem, Io hirt iro kezehez,<note type="critic" xml:id="note.5">Vö. <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>
+<hi rend="italic">Világon ég alatt</hi> 28. sorával: „frigyszerző
+                            kezedhez im én is most békéllem” (<bibl><abbr>RJÖM</abbr> 132</bibl>),
+                            valamint <hi rend="italic">Bocsásd szent lelkedet</hi> 162–63. soraival:
+                            „Csókkal s áldásokkal / Szent kezedhez békélvén.”
+                            (<bibl><abbr>RJÖM</abbr> 15.</bibl> – <bibl><hi rend="smallcaps">Bóta</hi>: i. m.
+                                14.</bibl>)</note></l>
+<l xml:id="l.9">Hidgie bizoniossan, hogi en minden modon Sabom magam keduihez.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

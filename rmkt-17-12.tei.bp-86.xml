@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">86.</title>
+<title key="body" n="86" type="main">BÉ-FEJEZÉSE EZ VERSEKNEK</title>
+<author>
+<surname>Beniczky</surname>
+<forename>Péter</forename><idno type="ITIdata">Q41111</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bp-86</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bp-jegyzetek">Jegyzetek: Beniczky Péter élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar
+                                Rithmusok.</hi><placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName><date when="1670">1670</date></bibl>.<bibl><abbr>RMK
+                        I</abbr>, 1099., 249–53.</bibl></p>
+<p xml:id="crit.1.p.3"><persName>Apáti M. Miklós<idno type="ITIdata">Q140232</idno></persName> az <date when="1688">1688-ban</date>
+<placeName>Amszterdamban<idno type="ITIdata">Q18486</idno></placeName>
+                        kiadott Vita triumphans (<bibl><abbr>RMK III</abbr>, 3491.</bibl>) 82–83.
+                        lapjain szabad átültetésben latinul nyomtatta ki. (Vö. <bibl><hi rend="smallcaps">Turóczi-Trostler József</hi>: <title>Beniczky Péter
+                                latin fordításban</title>. <abbr>ItK</abbr> 1936,
+                    444.</bibl>)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Magyar Rithmusok. Kolozsvár 1670. RMK I, 1099.</witness>
+<witness xml:id="W2">Szinnyey-Merse-kódex (Pongrácz Ferenc 1668-ban lemásolta
+                        Beniczky verseit).</witness>
+<witness xml:id="W3">Magyar Rithmusok. RMK I, 1611/b. (A címlap
+                        hiányzik.)</witness>
+<witness xml:id="W4">Magyar Rithmusok. Lőcse, 1675.</witness>
+<witness xml:id="Wα">A Stoll Béla által α-val jelölt, rekonstruált
+                        szövegváltozat. </witness>
+<witness xml:id="Wβ">A Stoll Béla által β-val jelölt, rekonstruált
+                        szövegváltozat. </witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 86.</fw>
+<head type="title">BÉ-FEJEZÉSE EZ VERSEKNEK</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Veget vetek immár csekély rithmusimban,</l>
+<l xml:id="l.2">Noha az irigység tudom veszi szóban,</l>
+<l xml:id="l.3">Ha ki nem szereted irjad mássát jobban,</l>
+<l xml:id="l.4">Ne marczongd elmémet ez kicsiny munkámban.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Harkály eledelért keres fában férget,</l>
+<l xml:id="l.6">Eszébe sem veszi, vág mellyére terhet,</l>
+<l xml:id="l.7">Tudom verseimhez hogy elég szó férhet,</l>
+<l xml:id="l.8">Mert bika alá-is az nyelv borjut tehet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Méhecske rosárul széd jó édes mézet,</l>
+<l xml:id="l.10">Az pók reá menvén szi azonrul mérget,</l>
+<l xml:id="l.11">Apelles<note type="critic" xml:id="note.1">Apelles – Görög festő <persName>Nagy Sándor<idno type="ITIdata">Q347248</idno></persName> környezetében.
+                            Elfogadta a bírálatokat, köztük egy vargáét is. De mikor az elbizakodva
+                            újabb és újabb hibát hozott elő, azt mondta: „ne sutor ultra
+                            crepidam.”</note> képében varga talált vétket,</l>
+<l xml:id="l.12">Mondván czippelyöshez nem szabott mértéket.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Roka maga farkát szokta csak dicsérni,</l>
+<l xml:id="l.14">Tigris, s’ Párducz börit csak semminek vélni,</l>
+<l xml:id="l.15">De szücs meg-csáválva kezdi azt becsülni,</l>
+<l xml:id="l.16">Erdeméhez képest az árrát-is szabni.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Leg könnyeb embernek másokat itélni,</l>
+<l xml:id="l.18">De az maga vétkét nehéz meg-ismérni,</l>
+<l xml:id="l.19">Könnyü más szemében kicsiny szálkát látni,</l>
+<l xml:id="l.20">De nehéz gerendát magájéban nézni.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Véletlen bokorban az nyúl gyakran fekszik,</l>
+<l xml:id="l.22">Kivel jó agár-is sokszor nem érkezik,<note type="critic" xml:id="note.2">nem érkezik – nem
+                            mérkőzhet, nem versenyezhet</note></l>
+<l xml:id="l.23">Az Astrologus-is néha feletkezik,</l>
+<l xml:id="l.24">Juhász pedig tudgya ha üdö változik.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Vas macska-is olykor gállyát meg nem tarthat,</l>
+<l xml:id="l.26">Remora<note type="critic" xml:id="note.3">„Egy hal neve, melly a’ hajókat a’ tengeren
+                            megtartóztatja.” (<bibl>Páriz Pápai: <title>Dictionarium Latino-
+                                Hungaricum</title>. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName> <date when="1708">1708</date> 496.</bibl>)</note> kitsiny hal,
+                        de ellene álhat,</l>
+<l xml:id="l.27">Fenn hejazó elme, az mit ki gondolhat,</l>
+<l xml:id="l.28">Az együgyü esz-is utánna nyomozhat.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Erdemlett szolgálat méltán soldot vészen,</l>
+<l xml:id="l.30">Gyözedelmes pállyán vár ajándék készen,</l>
+<l xml:id="l.31">Ki ki bár mint nyesse dicsireti lészen,</l>
+<l xml:id="l.32">De az ki-menetel itiletet tészen.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Nincsen oly sovány kert azért ez világon,</lem>
+<rdg wit="#W2" xml:id="rdg.1">Néncs oly</rdg>
+</app></l>
+<l xml:id="l.34">Avagy oly parlag föld akar mely határon,</l>
+<l xml:id="l.35">Hogy jora való fü nem termene azon,</l>
+<l xml:id="l.36"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Melynek hasznát olykor ne adnád aranyon.</lem>
+<rdg wit="#W1" xml:id="rdg.2">adnak</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Nem irtam ezeket elme mutatásért,</l>
+<l xml:id="l.38">Hanem néha, s’ olykor csak az mulatságért,</l>
+<l xml:id="l.39">Nem laktam Oskolát én az tanulásért,</l>
+<l xml:id="l.40">Ezt értvén ne gunyoll engem rithmusimért.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Süketnek két mesét nem szokás mondani,</l>
+<l xml:id="l.42">Tótok-is gyakorta azt szokták szollani,</l>
+<l xml:id="l.43"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Hogy bolondnak kovács nem tud <corr>eszet
+                                verni</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.3">eszt koholni</rdg>
+<rdg wit="#W2" xml:id="rdg.4">eszet verny</rdg>
+</app></l>
+<l xml:id="l.44">Irtam, az mit irtam ha tudod érteni.</l>
+</lg>
+<p xml:id="p.1"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Nemzetes Benyeczki Péter, szentelt Vitéz verseinek vége</lem>
+<rdg wit="#W2" xml:id="rdg.5">VEGE Legyen dicseret dücsösségh az Szent Haromsagh Istennek
+                            Amen</rdg>
+<rdg wit="#Wβ" xml:id="rdg.6">NeMzetes BenICkI Peter szenteLt VItéz VerseI Itten
+                            VégezöDnek.</rdg>
+</app></p>
+</div>
+</body>
+</text>
+</TEI>

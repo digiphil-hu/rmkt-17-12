@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">90.</title>
+<title key="body" n="90" type="main">(Békoban már...)</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-90</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM II</abbr>,
+                            390–94.</bibl> – A szöveg után Finis. A lap alján őrszóként: <hi rend="italic">Pártos</hi> olvasható, a <ref target="rmkt-17-12.tei.bb-91">91. sz. vers</ref> eredeti
+                        kezdőszava.</p>
+<p xml:id="crit.1.p.3">A versfők értelme: <hi rend="smallcaps">balassa balinthé</hi>.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 90.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">B</hi>ékoban már,</l>
+<l rend="level_2" xml:id="l.2">Egiben hogj jár,</l>
+<l rend="level_3" xml:id="l.3">Kettö, nem uiságh,</l>
+<l rend="level_2" xml:id="l.4">Másnak engedd,</l>
+<l rend="level_2" xml:id="l.5">S társot szenued,</l>
+<l rend="level_4" xml:id="l.6">Akarmj rabságh,</l>
+<l rend="level_2" xml:id="l.7">Mert nem keserüségh,</l>
+<l rend="level_2" xml:id="l.8">Seöt mégh gjeönjeörüségh,</l>
+<l rend="level_5" xml:id="l.9">Oljban társaságh.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10"><hi rend="bold">A</hi>karatos,</l>
+<l rend="level_2" xml:id="l.11">De nem tartoss</l>
+<l rend="level_3" xml:id="l.12">Két béko uagjon,</l>
+<l rend="level_2" xml:id="l.13">Ki benned él,</l>
+<l rend="level_2" xml:id="l.14">Csak társtol fél,</l>
+<l rend="level_4" xml:id="l.15">Hogj ne támadgjon,</l>
+<l rend="level_2" xml:id="l.16">S más azon foghsághban,</l>
+<l rend="level_2" xml:id="l.17">Bekos s társasághban</l>
+<l rend="level_5" xml:id="l.18">Hogj né akagjon.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19"><hi rend="bold">L</hi>ágjnak mongja,</l>
+<l rend="level_2" xml:id="l.20">Ki nem tugja</l>
+<l rend="level_3" xml:id="l.21">Ezek rabsághath,</l>
+<l rend="level_2" xml:id="l.22">Kupidonak</l>
+<l rend="level_2" xml:id="l.23">Es Junonak</l>
+<l rend="level_4" xml:id="l.24">Keménj foghságáth,</l>
+<l rend="level_2" xml:id="l.25">De ott sulljos rabságh,</l>
+<l rend="level_2" xml:id="l.26">Szerelem s királjságh,</l>
+<l rend="level_5" xml:id="l.27">Hun tugják s ágath.<note type="critic" xml:id="note.1">olv. ágát; a. m. hajtását, nemzetségét</note></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28"><hi rend="bold">A</hi>llando nincs,</l>
+<l rend="level_2" xml:id="l.29">Se örok kincs,</l>
+<l rend="level_3" xml:id="l.30">Az kiraljsághban,</l>
+<l rend="level_2" xml:id="l.31">Vagj feösuenjek,</l>
+<l rend="level_2" xml:id="l.32">Vagj jrigjek,</l>
+<l rend="level_4" xml:id="l.33">Nem hagják abban,</l>
+<l rend="level_2" xml:id="l.34">Szél magasra talal,</l>
+<l rend="level_2" xml:id="l.35">Szerencse megh nem all,</l>
+<l rend="level_5" xml:id="l.36">Nagj méltosághban.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37"><hi rend="bold">S</hi>emmiue lezz,</l>
+<l rend="level_2" xml:id="l.38"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Ha <corr>f</corr>egjuer lezz</lem><rdg wit="#W1" xml:id="rdg.1">vegjuer</rdg></app></l>
+<l rend="level_3" xml:id="l.39">Vralkodása,</l>
+<l rend="level_2" xml:id="l.40">Mert ki felj,</l>
+<l rend="level_2" xml:id="l.41">Mint gjülölj,</l>
+<l rend="level_4" xml:id="l.42">Szekét megh ássa,</l>
+<l rend="level_2" xml:id="l.43">Sha ma keduekben üll,</l>
+<l rend="level_2" xml:id="l.44">Honap sziuek megh hül</l>
+<l rend="level_5" xml:id="l.45">Sándoron lassa.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46"><hi rend="bold">S</hi>ok gond érj,</l>
+<l rend="level_2" xml:id="l.47">Ha jsmerj</l>
+<l rend="level_3" xml:id="l.48">Keötelességeth,</l>
+<l rend="level_2" xml:id="l.49">Sok kisirtj,</l>
+<l rend="level_2" xml:id="l.50">De teöbb sertj</l>
+<l rend="level_4" xml:id="l.51">Nagj dücsösségéth,</l>
+<l rend="level_2" xml:id="l.52">Teöruenjeis kötj,</l>
+<l rend="level_2" xml:id="l.53">Mert az nép keöuethi</l>
+<l rend="level_5" xml:id="l.54">Magos felségéth.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.55"><hi rend="bold">A</hi>ruloknak,</l>
+<l rend="level_2" xml:id="l.56">S gilkosoknak</l>
+<l rend="level_3" xml:id="l.57">Sereghe lesi,</l>
+<l rend="level_2" xml:id="l.58">Reá lest hannak,</l>
+<l rend="level_2" xml:id="l.59">S eö társának</l>
+<l rend="level_4" xml:id="l.60"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Ueztét keresi,</lem>
+<rdg wit="#W1" xml:id="rdg.2"><del>V</del><add type="corr">U</add>eztét</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.61">Keueljségh, feösuénjségh,</l>
+<l rend="level_2" xml:id="l.62">Felelem, jrigiségh</l>
+<l rend="level_5" xml:id="l.63">S ezt cselekezj.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.64"><hi rend="bold">B</hi>ékós szolga,</l>
+<l rend="level_2" xml:id="l.65">Kjnek dolga</l>
+<l rend="level_3" xml:id="l.66">Vénusra jutott,</l>
+<l rend="level_2" xml:id="l.67">Vll sziuében,</l>
+<l rend="level_2" xml:id="l.68">Mert keduében</l>
+<l rend="level_4" xml:id="l.69">Nagy tüzet gjujtott,</l>
+<l rend="level_2" xml:id="l.70">Vigh széréncseiétöl,</l>
+<l rend="level_2" xml:id="l.71">Szabad elméjétöl</l>
+<l rend="level_5" xml:id="l.72">Szégény el futott.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.73"><hi rend="bold">A</hi>rannjal sem</l>
+<l rend="level_2" xml:id="l.74">Juthat ezem</l>
+<l rend="level_3" xml:id="l.75">Szabadcságához,</l>
+<l rend="level_2" xml:id="l.76">Mert egj uirágh,</l>
+<l rend="level_2" xml:id="l.77">Venus csillagh</l>
+<l rend="level_4" xml:id="l.78">Foglalt magához,</l>
+<l rend="level_2" xml:id="l.79">Páris Helenahoz,</l>
+<l rend="level_2" xml:id="l.80">Se más nem uolt máshoz</l>
+<l rend="level_5" xml:id="l.81">Vgj mint én ahoz.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.82"><hi rend="bold">L</hi>akat csukua,</l>
+<l rend="level_2" xml:id="l.83">Nagj tüz gjutua</l>
+<l rend="level_3" xml:id="l.84"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Bagjad<corr>t</corr> sziuemben,</lem><rdg wit="#W1" xml:id="rdg.3">Bagjad</rdg></app></l>
+<l rend="level_2" xml:id="l.85">Ejel, nappal,</l>
+<l rend="level_2" xml:id="l.86">Egj uirágh szál</l>
+<l rend="level_4" xml:id="l.87">Forogh elmemben,</l>
+<l rend="level_2" xml:id="l.88">Nála nekül, tetczik,</l>
+<l rend="level_2" xml:id="l.89">Hogj sziuemeth metczik</l>
+<l rend="level_5" xml:id="l.90">Szeretetemben.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.91"><hi rend="bold">J</hi>gájában</l>
+<l rend="level_2" xml:id="l.92">Nem hiaba</l>
+<l rend="level_3" xml:id="l.93">Bekojaban tart,</l>
+<l rend="level_2" xml:id="l.94">Nála nekül</l>
+<l rend="level_2" xml:id="l.95">Orczám kékül,</l>
+<l rend="level_4" xml:id="l.96">Oruosságis árt,</l>
+<l rend="level_2" xml:id="l.97">Tüz egh mind kettonkbe,</l>
+<l rend="level_2" xml:id="l.98">Csakhogj szerelmunkbe</l>
+<l rend="level_5" xml:id="l.99">Egj rozz tézen kárt.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.100"><hi rend="bold">N</hi>em akarom,</l>
+<l rend="level_2" xml:id="l.101">Hogj ez járom</l>
+<l rend="level_3" xml:id="l.102">Mástis bé szárjon.</l>
+<l rend="level_2" xml:id="l.103">Rozz uonjás lez,</l>
+<l rend="level_2" xml:id="l.104">En uagj eö uez,</l>
+<l rend="level_4" xml:id="l.105">Velem ne járjon.</l>
+<l rend="level_2" xml:id="l.106">Nem jo ha uagj hiuem,</l>
+<l rend="level_2" xml:id="l.107">Hogj belöled sziuem</l>
+<l rend="level_5" xml:id="l.108">Epét né várion.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.109"><hi rend="bold">T</hi>ied sziuem,</l>
+<l rend="level_2" xml:id="l.110">Tarcsad hiuen,</l>
+<l rend="level_3" xml:id="l.111">Eggjes eröuel,</l>
+<l rend="level_2" xml:id="l.112">Sziued békom,</l>
+<l rend="level_2" xml:id="l.113">Szép hailekom,</l>
+<l rend="level_4" xml:id="l.114">De ha kettöuel</l>
+<l rend="level_2" xml:id="l.115">Közlöd, ketté szakad,</l>
+<l rend="level_2" xml:id="l.116">S rab sziuem kj szakad,</l>
+<l rend="level_5" xml:id="l.117">Szorost nem keduell.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.118"><hi rend="bold">H</hi>agj uagj nekem,</l>
+<l rend="level_2" xml:id="l.119">(S léz más fézkem)</l>
+<l rend="level_3" xml:id="l.120">Vagj másnak békét,</l>
+<l rend="level_2" xml:id="l.121">Látom hamar</l>
+<l rend="level_2" xml:id="l.122">El hánjod már</l>
+<l rend="level_4" xml:id="l.123">Szerelmem fézkét,</l>
+<l rend="level_2" xml:id="l.124">Mert kire támadnak,</l>
+<l rend="level_2" xml:id="l.125">Rozz irigjek annak</l>
+<l rend="level_5" xml:id="l.126">Le csapiák szekét.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.127"><hi rend="bold">E</hi>pp szerelem</l>
+<l rend="level_2" xml:id="l.128">S egj fejedelem<note type="critic" xml:id="note.2">Ejtése a korabeli gyakorlatnak megfelelően
+                                <hi rend="italic">fejdelem</hi> lehetett.</note></l>
+<l rend="level_3" xml:id="l.129">Jrigjtöl nem fél,</l>
+<l rend="level_2" xml:id="l.130">Kj szeretj,</l>
+<l rend="level_2" xml:id="l.131">S megh nem uetj,</l>
+<l rend="level_4" xml:id="l.132">Jstenet migh él,</l>
+<l rend="level_2" xml:id="l.133">Mert fézkét ski magáth</l>
+<l rend="level_2" xml:id="l.134">S megh gjeözi uilágáth,</l>
+<l rend="level_5" xml:id="l.135">Nem éri rozz szél.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

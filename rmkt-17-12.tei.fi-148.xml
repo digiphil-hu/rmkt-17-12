@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">148.</title>
+<title key="body" n="148" type="main">PARAPHRASIS RHITHMICA AZ AZ VERSES MAGYARAZAT</title>
+<author>
+<surname>Fráter</surname>
+<forename>István</forename><idno type="ITIdata">Q41647</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-148</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.fi-jegyzetek">Jegyzetek: Fráter István élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Paraphrasis rhithmica</hi>.
+                        <date when="1684">1684</date>. MTAK K 92. 5a–13b.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Alszeghy</hi>, ItK 1917</abbr>,
+                    201–209.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: Paraphrasis rhithmica. 1684.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="volume" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 148.</fw>
+<head type="title">PARAPHRASIS RHITHMICA AZ AZ VERSES MAGYARAZAT</head>
+<div type="poem" xml:id="d.2">
+<head><supplied>I.</supplied></head>
+<quote><lg xml:id="lg.152">
+<l xml:id="l.392"><hi rend="italic">Sit Christus vitae scopus et sit meta salutis,</hi></l>
+<l rend="level_1" xml:id="l.393"><hi rend="italic">Non errat vitae, cui scopus ille
+                                    placet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.153">
+<l xml:id="l.394">Földi eletednek -s- tantorgó hitednek Christus légyen föbb czellya,</l>
+<l xml:id="l.395">Nem árthat ez világ, ördögí csalardsag ha ö lelked pánczéllya,</l>
+<l xml:id="l.396">Bátran szemben szalhatcz, mikor harczot állasz, ha ez kardod
+                            atczéllya.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.3">
+<head><supplied>II.</supplied></head>
+<quote><lg xml:id="lg.154">
+<l xml:id="l.397"><hi rend="italic">Si premitur, non opprimitur lux conscia veri,</hi></l>
+<l rend="level_1" xml:id="l.398"><hi rend="italic">Quo magis haec premitur, promicat illa
+                                    magis.</hi></l>
+</lg></quote>
+<lg xml:id="lg.155">
+<l xml:id="l.399">Gyakran tapodtatik, de le nem nyomatik, vilagon az igasság.</l>
+<l xml:id="l.400">Terh alatt mint pálma emelkedik nagyra -s- fénlik, mint a Nap
+                            vilag,</l>
+<l xml:id="l.401">Türés egyik szarnya, tollát vesz nem hánnya, másik álhatatosság.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.4">
+<head><supplied>III.</supplied></head>
+<quote><lg xml:id="lg.156">
+<l xml:id="l.402"><hi rend="italic">Principis a facie ne quis discedat amicus</hi></l>
+<l rend="level_1" xml:id="l.403"><hi rend="italic">Tristior: haec laus est Principis una
+                                    boni.</hi></l>
+</lg></quote>
+<lg xml:id="lg.157">
+<l xml:id="l.404">Mint gyemánt aranyban, inkabb mint magában ragyogtattya világát,</l>
+<l xml:id="l.405">A’ként ekesiti kegyesség frissiti kiralynak méltóságát,</l>
+<l xml:id="l.406">Ha hozzá menöknek, igazat keröknek meg agya kivánságát.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.5">
+<head><supplied>IV.</supplied></head>
+<quote><lg xml:id="lg.158">
+<l xml:id="l.407"><hi rend="italic">Stulte, quid in coelum jacularis? Laedere
+                                divos</hi></l>
+<l rend="level_1" xml:id="l.408"><hi rend="italic">Haud potes: at laedis te jaculando
+                                    magis.</hi></l>
+</lg></quote>
+<lg xml:id="lg.159">
+<l xml:id="l.409">Eltedben ha szükség szorongat vagy inség, ne hánd egre kövedet,<note type="critic" xml:id="note.14">égre követ hányni a. m. Isten ellen
+                            zúgolódni</note></l>
+<l xml:id="l.410">Mert eget az nem hat, söt magadnak árthat, boszszontya Istenedet;</l>
+<l xml:id="l.411">Hát jó -s- gonosz resze, Isten ugy tetczése mértékellye eltedet.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.6">
+<head><supplied>V.</supplied></head>
+<quote><lg xml:id="lg.160">
+<l xml:id="l.412"><hi rend="italic">Citrea poma foris sapida intus amara probabis.</hi></l>
+<l rend="level_1" xml:id="l.413"><hi rend="italic">Fronte placet tergo falsus amicus
+                                    obest.</hi></l>
+</lg></quote>
+<lg xml:id="lg.161">
+<l xml:id="l.414">Kivül alma szep szint mutat, belöl rosz izt ád, fogad meg vásollya;</l>
+<l xml:id="l.415">Igy hamis barátsag, szemben szép mulatsag masutt hired mocskollya,</l>
+<l xml:id="l.416">Ökör alá borjut, sólyom alá varjút teszen, -s- neved
+                            csufollya.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.7">
+<head><supplied>VI.</supplied></head>
+<quote><lg xml:id="lg.162">
+<l xml:id="l.417"><hi rend="italic">Pastor oves tondet bonus, haud deglubet;
+                                idemque</hi></l>
+<l rend="level_1" xml:id="l.418"><hi rend="italic">Pastor agit populi duxque paterque
+                                    bonus.</hi></l>
+</lg></quote>
+<lg xml:id="lg.163">
+<l xml:id="l.419">Mint jo pásztor nyajját örzi, nyirvén gyapját, nem meg fosztya
+                            börétül;</l>
+<l xml:id="l.420">Eletét sem szánnya, batran értek adgya, ójja vadak körmetül,</l>
+<l xml:id="l.421">Igy király seregét legelteti, -s- vérét nem kimilli népétül.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.8">
+<head><supplied>VII.</supplied></head>
+<quote><lg xml:id="lg.164">
+<l xml:id="l.422"><hi rend="italic">Nec nil, nec nimium, medium tenuere beati;</hi></l>
+<l rend="level_1" xml:id="l.423"><hi rend="italic">Festina lente, sat cito, si bene
+                                    sat.</hi></l>
+</lg></quote>
+<lg xml:id="lg.165">
+<l xml:id="l.424">Ne siess, tovabb jutcz, faradcz, ha igen futcz, módgya legyen
+                            dolgodnak!</l>
+<l xml:id="l.425">Meg gondold jol vegit, szabjad ahoz rendit el kezdett
+                            szandekodnak,</l>
+<l xml:id="l.426">Ha igy leszsz keszülve, nem leszsz kesedelme tisztesseges munkadnak.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.9">
+<head><supplied>VIII.</supplied></head>
+<quote><lg xml:id="lg.166">
+<l xml:id="l.427"><hi rend="italic">Artem quaevis terra parens alit et bona
+                                nutrix;</hi></l>
+<l rend="level_1" xml:id="l.428"><hi rend="italic">Sit ars, sit fortis portus et ara
+                                    male.</hi></l>
+</lg></quote>
+<lg xml:id="lg.167">
+<l xml:id="l.429">Tudomány ollyan kincs, kinél soha jobb nincs, taplallya eletedet,</l>
+<l xml:id="l.430">Nincsen ez föld felett sohol olly szegelet, hol nem találsz kenyeret</l>
+<l xml:id="l.431">Szerencse ha szédit, ez viszont meg epit, neveli ertekedet.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.10">
+<head><supplied>IX.</supplied></head>
+<quote><lg xml:id="lg.168">
+<l xml:id="l.432"><hi rend="italic">Unus pro multis, qvamvis pro sontibus insons,</hi></l>
+<l rend="level_1" xml:id="l.433"><hi rend="italic">Pro multis unus justius, Hercle,
+                                    perit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.169">
+<l xml:id="l.434">Jobb egynek sokakert, hogy nem soknak edgyért halalt -s- veszelyt
+                            szenyvedni,</l>
+<l xml:id="l.435">Hazája kedvéert -s- szabadulasaert vérrel földet festeni,</l>
+<l xml:id="l.436">Mint annak vesztevel -s- tsak kis sérelmével maga éltét meg nyerni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.11">
+<head><supplied>X.</supplied></head>
+<quote><lg xml:id="lg.170">
+<l xml:id="l.437"><hi rend="italic">Qualis rex, talis grex; si bene rex, bene vult
+                                    grex.</hi></l>
+<l rend="level_1" xml:id="l.438"><hi rend="italic">Mutua sic regem curá gregemque
+                                    beat.</hi></l>
+</lg></quote>
+<lg xml:id="lg.171">
+<l xml:id="l.439">Mikent szelid juhok, együgyü bárányok pásztor utan sietnek,</l>
+<l xml:id="l.440">Jobbra vagy bal kézre, jo vagy gonosz füre általa vezettetnek,</l>
+<l xml:id="l.441"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Igy királyt az joban, gyakran penig roszban az köz
+                                    rendek követnek.</lem>
+<rdg wit="#W1" xml:id="rdg.5">roszban <add type="insert">az</add> köz</rdg>
+</app></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.12">
+<head><supplied>XI.</supplied></head>
+<quote><lg xml:id="lg.172">
+<l xml:id="l.442"><hi rend="italic">Quem sua non tam vota movent, qvam publica
+                                quique,</hi></l>
+<l rend="level_1" xml:id="l.443"><hi rend="italic">Non sibi, sed populo consulit, ille
+                                    placet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.173">
+<l xml:id="l.444">Az ki hazájának inkabb mint magának szólgál, az ditsirtetik,</l>
+<l xml:id="l.445">Ha köz jonak örül, fut, fárad a körül, elteben betsültetik,</l>
+<l xml:id="l.446">Holta utan penig neve fen all fottig, sirban sem zároltatik.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.13">
+<head><supplied>XII.</supplied></head>
+<quote><lg xml:id="lg.174">
+<l xml:id="l.447"><hi rend="italic">Pulchrius est unum civem servare monarchae,</hi></l>
+<l rend="level_1" xml:id="l.448"><hi rend="italic">Hostes qvam forti fundere mille
+                                    manu.</hi></l>
+</lg></quote>
+<lg xml:id="lg.175">
+<l xml:id="l.449">Országokkal biró -s- azon uralkodó világi nagy rendeknek</l>
+<l xml:id="l.450">Nem terjeszti hirét, bátor oncsa vérét harczon sok ellenségnek</l>
+<l xml:id="l.451">Ugy, mint ha életét örzi -s- békeségét hiveinek -s- népének.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.14">
+<head><supplied>XIII.</supplied></head>
+<quote><lg xml:id="lg.176">
+<l xml:id="l.452"><hi rend="italic">Consilio qvicunque suo sapit, haud sapit ille;</hi></l>
+<l rend="level_1" xml:id="l.453"><hi rend="italic">Consilio alterius qvi sapit, ille
+                                    sapit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.177">
+<l xml:id="l.454">Ki maga tanácsán, nem mas javallásán jar, az gyakran meg botlik,</l>
+<l xml:id="l.455">Ha ül a’ tetönnis, tántoroghat ottis, nyakra, före sikamlik;</l>
+<l xml:id="l.456">Azert az az eszes, ki ha dolga veszes, éél tanátcsal, -s- nem romlik.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.15">
+<head><supplied>XIV.</supplied></head>
+<quote><lg xml:id="lg.178">
+<l xml:id="l.457"><hi rend="italic">Nil obiter, sed qvicquid agit, cunctanter id
+                                omne,</hi></l>
+<l rend="level_1" xml:id="l.458"><hi rend="italic">Caesar agat, sapiens cor mora namque
+                                    facit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.179">
+<l xml:id="l.459">Nem illet bölcs szivet, hozzá nemis férhet igen hirtelenkedni,</l>
+<l xml:id="l.460">Mert az el lött nyilat, meg haladvan ijjat, nehéz viszszá rántani,</l>
+<l xml:id="l.461">Végét meg gondolva, halkal hozzá nyulva kell dolgodhoz kezdeni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.16">
+<head><supplied>XV.</supplied></head>
+<quote><lg xml:id="lg.180">
+<l xml:id="l.462"><hi rend="italic">In pretio pretium est, sic non virtute
+                                potestas;</hi></l>
+<l rend="level_1" xml:id="l.463"><hi rend="italic">Saepius at pretio venit et aere
+                                    fides.</hi></l>
+</lg></quote>
+<lg xml:id="lg.181">
+<l xml:id="l.464">Ez roszra ert világ olly, kiben méltóság nem jo cselekedettel,</l>
+<l xml:id="l.465">Söt gyakrabban kincsel kerestetik, penzel inkabb, mint sem erdemmel,</l>
+<l xml:id="l.466">Arannyal kötelét fonnya hit gyeplüjét, -s- érzi kárát vesztével.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.17">
+<head><supplied>XVI.</supplied></head>
+<quote><lg xml:id="lg.182">
+<l xml:id="l.467"><hi rend="italic">Si vivos laudare vetat pudor, ipse placere</hi></l>
+<l rend="level_1" xml:id="l.468"><hi rend="italic">Vivus, laudari mortuus inde
+                                volo.</hi></l>
+</lg></quote>
+<lg xml:id="lg.183">
+<l xml:id="l.469">Eltedben szeressen minden, sem dicsirjen teged ez világ szája,</l>
+<l xml:id="l.470">Mert ez el mulando, de amaz allando, nevekedését varja,</l>
+<l xml:id="l.471">Rothadás nem bántya, ha fed-is föld hantya, sir nevedet nem zárja.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.18">
+<head><supplied>XVII.</supplied></head>
+<quote><lg xml:id="lg.184">
+<l xml:id="l.472"><hi rend="italic">Victrix fortunae sapientia qui sapit ille</hi></l>
+<l rend="level_1" xml:id="l.473"><hi rend="italic">Sperando superat fortunam omnem atque
+                                    ferendo.</hi></l>
+</lg></quote>
+<lg xml:id="lg.185">
+<l xml:id="l.474">Jadczik az böltseség, nala tsak nevetség szerentse valtozasa,</l>
+<l xml:id="l.475">Ha réve csendes-is vagy szélveszszel zugis tengerének habzása,</l>
+<l xml:id="l.476">Roszban jót reménlve, jóban rosztul félve éél, nints tantorodása.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.19">
+<head><supplied>XVIII.</supplied></head>
+<quote><lg xml:id="lg.186">
+<l xml:id="l.477"><hi rend="italic">Corpore quo major princeps et major honore,</hi></l>
+<l rend="level_1" xml:id="l.478"><hi rend="italic">Major eo princeps esse labore
+                                    debet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.187">
+<l xml:id="l.479">Mentül nagyubb tisztre, meltoságosb székre emel teged szerentse,</l>
+<l xml:id="l.480">Elmedet munkára, szivedet az jóra annál inkább serkentse,</l>
+<l xml:id="l.481">Hogy dologtúl szünvén, tsak henyelest üzvén, lelked törben ne ejtse.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.20">
+<head><supplied>XIX.</supplied></head>
+<quote><lg xml:id="lg.188">
+<l xml:id="l.482"><hi rend="italic">Scilicet ipse ferox ultorem ulciscitur ultor,</hi></l>
+<l rend="level_1" xml:id="l.483"><hi rend="italic">Liber et a poena vix abit inde
+                                    nepos.</hi></l>
+</lg></quote>
+<lg xml:id="lg.189">
+<l xml:id="l.484">Boszszuság tételnek, üldözö fegyvernek verrel vetett határán</l>
+<l xml:id="l.485">Másod, harmad izig, neha penig fottig vért aratnak tarlóján,</l>
+<l xml:id="l.486">Az mindenkor félhet, ki tsak boszszút üzhet, hogy folyamik vér
+                            torján.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.21">
+<head><supplied>XX.</supplied></head>
+<quote><lg xml:id="lg.190">
+<l xml:id="l.487"><hi rend="italic">Si minus in patria, patriae jacet inclytus
+                                heros,</hi></l>
+<l rend="level_1" xml:id="l.488"><hi rend="italic">At bene pro patria qui jacet, ille
+                                    placet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.191">
+<l xml:id="l.489">Nincsen az rosaknak, ki nyilt violaknak ollyan kedves illattya,</l>
+<l xml:id="l.490">Mint ki hazájáért, -s- nem maga javaert földön veret folytattya,<note type="critic" xml:id="note.15">a. m. folyatja</note></l>
+<l xml:id="l.491">De az otthon ülö -s- tsak magának élö roszsz, eszt semminek
+                            tartya.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.22">
+<head><supplied>XXI.</supplied></head>
+<quote><lg xml:id="lg.192">
+<l xml:id="l.492"><hi rend="italic">Qui terret, plus ille timet; metui cupit ille,</hi></l>
+<l rend="level_1" xml:id="l.493"><hi rend="italic">Sed metui quovis plus timet ille
+                                    loco.</hi></l>
+</lg></quote>
+<lg xml:id="lg.193">
+<l xml:id="l.494">Kit sokan rettegnek vagy reszketve néznek, meltan felhet másoktul,</l>
+<l xml:id="l.495">Mert ha félelembül és nem szeretetbül tiszteltetik sokaktul,</l>
+<l xml:id="l.496">Gyakrabban sok egynek árt, mintsem edgy többnek, meg gyözetik
+                            azoktul.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.23">
+<head><supplied>XXII.</supplied></head>
+<quote><lg xml:id="lg.194">
+<l xml:id="l.497"><hi rend="italic">Non bene conveniunt pietas et summa potestas;</hi></l>
+<l rend="level_1" xml:id="l.498"><hi rend="italic">Sic pietas regno saepe dat acta
+                                    locum.</hi></l>
+</lg></quote>
+<lg xml:id="lg.195">
+<l xml:id="l.499">Kegyesseg, jamborság, földi uralkodas ritkán ülnek edgy székben.</l>
+<l xml:id="l.500">Termeszettel öszve, kettöt külömbözve, nem járhatni edgy fekben,</l>
+<l xml:id="l.501">De eszt nem hiheti, kit kegyes jo tiszti vitt kiralyi setczelben.<note type="critic" xml:id="note.16">székben (Sessel)</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.24">
+<head><supplied>XXIII.</supplied></head>
+<quote><lg xml:id="lg.196">
+<l xml:id="l.502"><hi rend="italic">Qui vult multa loqvi, non opportuna loquetur</hi></l>
+<l rend="level_1" xml:id="l.503"><hi rend="italic">Semper: sic lingvae se docet esse
+                                    malae.</hi></l>
+</lg></quote>
+<lg xml:id="lg.197">
+<l xml:id="l.504">Kinek nyelve tsak peng, szive vele nem zeng, ritkan vonszon jo nótát,</l>
+<l xml:id="l.505">Mint nem edgyezö húr, daraboson gyúr -s- túr, ha nem nézi a’ kotát,</l>
+<l xml:id="l.506">Eszbül hát kevesbet, mint a’ nelkül többet szólly avagy tsak edgy
+                                jótát.<note type="critic" xml:id="note.17">egy jottányit</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.25">
+<head><supplied>XXIV.</supplied></head>
+<quote><lg xml:id="lg.198">
+<l xml:id="l.507"><hi rend="italic">Mars dubius victorque cadit victusque
+                                resurgit;</hi></l>
+<l rend="level_1" xml:id="l.508"><hi rend="italic">Qui fugit, huic merito nulla corona
+                                    datur.</hi></l>
+</lg></quote>
+<lg xml:id="lg.199">
+<l xml:id="l.509">Rettegö szivekkel, kétséges elmékkel nem lakik az vitézség.</l>
+<l xml:id="l.510"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Az ki harczon tsak fút, méltán annak nem jut
+                                    gyözedelmes tisztésség,</lem>
+<rdg wit="#W1" xml:id="rdg.6">[Előbb:] annak méltán</rdg>
+</app></l>
+<l xml:id="l.511">Ha hóldgya fénlikis, setéttel ködlik-is, bátor szüben nints kétség.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.26">
+<head><supplied>XXV.</supplied></head>
+<quote><lg xml:id="lg.200">
+<l xml:id="l.512"><hi rend="italic">Nemo potest Pluto pariter servire Deoque,</hi></l>
+<l rend="level_1" xml:id="l.513"><hi rend="italic">Sic et adulator nullus amicus
+                                erit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.201">
+<l xml:id="l.514">Nem lehet két urnak s kettös akaratnak eczersmind kedveskedni,</l>
+<l xml:id="l.515">Istennek s-ördögnek, illy el valt ket félnek kivanságat követni,</l>
+<l xml:id="l.516">Nem szokott igasság, állandó barátság hizelkedönél lenni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.27">
+<head><supplied>XXVI.</supplied></head>
+<quote><lg xml:id="lg.202">
+<l xml:id="l.517"><hi rend="italic">Omnia quae prodit sine vano publica fama,</hi></l>
+<l rend="level_1" xml:id="l.518"><hi rend="italic">Crede mihi, verum dicere fama
+                                    solet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.203">
+<l xml:id="l.519">Kösség a’ mit hirdet, gyakran az ugy lehet, szél nem indúl fuvatlan.</l>
+<l xml:id="l.520">Királynál mit titkon suttognak, piaczon beszellik titkolatlan,</l>
+<l xml:id="l.521">Ne veld hát semminek, hirét az kösségnek, mert be telik untalan.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.28">
+<head><supplied>XXVII.</supplied></head>
+<quote><lg xml:id="lg.204">
+<l xml:id="l.522"><hi rend="italic">Tantum decrescit fortuna, superbia quantum</hi></l>
+<l rend="level_1" xml:id="l.523"><hi rend="italic">Crescit, fortunae, quae comes esse
+                                    solet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.205">
+<l xml:id="l.524"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Gyakran jo szerentse -s- kevélység bilintse mulatnak
+                                    edgy asztalnál.</lem>
+<rdg wit="#W1" xml:id="rdg.7">[Előbb:] belintse</rdg>
+</app></l>
+<l xml:id="l.525">De uralkódások -s- sokáig lakások ne remenlyed edgy háznál,</l>
+<l xml:id="l.526">Mert hol kevelyseg forr, szerentsenek ott tor -s- halal fekszik
+                            lábánál.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.29">
+<head><supplied>XXVIII.</supplied></head>
+<quote><lg xml:id="lg.206">
+<l xml:id="l.527"><hi rend="italic">Aut surda, aut patiens magni sit principis
+                                auris,</hi></l>
+<l rend="level_1" xml:id="l.528"><hi rend="italic">Si nescis, laesa bilis in aure
+                                    sedet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.207">
+<l xml:id="l.529">Keveset hallani, ha hallis, de türni kell az uralkodonak,</l>
+<l xml:id="l.530">Mivel az fül kémje, szünek tsengettyüje -s- inditoja haragnak,</l>
+<l xml:id="l.531">Azert tsak ollyat hally, gonoszt hogy ne forrally magadnak vagy
+                            masoknak.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.30">
+<head><supplied>XXIX.</supplied></head>
+<quote><lg xml:id="lg.208">
+<l xml:id="l.532"><hi rend="italic">Parva qvidem crescunt, paulatim magnaque
+                                fiunt;</hi></l>
+<l rend="level_1" xml:id="l.533"><hi rend="italic">Summa cadunt subito, magna repente
+                                    ruunt.</hi></l>
+</lg></quote>
+<lg xml:id="lg.209">
+<l xml:id="l.534">Lassan lassan nönek, kis dolgok fel mennek, mikent az eröss
+                            tornyok,</l>
+<l xml:id="l.535">Nagyubb csattogassal romlanak zugassal az magas alkatmányok,</l>
+<l xml:id="l.536">Szelek nagy fát rontnak, békevel maradnak apro bokrok es kunnyók.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.31">
+<head><supplied>XXX.</supplied></head>
+<quote><lg xml:id="lg.210">
+<l xml:id="l.537"><hi rend="italic">Par vitium cunctis et nulli fidere velle;</hi></l>
+<l xml:id="l.538"><hi rend="italic">Fide bonis, diffide malis; si fidis amico,</hi></l>
+<l xml:id="l.539"><hi rend="italic">Fide quidem, sed tanqvam inimico fide futuro.</hi></l>
+</lg></quote>
+<lg xml:id="lg.211">
+<l xml:id="l.540">Senkinek nem hinni, mindent megis hinni, nem fér okos elméhez,</l>
+<l xml:id="l.541">Joknak bizvást hihetcz, roszszakat meg vethetcz, az illik bölts
+                            emberhez.</l>
+<l xml:id="l.542">Néha hitt embered lehet ellenseged, veszelyt ragaszt eltedhez.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.32">
+<head><supplied>XXXI.</supplied></head>
+<quote><lg xml:id="lg.212">
+<l xml:id="l.543"><hi rend="italic">Ludit in humanis rebus fortuna licebit</hi></l>
+<l rend="level_1" xml:id="l.544"><hi rend="italic">Hanc reperire magis, quam retinere
+                                    diu.</hi></l>
+</lg></quote>
+<lg xml:id="lg.213">
+<l xml:id="l.545">Könnyebb a szerentset, szemfény vesztö kintsét fel találni sokaknak,</l>
+<l xml:id="l.546">Hogy sem meg tartani vagy ladaba zarni -s- békót lelni lábának;</l>
+<l xml:id="l.547">Szállason hol ma ült, holnap tüle leszsz hült, helyét hadgya
+                            nyomának.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.33">
+<head><supplied>XXXII.</supplied></head>
+<quote><lg xml:id="lg.214">
+<l xml:id="l.548"><hi rend="italic">Quid nisi dulce malum aut infama laeta
+                                voluptas</hi></l>
+<l rend="level_1" xml:id="l.549"><hi rend="italic">Corporis est, animae pestis et esca
+                                    malis.</hi></l>
+</lg></quote>
+<lg xml:id="lg.215">
+<l xml:id="l.550">Kérdhetned, mi lehet, -s- mi jókat szerezhet vilagi gyönyörüség.</l>
+<l xml:id="l.551">Testnek kevélysege, mezzel szinelt mérge, gyomor vesztö édesség,</l>
+<l xml:id="l.552">Ki mint Judás csokkal, arúl festett jokkal, rabság hozó vendegseg.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.34">
+<head><supplied>XXXIII.</supplied></head>
+<quote><lg xml:id="lg.216">
+<l xml:id="l.553"><hi rend="italic">Sit piger ad poenam, princeps, ad praemia
+                                velox,</hi></l>
+<l rend="level_1" xml:id="l.554"><hi rend="italic">Nam virtus magnos haec facit una
+                                    deos.</hi></l>
+</lg></quote>
+<lg xml:id="lg.217">
+<l xml:id="l.555">Az jó téteményre mint sem büntetésre király legyen hajlandóbb;</l>
+<l xml:id="l.556">Jgy kegyelmesseggel -s- engedelmesseggel orszaga leszsz allandóbb,</l>
+<l xml:id="l.557">Mert az, ki tsak sebhit, -s-jo irral nem enyhit, birodalma
+                            romlandóbb.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.35">
+<head><supplied>XXXIV.</supplied></head>
+<quote><lg xml:id="lg.218">
+<l xml:id="l.558"><hi rend="italic">Fertilior seges est alieno semper in agro</hi></l>
+<l rend="level_1" xml:id="l.559"><hi rend="italic">Vicinumque pecus grandius uber
+                                    habet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.219">
+<l xml:id="l.560">Irígységnek férge -s- fö széditö mérge kinek szivét el fogta,</l>
+<l xml:id="l.561">Lelkében gyötrödik, elmeje törödik, nints még éjjelis nyugta,</l>
+<l xml:id="l.562">Edesb más epéje, mint sem maga lépje, neki sátán eszt sugta.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.36">
+<head><supplied>XXXV.</supplied></head>
+<quote><lg xml:id="lg.220">
+<l xml:id="l.563"><hi rend="italic">Si lucri bonus odor ex re quaque pudori,</hi></l>
+<l rend="level_1" xml:id="l.564"><hi rend="italic">Quid mirum praestat, si quoque turpe
+                                    lucrum.</hi></l>
+</lg></quote>
+<lg xml:id="lg.221">
+<l xml:id="l.565">Akarmibül jüjjön az kints, tsak meg gyüllyön, de kedves a nyereség.</l>
+<l xml:id="l.566">Nyerhess bátor szenán avagy hitván szalmán, tavozik a’ szegénység;</l>
+<l xml:id="l.567">De nekem ugy látzik, joknakis igy tetczik, eszt szégyenli
+                            tisztesseg.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.37">
+<head><supplied>XXXVI.</supplied></head>
+<quote><lg xml:id="lg.222">
+<l xml:id="l.568"><hi rend="italic">Heu, miser in mediis sitiens stat Tantalus
+                                undis</hi></l>
+<l rend="level_1" xml:id="l.569"><hi rend="italic">Et poma esuriens proxima habere
+                                    nequit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.223">
+<l xml:id="l.570">Tantalus kádgyának s torkig ért árjának a ki hallotta hirét,</l>
+<l xml:id="l.571">Ahoz mértékellye, hasonlonak véllye fösveny embernek bérét,</l>
+<l xml:id="l.572">Kinek hájj ösztöver,<note type="critic" xml:id="note.18"> – aki számára a zsírháj
+                                sovány</note> -s- még a’ vaj sem kövér, fojtya kivánság vérét.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.38">
+<head><supplied>XXXVII.</supplied></head>
+<quote><lg xml:id="lg.224">
+<l xml:id="l.573"><hi rend="italic">Non minor est virtus, quam quaerere parta
+                                tueri,</hi></l>
+<l rend="level_1" xml:id="l.574"><hi rend="italic">Casus inest illic, hic erit artis
+                                    opus.</hi></l>
+</lg></quote>
+<lg xml:id="lg.225">
+<l xml:id="l.575">Sokat jól keresni -s- igazán szerezni nem utólso tisztesseg;</l>
+<l xml:id="l.576">De oltalmazása -s- gyüjtött jók tartása sem leg-kissebb eszesseg,</l>
+<l xml:id="l.577">Az elsöt nehezen szerzed avagy könnyen, birnod penig mesterség.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.39">
+<head><supplied>XXXVIII.</supplied></head>
+<quote><lg xml:id="lg.226">
+<l xml:id="l.578"><hi rend="italic">Fortior est, qui se, quam qui fortissima
+                                vincit</hi></l>
+<l rend="level_1" xml:id="l.579"><hi rend="italic">Moenia, nec virtus altius ire
+                                    potest.</hi></l>
+</lg></quote>
+<lg xml:id="lg.227">
+<l xml:id="l.580">Harczon sokat gyözö, rabot szijra füzö vitéz ember mezöben</l>
+<l xml:id="l.581">Nem lehet hiresebb, bar gyözedelmesebb Juliusnál üzöben;</l>
+<l xml:id="l.582">Mint ki akarattyát birta indulattyát, -s- fékit tartya kezében.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.40">
+<head><supplied>XXXIX.</supplied></head>
+<quote><lg xml:id="lg.228">
+<l xml:id="l.583"><hi rend="italic">Saepe viatorem nova, non vetus orbita fallit;</hi></l>
+<l rend="level_1" xml:id="l.584"><hi rend="italic">Sic socium socius non vetus imo
+                                    novus.</hi></l>
+</lg></quote>
+<lg xml:id="lg.229">
+<l xml:id="l.585">Regi kerekedhez -s- probalt fegyveredhez ollykor többet bizhatol,</l>
+<l xml:id="l.586">Mert sokszor ujj szekér, tör, kard es ujj fegyver, hol nem vélnéd, ott
+                            romol,</l>
+<l xml:id="l.587">Igy ujj barátodtúl, mint régi társodtúl hamarébb csalattatol.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.41">
+<head><supplied>XL.</supplied></head>
+<quote><lg xml:id="lg.230">
+<l xml:id="l.588"><hi rend="italic">Corpora magnanimo satis est prostrasse leoni,</hi></l>
+<l rend="level_1" xml:id="l.589"><hi rend="italic">Pugna suum finem cum jacet, hostis
+                                    habet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.231">
+<l xml:id="l.590">Miként az oroszlan vadakkal harczolvan csendesedik azokhoz,</l>
+<l xml:id="l.591">Kik nem keménykednek, söt engedelmesek viadalban magához,</l>
+<l xml:id="l.592">Ellenség hodolva, fegyverétis nyujtva űtközetnek véget hoz.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.42">
+<head><supplied>XLI.</supplied></head>
+<quote><lg xml:id="lg.232">
+<l xml:id="l.593"><hi rend="italic">Curia pauperibus clausa est, dat census
+                                honores;</hi></l>
+<l rend="level_1" xml:id="l.594"><hi rend="italic">Census amicitias, pauper ubique
+                                    jacet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.233">
+<l xml:id="l.595">Boldogtalan élet, kiben az itilet most barátság utan jár;</l>
+<l xml:id="l.596">Kapun sugorogva, szivében sohajtva, szegeny, igasságot vár.</l>
+<l xml:id="l.597">Hamiss gazdag ben ül, szegeny özvegy kin hül, penzel nyilik mert a’
+                            zár.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.43"><head>*</head>
+<head><supplied>XLII.</supplied></head>
+<quote><l xml:id="l.598"><hi rend="italic">Ex libris arma et armorum jura discuntur.</hi></l></quote>
+<lg xml:id="lg.234">
+<l xml:id="l.599">Mint kellyen kezdened, vagy jol el vegezned hadakozó szándekod,</l>
+<l xml:id="l.600">Igaz okbul van-é, azzal nem edgyezé hadi hir kiáltásod,</l>
+<l xml:id="l.601">Régi fö könyvekbül, mint atczel tükörbül könnyen meg tanulhatod.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.44">
+<head><supplied>XLIII.</supplied></head>
+<quote><l xml:id="l.602"><hi rend="italic">Satius est mori, quam assidua spe et expectatione vitam perdere.</hi></l></quote>
+<lg xml:id="lg.235">
+<l xml:id="l.603">Hoszszas várakozás, kételkedö habzás halálnális nehezebb.</l>
+<l xml:id="l.604">Mint sokáig félned, edgyczer által esned ellenségiden könnyebb,</l>
+<l xml:id="l.605">Fegyverrel harczolni, sem kétséggel vini, jobb és ditsiretesebb.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.45">
+<head><supplied>XLIV.</supplied></head>
+<quote><l xml:id="l.606"><hi rend="italic">Ex bello pax, ex pace ubertas.</hi></l></quote>
+<lg xml:id="lg.236">
+<l xml:id="l.607">Roppant táboroknak, vérrel folyt hadaknak vége a’ szép bekeség,</l>
+<l xml:id="l.608">Kibül nyugodalom, nem kevés jutalom következik -s- csendesseg;</l>
+<l xml:id="l.609">Isten aldásábúl, ember munkájábul szarmazik igy a’ büség.<note type="critic" xml:id="note.19">bőség; Alszeghy hűség-et olvasott</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.46">
+<head><supplied>XLV.</supplied></head>
+<quote><l xml:id="l.610"><hi rend="italic">Miles non emendus, sed legendus.</hi></l></quote>
+<lg xml:id="lg.237">
+<l xml:id="l.611">Az jó gondviselö -s- okos had vezérlö fejedelemnek tiszti,</l>
+<l xml:id="l.612">Hogy ne pénzen vegye, söt valasztva szedgye vitézit, mikor gyüjti;</l>
+<l xml:id="l.613">Igy terjed hatalma, -s- meg áll birodalma, ellenségét gyözheti.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.47">
+<head><supplied>XLVI.</supplied></head>
+<quote><l xml:id="l.614"><hi rend="italic">Magni ducis est poena et praemio dignitatis nomen tuevi.</hi></l></quote>
+<lg xml:id="lg.238">
+<l xml:id="l.615">Az nagy fejedelmek, hadi fü vezérek igazán ditsirtetnek,</l>
+<l xml:id="l.616">Okos fenyitékkel, adakozó kezzel ha fel ekesittetnek;</l>
+<l xml:id="l.617">Meltoságok ered, birodalmok terjed, jo hirrel nevekednek.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.48">
+<head><supplied>XLVII.</supplied></head>
+<quote><l xml:id="l.618"><hi rend="italic">Fortes creantur fortibus et generis virtus nobilitat.</hi></l></quote>
+<lg xml:id="lg.239">
+<l xml:id="l.619">Nem szokott körmével igen nagy erövel a’ sas légyhez rugdosni,</l>
+<l xml:id="l.620">Vagy szelid gerlicze természettel öszve feszkébül születtetni;</l>
+<l xml:id="l.621">Jó erkölts nemesit, jámborság ekesit, jó hirt tud terjeszteni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.49">
+<head><supplied>XLVIII.</supplied></head>
+<quote><l xml:id="l.622"><hi rend="italic">Fallax bonum regnum.</hi></l></quote>
+<lg xml:id="lg.240">
+<l xml:id="l.623">Birodalom olly tőr, ki mindenkor rád tör, hidgyed bár, uralkodó,</l>
+<l xml:id="l.624">Melly ha nevekedik, gondod sokasodik, felhetcz, hatalmaskodó,</l>
+<l xml:id="l.625">Ha nem jársz okoson, ott romlasz az gáton, hol nem vélnéd, akadó.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.50">
+<head><supplied>XLIX.</supplied></head>
+<quote><l xml:id="l.626"><hi rend="italic">Mens bona regnum possidet.</hi></l></quote>
+<lg xml:id="lg.241">
+<l xml:id="l.627">Tökelletes elme olly, kinek félelme nints az uralkodásban,</l>
+<l xml:id="l.628">Mellytül ha válik-is, bátorsagos ugyis az maganos lakásban,</l>
+<l xml:id="l.629">Mert senkit nem sértett, söt joval ertetett, bizik igassagaban.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.51"><head>*</head>
+<head><supplied>L.</supplied></head>
+<quote><lg xml:id="lg.242">
+<l xml:id="l.630"><hi rend="italic">Non vox, sed votum, non musica, chordula, sed
+                                cor,</hi></l>
+<l rend="level_1" xml:id="l.631"><hi rend="italic">Non clamans, sed amans clangit in aure
+                                    Dei.</hi></l>
+</lg></quote>
+<lg xml:id="lg.243">
+<l xml:id="l.632">Az az idvesseges lelki szent tisztelet,</l>
+<l xml:id="l.633">Melly Istenhez szivel, nem szájjal közelget.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.52">
+<head><supplied>LI.</supplied></head>
+<quote><lg xml:id="lg.244">
+<l xml:id="l.634"><hi rend="italic">O, quae stultitia est, Deus emit sangvine
+                                servos,</hi></l>
+<l rend="level_1" xml:id="l.635"><hi rend="italic">Mercari exiguo nos piget aere
+                                Deum.</hi></l>
+</lg></quote>
+<lg xml:id="lg.245">
+<l xml:id="l.636">Minket szent veren vett Christus az haláltúl,</l>
+<l xml:id="l.637">Mi restellünk edgy penzt adni menyországtúl.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.53">
+<head><supplied>LII.</supplied></head>
+<quote><lg xml:id="lg.246">
+<l xml:id="l.638"><hi rend="italic">Invia virtuti nulla est via sola beata</hi></l>
+<l rend="level_1" xml:id="l.639"><hi rend="italic">Monstrat iter coelo, laus comes huit et
+                                    honos.</hi></l>
+</lg></quote>
+<lg xml:id="lg.247">
+<l xml:id="l.640">Tövisses, darabos az virtusok uttya,</l>
+<l xml:id="l.641">De egben boldogsag, itt tisztesseg ára.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.54">
+<head><supplied>LIII.</supplied></head>
+<quote><lg xml:id="lg.248">
+<l xml:id="l.642"><hi rend="italic">Ignem caesa silex et aqvam dat spongia pressa,</hi></l>
+<l rend="level_1" xml:id="l.643"><hi rend="italic">Laesa magis virtus lucet et astra
+                                    petit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.249">
+<l xml:id="l.644">Verve kova tüzet ad, spongia vizet</l>
+<l xml:id="l.645">Szoritva. Virtus-is sertve csapkod eget.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.55">
+<head><supplied>LIV.</supplied></head>
+<quote><lg xml:id="lg.250">
+<l xml:id="l.646"><hi rend="italic">Quod grano plostrum, quod ferro lima, quod
+                                auro</hi></l>
+<l rend="level_1" xml:id="l.647"><hi rend="italic">Fornax, hoc homini crux solet esse
+                                    pio.</hi></l>
+</lg></quote>
+<lg xml:id="lg.251">
+<l xml:id="l.648">Reszelövel atczél fenlik, -s- arany tüztül</l>
+<l xml:id="l.649">Ujjul, az emberis kereszt viseléstül.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.56">
+<head><supplied>LV.</supplied></head>
+<quote><lg xml:id="lg.252">
+<l xml:id="l.650"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8"><hi rend="italic">Qui bene se noscit, bene noscit
+                                            is omnia viv</hi><corr><hi rend="italic">a</hi></corr><hi rend="italic">,</hi></lem>
+<rdg wit="#W1" xml:id="rdg.8"><hi rend="italic">vivam</hi></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.651"><hi rend="italic">Sic faciem speculi fulgor in aere
+                                    refert.</hi></l>
+</lg></quote>
+<lg xml:id="lg.253">
+<l xml:id="l.652">Orczad szennyet tükör szokta meg mutatni,</l>
+<l xml:id="l.653">Nem kitsiny böltseség magadat ismerni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.57">
+<head><supplied>LVI.</supplied></head>
+<quote><lg xml:id="lg.254">
+<l xml:id="l.654"><hi rend="italic">Corrige, dum tener est pueri cor, cernis, ut
+                                arbos</hi></l>
+<l rend="level_1" xml:id="l.655"><hi rend="italic">Spernit vim, virgam flectitat ungve
+                                    puer.</hi></l>
+</lg></quote>
+<lg xml:id="lg.255">
+<l xml:id="l.656">Nehéz az agg fábúl gúst tekeriteni,</l>
+<l xml:id="l.657">Könnyebb gyermekedet, mig kitsiny, oktatni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.58">
+<head><supplied>LVII.</supplied></head>
+<quote><lg xml:id="lg.256">
+<l xml:id="l.658"><hi rend="italic">Tres hominis pestes: auri fames, ira, libido</hi></l>
+<l rend="level_1" xml:id="l.659"><hi rend="italic">Praecipitant erebo sola vel ista
+                                    viam.</hi></l>
+</lg></quote>
+<lg xml:id="lg.257">
+<l xml:id="l.660">Az arany szerelme, harag és bujaság</l>
+<l xml:id="l.661">Pokolra vezetö serény kalauzság.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.59">
+<head><supplied>LVIII.</supplied></head>
+<quote><lg xml:id="lg.258">
+<l xml:id="l.662"><hi rend="italic">Lapsus eqvo perit alato, dum sidera tranat,</hi></l>
+<l rend="level_1" xml:id="l.663"><hi rend="italic">Bellerophon cautus, si sapis, alta
+                                    fuge.</hi></l>
+</lg></quote>
+<lg xml:id="lg.259">
+<l xml:id="l.664">Rended felett való dolgokra ne készülly,</l>
+<l xml:id="l.665">Hogy mint Bellerophon lórul esven, szedülly.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.60">
+<head><supplied>LIX.</supplied></head>
+<quote><lg xml:id="lg.260">
+<l xml:id="l.666"><hi rend="italic">Dum sese fraudat, sua rodit et ossa malignus,</hi></l>
+<l rend="level_1" xml:id="l.667"><hi rend="italic">Quamvis dives opum vivit avarus
+                                    inops.</hi></l>
+</lg></quote>
+<lg xml:id="lg.261">
+<l xml:id="l.668">Telhetetlen fösveny az csonton rágódik,</l>
+<l xml:id="l.669">Ehen marad gyomra, -s- foga vásolódik.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.61">
+<head><supplied>LX.</supplied></head>
+<quote><lg xml:id="lg.262">
+<l xml:id="l.670"><hi rend="italic">Dispereunt male parta, Deum divinaque qvaere</hi></l>
+<l rend="level_1" xml:id="l.671"><hi rend="italic">Eumenis injustas pulvere vertit
+                                    opes.</hi></l>
+</lg></quote>
+<lg xml:id="lg.263">
+<l xml:id="l.672">Az hamis gazdagnak roszszúl gyüjtött kintse</l>
+<l xml:id="l.673">El vész idö elött, ha fordúl szerentse.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.62">
+<head><supplied>LXI.</supplied></head>
+<quote><lg xml:id="lg.264">
+<l xml:id="l.674"><hi rend="italic">Lubrica verba cave, digito compesce labellum,</hi></l>
+<l rend="level_1" xml:id="l.675"><hi rend="italic">Pressa angvilla manu lubrica rite
+                                    manet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.265">
+<l xml:id="l.676">Sebes az el lött nyil, nehez visza vonni,</l>
+<l xml:id="l.677">Igy a’ ki mondott szót visza teriteni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.63">
+<head><supplied>LXII.</supplied></head>
+<quote><lg xml:id="lg.266">
+<l xml:id="l.678"><hi rend="italic">Tutus honos siluisse leaena elingvis Athenis,</hi></l>
+<l rend="level_1" xml:id="l.679"><hi rend="italic">Servatae patriae praemia digna
+                                    tulit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.267">
+<l xml:id="l.680">Az okos halgatas senkinek sem artott,</l>
+<l xml:id="l.681">Sokaknak jutalmat -s- tisztesseget adott.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.64">
+<head><supplied>LXIII.</supplied></head>
+<quote><lg xml:id="lg.268">
+<l xml:id="l.682"><hi rend="italic">Plus ratio quamvis praestat Polyphemus
+                                Ulyssis,</hi></l>
+<l rend="level_1" xml:id="l.683"><hi rend="italic">Cemis, ut arte ferus lumine cassus
+                                    abit.</hi></l>
+</lg></quote>
+<lg xml:id="lg.269">
+<l xml:id="l.684">Okosság erövel többet vihet végben,</l>
+<l xml:id="l.685">Gyözte Polyphemust Ulysses ekképpen.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.65">
+<head><supplied>LXIV.</supplied></head>
+<quote><lg xml:id="lg.270">
+<l xml:id="l.686"><hi rend="italic">Cantus plena cicada, sed est formica laboris,</hi></l>
+<l rend="level_1" xml:id="l.687"><hi rend="italic">Illa eget, haec frugum semper abundat
+                                    ope.</hi></l>
+</lg></quote>
+<lg xml:id="lg.271">
+<l xml:id="l.688">Ptrütsök enekléssel nyarat vesztven tölti,</l>
+<l xml:id="l.689">Munkalkodvan, hangya télre kintset gyüjti.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.66">
+<head><supplied>LXV.</supplied></head>
+<quote><lg xml:id="lg.272">
+<l xml:id="l.690"><hi rend="italic">Pisa canis fugitat crepitantia territus utre,</hi></l>
+<l rend="level_1" xml:id="l.691"><hi rend="italic">Conscia mens folii territa voce
+                                    pavet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.273">
+<l xml:id="l.692">Az kit belöl furdal lelkiismereti,</l>
+<l xml:id="l.693">Csak level zörgesis aszt hamar rettenti.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.67">
+<head><supplied>LXVI.</supplied></head>
+<quote><lg xml:id="lg.274">
+<l xml:id="l.694"><hi rend="italic">Difficele est animi semper caelare dolorem,</hi></l>
+<l rend="level_1" xml:id="l.695"><hi rend="italic">Nec facile est tristi fingere mente
+                                    jocum.</hi></l>
+</lg></quote>
+<lg xml:id="lg.275">
+<l xml:id="l.696">Keseredett szünek fajdalmat titkolni</l>
+<l xml:id="l.697">Nehéz, s bus elmének játekot formálni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.68">
+<head><supplied>LXVII.</supplied></head>
+<quote><lg xml:id="lg.276">
+<l xml:id="l.698"><hi rend="italic">Quisquis apes undasque timet spinasque roseti,</hi></l>
+<l rend="level_1" xml:id="l.699"><hi rend="italic">Non mel, non pisces non feret ille
+                                    rosas.</hi></l>
+</lg></quote>
+<lg xml:id="lg.277">
+<l xml:id="l.700">Ha árát bélesnek mindenkor fel veted,</l>
+<l xml:id="l.701">Éhen marad gyomrod, nem sirosul inyed.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.69">
+<head><supplied>LXVIII.</supplied></head>
+<quote><lg xml:id="lg.278">
+<l xml:id="l.702"><hi rend="italic">Dextra facem fert, laeva librum rotat, ala per
+                                    altum</hi></l>
+<l rend="level_1" xml:id="l.703"><hi rend="italic">Ars, labor, ingenium te super astra
+                                    vehunt.</hi></l>
+</lg></quote>
+<lg xml:id="lg.279">
+<l xml:id="l.704">Munkával tudomány -s- elme kinél fenlik,</l>
+<l xml:id="l.705">El hadgya a’ földet, -s- égben emelkedik.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.70">
+<head><supplied>LXIX.</supplied></head>
+<quote><l xml:id="l.706"><hi rend="italic">Stultitiam simulasse loco sapientia summa est.</hi></l></quote>
+<lg xml:id="lg.280">
+<l xml:id="l.707">Böltseseg olly helyen bolondsaggal élni,</l>
+<l xml:id="l.708">Hol lehet eltedet azzal meg menteni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.71">
+<head><supplied>LXX.</supplied></head>
+<quote><l xml:id="l.709"><hi rend="italic">Arbor honoretur, cujus nos umbra tuetur.</hi></l></quote>
+<lg xml:id="lg.281">
+<l xml:id="l.710">Kinek árnyékaban fejedet nyugotod,</l>
+<l xml:id="l.711">Haladatlansággal bün aszt meg bántanod.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.72"><head>*</head>
+<head><supplied>LXXI.</supplied></head>
+<quote><l xml:id="l.712"><hi rend="italic">Quis sis, qvis fueris, qvis eris, semper mediteris.</hi></l></quote>
+<lg xml:id="lg.282">
+<l xml:id="l.713">Mi vagy és mi voltál, mi lész, gondolkozzal,</l>
+<l xml:id="l.714">Utáld meg a’ földet, menyben vagyakozzál.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.73">
+<head><supplied>LXXII.</supplied></head>
+<quote><lg xml:id="lg.283">
+<l xml:id="l.715"><hi rend="italic">Quid sum, qvis, qvalis, qvantus, qvotus? Unde
+                                    qvibusve</hi></l>
+<l rend="level_1" xml:id="l.716"><hi rend="italic">Ortus avis? Qvorsum tendo, qvibusque
+                                    viis?</hi></l>
+<l xml:id="l.717"><hi rend="italic">Vermis, homo malus, exiguus, posthumus ab imo,</hi></l>
+<l rend="level_1" xml:id="l.718"><hi rend="italic">Talibus et cretus, nitor ad astra
+                                    fide.</hi></l>
+</lg></quote>
+<lg xml:id="lg.284">
+<l xml:id="l.719">Mi vagyok? kitsoda? mitsodás? és menyi?</l>
+<l xml:id="l.720">Hanyadik? és kiktül mondatom származni?</l>
+<l xml:id="l.721">Hova? merre? fereg, gyarló ember menni</l>
+<l xml:id="l.722">Akarok én, kis por hittel égben lépni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.74">
+<head><supplied>LXXIII.</supplied></head>
+<quote><lg xml:id="lg.285">
+<l xml:id="l.723"><hi rend="italic">Lusciniae cuculum cantu praeponit asellus,</hi></l>
+<l rend="level_1" xml:id="l.724"><hi rend="italic">Auriculas asini censor ineptus
+                                    habet.</hi></l>
+</lg></quote>
+<lg xml:id="lg.286">
+<l xml:id="l.725">Mit tud ujj ajtóhoz az oktalan borjú</l>
+<l xml:id="l.726">S- szamár? Madarak közt mellyik a’ szebb szavú?</l>
+<l xml:id="l.727">Fülemile szóllé szebben vagy tarvarjú?</l>
+<l xml:id="l.728">Veszett pered, birád ha tudatlan tanú.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.75">
+<head><supplied>LXXIV.</supplied></head>
+<quote><lg xml:id="lg.287">
+<l xml:id="l.729"><hi rend="italic">Aethiopem qvid stulte lavas, qvid tempora
+                                fallis,</hi></l>
+<l rend="level_1" xml:id="l.730"><hi rend="italic">An tenebris noctem posse cavere
+                                    putas?</hi></l>
+</lg></quote>
+<lg xml:id="lg.288">
+<l xml:id="l.731">Mi haszna szeretsent szappannal dörgölni,</l>
+<l xml:id="l.732">Vagy inad szakadva a’ szél után futni?</l>
+<l xml:id="l.733">Bolondság kezeddel arnyekhoz kapdosni,</l>
+<l xml:id="l.734">Meg sérszel,<note type="critic" xml:id="note.20">megsérülsz, sérést (= sérvet)
+                                kapsz</note> ha eröd felett fogsz emelni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.76">
+<head><supplied>LXXV.</supplied></head>
+<quote><lg xml:id="lg.289">
+<l xml:id="l.735"><hi rend="italic">Vive domi, tibi vive! Sua est domus optima.
+                                Tergo</hi></l>
+<l rend="level_1" xml:id="l.736"><hi rend="italic">Cochlea ceu propriam fertque refertque
+                                    domum.</hi></l>
+</lg></quote>
+<lg xml:id="lg.290">
+<l xml:id="l.737">Alatson kunnyóban szabadsaggal élni</l>
+<l xml:id="l.738">Jobb, mint sem a’ nélkül arany hazban lakni.</l>
+<l xml:id="l.739">Idegen fal alatt jokkal bövölködni</l>
+<l xml:id="l.740">Izetlenb, hunnyodban<note type="critic" xml:id="note.21">házadban, hazádban</note> hogy
+                            sem szükölködni.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.77">
+<head><supplied>LXXVI.</supplied></head>
+<quote><lg xml:id="lg.291">
+<l xml:id="l.741"><hi rend="italic">Sangvine Pigmaeo grus rapta ulciscitur ova,</hi></l>
+<l rend="level_1" xml:id="l.742"><hi rend="italic">Pro patriis fas est belligerare
+                                    focis.</hi></l>
+</lg></quote>
+<lg xml:id="lg.292">
+<l xml:id="l.743">Szabad, jókkal taplalt nevelö hazádert,</l>
+<l xml:id="l.744">Sok verrel keresett nemzeted foldéert</l>
+<l xml:id="l.745">Halálig harczolnod a’ szép szabadságert,</l>
+<l xml:id="l.746">Mikent pigmaeussal a darvak feszkekert.<note type="critic" xml:id="note.22">A pigmeusok
+                                mesebeli törpe nép Egyiptom déli részén; a darvakat azért
+                                riasztgatták, hogy vetéseiket megvédelmezzék tőlük.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.78">
+<head><supplied>LXXVII.</supplied></head>
+<quote><lg xml:id="lg.293">
+<l xml:id="l.747"><hi rend="italic">Qui frugi fortisque vir est, nec vincitur
+                                auro,</hi></l>
+<l rend="level_1" xml:id="l.748"><hi rend="italic">Nec ferro. Curius testis ut ipse
+                                    probat.</hi></l>
+</lg></quote>
+<lg xml:id="lg.294">
+<l xml:id="l.749">Kitsiny szeltül gyenge nád szál hamar indúl,</l>
+<l xml:id="l.750">Méllyen gyökerezett nagy fa meg sem mozdúl;</l>
+<l xml:id="l.751">Jó -s- gonosz szerencse fegyver vagy aranytul</l>
+<l xml:id="l.752">Alhatatos férfi lába nem tántorúl.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.79">
+<head><supplied>LXXVIII.</supplied></head>
+<quote><lg xml:id="lg.295">
+<l xml:id="l.753"><hi rend="italic">Princeps indoctus sine doctis totus inermis,</hi></l>
+<l rend="level_1" xml:id="l.754"><hi rend="italic">Organa ceu subito follibus orba
+                                    jacent.</hi></l>
+</lg></quote>
+<lg xml:id="lg.296">
+<l xml:id="l.755">Mikent az orgona fúvó nélkül<note type="critic" xml:id="note.23">fújtató nélkül</note>
+                            halgat,</l>
+<l xml:id="l.756">Notat rajta senki rendesen nem nyomhat,</l>
+<l xml:id="l.757">Igy jó tanáts nelkül kiraly meg nem álhat,</l>
+<l xml:id="l.758">Birodalma könnyen -s- országa romolhat.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.80">
+<head><supplied>LXXIX.</supplied></head>
+<quote><l rend="level_1" xml:id="l.759"><hi rend="italic">Virtutis comes invidia.</hi></l></quote>
+<lg xml:id="lg.297">
+<l xml:id="l.760">Jo tselekedetnek ditsiret jutalma,</l>
+<l xml:id="l.761">Nintsen edgy uttyais jarhatatlan -s- sima,</l>
+<l xml:id="l.762">Követi mellesleg irigysegnek nyoma,</l>
+<l xml:id="l.763">De nem fél rosdatúl, mint szép arany alma.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.81">
+<head><supplied>LXXX.</supplied></head>
+<quote><l xml:id="l.764"><hi rend="italic">Nihil laudabilius, nihil magno et praeclaro viro dignius placabilitate atque
+                                clementia.</hi></l></quote>
+<lg xml:id="lg.298">
+<l xml:id="l.765">Mikent tsillagokkal a’ szép ég tündöklik,</l>
+<l xml:id="l.766">Kegyelemmel kiraly, mínt gyöngyel ugy fenlik.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.82">
+<head><supplied>LXXXI.</supplied></head>
+<quote><l xml:id="l.767"><hi rend="italic">Aut verba, aut verbera.</hi></l></quote>
+<lg xml:id="lg.299">
+<l xml:id="l.768">Az holott az intés -s- szep szó nem hasznalhat,</l>
+<l xml:id="l.769">Ott, mint ökrön ösztön,<note type="critic" xml:id="note.24">vasvégű bot, mellyel szántás
+                                közben az ökröket ösztökélték (ösztöke)</note> talam veszszö
+                            foghat.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.83">
+<head><supplied>LXXXII.</supplied></head>
+<quote><l xml:id="l.770"><hi rend="italic">Fortuna reverenter habenda.</hi></l></quote>
+<lg xml:id="lg.300">
+<l xml:id="l.771">Vilag javainak törrel<note type="critic" xml:id="note.25">csapdával, hurokkal</note> hánt
+                            mezeje,</l>
+<l xml:id="l.772">Szerentse halmának sikamló teteje,</l>
+<l xml:id="l.773">Melyre ha ki állott, vigyázzon elméje,</l>
+<l xml:id="l.774">Hogy tántorodassal ne szedüllyön feje.</l>
+</lg>
+<lg xml:id="lg.301">
+<l xml:id="l.775">Nem szokott edgy helyben mulatni szerentse,</l>
+<l xml:id="l.776">Könnyen roszra nyilik ajtaja kelintse,</l>
+<l xml:id="l.777">Sokakat meg fogott szinnel kent belintse,<note type="critic" xml:id="note.26"><quote>színnel kent
+                                belintse</quote> – színes, képmutató bilincse</note></l>
+<l xml:id="l.778">Mérget adott mézért halál hozo kintse.</l>
+</lg>
+<lg xml:id="lg.302">
+<l xml:id="l.779">Okoson kell azért ez élettel élni,</l>
+<l xml:id="l.780">Ha méltósagban vagy, magad ugy viselni,</l>
+<l xml:id="l.781">Világ habzó révén tudgy jol altal kelni,</l>
+<l xml:id="l.782">Szerentse játekját kell mindenkor félni.</l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

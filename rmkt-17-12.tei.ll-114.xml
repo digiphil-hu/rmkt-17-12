@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">114.</title>
+<title key="body" n="114" type="main">SCHYTIABUL KI-JÖT MAGYAROK HÉTT KAPITANNI</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-114</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar Márs.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> <date when="1653">1653</date>. II. r. 52–58.</bibl></p>
+<p xml:id="crit.1.p.3">A Lélről (97–120. sorok), Vérbulcsról (121–44. sorok) és az Ursról (145–68. sorok) szóló versek megvannak <persName>Jankovich
+                    Miklós<idno type="ITIdata">Q59830</idno></persName> másolatában, a Külömb féle magyar verseknek gyűjteményé-ben a 23b–24b lapokon. Míg <persName>Listius</persName> a többi verséhez a
+                    bevezető ajánlásban magyarázatot fűz, a hét kapitányról írt elógiumokról nem tesz említést. <persName>Zsámboki<idno type="ITIdata">Q247408</idno></persName> nem írt róluk, <persName>Baksay<idno type="ITIdata">Q238812</idno></persName> a
+                „hunok második bejövetelé”-ről szóló rész bevezető soraiban említi őket. (Chák helyett Zabolch szerepel nála.)</p>
+<p xml:id="crit.1.p.4"> A hét kapitányról írt versek még inkább zűrzavarosak, mint <persName>Listius</persName> királyversei. Nem egyszer időben egymástól távolra
+                eső eseménymozzanatok kerülnek ugyanabba a versbe. Néha pedig különböző személyek öltenek testet egy alakban. Az a
+                körülmény, hogy Szabolccsal, Gyulával kapcsolatosan a magukat tőlük eredeztető nemzetségeket is említi, arra enged
+                következtetni, hogy <persName>Anonymust<idno type="ITIdata">Q39259</idno></persName> is használta forrásként, bár a leszármazást <persName>Baksay<idno corresp="Baksay Ábrahám"/></persName> <title>Chronologiá</title>jában is megtaláljuk.</p>
+<p xml:id="crit.1.p.5">A tematikailag egységet képező versciklus sorait itt is folytatólagosan számoztuk.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 114.</fw>
+<head type="title">SCHYTIABUL KI-JÖT MAGYAROK HÉTT KAPITANNI</head>
+<div xml:id="d.2"><head>ARPAD</head>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Almus Nemzétébül Arpád születteték</l>
+<l xml:id="l.170">Erdelyben az Attya Almus megh-öleték</l>
+<l xml:id="l.171">Hét Kapitán közül elsönek téteték</l>
+<l xml:id="l.172">Többinél erösbnek mivel találtaték.</l>
+</lg>
+<lg xml:id="lg.44">
+<l xml:id="l.173">Szive fel-gerjede még a’ Pogányságban,</l>
+<l xml:id="l.174">Kezde gondolkodny fene Schytiában,</l>
+<l xml:id="l.175">Fel-búzdula a’ vér minden tagaiban,</l>
+<l xml:id="l.176">Hogy erre ki-jönne gondolá magában.</l>
+</lg>
+<lg xml:id="lg.45">
+<l xml:id="l.177">Hétt Kapitányság-gal effelé indula,</l>
+<l xml:id="l.178">Tana-is<note type="critic" xml:id="note.25">a Don folyó</note> folyásan ö által-rándula,</l>
+<l xml:id="l.179">Nemzete romlásán szive el-jaydula,</l>
+<l xml:id="l.180">Erdely Országh felé népé-vel mozdula.</l>
+</lg>
+<lg xml:id="lg.46">
+<l xml:id="l.181">Választ követeket hogy földet megh-lássák,</l>
+<l xml:id="l.182">Kinek síros voltát hol föl-találhassák,</l>
+<l xml:id="l.183">A’ Duna mentében magokat forgassák</l>
+<l xml:id="l.184">Honnan jelenségét<note type="critic" xml:id="note.26">igazolását, tényét (ti. „zsíros” termékenységének)</note> magokkal hozhassák.</l>
+</lg>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Kusid<note type="critic" xml:id="note.27">Kusid, görög források szerint Kurszán – Kund (Cundu) fia.</note> társaival megy Sicámbriában,<note type="critic" xml:id="note.28">Sicámbria – Aquincum középkori neve, kb. Óbuda.</note></l>
+<l xml:id="l.186">A’ Zvatapolugnak<note type="critic" xml:id="note.29"><persName>Szvatopluk<idno type="ITIdata">Q276928</idno></persName> morva
+                                fejedelemnek; a 21. sor népét (vagy magát?) németnek mondja.</note>
+                            lako-Varasában,</l>
+<l xml:id="l.187">Fejér lovat viszen aranyos szerszámban,</l>
+<l xml:id="l.188">Mely-el földet vészen Duna folyasában.</l>
+</lg>
+<lg xml:id="lg.48">
+<l xml:id="l.189">Megh-adá az árrát némét fejér-lonak</l>
+<l xml:id="l.190">Az egész Magyarságh táborban szállánák,</l>
+<l xml:id="l.191">A’ Zvatapolugon könnyen ki-adának,</l>
+<l xml:id="l.192">Mint saját földökön meg-is nyugovának.</l>
+</lg></div>
+<div xml:id="d.3"><head><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5"><corr>C</corr>HAK</lem><rdg wit="#W1" xml:id="rdg.5">Hak</rdg></app></head>
+<lg xml:id="lg.49">
+<l xml:id="l.193">A’ második Zabolch e’ Kapitányságban,<note type="critic" xml:id="note.30">A sor előtti Chák (Csák) személyét a honfoglalás idejében élt Szabolcs leszármazójának tartották; a krónikák e
+                        hagyomány alapján a hét magyar vezér egyikének tekintették.</note></l>
+<l xml:id="l.194">Jeles vitessége ez allapattyában,</l>
+<l xml:id="l.195">Fene Márs viseli vér szomjuzásában</l>
+<l xml:id="l.196">Egy-kevessé elsöb ö méltoságában.</l>
+</lg>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Ennek-is a’ szive mind addigh gerjede.</l>
+<l xml:id="l.198">Régi hazájának szerelmétöl ége,</l>
+<l xml:id="l.199">Ö gondolatinak végre e’ lön vége,</l>
+<l xml:id="l.200">Hogy megh-valtoztatnék dögleletessége.</l>
+</lg>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Chakniara<note type="critic" xml:id="note.31">sajtóhiba <hi rend="italic">Csákvára</hi>
+                                helyett</note> tájékán sátorát vonyatá</l>
+<l xml:id="l.202">Vitezivel együt magát, megh-szállêtá</l>
+<l xml:id="l.203">Hol megh-maradását legh jobnak alétá</l>
+<l xml:id="l.204">Ki-ért az ellenségh vérét ki-árasztá.</l>
+</lg>
+<lg xml:id="lg.52">
+<l xml:id="l.205">Hivata Zabolchnak<note type="critic" xml:id="note.32">Szabolcsnak a nevéről nevezték a Szabolcs megye területével nagyjából egyező földet.</note> a’ maga nevérül,</l>
+<l xml:id="l.206">Azt a’ lako-földet régi eleirül,</l>
+<l xml:id="l.207">S hagyá jelenségül sok vitezségérül</l>
+<l xml:id="l.208">Olasz Nemzeten tett kegietlenségérül.</l>
+</lg>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Czáki Nemzet innen eredetet vészen,</l>
+<l xml:id="l.210">Ki emlekezete mind öröké lészen,</l>
+<l xml:id="l.211">A’ Kronika kirül bizonságot tészen,</l>
+<l xml:id="l.212">S vitezi voltárul dicheretet tészen.</l>
+</lg>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Mind addigh dul-fula a’ Márs elméjében,</l>
+<l xml:id="l.214">Míg chöp vér marada a’ maga testében,</l>
+<l xml:id="l.215">S mind<note type="critic" xml:id="note.33">a. m. mint</note> hold gyarapodnék hirében s nevében,</l>
+<l xml:id="l.216">Teste osztán menne a’ föld kebelében.</l>
+</lg></div>
+<div xml:id="d.4"><head>GYULA</head>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Az harmadik, Gyula közülök nem also,</l>
+<l xml:id="l.218">Márs zászloja alat fegyverrel vadászo,</l>
+<l xml:id="l.219">Mint a’ vér-ontásra egy fel-emelt zászlo,</l>
+<l xml:id="l.220">Nagy hatalmasság-gal elmeje niargallo.</l>
+</lg>
+<lg xml:id="lg.56">
+<l xml:id="l.221">Vadászása után egy várast talála,</l>
+<l xml:id="l.222">Mellyet Romaiak épétettek vala,</l>
+<l xml:id="l.223">A’ maga nevére kitt nevezet vala,</l>
+<l xml:id="l.224">S Gyula-Fejer-Várnak hivattattia vala.</l>
+</lg>
+<lg xml:id="lg.57">
+<l xml:id="l.225">El-ado Leánia vólt szép Iffiuságban,<note type="critic" xml:id="note.34">A lányát Saroltának hívták.</note></l>
+<l xml:id="l.226">Mint púnkösdi Rósa ö allapáttiában,</l>
+<l xml:id="l.227">Hire futamodék nagy tartományokban</l>
+<l xml:id="l.228">Kit Geyzának ada házas-társaságban.</l>
+</lg>
+<lg xml:id="lg.58">
+<l xml:id="l.229">Legh-elsö Királyunk a’ kitül születék</l>
+<l xml:id="l.230">Királyi Korona á’ kinek küldeték,</l>
+<l xml:id="l.231">Napon-ként job-része kitül terétteték,</l>
+<l xml:id="l.232">S Isten tiszteleti s föl-is épétteték.</l>
+</lg>
+<lg xml:id="lg.59">
+<l xml:id="l.233">Az Erdély Országot Gyula választotta,</l>
+<l xml:id="l.234">Agyékja giümölchét ki-virágoztatta,</l>
+<l xml:id="l.235">Gyula-fi Nemzetet el-ágasította,<note type="critic" xml:id="note.35">A Gyulaffyak Gyulától eredeztetik magukat.</note></l>
+<l xml:id="l.236">Isten kegielmébül eddig fen-tartotta.</l>
+</lg>
+<lg xml:id="lg.60">
+<l xml:id="l.237">Harmad-íz nemzetét ennek holta után,<note type="critic" xml:id="note.36">Unokaöccsét, Gyula
+                                vajdát, aki <date when="1002">1002-ben</date> fegyvert fogott István
+                                ellen.</note></l>
+<l xml:id="l.238">Ö magához vévé István Király osztán,</l>
+<l xml:id="l.239"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Tömlöchben vettetê Pogányság<corr>ért</corr> méltán,</lem><rdg wit="#W1" xml:id="rdg.6">Pogányságot</rdg></app></l>
+<l xml:id="l.240">Megént el-bochátá megh-terése után.</l>
+</lg></div>
+<div xml:id="d.5"><head>KUND</head>
+<lg xml:id="lg.61">
+<l xml:id="l.241">Le-ṡzálla Népével Kund negiedik Nyrben<note type="critic" xml:id="note.37">olv. Nyirben</note></l>
+<l xml:id="l.242">Kapitánysága vólt a’ Vitézi rendben,</l>
+<l xml:id="l.243">Mert ez-is méltó vólt, érdemes a’ tisztben</l>
+<l xml:id="l.244">Vitézi ember vólt maga szemellyeben.</l>
+</lg>
+<lg xml:id="lg.62">
+<l xml:id="l.245">Megh-rögzöt szivében a’ Pogányi vakságh,</l>
+<l xml:id="l.246">Elméjét viseli a’ régi bátorságh,</l>
+<l xml:id="l.247">Nem mégyen-el róla, s a’ nagy homályosságh,</l>
+<l xml:id="l.248">S magát nem-ismeri hogy merö gyarloságh.</l>
+</lg>
+<lg xml:id="lg.63">
+<l xml:id="l.249">Koros idejében halál megh-szolétá,</l>
+<l xml:id="l.250">Alola a’ gyéként, chak hamar el-rántá,</l>
+<l xml:id="l.251">Minden birodalmát kezébül ki-rántá,</l>
+<l xml:id="l.252">Földnek melységében testét-is takará,</l>
+</lg>
+<lg xml:id="lg.64">
+<l xml:id="l.253">Kusidot<note type="critic" xml:id="note.38">Kusidról lásd a 17. sor jegyzetét.</note> és Kupánt<note type="critic" xml:id="note.39">Kupát vagy Koppányt.</note> hagiá örökségben,</l>
+<l xml:id="l.254">Két fiat tulaidon maga személlyében,</l>
+<l xml:id="l.255">Kik vég-re öltöztek keresztyéni hitben,</l>
+<l xml:id="l.256">S üdvösségh sisakját tették a’ fejekben.</l>
+</lg>
+<lg xml:id="lg.65">
+<l xml:id="l.257">Az Isten szemeket megh-világosétá,</l>
+<l xml:id="l.258">Malasztyát reájok ugyan ki-árasztá,</l>
+<l xml:id="l.259">Ès ismeretíre magának választá,</l>
+<l xml:id="l.260">Ki-ket kegielmébül megh-is gazdagétá.</l>
+</lg>
+<lg xml:id="lg.66">
+<l xml:id="l.261">Attya örökségén Egyházt épétének,</l>
+<l xml:id="l.262">Szerzetes Rendeket a’ kiben szerzének,</l>
+<l xml:id="l.263">Törödelmességet kiben szentelének,</l>
+<l xml:id="l.264">S végre mint hogy földek arnyékhoz terének.</l>
+</lg></div>
+<div xml:id="d.6"><head>LÉÉL</head>
+<lg xml:id="lg.67">
+<l xml:id="l.265">Ötödik Kapitány névezetében Léél,</l>
+<l xml:id="l.266">Kinek téteménnye Historiánkban él,</l>
+<l xml:id="l.267">Emlékezet rola mi közöttünk-is kéll,</l>
+<l xml:id="l.268">Jeles-hire-s neve az halál-tul nem-fél.</l>
+</lg>
+<lg xml:id="lg.68">
+<l xml:id="l.269">Had-viselök közöt e’ sem marat hátra,</l>
+<l xml:id="l.270">Régi szokás szerént megh-esküt a’ Mársra,</l>
+<l xml:id="l.271">Fegyverét fordéta a’ Bohemusokra,</l>
+<l xml:id="l.272">Es ot közel-lévö Messiánusokra,</l>
+</lg>
+<lg xml:id="lg.69">
+<l xml:id="l.273">Golgata reszerül ki-kergeté öket,</l>
+<l xml:id="l.274">Magának foglalá erövel heleket<note type="critic" xml:id="note.40">103–106 A sorok
+                                értelmezéséhez lásd a <title><hi rend="italic">Képes
+                                    Krónika</hi></title> alábbi mondatát: „… Leel … qui Messianos,
+                                scilicet Bohemicos, de partibus Golgote expulsit, ibique diutius
+                                castra metatus fuisse perhibitur”. (<bibl><title>Marci Chronica De
+                                        Gestis Hungarorum</title>. Kiad. <hi rend="smallcaps">Franciscus Toldy</hi>. Pest 1860. XXIII.</bibl>), illetőleg
+                                    <persName>Horváth János<idno type="ITIdata">Q111438</idno></persName> magyar fordításában: „… ő (Lél) űzte
+                                el a messziarokat, azaz a cseheket Galgóc vidékéről, és állítólag
+                                hosszabb ideig itt táborozott.” (<bibl>Turóczy János: <title>A
+                                        magyarok krónikája</title>. Fordította Horváth János. Bp.
+                                    1978. Magyar Helikon 86.</bibl>)</note></l>
+<l xml:id="l.275">Halomban rakatá a’ kiknek testeket</l>
+<l xml:id="l.276">S-föld szomjuságárá ki-ontá véreket.</l>
+</lg>
+<lg xml:id="lg.70">
+<l xml:id="l.277">Méltó Kronikában dolgait bé-irni,</l>
+<l xml:id="l.278">Maga viselését-s virtusit számlálni</l>
+<l xml:id="l.279">Hozzája hasonlot nem-találunk lenni</l>
+<l xml:id="l.280">Nagy bátorságárul ha kezdünk beszélny.</l>
+</lg>
+<lg xml:id="lg.71">
+<l xml:id="l.281">Sok vér-ontás után a’ koczka fordula,</l>
+<l xml:id="l.282">Gonosz szerenchének bal-szárnyára álla,</l>
+<l xml:id="l.283">Forgando kerekén el-ala-randula</l>
+<l xml:id="l.284">Vitezi elméje mellyen megh-fordula.</l>
+</lg>
+<lg xml:id="lg.72">
+<l xml:id="l.285"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Romái Chászárnak sors foghlyá<corr>v</corr>á tévé</lem><rdg wit="#W1" xml:id="rdg.7">foghlyájá</rdg></app></l>
+<l xml:id="l.286">A’ ma Conrádusnak tömlöczében vivé,</l>
+<l xml:id="l.287">Kürtit a’ nyakábul azonban ki-vévé,</l>
+<l xml:id="l.288">A’ kivel életét nekie megh-évé.<note type="critic" xml:id="note.41">117–120 A <date when="0955">955. évi</date>
+<placeName>augsburgi<idno type="ITIdata">Q9064</idno></placeName> csatában esett – nem a római
+                                császár – <persName>I. Henrik</persName> bajor herceg fogságába. Ez
+                                felakasztatta. A Lehel-monda hőse és a „kapitány” azonban nem egy
+                                személy volt, illetőleg akiről <persName>Listius</persName> itt írt,
+                                az nem a Szkitiából érkezett honfoglaló, hanem a kalandozó magyarság
+                                vezére.</note></l>
+</lg></div>
+<div xml:id="d.7"><head>VERBULCHUS</head>
+<lg xml:id="lg.73">
+<l xml:id="l.289">Verbulchus<note type="critic" xml:id="note.42">Vérbulcsú. Így hívják a kalandozó magyarság egy másik vezérének Bulcsúnak az ősét.</note> hatodik vólt Kapitányságban,</l>
+<l xml:id="l.290">A’ ki Schyták közöt vólt e’ méltóságban,</l>
+<l xml:id="l.291">Ez-is nem vólt kisseb maga-mivoltában,</l>
+<l xml:id="l.292">S-vak-merö Ember vólt nagy bátorságában.</l>
+</lg>
+<lg xml:id="lg.74">
+<l xml:id="l.293">Zaszlojára holdot jelüll iratta vólt,</l>
+<l xml:id="l.294">A’ maz had-viselö Gradivus<note type="critic" xml:id="note.43">hadisten</note> szülte vólt</l>
+<l xml:id="l.295">Ekes fegyverrel élt vér karján alá-fólt</l>
+<l xml:id="l.296">Kinek ereitöl sok Nemzetségh megh-hólt</l>
+</lg>
+<lg xml:id="lg.75">
+<l xml:id="l.297">E’ mégh Schytiában erre fogát-fente</l>
+<l xml:id="l.298">Vér-ontó szablyáját méreg-gel megh-kente</l>
+<l xml:id="l.299">Attilla niomdokán elméjet viselte,</l>
+<l xml:id="l.300">Kinek vitezséget s magát gerjesztette.</l>
+</lg>
+<lg xml:id="lg.76">
+<l xml:id="l.301">Palatinus körül<note type="critic" xml:id="note.44"> = Palatinátus
+                                    (Pfalz) körül, mely Bajorország
+                                értelemben áll?</note> taborát jártatá</l>
+<l xml:id="l.302">Kép-pel raiczoltatot sátorát vonyatá,</l>
+<l xml:id="l.303">Kikre maga nevét s hirét föl-iratá,</l>
+<l xml:id="l.304">S-magát azon-földnek Urának hivata.</l>
+</lg>
+<lg xml:id="lg.77">
+<l xml:id="l.305">E’ világh elméjet viselte a’ szárnyán,</l>
+<l xml:id="l.306">Kérkedékenségnek magas vitorlyáján</l>
+<l xml:id="l.307">Mint ama forgo-szél tündöklet volt karján,</l>
+<l xml:id="l.308">Ellenségh, Czimere le-töröt szablyáján.</l>
+</lg>
+<lg xml:id="lg.78">
+<l xml:id="l.309">Haniat-homlok a’ Márs ez Embert viselte</l>
+<l xml:id="l.310"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Méltoság kivánás a’ <corr>sz</corr>ivét terhelte,</lem><rdg wit="#W1" xml:id="rdg.8">a’ s zivét</rdg></app></l>
+<l xml:id="l.311">Mind addigh a’ szárnyán eztet emelgette</l>
+<l xml:id="l.312">Míg a’ föld gyomrában testét keretette.<note type="critic" xml:id="note.45">Az
+                        <placeName>augsburgi<idno type="ITIdata">Q9064</idno></placeName> vereség után Bulcsút is
+                                kivégezték.</note></l>
+</lg></div>
+<div xml:id="d.8"><head>URS</head>
+<lg xml:id="lg.79">
+<l xml:id="l.313">Vrs<note type="critic" xml:id="note.46">Örs</note> hetedik vala elsö vezér után,</l>
+<l xml:id="l.314">Kit lova el-kapot vadászása után,</l>
+<l xml:id="l.315">Moeotidis Tó-tul<note type="critic" xml:id="note.47">az Azovi tótól</note> ki-érkezék osztán,</l>
+<l xml:id="l.316">Sájo vize mellet helyt talála méltán.</l>
+</lg>
+<lg xml:id="lg.80">
+<l xml:id="l.317">Schytiában e’ még magában langozot,</l>
+<l xml:id="l.318">Attillátul szerzet földre szomjuhozot</l>
+<l xml:id="l.319">Harmincz ezer embert magával ki-hozot</l>
+<l xml:id="l.320">Kik-kel Tanaison által-is hajozot.</l>
+</lg>
+<lg xml:id="lg.81">
+<l xml:id="l.321">Le-ülése után hazánknak szélében,</l>
+<l xml:id="l.322">Mint giümölchözö-fa nyárnak idejeben</l>
+<l xml:id="l.323">Termését ki-adá gyöniörüségében,</l>
+<l xml:id="l.324">Es megh-szaporodék ö Nemzetségében.</l>
+</lg>
+<lg xml:id="lg.82">
+<l xml:id="l.325">Nemes fámiliák tüle származának,</l>
+<l xml:id="l.326">Mint a’ giokeres-fák el-is ágazának</l>
+<l xml:id="l.327">Kikból Fejedelmek s Urak származának</l>
+<l xml:id="l.328">Végre halál által magvok szakadának.</l>
+</lg>
+<lg xml:id="lg.83">
+<l xml:id="l.329">Hétt Kapitánságrul méltonak itéltem,</l>
+<l xml:id="l.330">Rövideden szollyak hasznosnak-is véltem</l>
+<l xml:id="l.331">Elme uijtásra Iffiaknak rendeltem,</l>
+<l xml:id="l.332">S-magam mulatságán munkáját kedveltem.</l>
+</lg>
+<lg xml:id="lg.84">
+<l xml:id="l.333">Mint az három Királyt egy Chillagh vezerlé,</l>
+<l xml:id="l.334">Elmejeket kinek világa be-telé</l>
+<l xml:id="l.335">Öket-is egy Szarvas hazánkra vezerle</l>
+<l xml:id="l.336">Pannusok<note type="critic" xml:id="note.48">pannónusok</note> telekét szivek megh-kedvelé.</l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

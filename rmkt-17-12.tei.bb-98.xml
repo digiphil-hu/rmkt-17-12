@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">98.</title>
+<title key="body" n="98" type="main">(Gyöngynél kegyesb sepet...)</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-98</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM I</abbr>,
+                            386–88.</bibl> – Az első versszakot <persName>Balassa</persName> írta be
+                        utólag a vers elé. A tizenharmadik versszak után a „Finis” zárószó
+                        olvasható. A lap alján nincs őrszó. Ugyanennek a levélnek a verzóján
+                        találjuk a tizennegyedik strófát, mely a versfejeket magyarázza.</p>
+<p xml:id="crit.1.p.3">A verssorok első betűi a <hi rend="smallcaps">grof tarnovskj zophianak meg el hiven solgal balassa balinth</hi>
+                értelmet adják.</p>
+<p xml:id="crit.1.p.4">A <persName>Balassa Antaltól<idno type="ITIdata">Q140824</idno></persName> készíttetett másolatokban az énekhez hosszú megjegyzést fűztek. Idézünk belőlük: „E költeménynek
+                némely versszakában értelem-homály jelentkezik, s csak úgy kell kitalálni körülbelül, mit akart a költő mondani.” Ennek
+                magyarázatául <persName>Balassa Antal</persName> azt hozza fel, hogy a sorok csak 6–6 szótagból állnak (így szükségszerűen szűkszavúak!), másrészt a
+                sorok kezdőbetűi erősen kötötték a költő kezét.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 98.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">G</hi>yöngynél kegyesb sepet</l>
+<l rend="level_2" xml:id="l.2"><hi rend="bold">R</hi>agjogo sep kepet</l>
+<l rend="level_2" xml:id="l.3"><hi rend="bold">O</hi>hajtok, mert éget</l>
+<l rend="level_2" xml:id="l.4"><hi rend="bold">F</hi>énnyel: s nem vét véget.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">T</hi>alam vakmerüszygh</l>
+<l rend="level_2" xml:id="l.6"><hi rend="bold">A</hi>bban az reminszegh,</l>
+<l rend="level_2" xml:id="l.7"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1"><hi rend="bold">R</hi>egh szit, hogy neteszék,</lem>
+<rdg wit="#W1" xml:id="rdg.1">
+<del>Reyt kint</del>
+<add type="corr">Regh szit</add>
+</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.8"><hi rend="bold">N</hi>agy eszmiretlénszygk.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">O</hi>llian vagk<note type="critic" xml:id="note.1">vak</note> filelem</l>
+<l rend="level_2" xml:id="l.10"><hi rend="bold">V</hi>an, s miltab serelem</l>
+<l rend="level_2" xml:id="l.11"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2"><hi rend="bold">S</hi>yvemben, in<note type="critic" xml:id="note.2">én</note> velem,</lem><rdg wit="#W1" xml:id="rdg.2"><del>vellem</del><add type="corr">velem</add></rdg></app></l>
+<l rend="level_2" xml:id="l.12"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3"><hi rend="bold">K</hi>y miat ninch helem.</lem>
+<rdg wit="#W1" xml:id="rdg.3">
+<del>hellyem</del>
+<add type="corr">helem</add>
+</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">I</hi>aria buss fejemett,</l>
+<l rend="level_2" xml:id="l.14"><hi rend="bold">Z</hi>arya vegh<note type="critic" xml:id="note.3">víg</note> kedvemet,</l>
+<l rend="level_2" xml:id="l.15"><hi rend="bold">O</hi>haytvan sivemet,</l>
+<l rend="level_2" xml:id="l.16"><hi rend="bold">P</hi>anaszlom eltémet.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">H</hi>ozzad hiv serelem</l>
+<l rend="level_2" xml:id="l.18"><hi rend="bold">J</hi>ndit bayt hertelen,</l>
+<l rend="level_2" xml:id="l.19"><hi rend="bold">A</hi>z filelem ellen</l>
+<l rend="level_2" xml:id="l.20"><hi rend="bold">N</hi>em hagiván ez hellyen.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">A</hi>zert bizvaszt immar</l>
+<l rend="level_2" xml:id="l.22"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4"><hi rend="bold">K</hi>egielmet tüled var</lem>
+<rdg wit="#W1" xml:id="rdg.4">Kegielme
+                                    <del>d</del>
+<add type="corr">t</add>
+<note type="critic" xml:id="note.4">Autográf javítás.</note></rdg>
+</app></l>
+<l rend="level_2" xml:id="l.23"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5"><hi rend="bold">M</hi>eres sivem, shamar</lem>
+<rdg wit="#W1" xml:id="rdg.5">[Előbb:] Myris sivem, shamar</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.24"><hi rend="bold">E</hi>keszigedhez<note type="critic" xml:id="note.5">ékességedhez</note>
+                        jar.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">G</hi>yongy vagy snaladnal nincz</l>
+<l rend="level_2" xml:id="l.26"><hi rend="bold">E</hi>z fulden drágab kincz,</l>
+<l rend="level_2" xml:id="l.27"><hi rend="bold">L</hi>egy kegies, ream<note type="critic" xml:id="note.6">egy tagúnak
+                            ejtendő</note> tekincz,</l>
+<l rend="level_2" xml:id="l.28"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6"><hi rend="bold">H</hi>ogy belim kedve<corr>t</corr>
+                                hincz.</lem>
+<rdg wit="#W1" xml:id="rdg.6">kedved</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7"><hi rend="bold">I</hi>gy njujtom sivemet,</lem>
+<rdg wit="#W1" xml:id="rdg.7">Igy <del>nezem</del>
+<add place="above" type="insert">njujtom</add></rdg>
+</app></l>
+<l rend="level_2" xml:id="l.30"><hi rend="bold">V</hi>ygged<note type="critic" xml:id="note.7">vegyed</note>
+                        serelmemet,</l>
+<l rend="level_2" xml:id="l.31"><hi rend="bold">E</hi>lne ves engemet,</l>
+<l rend="level_2" xml:id="l.32"><hi rend="bold">N</hi>e segd megh kedvemet.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">S</hi>oha senky neve</l>
+<l rend="level_2" xml:id="l.34"><hi rend="bold">O</hi>lly rabba nem teve,</l>
+<l rend="level_2" xml:id="l.35"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8"><hi rend="bold">L</hi>egy hat solga<corr>d</corr>
+                                hive,</lem>
+<rdg wit="#W1" xml:id="rdg.8">solgat</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.36"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9"><hi rend="bold">G</hi>alamboczka<corr>d</corr>
+                                syve.</lem>
+<rdg wit="#W1" xml:id="rdg.9">[Előbb:] Galamboczka<del rend="overwritten">g</del><del rend="overwritten"><add type="overwrite">d</add></del><add type="overwrite">s</add></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10"><hi rend="bold">A</hi>zert eszmeritlen</lem>
+<rdg wit="#W1" xml:id="rdg.10"><del>im</del> eszmeritlen</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.38"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11"><hi rend="bold">L</hi>evelem kjel<corr>t</corr>e<corr>m</corr>,<note type="critic" xml:id="note.8">kieldtem = küldtem. (A szótagszám miatt ejthették <hi rend="italic">kieltem</hi> – <hi rend="italic">kieldtem</hi>nek, jegyzi meg <persName>Jankovics
+                                        József<idno type="ITIdata">Q242990</idno></persName> lektorként, a másoló rontásának tartva a
+                                        <hi rend="italic">ll</hi> betűcsoport írását <hi rend="italic">lt</hi> helyett.) A lektor észrevételét
+                                    elfogadtuk. A másolatban azonban <hi rend="italic">kjellen</hi>
+                        áll; ezt javította <persName>Dézsi<idno type="ITIdata">Q143973</idno></persName>
+<hi rend="italic">kikeljen</hi>-re.</note></lem><rdg wit="#W1" xml:id="rdg.11">kjellen</rdg></app></l>
+<l rend="level_2" xml:id="l.39"><hi rend="bold">B</hi>ar legyen viletlen,</l>
+<l rend="level_2" xml:id="l.40"><hi rend="bold">A</hi>zzal nem illetlen.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><app xml:id="app.12">
+<lem wit="#KK" xml:id="lem.12"><hi rend="bold">L</hi>aszad, ha viteknek</lem>
+<rdg wit="#W1" xml:id="rdg.12">Laszad <del>laszad</del> ha</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.42">
+<hi rend="bold">A</hi>llitod sivemnek<note type="critic" xml:id="note.9">A sort a másoló tévedésből kétszer írta le, majd az
+                            egyiket áthúzta.</note></l>
+<l rend="level_2" xml:id="l.43"><hi rend="bold">S</hi>ebet sipszighednek,</l>
+<l rend="level_2" xml:id="l.44"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13"><hi rend="bold">S</hi>enky oka ennek.
+                    </lem><rdg wit="#W1" xml:id="rdg.13"><del><unclear>Sziujs</unclear></del><add place="above" type="insert">Senky</add><note type="critic" xml:id="note.10">A sor első szavát <persName>Balassa</persName>
+                                    áthúzta és föléírt egy szót, melynek olvasata
+                                    bizonytalan.</note></rdg></app>
+</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">A</hi>z okat vitkemnek</l>
+<l rend="level_2" xml:id="l.46"><hi rend="bold">B</hi>irül serelemnek</l>
+<l rend="level_2" xml:id="l.47"><hi rend="bold">A</hi>dgiad, és sememnek</l>
+<l rend="level_2" xml:id="l.48"><app xml:id="app.14">
+<lem wit="#KK" xml:id="lem.14"><hi rend="bold">L</hi>atasat sinednek.</lem>
+<rdg wit="#W1" xml:id="rdg.14">Látásá
+                                    <del>n</del>
+<add type="corr">t</add>
+</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><hi rend="bold">I</hi>gaz oka te vagy,</l>
+<l rend="level_2" xml:id="l.50"><hi rend="bold">N</hi>alam Venus hogy nagy,</l>
+<l rend="level_2" xml:id="l.51"><hi rend="bold">T</hi>yed vagyok, ne hagy,</l>
+<l rend="level_2" xml:id="l.52"><hi rend="bold">H</hi>yv szyvet teis adgy.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53"><hi rend="bold">J</hi>t nem vers fejeknek</l>
+<l xml:id="l.54"><hi rend="bold">D</hi>eminden verseknek</l>
+<l rend="level_5" xml:id="l.55"><hi rend="bold">E</hi>leiben az ket nyv,</l>
+<l xml:id="l.56"><hi rend="bold">M</hi>elleket iratot</l>
+<l xml:id="l.57"><hi rend="bold">S</hi>versben foglaltatot</l>
+<l rend="level_5" xml:id="l.58"><hi rend="bold">B</hi>ennem vallo igaz szyv,</l>
+<l xml:id="l.59"><hi rend="bold">U</hi>ram nehoz giazhoz,</l>
+<l xml:id="l.60">Süt<note type="critic" xml:id="note.11">sőt</note> adgiad egj mas hoz,</l>
+<l rend="level_5" xml:id="l.61"><hi rend="bold">M</hi>indaz kettü legien hiv.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="6" type="main">ESTERHÁZY PÁL</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">ESTERHÁZY PÁL</head>
+<head type="subtitle">ÉLETE</head>
+<p xml:id="p.1">Atyja, <persName>Miklós<idno corresp="Esterházy Miklós"/></persName>, szegény
+                    protestáns nemesből tüneményes gyorsasággal emelkedett az ország első katolikus
+                    főurává és hatalmas vagyon tulajdonosává. Anyja, bedegi <persName>Nyáry
+                        Krisztina<idno type="ITIdata">Q159141</idno></persName>,
+                        <persName>Thurzó Imre<idno type="ITIdata">Q160772</idno></persName> özvegyeként lett
+                            <persName>Esterházy<idno corresp="Esterházy Miklós" type="ITIdata">Q144463</idno></persName> felesége. Házasságukból hetedik
+                    gyermekként <date when="1635-09-08">1635. szeptember 8-án</date> született
+                            <persName>Pál<idno corresp="Esterházy Pál"/></persName>
+<placeName>Kismartonban<idno type="ITIdata">Q17989</idno></placeName>.
+                    Gyermekéveiről maga számol be részletesen naplójában. Kezdetben
+                        <placeName>Kismartonban</placeName>, <placeName>Lakompakon<idno type="ITIdata">Q18167</idno></placeName>, <placeName>Fraknóban<idno type="ITIdata"/></placeName> és <placeName>Semptén<idno type="ITIdata">Q13248</idno></placeName>, a család birtokain élt. Iskoláit
+                            <placeName>Grácban<idno type="ITIdata">Q22712</idno></placeName> és
+                            <placeName>Nagyszombatban<idno type="ITIdata">Q14207</idno></placeName>,
+                    jezsuita kollégiumokban végezte. A jezsuiták hatásos nevelési eszközei,
+                    különösen az iskolai színjátékok, mély benyomást tettek rá. (Egy ízben pl. az
+                    ószövetségi Juditot, egy másik alkalommal a szent Kereszt szerepét játszotta.)
+                    Több ízben foglalkozott azzal a gondolattal, hogy belép a jezsuita rendbe. Az
+                    iskolai nevelés mellett udvari nevelésben is részesült: szeretett lovagolni,
+                    vadászni, s ügyes táncos volt. Az <date when="1647">1647-i</date>
+<placeName>pozsonyi</placeName> országgyűlésen <persName>Leopoldina</persName>
+                    császárné előtt oláh- és hajdútáncot járt.</p>
+<p xml:id="p.2"><persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> tízéves korára árva lett (anyját
+                        <date when="1641">1641-ben</date>, apját <date when="1645">1645-ben</date>
+                    veszítette el), s miután egyetlen nagykort megért bátyja, <persName>László<idno corresp="Esterházy László"/></persName>, egy török elleni csatában,
+                            <placeName>Vezekénynél<idno type="ITIdata">Q7735</idno></placeName>
+                    elesett, ő örökölte a hatalmas birtokot. Ő lett az utóda a <placeName>pápai<idno type="ITIdata">Q23406</idno></placeName> kapitányi és
+                            <placeName>Sopron<idno type="ITIdata">Q238</idno></placeName> megyei
+                    főispáni tisztben is. <date when="1652-10-21">1652. október 21-én</date>
+                    megesküdött unokahúgával, a kiskorú <persName>Esterházy Orsolyával<idno corresp="Esterházy Orsolya"/></persName>, s ez a frigy egyesítette az
+                    Esterházyak kétfelé ágazó családját és vagyonát. Az esküvő után Pál visszament
+                            <placeName>Nagyszombatba<idno type="ITIdata">Q14207</idno></placeName>,
+                    hogy folytassa tanulmányait, majd elkísérte <persName>IV. Ferdinándot</persName>
+                    Németországba, római császárrá való koronázására. Feleségéhez az asszony
+                    nagykorúságát megvárva tért vissza, az elhálás <date when="1655-02-07">1655.
+                        február 7-én</date> történt meg. Házasságuk folyamán <persName>Orsika<idno corresp="Esterházy Orsolya"/></persName> asszony 18 gyermeknek adott
+                    életet.</p>
+<p xml:id="p.3"><persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> az <date from="1663" to="1664">1663–64-i</date> hadjáratban <persName>Zrínyi<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno></persName> parancsnoksága alatt
+                    vett részt. Végigharcolta a híres téli hadjáratot, és részt vett a
+                            <placeName>szentgotthárdi<idno type="ITIdata">Q7635</idno></placeName>
+                    csatában is. Miként atyjáét, az ő magatartását is következetes törökellenesség
+                    és az uralkodó iránti feltétlen hűség jellemezte. Ő foglalta le a
+                    Wesselényi-összeesküvés résztvevőinek birtokait, s az <date when="1671">1671-ben</date> lefejezett <persName>Nádasdy Ferencnek<idno type="ITIdata">Q54595</idno></persName>, sógorának elkobzott
+                    birtokát és javait kapta adományul. Az <date when="1681">1681-i</date>
+<placeName>soproni<idno type="ITIdata">Q238</idno></placeName> országgyűlésen
+                    nádorrá választották. (<persName>Gyöngyösi István<idno type="ITIdata">Q152929</idno></persName>
+<hi rend="italic"><title>Palinodiá</title></hi>-ja erre az eseményre készült.) A
+                    80-as években részt vett a török elleni eredményes hadjáratban;
+                            <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> alatt
+                    megsebesült, majd <placeName>Buda<idno type="ITIdata">Q15957</idno></placeName>
+                    felszabadításakor ő volt a magyar seregek fővezére. A magyarság ezekben a
+                    harcokban aktív szerepet alig játszott, s <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> hadvezéri és nádori funkciója is inkább
+                    csak névleges volt. A nemzetet ért sérelmek: a porció-rendszer, vagy
+                            <persName>Caraffa<idno corresp="Antonio Caraffa"/></persName>
+                    vésztörvényszéke (bár ezek ellen nádori beadványaiban gyakran tiltakozott) nem
+                    ingatták meg a Habsburg-ház iránti szilárd hűségét. Az <date from="1687" to="1688">1687–88-i</date>
+<placeName>pozsonyi<idno type="ITIdata">Q468</idno></placeName> országgyűlésen a
+                    rendek nem utolsó sorban Esterházy ígéreteinek és rábeszéléseinek hatására
+                    mondtak le a királyválasztásról és az ellenállási jogról. Esterházy jutalmul a
+                    birodalmi hercegi címet kapta.</p>
+<p xml:id="p.4">Első felesége <date when="1682">1682-ben</date> meghalt. Még ebben az évben
+                    elvette sógornőjét, <persName>Thököly Évát<idno corresp="Thököly Éva"/></persName>, aki kislánykorától az Esterházy családnál nevelkedett.
+                    Levelezésük arról tanúskodik, hogy még <persName>Orsolya<idno corresp="Esterházy Orsolya"/></persName> életében felmerült házasságuk
+                    gondolata. Ebből a házasságból 7 gyermek született.</p>
+<p xml:id="p.5">Életének utolsó két évtizedében vagyonát gyarapítgatta, egyházi alapítványokat
+                    tett, s hitbuzgalmi műveit rendezte sajtó alá. A Rákóczi-szabadságharc alatt
+                    több ízben próbált közvetíteni és békíteni <persName>Rákóczi<idno corresp="II. Rákóczi Ferenc" type="ITIdata">Q155499</idno></persName> és a császáriak között, de sikertelenül.
+                        <date when="1713-03-26">1713. március 26-án</date> halt meg.</p>
+<p xml:id="p.6">MŰVEI</p>
+<p xml:id="p.7"><persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName>
+                    nyomtatásban megjelent művei mind hitbuzgalmi művek, főleg a Szűz Mária iránti
+                    tiszteletet voltak hivatva ápolni. Némelyikük több kiadást is megért, és más
+                    nyelvekre is lefordíttatott.</p>
+<p xml:id="p.8">1. <bibl>Az egesz világon levő csudalatos Boldogsagos Szüz kepeinek rövideden föl
+                        tett eredeti. <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1690">1690</date></bibl> – <bibl><abbr>RMK I</abbr>,
+                        1394.</bibl> – 2. bővített kiadása: <bibl><placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1696">1696</date></bibl> – <bibl><abbr>RMK I</abbr>,
+                        1496.</bibl></p>
+<p xml:id="p.9">2. <bibl>Az Boldogságos Szüz Maria Szombattya, az-az mindenszombat napokra való
+                        aetatosságok. <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1691">1691</date></bibl> – <bibl><abbr>RMK I</abbr>,
+                        1413.</bibl></p>
+<p xml:id="p.10">3. <bibl>Via lactea ad coelum ducens, variis precationibus, meditationibus,
+                        aliisque piis exercitiis ab ecclesia catholica jam dudum approbis ornata.
+                                <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1691">1691</date></bibl> – <bibl><abbr>RMK III</abbr>,
+                        3675.</bibl></p>
+<p xml:id="p.11">4. <bibl>Lytaniae ad Beatam Virginem Mariam per totius mundi miraculosas imagines
+                        divisae, ac per regna et provincias, ac</bibl></p>
+<p xml:id="p.12"><bibl>loca distinctae. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1697">1697</date></bibl> – <bibl><abbr>RMK III</abbr>,
+                        4029.</bibl></p>
+<p xml:id="p.13">5. <bibl>Regina sanctorum omnium, Minden szentek királynéja Boldogsagos Szüz
+                        Maria tisztelete, azaz az esztendönek minden napjaira kiosztott szentek
+                        élete. Melyet irt deákul… P. Brunner András. <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1698">1698</date></bibl> – <bibl><abbr>RMK I</abbr>,
+                        1534.</bibl></p>
+<p xml:id="p.14">6. <bibl>Speculum immaculatum, quo demonstratur ex probatissimis authoribus
+                        Beatissimam Virginem Mariam sine labe originali esse conceptam.
+                                <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1698">1698</date></bibl> – <bibl><abbr>RMK III</abbr>,
+                        4080.</bibl></p>
+<p xml:id="p.15">7. <bibl>Litaniae omnium sanctorum per totum orbem celebrium ad choros et ordines
+                        redactae. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1700">1700</date></bibl> - <bibl><abbr>RMK III</abbr>,
+                        4168.</bibl></p>
+<p xml:id="p.16">8. <bibl>Litaniae de sanctis conversis. <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1703">1703</date></bibl> – <bibl><abbr>RMK II</abbr>,
+                        2175.</bibl></p>
+<p xml:id="p.17">9. <bibl>Harmonia Coelestis. [<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>] <date when="1711">1711</date></bibl> –
+                            <bibl><abbr>RMK III</abbr>, 4758.</bibl> – Esterházynak e kórusművei
+                    nemrégiben lemezen is megjelentek. (<bibl><abbr>Hungaroton LPX</abbr>
+                        11433–35.</bibl>)</p>
+<p xml:id="p.18"><persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> kéziratban maradt műveit a családnak
+                    az Országos Levéltárban őrzött levéltára őrizte meg.</p>
+<p xml:id="p.19">10. Emlékezései. Gyermek- és tanulóéveinek eseményeit tartalmazza <date to="1652">1652-i</date>g. Nagy részét kiadta <bibl><hi rend="smallcaps">Bubics
+                            Zsigmond–Merényi Lajos</hi>: Herczeg Esterházy Pál nádor. Bp. 1895. 3,
+                        56, 61–66, 70–72, 84–105, 110. (Magyar Történeti Életrajzok.)</bibl> Teljes
+                    szövegét újabban <persName>Iványi Emma</persName> rendezi sajtó alá.</p>
+<p xml:id="p.20">11. Mars Hungaricus, sive tractatus de bello turcico ab ejusdem primordio ac
+                    fine. – Az <date from="1663" to="1665">1663–65-i</date> háborús események
+                    leírása. Ismertette <bibl><hi rend="smallcaps">Bubics Zsigmond</hi>: Esterházy
+                        Pál Mars Hungaricusa. Bp. 1895.</bibl></p>
+<p xml:id="p.21">12. Családi feljegyzések. – Bedegi <persName>Nyáry Krisztina<idno type="ITIdata">Q159141</idno></persName> feljegyzései után az
+                        <date from="1640" to="1689">1640–1689</date> közötti családi eseményeket
+                        <persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName> jegyezte fel. Kiadta <bibl><hi rend="smallcaps">Szilágyi Sándor</hi>, <abbr>TT</abbr> 1888,
+                        209–24.</bibl></p>
+<p xml:id="p.22">VERSEI</p>
+<p xml:id="p.23"><persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName>
+                    versei a családi levéltárban maradtak meg (<bibl><abbr>OL</abbr>, Pál nádor
+                        iratai, P 125. 54. cs. 11896.</bibl>), három kötetben és négy füzetben. A
+                    legkorábbinak egy négylapos füzet látszik, melyben valószínűleg Esterházy
+                    gyermekkori írásával az „Egy pusztában bujdosó lélek éneke szerelemről” szövege
+                    olvasható. (145. sz.) Egy kétlapos füzetbe az „Egy gondolom tánc ének” szövege
+                    van leírva, a nyomtatott betűket utánzó írásról nem állapítható meg, hogy
+                    Esterházyé-e vagy más valakié. Bizonyosan idegen kéz írta a 147. sz. verset. Az
+                    egyik kötetet <date when="1656">1656-ban</date> írta össze a szerző. Tartalma a
+                    következő:</p>
+<p xml:id="p.24">Címlap: Fraknoi Gróf Esterhas Pál énekinek első része, MDCLVI esztendőben.</p>
+<p xml:id="p.25">1–16: A Boldogsagos Szüzrül való ének. (<ref target="rmkt-17-12.tei.ep-121">121. sz.</ref>)</p>
+<p xml:id="p.26">19–44: [Az esztendőnek négy részéről.] (<ref target="rmkt-17-12.tei.ep-132">132. sz.</ref>)</p>
+<p xml:id="p.27">45–60: Az Fülemile énekének magyarázatja. (<ref target="rmkt-17-12.tei.ep-133">133. sz.</ref>)</p>
+<p xml:id="p.28">63–72: Arianna historiája. (<ref target="rmkt-17-12.tei.ep-138">138. sz.</ref>)</p>
+<p xml:id="p.29">75–92: Egy ártatlan ifjúnak panasza Cupidora. (<ref target="rmkt-17-12.tei.ep-135">135. sz.</ref>)</p>
+<p xml:id="p.30">93–120: Egy csudálatos ének. (<ref target="rmkt-17-12.tei.ep-144">144. sz.</ref>)</p>
+<p xml:id="p.31">121–130: Egy kis szomorú ének barátjának betegségéről. (<ref target="rmkt-17-12.tei.ep-134">134. sz.</ref>)</p>
+<p xml:id="p.32">131–142: Égi madarakról való versek. (<ref target="rmkt-17-12.tei.ep-124">124. sz.</ref>)</p>
+<p xml:id="p.33">A 93–120. lapon levő <hi rend="italic">Egy csudálatos ének</hi> kivételével
+                    Esterházy e kötet valamennyi versét átvette az <date when="1670">1670-ben</date>
+                    összeállított gyűjteményébe is.</p>
+<p xml:id="p.34">1656 táján írhatta le azt a két füzetet is, melynek egyike „Az Esztendönek négy
+                    részéröl ualo Enek”-et (132. sz.), másika „Az Boldogságos Szüzrül valo Enek”-et
+                    (<ref target="rmkt-17-12.tei.ep-131">131. sz.</ref>) tartalmazza.</p>
+<p xml:id="p.35"><persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName>
+<date when="1670">1670-ben</date> ismét összeírta énekeit. A kötet címe:
+                    „Fraknai Grof Esterhas Pál énekes könyuei, kik négy részbe foglaltatnak. Az
+                    MDCLXX esztendőben.” A kötet ezzel szemben csak két részből áll. Lehetséges,
+                    hogy a 3–4. rész el sem készült, bár tudomásunk van olyan Esterházy-versekről,
+                    melyeknek szövege nem maradt fenn. Egy Esterházy írásában fennmaradt címjegyzék
+                    ezt a feliratot viseli: „Enekek Tánczok s-Noták száma az Virginán kit tudok
+                    uerni.” Ez a jegyzék a következő címeket, illetőleg kezdősorokat
+                    tartalmazza:</p>
+<p xml:id="p.36">Az Sz. Háromságnak.</p>
+<p xml:id="p.37">Vitézek mi lehet.</p>
+<p xml:id="p.38">Aue Matris Stella.</p>
+<p xml:id="p.39">O gloriosa Domina.</p>
+<p xml:id="p.40">Stabat Mater.</p>
+<p xml:id="p.41">Angyaloknak királné Aszonya.</p>
+<p xml:id="p.42">Istennek Sz: Anya.</p>
+<p xml:id="p.43">Litania.</p>
+<p xml:id="p.44">Puer natus in Betlehem.</p>
+<p xml:id="p.45">Nékünk születék.</p>
+<p xml:id="p.46">Diczéretes az Gyermek.</p>
+<p xml:id="p.47">Patris Sapientia.</p>
+<p xml:id="p.48">Surexit Christus.</p>
+<p xml:id="p.49">Pange lingua.</p>
+<p xml:id="p.50">Hainal hainal.</p>
+<p xml:id="p.51">Omni die.</p>
+<p xml:id="p.52">Boczásd megh Vristen.</p>
+<p xml:id="p.53">Hálát agyunk.</p>
+<p xml:id="p.54">Salue Mundi Domina.</p>
+<p xml:id="p.55">*</p>
+<p xml:id="p.56">Galiarda.</p>
+<p xml:id="p.57">Carabella.</p>
+<p xml:id="p.58">Rosz Balét.</p>
+<p xml:id="p.59">Masodik része.</p>
+<p xml:id="p.60">Harmadik része.</p>
+<p xml:id="p.61">Negyedik része.</p>
+<p xml:id="p.62">Elsö Sarabanda.</p>
+<p xml:id="p.63">Második Sarabanda.</p>
+<p xml:id="p.64">Harmadik.</p>
+<p xml:id="p.65">Negyedik.</p>
+<p xml:id="p.66">Ötödik.</p>
+<p xml:id="p.67">Flagelet.</p>
+<p xml:id="p.68">Bargamasco.</p>
+<p xml:id="p.69">Rengetö.</p>
+<p xml:id="p.70">Masodik része.</p>
+<p xml:id="p.71">Harmadik.</p>
+<p xml:id="p.72">Trombita Nota.</p>
+<p xml:id="p.73">Másik Trombita Nota.</p>
+<p xml:id="p.74">Salamon.</p>
+<p xml:id="p.75">Cziga.</p>
+<p xml:id="p.76">Pauren Toncz.</p>
+<p xml:id="p.77">Mascara. </p>
+<p xml:id="p.78">Viragokrol ualo Táncz nota. (<ref target="rmkt-17-12.tei.ep-127">127. sz.</ref>)</p>
+<p xml:id="p.79">Aly megh édes Solymom. (<ref target="rmkt-17-12.tei.ep-137">137. sz.</ref>)</p>
+<p xml:id="p.80">Isten hozzád karuolkám. (<ref target="rmkt-17-12.tei.ep-141">141. sz.</ref>)</p>
+<p xml:id="p.81">Vesd fel szemeidet. (<ref target="rmkt-17-12.tei.ep-132">132. sz.</ref>)</p>
+<p xml:id="p.82">Drága köuekröl. (<ref target="rmkt-17-12.tei.ep-143">143. sz.</ref>)</p>
+<p xml:id="p.83">Fényes Palotákban. (<ref target="rmkt-17-12.tei.ep-139">139. sz.</ref>)</p>
+<p xml:id="p.84">Jai én szerenczétlen. (<ref target="rmkt-17-12.tei.ep-136">136. sz.</ref>)</p>
+<p xml:id="p.85">Ô! édes Istenem néked mit miueltem. (<ref target="rmkt-17-12.tei.ep-133">133. sz.</ref>) (<ref target="rmkt-17-12.tei.ep-134">134. sz.</ref>)</p>
+<p xml:id="p.86">Vesd föl szemeidet. (<ref target="rmkt-17-12.tei.ep-132">132. sz.</ref>)</p>
+<p xml:id="p.87">Nizd megh én Torkomat. (<ref target="rmkt-17-12.tei.ep-135">135. sz.</ref>)</p>
+<p xml:id="p.88">Ô mely boldogtalan Cupido. (<ref target="rmkt-17-12.tei.ep-142">142. sz.</ref>)</p>
+<p xml:id="p.89"><hi rend="italic">Mint Juhász kösziklán.</hi></p>
+<p xml:id="p.90">Had Verésröl ualo ének. (<ref target="rmkt-17-12.tei.ep-129">129. sz.</ref>)</p>
+<p xml:id="p.91"><hi rend="italic">Alnok kis Cupido.</hi></p>
+<p xml:id="p.92"><hi rend="italic">Buidosásim után.</hi></p>
+<p xml:id="p.93"><hi rend="italic">Szány megh, látod Rabul attam már feiemet</hi></p>
+<p xml:id="p.94"><hi rend="italic"> Ô mely nagy gyötrelem uagyon én sziuemben</hi></p>
+<p xml:id="p.95">Az szerelem. (<ref target="rmkt-17-12.tei.ep-145">145. sz.</ref>?)</p>
+<p xml:id="p.96"><hi rend="italic">Titkos szerelemnek Venus inditoia.</hi></p>
+<p xml:id="p.97">*</p>
+<p xml:id="p.98">Az Fülemile éneke. (<ref target="rmkt-17-12.tei.ep-133">133. sz.</ref>)</p>
+<p xml:id="p.99">Isten az embernek. (<ref target="rmkt-17-12.tei.ep-138">138. sz.</ref>)</p>
+<p xml:id="p.100">Az én Lengyel tánczom.</p>
+<p xml:id="p.101">Más Lengyel Táncz.</p>
+<p xml:id="p.102">Harmadik Homonaié.</p>
+<p xml:id="p.103">Negyedik szeg: Palatinusé.</p>
+<p xml:id="p.104">Ötödik.</p>
+<p xml:id="p.105">Magyar táncz.</p>
+<p xml:id="p.106">Második magyar táncz.</p>
+<p xml:id="p.107">Harmadik.</p>
+<p xml:id="p.108">Változo Táncz.</p>
+<p xml:id="p.109">Hármas Táncz.</p>
+<p xml:id="p.110">Süueges Táncz.</p>
+<p xml:id="p.111">Oláh Táncz.</p>
+<p xml:id="p.112">Második Oláh Táncz.</p>
+<p xml:id="p.113">Polepsi.</p>
+<p xml:id="p.114">Tot Táncz.</p>
+<p xml:id="p.115">Második Tott Táncz.</p>
+<p xml:id="p.116">Harmadik.</p>
+<p xml:id="p.117">Dobranocz.</p>
+<p xml:id="p.118">En uagyok az mesze földröl röpülö kis Madár.</p>
+<p xml:id="p.119">A jegyzék tételei négy hasábban vannak leírva; ezeket csillaggal választottuk el
+                    egymástól. A hasábok más-más műfajú darabokat tartalmaznak. Az első hasábban
+                    katolikus egyházi kiadványokból ismert, magyar és latin énekelt szövegek
+                    találhatók. A második hasáb szöveg nélküli, főleg külföldi táncokat tartalmaz. A
+                    harmadik hasábba Esterházy saját szerzeményeit írta le. (Helyhiány miatt a
+                    negyedik hasáb első két tétele is idetartozik.) Végül az utolsó hasáb főleg
+                    szöveg nélküli táncdarabok címeit tartalmazza, csak az utolsó darab szöveges.
+                    (Teljes szövege a <hi rend="italic">Teleki énekeskönyv</hi>-ből ismert, lásd
+                            <bibl><abbr>RMKT XVII/3</abbr>, 71. sz.</bibl>)</p>
+<p xml:id="p.120">A harmadik hasáb 21 Esterházy-szerzemény címét és kezdősorát tartalmazza. (A <hi rend="italic">Vesd föl szemeidet</hi> kétszer szerepel.) Az énekek közül
+                    14-nek megvan a szövege (ezeknél megadtuk kiadásunk sorszámát), a többi 6-nak a
+                    szövege ismeretlen. (Ezeket dőlt betűkkel emeltük ki.) Lehetséges tehát, hogy az
+                        <date when="1670">1670-ben</date> összeírt gyűjtemény harmadik és negyedik
+                    könyve is elkészült, s a jegyzék ismeretlen szövegű tételei ezek anyagából
+                    valók.</p>
+<p xml:id="p.121">Az 1–2. könyv darabjainak egy részét, szám szerint tízet,
+                            <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> az <date when="1656">1656-i</date>
+                    gyűjteményből vette át; szövegüket itt-ott átdolgozta. Utóbb néhol módosított az
+                        <date when="1670">1670-ben</date> leírt szövegeken is. A kötet nagy része
+                    autográf, csak az 1. könyv néhány szakaszát másolták idegen kezek: „Az égi
+                    madarakrol valo versek” 5. versszakát (kötetünkben a <ref target="rmkt-17-12.tei.ep-123">123. sz.</ref> 147. versszakát),
+                    „Az földi állatokrol valo versek” első hét versszakát (125. sz. 167–173. vsz.)
+                    és „Az halakrol valo versek” 4–24. szakaszát (<ref target="rmkt-17-12.tei.ep-126">126. sz.</ref> 193–213. vsz.).</p>
+<p xml:id="p.122">Kiadásunk alapja az <date when="1670">1670-ben</date> összeírt gyűjtemény.
+                            <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> ezt gondosan megszerkesztette; a
+                    megszerkesztettséget az is mutatja, hogy a szakaszok sorszáma az egyes könyveken
+                    belül folyamatos. Másféle elrendezés már csak azért sem lett volna lehetséges,
+                    mert a versek kronológiáját nem ismerjük. Mindössze „az vadaszat madarászat
+                    mulatsagirul” (<ref target="rmkt-17-12.tei.ep-130">130. sz.</ref>) van az utolsó szakaszban <date when="1661-12">1661
+                        decemberére</date> keltezve, s a kiadásunk végén közölt, a gyűjteményből
+                    kihagyott három versről gondolhatjuk, hogy a legelsők közül valók.</p>
+<p xml:id="p.123">*</p>
+<p xml:id="p.124"><persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> verseinek többsége saját másolatában
+                    maradt fenn, ezért a kis- és nagybetűk használatában és a központozásban
+                    követjük az eredeti kéziratot. A szakaszokat is ugyanúgy számozzuk meg, ahogyan
+                    Esterházy. – Verseinek többségét gimnáziumi tanulmányai alatt írta. A tanultakat
+                    szinte kötelességszerűen sorolja fel; versei tele vannak mitológiai és
+                    szentírási szereplőkkel. Magyarázatukat elhagytuk, minthogy a jegyzetek
+                    terjedelmét mértéktelenül megnövelte volna. Különben is kétséges, hogy az
+                    ilyesféle magyarázatok a versek „megértését” elősegítik-e.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">51.</title>
+<title key="body" n="51" type="main">(Olẏ nehez, nem latom elȯtem Jarnia...)</title>
+<author>
+<persName>
+                        Egy névtelen
+                    </persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-51</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.rm-k-jegyzetek">Jegyzetek a Rimay-Madách-kódexek ismeretlen szerzőtől származó verseihez.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> I,35.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr> 28–29.</bibl> –
+                        Címe: Máas.</p>
+<p xml:id="crit.1.p.3">Hasonló lírai alaphelyzetben fogant, mint <persName>Rimaynak<idno type="ITIdata">Q155364</idno></persName> Ne csudáld szivemet kezdetű verse. (<bibl><abbr>RJÖM</abbr> 52.</bibl>) A gondolati mellé
+                kifejezésbeli párhuzam is társul. A 12. sor: „Remenlem hogi hamar szep kezet foghatom” közel áll a Rimay-ének 15. sorához:
+                „Foghassuk örömmel hamar egymás kezét” (<bibl><hi rend="smallcaps">Bóta</hi>: i. m. 11</bibl>).</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I,35.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 51.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Olẏ nehez, nem latom elȯtem Jarnia,<note type="critic" xml:id="note.1"><persName>Bóta<idno type="ITIdata">Q142877</idno></persName> javasolja a <hi rend="italic">latom</hi>-nak <hi rend="italic">látnom</hi>-ra javítását. Így is jó:
+                            Oly nehéz, nem látom előttem járását.</note></l>
+<l xml:id="l.2">Mint ha el ment volna tẇlem messe vtra,</l>
+<l xml:id="l.3">Hagiot volna bura,</l>
+<l xml:id="l.4">De wissont vigadok, ha magat muttatia.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Lenni nala nelkwl Sziuem nem kiwania,</l>
+<l xml:id="l.6">Neznẏs<note type="critic" xml:id="note.2">olv. nézni is</note> reaia ket szemem nem vna,</l>
+<l xml:id="l.7"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Aalomra nem hunna,</lem><rdg wit="#W1" xml:id="rdg.1"><del rend="overwritten">s</del><add type="overwrite">n</add>em</rdg></app></l>
+<l xml:id="l.8">Ha hunnekis, elmem vele (vigadozna) almodozna.<note type="critic" xml:id="note.3">A sort
+                            meghagytuk úgy, ahogy <persName>Madách</persName> leírta.
+                                <persName>Madách</persName> ezt nem szánta javításnak; sohasem
+                            javított úgy, hogy a zárójelbe tett szó után írta volna a jobbik
+                            megoldást.</note></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Nem késsem, megh latom, magam neki adom,</l>
+<l xml:id="l.10">Ha Isten bekewel hordoza ez vthon,</l>
+<l xml:id="l.11">Baár vigh sziwel Iarion,</l>
+<l xml:id="l.12">Remenlem, hogi hammar szep kezet foghatom.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Aldot less az ora, meliben őt lathatom,</l>
+<l xml:id="l.14"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Es en szerelmemet nekie valhatom.</lem><rdg wit="#W1" xml:id="rdg.2">E<del>n</del><add type="corr">s</add></rdg></app></l>
+<l xml:id="l.15">Megh vigaztalhatom,</l>
+<l xml:id="l.16">S-Wigaztalassawal magam niugothattom.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

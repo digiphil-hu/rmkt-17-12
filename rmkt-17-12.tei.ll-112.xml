@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">112.</title>
+<title key="body" n="112" type="main">REGES HUNGARIAE AB ANNO CHRISTI CDI. AD ANNUM MDCLII. UNGARICIS
+                    RHYTMIS DESCRIPTI</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-112</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar
+                                Márs.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1653">1653</date>. II. r. 1–49.</bibl></p>
+<p xml:id="crit.1.p.3">Kézirata: A British Museum 1321. g. 7. jelzetű kézirata, melyet a XVII–XVIII.
+                        század fordulóján egybekötöttek <persName>Eliás Widemann<idno type="ITIdata">Q258799</idno></persName>
+<title>Comitivm Gloriae Centvm qva Sangvine Herovm Iconibvs</title> c. <date from="1646" to="1649">1646–49-ben</date> két részben megjelent
+                        rézmetszetkiadványával.</p>
+<p xml:id="crit.1.p.4">A katalógusban <title>Reges Hungariae</title> címen szerepel. Ez lehet a
+                        magyarázata, hogy <persName><hi rend="smallcaps">Garas Klára</hi></persName>
+                                (<bibl><title>Magyarországi festészet a XVII. században</title>. Bp.
+                            1953. 59</bibl>) <persName>Widemannak<idno corresp="Eliás Widemann"/></persName> ilyen címmel <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>
+<date when="1652">1652-ben</date> napvilágot látott művéről beszél, és
+                        szerinte „E kiadvány magyar verseit a katona-költő Liszty János [!] báró
+                        írta »Reges Hungariae etc.« címen.” (<ref target="rmkt-17-12.tei.bb-98">98. sz.</ref> jegyzete.)
+                            <persName>Widemannak</persName> ilyen kiadványa nincs. <persName>Liszti
+                            János</persName> nem írt magyar verseket. <persName>Listius
+                            László</persName> írt magyarul királyverseket, de semmi kapcsolata nem
+                        volt <persName>Widemannal<idno corresp="Eliás Widemann"/></persName>. Versei
+                        csak <date when="1653">1653-ban</date> jelentek meg nyomtatásban. A kézirat
+                        nem a szerző írása. Másolhatták a nyomtatványról. Lehetséges azonban, hogy
+                        kéziratból írták le. Szövegeltérés alig van a nyomtatvány és a kézirat
+                        között. A kiadvány sajtóhibái azonban a kéziratban nincsenek meg. Úgy
+                        látszik, azokat a másoló kijavította. Az Attiláról szóló 1–24. sorok
+                        megvannak <persName>Jankovich Miklós<idno type="ITIdata">Q59830</idno></persName><title><hi rend="italic"> Külömbféle magyar
+                                verseknek gyűjteményé</hi></title>-ben (<bibl>OSzK Fol. Hung.
+                            135.</bibl>) a 22a lapon.</p>
+<p xml:id="crit.1.p.5">Bár <persName>Listius</persName> a királyversek megírásához történeti
+                        forrásokat használt fel (lásd a bevezetést!), az általa megrajzolt portrék
+                        hamisak. Az esetek legnagyobb részében egész terjedelmükben, máskor
+                        részleteikben. Maga az a tény, hogy mindegyik személyről 6–6 versszakba
+                        szedte mondanivalóját, történeti jelentőségükre, uralkodásuk időtartamára
+                        egyáltalán nem fordítva figyelmet, eleve erős torzításokra kényszerítette. A
+                        Habsburg királyokról írt utolsó öt vers, ahol önállóan dolgozott, merő
+                        hízelgés, a Habsburg uralkodóknak a történeti tényéktől független
+                        dicsőítése.</p>
+<p xml:id="crit.1.p.6">Jegyzeteink kritikát, kiigazításokat nem tartalmaznak, csupán a szöveg
+                        megértését segítik.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 112.</fw>
+<head type="title">REGES HUNGARIAE AB ANNO CHRISTI CDI. AD ANNUM MDCLII. UNGARICIS
+                    RHYTMIS DESCRIPTI</head>
+<div xml:id="d.2">
+<head type="subtitle">ATTILLA</head>
+<lg xml:id="lg.289">
+<l xml:id="l.1153"><app xml:id="app.19">
+<lem wit="#KK" xml:id="lem.19">Attilla Fe<corr>jd</corr>elem Bendegucznak fia,<note type="critic" xml:id="note.124">A magyar mondák Bendegúznak nevezik Keve,
+                                        Buda, Attila apját.</note></lem>
+<rdg wit="#W1" xml:id="rdg.19">Fejedelem</rdg>
+</app></l>
+<l xml:id="l.1154">Ama nagy Nemroknak<note type="critic" xml:id="note.125">Nimródnak. Nemród Kus fia (<bibl>I.
+                                    Móz. 10, 8.</bibl>), neves vadász a Biblia szerint is. A hunok
+                                és magyarok mondai őse.</note> kedves Onokája,</l>
+<l xml:id="l.1155">Kinek Engadiban<note type="critic" xml:id="note.126">Engaddi a Biblia szerint a Holt-tenger
+                                partvonalának kb. a közepén feküdt. [<bibl>I. Sám. (Kir.) 24,
+                                    1–2.</bibl>] Itt azonban nem bibliai hagyománykör miatt
+                                szerepel.</note> születet Daikája,</l>
+<l xml:id="l.1156">Tisztiben pedigh nagy Schytiák Királlya.</l>
+</lg>
+<lg xml:id="lg.290">
+<l xml:id="l.1157">Gotthus-s-Danusokat<note type="critic" xml:id="note.127">A gotokat és a dákokat. (A Danus
+                                nem dánt jelent!)</note> ki megh-zabolázá,</l>
+<l xml:id="l.1158">Nagy mérezségeket nékiek alázá,</l>
+<l xml:id="l.1159">Világnak négy részét mesziröl vigyázá,</l>
+<l xml:id="l.1160">S-kardgiában haragját világon hordozá.</l>
+</lg>
+<lg xml:id="lg.291">
+<l xml:id="l.1161">Megh ölé az Öczét hul<note type="critic" xml:id="note.128">? Talán: hull Buda mérgében? A
+                            <persName>Jankovich<idno type="ITIdata">Q59830</idno></persName>-másolatban: Ötsétt a’ Budát mérgében</note> Budát
+                            mérgében</l>
+<l xml:id="l.1162">Mivel Sicámbriát<note type="critic" xml:id="note.129">Sicambria volt Aquincum középkori
+                                eredetű neve.</note> a’ maga nevében</l>
+<l xml:id="l.1163">Nevezé; s fertözék az Öcze vérében,</l>
+<l xml:id="l.1164">S-emlekezeti lön tellyes életében.</l>
+</lg>
+<lg xml:id="lg.292">
+<l xml:id="l.1165">Az Aquilegiát<note type="critic" xml:id="note.130">Aquileiát</note> hamar el rontatá,</l>
+<l xml:id="l.1166">S hires Argentinát<note type="critic" xml:id="note.131">a mai Strasbourgot
+                                (Argentoratum)</note> erövel vitatá,</l>
+<l xml:id="l.1167">Kataloni mezön<note type="critic" xml:id="note.132">Catalaunum mezején (Châlons sur
+                                Marne)</note> Hadait szállitá,</l>
+<l xml:id="l.1168">Hol a’ veszteséget sors reá forditá.</l>
+</lg>
+<lg xml:id="lg.293">
+<l xml:id="l.1169">Istennek ostora a’ Keresztyenségen,</l>
+<l xml:id="l.1170"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20">A’ ki nehezen fért illy nagy
+                                    <corr>t</corr>erességen,</lem>
+<rdg wit="#W1" xml:id="rdg.20">cerességen</rdg>
+</app></l>
+<l xml:id="l.1171">Ki nagy czapást téve Olasz Nemzetségen</l>
+<l xml:id="l.1172">Mindennek felelme Világh szélességen.</l>
+</lg>
+<lg xml:id="lg.294">
+<l xml:id="l.1173">Ez Illiricumát<note type="critic" xml:id="note.133">Illyricum (ti. regnum) magában foglalta
+                                Dalmáciát, Boszniát, Albániát.</note> hamar megh-hoditá,</l>
+<l xml:id="l.1174">Es erös hadait Romára inditá,</l>
+<l xml:id="l.1175">De Pápa szemétöl lovát megh-forditá,</l>
+<l xml:id="l.1176">Sicámbria felé erejét inditá.</l>
+</lg>
+</div>
+<div xml:id="d.3">
+<head type="subtitle">CHABA ET ADALARIUS</head>
+<lg xml:id="lg.295">
+<l xml:id="l.1177">Ezek<note type="critic" xml:id="note.134">A címben szereplő Csaba és Aladár.</note> nem
+                            alkhattak-megh a’ Királyságban,</l>
+<l xml:id="l.1178">Attyoktól maradott kinches Uraságban,</l>
+<l xml:id="l.1179">Maga népét vághta ki-ki, haragiában,</l>
+<l xml:id="l.1180">Sok vér-ontást tettek a’ Pannoniában.</l>
+</lg>
+<lg xml:id="lg.296">
+<l xml:id="l.1181">Végre megh-terité eggyik rész hadait,</l>
+<l xml:id="l.1182">Sicámbria felé üzeté Vadait,</l>
+<l xml:id="l.1183">Másik Schytiában rendelé dolgait,</l>
+<l xml:id="l.1184">Attya határára terjesztvén gondgyait.</l>
+</lg>
+<lg xml:id="lg.297">
+<l xml:id="l.1185">Ki megh-gyözetteték a’ Zvvatapolugtól,<note type="critic" xml:id="note.135">Szvatopluktól.</note></l>
+<l xml:id="l.1186">Tavul üzetteték a’ nagy Királyságtól,</l>
+<l xml:id="l.1187">Hamar el szakada a’ Panoniáktól,</l>
+<l xml:id="l.1188">Senki nem rettege hatalmasságától.</l>
+</lg>
+<lg xml:id="lg.298">
+<l xml:id="l.1189">De jött segitsége régi eleitöl,</l>
+<l xml:id="l.1190">Hétt Fejedelemségh Schytia Nemzettöl,</l>
+<l xml:id="l.1191">Hellyre-is állittyák Országát ezentöl,</l>
+<l xml:id="l.1192">De sokan megh-holtak Tanais<note type="critic" xml:id="note.136">a mai Don</note>
+                            vizétöl.</l>
+</lg>
+<lg xml:id="lg.299">
+<l xml:id="l.1193">Attya nyomdokiban lépék gyorsasággal,</l>
+<l xml:id="l.1194">Mérgében uyula ésmét Pogánsággal,</l>
+<l xml:id="l.1195">Europában lépék hada hamarsággal,</l>
+<l xml:id="l.1196">Sok népeket veszte nagy hatalmassággal.</l>
+</lg>
+<lg xml:id="lg.300">
+<l xml:id="l.1197">Ismét fel állitá Attya birodalmát,</l>
+<l xml:id="l.1198">Ékes Várasoknak rontatá köfalát,</l>
+<l xml:id="l.1199">Sok fal-töröivel lyuggatá oldalát,</l>
+<l xml:id="l.1200">Mert kegyetlenségnek adta vólt ö magat.</l>
+</lg>
+</div>
+<div xml:id="d.4">
+<head type="subtitle">TOXYS</head>
+<lg xml:id="lg.301">
+<l xml:id="l.1201">Arpád Nemzetéböl Toxys<note type="critic" xml:id="note.137">Taksony; <date when="0947">947-ben</date>
+                                kalandozott Itáliában.</note> születteték,</l>
+<l xml:id="l.1202">Kitöl Olasz Országh el-pusztittatatek,</l>
+<l xml:id="l.1203">Sok erös epület ettöl rontattaték,</l>
+<l xml:id="l.1204">S Pogányságnak jele megh bizonyitaték.</l>
+</lg>
+<lg xml:id="lg.302">
+<l xml:id="l.1205">Azon Pogánysagban végezé eletét,</l>
+<l xml:id="l.1206">Attilla sirjahoz helyhezteték testét</l>
+<l xml:id="l.1207">Örülék Németek ennek az el-vésztét,</l>
+<l xml:id="l.1208">De meg-is Magyarok siraták el-estét.</l>
+</lg>
+<lg xml:id="lg.303">
+<l xml:id="l.1209">Magyarok Herczege Toxis sok hadakat,</l>
+<l xml:id="l.1210">Szerenczéssen viselt nagy Diadalmákat,</l>
+<l xml:id="l.1211">Megh-vett es el rablott sok tartományokat,</l>
+<l xml:id="l.1212">Magyarokhoz róvan szám-szerént azokát,</l>
+</lg>
+<lg xml:id="lg.304">
+<l xml:id="l.1213">De megh-czendesedék megh-éhült elméje,</l>
+<l xml:id="l.1214">Mert megh-süté szemét arany tung<note type="critic" xml:id="note.138">hordó, kád,
+                                csöbör</note> sengeje<note type="critic" xml:id="note.139">A sor arra utalhat, hogy az
+                                    <placeName>Otrantóig<idno type="ITIdata">Q479408</idno></placeName> kalandozó magyarokat
+                                    <persName>II. Berengár</persName> 10 véka pénz lefizetésével
+                                visszatérésre bírta.</note></l>
+<l xml:id="l.1215">Evvel elegedik-megh szomiu gégeje,</l>
+<l xml:id="l.1216">S ettöl nyomattaték hadának ereje.</l>
+</lg>
+<lg xml:id="lg.305">
+<l xml:id="l.1217">Megh-terité hadát az Olasz Országból,</l>
+<l xml:id="l.1218">De még sem lépék-ki azért Pogányságból,</l>
+<l xml:id="l.1219">Czak mergét veté-ki, mert önnön magából,</l>
+<l xml:id="l.1220">Ereje-is nagy vólt a’ Pannoniából.</l>
+</lg>
+<lg xml:id="lg.306">
+<l xml:id="l.1221">Attilla fegyvere forgot még kezében,</l>
+<l xml:id="l.1222">Nemzetétöl szivot meregh vólt szivében,</l>
+<l xml:id="l.1223">Sok Népeket vesztet tellyes életében,</l>
+<l xml:id="l.1224">S praedálo farkas vólt a’ Keresztyénségben.</l>
+</lg>
+</div>
+<div xml:id="d.5">
+<head type="subtitle">GEYZA</head>
+<lg xml:id="lg.307">
+<l xml:id="l.1225">Geyza Toxys fia szálla az Országban,</l>
+<l xml:id="l.1226">Herczegséghez kapa-s vak a’ Pogányságban,</l>
+<l xml:id="l.1227"><app xml:id="app.21">
+<lem wit="#KK" xml:id="lem.21">Szent <corr>Pálként</corr> de maydan leszen
+                                        változásban,<note type="critic" xml:id="note.140">A sor a Krisztus követőit
+                                        üldöző Saul megtérésére utal.</note></lem>
+<rdg wit="#W1" xml:id="rdg.21">Pál kent</rdg>
+</app></l>
+<l xml:id="l.1228">Halyogja le-esik szemenek valóban.</l>
+</lg>
+<lg xml:id="lg.308">
+<l xml:id="l.1229">Gyümölczös törsökhöz ezt hasonlithatom,</l>
+<l xml:id="l.1230">Kitöl Kiraly Neme származék valhatom,</l>
+<l xml:id="l.1231">Istentöl adatek magva, azt mondhatom,</l>
+<l xml:id="l.1232">A’ mint Kronikából olvasom s láthatom.</l>
+</lg>
+<lg xml:id="lg.309">
+<l xml:id="l.1233">Egész Országostol megh-keresztelkedék,</l>
+<l xml:id="l.1234">Geyza ö magában ugyan iszonyodék,</l>
+<l xml:id="l.1235">Régi vallásától megh-idegenedék,</l>
+<l xml:id="l.1236">S Keresztyényi hitröl osztán gondolkodék.</l>
+</lg>
+<lg xml:id="lg.310">
+<l xml:id="l.1237">A’ Szent Albert által tért az igaz hitben,</l>
+<l xml:id="l.1238">Üdvesseg Sisakiát tévé a’ fejében,</l>
+<l xml:id="l.1239">Szeretet, s reménség Paíissa kezeben,</l>
+<l xml:id="l.1240">Kiért Angialoktol viteték Mennyekben.</l>
+</lg>
+<lg xml:id="lg.311">
+<l xml:id="l.1241">Geyza akarattyát nem viheté végben,</l>
+<l xml:id="l.1242">Nem engedé Isten elö menni ebben,</l>
+<l xml:id="l.1243">Kezei ferteztek mert keresztyén vérben</l>
+<l xml:id="l.1244">Az halál el vévé életét elsöben.</l>
+</lg>
+<lg xml:id="lg.312">
+<l xml:id="l.1245">Következöire néz a’ birodalom</l>
+<l xml:id="l.1246">Töle el veteték ez a’ diadalom</l>
+<l xml:id="l.1247">Másoknak adaték Istentöl hatalom</l>
+<l xml:id="l.1248">Mert réá erkezék az halálos álom.</l>
+</lg>
+</div>
+<div xml:id="d.6">
+<head type="subtitle">S. STEPHANUS</head>
+<lg xml:id="lg.313">
+<l xml:id="l.1249">Geyzának egy Fia mert lám szúletteték,</l>
+<l xml:id="l.1250">Az Elsö Mártyrtól ki jövendölteték,</l>
+<l xml:id="l.1251">Szent Albert Púspöktöl meg-keresztelteték,</l>
+<l xml:id="l.1252">Es az igaz hitben fel neveltetteték.</l>
+</lg>
+<lg xml:id="lg.314">
+<l xml:id="l.1253">Ez az igaz hitre hozá Nemzetségét,</l>
+<l xml:id="l.1254">Az Isten segité karja erösségét,</l>
+<l xml:id="l.1255">Ki Kupan<note type="critic" xml:id="note.141">Kupa, <persName>Koppány<idno type="ITIdata">Q147412</idno></persName></note> Herczegnek, rontá
+                            vitézségét,</l>
+<l xml:id="l.1256">Látá a’ Pogány Nép bátor mérézségét.</l>
+</lg>
+<lg xml:id="lg.315">
+<l xml:id="l.1257">Legh-elsö Királlya a’ Magyar Nemzetnek,</l>
+<l xml:id="l.1258">Romából hozaték Koronája ennek,</l>
+<l xml:id="l.1259">Jstentöl rendelve vólt e’ Nemzetségnek,</l>
+<l xml:id="l.1260">Hogy hellyre hozassék félelme Istennek.</l>
+</lg>
+<lg xml:id="lg.316">
+<l xml:id="l.1261">Aitatosságnak követöje e’ vólt,</l>
+<l xml:id="l.1262">Jo szélid erkölchel meg-virágozot vólt,</l>
+<l xml:id="l.1263">Ki Gyula Herczeget rabságban vette vólt,</l>
+<l xml:id="l.1264">Hogy Keresztyenségre hozza, oka e’ vólt.</l>
+</lg>
+<lg xml:id="lg.317">
+<l xml:id="l.1265">Horvátt, s Bulgárokra fegyverét forditá,</l>
+<l xml:id="l.1266">Az egész hadait ellenek inditá,</l>
+<l xml:id="l.1267">Nagy gyözedelemmel fegyver alá haytá,</l>
+<l xml:id="l.1268">Jsten Egy-házait kivel gazdagitá.</l>
+</lg>
+<lg xml:id="lg.318">
+<l xml:id="l.1269">Esztergamot látá Papi Ersekséggel,</l>
+<l xml:id="l.1270">Fejér-Várt<note type="critic" xml:id="note.142">Székesfehérvárt</note> tisztelé Papi
+                            ekességgel,</l>
+<l xml:id="l.1271">S Szent Mártont épité Szent Szerzetességgel,<note type="critic" xml:id="note.143">A sor
+                            <placeName>Pannonhalmára<idno type="ITIdata">Q18548</idno></placeName> utal.</note></l>
+<l xml:id="l.1272">Kiktöl tiszteltetnék Isten kegyességgel.</l>
+</lg>
+</div>
+<div xml:id="d.7">
+<head type="subtitle">PETRUS, ET ABA</head>
+<lg xml:id="lg.319">
+<l xml:id="l.1273">Egyetlen; egy fia szent Istvánnak vala,</l>
+<l xml:id="l.1274">Szep Iffiusagában ki virágzo vala,</l>
+<l xml:id="l.1275">Erre birodalom, s-Korona néz vala,</l>
+<l xml:id="l.1276">De job Koronára Isten hitta vala.</l>
+</lg>
+<lg xml:id="lg.320">
+<l xml:id="l.1277">Cheysla<note type="critic" xml:id="note.144">Kesla, Gizella, <persName>István<idno type="ITIdata">Q45560</idno></persName> király
+                                felesége</note> segite Pétert Királyságra,</l>
+<l xml:id="l.1278">Ez-is választaték a’ Birodalomra,</l>
+<l xml:id="l.1279">De kevely erkölche nem vezérlé jora</l>
+<l xml:id="l.1280">Ki néki fordúla az után kárára.</l>
+</lg>
+<lg xml:id="lg.321">
+<l xml:id="l.1281">Hamar ki vetteték ez a’ Királyságból,</l>
+<l xml:id="l.1282">Melly vermet Magyarnak ása álnokságból,</l>
+<l xml:id="l.1283">Azonban szakada nyaka Uraságból,</l>
+<l xml:id="l.1284">Szerencze le-veté e’ hatalmasságból.</l>
+</lg>
+<lg xml:id="lg.322">
+<l xml:id="l.1285">De mayd Hendrik Chászár<note type="critic" xml:id="note.145"><persName>III. Henrik<idno type="ITIdata">Q479409</idno></persName> német-római
+                                császár</note> hellyre hozá dolgát,</l>
+<l xml:id="l.1286">Megh-adá nekie kinczes Uraságát,</l>
+<l xml:id="l.1287">Abára<note type="critic" xml:id="note.146"><placeName>Aba Sámuel<idno type="ITIdata">Q237783</idno></placeName> <date from="1041" to="1044">1041–1044</date>
+                                közt uralkodott.</note> bizta vólt Magyar Királyságát,</l>
+<l xml:id="l.1288">De kegyetlenségre ez-is adta magát.</l>
+</lg>
+<lg xml:id="lg.323">
+<l xml:id="l.1289">Fene kegyetlenség Péterben termet vólt,</l>
+<l xml:id="l.1290">A’ kiért az Ország nem szenvedhette vólt,</l>
+<l xml:id="l.1291">Egy-más után kétszer is üzettetet vólt,</l>
+<l xml:id="l.1292">De viszont Hendriktöl viszsza hozatot vólt.</l>
+</lg>
+<lg xml:id="lg.324">
+<l xml:id="l.1293">Nyilas Magyarságtól Népe megh-öleték,</l>
+<l xml:id="l.1294">Német természetét el nem szenvedheték,</l>
+<l xml:id="l.1295">Magát megh-ragadván szeme ki-tolyaték,</l>
+<l xml:id="l.1296">Ki adván a’ lelkét Péczen temetteték.</l>
+</lg>
+</div>
+<div xml:id="d.8">
+<head type="subtitle">ANDREAS CUM LEVANTA</head>
+<lg xml:id="lg.325">
+<l xml:id="l.1297">Szam-ki-vetésben vólt Péter Királyságtól,</l>
+<l xml:id="l.1298">András és Levánta hogy a’ Magyarságtól,</l>
+<l xml:id="l.1299">Királlyá teteték, mert a’ Pogányságtól,</l>
+<l xml:id="l.1300">Vonyatot elméjek s a’ bálványozástól.<note type="critic" xml:id="note.147">147–148 a’
+                                Pogányságtól Vonyatot elméjek – a pogányság felé húztak.</note></l>
+</lg>
+<lg xml:id="lg.326">
+<l xml:id="l.1301">Véren menének-be ezek Királyságban,</l>
+<l xml:id="l.1302">Szent Gyerárdot<note type="critic" xml:id="note.148"><persName>Szent Gellértet<idno type="ITIdata">Q145382</idno></persName></note> ezek
+                            megh-ölék uttyokban,</l>
+<l xml:id="l.1303">Homályt hozának-be a’ világosságban,</l>
+<l xml:id="l.1304">Míg székek teheték bé az uraságban,</l>
+</lg>
+<lg xml:id="lg.327">
+<l xml:id="l.1305">A’ míg Birodalmok széllyel ki-áraszták,</l>
+<l xml:id="l.1306">A’ Pogány vakságra Népeket boczáták,</l>
+<l xml:id="l.1307">Egy-házi Rendeket kardra hányattaták,</l>
+<l xml:id="l.1308">De hamar a’ zablát szájokba meg-rántak.</l>
+</lg>
+<lg xml:id="lg.328">
+<l xml:id="l.1309">Véren epité fel András Királyságát,</l>
+<l xml:id="l.1310">Mellyben meg mutatá. Magyari vakságát,</l>
+<l xml:id="l.1311">Serénykedésével Levánta-is magát,</l>
+<l xml:id="l.1312">Vér szomjuzásában hagyá Pogányságát.</l>
+</lg>
+<lg xml:id="lg.329">
+<l xml:id="l.1313">De lás chuda dolgot, s hamar változását,</l>
+<l xml:id="l.1314">Edictummal valo nagy elö szollását</l>
+<l xml:id="l.1315">Andrásnak nagy hamar viszsza fordulását</l>
+<l xml:id="l.1316">Es Pogány hályognak szeméröl hullását.</l>
+</lg>
+<lg xml:id="lg.330">
+<l xml:id="l.1317">Népét kemenységgel vévé igaz hitre,</l>
+<l xml:id="l.1318">Chalárdságh sziniével be-mene a’ tisztre,</l>
+<l xml:id="l.1319">Szerzeteseket-is vön elöbbi rendre,</l>
+<l xml:id="l.1320">Föl epité öket Isten tiszteletre.</l>
+</lg>
+</div>
+<div xml:id="d.9">
+<head type="subtitle">ANDREAS ALMUS</head>
+<lg xml:id="lg.331">
+<l xml:id="l.1321">Magára Andrásra szálla a’ Királyságh</l>
+<l xml:id="l.1322">A’ kiben czak szinnel uyult vólt Pogányságh</l>
+<l xml:id="l.1323">A’ Keresztyén hittre uyonnan Magyarságh</l>
+<l xml:id="l.1324">Ettöl teritteték s az egész sokaságh.</l>
+</lg>
+<lg xml:id="lg.332">
+<l xml:id="l.1325">De nem soká lakék békével Országban,</l>
+<l xml:id="l.1326">Mert im Hendrik Czászár Péter-ért uyobban,<note type="critic" xml:id="note.149">A sor arra
+                            vonatkozik, hogy <persName>Péter<idno type="ITIdata">Q166311</idno></persName>
+<date when="1045">1045-ben</date> Magyarországot felajánlotta
+                            <persName>III. Henriknek<idno type="ITIdata">Q479409</idno></persName>.</note></l>
+<l xml:id="l.1327">Ellenséges-képpen jöve határában,</l>
+<l xml:id="l.1328">Posont-is meg-vévé elsö Ostromában.<note type="critic" xml:id="note.150"><placeName>Pozsonyt<idno type="ITIdata">Q468</idno></placeName> nem vette be, csak
+                                ostromolta.</note></l>
+</lg>
+<lg xml:id="lg.333">
+<l xml:id="l.1329">De Hendrik Czászár-is az árrát megh-adá,</l>
+<l xml:id="l.1330">Job részét hadának Magyar kardnak adá,</l>
+<l xml:id="l.1331">Vértesben mivelhogy ehségh el-ragadá,</l>
+<l xml:id="l.1332">Többé hogy ellenség nem lész azt fogadá.</l>
+</lg>
+<lg xml:id="lg.334">
+<l xml:id="l.1333">Ezért Salamonnak örök bizonyságul,</l>
+<l xml:id="l.1334">A’ Leányát adá mint drága zálágul,</l>
+<l xml:id="l.1335">Ajánlotta vala noha valoságul.</l>
+<l xml:id="l.1336">Franczia Királynak házastársaságul.</l>
+</lg>
+<lg xml:id="lg.335">
+<l xml:id="l.1337">Diplomában való békeség szerzésre</l>
+<l xml:id="l.1338">Megh esküvék Hendrik tellyes életére,</l>
+<l xml:id="l.1339">Többít-is átkozá kik ülnek székére</l>
+<l xml:id="l.1340">Hogy ha ellensegül térnek Magyar Népre.</l>
+</lg>
+<lg xml:id="lg.336">
+<l xml:id="l.1341">Kétt ezer szalannát, s-hatvan vizát külde,</l>
+<l xml:id="l.1342">Ezer ökör marha Hendrikhez erede,</l>
+<l xml:id="l.1343">Kenyérnek száma nincz hogy lenne ébéde,</l>
+<l xml:id="l.1344">Andrásnak kegyelme Nemetre terjedé.<note type="critic" xml:id="note.151">189–192 A sorok az
+                                    <date when="1051">1051-i</date> hadjáratra vonatkoznak;
+                            <persName>III. Henriknek<idno type="ITIdata">Q479409</idno></persName> a Vértesben bolygó serege ekkor kapott
+                                élelmet a magyaroktól.</note></l>
+</lg>
+</div>
+<div xml:id="d.10">
+<head type="subtitle">BELA PRIMUS</head>
+<lg xml:id="lg.337">
+<l xml:id="l.1345">András után Béla jüve Királyságban,</l>
+<l xml:id="l.1346">Istenessen forgot Országh dolgaiban,</l>
+<l xml:id="l.1347">A’ Keresztyén hitet meg uyétá jobban,</l>
+<l xml:id="l.1348">Ki Koronásztaték Szekes-Feiér-várban.</l>
+</lg>
+<lg xml:id="lg.338">
+<l xml:id="l.1349">Nagy békeségh vala ennek idejében,</l>
+<l xml:id="l.1350">Törvény folyást rendelt mert e’ legh elsöben,</l>
+<l xml:id="l.1351">A’ kin az igazság folyt régi üdöben</l>
+<l xml:id="l.1352">S-szép rend tartást szerze Ország közepében.</l>
+</lg>
+<lg xml:id="lg.339">
+<l xml:id="l.1353">Ennek idejében ismét a’ Magyar Nép</l>
+<l xml:id="l.1354">Ki keresztyénséggel az elött vala szép</l>
+<l xml:id="l.1355">Viszont Pogányságra aprolékonként lép</l>
+<l xml:id="l.1356">De e’ Bela elöt nem vala helyes, s ép.</l>
+</lg>
+<lg xml:id="lg.340">
+<l xml:id="l.1357">Nagy fene dühösség vezérlette öket,</l>
+<l xml:id="l.1358">Mert még a’ Pogányság gerjeszté sziveket,</l>
+<l xml:id="l.1359">Fegyver alá veték Egy-házi rendeket,</l>
+<l xml:id="l.1360">Sokan Mártyromul adák-ki lelkeket.</l>
+</lg>
+<lg xml:id="lg.341">
+<l xml:id="l.1361">Bujában a’ Király külde Magyarságra,</l>
+<l xml:id="l.1362">Ezért a’ vakságért hányassanak kardra,</l>
+<l xml:id="l.1363">Töbször ne legyenek e’ botránkozásra,</l>
+<l xml:id="l.1364">S-meltoknak itilé bizony az halálra.</l>
+</lg>
+<lg xml:id="lg.342">
+<l xml:id="l.1365">Ki végre Demesben<note type="critic" xml:id="note.152"><placeName>Dömösön<idno type="ITIdata">Q6537</idno></placeName></note> székéböl ki-esék,</l>
+<l xml:id="l.1366">Es gyogyulhatatlan betegségben esék,</l>
+<l xml:id="l.1367">Három esztendeig Királyságban késék,</l>
+<l xml:id="l.1368">Sixard<note type="critic" xml:id="note.153"><placeName>Szekszárd<idno type="ITIdata">Q205</idno></placeName></note> Kalastromban temetése esék.</l>
+</lg>
+</div>
+<div xml:id="d.11">
+<head type="subtitle">SALAMON</head>
+<lg xml:id="lg.343">
+<l xml:id="l.1369">Salamon fegyverrel jöve az Országban</l>
+<l xml:id="l.1370">S Czehek erejével<note type="critic" xml:id="note.154"><persName>IV. Henrik<idno type="ITIdata">Q479410</idno></persName>
+                                császár németjeivel.</note> szálla-be, Budában,</l>
+<l xml:id="l.1371">De ném lön Szerenczés az után dolgában,</l>
+<l xml:id="l.1372">A’ Szerencze ravasz vólt állapottyában.</l>
+</lg>
+<lg xml:id="lg.344">
+<l xml:id="l.1373">Geyzat nem szenvedé a’ Királyi székben,</l>
+<l xml:id="l.1374">Társul ö magának, s esék irigységben,</l>
+<l xml:id="l.1375">Noha Görógöket eggyes értelemben,</l>
+<l xml:id="l.1376">Ronták, és pusztiták Országok mindenben.</l>
+</lg>
+<lg xml:id="lg.345">
+<l xml:id="l.1377">De az el-nyert praedán megh nem alkhatának,</l>
+<l xml:id="l.1378">S a’ nyert jutalomon nem osztoshatának,</l>
+<l xml:id="l.1379">Ki miat mind ketten a’ kardhoz kapának,</l>
+<l xml:id="l.1380">S magok nemzetéböl sokat le-vágának.</l>
+</lg>
+<lg xml:id="lg.346">
+<l xml:id="l.1381">De megh-gyözé Geyza gyors vitézségével,</l>
+<l xml:id="l.1382">Salamont meg-veré tellyes erejével,</l>
+<l xml:id="l.1383">Ki veté Szekéböl gonosz erkölczével</l>
+<l xml:id="l.1384">S poenitentiara mélto erdemével.</l>
+</lg>
+<lg xml:id="lg.347">
+<l xml:id="l.1385">Jsten nem szenved-el soha gonozságot</l>
+<l xml:id="l.1386">Noha egy ideig tür-el mint joságot,</l>
+<l xml:id="l.1387">De hamar emberen tesz változoságot,</l>
+<l xml:id="l.1388">Homályban borit-el túndöklö világot,</l>
+</lg>
+<lg xml:id="lg.348">
+<l xml:id="l.1389">Király szekén kivül eletét végezé,</l>
+<l xml:id="l.1390">Mert a’ sok gonozság elméjét megh-gyözé,</l>
+<l xml:id="l.1391">Nyomoruság Lelkét testében-is fözé,</l>
+<l xml:id="l.1392">Baráti köntösben<note type="critic" xml:id="note.155">A hagyomány szerint remeteként
+                                halt meg.</note> holtig éltét üzé.</l>
+</lg>
+</div>
+<div xml:id="d.12">
+<head type="subtitle">GEYZA SECUNDUS</head>
+<lg xml:id="lg.349">
+<l xml:id="l.1393">Az elsö Belának fia Geyza Királ,</l>
+<l xml:id="l.1394">Salamont megh-vervén az Országh reá szál,</l>
+<l xml:id="l.1395">Joszágos dolgokban mint erös oszlop ál,</l>
+<l xml:id="l.1396">Nitray Púpökségh emlékezetül ál.</l>
+</lg>
+<lg xml:id="lg.350">
+<l xml:id="l.1397">Cálmánt, és az Almust két szép fiát nemzé,</l>
+<l xml:id="l.1398">Salamont, a’ Báttyát fegyverrel megh-gyözé,</l>
+<l xml:id="l.1399">Erös vitézséggel mind addiglan üzé,</l>
+<l xml:id="l.1400">A’ míg Orszagából meszsze földre üzé.</l>
+</lg>
+<lg xml:id="lg.351">
+<l xml:id="l.1401">Kinek idejeben támoda nagy ehség</l>
+<l xml:id="l.1402">Országunkban való türhetetlen inség</l>
+<l xml:id="l.1403">Egész Magyarságon nagy halálos szükség</l>
+<l xml:id="l.1404">Kit soha nem emlit emberi-Nemzetség.</l>
+</lg>
+<lg xml:id="lg.352">
+<l xml:id="l.1405">Jstenes élet vólt ennek fel-tött czéllya,</l>
+<l xml:id="l.1406">Untalan tündöklöt szent élet példája,</l>
+<l xml:id="l.1407">Örök Boldoghság vólt kiért ajándekja,</l>
+<l xml:id="l.1408">S Menyegben pediglen duczö Koronája.</l>
+</lg>
+<lg xml:id="lg.353">
+<l xml:id="l.1409">Kegyes, s Isten felö vólt Geyza dolgában,</l>
+<l xml:id="l.1410">Erös, s gyözedelmes hadakozasában</l>
+<l xml:id="l.1411">Mert szerencze nem vólt neki változásban</l>
+<l xml:id="l.1412"><app xml:id="app.22">
+<lem wit="#KK" xml:id="lem.22">Ez-ért nagy Királynak hiva<corr>t</corr>ot
+                                    Országban.</lem>
+<rdg wit="#W1" xml:id="rdg.22">hivavot</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.354">
+<l xml:id="l.1413">Az hálal nem nézé Királyi hatalmát,</l>
+<l xml:id="l.1414">Czak réá boritá hamar a’ mély almát,<note type="critic" xml:id="note.156">olv. álmát,
+                                álmot</note></l>
+<l xml:id="l.1415">Kezébül ki rantá az szep arany almát,</l>
+<l xml:id="l.1416">Váczban rakattatá testére az halmát.</l>
+</lg>
+</div>
+<div xml:id="d.13">
+<head type="subtitle">S. LADISLAUS</head>
+<lg xml:id="lg.355">
+<l xml:id="l.1417">Méltó Királyokká az Urak választák,</l>
+<l xml:id="l.1418">Királyi Szekere düchójül szoliták,</l>
+<l xml:id="l.1419">Ország Koronáját fejében adaták,</l>
+<l xml:id="l.1420">Nemessek Lászlonak féjeket megh-hayták.</l>
+</lg>
+<lg xml:id="lg.356">
+<l xml:id="l.1421">De Salamon sokszor akará ki üzni,</l>
+<l xml:id="l.1422">Szekéböl szemellyét magá-ért ki vetni,</l>
+<l xml:id="l.1423">E’ nagy méltoságban maga akart ülni,</l>
+<l xml:id="l.1424">De a’ uak szerencze nem kezde szolgálni.</l>
+</lg>
+<lg xml:id="lg.357">
+<l xml:id="l.1425">Lászlo Lengyeleket hadakkal fárasztá,</l>
+<l xml:id="l.1426">Es vér forrásokat bélölök áraszta,</l>
+<l xml:id="l.1427">Országában mindent békeségél tarta</l>
+<l xml:id="l.1428">Szép gyözedel-mivel Nepet tamogatta.</l>
+</lg>
+<lg xml:id="lg.358">
+<l xml:id="l.1429">De nem mehet-elö el-kezdet dolgában,</l>
+<l xml:id="l.1430">Nem lehet szerenczés fell tött szándékában,</l>
+<l xml:id="l.1431">Kivánsága a’ vólt hogy Palaestinában</l>
+<l xml:id="l.1432">Hadával be mennyen, s ronczon Poganyságban.</l>
+</lg>
+<lg xml:id="lg.359">
+<l xml:id="l.1433">Az Halál megh-fosztá hamar életétöl</l>
+<l xml:id="l.1434">Magához veteték Lelke Istenetöl,</l>
+<l xml:id="l.1435">Diczirtetet dolga Országban mindentöl,</l>
+<l xml:id="l.1436">Szentül-is megh-valék e’ Világi tisztöl.</l>
+</lg>
+<lg xml:id="lg.360">
+<l xml:id="l.1437">Nagy hasznára vólt ez a’ Magyar Országnak,</l>
+<l xml:id="l.1438">S szaporitására az Szent Koronának,</l>
+<l xml:id="l.1439">Mert im Országait Horváth Dalmatáknak,</l>
+<l xml:id="l.1440">Koronánkhoz rová s töb határainak.</l>
+</lg>
+</div>
+<div xml:id="d.14">
+<head type="subtitle">COLOMANNUS</head>
+<lg xml:id="lg.361">
+<l xml:id="l.1441">Almus<note type="critic" xml:id="note.157"><persName>Álmost</persName> szerette volna
+                            <persName>I. László<idno type="ITIdata">Q160950</idno></persName> király utódjául;
+                            <persName>Kálmánt<idno type="ITIdata">Q61909</idno></persName> papnak szánta, minthogy púpos,
+                                kancsal, sánta volt.</note> Successora vólt Lászlo Kiralynak,</l>
+<l xml:id="l.1442">De Kálmánra nézet szeme az Országnak,</l>
+<l xml:id="l.1443">Mert üdösseb vala, száma napjainak,</l>
+<l xml:id="l.1444">Ö kapá azert el székét Királyságnak.</l>
+</lg>
+<lg xml:id="lg.362">
+<l xml:id="l.1445">Magyarság alatta nagy sokat szenvedet,</l>
+<l xml:id="l.1446">Attya-fiak közöt zur-zavar eredet,</l>
+<l xml:id="l.1447">Nagy haboruság-is közöttök kezdödöt,</l>
+<l xml:id="l.1448">Mellyért az Országnak esze-is veszödöt.</l>
+</lg>
+<lg xml:id="lg.363">
+<l xml:id="l.1449">Mert nagy vér szomjuzás viselte ez Embért,</l>
+<l xml:id="l.1450">Nagy feneséggel bánt a’ kihez hozzá fért,</l>
+<l xml:id="l.1451">Vér ki ontás nélkül fegyvere megh nem tért,</l>
+<l xml:id="l.1452">Jdejében minden kegyetlenséget ért.</l>
+</lg>
+<lg xml:id="lg.364">
+<l xml:id="l.1453">Az Historikusok sokan azt beszéllik,</l>
+<l xml:id="l.1454">Hogy Váradi Püspök lött vólna itilik,</l>
+<l xml:id="l.1455">De Pápa engedte vólná azt remenlik,</l>
+<l xml:id="l.1456">Hogy Királlyá légyen sok közülök vélik.</l>
+</lg>
+<lg xml:id="lg.365">
+<l xml:id="l.1457">A’ Velenczésekkel nagy hadakat tarta,</l>
+<l xml:id="l.1458">Jádrát hatalmassan tölök viszsza vonta,<note type="critic" xml:id="note.158">viszsza vonta
+                                – meghódította</note></l>
+<l xml:id="l.1459">A’ rêgi mód szerint Királysághoz rótta,<note type="critic" xml:id="note.159">rótta – írta,
+                                csatolta</note></l>
+<l xml:id="l.1460">Es Dalmatiat-is le czillapitotta.</l>
+</lg>
+<lg xml:id="lg.366">
+<l xml:id="l.1461">Am hamar Almusnak szemét ki-tolyatá,</l>
+<l xml:id="l.1462">Bélát-is a’ fiát mert megh-vakittatá,</l>
+<l xml:id="l.1463">Ötet-is az halál hamar ragadtatá,</l>
+<l xml:id="l.1464">S Szekes-Fejér-Várban földben takartatá.</l>
+</lg>
+</div>
+<div xml:id="d.15">
+<head type="subtitle">STEPHANUS SECUNDUS</head>
+<lg xml:id="lg.367">
+<l xml:id="l.1465"><app xml:id="app.23">
+<lem wit="#KK" xml:id="lem.23">Elsö szülöt fia a’ Cá<corr>l</corr>mán
+                                    Királynak,</lem>
+<rdg wit="#W1" xml:id="rdg.23">Cámán</rdg>
+</app></l>
+<l xml:id="l.1466">Uráva tététek a’ Magyar Országnak,</l>
+<l xml:id="l.1467">Feier-várban vévé jélét Koronának</l>
+<l xml:id="l.1468">Régi modgya szerint a’ töb Királyoknak.</l>
+</lg>
+<lg xml:id="lg.368">
+<l xml:id="l.1469">Megh-állá boszuját ez a’ Lengyeleken,</l>
+<l xml:id="l.1470">Meg-forgatá kardgyát hamar a’ Czeheken,</l>
+<l xml:id="l.1471">Nagy czapást tön keze hamar mindeniken,</l>
+<l xml:id="l.1472">Attya boszujá-ért az ellenségeken.</l>
+</lg>
+<lg xml:id="lg.369">
+<l xml:id="l.1473">De nem lön szerenczés a’ Görögök ellen</l>
+<l xml:id="l.1474">Megh-jáczék itt az sors véle nagy éktelen</l>
+<l xml:id="l.1475">Mert megh-kelle térni futással hertelen</l>
+<l xml:id="l.1476">Melly dolog történék rayta reméntelen.</l>
+</lg>
+<lg xml:id="lg.370">
+<l xml:id="l.1477">Ezt Meny-ütö-könek<note type="critic" xml:id="note.160">mennykőnek</note> neveste
+                            vólt kösségh,</l>
+<l xml:id="l.1478">Mivelhogy viselte a’ nagy vak-meröségh,</l>
+<l xml:id="l.1479">Czak maga eszén járt, töre vólt remenségh,</l>
+<l xml:id="l.1480">Másoknak tanácza nála nem vólt szükségh.</l>
+</lg>
+<lg xml:id="lg.371">
+<l xml:id="l.1481">Hogy magtalan vóltát megh-ismérte vólna,</l>
+<l xml:id="l.1482">Magzatot ágyassa szülendö nem vólna,</l>
+<l xml:id="l.1483">E’ nagy méltoságra haszontalan vólna,</l>
+<l xml:id="l.1484">Hólta után másra az Királyság szálna.</l>
+</lg>
+<lg xml:id="lg.372">
+<l xml:id="l.1485">Országhtól megh-vála s Calastromban méne,</l>
+<l xml:id="l.1486">Hogy élete inkáb czendessegben lenne,</l>
+<l xml:id="l.1487">Egren<note type="critic" xml:id="note.161"><placeName>Egerben<idno type="ITIdata">Q277</idno></placeName></note> a’ testiböl lelke-is ki-méne,</l>
+<l xml:id="l.1488">Váradon temeték hogy ott porrá lenne.</l>
+</lg>
+</div>
+<div xml:id="d.16">
+<head type="subtitle">BELA SECUNDUS</head>
+<lg xml:id="lg.373">
+<l xml:id="l.1489">Kiralyi Nemzetböl Bela születteték,</l>
+<l xml:id="l.1490">E’ neven masodik Királlyá téteték,</l>
+<l xml:id="l.1491">Székes-Feiér-várban szekében ülteték</l>
+<l xml:id="l.1492">Szent Koronával-is ott tiszteltetteték.</l>
+</lg>
+<lg xml:id="lg.374">
+<l xml:id="l.1493">Kálmán irigysége a’ kit megh-vakita,</l>
+<l xml:id="l.1494">Holtig setétségben ok nélkül boczáta,</l>
+<l xml:id="l.1495">A’ nap világától tömlöczben szorita,</l>
+<l xml:id="l.1496">Mint rabot foghságban, homályban borita.</l>
+</lg>
+<lg xml:id="lg.375">
+<l xml:id="l.1497">Hellyessen viselé Országának gondgyát,</l>
+<l xml:id="l.1498">Mert az Igazságnak megh-vettete ágyát</l>
+<l xml:id="l.1499">Minden rend-tartásnak megh-vette volt modgyát</l>
+<l xml:id="l.1500">Nem szíta maganak szegénységnek fadgyát.<note type="critic" xml:id="note.162">fadgyát –
+                                zsírját</note></l>
+</lg>
+<lg xml:id="lg.376">
+<l xml:id="l.1501">Négy fiu magzattal Isten áldotta vólt,</l>
+<l xml:id="l.1502">Két szemei hellyét nyomossa<note type="critic" xml:id="note.163">jelentőssé, fontossá;
+                                hosszú életűvé</note> tette vólt,</l>
+<l xml:id="l.1503">Noha teste földben, de neve megh nem hólt,</l>
+<l xml:id="l.1504">Emlekezeti nagy Magyar Országban vólt.</l>
+</lg>
+<lg xml:id="lg.377">
+<l xml:id="l.1505">Borichus Herczeget<note type="critic" xml:id="note.164"><persName>Borichus
+                                    Borics</persName>.</note> Kálmánnak a’ fiát,</l>
+<l xml:id="l.1506">A’ ki Országának kivánta vólt sirját,<note type="critic" xml:id="note.165">zsírját</note></l>
+<l xml:id="l.1507">Futásra forditá, s el toré az iját,</l>
+<l xml:id="l.1508">Had támasztásának meg-adá a’ diát.</l>
+</lg>
+<lg xml:id="lg.378">
+<l xml:id="l.1509">Végre keresztyénien<note type="critic" xml:id="note.166">olv. keresztyénen, keresztény
+                                módon</note> végezé életét</l>
+<l xml:id="l.1510">Mert Geyzának hagyá Országának tisztét,</l>
+<l xml:id="l.1511">Nemzetünk siratá, nekie el estét,</l>
+<l xml:id="l.1512">Fejér-várott tévék Koporsoban testét.</l>
+</lg>
+</div>
+<div xml:id="d.17">
+<head type="subtitle">GEYZA TERTIVS</head>
+<lg xml:id="lg.379">
+<l xml:id="l.1513">Az harmadik Geyza másik Béla fia,</l>
+<l xml:id="l.1514">Ennek négy fia közt ki vólt nagyobbikja,</l>
+<l xml:id="l.1515">Joszágos dolgoknak fenyeskedö napja,</l>
+<l xml:id="l.1516">Lön Magyar Országnak Királlya s Istápja.</l>
+</lg>
+<lg xml:id="lg.380">
+<l xml:id="l.1517">Német, s Bavarusnak le-toré a’ szarvát,</l>
+<l xml:id="l.1518"><app xml:id="app.24">
+<lem wit="#KK" xml:id="lem.24">Austria-béliek megh-érzék a’
+                                    s<corr>z</corr>avát,</lem>
+<rdg wit="#W1" xml:id="rdg.24">savát</rdg>
+</app></l>
+<l xml:id="l.1519">Sött még Szászokra-is hatalmának hamvát,</l>
+<l xml:id="l.1520">Népek romlásával rá-boritá havát.</l>
+</lg>
+<lg xml:id="lg.381">
+<l xml:id="l.1521">Mivel Poson Várát el foglálták vala,<note type="critic" xml:id="note.167"><date when="1146">1146</date> tavaszán
+                                váratlanul foglalta el <persName>Borics</persName> német
+                                segítséggel; ez év szeptemberében azonban <persName>II.
+                                    Géza<idno type="ITIdata">Q59578</idno></persName> seregei fényes győzelmet arattak
+                            <placeName>Brucknál<idno type="ITIdata">Q14133</idno></placeName>. (Vö.
+                                a 371. sorral: betakarították Ausztria zsírját.)</note></l>
+<l xml:id="l.1522">Országa széleit dulva hatták vala,</l>
+<l xml:id="l.1523">Sirját Austriában bé takarták vala,</l>
+<l xml:id="l.1524">Kiért szégyen valva viszsza-térnek vala.</l>
+</lg>
+<lg xml:id="lg.382">
+<l xml:id="l.1525">Kiknek Praedájával Istennek áldozék</l>
+<l xml:id="l.1526">Ragadományokkal oltár illatozék</l>
+<l xml:id="l.1527">Istennek Egy-házá kinczekkel virágzék</l>
+<l xml:id="l.1528">S erös diadalma széllyel el ágazék.</l>
+</lg>
+<lg xml:id="lg.383">
+<l xml:id="l.1529">De mint kegyes Atya kezeit ki-nyujta,</l>
+<l xml:id="l.1530">Menyböl, mint Dávidot Ostorával sujtá,</l>
+<l xml:id="l.1531">Egész Országára haragját árasztá,</l>
+<l xml:id="l.1532">Országát éhséggel s népét látogatá.</l>
+</lg>
+<lg xml:id="lg.384">
+<l xml:id="l.1533">Négy fiu magzatot nemze országában,</l>
+<l xml:id="l.1534">Kiket successorul hagya hazájában,</l>
+<l xml:id="l.1535">Szentül végezödék élte futásában,</l>
+<l xml:id="l.1536">Teste nyugovék-megh székes-Feier-várban.</l>
+</lg>
+</div>
+<div xml:id="d.18">
+<head type="subtitle">STEPHANVS TERTIVS</head>
+<lg xml:id="lg.385">
+<l xml:id="l.1537">Harmadik Geyzának fia István Királ,</l>
+<l xml:id="l.1538">Mellyet a’ Kronika harmadiknak számlál,</l>
+<l xml:id="l.1539">Magyar Királyságban ez-is hátra nem ál,</l>
+<l xml:id="l.1540">Szerencze mert néki Koronáual szolgál.</l>
+</lg>
+<lg xml:id="lg.386">
+<l xml:id="l.1541">Sok had-viselêsét az irás beszélli</l>
+<l xml:id="l.1542">Es jeles dolgait Országunk szemléli</l>
+<l xml:id="l.1543">S düczö diadalmit az Egh-is hirdeti</l>
+<l xml:id="l.1544">Kinek dicziretét pennám-is neveli</l>
+</lg>
+<lg xml:id="lg.387">
+<l xml:id="l.1545">A’ Dalmatiában sok hadakat viselt,</l>
+<l xml:id="l.1546">Velenczesek ellen birodalmat emelt,</l>
+<l xml:id="l.1547">Számos seregével Országokat terhelt,</l>
+<l xml:id="l.1548">Kit jáczo szerencze szárnyára fel-emelt.</l>
+</lg>
+<lg xml:id="lg.388">
+<l xml:id="l.1549">Görögh Czászár ellen karját fel emelé,</l>
+<l xml:id="l.1550">Emmánuel hadát hamar el törölé,<note type="critic" xml:id="note.168">397–98 A görög
+                                császár, <persName>Manuel Komnenosz</persName>, <date from="1120" to="1180">1120–1180</date> közt élt.</note></l>
+<l xml:id="l.1551">Sok féle Nemzetség haragját kerülé</l>
+<l xml:id="l.1552">Hazank gyözedelmét naponként örulé,</l>
+</lg>
+<lg xml:id="lg.389">
+<l xml:id="l.1553">Össi<note type="critic" xml:id="note.169">őseinek fiától, <persName>IV.
+                                    Istvántól</persName></note> fiaitól nagy sokat szenvede,</l>
+<l xml:id="l.1554">Cáto-ként ki nekik, sokat-is engede,</l>
+<l xml:id="l.1555">De nagy türés után haragra gerjede,</l>
+<l xml:id="l.1556">S nagy boszszu-állásra ellenek erede:</l>
+</lg>
+<lg xml:id="lg.390">
+<l xml:id="l.1557">Lelke a’ testétöl mag nelkül megh-valék,</l>
+<l xml:id="l.1558">Száma napjainak azontol bé-telék</l>
+<l xml:id="l.1559">Nemzetünknek napja északra-is valék<note type="critic" xml:id="note.170">északra-is valék –
+                                rosszra fordult</note></l>
+<l xml:id="l.1560">Esztergamban teste por, s hamuvá válék.</l>
+</lg>
+</div>
+<div xml:id="d.19">
+<head type="subtitle">BELA TERTIVS</head>
+<lg xml:id="lg.391">
+<l xml:id="l.1561"><app xml:id="app.25">
+<lem wit="#KK" xml:id="lem.25">Geyza Nemzetéböl <corr>harmadik</corr>
+                                    Belára,</lem>
+<rdg wit="#W1" xml:id="rdg.25">negyedik</rdg>
+</app></l>
+<l xml:id="l.1562">A’ Királyságh szálla, czak önnön magára,</l>
+<l xml:id="l.1563">Birodalma után Egész Országára,</l>
+<l xml:id="l.1564">Nagy czendesség szálla megh-maradásokra.</l>
+</lg>
+<lg xml:id="lg.392">
+<l xml:id="l.1565">Mulatságh viselte Királyi elméjét,</l>
+<l xml:id="l.1566">Mert a’ nagy sulyos gond nem terhelte fejét,</l>
+<l xml:id="l.1567">Vraságnak szentelt Iffiuságh sengejét,</l>
+<l xml:id="l.1568">Mellyekkel mulatta job részén idejét.</l>
+</lg>
+<lg xml:id="lg.393">
+<l xml:id="l.1569">Ö Királyságában Mars nem fegyverkezet,</l>
+<l xml:id="l.1570">Szomszédsag ö véle nem-is ellenkezet,</l>
+<l xml:id="l.1571">Sohul semmi gondgya néki nem érkezet,</l>
+<l xml:id="l.1572">Másnak-is ártanni ö sem igyekezet.</l>
+</lg>
+<lg xml:id="lg.394">
+<l xml:id="l.1573">Kegyesség viselte, a’ vitézlö rendhez,</l>
+<l xml:id="l.1574">Jo voltát mutatta minden Emberekhez</l>
+<l xml:id="l.1575">Korona mélto vólt Királyi fejéhez,</l>
+<l xml:id="l.1576">Jgazsággal fordult a’ joknak igyéhez.</l>
+</lg>
+<lg xml:id="lg.395">
+<l xml:id="l.1577">Tolvayságban lévök kik Országban vóltak,</l>
+<l xml:id="l.1578">Hazájában széllyel a’ kik praedalkodtak,</l>
+<l xml:id="l.1579">Az uton-járokon erössakoskodtak,</l>
+<l xml:id="l.1580">Mélto büntetéssel megh-jutalmaztattak.</l>
+</lg>
+<lg xml:id="lg.396">
+<l xml:id="l.1581">Országunkban néki két fia marada,</l>
+<l xml:id="l.1582">A’ kiknek-is napjok réájok virrada,</l>
+<l xml:id="l.1583">Birodalom után elméjek fárada,</l>
+<l xml:id="l.1584">De vegre méltoság Imrere akada.</l>
+</lg>
+</div>
+<div xml:id="d.20">
+<head type="subtitle">EMERICVS</head>
+<lg xml:id="lg.397">
+<l xml:id="l.1585">Bèkessêgben tartá Imre az Országát,</l>
+<l xml:id="l.1586">Hadakozás nélkül tölté-el Világat,</l>
+<l xml:id="l.1587">Czendességben tartá kinczes Vraságát,</l>
+<l xml:id="l.1588">Nem dulá s pusztitá senki a’ Ioszágat.</l>
+</lg>
+<lg xml:id="lg.398">
+<l xml:id="l.1589">Ellenség ellene hadat nem mozditot,</l>
+<l xml:id="l.1590">Szomszéd fejedelmet barátsággal látot,</l>
+<l xml:id="l.1591">Gyülöség szivére senkitöl nem hatot,</l>
+<l xml:id="l.1592">Fegyveres hadakat melly okert nem tartot.</l>
+</lg>
+<lg xml:id="lg.399">
+<l xml:id="l.1593">Gygist követte<note type="critic" xml:id="note.171">Gyges lídiai király volt, de harcias
+                                fejedelem. így nem illik bele a gondolatsorba.
+                                    <persName>Listius</persName> azonban
+                            <persName>Imréről<idno type="ITIdata">Q252444</idno></persName> is irreális rajzot adott, hogy nem
+                                háborúskodott stb. Éppenúgy nem állja meg ez a helyét vele
+                                kapcsolatosan, mint pl. előzőleg <persName>III. Béla<idno type="ITIdata">Q41471</idno></persName>
+                                személyével összefüggésben sem.</note> vólt e’ minden dolgában,</l>
+<l xml:id="l.1594">Békesség czimeret viselte uyjában,</l>
+<l xml:id="l.1595">Nem-is gyönyörködöt, ez a’ fene Mársban,</l>
+<l xml:id="l.1596">Szomszéd Országokban való vér ontásban.</l>
+</lg>
+<lg xml:id="lg.400">
+<l xml:id="l.1597">Bellona fegyvere a’ vértöl nem tisztult,</l>
+<l xml:id="l.1598">Fegyverkedésétól senki megh nem busult,</l>
+<l xml:id="l.1599">Vér szomjuzo Pallás romlásra nem todult,</l>
+<l xml:id="l.1600">Mert békességes sors mindenekre fordult.</l>
+</lg>
+<lg xml:id="lg.401">
+<l xml:id="l.1601">Szánto, Vetö, földnek gyümölczét el vette,</l>
+<l xml:id="l.1602">S munkás szölö hegyét szabadon mivelte,</l>
+<l xml:id="l.1603">Szivét ellenségtöl senki nem féltette,</l>
+<l xml:id="l.1604">Ellenségnek hire nem-is rettentette.</l>
+</lg>
+<lg xml:id="lg.402">
+<l xml:id="l.1605">Kilencz esztendeig a’ Királyi tisztben,</l>
+<l xml:id="l.1606">Méltoságot viselt Imre életében,</l>
+<l xml:id="l.1607">Az után a’ Párkák ennyi idejében,</l>
+<l xml:id="l.1608">Eletét el-metzék, s temetteték Egren.</l>
+</lg>
+</div>
+<div xml:id="d.21">
+<head type="subtitle">LADISLAVS SECVNDVS</head>
+<lg xml:id="lg.403">
+<l xml:id="l.1609">A’ második Lászlo a’ Vak Béla fia,</l>
+<l xml:id="l.1610">Szerelmes Attyának szemének Vilagja,</l>
+<l xml:id="l.1611">Vénsége táplálo oltalma, s istápja,</l>
+<l xml:id="l.1612">Tellyes életenek reménye, s Oszlopia.</l>
+</lg>
+<lg xml:id="lg.404">
+<l xml:id="l.1613">Jffju idejében Világból szoliták,<note type="critic" xml:id="note.172">31 éves korában
+                                halt meg.</note></l>
+<l xml:id="l.1614">Elete virágját, homályban szoriták,</l>
+<l xml:id="l.1615">Királyi hatalmát semmive forditák,</l>
+<l xml:id="l.1616">Czak négy singh<note type="critic" xml:id="note.173">1 sing kb. 62 cm.</note> föld alá
+                            véletlen boriták.</l>
+</lg>
+<lg xml:id="lg.405">
+<l xml:id="l.1617">Aleg hatt holnapig visele Koronát,</l>
+<l xml:id="l.1618">Az halál el rantá a’ szép arany almát,</l>
+<l xml:id="l.1619">Meg-homalyositá minden diadalmát,</l>
+<l xml:id="l.1620">Sors réá boczátá az halálos álmát.</l>
+</lg>
+<lg xml:id="lg.406">
+<l xml:id="l.1621">Attya méltoságát felyül mullya vala,</l>
+<l xml:id="l.1622">Okoskodásá-val fel halladgya vala,</l>
+<l xml:id="l.1623">Joság, s tanáczával mert meg-dullya<note type="critic" xml:id="note.174">meggyőzi,
+                                felülmúlja</note> vala,</l>
+<l xml:id="l.1624">Kiralyi méltoságh véle termet vala.</l>
+</lg>
+<lg xml:id="lg.407">
+<l xml:id="l.1625">Hogy ha meg-tekinted joságát s visgálod,</l>
+<l xml:id="l.1626">Alkalmatossabnak Attyánál találod,</l>
+<l xml:id="l.1627">Fejedelemségre illendöbnek vallod,</l>
+<l xml:id="l.1628">Sok szép indulatit ha elö számlálod.</l>
+</lg>
+<lg xml:id="lg.408">
+<l xml:id="l.1629">De hamar mint virág szépsége hervada,</l>
+<l xml:id="l.1630">Mint a’ ki nyilt rósa ugyan megh-lankada,</l>
+<l xml:id="l.1631">Halál hálojára véletlen akada,</l>
+<l xml:id="l.1632">Fold alá a’ sirba be-rekesztek oda.</l>
+</lg>
+</div>
+<div xml:id="d.22">
+<head type="subtitle">ANDREAS SECVNDVS HIEROSOLYMITANVS</head>
+<lg xml:id="lg.409">
+<l xml:id="l.1633">Harmadik Bélának fia András Királ,</l>
+<l xml:id="l.1634"><app xml:id="app.26">
+<lem wit="#KK" xml:id="lem.26">Kire a’ s<corr>z</corr>erencze valóban
+                                    rá-talál,</lem>
+<rdg wit="#W1" xml:id="rdg.26">serencze</rdg>
+</app></l>
+<l xml:id="l.1635">Minden diadalom boldogságában ál,</l>
+<l xml:id="l.1636">Fejer-Várban réá Ország, s Korona szál.</l>
+</lg>
+<lg xml:id="lg.410">
+<l xml:id="l.1637">Házas társat véve a’ Német Némzetböl,</l>
+<l xml:id="l.1638">Getrudot magának, de Királyi Nemböl,</l>
+<l xml:id="l.1639">Szent Ersébet Aszszont ki szülé mehéböl</l>
+<l xml:id="l.1640">Belát, Kalmánt, s Andrást Isten kegyelméböl.</l>
+</lg>
+<lg xml:id="lg.411">
+<l xml:id="l.1641">Jerusálembeli méltán nevezteték,</l>
+<l xml:id="l.1642">Babyloni Szultán töle megh-vereték,</l>
+<l xml:id="l.1643">Nagy erös baj-vivás általa téteték,</l>
+<l xml:id="l.1644"><app xml:id="app.27">
+<lem wit="#KK" xml:id="lem.27">Ki által a’ szen<corr>t</corr> föld viszsza
+                                    foglaltaték.</lem>
+<rdg wit="#W1" xml:id="rdg.27">szend</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.412">
+<l xml:id="l.1645">Constántinápolyban a’ míg oda jutna,</l>
+<l xml:id="l.1646">Széles Asiában, hadakat inditna,</l>
+<l xml:id="l.1647">Getrudot a’ Bankban, hogy megh olte vólna,</l>
+<l xml:id="l.1648">Véletlen hozzája Bán-is jutot vólna.</l>
+</lg>
+<lg xml:id="lg.413">
+<l xml:id="l.1649">Mert Bán feleségét nagy vétekben ejté,</l>
+<l xml:id="l.1650">A’ Getrudnak öcze ágyát szeplösité,</l>
+<l xml:id="l.1651">Melly miat életét Királyné el veszté,</l>
+<l xml:id="l.1652">Bánkban fegyverevel, mert az földre ejté.</l>
+</lg>
+<lg xml:id="lg.414">
+<l xml:id="l.1653">Egész szabadságnak e’ lön a’ tükore,</l>
+<l xml:id="l.1654">Nemes Uraságot oszta vitézségre,</l>
+<l xml:id="l.1655">Diplomát irata emlekezetére,</l>
+<l xml:id="l.1656">Magyar Fejedelmek esküsznek a’ kire.<note type="critic" xml:id="note.175">501–504 A sorok
+                                az Aranybullára utalnak.</note></l>
+</lg>
+</div>
+<div xml:id="d.23">
+<head type="subtitle">BELA QVARTVS</head>
+<lg xml:id="lg.415">
+<l xml:id="l.1657">Negyedik Belára szálla a’ Királyságh,</l>
+<l xml:id="l.1658">Mellyet zengö szoval kiált a’ Magyarságh,</l>
+<l xml:id="l.1659">Kezében adassék erö, s hatalmasságh,</l>
+<l xml:id="l.1660">Köszönték minnyájan a’ Magyar Uraságh.</l>
+</lg>
+<lg xml:id="lg.416">
+<l xml:id="l.1661">Huszon ött esztendöt Attya után regnált,</l>
+<l xml:id="l.1662">A’ kit életében sok nyavalya talált,</l>
+<l xml:id="l.1663">Változandoságot Országában számlált,</l>
+<l xml:id="l.1664">De Királyságától e’ még-is megh nem vált.</l>
+</lg>
+<lg xml:id="lg.417">
+<l xml:id="l.1665">Ennek idejében Tatár nagy rablást tén,</l>
+<l xml:id="l.1666">Birodalmat véve Nemzetünknek vesztén,</l>
+<l xml:id="l.1667">Tenger mellé futa Vitezi esetén,</l>
+<l xml:id="l.1668">Három esztendeigh Tatár lakék kestén.<note type="critic" xml:id="note.176">olv. késtén,
+                                azaz késése miatt</note></l>
+</lg>
+<lg xml:id="lg.418">
+<l xml:id="l.1669">Rhodusból azonban segitsége jöve,</l>
+<l xml:id="l.1670">Frangepánok által birodalmot vöve,</l>
+<l xml:id="l.1671">Friderik Herczegre mérges nyilat löve,</l>
+<l xml:id="l.1672">Vy-helynél vitézül kit az földre töve.<note type="critic" xml:id="note.177">517–520
+                            <persName>IV. Béla<idno type="ITIdata">Q41476</idno></persName>
+                                Dalmáciában,
+                                        Veglia szigetén
+                                a Frangepánok védelme alatt vészelte át a tatárjárást. A
+                                    <persName>Babenbergi Frigyes</persName> elleni háborúban
+                                Frigyest egy Frangepán ölte meg a <placeName>németújhelyi<idno type="ITIdata">Q6608</idno></placeName> csatában.</note></l>
+</lg>
+<lg xml:id="lg.419">
+<l xml:id="l.1673">Ottocarus ellen nagy hadát inditá,</l>
+<l xml:id="l.1674">Morvánál hatalmát Czehekre forditá,</l>
+<l xml:id="l.1675">Hamburknál<note type="critic" xml:id="note.178"><placeName>Hainburgnál<idno type="ITIdata">Q23324</idno></placeName></note> ellenség erejét
+                            megh-rontá,</l>
+<l xml:id="l.1676">Nagy-szombat-varosát ki töböl rakatá.</l>
+</lg>
+<lg xml:id="lg.420">
+<l xml:id="l.1677">Aitatosságtól Király viselteték,</l>
+<l xml:id="l.1678">Joszágos dolgokban Lelke öltözteték,</l>
+<l xml:id="l.1679">Holta után a’ kik Istenhez követék,</l>
+<l xml:id="l.1680">Esztergamban teste földben temetteték.</l>
+</lg>
+</div>
+<div xml:id="d.24">
+<head type="subtitle">STEPHANUS QVARTUS</head>
+<lg xml:id="lg.421">
+<l xml:id="l.1681">Attya után lépék Kiralyi székében,<note type="critic" xml:id="note.179">A sor előtti
+                                címben Stephanus Qvartus helyett Qvintus a helyes. <persName>IV.
+                                    István<idno type="ITIdata">Q159362</idno></persName> már <date when="1165-04-11">1165. április
+                                        11-én</date> meghalt. <persName>V. István<idno type="ITIdata">Q249001</idno></persName>
+<date from="1270" to="1272">1270–1272</date> közt uralkodott.
+                            (<persName>Zsámbokinál<idno type="ITIdata">Q247408</idno></persName> is <persName>IV.
+                                    István</persName>!)</note></l>
+<l xml:id="l.1682">Hazánk Koronája teteték fejében,</l>
+<l xml:id="l.1683">Kinek diadalom adaték kezében,</l>
+<l xml:id="l.1684">Hátra nem maradot hadi szerenczében.</l>
+</lg>
+<lg xml:id="lg.422">
+<l xml:id="l.1685">Szerencze szárnyára eztet fel-emelé,</l>
+<l xml:id="l.1686">Egész Czeh Országot ereje el-telé,</l>
+<l xml:id="l.1687">Ottocarus Királyt haragja el törlé,</l>
+<l xml:id="l.1688">Ki Attyát megh-veré üzvén Hamburgh felé.</l>
+</lg>
+<lg xml:id="lg.423">
+<l xml:id="l.1689">A’ ki Bulgáriát adozová tévé,</l>
+<l xml:id="l.1690">Egész Mysiával<note type="critic" xml:id="note.180">Moesiával: a Duna és a Balkán-hegység
+                                közt.</note> hatalmában vévé,</l>
+<l xml:id="l.1691">Királyi pálczáját Koronánkhoz vévé,</l>
+<l xml:id="l.1692">Királyi hatalmát illy meszszire tévé.</l>
+</lg>
+<lg xml:id="lg.424">
+<l xml:id="l.1693">Lászlo, és Maria két gyermeke vala,</l>
+<l xml:id="l.1694">Léánya Károlnak hütös társa vala,<note type="critic" xml:id="note.181"><persName>Anjou
+                                    Károly</persName> nápolyi királynak volt a felesége.</note></l>
+<l xml:id="l.1695">Ki Marcellus Kárólt<note type="critic" xml:id="note.182">Martell Károlyt</note> ismét
+                            szülte vala,</l>
+<l xml:id="l.1696">Sicilia Országh a’ kit ural vala.</l>
+</lg>
+<lg xml:id="lg.425">
+<l xml:id="l.1697">Harmad-fél-esztendöt Kiralyi napjai,</l>
+<l xml:id="l.1698">Székében számláltak holnapi s orái,</l>
+<l xml:id="l.1699">Es szaporodtanak testi nyavalyái,</l>
+<l xml:id="l.1700">S megh-nehezettenek naponként tagjai.</l>
+</lg>
+<lg xml:id="lg.426">
+<l xml:id="l.1701">Ki-adá a’ Lelkét orája, el-telvén,</l>
+<l xml:id="l.1702">A’ kinek halálán Országh keseredvén</l>
+<l xml:id="l.1703">Testét Koporsoban, házában bé tévén,</l>
+<l xml:id="l.1704">Buda szigetében lön el-temetetvén.</l>
+</lg>
+</div>
+<div xml:id="d.25">
+<head type="subtitle">LADISLAVS TERTIVS</head>
+<lg xml:id="lg.427">
+<l xml:id="l.1705">Kun Lászlo harmadik Attyának szekében,</l>
+<l xml:id="l.1706">Ki-mulása után azon esztendöben,</l>
+<l xml:id="l.1707">Egész Uraságtól Korona fejében,</l>
+<l xml:id="l.1708">Téteték, s Magyar nép Urala mindenben.</l>
+</lg>
+<lg xml:id="lg.428">
+<l xml:id="l.1709">Czeheknek Királlyát amaz Ottocárust,</l>
+<l xml:id="l.1710">A’ ki eszi ellen fel-tette vólt laurust,</l>
+<l xml:id="l.1711">Hamar földre ejté mint az hervat Tirust.</l>
+<l xml:id="l.1712">S vele el-törölé hada-béli Chorust.</l>
+</lg>
+<lg xml:id="lg.429">
+<l xml:id="l.1713">Masodszor Tatárok ennek idejében,</l>
+<l xml:id="l.1714">Országunkat dulták iszszonyu inségben,</l>
+<l xml:id="l.1715">Pestigh el-hatának kegyetlenségekben,</l>
+<l xml:id="l.1716">Esztendöt töltének jo-lako földünkben.</l>
+</lg>
+<lg xml:id="lg.430">
+<l xml:id="l.1717">Vöve házas-társot ez Apuliából,</l>
+<l xml:id="l.1718">Káróly Király leányát<note type="critic" xml:id="note.183">két tagnak olvasandó</note> az
+                            Olasz Országból,</l>
+<l xml:id="l.1719">De viszont ki-tére hazasulásából,</l>
+<l xml:id="l.1720">S a’ Kun Léányához hayla kivánságból.</l>
+</lg>
+<lg xml:id="lg.431">
+<l xml:id="l.1721">Pápa Követével inteté vétkéröl,</l>
+<l xml:id="l.1722">Hogy mégh-viszsza téme gonosz életéröl,</l>
+<l xml:id="l.1723">Isten szerént élne s gondolna Lelkéröl,</l>
+<l xml:id="l.1724">Mivel számot adna mas világon erröl.</l>
+</lg>
+<lg xml:id="lg.432">
+<l xml:id="l.1725">Azonban Kunoktól Király megh-öleték,</l>
+<l xml:id="l.1726">A’ kikhez haylot vólt azoktól veszteték,</l>
+<l xml:id="l.1727">Nyavalyásul élte ott el-végezteték,</l>
+<l xml:id="l.1728">Keseredet teste halomban téteték.</l>
+</lg>
+</div>
+<div xml:id="d.26">
+<head type="subtitle">ANDREAS TERTIVS</head>
+<lg xml:id="lg.433">
+<l xml:id="l.1729">Az harmadik András Attyanák Czillaga,</l>
+<l xml:id="l.1730">Ötödik Istvánnak Nemzetséges ága,</l>
+<l xml:id="l.1731">Nemes Országunknak tündöklö világa,</l>
+<l xml:id="l.1732">Mint a’ mezöségnek szép ki-nyilt virága.</l>
+</lg>
+<lg xml:id="lg.434">
+<l xml:id="l.1733">Hazánknak el-véve fényes Koronáját,</l>
+<l xml:id="l.1734">Austriaijáknak le-töré a’ szárnyát,<note type="critic" xml:id="note.184"><persName>Habsburg
+                            Albertet<idno type="ITIdata">Q479417</idno></persName> kényszerítette békére, Magyarországról való
+                                lemondásra az <date when="1291-08-28">1291. augusztus 28-án</date>
+                                kötött békében.</note></l>
+<l xml:id="l.1735">Jo vitézségével mutatá a’ modgyát,</l>
+<l xml:id="l.1736">Egen-is hatalma megh-uyitá holdgyát.</l>
+</lg>
+<lg xml:id="lg.435">
+<l xml:id="l.1737">A’ Romai Pápa Cárolus Robertust,</l>
+<l xml:id="l.1738">Országára küldé hogy a’ Királyi just,</l>
+<l xml:id="l.1739">Magánák foglalná, s e’ düczö titulust,</l>
+<l xml:id="l.1740">Pápa fegyverére tün nevetö Rhytmust.<note type="critic" xml:id="note.185">A szóban forgó
+                                „Rhytmust” nem értjük, mi légyen.</note></l>
+</lg>
+<lg xml:id="lg.436">
+<l xml:id="l.1741">Meg czalá a’ koczka Pápa tett Királlyát,<note type="critic" xml:id="note.186"><persName>Martell
+                            Károlyt<idno type="ITIdata">Q166299</idno></persName></note></l>
+<l xml:id="l.1742">Szerencze el-töré hamar az Istápját,</l>
+<l xml:id="l.1743">Bánatra fordétá vigazságos napját,</l>
+<l xml:id="l.1744">Mert el nem kaphatá Országh Koronáját.</l>
+</lg>
+<lg xml:id="lg.437">
+<l xml:id="l.1745">Andrással termet vólt Királyi meltoságh,</l>
+<l xml:id="l.1746">Nem ijet árnyéktul e’ vitezi Joságh,</l>
+<l xml:id="l.1747">Noha jol ismérte hogy változandoságh,</l>
+<l xml:id="l.1748">Valamit Annya szül el hervadandoságh.</l>
+</lg>
+<lg xml:id="lg.438">
+<l xml:id="l.1749">Orája el-telvén le-fekvék ágyában,</l>
+<l xml:id="l.1750">Es nagy czendességben niugovék az Urban,</l>
+<l xml:id="l.1751">A’ Minoristáknal János Templomában,</l>
+<l xml:id="l.1752">El-temetése lön Buda Városában.</l>
+</lg>
+</div>
+<div xml:id="d.27">
+<head type="subtitle">CAROLVS ET VENCESLAVS</head>
+<lg xml:id="lg.439">
+<l xml:id="l.1753"><app xml:id="app.28">
+<lem wit="#KK" xml:id="lem.28">Carolust még kisde<corr>d</corr> iffiu
+                                        idéjeben,<note type="critic" xml:id="note.187"><persName>Károly
+                                            Róbert<idno type="ITIdata">Q162150</idno></persName>
+<date when="1288">1288-ban</date> született, <date when="1300">1300-ban</date> jött
+                                    Magyarországra.</note></lem>
+<rdg wit="#W1" xml:id="rdg.28">kisdet</rdg>
+</app></l>
+<l xml:id="l.1754">Nagy inséggel látá sors esztendejben,</l>
+<l xml:id="l.1755">Kevesen Urallák mert a’ Nemessegben</l>
+<l xml:id="l.1756">Attiát el-feleiték, ki vólt idejében.</l>
+</lg>
+<lg xml:id="lg.440">
+<l xml:id="l.1757">Országh megh hasomlék, Venceslaust<note type="critic" xml:id="note.188"><persName>II. Vencel<idno type="ITIdata">Q166869</idno></persName> cseh király fiát a magyar
+                                főurak egy része <date when="1301-08-27">1301. augusztus
+                                27-én</date> <placeName>Székesfehérváron<idno type="ITIdata">Q9555</idno></placeName> királlyá koronázta.</note> hozák,</l>
+<l xml:id="l.1758">Némelliek votumit nekie aldozák,</l>
+<l xml:id="l.1759">A’ Czeh Király fiát ellenere hozák,</l>
+<l xml:id="l.1760">Országánák részét mind addig futozák.</l>
+</lg>
+<lg xml:id="lg.441">
+<l xml:id="l.1761">Hamar megh-valtozék a’ szerencze sorsa,</l>
+<l xml:id="l.1762">Még a’ kösségnek-is ellene van voxa,</l>
+<l xml:id="l.1763">Károlynak adassék Országnak e’ jussa,</l>
+<l xml:id="l.1764">S ne legyen Vénce-nel semmi titulussa.</l>
+</lg>
+<lg xml:id="lg.442">
+<l xml:id="l.1765">Sok insége miát Attiához follyamék,</l>
+<l xml:id="l.1766">Ki Pesthez taborban hozzája erkezék,</l>
+<l xml:id="l.1767">Egy kevés ideig ottan mulatozék,</l>
+<l xml:id="l.1768">Míg fia tisztéböl Budan ki-öltözék.</l>
+</lg>
+<lg xml:id="lg.443">
+<l xml:id="l.1769">Koronát magokkal vivék Czeh Országban,</l>
+<l xml:id="l.1770">Mert hatalmok alat vala Királyságban,</l>
+<l xml:id="l.1771">Czak áz hirét hagiák itt Magyar Országban,</l>
+<l xml:id="l.1772">Ki-ert Nemzetségünk esék busulásban.</l>
+</lg>
+<lg xml:id="lg.444">
+<l xml:id="l.1773">Veszekedés után Király urálkodni</l>
+<l xml:id="l.1774">Kezde, mert az Ország kett Királyt uralni</l>
+<l xml:id="l.1775">Nem szenvede, mint ég ket napot viselni,</l>
+<l xml:id="l.1776">Ki szokot egy-mással gyakran ellenkezni.</l>
+</lg>
+</div>
+<div xml:id="d.28">
+<head type="subtitle">OTHO BAVARVS</head>
+<lg xml:id="lg.445">
+<l xml:id="l.1777">Bavaria-beli Otho, be-hozaték</l>
+<l xml:id="l.1778">Némely Magyarság-tul Királlyá téteték,</l>
+<l xml:id="l.1779">Székes Fejér-Várban megh-Koronáztaték,</l>
+<l xml:id="l.1780">Jlly nagy méltoság-gal föl-ékesétteték.</l>
+</lg>
+<lg xml:id="lg.446">
+<l xml:id="l.1781">Megh-hozá Koronát e’ Venceslaus-tul,<note type="critic" xml:id="note.189"><persName>Vencel<idno type="ITIdata">Q166869</idno></persName> apja halála után <date when="1305-10-09">1305. október 9-én</date> lemondott a magyar
+                                királyságról <persName>Ottó</persName> bajor herceg javára, akinek a
+                                koronát is átadta.</note></l>
+<l xml:id="l.1782"><app xml:id="app.29">
+<lem wit="#KK" xml:id="lem.29">Nép mellé adaték neki az
+                                    Orszá<corr>gt</corr>ul,</lem>
+<rdg wit="#W1" xml:id="rdg.29">Országktul</rdg>
+</app></l>
+<l xml:id="l.1783">Tiszteltetik vala egy nehány Uraktul,</l>
+<l xml:id="l.1784">Kedve uyul vala e’ nagy meltoságtul.</l>
+</lg>
+<lg xml:id="lg.447">
+<l xml:id="l.1785">Düczösség kivánás vévé Magyarságrá,</l>
+<l xml:id="l.1786">Hír s neu szomjuhozás ragadá világra</l>
+<l xml:id="l.1787">Az Országnak terhét vévé ö vállára,</l>
+<l xml:id="l.1788">Ugy tetszék hogy kelne mayd hamar szárniára.</l>
+</lg>
+<lg xml:id="lg.448">
+<l xml:id="l.1789">Oh vayha az Ember láthatna jövendöt!</l>
+<l xml:id="l.1790">S tudhatná mindenben a’ következendött!</l>
+<l xml:id="l.1791">Hivságnak alitna minden el-veszendött!</l>
+<l xml:id="l.1792">S elmeje tudhatná a’ megh-lehetendöt!</l>
+</lg>
+<lg xml:id="lg.449">
+<l xml:id="l.1793">Hamar megh-valtozék kedveskedö üdö,</l>
+<l xml:id="l.1794">Mert Othonak leve harmad fel estendö,</l>
+<l xml:id="l.1795">Nem zöldelle neki a’ szep Laurus Erdö,</l>
+<l xml:id="l.1796">A’ ki örömére vólt legh elsö kezdö,</l>
+</lg>
+<lg xml:id="lg.450">
+<l xml:id="l.1797">Az Erdelyi Wayda hamar megh-ragádá,<note type="critic" xml:id="note.190"><persName>László</persName> vajda ejtette foglyul <date when="1307-05">1307 májusában</date>, fogságából csak több mint
+                                egy esztendő múlva engedte szabadon.</note></l>
+<l xml:id="l.1798">Othot rabbá tévén foghság alá adá,</l>
+<l xml:id="l.1799">Országh oltalmára nem erdemés mondá,</l>
+<l xml:id="l.1800">Kinczét praedáltatván Országbúl ki-adá.</l>
+</lg>
+</div>
+<div xml:id="d.29">
+<head type="subtitle">CAROLUS PRIMUS PVER</head>
+<lg xml:id="lg.451">
+<l xml:id="l.1801">Az Ezer három száz és tiz Esztendöben,<note type="critic" xml:id="note.191"><persName>I.
+                            Károlyt<idno type="ITIdata">Q162150</idno></persName> a <persName>László</persName> erdélyi
+                                vajdától visszaszerzett koronával <date when="1310-08-27">1310.
+                                    augusztus 27-én</date> koronázták meg
+                                        <placeName>Székesfehérvárott<idno type="ITIdata">Q9555</idno></placeName>.</note></l>
+<l xml:id="l.1802">Károly Mártes<note type="critic" xml:id="note.192"><persName>Martell Károly<idno type="ITIdata">Q166299</idno></persName></note> fia a’ Királyi
+                            tisztben,</l>
+<l xml:id="l.1803">Lépék, noha gyermek s kizded idejében,</l>
+<l xml:id="l.1804">De reá erdemes, s mélto személlyében.</l>
+</lg>
+<lg xml:id="lg.452">
+<l xml:id="l.1805">Az egész Magyarságh mint Urát böczüllé,</l>
+<l xml:id="l.1806">Ekes Koronával fejét megh-tisztelé.</l>
+<l xml:id="l.1807">Szomszéd határokat hire-is el telé,</l>
+<l xml:id="l.1808">Végre gyözedelme méne étszak felé.</l>
+</lg>
+<lg xml:id="lg.453">
+<l xml:id="l.1809">Groff Trénczhéni Mathét<note type="critic" xml:id="note.193"><persName>Csák
+                            Mátét<idno type="ITIdata">Q334271</idno></persName></note> fegyver-rel meg-veré,</l>
+<l xml:id="l.1810">Hatalmas erejét megh-ronta és töré,</l>
+<l xml:id="l.1811">Minden birodalmát, s kinczet-is el-nyeré,</l>
+<l xml:id="l.1812">Kassán erejének keze végét eré.</l>
+</lg>
+<lg xml:id="lg.454">
+<l xml:id="l.1813">Hazánkat ki nem czhak kardal oltalmasta,</l>
+<l xml:id="l.1814">De széles határral megh-szaporétotta,</l>
+<l xml:id="l.1815">Szomszéd Királyokat hozzája haitotta,</l>
+<l xml:id="l.1816">Országh gyözedelmét meg sokasétotta.</l>
+</lg>
+<lg xml:id="lg.455">
+<l xml:id="l.1817">Dalmatát, Serviát, s Lodomerusokat,<note type="critic" xml:id="note.194">Lodoméria
+                                lakóit (Lodoméria a Bug folyó mentén feküdt).</note></l>
+<l xml:id="l.1818">Bussiát,<note type="critic" xml:id="note.195">sajtóhiba Russiát helyett,
+                                Kis-Oroszországot</note> Horvátot, s a’ Cummánusokat,<note type="critic" xml:id="note.196">a kunokat</note></l>
+<l xml:id="l.1819">Bosnia és Bulgar Országban valokat,</l>
+<l xml:id="l.1820">Birodalma alat megh-tartá azokat.</l>
+</lg>
+<lg xml:id="lg.456">
+<l xml:id="l.1821">Ennek idejében Sáska uralkodék,</l>
+<l xml:id="l.1822">Megh-szamlálhatatlan sokká szaporodék,</l>
+<l xml:id="l.1823">Országunknak kára kí-ert gyarapodék,</l>
+<l xml:id="l.1824">A’ kinek utánna éhségh öregbedék.</l>
+</lg>
+</div>
+<div xml:id="d.30">
+<head type="subtitle">LUDOVICVS PRIMVS</head>
+<lg xml:id="lg.457">
+<l xml:id="l.1825">Elsö Lajos Király mint szép drága virtus,</l>
+<l xml:id="l.1826">Páphos<note type="critic" xml:id="note.197">Venusnak szentelt város Ciprus szigetén.</note>
+                            szigetében illatozo myrthus,</l>
+<l xml:id="l.1827">Töb Királiok közöt fénlö Amethystus,</l>
+<l xml:id="l.1828">Ès nagy giözedelmü Vespasian Tythus.<note type="critic" xml:id="note.198"><persName>Titus
+                                    Flavius Vespasianus</persName> császár 70–79 közt
+                                uralkodott.</note></l>
+</lg>
+<lg xml:id="lg.458">
+<l xml:id="l.1829">Kirül emlekezet mind holtigh fön-marad,</l>
+<l xml:id="l.1830">Ennek diczhéreti mint a’ Tenger árad,</l>
+<l xml:id="l.1831">E’szakra enijszer napja-is fel-virrad,</l>
+<l xml:id="l.1832">Kik számlálásában az elme el-fárad.</l>
+</lg>
+<lg xml:id="lg.459">
+<l xml:id="l.1833">Mint Nagy Alexander sok hadakat viselt.</l>
+<l xml:id="l.1834">Melliet a’ szerenczhe Triumphussal keduelt,</l>
+<l xml:id="l.1835">S nagy düczhösségessen szárniára-is emelt,</l>
+<l xml:id="l.1836">Kinek ellenséget hire, s neve terhelt.</l>
+</lg>
+<lg xml:id="lg.460">
+<l xml:id="l.1837">E’ Kummánusokat Pogányi vallásbúl,</l>
+<l xml:id="l.1838">Jstenhez terété a’ setét vakságbúl,</l>
+<l xml:id="l.1839">Nap világra hozá a’ Lelki homálibúl,</l>
+<l xml:id="l.1840">Ès ki-szabadétá ördögi foghságbúl.</l>
+</lg>
+<lg xml:id="lg.461">
+<l xml:id="l.1841">Lengiel Királyság-ra e’ választattaték,</l>
+<l xml:id="l.1842">Korona s hatalom kezében adaték,</l>
+<l xml:id="l.1843">Királyi felségtül megh-körniekezteték,</l>
+<l xml:id="l.1844">Hire s birodalma, igy ki-terjeszteték.</l>
+</lg>
+<lg xml:id="lg.462">
+<l xml:id="l.1845">Fiu magzat nelkül hala-megh ágiában</l>
+<l xml:id="l.1846">Két Leánit hagiá a’ birodalomban,</l>
+<l xml:id="l.1847">Magiar nép halálát siratá valoban,</l>
+<l xml:id="l.1848">Három esztende-igh giaszolák Országban.</l>
+</lg>
+</div>
+<div xml:id="d.31">
+<head type="subtitle">MARIA REX</head>
+<lg xml:id="lg.463">
+<l xml:id="l.1849">Sok jo-têteménnye míg Lajos Királynak,</l>
+<l xml:id="l.1850">Emlekezetében vala az Országnak,</l>
+<l xml:id="l.1851">Ki-ert a’ Koronát adák Máriának</l>
+<l xml:id="l.1852">S egienlö szandék-kal tévek Királlioknak.</l>
+</lg>
+<lg xml:id="lg.464">
+<l xml:id="l.1853">Tarsul jegiezteték a’ Brandenburgusnak,</l>
+<l xml:id="l.1854">Hogy hütösse lenne Sigmond Marchionak,<note type="critic" xml:id="note.199">őrgrófnak
+                                (Zsigmond Brandenburg őrgrófja volt)</note></l>
+<l xml:id="l.1855">Raita vagion voxa nemes-s Uraságnak,</l>
+<l xml:id="l.1856">Kirallya lehessen az Egész Országnak.</l>
+</lg>
+<lg xml:id="lg.465">
+<l xml:id="l.1857">De kevés ideig tarta ez az hüségh,</l>
+<l xml:id="l.1858">Napja le-niugovék-s fordula setetségh,</l>
+<l xml:id="l.1859">Nem soká marada raita e’ tisztetségh,</l>
+<l xml:id="l.1860">Hamar körniekezé esze-veszö énsigh.</l>
+</lg>
+<lg xml:id="lg.466">
+<l xml:id="l.1861">Nehezen szenvedék Aszszony birodalmát,</l>
+<l xml:id="l.1862">Mert haylando elme-s Országnak oltalmat,</l>
+<l xml:id="l.1863">El nem viselheti s el-veszti jutalmát</l>
+<l xml:id="l.1864">Gondolák hogy másra bizzák Arany almát.</l>
+</lg>
+<lg xml:id="lg.467">
+<l xml:id="l.1865">Mindentül Országban hamar utáltaték,</l>
+<l xml:id="l.1866">Aszszony birodalma hatra vettetteték,</l>
+<l xml:id="l.1867">Ervendetes napja bura fordéttaték;</l>
+<l xml:id="l.1868"><app xml:id="app.30">
+<lem wit="#KK" xml:id="lem.30">Kiralné An<corr>ny</corr>ios-tul megh utáltattaték.</lem>
+<rdg wit="#W1" xml:id="rdg.30">Anynios-tul</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.468">
+<l xml:id="l.1869">Sok nyomoruságot szenvedet éltében,</l>
+<l xml:id="l.1870">Attia holta után, Országh közepében,</l>
+<l xml:id="l.1871">Sors megh jaczattattá s eitette törében<note type="critic" xml:id="note.200">A sor arra
+                            utal, hogy <persName>Máriát<idno type="ITIdata">Q66046</idno></persName> anyjával együtt a horvátok
+                                fogságba vetették. De míg anyját megölték, őt utóbb szabadon
+                                engedték.</note></l>
+<l xml:id="l.1872">Végre jóra fordult eseti mindenben.</l>
+</lg>
+</div>
+<div xml:id="d.32">
+<head type="subtitle">CAROLVS SECVNDVS</head>
+<lg xml:id="lg.469">
+<l xml:id="l.1873">Kis Karoli-ért kültek Urak Neapolyban,</l>
+<l xml:id="l.1874">Siessen be-jünni hogy Magiar Országban,</l>
+<l xml:id="l.1875">Részesülliön hamar elei jussában,</l>
+<l xml:id="l.1876">S Szállion bé hirtelen a’ Birodalomban,</l>
+</lg>
+<lg xml:id="lg.470">
+<l xml:id="l.1877">Nekie tartatik itt a’ Diadalom,</l>
+<l xml:id="l.1878">Kezében adatik Korona s hatalom,</l>
+<l xml:id="l.1879">Mert a’ Mariátul nem lehet oltalom,</l>
+<l xml:id="l.1880">Ki-ert eö rea néz egész birodalom.</l>
+</lg>
+<lg xml:id="lg.471">
+<l xml:id="l.1881">Föl giuita a’ szivet ez hir Cárolusnak,</l>
+<l xml:id="l.1882">Remenli magában dolgát boldogságnak,</l>
+<l xml:id="l.1883">Bizik hitetessen sors czalárdságának,</l>
+<l xml:id="l.1884">Nem tudgia mi vége lesz kezdet dolgának.</l>
+</lg>
+<lg xml:id="lg.472">
+<l xml:id="l.1885">Uttiait rendelé lépék az Országban,</l>
+<l xml:id="l.1886">Boldogh szerenczével szálla bé Budában,</l>
+<l xml:id="l.1887">Királynák nevezé magát valojában</l>
+<l xml:id="l.1888">De halal rekeszté rövid nap haloban.</l>
+</lg>
+<lg xml:id="lg.473">
+<l xml:id="l.1889">Bús szivel Maria ezt szemléli vala,</l>
+<l xml:id="l.1890">Hogy a’ Kiralyságbul ki vettetet vala,</l>
+<l xml:id="l.1891">De meg-is Budában ben-maradot vala,</l>
+<l xml:id="l.1892">Gara Palatinus tanáczloja vala.</l>
+</lg>
+<lg xml:id="lg.474">
+<l xml:id="l.1893">Király halálára Forgacz<note type="critic" xml:id="note.201"><persName>Forgách
+                            Balázs<idno type="ITIdata">Q139123</idno></persName> csákánnyal mért rá csapást hátulról.</note>
+                            fogattaték</l>
+<l xml:id="l.1894">Ketté vágá fejet, s töle megh-öleték</l>
+<l xml:id="l.1895">Máriának Országh igy visza-adaték,</l>
+<l xml:id="l.1896">Illy nagy jutalom-ért Gyemes-Vár<note type="critic" xml:id="note.202"><placeName>Ghymes<idno type="ITIdata">Q12819</idno></placeName>, Nyitra
+                                megyében</note> adaték.</l>
+</lg>
+</div>
+<div xml:id="d.33">
+<head type="subtitle">SIGISMVNDVS</head>
+<lg xml:id="lg.475">
+<l xml:id="l.1897">Sigmond tanul vala Jegyesse esetén,</l>
+<l xml:id="l.1898">Forgo szerenchének szörnyü történetén,</l>
+<l xml:id="l.1899">Kis Caroly Királynak véletlen el-vesztén,</l>
+<l xml:id="l.1900">E’ rut zur-zavarnak végén, es kezdetén.</l>
+</lg>
+<lg xml:id="lg.476">
+<l xml:id="l.1901">Meg-állá boszujat Bánon Máriának,</l>
+<l xml:id="l.1902">Megh-öle Partosit<note type="critic" xml:id="note.203">akik pártot ütöttek ellene,
+                                pártütőit</note> eö házas-társának,</l>
+<l xml:id="l.1903">Husz esztendö vala száma napjainak,</l>
+<l xml:id="l.1904">Urává tétetek hogy Magyar Országnak.</l>
+</lg>
+<lg xml:id="lg.477">
+<l xml:id="l.1905">Boldogh Chillag alat születettet vala,</l>
+<l xml:id="l.1906">Sigmondot vallá-ra sors emelte vala,</l>
+<l xml:id="l.1907">Magiar Királyság-bul Chászár-rá lött vala,</l>
+<l xml:id="l.1908">Pápa Eugenius Koronázta vala.</l>
+</lg>
+<lg xml:id="lg.478">
+<l xml:id="l.1909">Nagy giözédelmessen sok hadakat viselt,</l>
+<l xml:id="l.1910">Kit a’ forgando sors düchösségre emelt,</l>
+<l xml:id="l.1911">Nagy hirrel, es nevel e’ világon kedvelt,</l>
+<l xml:id="l.1912">Méltoság-ra vivén mindenekben tisztelt.</l>
+</lg>
+<lg xml:id="lg.479">
+<l xml:id="l.1913">De im Nicapolnál meg-chalá valoban,</l>
+<l xml:id="l.1914">Szerenche kereté hadastul háloban,</l>
+<l xml:id="l.1915">Amurat el-törle sokakat hadában,</l>
+<l xml:id="l.1916">Megh-chala-s jáczatá kezdet szandékában.<note type="critic" xml:id="note.204">761–764
+                            A <placeName>nikápolyi<idno type="ITIdata">Q16200</idno></placeName>
+                                csatában (<date when="1396-09-28">1396. szeptember 28.</date>) nem
+                            <persName>Murád<idno type="ITIdata">Q472249</idno></persName> szultán verte meg a keresztények
+                            seregét, hanem <persName>I. Bajazid<idno type="ITIdata">Q472251</idno></persName> (<date from="1389" to="1403">1389–1403</date>).</note></l>
+</lg>
+<lg xml:id="lg.480">
+<l xml:id="l.1917">A’ szerenche dolga álhatatlanságban,</l>
+<l xml:id="l.1918">Hellyheztetve vagyon chak forgandoságban,</l>
+<l xml:id="l.1919">Lelke im ki-mulék testé-bül Morvában,</l>
+<l xml:id="l.1920">Temetésé esek Wárad Templomában.</l>
+</lg>
+</div>
+<div xml:id="d.34">
+<head type="subtitle">ALBERTUS</head>
+<lg xml:id="lg.481">
+<l xml:id="l.1921">Fér-fi magzat nelkül Sigmond megh-holt vala,</l>
+<l xml:id="l.1922">Leania Ersébeth chak maradot vala,</l>
+<l xml:id="l.1923">Erre a’ Korona s Ország-is néz vala,</l>
+<l xml:id="l.1924">Mert más Királij mag e’ nélkül nem-vala.</l>
+</lg>
+<lg xml:id="lg.482">
+<l xml:id="l.1925">Albertnek adta vólt Attia életében,</l>
+<l xml:id="l.1926">Örök hazás-társul boldogh idejében,</l>
+<l xml:id="l.1927">Hogy Ország-s Korona réa jövendöben,</l>
+<l xml:id="l.1928">Szállanna, s Magiarságh tisztelné mindenben.</l>
+</lg>
+<lg xml:id="lg.483">
+<l xml:id="l.1929">Tetsék a’ végezés egész Uraságnak,</l>
+<l xml:id="l.1930">Raita lön votumjok Nemes státusoknak,</l>
+<l xml:id="l.1931">Sigmond holta után a’ Magyar Országnak,</l>
+<l xml:id="l.1932">E’ lön Fejedelme s töb határainak.</l>
+</lg>
+<lg xml:id="lg.484">
+<l xml:id="l.1933">Austriai Herczegh Albert az Országban,</l>
+<l xml:id="l.1934">Nem soká lön niomós<note type="critic" xml:id="note.205">lásd a 350. sor magyarázatát;
+                            <persName>Albert<idno type="ITIdata">Q237967</idno></persName> 2 évig uralkodott</note> hamar
+                            valtozásban,</l>
+<l xml:id="l.1935">Emberi természet mivel gyarloságban,</l>
+<l xml:id="l.1936">Helyheztetve vagion s el-mulandoságban.</l>
+</lg>
+<lg xml:id="lg.485">
+<l xml:id="l.1937">Az Huszitak ellen viselt chak hadakat,</l>
+<l xml:id="l.1938">Erös Ostromok-kal terhelte azokat,</l>
+<l xml:id="l.1939">Vélte szakaszthattia nekiek magvokát,</l>
+<l xml:id="l.1940">S-hogy még igaz hitre hosza minnyajokát.</l>
+</lg>
+<lg xml:id="lg.486">
+<l xml:id="l.1941">De kezdet szandéka nem mehete végben,</l>
+<l xml:id="l.1942">Párkák mert el-metszék fonalát elsöben,</l>
+<l xml:id="l.1943">Világbul ki-mulék legh-job idejében,<note type="critic" xml:id="note.206">42 éves korában
+                                halt meg.</note></l>
+<l xml:id="l.1944">Feiér-Várot tévek testet-is a’ földben.</l>
+</lg>
+</div>
+<div xml:id="d.35">
+<head type="subtitle">ELIZABETHA RELICTA ALBERTI</head>
+<lg xml:id="lg.487">
+<l xml:id="l.1945">Ersébet Albertul maradot terhessen,</l>
+<l xml:id="l.1946">Kiraly holta után méhe gyümölchössen,</l>
+<l xml:id="l.1947">Nem tudta fiu-magh vagy leány lehessen</l>
+<l xml:id="l.1948">Kire az Orszagnak szemei nézhessen.</l>
+</lg>
+<lg xml:id="lg.488">
+<l xml:id="l.1949">Akkoron az Orszagh Urak-kal tündöklött,</l>
+<l xml:id="l.1950">Okos Tanachok-kal mindenek-nel fénlett,</l>
+<l xml:id="l.1951">A’ kiknek elméjek Királyné-nal szénlett</l>
+<l xml:id="l.1952">Ország oltalmá-ra vitessege kellett.</l>
+</lg>
+<lg xml:id="lg.489">
+<l xml:id="l.1953">Királyné ezeket hivatá magához</l>
+<l xml:id="l.1954">Hogy ki mit mondana gyénge tánáchához,</l>
+<l xml:id="l.1955">Jo vólna latniok Orszagh oltalmához</l>
+<l xml:id="l.1956">Ki lenne jövendö, küldnének Királyhoz.</l>
+</lg>
+<lg xml:id="lg.490">
+<l xml:id="l.1957">Lengiel Király Öchét magokban választák,</l>
+<l xml:id="l.1958">Ki-hez követeket azontul inditák,</l>
+<l xml:id="l.1959">Az Vladislaust<note type="critic" xml:id="note.207">olv. Uladislaust</note> Budá-ra
+                            hivaták</l>
+<l xml:id="l.1960">Hogy Királliá légyen minnyajan kiáltyák.</l>
+</lg>
+<lg xml:id="lg.491">
+<l xml:id="l.1961">Azonban Ersébet szüle egy magzatot</l>
+<l xml:id="l.1962">Mígh Vládislaus Országban be-jutot</l>
+<l xml:id="l.1963">Menten az Urak-ban Budá-ra szolétot,</l>
+<l xml:id="l.1964">A’ szent Koroná-val kit Koronásztatot.<note type="critic" xml:id="note.208">A gyermek
+                                    <persName>Lajost</persName> <placeName>Székesfehérvárott<idno type="ITIdata">Q9555</idno></placeName> koronázták meg.</note></l>
+</lg>
+<lg xml:id="lg.492">
+<l xml:id="l.1965">Megh-bana Király-né illy hirtelenségét,</l>
+<l xml:id="l.1966">Magá-val el-vivé hazánk féniességét;</l>
+<l xml:id="l.1967">Friderik-hez<note type="critic" xml:id="note.209"><persName>III.
+                            Frigyeshez<idno type="ITIdata">Q347332</idno></persName></note> futa hogy ott látná végét</l>
+<l xml:id="l.1968">A’ míg születtének érné Emberségét.</l>
+</lg>
+</div>
+<div xml:id="d.36">
+<head type="subtitle">VLADISLAVS</head>
+<lg xml:id="lg.493">
+<l xml:id="l.1969">Az Vladislaus hazanknak Chillaga,</l>
+<l xml:id="l.1970">Mint szép Pálma-fának ki-terjedet ága,</l>
+<l xml:id="l.1971">Vitesseg-ben forgo szemünknek világa,</l>
+<l xml:id="l.1972">S sereny Marstul faizot Bellona virága.</l>
+</lg>
+<lg xml:id="lg.494">
+<l xml:id="l.1973">Hazánk oltalmára lépék ez Országban,</l>
+<l xml:id="l.1974">Mi síros földünket vövé oltalmában,</l>
+<l xml:id="l.1975">Az Urak-közt fénlék mint nap melegh nyárban,</l>
+<l xml:id="l.1976">A’ vagy mint Phosphorus tündöklö haynalban.</l>
+</lg>
+<lg xml:id="lg.495">
+<l xml:id="l.1977">Minnyájan kiáltiák megh-koronáztassék,</l>
+<l xml:id="l.1978">S a’ diadalomban hogy föl-öltöztessék,</l>
+<l xml:id="l.1979">De mivel Koronánk fel-ne-találtassék,</l>
+<l xml:id="l.1980">Szent István fejeben való ki-vétessék.<note type="critic" xml:id="note.210">A
+                            <persName>Szent István<idno type="ITIdata">Q45560</idno></persName> sírjáról levett koronával
+                                koronázták meg.</note></l>
+</lg>
+<lg xml:id="lg.496">
+<l xml:id="l.1981">E’ Reliquia-val ott megh-Koronázák,</l>
+<l xml:id="l.1982">Ès Király szekében Budá-ra be-hozák</l>
+<l xml:id="l.1983">Fejenként magokat nekie alázák</l>
+<l xml:id="l.1984">Ki-ért Egyhaz-rendek Miséket áldozak.</l>
+</lg>
+<lg xml:id="lg.497">
+<l xml:id="l.1985">Méltoságos neve örökén fen-marad</l>
+<l xml:id="l.1986">Nap-keletül fogva eszak-ra ki-árad,</l>
+<l xml:id="l.1987">Ès düchösségenek ága megh-nem-szárad,</l>
+<l xml:id="l.1988">Föld kerekségé-re míg a’ Nap fel-virrad.</l>
+</lg>
+<lg xml:id="lg.498">
+<l xml:id="l.1989">Pápa követé-tül Bulláját megh-érté,</l>
+<l xml:id="l.1990">Melly-el szövetségét, s hitit megh-szegété,</l>
+<l xml:id="l.1991">Amurates ellen erejet terjeszté</l>
+<l xml:id="l.1992">S Várnánál életét vitezül el-veszté.<note type="critic" xml:id="note.211">837–840 A
+                                szegedi békét a pápa biztatására megszegő királyt az <date when="1444">1444-i</date> <placeName>várnai<idno type="ITIdata">Q9097</idno></placeName> csatában <persName>II. Murád<idno type="ITIdata">Q472250</idno></persName> katonái
+                                a harcban megölték.</note></l>
+</lg>
+</div>
+<div xml:id="d.37">
+<head type="subtitle">LADISLAVS QVINTVS POSTHVMVS</head>
+<lg xml:id="lg.499">
+<l xml:id="l.1993">Friderik Chászártul Lászlo ki-hozaték</l>
+<l xml:id="l.1994">A’ ki Postumusnak Országban hivaték,</l>
+<l xml:id="l.1995">Ersébet Aszon-tul, s Alber-tul születék,</l>
+<l xml:id="l.1996">Ki kisded-korában megh-koronáztaték.</l>
+</lg>
+<lg xml:id="lg.500">
+<l xml:id="l.1997">Ennek idejeben Hunyadi gubernált,</l>
+<l xml:id="l.1998"><app xml:id="app.31">
+<lem wit="#KK" xml:id="lem.31">Melliet szerenczh<corr>é</corr>re vitesseg-gel
+                                    talált,</lem>
+<rdg wit="#W1" xml:id="rdg.31">Szerenczhre</rdg>
+</app></l>
+<l xml:id="l.1999">Bizántium-tul-is keresztienségh megh-vált,<note type="critic" xml:id="note.212">Bizáncot
+                                <date when="1453-05-29">1453. május 29-én</date> foglalta el a török.</note></l>
+<l xml:id="l.2000">Görögh birodalom ki-ért semmive vált.</l>
+</lg>
+<lg xml:id="lg.501">
+<l xml:id="l.2001">Mahumet megh-szállá Nandor-Fejer-Varát<note type="critic" xml:id="note.213"><placeName>Nándorfehérvár<idno type="ITIdata">Q208</idno></placeName>
+                                sikertelen ostroma <date when="1456">1456-ban</date>
+                            volt.</note></l>
+<l xml:id="l.2002">Király Pecz-re futa pusztán hadgia Várát</l>
+<l xml:id="l.2003">De Hunyadi által megh-adá az arrát,</l>
+<l xml:id="l.2004">Ki Kapistránus-sal tartá-megh határát.</l>
+</lg>
+<lg xml:id="lg.502">
+<l xml:id="l.2005">Esz-veszés<note type="critic" xml:id="note.214">olv. észveszés, észvesztés.
+                                Összeveszés?</note> történek Király udvárában</l>
+<l xml:id="l.2006">Celiai Groffot<note type="critic" xml:id="note.215"><persName>Cillei Ulrik<idno type="ITIdata">Q250106</idno></persName> ekkor
+                            kormányzó volt, de nem <persName>Hunyadi László<idno type="ITIdata">Q250633</idno></persName>, hanem a
+                                barátai szúrták le <placeName>Nándorfehérvárban<idno type="ITIdata">Q208</idno></placeName>.</note> Laszlo haragjában</l>
+<l xml:id="l.2007">Szabliá-val megh-öle kardos-kodásában,</l>
+<l xml:id="l.2008">Ki miat Máttyás-sal vetteték foghságban.</l>
+</lg>
+<lg xml:id="lg.503">
+<l xml:id="l.2009">Laszlot Vldrikus-ért itéllék halálra,</l>
+<l xml:id="l.2010">Király kegielmére ki-méne Budára,</l>
+<l xml:id="l.2011">Hiti ellen küldé hamar nyak-vágásra</l>
+<l xml:id="l.2012">Öchét pedigh Máttiást Pragai fogságra.</l>
+</lg>
+<lg xml:id="lg.504">
+<l xml:id="l.2013">Legh-elsö örömét müdön szolgáltatná,</l>
+<l xml:id="l.2014">Tizen nyolcz esztendött az iffiu számlálná</l>
+<l xml:id="l.2015">Hirtelen betegségh, s nyavalya találá</l>
+<l xml:id="l.2016">Prágában a’ Lelkét Istennek ayánlá.</l>
+</lg>
+</div>
+<div xml:id="d.38">
+<head type="subtitle">MATHIAS PRIMUS CORVINVS</head>
+<lg xml:id="lg.505">
+<l xml:id="l.2017">Magyar Királyok-kozt, Máttyás nem utolsó,</l>
+<l xml:id="l.2018">Szerenchének szárnyán sorsa nem-is alsó,</l>
+<l xml:id="l.2019">Mint üstökös Chillagh az Ègen futosó,</l>
+<l xml:id="l.2020">Pogány romlásá-ra halálos folyosó.</l>
+</lg>
+<lg xml:id="lg.506">
+<l xml:id="l.2021">Dicheretét ennek vallion, s mikent kezdgyem?</l>
+<l xml:id="l.2022">Jeles düchósséget pennam-ra mint végyem?</l>
+<l xml:id="l.2023">Ki-beszéllesé-re elmem mikent érjen?</l>
+<l xml:id="l.2024">Ki meltoságá-hoz, s személyé-hez férjen.</l>
+</lg>
+<lg xml:id="lg.507">
+<l xml:id="l.2025">Elméd bölczhességét hogy ha tekéntem-megh!</l>
+<l xml:id="l.2026"><app xml:id="app.32">
+<lem wit="#KK" xml:id="lem.32">Ekes hirrel s nevel vallion s k<corr>i
+                                    g</corr>yózhet-megh?</lem>
+<rdg wit="#W1" xml:id="rdg.32">kigyózhet-megh</rdg>
+</app></l>
+<l xml:id="l.2027">Fegyver s vitességel vallion, s ki dulhat-megh?</l>
+<l xml:id="l.2028">Sok giözédelmidet nem számlálhátom-megh?</l>
+</lg>
+<lg xml:id="lg.508">
+<l xml:id="l.2029">Mahumet, Friderik, és Lengiel Király-ra,</l>
+<l xml:id="l.2030">Egy esztendö álat illy hatalmasság-ra,</l>
+<l xml:id="l.2031">Eröd ki terjede ezek romlásá-ra,</l>
+<l xml:id="l.2032">Hadait kerété fené Márs kardod-ra.</l>
+</lg>
+<lg xml:id="lg.509">
+<l xml:id="l.2033">Ki vólt szomszédság-ban ki neked nem-enget?</l>
+<l xml:id="l.2034">Kardodnak erejen vagy diadalmat vett?</l>
+<l xml:id="l.2035">Austriaban Beczh-is mert adózo-vá lett,</l>
+<l xml:id="l.2036">Vyhel-is<note type="critic" xml:id="note.216"><placeName>Bécsújhely<idno type="ITIdata">Q6608</idno></placeName></note> te-neked soldos-fizetöd lett.</l>
+</lg>
+<lg xml:id="lg.510">
+<l xml:id="l.2037">Ugy annyra a’ Mars szivedet megh-giuitá,</l>
+<l xml:id="l.2038">A’ Czheh Királyság-ra elmédet fordétá,</l>
+<l xml:id="l.2039">Prága Koronajat fejed-ben nyométá,</l>
+<l xml:id="l.2040">Szerenchednek szárnyát megh sugárosétá.</l>
+</lg>
+</div>
+<div xml:id="d.39">
+<head type="subtitle">ULADISLAUS SECVNDVS</head>
+<lg xml:id="lg.511">
+<l xml:id="l.2041">Az Uladislaus Casimirus fia,</l>
+<l xml:id="l.2042">Királlya téteték-s a’ nemességh hija,</l>
+<l xml:id="l.2043">Máttyás holta után Koronáját birja,</l>
+<l xml:id="l.2044">Méltoságh kivánás mert elméjet vija.</l>
+</lg>
+<lg xml:id="lg.512">
+<l xml:id="l.2045">Maximilianus<note type="critic" xml:id="note.217"><persName>I. Miksa<idno type="ITIdata">Q479416</idno></persName>
+                                császár</note> Bechet viszsza-vévé,</l>
+<l xml:id="l.2046">Prukot-is<note type="critic" xml:id="note.218"><placeName>Bruckot<idno type="ITIdata">Q14133</idno></placeName></note> Uyhelly-el magajé-va tévé,</l>
+<l xml:id="l.2047">Székes-Feiér-várt-is Vespremmel el-nyere</l>
+<l xml:id="l.2048">De Uladislaus belöle ki-vére.</l>
+</lg>
+<lg xml:id="lg.513">
+<l xml:id="l.2049">Szekes-Feier-Várát,<note type="critic" xml:id="note.219">olv.
+                                        <placeName>Székesfehérváratt<idno type="ITIdata">Q9555</idno></placeName></note> szekében ulteték</l>
+<l xml:id="l.2050">Fejében Korona Èrsektül téteték</l>
+<l xml:id="l.2051">Egesz Magyarságh-tul megh Koronástaték</l>
+<l xml:id="l.2052">Orszagunk hatalma kezében adaték.</l>
+</lg>
+<lg xml:id="lg.514">
+<l xml:id="l.2053">Királysága alat Országh fel-posdula</l>
+<l xml:id="l.2054">Egesz Nemesség-re Parasztságh todula</l>
+<l xml:id="l.2055">Zapolai Janos de rajok randula,</l>
+<l xml:id="l.2056">Ki miat egy lábigh halálok fordula.<note type="critic" xml:id="note.220">901–904 Az <date when="1514">1514</date>-es parasztháborúra vonatkoznak a
+                                sorok.</note></l>
+</lg>
+<lg xml:id="lg.515">
+<l xml:id="l.2057">Parasztságh veszélie után lön békességh,</l>
+<l xml:id="l.2058">Egész Nemességh-közt igen nagy chendességh,</l>
+<l xml:id="l.2059">Királyt-is viselte a’ nagy együgyüségh,</l>
+<l xml:id="l.2060">Nem-fért elméje-héz fegyver-kedö inségh.</l>
+</lg>
+<lg xml:id="lg.516">
+<l xml:id="l.2061">Halála történik nekie Budában,</l>
+<l xml:id="l.2062">Az egész Magyarságh öltözteték giázban,</l>
+<l xml:id="l.2063">Teste be-téteték setét koporsoban,</l>
+<l xml:id="l.2064">Temetése esék Szekes-Feier-várban.</l>
+</lg>
+</div>
+<div xml:id="d.40">
+<div xml:id="d.41">
+<head type="subtitle">FRIDERICUS TERTIUS ET MAXIMILIANVS PRIMVS</head>
+<lg xml:id="lg.523">
+<l xml:id="l.2089">Maximilianus s Friderik harmadik,</l>
+<l xml:id="l.2090">A’ Királyi jussal, s nevel dichekedik,</l>
+<l xml:id="l.2091">Es Titulasá-val Ország-ban kérkedik,</l>
+<l xml:id="l.2092">De a’ Vetulus-sal<note type="critic" xml:id="note.222">Öregemberrel; <persName>I.
+                                Miksára<idno type="ITIdata">Q479416</idno></persName> vonatkozhatik, aki <date when="1519">1519-ben</date>, 61-ik életévében halt meg.</note> Lajos
+                                uralkodik.</l>
+</lg>
+<lg xml:id="lg.524">
+<l xml:id="l.2093">Szövetségh-vetesbül méltoságh furdalta,</l>
+<l xml:id="l.2094">Magat-is e’ szék-re méltonak vallotta,</l>
+<l xml:id="l.2095">Magyar Királyság-hoz közét alítata,</l>
+<l xml:id="l.2096">Holta utan Lajos neki ajanlotta.</l>
+</lg>
+<lg xml:id="lg.525">
+<l xml:id="l.2097">Regi végezés-bül a’ Koronát birjá,</l>
+<l xml:id="l.2098">Magh-nélkül ha Lajos szemeit bé-hunnia</l>
+<l xml:id="l.2099">Szerenchenek menten fel-vegie a’ szárnia</l>
+<l xml:id="l.2100">Nemesség-is neki Koronajat szannia</l>
+</lg>
+<lg xml:id="lg.526">
+<l xml:id="l.2101">Nagy emlekezetre szerenchessek voltak</l>
+<l xml:id="l.2102">Hatalmas erö-vel mind a’ ketten birtak</l>
+<l xml:id="l.2103">Nagy Chászári nembül, s Királyok-is voltak,</l>
+<l xml:id="l.2104">S-földi Fejdelmek közt elö-kelök voltak.</l>
+</lg>
+<lg xml:id="lg.527">
+<l xml:id="l.2105">Boldogh emlékezet fen-áll maradékán,</l>
+<l xml:id="l.2106">Dichéreti follyon emberek ajakán,</l>
+<l xml:id="l.2107">Fennies hire-s neve nappal és eszakán</l>
+<l xml:id="l.2108">Hogy el-ne-ragadgia iregységh a’ torkan.</l>
+</lg>
+<lg xml:id="lg.528">
+<l xml:id="l.2109">Ellien maradékjok-s szélliel ki-agazzon,</l>
+<l xml:id="l.2110">Mint a’ma Palma-fa giözedelmet hozzon,</l>
+<l xml:id="l.2111">Laurus-sal mind vég-ig kiket koronázzon,</l>
+<l xml:id="l.2112">Holtok-után Lelkek Egekben vigiázzon.</l>
+</lg>
+</div>
+</div>
+<div xml:id="d.42">
+<head type="subtitle">LUDOVICUS SECUNDUS</head>
+<lg xml:id="lg.529">
+<l xml:id="l.2113">Lajos bölchü-béli Attya idejeben,</l>
+<l xml:id="l.2114">Fényes Koronája teteték fejében,<note type="critic" xml:id="note.223"><persName>II.
+                            Lajos<idno type="ITIdata">Q60917</idno></persName> még nem volt két éves, mikor magyar királlyá
+                                koronázták.</note></l>
+<l xml:id="l.2115">Naponként öregbül hirében-s nevében,</l>
+<l xml:id="l.2116">Gyermekdéd esztendök válnak bölchességben.</l>
+</lg>
+<lg xml:id="lg.530">
+<l xml:id="l.2117">A’ Moháchi harcz-igh békességh viselte,</l>
+<l xml:id="l.2118">Háborut mint Attya soha sem kedvelte,</l>
+<l xml:id="l.2119">Maga chendességét, s mulatságit üzte</l>
+<l xml:id="l.2120">Királlyi elméjét kin gyöniörködtette.</l>
+</lg>
+<lg xml:id="lg.531">
+<l xml:id="l.2121">Hazánk reménsége-s két szemünk lett vólna,</l>
+<l xml:id="l.2122">Sötetség-ben mint nap-világunk lett volna,</l>
+<l xml:id="l.2123">Romulus második hazánkban lett volna,</l>
+<l xml:id="l.2124">Az irigy szerenche ha engette volna.</l>
+</lg>
+<lg xml:id="lg.532">
+<l xml:id="l.2125">A’ mígh urálkodék eö Királyságában,</l>
+<l xml:id="l.2126">Mindenhez kegies volt adakozásában,</l>
+<l xml:id="l.2127">Véle termet vala e’ joságh valoban,</l>
+<l xml:id="l.2128">Utolso-is nem volt bölczh tudománnyában.</l>
+</lg>
+<lg xml:id="lg.533">
+<l xml:id="l.2129">Mint áma Magnes-kö vont mindent magá-hoz,</l>
+<l xml:id="l.2130">Meszi Orszagok-ból jüttek udvará-hoz,</l>
+<l xml:id="l.2131">Vitezségre termet szép állapattiá-hoz</l>
+<l xml:id="l.2132">Mélto volt Királyságh szép ábrázattiá-hoz.</l>
+</lg>
+<lg xml:id="lg.534">
+<l xml:id="l.2133">De jáczo szerenche hamar megh-chufolá,</l>
+<l xml:id="l.2134">Mohách-nál véletlen az halál találá,</l>
+<l xml:id="l.2135">S-Sultan sulimánnak karjára ajánlá,</l>
+<l xml:id="l.2136">Kinek szép joságit Musam-is számlálá.<note type="critic" xml:id="note.224">A sorban
+                                    <persName>Listius</persName> a <hi rend="italic">Magyar
+                                    Márs</hi>-ra utal.</note></l>
+</lg>
+</div>
+<div xml:id="d.43">
+<head type="subtitle">IOANNES ZAPOLAI. COMES SCEPVSIENSIS</head>
+<lg xml:id="lg.535">
+<l xml:id="l.2137">Az Erdélyi Vayda Szepesi Groffság-bul,</l>
+<l xml:id="l.2138">Királyság-ra lépék sors választásá-bul,</l>
+<l xml:id="l.2139">Alkalmasnak véli magát hatalmá-bul,</l>
+<l xml:id="l.2140">Tisztinek felelhet kinches Tár-házá-bul.</l>
+</lg>
+<lg xml:id="lg.536">
+<l xml:id="l.2141">Egy része Országnak hozzaja hanyatlék,</l>
+<l xml:id="l.2142">Ferdinand-hoz másik mint Király-hoz hailék</l>
+<l xml:id="l.2143">Mind kettönek hire Ország-ban el-telék,</l>
+<l xml:id="l.2144">Kik közöt Nemzetünk kétt felé-is oszlék.</l>
+</lg>
+<lg xml:id="lg.537">
+<l xml:id="l.2145"><app xml:id="app.33">
+<lem wit="#KK" xml:id="lem.33">Ferdina<corr>n</corr>d Némettel jöve az
+                                    Ország-ra,</lem>
+<rdg wit="#W1" xml:id="rdg.33">Ferdinad</rdg>
+</app></l>
+<l xml:id="l.2146">Magyarok késerék Posony várasá-ra,</l>
+<l xml:id="l.2147">Zapolai pedigh Török-kel Budá-ra,</l>
+<l xml:id="l.2148">Feier-Vár-ban, méne a’ Koronázat-ra.</l>
+</lg>
+<lg xml:id="lg.538">
+<l xml:id="l.2149">Mind a’ kettö között a’ szerenche jáczik,</l>
+<l xml:id="l.2150"><app xml:id="app.34">
+<lem wit="#KK" xml:id="lem.34">Hol egy<corr>i</corr>k-s hol masik Királyságban
+                                    látsik,</lem>
+<rdg wit="#W1" xml:id="rdg.34">egyk</rdg>
+</app></l>
+<l xml:id="l.2151">Néha Ferdinandnak napja fel-is tetsik,</l>
+<l xml:id="l.2152">Az üdök forgási de viszont el-métsik.</l>
+</lg>
+<lg xml:id="lg.539">
+<l xml:id="l.2153">Mind addigh a’ szárnián erös Márs röpüle</l>
+<l xml:id="l.2154">Magiar Királyság-ban Ferdinánd örüle</l>
+<l xml:id="l.2155">Sors Zapolaitul hamar el-térüle</l>
+<l xml:id="l.2156">Buda Török kézben végtére kerüle.</l>
+</lg>
+<lg xml:id="lg.540">
+<l xml:id="l.2157">Tutorság-ban vévé Janos Királyt Szultán,</l>
+<l xml:id="l.2158">Kétszer megh-segété maga lova hátán,</l>
+<l xml:id="l.2159">Harmadszor-is jöve oltalmára Postán,</l>
+<l xml:id="l.2160">Maga hatalmá-ban Budat vévé oztan.</l>
+</lg>
+</div>
+<div xml:id="d.44">
+<head type="subtitle">FERDINANDUS PRIMUS</head>
+<lg xml:id="lg.541">
+<l xml:id="l.2161">Ferdinand be-jöve a’ birodalomban</l>
+<l xml:id="l.2162">Kinek az igasságh volt társa dolgában,</l>
+<l xml:id="l.2163">Igaz igye vala Magiar Királyságban,</l>
+<l xml:id="l.2164">Mert már Királyi magh nem-vala Országban.</l>
+</lg>
+<lg xml:id="lg.542">
+<l xml:id="l.2165">E’ Suliman ellen fel-emelé karjat</l>
+<l xml:id="l.2166">Sokszor Buda körül megh-forgatá kardgiat</l>
+<l xml:id="l.2167">De Bech álá lövé Suliman az ijat<note type="critic" xml:id="note.225"><persName>Szulimán<idno type="ITIdata">Q472033</idno></persName>
+<placeName>Bécset<idno type="ITIdata">Q99</idno></placeName> <date when="1529">1529-ben</date> vette ostrom alá.</note></l>
+<l xml:id="l.2168">A’ kinek végtére megh-adá a’ diát.</l>
+</lg>
+<lg xml:id="lg.543">
+<l xml:id="l.2169">Attyának mondhattiuk ezt Magiar Nemzetnek</l>
+<l xml:id="l.2170">Mert oltalmazoja régi Eleinknek</l>
+<l xml:id="l.2171">Ha e’ nem-lett volna io-lako-földünknek</l>
+<l xml:id="l.2172">Vége Török miát lett vólna mindennek.</l>
+</lg>
+<lg xml:id="lg.544">
+<l xml:id="l.2173">Harmicz nyolcz esztendö lön hadakozásban,</l>
+<l xml:id="l.2174">Hazánk oltalmazá maga arnyékában,</l>
+<l xml:id="l.2175">Pogány ne-lakoznék a’ mi hatarinkban,</l>
+<l xml:id="l.2176">Vér-ki-ontásával vólt kardoskodásban.</l>
+</lg>
+<lg xml:id="lg.545">
+<l xml:id="l.2177">Szekes-Feier-Várot lon a’ diadalom,<note type="critic" xml:id="note.226"><persName>Ferdinándot<idno type="ITIdata">Q254221</idno></persName> az <date when="1527-09-28">1527. szeptember 28-i</date>
+<placeName>székesfehérvári<idno type="ITIdata">Q9555</idno></placeName> országgyűlésen választották
+                                meg királlyá, ekkor koronázták meg.</note></l>
+<l xml:id="l.2178">Sok faratságá-ért Királyi jutalom,</l>
+<l xml:id="l.2179">Kezében adatot Országh és hatalom,</l>
+<l xml:id="l.2180">Hogy a’ Pogányságon légyen viadalom.</l>
+</lg>
+<lg xml:id="lg.546">
+<l xml:id="l.2181">Véres-vereitekit Isten megh hálállya,</l>
+<l xml:id="l.2182">Sok jo-téteménnyét ki elö-számlállya,</l>
+<l xml:id="l.2183">Empyreum Eget<note type="critic" xml:id="note.227">a felső eget</note> a’ Lelke
+                            megh-szállya,</l>
+<l xml:id="l.2184">Halhatatlanságnak napjait számlállya.</l>
+</lg>
+</div>
+<div xml:id="d.45">
+<head type="subtitle">MAXIMILIANVS SECVNDVS</head>
+<lg xml:id="lg.547">
+<l xml:id="l.2185">Marximilianus gyözedelmes kéz-zel,</l>
+<l xml:id="l.2186">Mellyet a’ szerenche nem-talált veszelly-el,</l>
+<l xml:id="l.2187">Ékes hire-s neve el-terjeget szélly-el,</l>
+<l xml:id="l.2188">Mellyet a’ nap-fény süt sugar erei-vel.</l>
+</lg>
+<lg xml:id="lg.548">
+<l xml:id="l.2189">Nagy-voltát maganak a’ neve viseli</l>
+<l xml:id="l.2190">Sok viselt dolgait a’ világh szemleli</l>
+<l xml:id="l.2191">Országh dichérettel az Egre emeli</l>
+<l xml:id="l.2192">Soha homalyos köd hirét nem-terheli.</l>
+</lg>
+<lg xml:id="lg.549">
+<l xml:id="l.2193">Hatt holnap alat ô! Ki volt e’ vilagon?</l>
+<l xml:id="l.2194">Harom Koronát<note type="critic" xml:id="note.228">A német-római császári, a magyar és a
+                                cseh koronát.</note> nyert illy nagy tágasságon,</l>
+<l xml:id="l.2195">Albertus Quintuson küvül illy joszagon,<note type="critic" xml:id="note.229">Ausztria
+                            hercegeként V. Albert, magyar királyként <persName>I. Albert<idno type="ITIdata">Q237967</idno></persName>, császárként II.
+                                Albert.</note></l>
+<l xml:id="l.2196">Ki megh-dulta volna mulando hiüságon.<note type="critic" xml:id="note.230">olv.
+                                hívságon</note></l>
+</lg>
+<lg xml:id="lg.550">
+<l xml:id="l.2197">Vonta mint egy Mágnes hazánknak szerelme,</l>
+<l xml:id="l.2198">Gond-viselésünknek nála volt értelme,</l>
+<l xml:id="l.2199">Noha romlásunk-ért giakran volt sérelme</l>
+<l xml:id="l.2200">De megh-vigasztalta viszont gyözedelme.</l>
+</lg>
+<lg xml:id="lg.551">
+<l xml:id="l.2201">Setet-ben melly kedves a’ szép világosságh,</l>
+<l xml:id="l.2202">Szomoruságh utan szép jeles vigásságh,</l>
+<l xml:id="l.2203">Kedves volt hazánkban e’ Királyi joságh,</l>
+<l xml:id="l.2204">Ki nemzetségünk-höz vólt erös igasságh.</l>
+</lg>
+<lg xml:id="lg.552">
+<l xml:id="l.2205">E’ volt kalauzza az en eleimnek</l>
+<l xml:id="l.2206">Megh-ekesétöje Nemes Nemzetémnek</l>
+<l xml:id="l.2207">Kinches remensége az Oláh Érseknek</l>
+<l xml:id="l.2208">S-Listius Janosnak a’ Györi Püspöknek.<note type="critic" xml:id="note.231">1029–1032
+                                    <persName>Listius László</persName> dédapja,
+                                    <persName>János<idno corresp="Listius János"/></persName>
+<date when="1576">1576-ban</date> <persName>Miksától<idno type="ITIdata">Q189310</idno></persName>
+                            adományban <placeName>Köpcsény<idno type="ITIdata">Q19412</idno></placeName>
+                                várát kapta.</note></l>
+</lg>
+</div>
+<div xml:id="d.46">
+<head type="subtitle">RVDOLPHVS SECVNDVS</head>
+<lg xml:id="lg.553">
+<l xml:id="l.2209">Rudolph-is nem kisseb töb Királyok közöt,<note type="critic" xml:id="note.232">Német-római császárként volt <persName>II. Rudolf<idno type="ITIdata">Q189096</idno></persName>.</note></l>
+<l xml:id="l.2210">Szerenche forgótta<note type="critic" xml:id="note.233">a. m. forgása</note> kiben
+                            nem-ütközöt,</l>
+<l xml:id="l.2211">Ki sok ellenséget gyakran megh-elözöt,</l>
+<l xml:id="l.2212">Erös diadalma s karja-is megh-giözöt.</l>
+</lg>
+<lg xml:id="lg.554">
+<l xml:id="l.2213">Düchöül viselte Magyar Királyságot,</l>
+<l xml:id="l.2214">Boldogul töltötte ez-is e’ világot,</l>
+<l xml:id="l.2215">Nagy Méltoságra-is hire s neve hágot,</l>
+<l xml:id="l.2216">Nap enyészetre-is bochátot világot.</l>
+</lg>
+<lg xml:id="lg.555">
+<l xml:id="l.2217">Török Chászár ellen nagy hadakat viselt,</l>
+<l xml:id="l.2218">Vitezkedésében kiket szeme kedvelt,</l>
+<l xml:id="l.2219">Tiszt-re s méltoság-ra azonnal fel-emelt,</l>
+<l xml:id="l.2220">S-mint egy gyümölczös-fát jutalom-mal terhelt.</l>
+</lg>
+<lg xml:id="lg.556">
+<l xml:id="l.2221">Világi düchösség ezt el-ragadta vólt,</l>
+<l xml:id="l.2222">Minden gyöniörüségh mint a’ víz reá-folyt,</l>
+<l xml:id="l.2223">Antonius másik<note type="critic" xml:id="note.234">második Antonius (Marcus Antonius, a
+                                triumvir)</note> ez a’ világban vólt,</l>
+<l xml:id="l.2224">Mulando hiusága soha megh-nem-szünt vólt.</l>
+</lg>
+<lg xml:id="lg.557">
+<l xml:id="l.2225">Méltán beszelhetem hasonlo Hectorhoz</l>
+<l xml:id="l.2226">Batorságh viselte hadakozásához</l>
+<l xml:id="l.2227">Nem tulaidonétot egienlöt magához</l>
+<l xml:id="l.2228">Mert ereje nagy volt ö Chászárságához.</l>
+</lg>
+<lg xml:id="lg.558">
+<l xml:id="l.2229">Az Imperiumi, és Magyar Koronát</l>
+<l xml:id="l.2230">Boldogul viselte s töltötte az orát,</l>
+<l xml:id="l.2231">Végtére megh-adá halálnak a’ torát</l>
+<l xml:id="l.2232">Mert betegh-agiában<note type="critic" xml:id="note.235">olv. betegágyában</note> megh-ivá
+                            pohárat</l>
+</lg>
+</div>
+<div xml:id="d.47">
+<head type="subtitle">MATHIAS SECVNDVS</head>
+<lg xml:id="lg.559">
+<l xml:id="l.2233">Masik Máttyás Király Rudolphusnak Öche,</l>
+<l xml:id="l.2234">Austriai Háznak Királyi giümölche</l>
+<l xml:id="l.2235">Prága felé szemlél szép Nemes erkölche</l>
+<l xml:id="l.2236">Hogy a’ Magyaroknak elméjet be-tölche.</l>
+</lg>
+<lg xml:id="lg.560">
+<l xml:id="l.2237">A’ szep diadalmat<note type="critic" xml:id="note.236">A’ szép diadalmat – a királyi
+                                koronát.</note> kit Rudolph tartot vólt,</l>
+<l xml:id="l.2238">Sok üdök-tül fogva Országunk-ban nem-vólt,</l>
+<l xml:id="l.2239">Egész Magyarságh-al e’ visza-hozta vólt</l>
+<l xml:id="l.2240">Posony Városában Koronáztatot vólt.</l>
+</lg>
+<lg xml:id="lg.561">
+<l xml:id="l.2241">Hunyadi Máttyásnak nevét megh-uyétá,</l>
+<l xml:id="l.2242">Régi hirét s neyét viszont ki-árasztá,</l>
+<l xml:id="l.2243">Niomdokat kövesse sok-kal kialtatá</l>
+<l xml:id="l.2244">Nagy hálá-adás-sal elméket farasztá.</l>
+</lg>
+<lg xml:id="lg.562">
+<l xml:id="l.2245">Cheh Országh Czimerét téteté fejeben,</l>
+<l xml:id="l.2246">Ennek-is Istápját vévé a’ kezében,</l>
+<l xml:id="l.2247">Nevét föl-iratá Királyok rendében</l>
+<l xml:id="l.2248">Emlékezéti-re jövendö üdöben.</l>
+</lg>
+<lg xml:id="lg.563">
+<l xml:id="l.2249">Ottomán nemzet-tel sok harczokat tartot</l>
+<l xml:id="l.2250">A’ kiknek alattok le-törte a’ partot,</l>
+<l xml:id="l.2251">Sok véres sebeket hadaikban osztot,</l>
+<l xml:id="l.2252">Vég-re életek-tül sokat-is megh-fosztot.<note type="critic" xml:id="note.237">1073–1076 A
+                                sorok állítása nem felel meg a valóságnak.</note></l>
+</lg>
+<lg xml:id="lg.564">
+<l xml:id="l.2253">Diadalma után Lelkét ki-ereszté,</l>
+<l xml:id="l.2254">Másik Ferdinánd-ra Országát ereszté</l>
+<l xml:id="l.2255">Minden birodalmát reája terjeszté</l>
+<l xml:id="l.2256">S a’ Béch Városában testét temetteté.</l>
+</lg>
+</div>
+<div xml:id="d.48">
+<head type="subtitle">FERDINANDVS SECVNDVS</head>
+<lg xml:id="lg.565">
+<l xml:id="l.2257">Austriai Ház-bol, fenyes-kédö, Titán,</l>
+<l xml:id="l.2258">Hazánk-ban világot te adtál vólt méltán,</l>
+<l xml:id="l.2259">Föld-is chudálkozot a’ kinek nagy-voltán,</l>
+<l xml:id="l.2260">Tégedet mondhatiak Phaétonnak<note type="critic" xml:id="note.238">világoskodónak,
+                                Napnak</note> méltán.</l>
+</lg>
+<lg xml:id="lg.566">
+<l xml:id="l.2261">Megh-nem-alut benned kegyességh sikrája,</l>
+<l xml:id="l.2262">Isteni-joságnak fel-giuitot a’ lángja,</l>
+<l xml:id="l.2263">Az Egre fel-hatot nyelvednék a’ hangia,</l>
+<l xml:id="l.2264"><app xml:id="app.35">
+<lem wit="#KK" xml:id="lem.35">S föld kerekségének nem fogja
+                                    ho<corr>má</corr>llya.</lem>
+<rdg wit="#W1" xml:id="rdg.35">homlállya</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.567">
+<l xml:id="l.2265">Az Isten veled vólt sok háboruid-ban,</l>
+<l xml:id="l.2266"><app xml:id="app.36">
+<lem wit="#KK" xml:id="lem.36">Nem-hagiot-el tége<corr>d</corr>
+                                    látogatási-ban,</lem>
+<rdg wit="#W1" xml:id="rdg.36">téget</rdg>
+</app></l>
+<l xml:id="l.2267">Noha mint szent, Iobot bochatot probá-ban,</l>
+<l xml:id="l.2268">De viszont hozzá-vött kegies irgalmá-ban.</l>
+</lg>
+<lg xml:id="lg.568">
+<l xml:id="l.2269">A’ keresztyen-vállást kardal oltalmaztad,</l>
+<l xml:id="l.2270">Saniaruságidban el-nem-boritottad</l>
+<l xml:id="l.2271">Orszagodnak ki-ért nagy inséget láttad</l>
+<l xml:id="l.2272">Szent Peter hajoját vér-rel tamogattad.<note type="critic" xml:id="note.239">1093–1096
+                            <persName>II. Ferdinánd<idno type="ITIdata">Q160966</idno></persName> kíméletlenül üldözte a
+                                protestánsokat, a harmincéves háború vezéralakja volt.</note></l>
+</lg>
+<lg xml:id="lg.569">
+<l xml:id="l.2273">Holl szerenche föl vött, hol megh el-eresztöt,</l>
+<l xml:id="l.2274">De viszont mint Rárót karjá-ra keretöt</l>
+<l xml:id="l.2275">Szerenche szárnyá-ra, s röpülés-re föl-vött</l>
+<l xml:id="l.2276">Ellenségid ellen giözedelmessé tött.</l>
+</lg>
+<lg xml:id="lg.570">
+<l xml:id="l.2277">Még az hol fékszel-is aldot legien a’ föld,</l>
+<l xml:id="l.2278">Temetésed körül Laurus legien szép zöld,</l>
+<l xml:id="l.2279">Ott a’ nap villamlyon, s be-ne-fogja a’ köd</l>
+<l xml:id="l.2280">örok boldoghság-ban nyugodgiek a’ Lelköd.</l>
+</lg>
+</div>
+<div xml:id="d.49">
+<head type="subtitle">FERDINANDUS TERTIVS</head>
+<lg xml:id="lg.571">
+<l xml:id="l.2281">Szép ékes Phosphorus az haynal viselö,</l>
+<l xml:id="l.2282">Ekes hir-rel-nével Hesperus-ban fénlö<note type="critic" xml:id="note.240">1105–1106
+                                Phosphorus a hajnal-, Hesperus az esthajnalcsillag.</note></l>
+<l xml:id="l.2283">Austriai Házban mint a’ nap tündöklö</l>
+<l xml:id="l.2284">S Romai-Vallásban kegies Isten félö.</l>
+</lg>
+<lg xml:id="lg.572">
+<l xml:id="l.2285">Az Eg-re magassan szavárványod<note type="critic" xml:id="note.241">szivárványod</note>
+                            föl-jüt</l>
+<l xml:id="l.2286">Erödnek sugárja Tartományokra süt,</l>
+<l xml:id="l.2287">Ellenkezöidnek a’ szivök-re be-üt,</l>
+<l xml:id="l.2288">Hatalmasságodnak a’ napja-is föl-jüt.</l>
+</lg>
+<lg xml:id="lg.573">
+<l xml:id="l.2289">A’ mígh az Egh fen-al s a’ föld-is el-romlik,</l>
+<l xml:id="l.2290">Nemzetednek ága soha megh-nem-bomlik,</l>
+<l xml:id="l.2291">Elöb egész Világh mind eggiüve omlik,</l>
+<l xml:id="l.2292">Hogy sem Chászárságh-tul Austria el-valik.</l>
+</lg>
+<lg xml:id="lg.574">
+<l xml:id="l.2293">Bár minden erejét elmém elö-végye</l>
+<l xml:id="l.2294">S egész tehetségét Rhytmusok-ban tégie,</l>
+<l xml:id="l.2295">A’ kilencz Musát-is segetség-ül vegie,</l>
+<l xml:id="l.2296">Lehetetlen dologh velek-is fel-érje.</l>
+</lg>
+<lg xml:id="lg.575">
+<l xml:id="l.2297">Hogy dichéretedet elö-számlálhassa,</l>
+<l xml:id="l.2298">Még az Apollo-is<note type="critic" xml:id="note.242">utána értendő: kevés</note>
+                            megh-magiarázhassa,</l>
+<l xml:id="l.2299">S viselt dolgaidát nielvé-re hozhassa,</l>
+<l xml:id="l.2300">Nagy méltoságodnak erdemeseb jussa.</l>
+</lg>
+<lg xml:id="lg.576">
+<l xml:id="l.2301">Elly sokáigh s Nestort<note type="critic" xml:id="note.243">A trójai Nesztórt
+                                Apollón hosszú élettel ajándékozta meg.</note> üdö-vel
+                            megh-dulliad,</l>
+<l xml:id="l.2302">Tündöklö élet-tel Pythiust<note type="critic" xml:id="note.244">Delphoinak és környékének
+                                lakója; a Pythia (Apollón papnője Delphoiban) szóval lehet
+                                összefüggésben, s mint ilyen természetfeletti tulajdonságot
+                                jelez.</note> fel-mullyad,</l>
+<l xml:id="l.2303">Avagy Deiphobus<note type="critic" xml:id="note.245">Kiváló trójai hős, akin a görögök
+                                kegyetlen bosszút álltak. Nem túlságosan illik neve a hízelgő
+                                sorokbá.</note> napjait szamlallyad,</l>
+<l xml:id="l.2304">Gyözedelmid után az Eget megh-szallyad.</l>
+</lg>
+</div>
+<div xml:id="d.50">
+<head type="subtitle">FERDINANDVS QVARTVS</head>
+<lg xml:id="lg.577">
+<l xml:id="l.2305">Negyedik Ferdinánd Királyi Apollo</l>
+<l xml:id="l.2306">Hazánk oltalmára strása és ör-állo,</l>
+<l xml:id="l.2307">Kösségh Nemzetünk-ért, s Isten-ért harczolo,</l>
+<l xml:id="l.2308">Az irgalmasságra kegiességgel haylo.</l>
+</lg>
+<lg xml:id="lg.578">
+<l xml:id="l.2309">Mint Pünkösdi Rosa ékes Kikelétben,</l>
+<l xml:id="l.2310">Zöldellik mint Ciprus elsö sengejében,</l>
+<l xml:id="l.2311">Cinnamon<note type="critic" xml:id="note.246">Cinnamum = fahéj</note> füstölögh minden
+                            idejében,</l>
+<l xml:id="l.2312">Mint a’ Viola van gyönyörüségében.</l>
+</lg>
+<lg xml:id="lg.579">
+<l xml:id="l.2313">Salamont megh-dullia minden düczösséggel,</l>
+<l xml:id="l.2314">Büvelkedik ékes mezei szépséggel,</l>
+<l xml:id="l.2315">Ayakin nectár folly nagy gyönyörüséggel,</l>
+<l xml:id="l.2316">Cedrus-hoz hasonlo termeti szépséggel.</l>
+</lg>
+<lg xml:id="lg.580">
+<l xml:id="l.2317">Mint a’ Sas-keselyö magasságra röpül,</l>
+<l xml:id="l.2318">Hogy fiai napra néznek azon örül,</l>
+<l xml:id="l.2319">Ki napra nem-nézhet ö ahoz nem-térül</l>
+<l xml:id="l.2320">Hol Ferdinánd sasnak a’ szárnyára fel-ül.</l>
+</lg>
+<lg xml:id="lg.581">
+<l xml:id="l.2321">Szerenche tollait sugáron nevelte</l>
+<l xml:id="l.2322">Attya virtussira sors ezt fel-emelte,</l>
+<l xml:id="l.2323">Mégh ö idejében Királlyá-is tette,<note type="critic" xml:id="note.247"><date when="1647">1647-ben</date> koronázták magyar királlyá. (Még apja életében,
+                                    <date when="1654">1654-ben</date> meghalt!)</note></l>
+<l xml:id="l.2324">Szép diademákkal megh-nemesitette.</l>
+</lg>
+<lg xml:id="lg.582">
+<l xml:id="l.2325">Elly hazánk reménnye, fáragy s munkálkodgyál,</l>
+<l xml:id="l.2326">Mi édes hazánk-ért hiven tusakodgyál,</l>
+<l xml:id="l.2327">Ottomán nemzettén diadalmaskodgyál,</l>
+<l xml:id="l.2328">Hogy Bizantiumban végre megh-nyugodgyál.</l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

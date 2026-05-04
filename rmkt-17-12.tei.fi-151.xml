@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">151.</title>
+<title key="body" n="151" type="main">(Felseges Ur Isten, hozzád kiált lelkem...)</title>
+<author>
+<surname>Fráter</surname>
+<forename>István</forename><idno type="ITIdata">Q41647</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-151</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.fi-jegyzetek">Jegyzetek: Fráter István élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Paraphrasis rhithmica</hi>. <date when="1684">1684</date>. MTAK
+                    K 92. 19ab.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Alszeghy</hi>, ItK 1917</abbr>, 213.</bibl> – A vers végén: „Amen
+                        Amen.”</p>
+<p xml:id="crit.1.p.3">A versfők értelmet adnak: <hi rend="smallcaps">frater jstvan</hi>.</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: Paraphrasis rhithmica. 1684.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 151.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">F</hi>elseges Ur Isten, hozzád kiált lelkem,</l>
+<l xml:id="l.2">Sok bün -s- bánat miatt meg eped bus szivem,</l>
+<l xml:id="l.3">Tsak te reád bizza magát szegény fejem,</l>
+<l xml:id="l.4">Tudván, nints kivüled sohult segedelem.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">R</hi>eménségét mert ki szent nevedben veti,</l>
+<l xml:id="l.6">-S- nem tsüggedez benned, tántorogván, hiti,</l>
+<l xml:id="l.7">Aszt jobb kezed -s- eröd mindenütt segiti,</l>
+<l xml:id="l.8">Soha ellensége meg sem szégyeniti.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">A</hi>z nagy tenger habja, vizeinek árja,</l>
+<l xml:id="l.10">Sziklás havas uttya vagy fertök motsárja,</l>
+<l xml:id="l.11">Nem sillyeszti, veszti, tüled el nem zárja,</l>
+<l xml:id="l.12">Ur Isten, te tülled óltalmát ki várja.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">T</hi>arts meg-azért kérlek, Uram, légy kegyelmes,</l>
+<l xml:id="l.14">Mert tudom, haragra szived kesedelmes,</l>
+<l xml:id="l.15">De irgalmasságra kesz füled figyelmes</l>
+<l xml:id="l.16">Ahoz, ki bünetül elötted félelmes.<note type="critic" xml:id="note.1">A sor értelme: aki fél a bűne miatt, fél a bűntől.</note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">E</hi>letét -s- nem hóltát kivánod te annak,</l>
+<l xml:id="l.18">Ki érzi sully terhét vétke nyalábjának,</l>
+<l xml:id="l.19">Mutatván sebeit fekélyes vóltának</l>
+<l xml:id="l.20">Néked, -s- vár orvoslást tülled fájdalmának.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">R</hi>ajtam nyilván érzem álnokságim terhét,</l>
+<l xml:id="l.22">Fertelmes vétkeim lelkem nyomó kövét,</l>
+<l xml:id="l.23">Imé, ki oldoztam szivem dohos sebét,</l>
+<l xml:id="l.24">Irgalmasságodnak nyujts gyógyitó irét.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">I</hi>essé<note type="critic" xml:id="note.2">Iesse vagy Isai Dávid
+                            király atyja volt, így Krisztus őse.</note> gyükerérül származott
+                        veszszö szál,</l>
+<l xml:id="l.26">Kegyelem virágja kinek ágain áll,</l>
+<l xml:id="l.27">Hiszem, jó illattya ennek hogy rám is száll,</l>
+<l xml:id="l.28">Nállad van bününket hordozó eröss váll.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">S</hi>ok szegény nyavalyás, vétkektül ijettek</l>
+<l xml:id="l.30">Nem te általadé botsanatot vettek?</l>
+<l xml:id="l.31">Mikor kegyelemért lábaidhoz estek,</l>
+<l xml:id="l.32">Tántorgó hitekben meg erössittettek.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">T</hi>udom jól példáját Péter apostolnak,</l>
+<l xml:id="l.34">Kit midön félelme tenger habjainak</l>
+<l xml:id="l.35">Tsak nem el merite, ki nyujtott karodnak</l>
+<l xml:id="l.36">Ereje tartá meg irgalmasságodnak.<note type="critic" xml:id="note.3">33–36 Péternek a vízen járásáról lásd Máté 14, 28–33.</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">V</hi>allyon publicanus honnan nyere kedvet?</l>
+<l xml:id="l.38">Mellyét vervén nálad lele idvességet.</l>
+<l xml:id="l.39">Phariseus penig, ki jókkal kérkedett,</l>
+<l xml:id="l.40">Üressen elöled templombúl ki lépett.<note type="critic" xml:id="note.4">37–40 A vámos és a farizeus imádságáról vö. Luk. 18, 10–14.</note></l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">A</hi>vagy Magdaléna,<note type="critic" xml:id="note.5">A bűnbánó
+                            Magdolnáról lásd Luk. 7, 37–50.</note> rut bünökkel tellyes,</l>
+<l xml:id="l.42">Lábaidhoz esvén, szeme hogy lén könyves,</l>
+<l xml:id="l.43">Nemde bün bocsátva keleé fel, nyertes,</l>
+<l xml:id="l.44">Kiért téged ditsirt, és vólt engedelmes?</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">N</hi>ékemis hitemet ezek erössitik,</l>
+<l xml:id="l.46">Peldájokkal igyem hozzád siettetik,</l>
+<l xml:id="l.47">Könyörülly rajtamis, lelkem fohászkodik,</l>
+<l xml:id="l.48">Vers fejekben nevem rendel jegyeztetik.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

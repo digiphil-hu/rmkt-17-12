@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">115.</title>
+<title key="body" n="115" type="main">A’ SZERENCHÉNEK ÁLHATATLANSÁGÁRÚL</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-115</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar Márs.</hi> <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> <date when="1653">1653</date>. II. r. 59–71.</bibl></p>
+<p xml:id="crit.1.p.3">E vers szakaszaiból állította össze <persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName> „Az
+                    esztendőnek négy részéről való ének”-ét. (<ref target="rmkt-17-12.tei.ep-132">132. sz.</ref>)</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 115.</fw>
+<head type="title">A’ SZERENCHÉNEK ÁLHATATLANSÁGÁRÚL</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Fegyvert s hadi-ezközt mind-addigh forgattam,</l>
+<l xml:id="l.2">Vér szomjuzo Mársot Versemben foglaltam,</l>
+<l xml:id="l.3">Sokak vitezséget éltemben találtam,</l>
+<l xml:id="l.4">Kik-rúl tragediat s Kronikát számláltam.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Sultán-Sulimánnak kegietlen voltárul</l>
+<l xml:id="l.6">Országunk-ban szerzet sok pusztétásárul,</l>
+<l xml:id="l.7">Lajos Királyunknák düchö halálárul,</l>
+<l xml:id="l.8">S-a’ Mohách mezején tortént romlásunkrul.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Eredetet azért vészek szerenchérül</l>
+<l xml:id="l.10">S-az ö mi-voltának forgo kerekérül</l>
+<l xml:id="l.11">Hamis s álhatatlan hizelkedésérül</l>
+<l xml:id="l.12">Mint Proserpinának<note type="critic" xml:id="note.1">Proserpina az alvilág istennője; emellett az élet és halál, a keletkezés és enyészet megszemélyesítője.</note> nagy tünderségérul.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Vesd-fel szemeidet tekênch az Egekre</l>
+<l xml:id="l.14">Amaz Aquilonak<note type="critic" xml:id="note.2">Aquilo = északi szél, észak.</note> kegietlenségére,</l>
+<l xml:id="l.15">Viszont Zephirusnak<note type="critic" xml:id="note.3">Nyugati szél, mely a rómaiak szerint enyhe időt hoz.</note> giöniörüségére</l>
+<l xml:id="l.16">Mezöket uijto ékes kikelétre.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Földet serkengeti a’ napnak ereje,</l>
+<l xml:id="l.18">Es megh-vidámétya szép sugár sengéje,</l>
+<l xml:id="l.19">Ki után megh-vidul Hesperus<note type="critic" xml:id="note.4">Esthajnali csillag; jelenti azokat a mesés nyugati tájakat, ahol az ókori néphit a világ végét kereste; a
+                        Hesperidák kertjét.</note> mezeje,</l>
+<l xml:id="l.20">S-vigasságra fordul Napaeak<note type="critic" xml:id="note.5">A völgy nimfái.</note> elméje.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Platanus<note type="critic" xml:id="note.6">platánfa</note> orvendez ki-terjet ágak-al,</l>
+<l xml:id="l.22">Ekes Libanus-is<note type="critic" xml:id="note.7">Szíria főhegysége, a bibliai időkben gazdag volt erdőkben.</note> az szép Cedrus fák-al</l>
+<l xml:id="l.23">Cinnamomum<note type="critic" xml:id="note.8">fahéj</note> s Nardus<note type="critic" xml:id="note.9">illatos fű és olaj</note> drága illatok-al,</l>
+<l xml:id="l.24">Egek ékesgetik hathato szagok-al.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Nehéz terh alattis Pálma nevelkedik,</l>
+<l xml:id="l.26">Eden Mezeinel Flora<note type="critic" xml:id="note.10">A virágok istenasszonya.</note> dichekedik,</l>
+<l xml:id="l.27">Mint Nárdus illatya Egre emelkedik,</l>
+<l xml:id="l.28">Kivel mert Balsamum szag-val tusakodik.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Szép ki-folyó kutak ki-keletben folynak,</l>
+<l xml:id="l.30">Helikon völgyébül eredetet hoznak,</l>
+<l xml:id="l.31">Gyönyörüségessen magokban uyulnak</l>
+<l xml:id="l.32">S a’ napnak fényetúl ugyan megh-tisztulnak.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Kiknek forrásókhoz a’ Vadak járulnak,</l>
+<l xml:id="l.34">Szomjuságh oltásra oda folyamodnak,</l>
+<l xml:id="l.35">Gyönyörüségektúl szörök-ben tisztulnak</l>
+<l xml:id="l.36">Ehségek mulatván pásiton lakoznak.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Az Eghi madarak szarnyok-kal röpdösnek</l>
+<l xml:id="l.38">A’ szép zöld erdöben fák-ra szokdechelnek</l>
+<l xml:id="l.39">A’ fülemülek-is Haynalban fel-kelnek</l>
+<l xml:id="l.40">Vér taytékot turván szépen énekelnek.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Jdegen helyekrül Darvak-is megh-ternek</l>
+<l xml:id="l.42">Heveteges<note type="critic" xml:id="note.11">forró, meleg</note> helyrül másova keszülnek,</l>
+<l xml:id="l.43">Hámon forrásához<note type="critic" xml:id="note.12">Haimón (Thesszalia) forrása.</note> sietve röpülnek,</l>
+<l xml:id="l.44">Hol a’ kikeletrül feleletet vesznek.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Rárók, Kelechenyek,<note type="critic" xml:id="note.13">kerecsenek = ölyvek, sólymok</note> s Solymok megh-tisztulnak,</l>
+<l xml:id="l.46">Kikeletet érvén magokban uyulnak</l>
+<l xml:id="l.47">Töredezet tallat szárnyokrul szaggatnak.</l>
+<l xml:id="l.48">Szárnyok sugárságán<note type="critic" xml:id="note.14">hajlékonyságán, karcsúságán</note> röpülést tanulnak.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Az Örvös-galambok szállásrul gondolnak,</l>
+<l xml:id="l.50">Ama Didonaea érdöben<note type="critic" xml:id="note.15">Az epirusi Dódóna jóshelyre utal. Az egyiptomi Thebae-ből (vö. a következő sor „Thebe
+                        méhéből” kifejezésével) iderepült galamb itt szólalt meg egy tölgyfára telepedve, hogy jóshelyet alapítsanak Zeusnak.</note> szallánnak,</l>
+<l xml:id="l.51">Es Thebe méhébül oda ipárkodnak</l>
+<l xml:id="l.52">Hol az Embereknek jövendöket mondnak.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Ra-talál Gerliche el-tévet társára,</l>
+<l xml:id="l.54">Ki-veti bánattiát, s fordul vigasságra,</l>
+<l xml:id="l.55">Réaszál a’ fának zöldellö ágára,</l>
+<l xml:id="l.56">S nem-is gondolkodik már-gyász ruhájára.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Hamadriádesek<note type="critic" xml:id="note.16">A fák nimfái.</note> hegyekben lakoznak,</l>
+<l xml:id="l.58">A’ fák árniékában gyakran mulatoznak,</l>
+<l xml:id="l.59">Laurus ágaibul koszorukat fonnak,</l>
+<l xml:id="l.60">Örvendetesség-gel kitt fejek-ben nyomnak.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Szép Oriádesek<note type="critic" xml:id="note.17">A hegyek nimfái (Oreades).</note> völgyéket szemlelik,</l>
+<l xml:id="l.62">A’ Najadessek-kel<note type="critic" xml:id="note.18">A najádok (Najades) vízi nimfák.</note> Libitrist<note type="critic" xml:id="note.19">Libethrában (az Olümposz közelében) két forrás is volt, a nimfák és
+                        múzsák tartózkodási helye.</note> kerülik,</l>
+<l xml:id="l.63">Az ékes Chlorissal<note type="critic" xml:id="note.20">A virágok istennője.</note> rosákat szemlelik,</l>
+<l xml:id="l.64">Onnan szál örömök az honnan sem-vélik.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Pamassus meg-indul ki-folyó kutak-kal</l>
+<l xml:id="l.66">Apollo hol sétál a’ kilencz Musák-kal,</l>
+<l xml:id="l.67">Verseket számlálnak zengö Rhytmusok-kal</l>
+<l xml:id="l.68">Sziveket gerjesztik szép musikájok-kal.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Közepettek mint nap Apollo tünd<corr>ö</corr>klik,</lem><rdg wit="#W1" xml:id="rdg.1">tündiklik</rdg></app></l>
+<l xml:id="l.70">Aranyas hajátul az Helikon fénlik,</l>
+<l xml:id="l.71">Kitül bölcheseg-gel elméjek megh-telik,</l>
+<l xml:id="l.72">Vélek a’ boldoghságh magok-felöl vélik.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73">A’ szép kikeletnek minnyájan örülnek,</l>
+<l xml:id="l.74">Iupiter mérgétöl töb-bé nem-rettegnek,</l>
+<l xml:id="l.75">Menyütö-kövétúl Chirraban nem-félnek,</l>
+<l xml:id="l.76">Laurus Koronákat a’ fejekre tésznek.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Delos szigetében Diána-is fel-kél</l>
+<l xml:id="l.78">Cyprus szigetébül Vénus Aszszony szemlél</l>
+<l xml:id="l.79">Páphos<note type="critic" xml:id="note.21">Venusnak szentelt város Ciprus szigetén.</note> Rosáival giöniörüségben él,</l>
+<l xml:id="l.80">S Egh háboruitul már ez után nem-fél.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Vadaknak hálot vét Diána és tört hány,</l>
+<l xml:id="l.82">Vadászo erdöben szerenche találmány,</l>
+<l xml:id="l.83">Vénus-is Iffyaknak mellyben leseket hány</l>
+<l xml:id="l.84">A’ kiket megh-kaphat vélek szabadon bány.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Madarász sip szoval foglyokat keréti,</l>
+<l xml:id="l.86">A’ Karoly madár-ral<note type="critic" xml:id="note.22">karvaly madárral</note> füröket<note type="critic" xml:id="note.23">fürjeket</note> öleti</l>
+<l xml:id="l.87">Futo agarak-kal nyulakat érteti,</l>
+<l xml:id="l.88">Kiben mulatságát, s kedvét helyhezteti.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Kertek illatoznak sok drága füvek-kel,</l>
+<l xml:id="l.90">Mezök fel-öltöznek giönyörüséggék-kel,</l>
+<l xml:id="l.91">Ekes Liliomok szép fejérségek-kel,</l>
+<l xml:id="l.92">Cyprus Rosmaring-is zöldellöségek-kel.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Akar hova tekénch chak örömet szemlélsz,</l>
+<l xml:id="l.94">Minden boldogságot enny sok jokbul vélsz</l>
+<l xml:id="l.95">Látona<note type="critic" xml:id="note.24">Apollón és Artemisz anyja.</note> hát méltán gyönyörüségben élsz</l>
+<l xml:id="l.96">Megh-hervaszto dértúl immár továb nem-félsz.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Nagy örömmel teli-be boldogságh völgyed,</l>
+<l xml:id="l.98">Töb-bé megh-nem hervad Iuno te virágod,</l>
+<l xml:id="l.99">Rothadatlanságbul Flora a’ te ágad,</l>
+<l xml:id="l.100">A’ kibül megh-tetsik nylván boldoghságod.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Ceres<note type="critic" xml:id="note.25">A szántás-vetés istennője.</note> késéch<note type="critic" xml:id="note.26">olv. készéts = készíts</note> sarlót megh-sárgult a’ kalász</l>
+<l xml:id="l.102">Kezed munkájára valoban ra-találsz</l>
+<l xml:id="l.103">Most nem chekély vizben cybelevel<note type="critic" xml:id="note.27">Kübelé (Cybele): általában természetistennő, a föld vagy termékenység istennője.</note> halász</l>
+<l xml:id="l.104">Gyönyörüséged-ben a’ ki-tül megh-nem-válsz.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Az üdö megh-áldot földnek termesével,</l>
+<l xml:id="l.106">Erejét ki-adta hasznos gyümölché-vel,</l>
+<l xml:id="l.107">Megh-örvendeztetet gyönyörüségé-vel</l>
+<l xml:id="l.108">Füved föl-nevelte termö büségével.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109">Munkás fáradságát megh-gyömülchöztette,</l>
+<l xml:id="l.110">Az Egeknek sirját<note type="critic" xml:id="note.28">olv. zsírját</note> reá-eresztette</l>
+<l xml:id="l.111">Mint a’ Gedeonnak széröjé-re tette<note type="critic" xml:id="note.29">Gedeon szérűjéről lásd a <bibl>Bir. 6, 11, 37–40.</bibl> verseit.</note></l>
+<l xml:id="l.112">Az Isten irgalmát mellyel jelentette.</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Termésed buzáját megh-szaporétotta,</l>
+<l xml:id="l.114">Széles mezöséget, véle megh-rakatta,</l>
+<l xml:id="l.115">Egyet száz eszerré mert szaporította</l>
+<l xml:id="l.116">Minden chúreidet véle megh-rakatta.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.117">Heliádeseknek<note type="critic" xml:id="note.30">A Nap lányai.</note> nemzöje örvendez</l>
+<l xml:id="l.118">Ekes öltözett-el s ruházatt-al zöldez,</l>
+<l xml:id="l.119">Gyönyörü voltával az Egekre erdez,<note type="critic" xml:id="note.31">az egeket éri</note></l>
+<l xml:id="l.120">Vigassága-felöl senki-tül nem-kerdez.</l>
+</lg>
+<lg xml:id="lg.31">
+<l xml:id="l.121">Szép Szivárvány vonta kéz-iját az Èghre,</l>
+<l xml:id="l.122">Külömb-külömb szinyel fel-jöt nap-keletre</l>
+<l xml:id="l.123">Melly-el kerekséget jelenti a’ vegre</l>
+<l xml:id="l.124">Harmattiát bochássa hogy a’ föld szinyére.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.125">Mezöségben a’ Pán nyajait számlállya</l>
+<l xml:id="l.126">Hogy megh-szaporodott büvön fel-talállya</l>
+<l xml:id="l.127"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Hegye<corr>k</corr>nek barlangját társaival állya,</lem><rdg wit="#W1" xml:id="rdg.2">Hegyegnek</rdg></app></l>
+<l xml:id="l.128">Vad eledelekkel szolgait táplállya.</l>
+</lg>
+<lg xml:id="lg.33">
+<l xml:id="l.129">Triptolomus<note type="critic" xml:id="note.32">Király Eleusisban, a földművelés feltalálója.</note> siet gabona rakás-hoz,</l>
+<l xml:id="l.130">Kévéit hordattya súrün az aztag-hoz</l>
+<l xml:id="l.131">Mert Bachus el-hita a’ vetet-aztal-hoz</l>
+<l xml:id="l.132">Pohárit keszeti Malosa borá-hoz.<note type="critic" xml:id="note.33">a. m. mazsolaborához</note></l>
+</lg>
+<lg xml:id="lg.34">
+<l xml:id="l.133">Méheknek seregi a’ mezö-ben dongnak,</l>
+<l xml:id="l.134">Mert Aristaeusnak<note type="critic" xml:id="note.34">Aristaeus terjesztette el a méhtenyésztést.</note> sok hasznokat hoznak,</l>
+<l xml:id="l.135">Virágok szinyerül édességet szinak,</l>
+<l xml:id="l.136">Kik-kel kosárokban lépeket ragasztnak.</l>
+</lg>
+<lg xml:id="lg.35">
+<l xml:id="l.137">Gyümölche meg-érét az Alcionusnak<note type="critic" xml:id="note.35">A fajákok királya, aki fényesen vendégül látta Odysseust és társait, valamint az argonautákat.</note></l>
+<l xml:id="l.138">Hozzája érkezet ereje a’ Napnak,</l>
+<l xml:id="l.139">Tündöklik a’ szinye piros almáinak</l>
+<l xml:id="l.140">Fájá gyümülche-is a’ Laemaedonnak.<note type="critic" xml:id="note.36">Laomedón: trójai király.</note></l>
+</lg>
+<lg xml:id="lg.36">
+<l xml:id="l.141">Phoebus-is lovait szekeré-ben fogta,</l>
+<l xml:id="l.142">Gyöplöit lovaknak Phaëtonnak adta</l>
+<l xml:id="l.143">Erejet az Egén ki-is árasztotta</l>
+<l xml:id="l.144">A’ Caniculát-is velek fel-gyuitotta.</l>
+</lg>
+<lg xml:id="lg.37">
+<l xml:id="l.145">Kemeny vad szelei amaz AEolusnak,<note type="critic" xml:id="note.37">A szelek királya.</note></l>
+<l xml:id="l.146">Megh-szelidöltenek s chendességben vannak,</l>
+<l xml:id="l.147">Kedves szellöchkéket magokbul inditnak,</l>
+<l xml:id="l.148">Nyárnak közepében, kik-kel mást uijetnak.</l>
+</lg>
+<lg xml:id="lg.38">
+<l xml:id="l.149">A’ chuszo-mászok-is tél-rul gondolkodnak,</l>
+<l xml:id="l.150">Az apro hangyák-kal eledelt hordanak,</l>
+<l xml:id="l.151">Pthrüczkök utak körül ének szot haytanak,</l>
+<l xml:id="l.152">Ki miát a’ télben éh-gyomor-ral vannak.</l>
+</lg>
+<lg xml:id="lg.39">
+<l xml:id="l.153">Egy-szoval mindenek mostan vigan élnek</l>
+<l xml:id="l.154">Mezei virágok örömet követnek,</l>
+<l xml:id="l.155">Salamon Kirally-al mindenben fel-tesznek</l>
+<l xml:id="l.156">S földi düchösség-gel véle el-erkesznek.</l>
+</lg>
+<lg xml:id="lg.40">
+<l xml:id="l.157">Üdö valtozásrul ninchen gondolattyok,</l>
+<l xml:id="l.158">Reménlik Junoval hogy boldog az Attyok</l>
+<l xml:id="l.159">De mayd változando lészen az orájok</l>
+<l xml:id="l.160">Nagy agodalmok-ra erkezik sok gondgyok.</l>
+</lg>
+<lg xml:id="lg.41">
+<l xml:id="l.161">Az üdö mindent hoz de megént el vészy</l>
+<l xml:id="l.162">Minden adománnyát chak semmive tészi,</l>
+<l xml:id="l.163">Napok folyásával mint egy halál észi</l>
+<l xml:id="l.164">Változandoságát a’ gyarloságh érzi.</l>
+</lg>
+<lg xml:id="lg.42">
+<l xml:id="l.165">Erdöket s mezöket megh-fozt szépségétül</l>
+<l xml:id="l.166">Gyümölchös ágakat ki-szárazt tövétül,</l>
+<l xml:id="l.167">Szinyét változtattya mayd a’ hideghségtül</l>
+<l xml:id="l.168">Gyázban öltözteti zöldellöségétül.</l>
+</lg>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Madarak meg-vonnyák ékes szollásokat,</l>
+<l xml:id="l.170">Nagy rosdás torok-kal kiáltyák társokat,</l>
+<l xml:id="l.171">Nem követik immár szép mulatságokat</l>
+<l xml:id="l.172">Sem nem-gyakorollyák fák-rul ugrásokat.</l>
+</lg>
+<lg xml:id="lg.44">
+<l xml:id="l.173">Cyprus Szigete-is violákot nem-oszt,</l>
+<l xml:id="l.174">Drága illattyá-tul Venus Aszont megh-foszt</l>
+<l xml:id="l.175">Paphos Rosáival sem dichekedik most</l>
+<l xml:id="l.176">Mert a’ Tél megh-nem-tart semmi hasonlatost.</l>
+</lg>
+<lg xml:id="lg.45">
+<l xml:id="l.177">Kutaknak forrási magok-ban tikkadnak</l>
+<l xml:id="l.178">Virágok körülök ugyan megh-lankadnak,</l>
+<l xml:id="l.179">Mert buzgosagoktul már nem-ásztattatnak</l>
+<l xml:id="l.180">Dorceus<note type="critic" xml:id="note.38">Sajtóhiba lehet <hi rend="italic">Dircaeus</hi> helyett; boeotiai jelentésben áll. Boeotia gazdag
+                            volt vizekben, forrásokban.</note> folyasi föld-alat tartatnak.</l>
+</lg>
+<lg xml:id="lg.46">
+<l xml:id="l.181">A’ szép zöld pasiton Pamphagus<note type="critic" xml:id="note.39">A szarvassá változtatott Aktaión egyik kutyája.</note> nem-nyugszik</l>
+<l xml:id="l.182">Setétes barlang-ban mayd szellyel buydosik,</l>
+<l xml:id="l.183">Nyelve ki-vetés-sel fák-nal nem aluszik</l>
+<l xml:id="l.184">Az Oribasus-sal<note type="critic" xml:id="note.40">Vadászkutya Aktaión mítoszában.</note> hidegseg-töl fazik.</l>
+</lg>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Atlantides<note type="critic" xml:id="note.41">Atlantis: mesés sziget az óceánban Héraklész oszlopain túl.</note> kerti gyöngy-el nem viragzik</l>
+<l xml:id="l.186">Nardus-is jo-szaggal már nem-illatozik</l>
+<l xml:id="l.187">Balsamum a’ fákon ritkán izadozik</l>
+<l xml:id="l.188">Zuzmaráz es derhez Arabus<note type="critic" xml:id="note.42">Folyó Gadrosiában (Perzsia délkeleti részén), de van ilyen nevű Indiában is.</note> férkezik.</l>
+</lg>
+<lg xml:id="lg.48">
+<l xml:id="l.189">A’ nap-is erejét a’ földtül megh-vonnya</l>
+<l xml:id="l.190"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Ha<corr>t</corr>hato erejét lovainak tiltya</lem><rdg wit="#W1" xml:id="rdg.3">Hadhato</rdg></app></l>
+<l xml:id="l.191">A’ földnek gyomrában hasnait be-zarja</l>
+<l xml:id="l.192">Honnan jövendöröl mint holtát támasztya.</l>
+</lg>
+<lg xml:id="lg.49">
+<l xml:id="l.193">Napoknak folyását rövidségben vészi,</l>
+<l xml:id="l.194">Hesperus tajá-ra hoszaságát tészi</l>
+<l xml:id="l.195">Kivel Indusokat boldogság-gal nézi</l>
+<l xml:id="l.196">S-ennek tartománnya erejét-is érzi.</l>
+</lg>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Az üdö mint Tünder chak magát mutattya,</l>
+<l xml:id="l.198">Sok ékessigé-vel dolgát fitogattya,</l>
+<l xml:id="l.199">A’ világ hyuságát<note type="critic" xml:id="note.43">olv. hívságát, azaz hiábavalóságát</note> ki-ki hogy nem-láttya,</l>
+<l xml:id="l.200">Változoságához myért<note type="critic" xml:id="note.44">a szótagszám miatt mértnek olvasandó</note> hát szivét tartya.</l>
+</lg>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Be szokot borulni az Egh-is föllyhök-kel,</l>
+<l xml:id="l.202">Gyakran vereytégzik nagy-Zápor-essök-el,</l>
+<l xml:id="l.203">Nap-fénye reitezik setétes ködök-kel</l>
+<l xml:id="l.204"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Sors forgandosága jaczik Embere<corr>k</corr>-kel.</lem><rdg wit="#W1" xml:id="rdg.4">Embereg-kel</rdg></app></l>
+</lg>
+<lg xml:id="lg.52">
+<l xml:id="l.205"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Tiszta buza hely<corr>e</corr>t földbül konkoly terem,</lem><rdg wit="#W1" xml:id="rdg.5">helyét</rdg></app></l>
+<l xml:id="l.206">Nem-is sokáigh tart e’ világi öröm,</l>
+<l xml:id="l.207">Szerenche hol édes, s-hol keserü üröm,</l>
+<l xml:id="l.208">Ö, kereke alat gyakran féregh teröm.</l>
+</lg>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Valamit nyár termet a’ tél megh-emészti</l>
+<l xml:id="l.210">Cseres majorságát semmive téteti</l>
+<l xml:id="l.211">S-Bacchusnak hordoját megh-üresétteti,</l>
+<l xml:id="l.212">A’ napnak fényét-is tölünk el-reiteti.</l>
+</lg>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Üdö kedves-voltát tölünk meszi zárja,</l>
+<l xml:id="l.214">Nap-melegségével Indiákat járja,</l>
+<l xml:id="l.215">Kinek megh-teréset gazda Ember várja,</l>
+<l xml:id="l.216">Tél hidegségé-vel Embert által-járja.</l>
+</lg>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Megh-fogják madarak szép enekléseket</l>
+<l xml:id="l.218">Fák-ra szökdechelvén-nem-tartyák rendeket</l>
+<l xml:id="l.219">A’ fülemülek-is keserves verseket,</l>
+<l xml:id="l.220">Már nem-énekelnek hangon énekeket.</l>
+</lg>
+<lg xml:id="lg.56">
+<l xml:id="l.221">Zöldelöségek-tül fák-is megh-fosztatnak</l>
+<l xml:id="l.222">Parnassus hegyé-ben Musák sem sétálnak,</l>
+<l xml:id="l.223">Keserves verseket Apollonak mondnak,</l>
+<l xml:id="l.224">Telnek dérjei-tül mélly vizek megh-fagynak.</l>
+</lg>
+<lg xml:id="lg.57">
+<l xml:id="l.225">Triptolomus kerte szép almákat nem oszt,</l>
+<l xml:id="l.226">Minden termési-tül embereket megh-foszt,</l>
+<l xml:id="l.227">Aristaeus nyaja sem donogh mezön most,</l>
+<l xml:id="l.228">Mert a’ Téll nem nevel semmit hasonlatost.</l>
+</lg>
+<lg xml:id="lg.58">
+<l xml:id="l.229">AEolus szeleit föld-re ki-bocháttya</l>
+<l xml:id="l.230">Melly-el embereket haragossan láttya,</l>
+<l xml:id="l.231">Rut fergetegekkel embereket bántya</l>
+<l xml:id="l.232">A’ mit nyárban épét chak hamar el-bontya.</l>
+</lg>
+<lg xml:id="lg.59">
+<l xml:id="l.233">Hasonlo szerenche üdö forgásihoz,</l>
+<l xml:id="l.234">Alnokságh férkezik gyakran dolgaihoz,</l>
+<l xml:id="l.235"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Job kezével mitt ád bal<corr>l</corr>al kabdos ahoz</lem><rdg wit="#W1" xml:id="rdg.6">balgal</rdg></app></l>
+<l xml:id="l.236">Ha ma nálad vagyon holnap esik máshoz.</l>
+</lg>
+<lg xml:id="lg.60">
+<l xml:id="l.237">Kerekét perdéti embert fel-ülteti,</l>
+<l xml:id="l.238">Nagy meltoságokkal hamar tisztelteti</l>
+<l xml:id="l.239">Edesgetö szokkal mind addig hiteti</l>
+<l xml:id="l.240">Végre hanyat, s homlok nyakra, s före veti.</l>
+</lg>
+<lg xml:id="lg.61">
+<l xml:id="l.241">A’ Bellisáriust<note type="critic" xml:id="note.45">A keletrómai birodalom jeles hadvezérét Iustinianus császár, a rágalmazóknak hitelt adva,
+                        megvakíttatta, koldusként fejezte be életét.</note> hamar fel-emelé,</l>
+<l xml:id="l.242">Codrust<note type="critic" xml:id="note.46">Athén királya. Hogy a várost megmentse, koldusnak öltözött, megölette magát az ellenséggel.</note> kerekére asztalhoz ülteté,</l>
+<l xml:id="l.243">Chinált étkeiböl Irust-is<note type="critic" xml:id="note.47">Szemtelen, nagy étvágyú koldus, akit Pénelopé kérői az álruhás Odüsszeuszra uszítottak, aki ökölharcban
+                        legyőzte.</note> élteté</l>
+<l xml:id="l.244">De végre pad-alá ezeket téteté.</l>
+</lg>
+<lg xml:id="lg.62">
+<l xml:id="l.245">Ninch allandoságá, ninchen szerenchének,</l>
+<l xml:id="l.246">Chak küvül aranyos szinye kincheinek,</l>
+<l xml:id="l.247">Siralommal fizet gyakran övéinek,</l>
+<l xml:id="l.248">Chak az egy veszteségh jutalma béreknek,</l>
+</lg>
+<lg xml:id="lg.63">
+<l xml:id="l.249">Chalárd s álhatatlan minden dolgaiban,</l>
+<l xml:id="l.250">Szép színyel kendözik megh-ábrázatyában,</l>
+<l xml:id="l.251">Embert hitegeti jöjön táborában,</l>
+<l xml:id="l.252">Sok kinchét mutattya titkos ládájában,</l>
+</lg>
+<lg xml:id="lg.64">
+<l xml:id="l.253">De hamar hátára pökik barátinak,</l>
+<l xml:id="l.254">Ninch allandosága semmi javainak,</l>
+<l xml:id="l.255">Ninchen helyes volta semmi dolgainak,</l>
+<l xml:id="l.256">Ma ha mit ide nyuyt holnap adgya másnak.</l>
+</lg>
+<lg xml:id="lg.65">
+<l xml:id="l.257">Forogh a’ szerenche, s az üdök-is folynak,</l>
+<l xml:id="l.258">Mint a’ folyo vizek vesztegh nem-is álnak,</l>
+<l xml:id="l.259">Miglen Centrumjokhoz sietve nem jutnak</l>
+<l xml:id="l.260">Kut-fejekhez többe soha sem fordulnak.</l>
+</lg>
+<lg xml:id="lg.66">
+<l xml:id="l.261">Az el-lött nilak-is sebessen röpülnek,</l>
+<l xml:id="l.262">Erejek el fogyván a’ földre le-térnek,</l>
+<l xml:id="l.263">Mint tulaydonokra sietséggel érnek,</l>
+<l xml:id="l.264">Nehezségektül-is igy kinszeritettnek.</l>
+</lg>
+<lg xml:id="lg.67">
+<l xml:id="l.265">Chak az Isten ostya a’ jo szerencheket,</l>
+<l xml:id="l.266">Gyakran ostorozza-megh az Embereket,</l>
+<l xml:id="l.267">Ki-ért bochát rájok sulyos eseteket,</l>
+<l xml:id="l.268">Inti megh-jobbichák hamar életeket.</l>
+</lg>
+<lg xml:id="lg.68">
+<l xml:id="l.269">Az üdö nem nyukszik szerencheket szerez</l>
+<l xml:id="l.270">Hol io, s hol bal szelet ö magátul nemez,</l>
+<l xml:id="l.271">Ember szerenchek közt mint tengeren evez</l>
+<l xml:id="l.272">Hol szegent s gazdagot baráttyának nevez.</l>
+</lg>
+<lg xml:id="lg.69">
+<l xml:id="l.273">De nem sokáigh tart ez áz Attyafiságh,</l>
+<l xml:id="l.274">Chak hamar fel-bomlik ez-illyen barátságh,</l>
+<l xml:id="l.275">Nem lészen sokáigh együt a’ társaságh,</l>
+<l xml:id="l.276"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Mert ni<corr>n</corr>ch szerenchenél valami igasságh.</lem><rdg wit="#W1" xml:id="rdg.7">nich</rdg></app></l>
+</lg>
+<lg xml:id="lg.70">
+<l xml:id="l.277">Mindent be iratot a’ Laistromában,<note type="critic" xml:id="note.48">öttagúnak olvasandó</note></l>
+<l xml:id="l.278">A’ kiket hiteget fris Lakodalmában</l>
+<l xml:id="l.279">Részésétni kiván mindent javaiban,</l>
+<l xml:id="l.280">Ninch neki mitt hinni alnok dolgaiban.</l>
+</lg>
+<lg xml:id="lg.71">
+<l xml:id="l.281">Tündér allapattyát ki-ki hát láthattya</l>
+<l xml:id="l.282">Alnok szerenchenek dolgait tudhattya,</l>
+<l xml:id="l.283">Titkos chalárdságat megh-tapasztalhattya</l>
+<l xml:id="l.284">Sors forgandoságát ki-ki probálhattya.</l>
+</lg>
+<lg xml:id="lg.72">
+<l xml:id="l.285"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Al<corr>ac</corr>hony rendeket Fejedelemségre,</lem><rdg wit="#W1" xml:id="rdg.8">Alanchony</rdg></app></l>
+<l xml:id="l.286">Gyakorta fel-emelt kinches örökségre,</l>
+<l xml:id="l.287">Hirét ki terjeszti sokaknak messzire,</l>
+<l xml:id="l.288">Nagy gyözedelmeket Országok szélére.</l>
+</lg>
+<lg xml:id="lg.73">
+<l xml:id="l.289">Viszont hamar aláz de hatalmassakat,</l>
+<l xml:id="l.290">Szekibül le-taszit erös Chászárokat,</l>
+<l xml:id="l.291">Töbül ki-rontattat erös várasokat,</l>
+<l xml:id="l.292">Semmivel-is tészen nagy alkotmányokat.</l>
+</lg>
+<lg xml:id="lg.74">
+<l xml:id="l.293">Lám Dávid Királyt-is juhok közül vévé</l>
+<l xml:id="l.294">Es nagy Királyságra Sidoságban vivé,</l>
+<l xml:id="l.295">Hires s hatalmassá e’ világon tevé,</l>
+<l xml:id="l.296">De végre tule-is, viszontagh el-véve.</l>
+</lg>
+<lg xml:id="lg.75">
+<l xml:id="l.297">Az erös Nagy Sándort Világnak Urának</l>
+<l xml:id="l.298">Szerenche emelé nagy Monárchájának</l>
+<l xml:id="l.299">Vegi s hosza nem vólt nagy birodalmának,</l>
+<l xml:id="l.300">Minden fö s tartomány hodult hatalmának,</l>
+</lg>
+<lg xml:id="lg.76">
+<l xml:id="l.301">De végre szerenche megh-vonyá eö magát,</l>
+<l xml:id="l.302">S megh-sokallá neki illy nagy uraságát,</l>
+<l xml:id="l.303">S ki-vévé kezébül kinches gazdagságát,</l>
+<l xml:id="l.304">Halálal tölté-bé diadalmasságát.</l>
+</lg>
+<lg xml:id="lg.77">
+<l xml:id="l.305">Világi kinch helyét három singni<note type="critic" xml:id="note.49">olv. singnyi; 1 sing kb. 62 cm</note> földbe,</l>
+<l xml:id="l.306">Szerenche rekeszte egy kisded, verembe,</l>
+<l xml:id="l.307">Fris Palota helyét kétt szál dészka közbé</l>
+<l xml:id="l.308">Ez haszna lehete világi örömbe.</l>
+</lg>
+<lg xml:id="lg.78">
+<l xml:id="l.309">Szerenche kereke chak álhatatlanságh,</l>
+<l xml:id="l.310">Nem lépik egy nyomba nala az igasságh</l>
+<l xml:id="l.311">Ninch adott Kinchében megh-maradandoságh,</l>
+<l xml:id="l.312">Ki után származik gyakran nyomoruságh.</l>
+</lg>
+<lg xml:id="lg.79">
+<l xml:id="l.313">Mitt használt Cresusnak<note type="critic" xml:id="note.50">Az utolsó líd király (i. e. 560–547), gazdagsága közmondásos volt.</note> erös Királysága?</l>
+<l xml:id="l.314">Mitt használt sok kinchü gazdagh urasága?</l>
+<l xml:id="l.315">Hogy ha a’ szerenche elmulandosága</l>
+<l xml:id="l.316">Végre megh-gyalázá álhatatlansága.</l>
+</lg>
+<lg xml:id="lg.80">
+<l xml:id="l.317">Vallyon nembizotté szerenche kinchében?</l>
+<l xml:id="l.318">Lydusok hatalmas fejedelemségben,</l>
+<l xml:id="l.319">Boldogab nálánál nem vólt idejében,</l>
+<l xml:id="l.320">De lám a’ szerenche mint hozá törében.</l>
+</lg>
+<lg xml:id="lg.81">
+<l xml:id="l.321">Egy harczon el-törlé minden gazdagságát</l>
+<l xml:id="l.322">Ellenségh kezében adá önnön-mágát,</l>
+<l xml:id="l.323">Halalra itélle fejet és joszágát,</l>
+<l xml:id="l.324">Ekként mutogatá álhatatlanságát.</l>
+</lg>
+<lg xml:id="lg.82">
+<l xml:id="l.325"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Há<corr>t a</corr>ma kegyetlen Dionysiussal<note type="critic" xml:id="note.51">Az ifj. Dionüsziosz lehet, aki Syracusa tirannusa volt, de elűzték, és nyomorúságosán halt meg.</note></lem><rdg wit="#W1" xml:id="rdg.9">Hátama</rdg></app></l>
+<l xml:id="l.326">Mint bánék evvel-is a’ nagy Tyránnussal</l>
+<l xml:id="l.327">Egy székben ülteté a’ szegény Irussal</l>
+<l xml:id="l.328">S nem-is hagyá élny a’ Királyi jussal.</l>
+</lg>
+<lg xml:id="lg.83">
+<l xml:id="l.329">A’ Siciliának nágy uraságábol</l>
+<l xml:id="l.330">Hértelen le-veté gazdagh thronussábol,</l>
+<l xml:id="l.331">Nevét-is ki-törlé a’ világosságbol,</l>
+<l xml:id="l.332">S pálczára juttatá<note type="critic" xml:id="note.52">pálczára juttatá – koldusbotra
+                            juttatta</note> a’ nagy Királyságbol.</l>
+</lg>
+<lg xml:id="lg.84">
+<l xml:id="l.333">A’ szerenche képét szem be-kötve irják</l>
+<l xml:id="l.334">Mind szegény és gazdagh segetseget varjak,</l>
+<l xml:id="l.335">De jai hid azoknak kik ösvennyet járják,</l>
+<l xml:id="l.336">Mert chak egerek-is vegtére megh-marják.</l>
+</lg>
+<lg xml:id="lg.85">
+<l xml:id="l.337">Az üdö hol tiszta s hol homályban forogh,</l>
+<l xml:id="l.338">Szerenche étkétül ember hasa korogh,</l>
+<l xml:id="l.339">Mellette kereke untalan chak forogh</l>
+<l xml:id="l.340">Mint Scilla s Chárybdis örvenyében morogh.</l>
+</lg>
+<lg xml:id="lg.86">
+<l xml:id="l.341">Mi eleinknek-is nem régen kedveze</l>
+<l xml:id="l.342">Öt száz esztendeigh boldogul eveze</l>
+<l xml:id="l.343">Vegtere Lajósnak nagy veszélt szereze,</l>
+<l xml:id="l.344">Moháchnak mezejet vérével ontözé.</l>
+</lg>
+<lg xml:id="lg.87">
+<l xml:id="l.345">Chillagat le-törlé Magyar Világunknak,</l>
+<l xml:id="l.346">Megh homalyosétá sugárját napunknak,</l>
+<l xml:id="l.347">Török hold-ra irá reszét hatarinknak,</l>
+<l xml:id="l.348">Halom-ba rakatá testét Attyainknak.</l>
+</lg>
+<lg xml:id="lg.88">
+<l xml:id="l.349">Job-kezében erszeny mástul szál kö-essö<note type="critic" xml:id="note.53">mástul szál
+                            kö-essö – másik kezéből mennykő (jégeső) jön</note></l>
+<l xml:id="l.350">Javaiban kapni senkinek nem késö</l>
+<l xml:id="l.351">De kö essöétül Ember hamar veszö</l>
+<l xml:id="l.352">S-hamar lábairul a’ föld-re le-esö.</l>
+</lg>
+<lg xml:id="lg.89">
+<l xml:id="l.353">Az ö állapattya chak álhatatlanságh,</l>
+<l xml:id="l.354">Ninchen ö dolgában semmi háládoságh<note type="critic" xml:id="note.54">hála</note></l>
+<l xml:id="l.355">Szép adományiban nem lehet igasságh,</l>
+<l xml:id="l.356">Mert hogy ha ma mit ád holnap vész e’ joszágh.</l>
+</lg>
+<lg xml:id="lg.90">
+<l xml:id="l.357">Tenger habjaihoz ött hasonlithatom,</l>
+<l xml:id="l.358">Hol chendes, hol zajos dolgában mondhatom,</l>
+<l xml:id="l.359">Hol állando helye soha sem tudhatom,</l>
+<l xml:id="l.360">Szerenchének képét illy formán irhatom.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

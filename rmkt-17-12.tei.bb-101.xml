@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">101.</title>
+<title key="body" n="101" type="main">EGY TEÖREDELMES SZÜNEK BÜNE BOCZIANATTYAERTT S BOLDOGH KJ MULASAERTT
+                    VALO HAROM IMATSAGA AZ SZENTT HAROMSAGHNAK TISZTESSEGERE - ELSEÖ</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-101</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. – A szöveg végén:
+                        „finis”.</p>
+<p xml:id="crit.1.p.3">Az öt istenes éneket tartalmazó, ma is egybefüggő füzetrész első darabja. Eddig nem ismertük, éppen úgy mint még más
+                hármat az énekek közül.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 101.</fw>
+<head type="title">EGY TEÖREDELMES SZÜNEK BÜNE BOCZIANATTYAERTT S BOLDOGH KJ MULASAERTT
+                    VALO HAROM IMATSAGA AZ SZENTT HAROMSAGHNAK TISZTESSEGERE</head>
+<head type="subtitle">ELSEÖ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Egekett alkato, mindentt altal hato</l>
+<l rend="level_5" xml:id="l.2">Jsten, ki lakol menyben,</l>
+<l rend="level_2" xml:id="l.3">Van elötted nyttva minden szivek titka,</l>
+<l rend="level_5" xml:id="l.4">Ninczen semmi rejtekben,</l>
+<l rend="level_2" xml:id="l.5">Seertetel az bünnel, .s. elsz kemeny teörvennyel</l>
+<l rend="level_5" xml:id="l.6">Jgaz jteletedben.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Tudvan büneimett, az kikkel lelkemett</l>
+<l rend="level_5" xml:id="l.8">Motczkoltam .s. felve elek,</l>
+<l rend="level_2" xml:id="l.9">Vagy te jgaz Jsten, teörvenyedtül retten</l>
+<l rend="level_5" xml:id="l.10">Az bünben merültt lelek,</l>
+<l rend="level_2" xml:id="l.11">Kemeny iteleted, .s. nyilvan ván eleötted</l>
+<l rend="level_5" xml:id="l.12">Sok büneöm, .s. meltan felek.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Oh, eszeben bodultt .s. ez vilaghnak hodultt</l>
+<l rend="level_5" xml:id="l.14">Lelkem gondatlansaga,</l>
+<l rend="level_2" xml:id="l.15">Alhatatlan, czialo, kis jdeig valo</l>
+<l rend="level_5" xml:id="l.16">Az vilagh boldoghsaga,</l>
+<l rend="level_2" xml:id="l.17">El múl, mintt az arnyek, vagy vizi bvborek,</l>
+<l rend="level_5" xml:id="l.18">Ninczen allandosaga.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Miertt keövetted aztt, ki undokito gaztt</l>
+<l rend="level_5" xml:id="l.20">Ragasztt tisztasagodra,</l>
+<l rend="level_2" xml:id="l.21">El mulo mezett<note type="critic" xml:id="note.1">mézet</note> nyujtt, de eörök mergett sujtt,</l>
+<l rend="level_5" xml:id="l.22">Keves nyalanksagodra,</l>
+<l rend="level_2" xml:id="l.23">Java el enyeszik, bokrossan tenyeszik</l>
+<l rend="level_5" xml:id="l.24">Kennya karhozatodra.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Jay az mulandoertt, egy orany joértt</l>
+<l rend="level_5" xml:id="l.26">Az Jstentt megh vetettem,</l>
+<l rend="level_2" xml:id="l.27">Szenved lelkem nagy kéntt, az el tevet juh kéntt</l>
+<l rend="level_5" xml:id="l.28">Aklabul ki rekettem,</l>
+<l rend="level_2" xml:id="l.29">Jutvan rutt pusztaban, farkasok torkaban</l>
+<l rend="level_5" xml:id="l.30">Cziuda, maris nem esttem.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Ninczen mitt szollanom, megh kel aztt vallanom,</l>
+<l rend="level_5" xml:id="l.32">Erdemlek szamkivetestt,</l>
+<l rend="level_2" xml:id="l.33">De kegyes attya vagy, jrgalmassagod nagy,</l>
+<l rend="level_5" xml:id="l.34">Mertekeld az büntetestt,</l>
+<l rend="level_2" xml:id="l.35">Tarcz szamott juhodra, .s. vid visza aklodra,</l>
+<l rend="level_5" xml:id="l.36">Ne szenyvedgyen el eszestt.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Büneömnek soksagan, .s. azok undoksagan</l>
+<l rend="level_5" xml:id="l.38">Vagyok pirultt orcziaval,</l>
+<l rend="level_2" xml:id="l.39">Tudom, hogy vetettem, .s. nalad megh úntt lettem,</l>
+<l rend="level_5" xml:id="l.40">Büneimnek motczkaval,</l>
+<l rend="level_2" xml:id="l.41">De, Uram, my hasznod, ha eletem rontod,</l>
+<l rend="level_5" xml:id="l.42">Lelkem kaárhozattyaval?</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Hozzad folyamodttam, szany .s. keönyeörüly rajttam,</l>
+<l rend="level_5" xml:id="l.44">Szined eleöl el ne ves,</l>
+<l rend="level_2" xml:id="l.45">Jrgalmaz lelkemnek, undok büneimnek</l>
+<l rend="level_5" xml:id="l.46">Boszujara ne sies,</l>
+<l rend="level_2" xml:id="l.47">Ha undokulttamis, mutasd megh rajttamis,</l>
+<l rend="level_5" xml:id="l.48">Hogy vagy jrgalmas .s. kegyes.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Szany, ha nem egyebertt, edgyetlen edgyedertt,</l>
+<l rend="level_5" xml:id="l.50">Ki erttem mentt halalra,</l>
+<l rend="level_2" xml:id="l.51">Néz süreö sebere .s. abbul folytt verere,</l>
+<l rend="level_5" xml:id="l.52">Mely büneös lelkem ara,</l>
+<l rend="level_2" xml:id="l.53">Annak erdemebül ez gyarlo elettbül</l>
+<l rend="level_5" xml:id="l.54">Ne boczias eöreök kaárra.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Engedgy üdeött arra, hogy az veghseö bajra</l>
+<l rend="level_5" xml:id="l.56">Legyek jo keszülettel,</l>
+<l rend="level_2" xml:id="l.57">Büneökbül kj terven .s. kezedhez bekelven</l>
+<l rend="level_5" xml:id="l.58">Megh jobbitott elettel,</l>
+<l rend="level_2" xml:id="l.59">Halal harczia utan, Uram, hozzad jutvan,</l>
+<l rend="level_5" xml:id="l.60">Algyalak az szentekkel.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

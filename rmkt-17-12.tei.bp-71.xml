@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">71.</title>
+<title key="body" n="71" type="main">UTON JÁROKNAK OLTALOM KÉRÉSE ISTENTÖL</title>
+<author>
+<surname>Beniczky</surname>
+<forename>Péter</forename><idno type="ITIdata">Q41111</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bp-71</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bp-jegyzetek">Jegyzetek: Beniczky Péter élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <hi rend="bold">Magyar Rithmusok.</hi><placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName><date when="1670">1670</date>.<abbr>RMK I</abbr>, 1099., 74–78.</p>
+<p xml:id="crit.1.p.3">Megvan <hi rend="italic">Szikszai András-ék.</hi>-ében (<date from="1750" to="1752">1750–2</date>)
+                        66a.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Magyar Rithmusok. Kolozsvár 1670. RMK I, 1099.</witness>
+<witness xml:id="W2">Szinnyey-Merse-kódex (Pongrácz Ferenc 1668-ban lemásolta Beniczky verseit).</witness>
+<witness xml:id="W3">Magyar Rithmusok. RMK I, 1611/b. (A címlap hiányzik.)</witness>
+<witness xml:id="W4">Magyar Rithmusok. Lőcse, 1675.</witness>
+<witness xml:id="Wα">A Stoll Béla által α-val jelölt, rekonstruált szövegváltozat. </witness>
+<witness xml:id="Wβ">A Stoll Béla által β-val jelölt, rekonstruált szövegváltozat. </witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 71.</fw>
+<head type="title">UTON JÁROKNAK OLTALOM KÉRÉSE ISTENTÖL</head>
+<lg xml:id="lg.1">
+<l rend="level_2" xml:id="l.1">Szarándokságimot</l>
+<l xml:id="l.2"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">S’ min<corr>den</corr> utaimot</lem><rdg wit="#W1" xml:id="rdg.1">mindenütt</rdg><rdg wit="#W2 #W3 #W4" xml:id="rdg.2">minden</rdg></app></l>
+<l xml:id="l.3">Igazgato Istenem,</l>
+<l rend="level_2" xml:id="l.4">Menynek s’ földnek Ura,</l>
+<l xml:id="l.5">Im látod utamra</l>
+<l xml:id="l.6">Indulok: légy vezérem!</l>
+<l rend="level_2" xml:id="l.7">Menésem szükséges,</l>
+<l xml:id="l.8">Térésem kétséges,</l>
+<l xml:id="l.9">Azért nevedben kezdem.</l>
+</lg>
+<lg xml:id="lg.2">
+<l rend="level_2" xml:id="l.10">Légy vigasztalásom,</l>
+<l xml:id="l.11">Ellesztö árnyékom,</l>
+<l xml:id="l.12">Valahová fordulok,</l>
+<l rend="level_2" xml:id="l.13">Essös hév idöben</l>
+<l xml:id="l.14">S’ fergeteg szél vészben</l>
+<l xml:id="l.15">Légy hajlékom hol járok,</l>
+<l rend="level_2" xml:id="l.16">Ahoz nyugodalmom,</l>
+<l xml:id="l.17">Erös bátorságom,</l>
+<l xml:id="l.18">Az holott meg maradok.</l>
+</lg>
+<lg xml:id="lg.3">
+<l rend="level_2" xml:id="l.19">Ha veszedelem ér,</l>
+<l xml:id="l.20">Ellenség hozzám fér,</l>
+<l xml:id="l.21">Légy énnékem oltalmom,</l>
+<l rend="level_2" xml:id="l.22">Szerencsétlenségben,</l>
+<l xml:id="l.23">Akár mi ügyemben</l>
+<l xml:id="l.24">Légy meg-tarto istápom,</l>
+<l rend="level_2" xml:id="l.25">Bádgyat fáratságban,</l>
+<l xml:id="l.26">Es nyugovásimban</l>
+<l xml:id="l.27">Békeséges sátorom.</l>
+</lg>
+<lg xml:id="lg.4">
+<l rend="level_2" xml:id="l.28">Gonosz társaságtul,</l>
+<l xml:id="l.29">Es ragadozástul</l>
+<l xml:id="l.30">Te félelmed el vonnyon,</l>
+<l rend="level_2" xml:id="l.31">Barátom kárára,</l>
+<l xml:id="l.32">Eröszak huzásra</l>
+<l xml:id="l.33">Haragod ne bocsásson,</l>
+<l rend="level_2" xml:id="l.34">Hanem igaz útra,</l>
+<l xml:id="l.35">Es akaratodra,</l>
+<l xml:id="l.36">Kegyelmed igazgasson.</l>
+</lg>
+<lg xml:id="lg.5">
+<l rend="level_2" xml:id="l.37">Abrahám földéböl,<note type="critic" xml:id="note.1">Ábrahám Kaldeus-Urból ment Kánaán földére. Vö. I. Móz. 12, 1–4. Hogy ez isteni parancsra történt vö. Ap. csel. 12,
+                        1–3.</note></l>
+<l xml:id="l.38">Caldeus tüzébül,</l>
+<l xml:id="l.39">Indult, Uram egy szodra,</l>
+<l rend="level_2" xml:id="l.40">Uttyát igazgattad,</l>
+<l xml:id="l.41">Sok jokkal áldottad,</l>
+<l xml:id="l.42">Hite fordult valora,</l>
+<l rend="level_2" xml:id="l.43">Jákob hogy bujdosott,<note type="critic" xml:id="note.2">Jákob futásáról lásd I. Móz. 27, 43–45., továbbá a 28. és a következő fejezeteket.</note></l>
+<l xml:id="l.44">Báttya elött futott,</l>
+<l xml:id="l.45">Nem bocsátád prédára.</l>
+</lg>
+<lg xml:id="lg.6">
+<l rend="level_2" xml:id="l.46">Az iffiu Tobiást<note type="critic" xml:id="note.3">Tóbiásról szól az ószövetség másodlagosan kanonikus Tóbiás könyve.</note></l>
+<l xml:id="l.47">Meg-mentéd nyavalyást</l>
+<l xml:id="l.48"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2"><corr>Asmodeus<note type="critic" xml:id="note.4">Asmodeus erejének megtöréséről lásd Tób. 8. fejezetét.</note> ördögtül</corr>,</lem><rdg wit="#Wα" xml:id="rdg.3">Ördög Asmodeustul</rdg><rdg wit="#W2" xml:id="rdg.4">Asmodeus eördöktul</rdg></app></l>
+<l rend="level_2" xml:id="l.49">Raphaël Angyallal,</l>
+<l xml:id="l.50">Illy szép társasággal</l>
+<l xml:id="l.51"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Inditád ki házátul,</lem><rdg wit="#W2" xml:id="rdg.5"><del>hazabul</del><add type="corr">hazatul</add> </rdg><rdg wit="#Wβ" xml:id="rdg.6">házábúl</rdg></app></l>
+<l rend="level_2" xml:id="l.52">Három Szent Királynak</l>
+<l xml:id="l.53">Mutattál uttyoknak</l>
+<l xml:id="l.54">Csillagot kalauzul.</l>
+</lg>
+<lg xml:id="lg.7">
+<l rend="level_2" xml:id="l.55">Most-is nem rövidebb,</l>
+<l xml:id="l.56"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">De Uram ér küllyeb</lem><rdg wit="#W2" xml:id="rdg.7">Az Uram</rdg></app></l>
+<l xml:id="l.57">Az te régi hatalmad,</l>
+<l rend="level_2" xml:id="l.58"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Ha tetszik meg-tarthatsz,</lem><rdg wit="#W2" xml:id="rdg.8">tarcsad</rdg></app></l>
+<l xml:id="l.59">Es viszsza-is hozhatsz,</l>
+<l xml:id="l.60">Mert nagy az te irgalmad,</l>
+<l rend="level_2" xml:id="l.61">Noha nem Tobiás,</l>
+<l xml:id="l.62">De bünös nyavalyás</l>
+<l xml:id="l.63">Vagyok; az mint hogy tudhad.</l>
+</lg>
+<lg xml:id="lg.8">
+<l rend="level_2" xml:id="l.64">Hogy ezen testi jo</l>
+<l xml:id="l.65"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Légyen <corr>oly ki</corr>folyó,</lem><rdg wit="#Wα" xml:id="rdg.9">mint viz folyó</rdg><rdg wit="#W2" xml:id="rdg.10">oly ki follyo</rdg></app></l>
+<l xml:id="l.66">Essék dicsiretedre,</l>
+<l rend="level_2" xml:id="l.67">Hozzám kegyelmedet,</l>
+<l xml:id="l.68">Es meg-térésemet</l>
+<l xml:id="l.69">Irjam emlekezetre,</l>
+<l rend="level_2" xml:id="l.70"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7"><corr>Ez szerencsés úttal</corr>,</lem><rdg wit="#Wα" xml:id="rdg.11">Szerencsés utamért,</rdg><rdg wit="#W2" xml:id="rdg.12">Ez szerenczés uttal</rdg></app></l>
+<l xml:id="l.71"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8"><corr>Kit hozzám mutattál</corr>,</lem><rdg wit="#Wα" xml:id="rdg.13">S’ viszsza térésemért</rdg><rdg wit="#W2" xml:id="rdg.14">Kétt hoszam mutattal</rdg></app></l>
+<l xml:id="l.72">Okot adgyak beszédre.</l>
+</lg>
+<lg xml:id="lg.9">
+<l rend="level_2" xml:id="l.73">Hogy utra indulék,</l>
+<l xml:id="l.74">Szárnyán egy Sast láték,</l>
+<l xml:id="l.75">Okot vék verseimre,</l>
+<l rend="level_2" xml:id="l.76">Szerencsés menése,</l>
+<l xml:id="l.77">S’ bátor repülése,</l>
+<l xml:id="l.78">Inditott reménségre,</l>
+<l rend="level_2" xml:id="l.79">Hogy az egek Ura</l>
+<l xml:id="l.80">Meg viszsza hoz Lóczra,</l>
+<l xml:id="l.81">Neve dicsiretire.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

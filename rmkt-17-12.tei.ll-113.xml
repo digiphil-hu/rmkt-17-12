@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">113.</title>
+<title key="body" n="113" type="main">MAGYAR ORSZÁGH KÉTT NEVEZETES
+                    GUBERNÁTORI</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-12.tei.ll-113</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar
+                                Márs.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1653">1653</date>. II. r. 50–51.</bibl></p>
+<p xml:id="crit.1.p.3"><persName>Hunyadi Jánost<idno type="ITIdata">Q242978</idno></persName>
+<date when="1446-06-05">1446. június 5-én</date> akkor választották
+                        kormányzóvá, hogy az <persName>V. László<idno type="ITIdata">Q161829</idno></persName> kiadatásáról <persName>III. Frigyes<idno type="ITIdata">Q347332</idno></persName> császárral folyó
+                        tárgyalások eredménytelenek maradtak. Tisztjéről az <date from="1452" to="1453">1452–53</date>-as országgyűlésen mondott le.</p>
+<p xml:id="crit.1.p.4"><persName>Szilágyi Mihályt<idno type="ITIdata">Q258553</idno></persName> öt
+                        évre választották meg az ország kormányzójává akkor, amikor
+                                <persName>Mátyást<idno type="ITIdata">Q56559</idno></persName>
+                        királlyá. A tényleges kormányzásból azonban <persName>Mátyás<idno corresp="Hunyadi Mátyás"/></persName> hónapok alatt kizárta, amiért
+                        ellenséges viszony volt közöttük. <date when="1459">1459-ben</date>
+<persName>Mátyás<idno corresp="Hunyadi Mátyás"/></persName>
+<placeName>Világos<idno type="ITIdata">Q23667</idno></placeName> várába
+                        záratta, és csak kilenc hónapi fogság után engedte szabadon.</p>
+<p xml:id="crit.1.p.5">Mindkettőjükről megemlékezik <title><hi rend="italic">Chronologiá</hi></title>-jában <persName>Baksay<idno type="ITIdata">Q238812</idno></persName>, de nem külön, hanem az <persName>V.
+                            Lászlóról</persName>, illetőleg a <persName>Mátyás<idno corresp="Hunyadi Mátyás"/></persName> királyról szóló fejezetben.
+                                <persName>Zsámboki<idno type="ITIdata">Q247408</idno></persName> nem
+                        írt róluk disztichonokat.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 113.</fw>
+<head type="title">MAGYAR ORSZÁGH KÉTT NEVEZETES GUBERNÁTORI</head>
+<div xml:id="d.2">
+<head>HVNYADI JANOS</head>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Serény Márstul nemzet Magyarságh Chillagha,</l>
+<l xml:id="l.50">Hunyadi el-terjet Palma-fának ága,</l>
+<l xml:id="l.51">Nemes Országunknak tündöklö világa</l>
+<l xml:id="l.52">Méltán a’ feggyverre szemeid villoga.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Hercules második mi hazánkban voltál,</l>
+<l xml:id="l.54">A’ Pogányságh ellen vitezen forgottál</l>
+<l xml:id="l.55">Vizen és szárazon vélek mégh-harczoltál,</l>
+<l xml:id="l.56">Kiken mindenkoron diadalmaskottál.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Méltó Achilleshez ha most hasonlétlak,</l>
+<l xml:id="l.58">Elö-Járojának Magyarnak talállak,</l>
+<l xml:id="l.59">Amurátes<note type="critic" xml:id="note.5"><persName>II. Murád<idno type="ITIdata">Q472250</idno></persName> szultán (<date from="1421" to="1451">1421–1451</date>).</note> ellen hiressebnek
+                            vallak,</l>
+<l xml:id="l.60">S-hada-veröének tegedet mondhatlak.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Mig egy chöp-igh a’ vér, ben volt tagaidban</l>
+<l xml:id="l.62">Szomjuhozot a’ Márs Pogány vér-ontásban</l>
+<l xml:id="l.63">Mint a’ Szarvas futot nagy szomjuságában,</l>
+<l xml:id="l.64">Jlly vér-szivo voltál Török romlásában.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Te hired el-terjet egész Pogányságon,</l>
+<l xml:id="l.66">S megh-nem-rémült szived nagy számu sokságon,</l>
+<l xml:id="l.67">Mert bizodalmad volt Mennyei, joszágon.</l>
+<l xml:id="l.68">Kinek szerencheje tartot ez Országon.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Fáratságid után szemedet be-hunyád,</l>
+<l xml:id="l.70"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Ő mag<corr>á</corr>h<corr>o</corr>z vöve földben a’
+                                    te Annyád,<note type="critic" xml:id="note.6">A sor értelme: az anyaföld magához
+                                        vett.</note></lem>
+<rdg wit="#W1" xml:id="rdg.2">magahöz</rdg>
+</app></l>
+<l xml:id="l.71">Lelkedet peniglen Mennyei Szent Attyád,</l>
+<l xml:id="l.72">S-következöidnek fegyveredet hagyád.</l>
+</lg>
+</div>
+<div xml:id="d.3">
+<head>SZILAGY MIHALY</head>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Országunknak egyik fö Generálissa</l>
+<l xml:id="l.74">A’ kit föl-emelt volt a’ szerenche jussa</l>
+<l xml:id="l.75">Kin az ellenségnek volt megh-bódulása</l>
+<l xml:id="l.76">Sokszor Ottománnal<note type="critic" xml:id="note.7">a. m. a törökkel</note> törtent
+                            harczolása,</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77">A’ nemes Vér ebben mind holtig-lan posgot</l>
+<l xml:id="l.78">Serény gyorsasága mint egy villám forgot</l>
+<l xml:id="l.79">Nemzetéjért viselt faradságos dolgot</l>
+<l xml:id="l.80">Megh-erdemlette volt tiszti-méltóságot.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81">A’ barátságos sors ideigh viselte</l>
+<l xml:id="l.82">Mint a’ vidam Rárot szárnyán röpültette</l>
+<l xml:id="l.83">Sas-keselö modra praedára-is vitte</l>
+<l xml:id="l.84">Nagy sok ragadomant körme-közé vete.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">De a’ mint köz-példa tartia beszédében</l>
+<l xml:id="l.86">Ki veszelyt szereti esik a’ veszélyben,</l>
+<l xml:id="l.87">Ezt-is fel-találom Szent Irás könyvében</l>
+<l xml:id="l.88">Fegyver miát esik hiba életében.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Addigh kardoskodék pállia-futásában,</l>
+<l xml:id="l.90">A’ vak szerenchének ra-fordulásában,</l>
+<l xml:id="l.91">A’ szárnya el-esêk tollázkodásában</l>
+<l xml:id="l.92">Szerenchetlenséghtül akada rabságban.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Béko, és pengö vas lábát eszve füzé,<note type="critic" xml:id="note.8">A sor
+                                        <persName>Szilágyinak<idno type="ITIdata">Q258553</idno></persName> török fogságára céloz. Mint erdélyi
+                                vajda és az ország déli részeinek kapitánya <date when="1460-11-08">1460. november 8-án</date> túlnyomó török erőkkel csapott
+                                össze. Elfogták, <placeName>Konstantinápolyba<idno type="ITIdata">Q17048</idno></placeName> vitték. A következő esztendőben a
+                                szultán itt lefejeztette.</note></l>
+<l xml:id="l.94">A’ sok nyomoruságh mind addighlan üzé</l>
+<l xml:id="l.95">Testében a’ Lelkét a’ sok bu megh-gyözé</l>
+<l xml:id="l.96">Constantinápolyban életét végezé.</l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">149.</title>
+<title key="body" n="149" type="main">KÖVETKEZNEK NEMELLY JOSÁGOS TSELEKEDETEKRÜL -S- VETKEKRÜL IS-IRT SZENT
+                    IRÁSBÉLI PÉLDÁS VERSEK</title>
+<author>
+<surname>Fráter</surname>
+<forename>István</forename><idno type="ITIdata">Q41647</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-149</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.fi-jegyzetek">Jegyzetek: Fráter István élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <hi rend="bold">Paraphrasis rhithmica</hi>. <date when="1684">1684</date>. MTAK
+                K 92. 14a–18a. Kiad. <bibl><abbr>ALSZEGHY, ItK 1917</abbr>, 209–12.</bibl></p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: Paraphrasis rhithmica. 1684.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 149.</fw>
+<head type="title">KÖVETKEZNEK NEMELLY JOSÁGOS TSELEKEDETEKRÜL -S- VETKEKRÜL IS-IRT SZENT
+                    IRÁSBÉLI PÉLDÁS VERSEK</head>
+<div type="poem" xml:id="d.2" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Engedetlenség</hi></head>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Engedetlenségnek szomoru példája</l>
+<l xml:id="l.186">Paraditsomnak meg tiltott gyümölts fája,</l>
+<l xml:id="l.187">Magat s minket vesztö Adamnak almája,</l>
+<l xml:id="l.188">Torkunkon akadott izetlen torsája.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.3" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Hit</hi></head>
+<lg xml:id="lg.48">
+<l xml:id="l.189">Hittel Isten elött lele kedvet Abel,</l>
+<l xml:id="l.190">Aldozattya füsti földön nem terült el,</l>
+<l xml:id="l.191">Egben jó illatú szaga hogy hatott fel,</l>
+<l xml:id="l.192">Kisirteték lelke angyali sereggel.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.4" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Irigység</hi></head>
+<lg xml:id="lg.49">
+<l xml:id="l.193">Kain ösztöverrel<note type="critic" xml:id="note.38">silány gabonával</note> aldozék Istennek,</l>
+<l xml:id="l.194">Nem mene fel égben illattya füstinek,</l>
+<l xml:id="l.195">Irigysége véret artatlan Abelnek</l>
+<l xml:id="l.196">Ontá, s lön peldaja boszszusag tételnek.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.5" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Kegyesség</hi></head>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Enoch,<note type="critic" xml:id="note.39">Hénok, akit Isten jámborságáért az égbe ragadott. Vö. Sir. 44, 16. és 49, 16.</note> ki szüntelen tsak az Istennel járt,</l>
+<l xml:id="l.198">Ez vilagot tartvan mint gazt -s- veszendö sárt,</l>
+<l xml:id="l.199">Mulandó jók helyett menyei áldást várt,</l>
+<l xml:id="l.200">Kit fel vivén, Isten lelke egekkel zart.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.6" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Hoszzuélet</hi></head>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Isten kegyelmének hoszszu élet jele,</l>
+<l xml:id="l.202">Kilencz szaz esztendöt Matuselah<note type="critic" xml:id="note.40">Matusálah, Matuzsálem – vö. I. Móz. 5, 25–27.</note> éle,</l>
+<l xml:id="l.203">Hatvan kilencz feli<note type="critic" xml:id="note.41">felé</note> nékünk rövidüle</l>
+<l xml:id="l.204">Eletünk, mert vétkünk naponként többüle.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.7" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Isteni irgalmasság</hi></head>
+<lg xml:id="lg.52">
+<l xml:id="l.205">Szaz husz esztendökig türö nagy kegyelme,</l>
+<l xml:id="l.206">Az elsö világhoz Istennek szerelme</l>
+<l xml:id="l.207">Hogy haragra válék, viz özön félelme</l>
+<l xml:id="l.208">El burita mindent halálos gyötrelme.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.8" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Reszegség gyümölcse</hi></head>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Nóe habok közzül hogy meg szabadúla,</l>
+<l xml:id="l.210">Szölöt plántál, -s- annak borátul zajdula,<note type="critic" xml:id="note.42">megzajdult = megrészegedett. Vö. I. Móz. 9, 21–25.</note></l>
+<l xml:id="l.211"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Szemérmét nem fedö Cham ellen buzdula,</lem><rdg wit="#W1" xml:id="rdg.6"><del>fedi</del><add type="corr">fedö</add></rdg></app></l>
+<l xml:id="l.212">Aldasa fiához atokká fordula.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.9" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Engedelmesség</hi></head>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Engedelmessegnek Abrahám tököre,<note type="critic" xml:id="note.43">Ábrahám engedelmességéről lásd I. Móz. 22, 1–12.</note></l>
+<l xml:id="l.214">Kezében fel huzva van éles fegyvere,</l>
+<l xml:id="l.215">Hogy ontassek azzal fia piros vére,</l>
+<l xml:id="l.216">Meg igazulás lön szandekanak bére.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.10" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Vakmeröség</hi></head>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Égbéli felségnek le száll istensége,</l>
+<l xml:id="l.218">Ercs jól, Sodomának tüzzel lenne vége,</l>
+<l xml:id="l.219">Sóó bálvannyá válék Lótnak felesége,</l>
+<l xml:id="l.220">Mert viszsza tekinte nagy vakmerösége.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.11" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Valasztás</hi></head>
+<lg xml:id="lg.56">
+<l xml:id="l.221">Meg tsalatkozhatnak Isáknak szemei,</l>
+<l xml:id="l.222">Mond, Jákobi az szó, de kezek Esavi,</l>
+<l xml:id="l.223">Isten penig tudgya, mint álnak szivei,</l>
+<l xml:id="l.224">Mert számán ismeri, kitsodák övéi.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.12" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Isteni szabaditás</hi></head>
+<lg xml:id="lg.57">
+<l xml:id="l.225">Moses veszszejevel oszlott tenger vize,</l>
+<l xml:id="l.226"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Isten szabaditó kegyelmenek méze,</lem><rdg wit="#W1" xml:id="rdg.7"><del>k</del><add type="corr">s</add>zabaditó</rdg></app></l>
+<l xml:id="l.227">Pharahot meg fojtó keseredett ize,</l>
+<l xml:id="l.228">Kit Izrael partrúl tsudalkozvan neze.<note type="critic" xml:id="note.44">41–44 A sorokra vonatkozólag lásd II. Móz. 14, 15–30.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.13" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Zugolódás</hi></head>
+<lg xml:id="lg.58">
+<l xml:id="l.229">Pusztaban sidoknak bujdosó tábora</l>
+<l xml:id="l.230">Teremptöje ellen hogy zugolodásra</l>
+<l xml:id="l.231">Indul, nem vitetik be az Canahánra,</l>
+<l xml:id="l.232">Nekünk -s- fiainak örök peldájára.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.14" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Könyörgés</hi></head>
+<lg xml:id="lg.59">
+<l xml:id="l.233">Buzgó könyörgésunk Isten gyözö eszköz,</l>
+<l xml:id="l.234">Altala meny -s- föld közt rontatik el az köz,</l>
+<l xml:id="l.235">Josue könyörög, napot állit s kötöz,<note type="critic" xml:id="note.45">Józsuéről lásd I. (III.) Kir. 18, 41–45.</note></l>
+<l xml:id="l.236">Illyes imadsága szaraz földet öntöz.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.15" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Reménség</hi></head>
+<lg xml:id="lg.60">
+<l xml:id="l.237">Nem tsalatkozhatik meg a’ jó reménség,</l>
+<l xml:id="l.238">Hitnek lampasaval valamelly szivben ég,</l>
+<l xml:id="l.239">Földi türés után szállása lesz az éég,</l>
+<l xml:id="l.240">Ez altal Chalebnek adatik orökseg.<note type="critic" xml:id="note.46">A zsidókhoz szegődött Kálebről vö. Józs. 14, 6–15.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.16" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Erösség</hi></head>
+<lg xml:id="lg.61">
+<l xml:id="l.241">Tsak az lehet erös, kit Isten erössit,</l>
+<l xml:id="l.242">Gyakran szegyent valhat, a’ kit ö nem segit,</l>
+<l xml:id="l.243">Sámson nagy dolgokat ez szerint végben vitt,</l>
+<l xml:id="l.244">Szamar állal ezret ölt ö, mikor igy vítt.<note type="critic" xml:id="note.47">Az esetről lásd Bir. 16,15.; vitt – vívott, harcolt.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.17" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Kevelyseg</hi></head>
+<lg xml:id="lg.62">
+<l xml:id="l.245">Kevélységnek szégyen vallas az jutalma,</l>
+<l xml:id="l.246">Izetlen gyümöltse, hidd, nem arany alma.</l>
+<l xml:id="l.247">Babilon tornyának hol van most nagy halma?</l>
+<l xml:id="l.248">Le voná -s- el rontá Istennek hatalma.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.18" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Fiaknak atyakhoz valo engedetlensege</hi></head>
+<lg xml:id="lg.63">
+<l xml:id="l.249">Kegyes jo atyának engedetlen fia,</l>
+<l xml:id="l.250">Szemedet ki vájja a völgynek hollója,</l>
+<l xml:id="l.251">Joab mérges nyila szived által járja,</l>
+<l xml:id="l.252">Jusson eszedben hát Absolon cserfája.<note type="critic" xml:id="note.48">67–68 Dávid vezéréről, Joábról és Dávid lázadó fiáról lásd II. Sal. (II. Kir.) 18. fejezetét.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.19" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Vitezség</hi></head>
+<lg xml:id="lg.64">
+<l xml:id="l.253">Isten batorsága a’ jó vitézségnek,</l>
+<l xml:id="l.254">Oszlattya felhöjét szivünkbül kétségnek,</l>
+<l xml:id="l.255">Hitünk kisded köve fejét ellenségnek</l>
+<l xml:id="l.256">Töri, -s- örül David Goliath vesztének.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.20" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Edgyesseg</hi></head>
+<lg xml:id="lg.65">
+<l xml:id="l.257">Gyöngynel drágább köve a’ szép edgyességnek,</l>
+<l xml:id="l.258">Bizony, edgyik resze amaz épületnek,</l>
+<l xml:id="l.259">Mellyben vége nintsen az örök eletnek,</l>
+<l xml:id="l.260">Mutattya peldáját Moses -s- Aron ennek.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.21" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Szeretet</hi></head>
+<lg xml:id="lg.66">
+<l xml:id="l.261">Idvességünk edgyik szárnya a szeretet,</l>
+<l xml:id="l.262">Kit Istennek lelke szivünkben gerjesztett,</l>
+<l xml:id="l.263">Menyei tüz altal mint taplót elesztett,</l>
+<l xml:id="l.264">Jonathan ket szivet edgy testben rekesztett.<note type="critic" xml:id="note.49">Jonatánnak a lelke egybeforrott Dávidéval, annyira szerette. Vö. I. Sám. (I. Kir.) 18,1.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.22" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Örom</hi></head>
+<lg xml:id="lg.67">
+<l xml:id="l.265">Az isteni öröm lelkünket vidittya,</l>
+<l xml:id="l.266">Szomorusagunkat mint ködöt oszlattya,</l>
+<l xml:id="l.267">Búzgó éneklesre Szent Annat<note type="critic" xml:id="note.50">Sámuel anyjáról van szó. Hálaénekét lásd I. Sám. (I. Kir.) 2,1–10.</note> indittya,</l>
+<l xml:id="l.268">Samuelt, kis fiát ölében szorittya.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.23" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Gazdagság</hi></head>
+<lg xml:id="lg.68">
+<l xml:id="l.269">Jó -s- gonosz szerentse, szegénység, gazdagsag</l>
+<l xml:id="l.270">Nem történetbül van akarmely meltóság,</l>
+<l xml:id="l.271">Isten aldasatul függ kints, érték, joszag,</l>
+<l xml:id="l.272">Nem arthat Jakóbnak Lábánji ravaszság.<note type="critic" xml:id="note.51">Lábán Jákob ravasz apósa volt, vö. I. Móz. 29 fejezetével.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.24" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Böltseség</hi></head>
+<lg xml:id="lg.69">
+<l xml:id="l.273">Az jó böltsesegnek kedves tudománya,</l>
+<l xml:id="l.274">Bötsösebb, mint drága könek adománya,</l>
+<l xml:id="l.275">Ezért Sebánakis királyné aszszonya<note type="critic" xml:id="note.52">Séba (Sába) királynőjének Salamonnál tett látogatásáról lásd I. (III.) Kir. 10, 1–13.</note></l>
+<l xml:id="l.276">Látni Salamonnak személlyet kivánnya.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.25" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Bekeseges türés</hi></head>
+<lg xml:id="lg.70">
+<l xml:id="l.277">Bekeséges türés lelkünket épiti,</l>
+<l xml:id="l.278">Sok kisirtetinknek tüzetis enyhiti,</l>
+<l xml:id="l.279">Hitit, reménségét Szent Jóbnak segiti,</l>
+<l xml:id="l.280">Pallyájat vegezvén, oda fel vezeti.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.26" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">A ’ nyomorusagoknak haszna</hi></head>
+<lg xml:id="lg.71">
+<l xml:id="l.281">Isten haragjának szél veszes tengere,</l>
+<l xml:id="l.282">Ostorozásinak mélly örvenyü ere</l>
+<l xml:id="l.283">Manasses királynak hogy lelkéig ere,<note type="critic" xml:id="note.53">Manasses (Mánásszé) Júda 14. királyának Istenhez téréséről vö. II. Krón. 33, 1–18.</note></l>
+<l xml:id="l.284">Vétkeit meg vallá, Istenéhez tére.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.27" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Mertekletesseg</hi></head>
+<lg xml:id="lg.72">
+<l xml:id="l.285">Mértékletességnek drágalatos kintse,</l>
+<l xml:id="l.286">Kivanom, hogy Isten lelkem ezzel hintse,</l>
+<l xml:id="l.287">Josephnek peldaja<note type="critic" xml:id="note.54"> Jákob fiáról, az egyiptomi Józsefről van szó.</note> szivem erre intse,</l>
+<l xml:id="l.288">Mertekletlensegbül elmémet serkentse.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.28" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Alazatosság</hi></head>
+<lg xml:id="lg.73">
+<l xml:id="l.289">Alazatossagnak lelki méltósága,</l>
+<l xml:id="l.290"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Eget innen alól <corr>é</corr>r<corr>ő</corr> magassaga,</lem><rdg wit="#W1" xml:id="rdg.8">ero</rdg></app></l>
+<l xml:id="l.291">Szelidséget termö idvesseges ága,</l>
+<l xml:id="l.292">Christus példájával tanit erre maga.<note type="critic" xml:id="note.55">„Tanuljatok tőlem, mert szelid vagyok és alázatos szivü” – Máté 11, 29.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.29" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Alhatatosság</hi></head>
+<lg xml:id="lg.74">
+<l xml:id="l.293">Alhatatosságnak erös kösziklaja,</l>
+<l xml:id="l.294">Mellyen epült lelki harczunk oskolája,</l>
+<l xml:id="l.295">Igaz vallásunknak ez lehet próbája,</l>
+<l xml:id="l.296">Edes mesterünknek kedves ö igaja.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.30" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Hypochritaság</hi></head>
+<lg xml:id="lg.75">
+<l xml:id="l.297">Hypochritasagnak kárhozatos vetke,</l>
+<l xml:id="l.298">Mezzel kent méregnek halál hozó étke,</l>
+<l xml:id="l.299">Mellynek csalard sziben rosz faj szülö fészke,</l>
+<l xml:id="l.300">Joab ily szin alatt Abnert altal verte.<note type="critic" xml:id="note.56">Joáb, Dávid hadvezére orozva megölte Ábnert. /II. Sám. (II. Kir.) 3. fej./</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.31" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Embertelenség</hi></head>
+<lg xml:id="lg.76">
+<l xml:id="l.301">Magát felre vonván embertelenség áál,</l>
+<l xml:id="l.302">Társa kedvetlenség, mellyel edgy ágyban hál,</l>
+<l xml:id="l.303">Nintsen ö asztalán másnakis rakott tál,</l>
+<l xml:id="l.304">Maga étkétül fúl embertelen Nábál.<note type="critic" xml:id="note.57">A gazdag Nábál nem adott élelmet Dávidnak; haláláról lásd I. Sám. (I. Kir.) 25, 36–38.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.32" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Fösvenyseg</hi></head>
+<lg xml:id="lg.77">
+<l xml:id="l.305">Telhetetlenségnek baráttya fösvényseg,</l>
+<l xml:id="l.306">Mint láthatatlan tüz szivet emeszt -s- ugy ég,</l>
+<l xml:id="l.307">Nints kivánságának meg határozott vég,</l>
+<l xml:id="l.308">Mint lopó Áchánnak köz praeda nem elég.<note type="critic" xml:id="note.58">Áchán (Ákán) lopásáról, bűnhődéséről vö. Józs. 7. fejezetével.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.33" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Jgasság</hi></head>
+<lg xml:id="lg.78">
+<l xml:id="l.309">Tántorodás nélkül meg áll az igasság,</l>
+<l xml:id="l.310">Mindent felül múló tiszta tulajdonsag,</l>
+<l xml:id="l.311">Kit sem kints, felelem, sem gyöz háboruság,</l>
+<l xml:id="l.312">Nem erössebb ennél bor, aszszony, királyság.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.34" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Háláadatossag</lem><rdg wit="#W1" xml:id="rdg.9">Hálá<add type="insert">a</add>datossag</rdg></app></hi></head>
+<lg xml:id="lg.79">
+<l xml:id="l.313">Háládatosságnak kedves ö jósága,</l>
+<l xml:id="l.314">Mint jó téteménynek, költsönös valtsága,</l>
+<l xml:id="l.315">Isten -s- emberek közt bötsös méltosaga,</l>
+<l xml:id="l.316">Salemnek királlya<note type="critic" xml:id="note.59">Vö. I. Móz. 14, 18–20.</note> lehet bizonsaga.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.35" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Adakozás</hi></head>
+<lg xml:id="lg.80">
+<l xml:id="l.317">Költsön ád Istennek, a’ ki adakozik,</l>
+<l xml:id="l.318">Azert szükségében meg nem fogyatkozik,</l>
+<l xml:id="l.319">Sok szinü aldással tárháza virágzik,</l>
+<l xml:id="l.320">Rebeka illy kintsel már égben lakozik.<note type="critic" xml:id="note.60">Rebeka vizet adott Jákobnak, vö. I. Móz. 14, 18–20.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.36" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Emberség</hi></head>
+<lg xml:id="lg.81">
+<l xml:id="l.321">Emberseg éltünket jokkal betsülteti,</l>
+<l xml:id="l.322">Jo hirrel nevünket folytattya -s- élteti,</l>
+<l xml:id="l.323">Abigail aszont kedvessé téteti,<note type="critic" xml:id="note.61">A fösvény Abigail felesége eleséget vitt Dávidnak; vö. I. Sám. (I. Kir.) 25. fejezetével.</note></l>
+<l xml:id="l.324">Kiralyi setczelben<note type="critic" xml:id="note.62">székben (Sessel!)</note> pompáson ülteti.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.37" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Szelidseg</hi></head>
+<lg xml:id="lg.82">
+<l xml:id="l.325">Szelidség kiralynak nyakában arany láncz,</l>
+<l xml:id="l.326">Szekit erössitö romolhatatlan sáncz,</l>
+<l xml:id="l.327"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Ellenben negédseg<note type="critic" xml:id="note.63">gőg, fennhéjázás</note> veszedelmes gancs -s- ráncz,</lem><rdg wit="#W1" xml:id="rdg.10">[Előbb:] gants</rdg></app></l>
+<l xml:id="l.328">Kiert Roboamnak<note type="critic" xml:id="note.64">Roboam – a Júdától elszakadt Izrael első királya volt. Vö. II. Krón. 10–12. fejezeteivel.</note> osztatek jajos táncz.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.38" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Tekozlas</hi></head>
+<lg xml:id="lg.83">
+<l xml:id="l.329">Nintsen olly temerdek ösi érték -s- oszlás,<note type="critic" xml:id="note.65">oszlás – vagyon felosztás, öröklött jószág</note></l>
+<l xml:id="l.330">Kit meg ne emészszen végre a’ tékozlas.</l>
+<l xml:id="l.331">A’ tékozló finak mit hoza pazarlás?</l>
+<l xml:id="l.332">Vala kivánt etke válún az abarlás.<note type="critic" xml:id="note.66">147–148 A tékozló fiúról lásd Luk. 15,11–32.; válún az abarlás – a disznóknak főzött moslék a vályúban</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.39" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Igazmondás</hi></head>
+<lg xml:id="lg.84">
+<l xml:id="l.333">Mi lehet kedvesseb fénnyel a szep napnál,</l>
+<l xml:id="l.334">Bötsössebb jószággal az igaz mondásnal?</l>
+<l xml:id="l.335">Kinek szégyen vallás nem ül asztalánál,</l>
+<l xml:id="l.336">Égben Szent István-is lépék ez lámpásnal.<note type="critic" xml:id="note.67">Szent István első mártírt igazságot tanító beszéde miatt kövezték agyon a zsidók. Vö. Ap. csel. 7. fejezetével.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.40" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Ragalmazás</hi></head>
+<lg xml:id="lg.85">
+<l xml:id="l.337">Irigység fészkében termett rágalmazás.</l>
+<l xml:id="l.338">Attya az hazugság, s-gyanus tudakozás</l>
+<l xml:id="l.339">Dajkája. Türéssel üzetik ez fajzás,</l>
+<l xml:id="l.340">Artatlan Szent Pálnak volt ez oltalmazás.<note type="critic" xml:id="note.68">155–156 Az utalás valószínűleg Pál apostolnak harmadik, jeruzsálemi fogságára és az ezt követő eseményekre
+                            vonatkozik; Pál ekkor a zsidók rágalmai következtében évekig volt fogságban. (Vö. Ap. csel. 21. skk. fejezeteivel!)</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.41" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Gyülölség</hi></head>
+<lg xml:id="lg.86">
+<l xml:id="l.341">Az jó békeségnek gyülölség rontoja,</l>
+<l xml:id="l.342">A’ melly szühöz forratt ennek rosz taploja,</l>
+<l xml:id="l.343">Nem vehet ott eröt szeretet szikrája,</l>
+<l xml:id="l.344">Saulnak Davidhoz mutattya példája.<note type="critic" xml:id="note.69">Saul engesztelhetetlen gyűlölettel tört Dávid király életére. Lásd. I. Sám. (I. Kir.) 18. és következő fejezeteit!</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.42" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Harag</hi></head>
+<lg xml:id="lg.87">
+<l xml:id="l.345">Harag emberekben olly vétkes indulat,</l>
+<l xml:id="l.346">Jókhoz -s- gonoszokhoz ugy hozzájok ragatt,</l>
+<l xml:id="l.347">Melly nelkül üressen senki nemis maratt,</l>
+<l xml:id="l.348">Kit Szent Pál -s- Barnabás példája meg mutat.<note type="critic" xml:id="note.70">Szent Pál és Barnabás haragjáról, mivel az emberek pogány isteneknek vették őket, lásd Ap. csel. 14, 10–17.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.43" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Arultatás</hi></head>
+<lg xml:id="lg.88">
+<l xml:id="l.349">Rosz gyümölcsel tellyes vetek az árúlás,</l>
+<l xml:id="l.350">Titkos mesterséggel lesz az el pártolás.</l>
+<l xml:id="l.351">Tsókkal Christusátis árúlta el Judás,</l>
+<l xml:id="l.352">Kérlek, Isten, engem illy vétekkel ne láss.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.44" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Bujaság</hi></head>
+<lg xml:id="lg.89">
+<l xml:id="l.353">Bujálkodó élet magunk testét veszti,</l>
+<l xml:id="l.354">Hirünket, nevünket rut motsokban ejti,</l>
+<l xml:id="l.355">Lelkünket pokolban vég nelkül sillyeszti,</l>
+<l xml:id="l.356">Ammonnak életét halálra késziti.<note type="critic" xml:id="note.71">Ammon (Ámnon) haláláról, aki Támárt meggyalázta, lásd II. Sám. (II. Kir.) 13. fejezetét!</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.45" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Hazugság</hi></head>
+<lg xml:id="lg.90">
+<l xml:id="l.357">Mint hogy hazugságnak ördög lehet attya,</l>
+<l xml:id="l.358">Magához hasonló szintén ö fajzattya,</l>
+<l xml:id="l.359">Embert nagy veszélyre ez gyakran jutattya,</l>
+<l xml:id="l.360">Ananjas, Saphira példája tanittya.<note type="critic" xml:id="note.72">Ananiás és Szafira történetét lásd az Ap. csel. 5, 1–11. versben.</note></l>
+</lg>
+</div>
+<div type="poem" xml:id="d.46" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Házasság</hi></head>
+<lg xml:id="lg.91">
+<l xml:id="l.361">Amaz ditsös kertben<note type="critic" xml:id="note.73">Amaz ditsös kertben – a paradicsomban</note> kezdetett házasság</l>
+<l xml:id="l.362">Istentül parantsolt szent dolog -s- nagy jóság,</l>
+<l xml:id="l.363">Mellyel házasok közt meg áll a’ tisztaság,</l>
+<l xml:id="l.364">Jutalma vég nelkül lesz örök bóldogság.</l>
+</lg>
+</div>
+<div type="poem" xml:id="d.47" xml:lang="hu">
+<head type="subtitle"><hi rend="expanded">Banat</hi></head>
+<lg xml:id="lg.92">
+<l xml:id="l.365">Banat lelket, testet emészt és ugy fogyat,</l>
+<l xml:id="l.366">Belsö velökreis az búsulás bé hát,</l>
+<l xml:id="l.367">Szivetis mint éles tör ez által járhat,</l>
+<l xml:id="l.368">Mária példája itt eszedben juthat.<note type="critic" xml:id="note.74">A célzás a Jézus halálát kesergő Máriára vonatkozik; vö. szépművészeti ábrázolását a Pietà-témában.</note></l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

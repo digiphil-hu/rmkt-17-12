@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">127.</title>
+<title key="body" n="127" type="main">KERTI VIRAGOKROL VALO VERSEK</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-127</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Az <date when="1670">1670-i</date> gyűjtemény I. része. 57–60.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 127.</fw>
+<head type="title">KERTI VIRAGOKROL VALO VERSEK</head>
+<fw corresp="Esterházy Pál" type="lg">CCXV.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Egykor mulattomban, igen alattomban</l>
+<l rend="level_2" xml:id="l.2">Menék nagy erdöben,</l>
+<l xml:id="l.3">Iuték mély Barlangban, sötét hegy oldalban</l>
+<l rend="level_2" xml:id="l.4">Onnét egy szép kertben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXVI.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Látám Napaeáknak Isten Aszonykáknak</l>
+<l rend="level_2" xml:id="l.6">Mulato helyeit,</l>
+<l xml:id="l.7">Kertek uirágának, ékes illattyának</l>
+<l rend="level_2" xml:id="l.8">Érzém nagy ereit.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXVII.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Elöszöris Rutta, s-io illatu Ménta</l>
+<l rend="level_2" xml:id="l.10">Iutának elömben,</l>
+<l xml:id="l.11">Sziuem oda haitna, kezem hozzá kapna</l>
+<l rend="level_2" xml:id="l.12">Ha memém féltömben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXVIII.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Rosmarin, és Zállya ö magát aiállya</l>
+<l rend="level_2" xml:id="l.14">Véluén hogy ö legh szeb,</l>
+<l xml:id="l.15">Magas Spanyor Bocza,<note type="critic" xml:id="note.1">Spanyor Bocza = syringa</note> ékes
+                        Maioranna</l>
+<l rend="level_2" xml:id="l.16">Gondollya keduesseb.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXIX.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Szép Veröfény Virág,<note type="critic" xml:id="note.2">Veröfény Virág = napraforgó</note>
+                        mint el teriet Világ,</l>
+<l rend="level_2" xml:id="l.18">Égre emelkedik,</l>
+<l xml:id="l.19">Széles Harang Virág, mint sürü Cyprus ág,</l>
+<l rend="level_2" xml:id="l.20">Földre terieszkedik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXX.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Isop, Spikinárdal,<note type="critic" xml:id="note.3">Spikinárd = levendula</note> uagy szép
+                        Szarka lábbal</l>
+<l rend="level_2" xml:id="l.22">Gyakran uetekedik,</l>
+<l xml:id="l.23">Pipaczis konkollyal, kükörczén czollánnal</l>
+<l rend="level_2" xml:id="l.24">Öszue egyueledik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXI.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Virágiát Narancznak, s-io izü Baraczknak</l>
+<l rend="level_2" xml:id="l.26">Szemlélém ez kertben</l>
+<l xml:id="l.27">Illattyát Sáfránnak, jo Basilicumnak</l>
+<l rend="level_2" xml:id="l.28">Forgattam elmémben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXII.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Czillag Virágbannis, töb szagos ágbannis</l>
+<l rend="level_2" xml:id="l.30">Igen uiult keduem,</l>
+<l xml:id="l.31">Máua Rosákbannis, Iunkeliákbannis<note type="critic" xml:id="note.4">Iunkelia – mint
+                                <persName>Jankovics József</persName> megállapította, valószínű,
+                            hogy a juncellus virágról, a széles, nagy virágú őszipalkáról van szó.
+                            (Lásd még a <ref target="rmkt-17-12.tei.ep-137">137. sz.</ref> vers 59. sorában is.)</note></l>
+<l rend="level_2" xml:id="l.32">Gyönyörködék szemem.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXIII.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Passio Virágot,<note type="critic" xml:id="note.5">Passió Virág = Flos Passionis, Granadilla,
+                            Maraton. „Mivel ebben az vírágban, Christus szenvedésének eszközi, igen
+                            szépen ki ábráztatnak: holott környös környül a’ karéy, a’ tövisses
+                            koronát formállyák; a véres ostort, a’ vér és kékes színü szállak, a’
+                            kikbül áll a’ virág, jelentik. … A’ mi Idvezitönknek, öt sebei-is
+                            meg-tetszenek rajta…” (<bibl>Lippay János: <title>Posoni kert</title>.
+                                        <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>–<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1664">1664</date>. I, 99.</bibl>)</note> és zöld Laurus
+                        ágot,</l>
+<l rend="level_2" xml:id="l.34">Szép Simprosiakot,<note type="critic" xml:id="note.6">Simprosia – nem
+                            találtam</note></l>
+<l xml:id="l.35">Lattam Cedrus ágot, szagos Gyöngy Virágot,</l>
+<l rend="level_2" xml:id="l.36">S-Animoniakot.<note type="critic" xml:id="note.7">Animonia = „Anemone, kit
+                            balgatagúl, és tudatlanúl, Molnár az ö Dictionariumjában Magyarúl
+                            Pipacsnak nevez. Holott tudgya minden paraszt ember-is, micsoda az
+                            Pipacs; de Anemonét, jób részént nem-is látott, nem-is hallott, nevezni
+                            sem tudgya. ... Ez amá gyönyörüséges szép színü Virág, kinek
+                            külömböztetö színét, alig ha valamely Virág föllyül haladgya: holott az
+                            ö világos vörös színével, még az embernek szeme Világát-is
+                            csillámíttya.” (<bibl>Lippay: i. m. I, 66–67.</bibl>)</note></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXIV.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Tarka Tulipánok, feiér Liliumok</l>
+<l rend="level_2" xml:id="l.38">Magokat mutattyák,</l>
+<l xml:id="l.39">Ekes Narcyssusok, szép Hiacyntusok</l>
+<l rend="level_2" xml:id="l.40">Szagokot futtattyák.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXV.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Balsamum Virága mint Borostyán ága</l>
+<l rend="level_2" xml:id="l.42">Fára tekereszik,</l>
+<l xml:id="l.43">Pézma Virág szaga, Szek fünek illattya</l>
+<l rend="level_2" xml:id="l.44">Széllyel téuelyeszik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXVI.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Mind ezek ékessek, én nállam keduessek</lem>
+<rdg wit="#W1" xml:id="rdg.1"><del>keduessek</del><add type="corr">ékessek</add></rdg>
+</app></l>
+<l rend="level_2" xml:id="l.46">Nagy méltán ualának,</l>
+<l xml:id="l.47">De ezeknél szebbek, s-köllemetesebbek</l>
+<l rend="level_2" xml:id="l.48">Elöttem állának.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXVII.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Három szép Virág szál, kertben elöttem ál,</l>
+<l rend="level_2" xml:id="l.50">S-igen kötekednek,</l>
+<l xml:id="l.51">Mellyk többet használ, auagy ékesben ál</l>
+<l rend="level_2" xml:id="l.52">Azon uersenkednek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXVIII.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Drága szép Viola, kedues szagu Rosa,</l>
+<l rend="level_2" xml:id="l.54">Kéuányák az Pállyát,</l>
+<l xml:id="l.55">Ielzemin illattya ezeket föl mullya</l>
+<l rend="level_2" xml:id="l.56">S-nem alittya mását.<note type="critic" xml:id="note.8">49–56
+                                    <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> feltétlenül
+                            ismerte a virágvetélkedés műfaját, l. <bibl><abbr>RMKT XVII/3</abbr>,
+                                702.</bibl></note></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXIX.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Eszt ki el oluasod, s-magadban gondolod,</l>
+<l rend="level_2" xml:id="l.58">Felely megh ezeknek,</l>
+<l xml:id="l.59">Ha uan aggodalmod, sziubéli fáidalmod</l>
+<l rend="level_2" xml:id="l.60">Légy Biráia ennek.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

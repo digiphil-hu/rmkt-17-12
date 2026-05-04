@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">7.</title>
+<title key="body" n="7" type="main">SȮLILOQUIUM: JOHANNIS RIMAINI:</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-7</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kéziratai:</p>
+<p xml:id="crit.1.p.3">I. <hi rend="bold">Rimay-Madách-k.</hi> III, 8a–10a. Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, ItK 1901</abbr>,
+                            132–34.</bibl> – A szöveg végén: „Forditottȧm en Madȧch Gaspȧr deakbull
+                        Maggiarrȧ Rimai vram verszeibeȯl.”</p>
+<p xml:id="crit.1.p.4">II. <hi rend="bold">Rimay-Madách-k.</hi> III, 14a–15b. Részben kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, ItK
+                                1901</abbr>, 135–36.</bibl> Ennek a javított fogalmazványnak a
+                        terjedelme 118 sor.</p>
+<p xml:id="crit.1.p.5">Az eredeti vers ma ismeretlen, a fordítás időpontja is az.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. III, 8a–10a.</witness>
+<witness xml:id="W2">Rimay-Madách-k. III, 14a–15b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 7.</fw>
+<head type="title"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">SȮLILOQUIUM: JOHANNI<corr>S</corr> RIMAINI:</lem>
+<rdg wit="#W1" xml:id="rdg.1">Johanni</rdg>
+<rdg wit="#W2" xml:id="rdg.2">Johan</rdg>
+</app></head>
+<l xml:id="l.1"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Miert tőrőddöl een lelkem:</lem>
+<rdg wit="#W2" xml:id="rdg.3">tőrődöl oh en</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.2"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Kinzod es farastod igėn</lem>
+<rdg wit="#W2" xml:id="rdg.4">faraztod <del>testem</del>
+<add type="insert">igen</add></rdg>
+</app></l>
+<l xml:id="l.3"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Faidalommal mind epestes</lem>
+<rdg wit="#W2" xml:id="rdg.5">Faidalommal meg</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.4">Szaraztwȧán sziwem weszélihez.</l>
+<l xml:id="l.5"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Gondolod <corr>wagi teweliedwe</corr></lem>
+<rdg wit="#W1" xml:id="rdg.6">[Előbb:] Gondolod hogi wagi feleitwe</rdg>
+<rdg wit="#W2" xml:id="rdg.7"><del>hogi</del> wagi <del>feleitwe</del>
+<add type="insert">teweliedwe</add></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.6"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Jstenedteol <corr>el feleitwe</corr></lem>
+<rdg wit="#W1" xml:id="rdg.8">[Előbb:] el teweliedwe</rdg>
+<rdg wit="#W2" xml:id="rdg.9"><del>Jstenteöl</del><add type="corr">Jstenedteol</add> el
+                                <del>teweliedwe</del> feleitwe</rdg>
+</app></l>
+<l xml:id="l.7"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Lelkem te ne soppánkodgial</lem>
+<rdg wit="#W2" xml:id="rdg.10"><del>Szemmit</del><add type="insert">Lelkem</add></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.8"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Semiben ne Somorodgiál</lem>
+<rdg wit="#W2" xml:id="rdg.11">[Hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.9"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Vasztag hittel<note type="critic" xml:id="note.1">Vasztag hittel –
+                                    <persName>Madách Gáspárnak</persName> ezt a kedvelt kifejezését
+                            lásd még a <ref target="rmkt-17-12.tei.mg-2">2. számú ének</ref> 16. és a <ref target="rmkt-17-12.tei.rm-k-42">42. sz. ének</ref> 1.
+                                    sorában is.</note> Jstenben hidgi</lem>
+<rdg wit="#W2" xml:id="rdg.12"><del>Vasztag</del>
+<add type="insert">Erös</add>; istenben bizal<note>[A sor után:]
+                                <del>Kőniőrw̋leő Jstenedhez Minden igiedet heliheztes</del></note></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.10"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10">Koniorgest te eleiben<note type="critic" xml:id="note.2"><hi rend="italic">elejben</hi> olvasat esetén szabályos kétütemű nyolcast
+                                nyerünk</note> widgi</lem>
+<rdg wit="#W2" xml:id="rdg.13">[Hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.11">Mėrt hȧ egi kis werebeczkét</l>
+<l rend="level_1" xml:id="l.12">Foldön czussó kis férgeczkét</l>
+<l xml:id="l.13">Eő szent felsége eltetӳ</l>
+<l rend="level_1" xml:id="l.14"><app xml:id="app.11">
+<lem wit="#KK" xml:id="lem.11">Eőrzẏ taplalia S.wezérly</lem>
+<rdg wit="#W2" xml:id="rdg.14"><del rend="overwritten">Eltety</del><add type="overwrite">Eőrzzy</add> tap<del>a</del>lalia</rdg>
+</app></l>
+<l xml:id="l.15"><app xml:id="app.12">
+<lem wit="#KK" xml:id="lem.12">Szenkẏ nekie nem arthat</lem>
+<rdg wit="#W1" xml:id="rdg.15">nekiek</rdg>
+<rdg wit="#W2" xml:id="rdg.16">nekie<del>k</del></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.16"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13">Eleteteöl meg nem fosthát</lem>
+<rdg wit="#W1" xml:id="rdg.17">Eletekteöl</rdg>
+<rdg wit="#W2" xml:id="rdg.18">Elete<del>k</del>től</rdg>
+</app></l>
+<l xml:id="l.17">Haat inkab teged ö fiat</l>
+<l rend="level_1" xml:id="l.18">Kepere teremptet allattiát</l>
+<l xml:id="l.19"><app xml:id="app.14">
+<lem wit="#KK" xml:id="lem.14">Eltėt gondodot wiszelÿ</lem>
+<rdg wit="#W2" xml:id="rdg.19"><add type="insert">S</add> wigiaz gondodot</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.20"><app xml:id="app.15">
+<lem wit="#KK" xml:id="lem.15">Bual lelked nem terhelÿ</lem>
+<rdg wit="#W2" xml:id="rdg.20"><add type="insert">Bual lelked nem terhelÿ</add></rdg>
+</app></l>
+<l xml:id="l.21"><app xml:id="app.16">
+<lem wit="#KK" xml:id="lem.16"><corr>Eo</corr> tegedet <corr>hoza</corr> fogad.</lem>
+<rdg wit="#W1" xml:id="rdg.21">Tegedet hozaia ö fogad</rdg>
+<rdg wit="#W2" xml:id="rdg.22"><add type="insert">Eo</add> Tegedet hoza<del>ia</del> fogad
+                             </rdg>
+</app></l>
+<l rend="level_1" xml:id="l.22">Pokolra nemis karhoztat.</l>
+<l xml:id="l.23"><app xml:id="app.17">
+<lem wit="#KK" xml:id="lem.17">Nohȧ bw̋nős fekelies wagi</lem>
+<rdg wit="#W2" xml:id="rdg.23">bẇnős <del>es vndo<del>g</del>k</del>
+<add place="below" type="insert"><del>Hited heliheztes
+                            beleie</del></add></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.24">V ̋dwöszegtȯl tawozwa wagi</l>
+<l xml:id="l.25">Tekints Christus érdemére</l>
+<l rend="level_1" xml:id="l.26">Oldalból kẏ folit wérere</l>
+<l xml:id="l.27">Ki tegedet az ö Juhat</l>
+<l rend="level_1" xml:id="l.28"><app xml:id="app.18">
+<lem wit="#KK" xml:id="lem.18">Geniet fekeliekkel rakwát</lem>
+<rdg wit="#W2" xml:id="rdg.24"><del>Fertelmes</del>
+<add type="insert">Geniet</add></rdg>
+</app></l>
+<l xml:id="l.29"><app xml:id="app.19">
+<lem wit="#KK" xml:id="lem.19">Teged szent wálára weszen</lem>
+<rdg wit="#W2" xml:id="rdg.25">walara tessen</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.30">Aklȧ Szeregeben viszen.</l>
+<l xml:id="l.31">El teweliedned nem enged</l>
+<l rend="level_1" xml:id="l.32">Hittedben nem hȧgi chőkenned</l>
+<l xml:id="l.33"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20">Hogi farkasoknak saiaban.</lem>
+<rdg wit="#W1" xml:id="rdg.26">saiokban</rdg>
+<rdg wit="#W2" xml:id="rdg.27">saiaban</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.34"><app xml:id="app.21">
+<lem wit="#KK" xml:id="lem.21">Eőrdőghnek eö hailekában.</lem>
+<rdg wit="#W1" xml:id="rdg.28">Eőrdő<del>k</del>gnek</rdg>
+</app></l>
+<l xml:id="l.35"><app xml:id="app.22">
+<lem wit="#KK" xml:id="lem.22">Mert oltalmaz eö tegedet</lem>
+<rdg wit="#W2" xml:id="rdg.29"><del>Meg</del>
+<add type="insert">Mert</add></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.36"><app xml:id="app.23">
+<lem wit="#KK" xml:id="lem.23">Ki mindenkor ȧal melleted.</lem>
+<rdg wit="#W2" xml:id="rdg.30">
+<del>Jstenben aianlwan lelkedet</del><add type="insert">Ki mindenkor ȧal
+                                melleted</add></rdg>
+</app></l>
+<l xml:id="l.37"><app xml:id="app.24">
+<lem wit="#KK" xml:id="lem.24">Tsak Jezus Christusban bizaal</lem>
+<rdg wit="#W2" xml:id="rdg.31"><add type="insert">Tsak</add> Jezus Christusban <del>te</del></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.38">Ki eretted vigiaz s-fén aal</l>
+<l xml:id="l.39"><app xml:id="app.25">
+<lem wit="#KK" xml:id="lem.25">Eltett boldog remeniszéggel</lem>
+<rdg wit="#W2" xml:id="rdg.32"><del>Hi</del><add type="insert">Eltet</add> boldog io</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.40">Meg aald teged vduőszeggel</l>
+<l xml:id="l.41">Eő mi erettünk aldozot.</l>
+<l rend="level_1" xml:id="l.42">Az kereszt fán ertűnk meg holt</l>
+<l xml:id="l.43"><app xml:id="app.26">
+<lem wit="#KK" xml:id="lem.26">Mi bwneinkeert fw̋zetet.<note type="critic" xml:id="note.3">=
+                            fizetett</note></lem>
+<rdg wit="#W2" xml:id="rdg.33">bwn<del>v̋</del>einkert</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.44">Tőrw̋lwén wilagnak wétkét</l>
+<l xml:id="l.45">Eö chiak egiedw̋l Saitolta:</l>
+<l rend="level_1" xml:id="l.46">Jstennek haragiat niomta.</l>
+<l xml:id="l.47">Eő fertelmes Szébeinket</l>
+<l rend="level_1" xml:id="l.48"><app xml:id="app.27">
+<lem wit="#KK" xml:id="lem.27"><corr>Giogitia S.</corr>Vigaztia eőket</lem>
+<rdg wit="#W1" xml:id="rdg.34">S: Giogit Vigaztia</rdg>
+<rdg wit="#W2" xml:id="rdg.35">Giogitia S.</rdg>
+</app></l>
+<l xml:id="l.49">Ertűnk szent wérét ontotta.</l>
+<l rend="level_1" xml:id="l.50">Buneinkböl Tisztitotta.</l>
+<l xml:id="l.51">Miniaiunkot szent wérewel.</l>
+<l rend="level_1" xml:id="l.52">Meg waltot ö kėgielmewel.</l>
+<l xml:id="l.53">Nem iűt szėnkit karhoztatni</l>
+<l rend="level_1" xml:id="l.54">De életben meg tartanÿ</l>
+<l xml:id="l.55"><app xml:id="app.28">
+<lem wit="#KK" xml:id="lem.28">Hogi ő hozȧ folliamodgiűnk</lem>
+<rdg wit="#W2" xml:id="rdg.36">foliamod<del>g</del>unk</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.56">Faradozwa a.kik wagiunk.</l>
+<l xml:id="l.57">Terechtől<note type="critic" xml:id="note.4">= tehertől</note> meg kőniebitẏ</l>
+<l rend="level_1" xml:id="l.58">Hitiben meg erőssiti</l>
+<l xml:id="l.59">Eö Jstennel egi Szó Szólónk</l>
+<l rend="level_1" xml:id="l.60"><app xml:id="app.29">
+<lem wit="#KK" xml:id="lem.29"> Lelkűnkben edes orwoszlónk</lem>
+<rdg wit="#W2" xml:id="rdg.37">Lelkünknek edes orwossunk</rdg>
+</app></l>
+<l xml:id="l.61">Mindenkor benünk lakozik</l>
+<l rend="level_1" xml:id="l.62">Mi erettűnk hadakozik.</l>
+<l xml:id="l.63"><app xml:id="app.30">
+<lem wit="#KK" xml:id="lem.30">Fel Viszėn az magosaghbán</lem>
+<rdg wit="#W2" xml:id="rdg.38">[Hiányzik.]</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.64"><app xml:id="app.31">
+<lem wit="#KK" xml:id="lem.31">Dichőseges hailekaban.</lem>
+<rdg wit="#W2" xml:id="rdg.39">[Hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.65">En giarló tőrőtt édenied</l>
+<l rend="level_1" xml:id="l.66">S-Többi keőzőt Epiteszed.<note type="critic" xml:id="note.5">– olv. építésed =
+                        alkotmányod</note></l>
+<l xml:id="l.67">Mint az Juh erdőn Teweligek.</l>
+<l rend="level_1" xml:id="l.68">Szėnt igidtől messe leepek.</l>
+<l xml:id="l.69">Ėn wagiok tekozló fiu</l>
+<l rend="level_1" xml:id="l.70">Bunnel rakwa artalmas fw̋</l>
+<l xml:id="l.71"><app xml:id="app.32">
+<lem wit="#KK" xml:id="lem.32">Edennie rosz gondolatnak.</lem>
+<rdg wit="#W2" xml:id="rdg.40">gondolatoknak</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.72">Gerieztőie hamiszagnak</l>
+<l xml:id="l.73">Hellie az Esztelenszégnek</l>
+<l rend="level_1" xml:id="l.74">Jnditoia feszletsegnek</l>
+<l xml:id="l.75">Betegségnek dohotsȧgha<note type="critic" xml:id="note.6">= büdössége</note></l>
+<l rend="level_1" xml:id="l.76">Keep Vtalatoszaggal rakwa.</l>
+<l xml:id="l.77">Léttem napiatol es eddigh.</l>
+<l rend="level_1" xml:id="l.78"><app xml:id="app.33">
+<lem wit="#KK" xml:id="lem.33">Jossȧg benem nem Talaltatik.</lem>
+<rdg wit="#W2" xml:id="rdg.41">Semmi ioszágh nem talalkozik</rdg>
+</app></l>
+<l xml:id="l.79"><app xml:id="app.34">
+<lem wit="#KK" xml:id="lem.34">Nints bennėm Jstenni felelem.</lem>
+<rdg wit="#W2" xml:id="rdg.42">Jsteni felelem nints benem</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.80">Hazuksaggal rakwȧ éltem</l>
+<l xml:id="l.81">Nints bennem az irgalmaszágh</l>
+<l rend="level_1" xml:id="l.82">Tȯlem tawozot ighaszágh</l>
+<l xml:id="l.83">Az ėn keresztieniszeghem</l>
+<l rend="level_1" xml:id="l.84">Merwltėm kegietlenszégben.</l>
+<l xml:id="l.85">Meniei iokon nem kapok.</l>
+<l rend="level_1" xml:id="l.86">Tesztin: S.wilagin kapdosok.</l>
+<l xml:id="l.87">Az ki meg árt azt szerettem.</l>
+<l rend="level_1" xml:id="l.88"><app xml:id="app.35">
+<lem wit="#KK" xml:id="lem.35">Szent dolgokot meg wettetem</lem>
+<rdg wit="#W2" xml:id="rdg.43"><add type="insert">en</add> meg</rdg>
+</app></l>
+<l xml:id="l.89">Faitalȧn gonoz tesztemben.</l>
+<l rend="level_1" xml:id="l.90"><app xml:id="app.36">
+<lem wit="#KK" xml:id="lem.36">Harag Szorult minden izben.</lem>
+<rdg wit="#W2" xml:id="rdg.44"><del rend="overwritten"><gap extent="1" reason="illegible" unit="word"/></del><add type="overwrite">Haragh</add></rdg>
+</app></l>
+<l xml:id="l.91">Buiaszȧgh es nagi hamiszaagh</l>
+<l rend="level_1" xml:id="l.92">Keweliseeg sórult hazugságh</l>
+<l xml:id="l.93"><app xml:id="app.37">
+<lem wit="#KK" xml:id="lem.37">Alhatatlanszȧg Torkosaágh</lem>
+<rdg wit="#W2" xml:id="rdg.45">Alhatatlansag es</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.94">Nints bennem semmi iamborságh</l>
+<l xml:id="l.95">Jgaság tölem el fordult,</l>
+<l rend="level_1" xml:id="l.96">Jrigiségben eltem merűlt</l>
+<l xml:id="l.97">Een sziwem vonszon gonoshoz.</l>
+<l rend="level_1" xml:id="l.98">Ez Vilaghi kiwánszághoz</l>
+<l xml:id="l.99">O Jezus fenies igassaágh</l>
+<l rend="level_1" xml:id="l.100"><app xml:id="app.38">
+<lem wit="#KK" xml:id="lem.38">Kut feie nagi irgalmaszaagh.</lem>
+<rdg wit="#W1" xml:id="rdg.46">feio</rdg>
+<rdg wit="#W2" xml:id="rdg.47">feie irgalmasagh<note type="critic" xml:id="note.7">[Utána:] Lelkemnek legi mȧr kegielmes S
+                            dichősegedell reseltess</note></rdg>
+</app></l>
+<l xml:id="l.101"><app xml:id="app.39">
+<lem wit="#KK" xml:id="lem.39">Moss meg engem sok rutszagból</lem>
+<rdg wit="#W2" xml:id="rdg.48">rutsagtol</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.102"><app xml:id="app.40">
+<lem wit="#KK" xml:id="lem.40">Fertelmes Vndok vétkembeől</lem>
+<rdg wit="#W2" xml:id="rdg.49"><del>Sok Vndok seniwet</del>
+<add type="insert">Fertelmes Vndok</add> bűnőmtűl</rdg>
+</app></l>
+<l xml:id="l.103">Szent Lelkeddel engem Vÿicz</l>
+<l rend="level_1" xml:id="l.104">Minden iokat bennem épits</l>
+<l xml:id="l.105">Tista sziwet teremcz bennem.</l>
+<l rend="level_1" xml:id="l.106"><app xml:id="app.41">
+<lem wit="#KK" xml:id="lem.41">Mẏ nem ió wess kÿ belőlem</lem>
+<rdg wit="#W2" xml:id="rdg.50">Az mi</rdg>
+</app></l>
+<l xml:id="l.107">Tőrűld el én bw̋neimet</l>
+<l rend="level_1" xml:id="l.108">Fekellies Vndok wetkemet</l>
+<l xml:id="l.109">Légi ez eletben mellettem.</l>
+<l rend="level_1" xml:id="l.110"><app xml:id="app.42">
+<lem wit="#KK" xml:id="lem.42">El ne alẏ Szohún<note type="critic" xml:id="note.8">– olv. sohun =
+                                sehol</note> mellőlem</lem>
+<rdg wit="#W2" xml:id="rdg.51">sohul</rdg>
+</app></l>
+<l xml:id="l.111">Christus Jstennek Barannia</l>
+<l rend="level_1" xml:id="l.112">Ez Vilagnak meg Valtoia</l>
+<l xml:id="l.113">Adgi Szeep chendessen ki mulaszt</l>
+<l rend="level_1" xml:id="l.114">Holtom Vtȧn boldogulászt</l>
+<l xml:id="l.115">Hogi tegedet ėn dichiriem</l>
+<l rend="level_1" xml:id="l.116"><app xml:id="app.43">
+<lem wit="#KK" xml:id="lem.43">Mondgion lelkėm legien Amen</lem>
+<rdg wit="#W2" xml:id="rdg.52">Eőrőkőn Eőrőke Amen</rdg>
+</app></l>
+<l xml:id="l.117"><app xml:id="app.44">
+<lem wit="#KK" xml:id="lem.44">Hogi mikor iw̋sz Jttilnie</lem>
+<rdg wit="#W2" xml:id="rdg.53">mikor <del>iw̋s az</del> iős</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.118"><app xml:id="app.45">
+<lem wit="#KK" xml:id="lem.45">Alas engemet iobb feele</lem>
+<rdg wit="#W2" xml:id="rdg.54">engem iob kezed felé</rdg>
+</app></l>
+<l xml:id="l.119"><app xml:id="app.46">
+<lem wit="#KK" xml:id="lem.46">S-Töb szentiddel egietembėn</lem>
+<rdg wit="#W2" xml:id="rdg.55">Sentiddel <del>ösue alas</del>
+<add type="insert"><del>egiw̋l</del></add></rdg>
+</app></l>
+<l rend="level_1" xml:id="l.120"><app xml:id="app.47">
+<lem wit="#KK" xml:id="lem.47">Mind örokke dichirheszen.</lem>
+<rdg wit="#W2" xml:id="rdg.56">S.dichirhesem tegedet eorokon oroke</rdg>
+</app></l>
+</div>
+</body>
+</text>
+</TEI>

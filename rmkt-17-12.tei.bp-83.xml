@@ -1,0 +1,3917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">83.</title>
+<title key="body" n="83" type="main">MASODIK RESZE A’ KÖZÖNSÉGES MAGYAR PÉLDA BESZÉDEKRÜL</title>
+<author>
+<surname>Beniczky</surname>
+<forename>Péter</forename><idno type="ITIdata">Q41111</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bp-83</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bp-jegyzetek">Jegyzetek: Beniczky Péter élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar
+                                Rithmusok.</hi><placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName><date when="1670">1670</date></bibl>.<bibl><abbr>RMK
+                        I</abbr>, 1099., 129–243.</bibl></p>
+<p xml:id="crit.1.p.3">A bevezető jegyzetben említett latin fordítást, és a szlovák nyelvű
+                        példabeszédeket itt figyelmen kívül hagytuk. Summásan említjük, hogy a <hi rend="italic">Tsorik András-ék.</hi> (<date from="1750" to="1751">1750–1751</date>) 193–205. lapjaira feljegyezték a következő számú
+                        példabeszédeket: 9., 10., 12., 32., 62., 94., 96., 103., 106., 115., 130.,
+                        142., 150., 152., 155., 159., 164., 191., 194., 195., 199., 200., 201.</p>
+<p xml:id="crit.1.p.4">A <hi rend="italic">Nátly Ferenc-ék.</hi> (<date from="1795" to="1796">1795–1796</date>) a 77b lapon a a 206., a 77b–78a lapon 203., a 78a
+                        lapon a 121. és a 78b lapon a 9. számú példabeszédet tartalmazza. Az egyes
+                        versikéknek címe van, szövegüket pedig latin nyelvű mondás követi.</p>
+<p xml:id="crit.1.p.5">Minthogy egyik kéziratnak sem lehet köze a szerzői szöveghez, egyik
+                        gyűjtemény anyagát sem vettük figyelembe a variánsok
+                    szempontjából.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Magyar Rithmusok. Kolozsvár 1670. RMK I, 1099.</witness>
+<witness xml:id="W2">Szinnyey-Merse-kódex (Pongrácz Ferenc 1668-ban lemásolta
+                        Beniczky verseit).</witness>
+<witness xml:id="W3">Magyar Rithmusok. RMK I, 1611/b. (A címlap
+                        hiányzik.)</witness>
+<witness xml:id="W4">Magyar Rithmusok. Lőcse, 1675.</witness>
+<witness xml:id="Wα">A Stoll Béla által α-val jelölt, rekonstruált
+                        szövegváltozat.</witness>
+<witness xml:id="Wβ">A Stoll Béla által β-val jelölt, rekonstruált
+                        szövegváltozat.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<head type="title">MASODIK RESZE</head>
+<head type="subtitle">A’ KÖZÖNSÉGES MAGYAR PÉLDA BESZÉDEKRÜL</head>
+<fw type="originalNum">[RMKT XVII/12:] 83.</fw>
+<fw corresp="Beniczky Péter" type="lg">1</fw>
+<lg xml:id="lg.1">
+<l rend="level_2" xml:id="l.1">Mas dolgom nem lévén,</l>
+<l xml:id="l.2">Henyélést kerülvén,</l>
+<l xml:id="l.3">Fogtam ez Rithmusimhoz,</l>
+<l rend="level_2" xml:id="l.4">Nem-is tanulásbol,</l>
+<l xml:id="l.5">S’ Elme mutatásbul</l>
+<l xml:id="l.6">Kezdettem e’ munkámhoz,</l>
+<l rend="level_2" xml:id="l.7">Hanem a’ természet,</l>
+<l xml:id="l.8">Mennyire segitett,</l>
+<l xml:id="l.9">Ugy nyultam irásimhoz.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">2</fw>
+<lg xml:id="lg.2">
+<l rend="level_2" xml:id="l.10">Világon állando,</l>
+<l xml:id="l.11">Nincsen maradando</l>
+<l xml:id="l.12">Semmi-is javaiban:</l>
+<l rend="level_2" xml:id="l.13">Gyöngy olvad eczettül,</l>
+<l xml:id="l.14">S’ Gyémánt hasad vértül,</l>
+<l xml:id="l.15"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Fényes Nap jút homályban,</lem>
+<rdg wit="#W2" xml:id="rdg.1">homaltul</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.16"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Ah mint számlálhassak,</lem>
+<rdg wit="#W2" xml:id="rdg.2">szamlalhassam</rdg>
+</app></l>
+<l xml:id="l.17">Jaj s’ miként mondhassak</l>
+<l xml:id="l.18">Sok dolgot kis summában?</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">3</fw>
+<lg xml:id="lg.3">
+<l rend="level_2" xml:id="l.19">Ez világ ideig,</l>
+<l xml:id="l.20">Kedve nem tart fottig,</l>
+<l xml:id="l.21">Gyakran viszsza változik.</l>
+<l rend="level_2" xml:id="l.22">Tegnap vigan tartott,</l>
+<l xml:id="l.23">Most már búra hajtott,</l>
+<l xml:id="l.24">Estvélig mi történik.</l>
+<l rend="level_2" xml:id="l.25">Mert ö komor kedve,</l>
+<l xml:id="l.26">Mord mint fene Medve,</l>
+<l xml:id="l.27">Csak reád agyarkodik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">4</fw>
+<lg xml:id="lg.4">
+<l rend="level_2" xml:id="l.28">Az Isten sziveket</l>
+<l xml:id="l.29">Meg-visgál Veséket,</l>
+<l xml:id="l.30">Lát minden gondolatot.</l>
+<l rend="level_2" xml:id="l.31">Tudgya ki haragszik,</l>
+<l xml:id="l.32">Ki böjtöl, s’ ki eszik,</l>
+<l xml:id="l.33">Titkot néz, s’ indulatot.</l>
+<l rend="level_2" xml:id="l.34">Es itél igazán,</l>
+<l xml:id="l.35">Ha mit talál héjján,</l>
+<l xml:id="l.36">Mert ért minden szozatot.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">5</fw>
+<lg xml:id="lg.5">
+<l rend="level_2" xml:id="l.37">Az elme nem nyugszik,</l>
+<l xml:id="l.38">Ujságra vágyodik,</l>
+<l xml:id="l.39">Futtya világ határit,</l>
+<l rend="level_2" xml:id="l.40">Egeket meg-hattya,</l>
+<l xml:id="l.41">S’ föld gyomrát meg-járja,</l>
+<l xml:id="l.42">Uszsza Tenger Vizeit,</l>
+<l rend="level_2" xml:id="l.43">Nincsen olly forgó szél,</l>
+<l xml:id="l.44"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3"><corr>Amely érhetné el</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.3">Ha vélle szárnyra kél,</rdg>
+<rdg wit="#W2" xml:id="rdg.4">A mely érhetne el</rdg>
+</app></l>
+<l xml:id="l.45"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4"><corr>Ennek sebes nyomdokit.</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.5">Ki el-érje nyomdokit</rdg>
+<rdg wit="#W2" xml:id="rdg.6">Ennek sebes nyomdokit</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">6</fw>
+<lg xml:id="lg.6">
+<l rend="level_2" xml:id="l.46">Ember azért fárad,</l>
+<l xml:id="l.47">Nagy munkája árad,</l>
+<l xml:id="l.48">Emlekezetet hadgyon.</l>
+<l rend="level_2" xml:id="l.49">De idö azt veszti,</l>
+<l xml:id="l.50">S’ irigység temeti,</l>
+<l xml:id="l.51">Még hire se maradgyon.</l>
+<l rend="level_2" xml:id="l.52">Kié volt, és lészen,</l>
+<l xml:id="l.53"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Kézrül kézre megyen,</lem>
+<rdg wit="#W2" xml:id="rdg.7">kéztöl</rdg>
+</app></l>
+<l xml:id="l.54">S’ magát vereti agyon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">7</fw>
+<lg xml:id="lg.7">
+<l rend="level_2" xml:id="l.55"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Dolgodnak kezdeti,</lem>
+<rdg wit="#Wβ" xml:id="rdg.8">Dolgoknak</rdg>
+</app></l>
+<l xml:id="l.56">S’ csendes eredeti</l>
+<l xml:id="l.57">Légyen minden idöben:</l>
+<l rend="level_2" xml:id="l.58">Mihez kezdesz pedig,</l>
+<l xml:id="l.59">Abban te légy fottig</l>
+<l xml:id="l.60">Alhatatos elmédben.</l>
+<l rend="level_2" xml:id="l.61">Mert ki lassan kullog,</l>
+<l xml:id="l.62">Az nem sokat bolyog,</l>
+<l xml:id="l.63">Epret szedhet mentében.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">8</fw>
+<lg xml:id="lg.8">
+<l rend="level_2" xml:id="l.64"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Ne enged<corr>d</corr> nyelvednek,</lem>
+<rdg wit="#W1" xml:id="rdg.9">engedgy</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.10">enged</rdg>
+</app></l>
+<l xml:id="l.65">Hogy járjon elmédnek</l>
+<l xml:id="l.66">Elötte szabad kénnyén,</l>
+<l rend="level_2" xml:id="l.67">Gyakorta csácsogás,</l>
+<l xml:id="l.68">S’ gondolatlan szóllás,</l>
+<l xml:id="l.69">Rostáltatik értelmén.</l>
+<l rend="level_2" xml:id="l.70">Bár mondgy is igazat,</l>
+<l xml:id="l.71"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Bé-törik agyadat,</lem>
+<rdg wit="#W2" xml:id="rdg.11">az agyadat</rdg>
+</app></l>
+<l xml:id="l.72">Nem szoltál másnak kedvén.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">9</fw>
+<lg xml:id="lg.9">
+<l rend="level_2" xml:id="l.73">Soha nagy titkodat,</l>
+<l xml:id="l.74">S’ titkos szándékodat</l>
+<l xml:id="l.75"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Ne jelencsd meg senkinek.</lem>
+<rdg wit="#W2" xml:id="rdg.12">ne jelencsd szenkinek</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.76">Mihelt ki-jelented,</l>
+<l xml:id="l.77">Azonnal le kötöd</l>
+<l xml:id="l.78"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10">Szabadságát éltednek.</lem>
+<rdg wit="#W2" xml:id="rdg.13">Sabadscagnak</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.79">Lészesz annak rabja,</l>
+<l xml:id="l.80">Ki titkodat tudgya,</l>
+<l xml:id="l.81">Kel szolgálnod kedvének.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">10</fw>
+<lg xml:id="lg.10">
+<l rend="level_2" xml:id="l.82">Hogy ha csendességben</l>
+<l xml:id="l.83">Kévánsz s’ békességben</l>
+<l xml:id="l.84">Hajlékodban maradni,</l>
+<l rend="level_2" xml:id="l.85">Minden szó szelének,</l>
+<l xml:id="l.86">Es fondorlo hirnek</l>
+<l xml:id="l.87">Nem jó végére menni,</l>
+<l rend="level_2" xml:id="l.88">Mert kicsiny szikrábul</l>
+<l xml:id="l.89">Gerjed nagy láng abbol,</l>
+<l xml:id="l.90">Kit nem tudsz el-oltani.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">11</fw>
+<lg xml:id="lg.11">
+<l rend="level_2" xml:id="l.91">Magad gondolatlan,</l>
+<l xml:id="l.92">Avagy kinálatlan,</l>
+<l xml:id="l.93">Ne vádgy az elsö székre:</l>
+<l rend="level_2" xml:id="l.94">El-jün más kit nem vélsz,</l>
+<l xml:id="l.95">Mellette el-nem férsz,</l>
+<l xml:id="l.96">Szorulsz utolso helyre:</l>
+<l rend="level_2" xml:id="l.97">Es né talám olykor,</l>
+<l xml:id="l.98">Mint történik sokszor,</l>
+<l xml:id="l.99">Ültetnek csak küszöbre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">12</fw>
+<lg xml:id="lg.12">
+<l rend="level_2" xml:id="l.100">Job más rollad szollyon,</l>
+<l xml:id="l.101">S’ téged magasztallyon,</l>
+<l xml:id="l.102">Hogy nem a’ magad nyelve;</l>
+<l rend="level_2" xml:id="l.103">Minden botnak végén,</l>
+<l xml:id="l.104">Es nem a’ közepin</l>
+<l xml:id="l.105">Szokot lenni a’ feje.</l>
+<l rend="level_2" xml:id="l.106">Napot nem fel-költin,</l>
+<l xml:id="l.107">Hanem enyészetin</l>
+<l xml:id="l.108">Dicsérik énekelve.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">13</fw>
+<lg xml:id="lg.13">
+<l rend="level_2" xml:id="l.109"><app xml:id="app.11">
+<lem wit="#KK" xml:id="lem.11"><corr>Gazdagságért senkit,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.14">Senkit gazdagságért,</rdg>
+<rdg wit="#W2" xml:id="rdg.15">Gazdaksagért senkit</rdg>
+</app></l>
+<l xml:id="l.110"><app xml:id="app.12">
+<lem wit="#KK" xml:id="lem.12"><corr>Ha nem méltó, másként</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.16">Aranyért ezüstért</rdg>
+<rdg wit="#W2" xml:id="rdg.17">Ha nem milto maskint</rdg>
+</app></l>
+<l xml:id="l.111">Ne dicsérj te méltatlan.</l>
+<l rend="level_2" xml:id="l.112">Mert kalmárt pénzéért,</l>
+<l xml:id="l.113">S’ Vargát értekéért</l>
+<l xml:id="l.114">Magasztalni szokatlan.</l>
+<l rend="level_2" xml:id="l.115"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13">Hanem <corr>az</corr> Nemes vért,</lem>
+<rdg wit="#W1" xml:id="rdg.18">az a’ Nemes</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.19">az nemes</rdg>
+</app></l>
+<l xml:id="l.116">Mely tisztességhez ért,</l>
+<l xml:id="l.117">Dicsirhetni nogatlan.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">14</fw>
+<lg xml:id="lg.14">
+<l rend="level_2" xml:id="l.118">Embert erkölcséröl,</l>
+<l xml:id="l.119">Nem Nemzetségéröl</l>
+<l xml:id="l.120">Ismerjed jonak lenni.</l>
+<l rend="level_2" xml:id="l.121">Az bort sem szinéért,</l>
+<l xml:id="l.122">De kedves iziért</l>
+<l xml:id="l.123">Szokták pénzen meg-venni.</l>
+<l rend="level_2" xml:id="l.124">Lovat sem szöriért,</l>
+<l xml:id="l.125"><app xml:id="app.14">
+<lem wit="#KK" xml:id="lem.14">De <corr>gyors</corr> serénység<corr>é</corr>rt</lem>
+<rdg wit="#Wα" xml:id="rdg.20">De serénységéért</rdg>
+<rdg wit="#W2" xml:id="rdg.21">Gyors szerenysegért</rdg>
+</app></l>
+<l xml:id="l.126">Szoktak nagyra becsülni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">15</fw>
+<lg xml:id="lg.15">
+<l rend="level_2" xml:id="l.127">A’ jo hir meg-marad,</l>
+<l xml:id="l.128">Meszsze földre árrad,</l>
+<l xml:id="l.129">Meg nem gátollya sövény:</l>
+<l rend="level_2" xml:id="l.130">Nem szenved szorulást,</l>
+<l xml:id="l.131">Kiván szabadulást,</l>
+<l xml:id="l.132">Mert hatható és kemény.</l>
+<l rend="level_2" xml:id="l.133">Nap keletrül repül,</l>
+<l xml:id="l.134">S’ nap nyugotra térül,</l>
+<l xml:id="l.135">Mint a’ Tengeri örvény.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">16</fw>
+<lg xml:id="lg.16">
+<l rend="level_2" xml:id="l.136"><app xml:id="app.15">
+<lem wit="#KK" xml:id="lem.15">Ki követ <corr>hajt</corr><note type="critic" xml:id="note.1">a. m.
+                                    hajít.</note> égre,</lem>
+<rdg wit="#Wα" xml:id="rdg.22">vét</rdg>
+<rdg wit="#W2" xml:id="rdg.23">hait</rdg>
+</app></l>
+<l xml:id="l.137">S’ le-esik fejére,</l>
+<l xml:id="l.138">Nem jajgathattya sebét:</l>
+<l rend="level_2" xml:id="l.139">Mert ki szánt szándékkal,</l>
+<l xml:id="l.140">S’ bolond akarattal</l>
+<l xml:id="l.141">Járja a’ maga kénnyét,</l>
+<l rend="level_2" xml:id="l.142">Kár vallása nem kár,</l>
+<l xml:id="l.143">Ne-is sirassa bár,</l>
+<l xml:id="l.144">Hogy meg-ütötte körmét.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">17</fw>
+<lg xml:id="lg.17">
+<l rend="level_2" xml:id="l.145">Mások jovallását,</l>
+<l xml:id="l.146">Es tanács adását</l>
+<l xml:id="l.147">Meg ne vessed azontul.</l>
+<l rend="level_2" xml:id="l.148">Mert a’ magad esze</l>
+<l xml:id="l.149">Esik gyakran meszsze</l>
+<l xml:id="l.150">Az el-rendelt dologtul.</l>
+<l rend="level_2" xml:id="l.151">Bolond-is olly követ</l>
+<l xml:id="l.152">Néha kútban vethet,</l>
+<l xml:id="l.153">Ki nem vonatik soktul.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">18</fw>
+<lg xml:id="lg.18">
+<l rend="level_2" xml:id="l.154">Sok jo ló a’ hámban</l>
+<l xml:id="l.155">Meg-szárad, s’ vonásban,</l>
+<l xml:id="l.156">Mert nem tudgyák jo voltát:</l>
+<l rend="level_2" xml:id="l.157">Sok érdemes legény,</l>
+<l xml:id="l.158">Hogy érteke szegény,</l>
+<l xml:id="l.159">Fogja az eke szarvát.</l>
+<l rend="level_2" xml:id="l.160">Noha az tarsolybul,</l>
+<l xml:id="l.161">Nem csak ezüst tálbol</l>
+<l xml:id="l.162">Szednek vajas pogácsát.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">19</fw>
+<lg xml:id="lg.19">
+<l rend="level_2" xml:id="l.163">Maga hazájában,</l>
+<l xml:id="l.164">S’ nevelt kunnyojában</l>
+<l xml:id="l.165">Egy proféta sem kedves:</l>
+<l rend="level_2" xml:id="l.166">Mert nagy embereknek,</l>
+<l xml:id="l.167">S’ Nemes Nemzeteknek</l>
+<l xml:id="l.168">Eletek gyülölséges:</l>
+<l rend="level_2" xml:id="l.169">Holtok után pedig</l>
+<l xml:id="l.170">Ohajtyák mind éltig,</l>
+<l xml:id="l.171">Akkor lesz kellemetes.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">20</fw>
+<lg xml:id="lg.20">
+<l rend="level_2" xml:id="l.172">Tudomány ollyan kincs,</l>
+<l xml:id="l.173">Kinél semmi jób nincs,</l>
+<l xml:id="l.174">Tekintetes mint egy Mars,</l>
+<l rend="level_2" xml:id="l.175">Iffiak jozansága,</l>
+<l xml:id="l.176">S’ vének vigassága</l>
+<l xml:id="l.177">Szükségedben igaz társ.</l>
+<l rend="level_2" xml:id="l.178">Gazdagnak ékesség:</l>
+<l xml:id="l.179">Szegénynek segitség:</l>
+<l xml:id="l.180">Mint jo aczélozott nyárs.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">21</fw>
+<lg xml:id="lg.21">
+<l rend="level_2" xml:id="l.181">Jo erkölcs, s’ jó élet,</l>
+<l xml:id="l.182">Nagyob hittel lehet</l>
+<l xml:id="l.183">Szapora esküvésnél:</l>
+<l rend="level_2" xml:id="l.184">Mert gyakran esküdni,</l>
+<l xml:id="l.185">Es abban hibázni</l>
+<l xml:id="l.186">Mivel job a’ szélvésznél.<note type="critic" xml:id="note.2">A sor után értelemszerűleg
+                            kérdőjel kell.</note></l>
+<l rend="level_2" xml:id="l.187">De jo cselekedet</l>
+<l xml:id="l.188">Hitelez tégedet,</l>
+<l xml:id="l.189">Job az el-hányo hitnél.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">22</fw>
+<lg xml:id="lg.22">
+<l rend="level_2" xml:id="l.190">Könnyü mást inteni,</l>
+<l xml:id="l.191">S’ vétekrül feddeni,</l>
+<l xml:id="l.192">Keresni hozzá gáncsot:</l>
+<l rend="level_2" xml:id="l.193">De magát ismérni,</l>
+<l xml:id="l.194">S’ nehéz vétkét tudni,</l>
+<l xml:id="l.195">Nyakában ki vét lánczot,</l>
+<l rend="level_2" xml:id="l.196">Mert ki ki magárul,</l>
+<l xml:id="l.197">A’ mit végez másrul,</l>
+<l xml:id="l.198">Tart titokban tanácsot.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">23</fw>
+<lg xml:id="lg.23">
+<l rend="level_2" xml:id="l.199">Az jó ért Tanácsnak,</l>
+<l xml:id="l.200">S’ el-tökélt szándéknak</l>
+<l xml:id="l.201">Két ellensége vagyon.</l>
+<l rend="level_2" xml:id="l.202">Hertelenség, s’ harag,</l>
+<l xml:id="l.203">A’ melly jot nem farag,</l>
+<l xml:id="l.204">Inkáb gonoszra vonszon.</l>
+<l rend="level_2" xml:id="l.205">De a’ szelid erkölcs</l>
+<l xml:id="l.206">Tanácsokban-is bölcs,</l>
+<l xml:id="l.207">Kiböl terjed nagy haszon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">24</fw>
+<lg xml:id="lg.24">
+<l rend="level_2" xml:id="l.208">Nehéz az idönek</l>
+<l xml:id="l.209">Szokot menésének</l>
+<l xml:id="l.210"><app xml:id="app.16">
+<lem wit="#KK" xml:id="lem.16">Törvént <corr>é</corr>s modot szabni.</lem>
+<rdg wit="#W1" xml:id="rdg.24">s’</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.25">és</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.211">Idö birád néked,</l>
+<l xml:id="l.212">Mikor a’ szükséged</l>
+<l xml:id="l.213">Kezd tanácsot kérdeni.</l>
+<l rend="level_2" xml:id="l.214">Mert ha vak a’ koczkád,</l>
+<l xml:id="l.215">Ottan idö birád,</l>
+<l xml:id="l.216">Mihez kellessék nyulni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">25</fw>
+<lg xml:id="lg.25">
+<l rend="level_2" xml:id="l.217">Hertelenség meg-árt,</l>
+<l xml:id="l.218">Sietség hozhat kárt</l>
+<l xml:id="l.219"><app xml:id="app.17">
+<lem wit="#KK" xml:id="lem.17">Akar mi dologban-is;</lem>
+<rdg wit="#W2" xml:id="rdg.26">dolgogbanis</rdg>
+<rdg wit="#W3" xml:id="rdg.27">dolgodban is</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.220">Idötöl kell várni,</l>
+<l xml:id="l.221">S’ tanácstul halgatni</l>
+<l xml:id="l.222">A’ Szükségnek korán-is.</l>
+<l rend="level_2" xml:id="l.223">De mértékletesség</l>
+<l xml:id="l.224">Jeles jo segitség,</l>
+<l xml:id="l.225">Akar mi idöben-is.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">26</fw>
+<lg xml:id="lg.26">
+<l rend="level_2" xml:id="l.226">A’ nagy várakozás</l>
+<l xml:id="l.227">Nem csak fogyatkozás,</l>
+<l xml:id="l.228"><app xml:id="app.18">
+<lem wit="#KK" xml:id="lem.18"><corr>Gyötrelme is</corr> a’ szivnek.</lem>
+<rdg wit="#Wα" xml:id="rdg.28">Nagy gyötrelme</rdg>
+<rdg wit="#W2" xml:id="rdg.29">Gyetrelmeis</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.229">Indulo késéssel,</l>
+<l xml:id="l.230">Ma, s’ holnap menéssel</l>
+<l xml:id="l.231">Bút árraszt az elmének,</l>
+<l rend="level_2" xml:id="l.232">Mert hoszszu jutalom,</l>
+<l xml:id="l.233">Es a’ puszta malom</l>
+<l xml:id="l.234">Nem hajt hasznot erszénynek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">27</fw>
+<lg xml:id="lg.27">
+<l rend="level_2" xml:id="l.235">A’ kétségben eset,</l>
+<l xml:id="l.236">Elméjében veszet,</l>
+<l xml:id="l.237">Jót nem tud remélleni:</l>
+<l rend="level_2" xml:id="l.238">Mert ott nincsen hitel,</l>
+<l xml:id="l.239">Hol reménség vész el,</l>
+<l xml:id="l.240">Magának sem kezd hinni,</l>
+<l rend="level_2" xml:id="l.241">Mint az vizben haló,</l>
+<l xml:id="l.242">S’ Lelkét ki ajánló,</l>
+<l xml:id="l.243">Kénszerit habhoz kapni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">28</fw>
+<lg xml:id="lg.28">
+<l rend="level_2" xml:id="l.244">Nem birhatz sziveddel,</l>
+<l xml:id="l.245">Ha töled vész az el,</l>
+<l xml:id="l.246">A’ mit szerencse igér;</l>
+<l rend="level_2" xml:id="l.247">Nagy bátor elméket,</l>
+<l xml:id="l.248">S’ vakmerö sziveket</l>
+<l xml:id="l.249">A’ busulás földhöz vér,</l>
+<l rend="level_2" xml:id="l.250">Mert véletlen eset</l>
+<l xml:id="l.251">Inkáb keserithet,</l>
+<l xml:id="l.252">Ha váratlan téged ér.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">29</fw>
+<lg xml:id="lg.29">
+<l rend="level_2" xml:id="l.253">A’ bátor szivekkel,</l>
+<l xml:id="l.254">Nem a’ félénkekkel</l>
+<l xml:id="l.255">Szerencse társalkodik.</l>
+<l rend="level_2" xml:id="l.256">Azért vagy hogy semmi,</l>
+<l xml:id="l.257">Vagy légyen valami,</l>
+<l xml:id="l.258">Az min szived aggodik.</l>
+<l rend="level_2" xml:id="l.259">Mert resolutio<note type="critic" xml:id="note.3">eltökélés,
+                            elhatározás</note></l>
+<l xml:id="l.260">Probálva lészen jo,</l>
+<l xml:id="l.261"><app xml:id="app.19">
+<lem wit="#KK" xml:id="lem.19">Lesz sorsod-is második.</lem>
+<rdg wit="#Wβ" xml:id="rdg.30">Sorsod-is öregbedik</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">30</fw>
+<lg xml:id="lg.30">
+<l rend="level_2" xml:id="l.262">Nem rosz embert illet,</l>
+<l xml:id="l.263">Hozzá nem-is férhet,</l>
+<l xml:id="l.264">Hogy báncsa persvásio,<note type="critic" xml:id="note.4">bizalom, hit</note></l>
+<l rend="level_2" xml:id="l.265">Mert a’ bizodalom,</l>
+<l xml:id="l.266">Jövendö jutalom</l>
+<l xml:id="l.267">Reménséggel lehet jó.</l>
+<l rend="level_2" xml:id="l.268">Kinek körme vagyon,</l>
+<l xml:id="l.269">Fára hághat nagyon,</l>
+<l xml:id="l.270">Mint ama’ csalárd kigyo.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">31</fw>
+<lg xml:id="lg.31">
+<l rend="level_2" xml:id="l.271">Bolond és esztelen,</l>
+<l xml:id="l.272">Lehetetlenségben</l>
+<l xml:id="l.273">Ki elméjét fárasztya,</l>
+<l rend="level_2" xml:id="l.274"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20"><corr>És harag</corr> az ollyan,</lem>
+<rdg wit="#Wα" xml:id="rdg.31">Szemtelen</rdg>
+<rdg wit="#W2" xml:id="rdg.32">Es harag</rdg>
+</app></l>
+<l xml:id="l.275"><app xml:id="app.21">
+<lem wit="#KK" xml:id="lem.21"><corr>Igen</corr> haszontalan,</lem>
+<rdg wit="#Wα" xml:id="rdg.33">Harag s’</rdg>
+<rdg wit="#W2" xml:id="rdg.34">Egen</rdg>
+</app></l>
+<l xml:id="l.276">Melly erejét nem láttya,</l>
+<l rend="level_2" xml:id="l.277">Mert hidgyed nem szoval</l>
+<l xml:id="l.278">Tehetség, probával</l>
+<l xml:id="l.279"><app xml:id="app.22">
+<lem wit="#KK" xml:id="lem.22">Ki-menet<corr>ét</corr> mutattya.</lem>
+<rdg wit="#W1" xml:id="rdg.35">Ki-menetel</rdg>
+<rdg wit="#W2" xml:id="rdg.36">ki menetit</rdg>
+<rdg wit="#W3 #W4" xml:id="rdg.37">Ki-menetét</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">32</fw>
+<lg xml:id="lg.32">
+<l rend="level_2" xml:id="l.280">Drága kincs az jo hir,</l>
+<l xml:id="l.281">Valaki azzal bir</l>
+<l xml:id="l.282">Es meg-tudgya tartani.</l>
+<l rend="level_2" xml:id="l.283">Mert bársont mocsok sir,</l>
+<l xml:id="l.284">Embert-is gonosz hir</l>
+<l xml:id="l.285">Igen szokta veszteni:</l>
+<l rend="level_2" xml:id="l.286">Azért ne pénzedet,</l>
+<l xml:id="l.287">Inkáb jo hiredet</l>
+<l xml:id="l.288">Kivánnyad meg-örzeni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">33</fw>
+<lg xml:id="lg.33">
+<l rend="level_2" xml:id="l.289">Jo, s’ gonosz szerencse,</l>
+<l xml:id="l.290">Hogy embert meg-ejcse,</l>
+<l xml:id="l.291">Fel-emel, s’ taszit porban,</l>
+<l rend="level_2" xml:id="l.292">Császárt-is kúldussá</l>
+<l xml:id="l.293">Tész urat kapássá,</l>
+<l xml:id="l.294">Öltözteti bocskorban,</l>
+<l rend="level_2" xml:id="l.295">Királyi korona,</l>
+<l xml:id="l.296">S’ ország birodalma</l>
+<l xml:id="l.297">Száll olykor nád hajlékban.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">34</fw>
+<lg xml:id="lg.34">
+<l rend="level_2" xml:id="l.298">Ha búban nincs fejed,</l>
+<l xml:id="l.299"><app xml:id="app.23">
+<lem wit="#KK" xml:id="lem.23">Elethez sincs kedved,</lem>
+<rdg wit="#W2" xml:id="rdg.38">néncz</rdg>
+</app></l>
+<l xml:id="l.300">Tégy szert a’ méltóságra.</l>
+<l rend="level_2" xml:id="l.301">Meg-tanit fáradni,</l>
+<l xml:id="l.302">Es ritkán henyélni</l>
+<l xml:id="l.303">S’ gyakran juttat probára,</l>
+<l rend="level_2" xml:id="l.304">Kelletlen étellel,</l>
+<l xml:id="l.305">Es izetlen kedvel</l>
+<l xml:id="l.306">Lopva ereszt álomra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">35</fw>
+<lg xml:id="lg.35">
+<l rend="level_2" xml:id="l.307"><app xml:id="app.24">
+<lem wit="#KK" xml:id="lem.24">Ne föbség, s’ felséget,</lem>
+<rdg wit="#W2" xml:id="rdg.39">Ne fölseg</rdg>
+</app></l>
+<l xml:id="l.308">Hanem békességet</l>
+<l xml:id="l.309"><app xml:id="app.25">
+<lem wit="#KK" xml:id="lem.25">Kivány inkáb <corr>Istentül</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.40">az Urtúl</rdg>
+<rdg wit="#W2" xml:id="rdg.41">Istentul</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.310">Méltoságos széket,</l>
+<l xml:id="l.311">Es nagy gondos tisztet</l>
+<l xml:id="l.312">Ne kivány az királytul,</l>
+<l rend="level_2" xml:id="l.313">Igy jutsz jó vénségre,</l>
+<l xml:id="l.314">Es csendes életre,</l>
+<l xml:id="l.315">Ha üres lészesz gondtul.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">36</fw>
+<lg xml:id="lg.36">
+<l rend="level_2" xml:id="l.316">Titkot királyoknak,</l>
+<l xml:id="l.317">Akar nagy Uraknak</l>
+<l xml:id="l.318">Nem jó mindgyárt bé-funi,</l>
+<l rend="level_2" xml:id="l.319">Hanem ha hivséged,</l>
+<l xml:id="l.320">Vagy kötelességed</l>
+<l xml:id="l.321">Fogja aztat tartani:</l>
+<l rend="level_2" xml:id="l.322">Mert másként boszszúbol</l>
+<l xml:id="l.323">S’ csak kicsiny haragbol</l>
+<l xml:id="l.324">Fogja szemedre vetni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">37</fw>
+<lg xml:id="lg.37">
+<l rend="level_2" xml:id="l.325">Mikor hazugságban,</l>
+<l xml:id="l.326">S’ hizelkedö szóban</l>
+<l xml:id="l.327">Az király gyönyörködik,</l>
+<l rend="level_2" xml:id="l.328">Akkor a’ szolgai,</l>
+<l xml:id="l.329">S’ minden udvarlói</l>
+<l xml:id="l.330">Isteneket meg-vetik:</l>
+<l rend="level_2" xml:id="l.331">Mert csak az igasság,</l>
+<l xml:id="l.332">Es az irgalmasság</l>
+<l xml:id="l.333">Fejedelmeket örzik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">38</fw>
+<lg xml:id="lg.38">
+<l rend="level_2" xml:id="l.334">Király méltosága</l>
+<l xml:id="l.335">Az nép sokasága,</l>
+<l xml:id="l.336"><app xml:id="app.26">
+<lem wit="#KK" xml:id="lem.26">Kivel terjed nagy hire;</lem>
+<rdg wit="#W2" xml:id="rdg.42">az nagy</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.337">Kösség kevés volta</l>
+<l xml:id="l.338">Viszont gyalázattya,</l>
+<l xml:id="l.339">Kissebbitheti végre,</l>
+<l rend="level_2" xml:id="l.340">Mert igy birodalma,</l>
+<l xml:id="l.341">Elete s’ hatalma</l>
+<l xml:id="l.342"><app xml:id="app.27">
+<lem wit="#KK" xml:id="lem.27">Veszhet <corr>é</corr>s álhat helyre.</lem>
+<rdg wit="#W1" xml:id="rdg.43">s’</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.44">és</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">39</fw>
+<lg xml:id="lg.39">
+<l rend="level_2" xml:id="l.343">Ország pusztulása,</l>
+<l xml:id="l.344">S’ városok romlása</l>
+<l xml:id="l.345">Gyakran történik abbul,</l>
+<l rend="level_2" xml:id="l.346">Hogy jónak gonosztul,</l>
+<l xml:id="l.347">Jámbornak latortul</l>
+<l xml:id="l.348"><app xml:id="app.28">
+<lem wit="#KK" xml:id="lem.28">Nincs rekesze egymástul,</lem>
+<rdg wit="#W2" xml:id="rdg.45">nincs reszesze</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.349">Latornak arany láncz,</l>
+<l xml:id="l.350"><app xml:id="app.29">
+<lem wit="#KK" xml:id="lem.29">Jámbornak nehéz táncz</lem>
+<rdg wit="#W2" xml:id="rdg.46">nehés gancs</rdg>
+</app></l>
+<l xml:id="l.351">Itiltetik biráktul.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">40</fw>
+<lg xml:id="lg.40">
+<l rend="level_2" xml:id="l.352">Egyenetlen tulkok</l>
+<l xml:id="l.353">Nem jol vonszák jármok,</l>
+<l xml:id="l.354">Akadoznak az úton,</l>
+<l rend="level_2" xml:id="l.355">Meg-hasonlott Ország,</l>
+<l xml:id="l.356">Az hol nincs igasság,</l>
+<l xml:id="l.357">S’ nem edgyeznek tanácson;</l>
+<l rend="level_2" xml:id="l.358">Annak kell pusztulni,</l>
+<l xml:id="l.359">Idegent szolgálni,</l>
+<l xml:id="l.360">Avagy veszni az harczon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">41</fw>
+<lg xml:id="lg.41">
+<l rend="level_2" xml:id="l.361">Nem egyenetlenség,</l>
+<l xml:id="l.362">Hanem az edgyesség</l>
+<l xml:id="l.363">Kis dolgot nagyra emel,</l>
+<l rend="level_2" xml:id="l.364">De az viszsza vonás</l>
+<l xml:id="l.365">Lesz házadban romlás,</l>
+<l xml:id="l.366">S’ végre emészt fegyverrel:</l>
+<l rend="level_2" xml:id="l.367">Mert csak erö, és esz,</l>
+<l xml:id="l.368">Ha edgyütt jár, és lesz,</l>
+<l xml:id="l.369">Tartományokat nevel.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">42</fw>
+<lg xml:id="lg.42">
+<l rend="level_2" xml:id="l.370">Jaj annak a’ Várnak,</l>
+<l xml:id="l.371"><app xml:id="app.30">
+<lem wit="#KK" xml:id="lem.30">Hol <corr>s melyik</corr> végháznak</lem>
+<rdg wit="#Wα" xml:id="rdg.47">Hol és melly</rdg>
+<rdg wit="#W2" xml:id="rdg.48">a hol s mellik</rdg>
+</app></l>
+<l xml:id="l.372"><app xml:id="app.31">
+<lem wit="#KK" xml:id="lem.31"><corr>Gyermek vezér fölötte,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.49">Ertetlen a’ vezére</rdg>
+<rdg wit="#W2" xml:id="rdg.50">Gyermek vezér fölöttö</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.373"><app xml:id="app.32">
+<lem wit="#KK" xml:id="lem.32">Mert lágy pásztor <corr>elött</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.51">miatt</rdg>
+<rdg wit="#W2" xml:id="rdg.52">elött</rdg>
+</app></l>
+<l xml:id="l.374"><app xml:id="app.33">
+<lem wit="#KK" xml:id="lem.33"><corr>Az farkas el nem fut,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.53">Farkas lejtöt rughat</rdg>
+<rdg wit="#W2" xml:id="rdg.54">Az farkas el nem fut</rdg>
+</app></l>
+<l xml:id="l.375"><app xml:id="app.34">
+<lem wit="#KK" xml:id="lem.34">S’ gyapjat <corr>hullajt</corr> elötte,</lem>
+<rdg wit="#Wα" xml:id="rdg.55">hányhat</rdg>
+<rdg wit="#W2" xml:id="rdg.56">hullayt</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.376">Vallyon nyul agarat,</l>
+<l xml:id="l.377">Es szunyog madarat</l>
+<l xml:id="l.378">Nézé bátran mellette?</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">43</fw>
+<lg xml:id="lg.43">
+<l rend="level_2" xml:id="l.379">Eröszakbul álló,</l>
+<l xml:id="l.380">Es fegyverrel valo</l>
+<l xml:id="l.381">Birodalom nem tarto,</l>
+<l rend="level_2" xml:id="l.382">De jo téteménnyel,</l>
+<l xml:id="l.383">Es szeléd erkölcsel</l>
+<l xml:id="l.384">Az melly lészen meg-hajtó,</l>
+<l rend="level_2" xml:id="l.385">Az az, dicséretes,</l>
+<l xml:id="l.386">Allando, s’ gyökeres,</l>
+<l xml:id="l.387">Emlekezetre mélto.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">44</fw>
+<lg xml:id="lg.44">
+<l rend="level_2" xml:id="l.388">Gazdag országokat,</l>
+<l xml:id="l.389">S’ nagy birodalmokat</l>
+<l xml:id="l.390"><app xml:id="app.35">
+<lem wit="#KK" xml:id="lem.35">Könnyeb meg ho<corr>ldi</corr>tani,</lem>
+<rdg wit="#W1" xml:id="rdg.57">hodoltatni</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.58">holditani</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.391">Hogy sem békeséggel,</l>
+<l xml:id="l.392">Edgyes csendességgel</l>
+<l xml:id="l.393">Azokat végig birni:</l>
+<l rend="level_2" xml:id="l.394">Mert könyü az nyelvnek,</l>
+<l xml:id="l.395">De nehéz elmének</l>
+<l xml:id="l.396"><app xml:id="app.36">
+<lem wit="#KK" xml:id="lem.36">Rendet <corr>é</corr>s modot szabni.</lem>
+<rdg wit="#W1" xml:id="rdg.59">s’</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.60">és</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">45</fw>
+<lg xml:id="lg.45">
+<l rend="level_2" xml:id="l.397">Kétségben estekkel,</l>
+<l xml:id="l.398">S’ meg-búsult elmékkel</l>
+<l xml:id="l.399">Tudgyad nem jó jádzani,</l>
+<l rend="level_2" xml:id="l.400">Söt vélek harczokat,</l>
+<l xml:id="l.401">Üstök vonásokat</l>
+<l xml:id="l.402">Hasznosb néha kerülni,</l>
+<l rend="level_2" xml:id="l.403">Mert nagy erötül-is,</l>
+<l xml:id="l.404">Eles fegyvertöl-is</l>
+<l xml:id="l.405">Ollyak nem tudnak félni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">46</fw>
+<lg xml:id="lg.46">
+<l rend="level_2" xml:id="l.406">Gyakran az méltoság,</l>
+<l xml:id="l.407">S’ hatalmas uraság</l>
+<l xml:id="l.408">Az térenn-is<note type="critic" xml:id="note.5">térenn – a sík földön</note> tántorog,</l>
+<l rend="level_2" xml:id="l.409">Elete csügg szálon,</l>
+<l xml:id="l.410">Vész kis akadályon,</l>
+<l xml:id="l.411">Szerencsén ügye forog,</l>
+<l rend="level_2" xml:id="l.412">Gyakran felsö pólczrul</l>
+<l xml:id="l.413">Csak pad alá szorul,</l>
+<l xml:id="l.414">S’ el-mult javán háborog.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">47</fw>
+<lg xml:id="lg.47">
+<l rend="level_2" xml:id="l.415">Kerüld a’ szerencsét,</l>
+<l xml:id="l.416">Mint inség bilincsét,</l>
+<l xml:id="l.417">Ne hidgy néki semmiben;</l>
+<l rend="level_2" xml:id="l.418">Mert ö arany lánczbol,</l>
+<l xml:id="l.419">Ekes fris ruhábul</l>
+<l xml:id="l.420">Gyakran hágy edgy imegben,</l>
+<l rend="level_2" xml:id="l.421">Az nagy méltóságbul,</l>
+<l xml:id="l.422"><app xml:id="app.37">
+<lem wit="#KK" xml:id="lem.37">Es felsö <corr>tisztekbül</corr></lem>
+<rdg wit="#W1 #W3 #W4" xml:id="rdg.61">grádicsbúl</rdg>
+<rdg wit="#W2" xml:id="rdg.62">tistekbul</rdg>
+</app></l>
+<l xml:id="l.423">Ültet setét tömlöczben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">48</fw>
+<lg xml:id="lg.48">
+<l rend="level_2" xml:id="l.424">Ember bár mindenét,</l>
+<l xml:id="l.425">Sok gyöngyét, s’ ezüstét</l>
+<l xml:id="l.426">Egy orában veszesse,</l>
+<l rend="level_2" xml:id="l.427">Még fel-találhattya,</l>
+<l xml:id="l.428">Es helyre hozhattya,</l>
+<l xml:id="l.429">Csak jámborul keresse,</l>
+<l rend="level_2" xml:id="l.430">De el-veszett hirét,</l>
+<l xml:id="l.431">Mint kedves életét,</l>
+<l xml:id="l.432">Nincs hol elö vehesse.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">49</fw>
+<lg xml:id="lg.49">
+<l rend="level_2" xml:id="l.433">Az vitéz emberre</l>
+<l xml:id="l.434">Nem szálhat fejére</l>
+<l xml:id="l.435">A’ szerencse véletlen,</l>
+<l rend="level_2" xml:id="l.436"><app xml:id="app.38">
+<lem wit="#KK" xml:id="lem.38">Tegyen probát <corr>vizen</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.63">tüzön</rdg>
+<rdg wit="#W2" xml:id="rdg.64">vizen</rdg>
+</app></l>
+<l xml:id="l.437">Kösziklán, s’ tengeren,</l>
+<l xml:id="l.438">S’ lova legyen féketlen,</l>
+<l rend="level_2" xml:id="l.439">De kit Isten öriz,</l>
+<l xml:id="l.440"><app xml:id="app.39">
+<lem wit="#KK" xml:id="lem.39">Sok kard, dárda <corr>közt is</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.65">nyil s’ viz</rdg>
+<rdg wit="#W2" xml:id="rdg.66">köstis</rdg>
+</app></l>
+<l xml:id="l.441"><app xml:id="app.40">
+<lem wit="#KK" xml:id="lem.40">El nem ves<corr>zh</corr>et hertelen.</lem>
+<rdg wit="#Wα" xml:id="rdg.67">veszthet</rdg>
+<rdg wit="#W2" xml:id="rdg.68">veszhet</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">50</fw>
+<lg xml:id="lg.50">
+<l rend="level_2" xml:id="l.442">Mihez kardal férhetsz,</l>
+<l xml:id="l.443">Mit fegyverrel nyerhettsz,</l>
+<l xml:id="l.444">Nem kell ahoz sok diván;<note type="critic" xml:id="note.6">tanácskozás</note></l>
+<l rend="level_2" xml:id="l.445">Mert a’ nagy uraság,</l>
+<l xml:id="l.446">Birodalom, s’ jószág,</l>
+<l xml:id="l.447">Vitézt s’ hatalmat kéván:</l>
+<l rend="level_2" xml:id="l.448">Hogy ha ez nem lészen,</l>
+<l xml:id="l.449">Nem birhad mérészen,</l>
+<l xml:id="l.450">Birodalmad lesz hiján.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">51</fw>
+<lg xml:id="lg.51">
+<l rend="level_2" xml:id="l.451">Az vitéz embernek</l>
+<l xml:id="l.452">Kell szerencséjének</l>
+<l xml:id="l.453">Engedni-is gyakorta,</l>
+<l rend="level_2" xml:id="l.454">Jobb erötlenségét,</l>
+<l xml:id="l.455">S’ tehetetlenségét</l>
+<l xml:id="l.456">Meg-vallani akartva,</l>
+<l rend="level_2" xml:id="l.457">Hogy sem kárt szenvedni,</l>
+<l xml:id="l.458">Galyibában esni,</l>
+<l xml:id="l.459"><app xml:id="app.41">
+<lem wit="#KK" xml:id="lem.41">Azt sajgatni ohajtva.</lem>
+<rdg wit="#W2" xml:id="rdg.69">jaigatni</rdg>
+<rdg wit="#W3" xml:id="rdg.70">jagatni</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">52</fw>
+<lg xml:id="lg.52">
+<l rend="level_2" xml:id="l.460">Kisded ellenséged</l>
+<l xml:id="l.461">Semminek ne véllyed,</l>
+<l xml:id="l.462">S’ ne gerjeszszed haragra,</l>
+<l rend="level_2" xml:id="l.463">Vékony az haj szál-is,</l>
+<l xml:id="l.464">S’ árnyéka van még-is,</l>
+<l xml:id="l.465">Arnyéka fekszik másra,</l>
+<l rend="level_2" xml:id="l.466">Es olykor nagy Vadak</l>
+<l xml:id="l.467"><app xml:id="app.42">
+<lem wit="#KK" xml:id="lem.42">Kicsiny madaraknak</lem>
+<rdg wit="#W2" xml:id="rdg.71">es kiczen madarak</rdg>
+</app></l>
+<l xml:id="l.468"><app xml:id="app.43">
+<lem wit="#KK" xml:id="lem.43">Hánnyattat<corr>n</corr>ak praedára.</lem>
+<rdg wit="#Wα" xml:id="rdg.72">Hányattattak</rdg>
+<rdg wit="#W2" xml:id="rdg.73">Hanyattattnak</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">53</fw>
+<lg xml:id="lg.53">
+<l rend="level_2" xml:id="l.469">Gyözedelmes törvént</l>
+<l xml:id="l.470">Szabad kedve szerént</l>
+<l xml:id="l.471">Szabni gyözettetteknek:</l>
+<l rend="level_2" xml:id="l.472">Mert bóldogság kevély,</l>
+<l xml:id="l.473">S’ nyomoruság csekély,</l>
+<l xml:id="l.474">Egy asztalhoz nem férnek,</l>
+<l rend="level_2" xml:id="l.475">Senki meg halónak,</l>
+<l xml:id="l.476">Meg-haló-is másnak</l>
+<l xml:id="l.477">Semmit nem kedvezhetnek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">54</fw>
+<lg xml:id="lg.54">
+<l rend="level_2" xml:id="l.478">A’ bort távoztassa,</l>
+<l xml:id="l.479">Hogy kárát ne lássa</l>
+<l xml:id="l.480">Az had viselö ember,</l>
+<l rend="level_2" xml:id="l.481">Tehessen valasztást,</l>
+<l xml:id="l.482">S’ gondollya a’ futást,</l>
+<l xml:id="l.483">S’ tudgya mit tehet fegyver,</l>
+<l rend="level_2" xml:id="l.484">Mert restség mindenben,</l>
+<l xml:id="l.485">Hadban kiváltképpen</l>
+<l xml:id="l.486">Nagy ártalomban kever.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">55</fw>
+<lg xml:id="lg.55">
+<l rend="level_2" xml:id="l.487"><app xml:id="app.44">
+<lem wit="#KK" xml:id="lem.44">Elsö boszszú próbál,</lem>
+<rdg wit="#W2" xml:id="rdg.74"><sic>hoszu</sic></rdg>
+</app></l>
+<l xml:id="l.488">Második meg-utál,</l>
+<l xml:id="l.489">Visgállya tehetséged:</l>
+<l rend="level_2" xml:id="l.490">Harmadik érkezik,</l>
+<l xml:id="l.491">Veled ellenkezik,</l>
+<l xml:id="l.492">Lesz nyilván ellenséged,</l>
+<l rend="level_2" xml:id="l.493">Mert szallonna addig</l>
+<l xml:id="l.494">Marad éppen, meddig</l>
+<l xml:id="l.495">A’ kést hozzá nem fened.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">56</fw>
+<lg xml:id="lg.56">
+<l rend="level_2" xml:id="l.496">A’ kételenségnek,</l>
+<l xml:id="l.497">Es öztönözésnek</l>
+<l xml:id="l.498">Nagyob ereje vagyon,</l>
+<l rend="level_2" xml:id="l.499">Hogy sem okosságnak,</l>
+<l xml:id="l.500">S’ akar melly tanácsnak</l>
+<l xml:id="l.501">Bár ugyan jót akarjon,</l>
+<l rend="level_2" xml:id="l.502">Kiválképpen hadban,</l>
+<l xml:id="l.503">Hól üdöt gyakrabban</l>
+<l xml:id="l.504"><app xml:id="app.45">
+<lem wit="#KK" xml:id="lem.45">Nem válogatsz szabadon.</lem>
+<rdg wit="#W2" xml:id="rdg.75">valogat</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">57</fw>
+<lg xml:id="lg.57">
+<l rend="level_2" xml:id="l.505">Nem az éles fegyver;</l>
+<l xml:id="l.506">Ellenség vért kever</l>
+<l xml:id="l.507">Sik mezöben az harczon,</l>
+<l rend="level_2" xml:id="l.508">Nem emberi erö,</l>
+<l xml:id="l.509">S’ maga hitt vakmerö</l>
+<l xml:id="l.510">Emel Zászlot a’ sánczon,</l>
+<l rend="level_2" xml:id="l.511">De csak az egy Isten,</l>
+<l xml:id="l.512">A’ ki mind ott, s’ itten</l>
+<l xml:id="l.513">Segit vizen, s’ szárazon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">58</fw>
+<lg xml:id="lg.58">
+<l rend="level_2" xml:id="l.514">Esz, fegyver, és értek,</l>
+<l xml:id="l.515">Ez a’ három festék</l>
+<l xml:id="l.516">Mindent ki ábrázolhat,</l>
+<l rend="level_2" xml:id="l.517">Békesség s’ háború</l>
+<l xml:id="l.518">Nála egyarányu,</l>
+<l xml:id="l.519">Mindenhez hozzá juthat:</l>
+<l rend="level_2" xml:id="l.520"><app xml:id="app.46">
+<lem wit="#KK" xml:id="lem.46">Ellenséget <corr>meggyőz</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.76">el-üz</rdg>
+<rdg wit="#W2" xml:id="rdg.77">meg gyüz</rdg>
+</app></l>
+<l xml:id="l.521"><app xml:id="app.47">
+<lem wit="#KK" xml:id="lem.47"><corr>Elűz</corr>, s’ rab szijra füz;</lem>
+<rdg wit="#Wα" xml:id="rdg.78">Meg-gyöz</rdg>
+<rdg wit="#W2" xml:id="rdg.79">el üz</rdg>
+</app></l>
+<l xml:id="l.522">Mindenen triumphálhat.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">59</fw>
+<lg xml:id="lg.59">
+<l rend="level_2" xml:id="l.523">Iffiantán eröddel,</l>
+<l xml:id="l.524">S’ vénségedben eszszel</l>
+<l xml:id="l.525">Elhettsz mint éles törrel,</l>
+<l rend="level_2" xml:id="l.526">Csak jora fordittsad,</l>
+<l xml:id="l.527">S’ gonoszra ne hajtsad,</l>
+<l xml:id="l.528">El-tart borral, s’ kenyérrel,</l>
+<l rend="level_2" xml:id="l.529">Mind kettö kész költség,</l>
+<l xml:id="l.530"><app xml:id="app.48">
+<lem wit="#KK" xml:id="lem.48">Kihez nem fér szükség,</lem>
+<rdg wit="#W2" xml:id="rdg.80">Kiben</rdg>
+</app></l>
+<l xml:id="l.531">Boldogulhatsz illy hirrel.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">60</fw>
+<lg xml:id="lg.60">
+<l rend="level_2" xml:id="l.532">Ne akkor hizlallyad</l>
+<l xml:id="l.533">Lovad, s’ abrakollyad,</l>
+<l xml:id="l.534">Midön hadban kell menned,</l>
+<l rend="level_2" xml:id="l.535">Kását addig fujjad,</l>
+<l xml:id="l.536">Mig meg nem ég szájad,</l>
+<l xml:id="l.537">Izetlen ki ne pökjed;</l>
+<l rend="level_2" xml:id="l.538">Mert ha meg-vér essö,</l>
+<l xml:id="l.539">Tudgyad hogy már késö</l>
+<l xml:id="l.540">Köpenyeget rád venned.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">61</fw>
+<lg xml:id="lg.61">
+<l rend="level_2" xml:id="l.541">Ne pengessed ijad,</l>
+<l xml:id="l.542">Soká se irányzad,</l>
+<l xml:id="l.543">Ha akarsz varjat löni:</l>
+<l rend="level_2" xml:id="l.544">Mert hogy ha késödöl,</l>
+<l xml:id="l.545">Sokáig czühödöl,</l>
+<l xml:id="l.546">Más fogja mellyeszteni,<note type="critic" xml:id="note.7">koppasztani</note></l>
+<l rend="level_2" xml:id="l.547">Nem mondom czigánság,</l>
+<l xml:id="l.548">De ollykor ravaszság</l>
+<l xml:id="l.549">Tud modgyával használni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">62</fw>
+<lg xml:id="lg.62">
+<l rend="level_2" xml:id="l.550">Nem azé az madár,</l>
+<l xml:id="l.551">Az ki utánna jár,</l>
+<l xml:id="l.552">S’ meg-fogja hálojában,</l>
+<l rend="level_2" xml:id="l.553">Ökör-is szánt zabnak,</l>
+<l xml:id="l.554"><app xml:id="app.49">
+<lem wit="#KK" xml:id="lem.49">De adgyák azt lónak,</lem>
+<rdg wit="#W2" xml:id="rdg.81">az</rdg>
+</app></l>
+<l xml:id="l.555">Szöke<note type="critic" xml:id="note.8">Gyakori állatnév Beniczkynél is, a korban is.</note>
+                        eszik polyvában;</l>
+<l rend="level_2" xml:id="l.556">Te-is notát dudolsz,</l>
+<l xml:id="l.557">De másokat unszolsz,</l>
+<l xml:id="l.558"><app xml:id="app.50">
+<lem wit="#KK" xml:id="lem.50">Hogy mennyenek a’ tántzba<corr>n</corr>.</lem>
+<rdg wit="#W1" xml:id="rdg.82">tántzba</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.83">tancsban</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">63</fw>
+<lg xml:id="lg.63">
+<l rend="level_2" xml:id="l.559">Nincs nehezebb kenyér</l>
+<l xml:id="l.560">Annál kit kardal nyér</l>
+<l xml:id="l.561">A’ vitéz, s’ vérén veszi;</l>
+<l rend="level_2" xml:id="l.562">Gyakran omol ott vér,</l>
+<l xml:id="l.563">Hasad, szakad az ér,</l>
+<l xml:id="l.564">S’ feiét prédára viszi,</l>
+<l rend="level_2" xml:id="l.565">Kincsét, és jószágát,</l>
+<l xml:id="l.566">S’ kedves szabadságát</l>
+<l xml:id="l.567">Szerencsére fel-teszi.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">64</fw>
+<lg xml:id="lg.64">
+<l rend="level_2" xml:id="l.568">Szárnyon jár, és repül,</l>
+<l xml:id="l.569">Edesget, és örül</l>
+<l xml:id="l.570">Reménség biztatása.</l>
+<l rend="level_2" xml:id="l.571">Nagyon gyönyörködtet,</l>
+<l xml:id="l.572">Es örömmel éltet</l>
+<l xml:id="l.573">Nyereség kivánasa:</l>
+<l rend="level_2" xml:id="l.574">De ha fordul vakra</l>
+<l xml:id="l.575">Koczka, s’ nem a’ hatra,</l>
+<l xml:id="l.576">Jajt szerez változása.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">65</fw>
+<lg xml:id="lg.65">
+<l rend="level_2" xml:id="l.577">Nem csak arany fénlik,</l>
+<l xml:id="l.578">Agyag-is tündöklik,</l>
+<l xml:id="l.579">Midön az nap rá szolgál:</l>
+<l rend="level_2" xml:id="l.580">Nem mind pengö tallér,</l>
+<l xml:id="l.581">Olykor csak tiz fillér,</l>
+<l xml:id="l.582">Kit számvetö fel-számlál.</l>
+<l rend="level_2" xml:id="l.583">Nem minden öröm jó,</l>
+<l xml:id="l.584">Melly meg-mar mint kigyó,</l>
+<l xml:id="l.585">S’ utánna bánat talál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">66</fw>
+<lg xml:id="lg.66">
+<l rend="level_2" xml:id="l.586">Mondgyák nagy vizekben</l>
+<l xml:id="l.587">Halnak öregiben</l>
+<l xml:id="l.588">Foghat ember horogra:</l>
+<l rend="level_2" xml:id="l.589">Igy nagy udvarokban,</l>
+<l xml:id="l.590">Nem szalma házakban</l>
+<l xml:id="l.591">Mehetni uraságra,</l>
+<l rend="level_2" xml:id="l.592"><app xml:id="app.51">
+<lem wit="#KK" xml:id="lem.51"><corr>De</corr> csak történetbül,</lem>
+<rdg wit="#Wα" xml:id="rdg.84">Mert</rdg>
+<rdg wit="#W2" xml:id="rdg.85">De</rdg>
+</app></l>
+<l xml:id="l.593"><app xml:id="app.52">
+<lem wit="#KK" xml:id="lem.52">Es nem <corr>a szokásbul</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.86">szokott rendbül</rdg>
+<rdg wit="#W2" xml:id="rdg.87">a szokasbul</rdg>
+</app></l>
+<l xml:id="l.594">Vak talált vólt patkora.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">67</fw>
+<lg xml:id="lg.67">
+<l rend="level_2" xml:id="l.595"><app xml:id="app.53">
+<lem wit="#KK" xml:id="lem.53">Soha <corr>az csöbörbül</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.88">désábúl</rdg>
+<rdg wit="#W2" xml:id="rdg.89">czöbörbül</rdg>
+</app></l>
+<l xml:id="l.596">Vederbe boszszubúl</l>
+<l xml:id="l.597">Altal ne hágj akartva:</l>
+<l rend="level_2" xml:id="l.598"><app xml:id="app.54">
+<lem wit="#KK" xml:id="lem.54">Ne mond job ma túzok,</lem>
+<rdg wit="#W2" xml:id="rdg.90">io</rdg>
+</app></l>
+<l xml:id="l.599">Hogy sem holnap tulok,</l>
+<l xml:id="l.600">Mert meg-bánod azt tudva,</l>
+<l rend="level_2" xml:id="l.601">Hogy hat ökör után</l>
+<l xml:id="l.602">Eke szarvát méltán</l>
+<l xml:id="l.603">El-tarthatod dudolva.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">68</fw>
+<lg xml:id="lg.68">
+<l rend="level_2" xml:id="l.604">Ha konczát meg-etted,</l>
+<l xml:id="l.605">Levét-is hörpencsed,</l>
+<l xml:id="l.606">Mert ugy mérik az fontot,</l>
+<l rend="level_2" xml:id="l.607">Hogy egyenlö légyen,</l>
+<l xml:id="l.608">Mert ha hibáz miben,</l>
+<l xml:id="l.609">Hozzá vetik az lattot:<note type="critic" xml:id="note.9">lat – súlymérték, egy lat 1,75
+                            dkg</note></l>
+<l rend="level_2" xml:id="l.610">Edest keserüvel</l>
+<l xml:id="l.611">Elegyitened kell,</l>
+<l xml:id="l.612">S’ ugy rágnod az falatot.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">69</fw>
+<lg xml:id="lg.69">
+<l rend="level_2" xml:id="l.613">Nem ád Sido arra,</l>
+<l xml:id="l.614">Ha mutatsz el-multra,</l>
+<l xml:id="l.615">Jelen valót árullya.</l>
+<l rend="level_2" xml:id="l.616"><app xml:id="app.55">
+<lem wit="#KK" xml:id="lem.55">Nagyobb az nem adó,</lem>
+<rdg wit="#W2" xml:id="rdg.91">Nagy <sic>oka</sic></rdg>
+</app></l>
+<l xml:id="l.617">S’ kissebb az kévánó,</l>
+<l xml:id="l.618">Azt beteg-is sajnállya,</l>
+<l rend="level_2" xml:id="l.619">Mert az mi volt, s’ el-mult,</l>
+<l xml:id="l.620"><app xml:id="app.56">
+<lem wit="#KK" xml:id="lem.56">S’ talám ebre <corr>került</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.92">fordult</rdg>
+<rdg wit="#W2" xml:id="rdg.93">kerölt</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.621">Kalmár azt nem fontollya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">70</fw>
+<lg xml:id="lg.70">
+<l rend="level_2" xml:id="l.622">Kedvetlen mértéked</l>
+<l xml:id="l.623">Ha ma jön te néked,</l>
+<l xml:id="l.624">Holnap más-is várhattya,</l>
+<l rend="level_2" xml:id="l.625">Mert szerencse, s’ üdö</l>
+<l xml:id="l.626">Mindenre jövendö,</l>
+<l xml:id="l.627">S’ javaidat ronthattya,</l>
+<l rend="level_2" xml:id="l.628">Vagy hogy életedet,</l>
+<l xml:id="l.629">Es becsülletedet</l>
+<l rend="level_2" xml:id="l.630">Kedved ellen forgattya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">71</fw>
+<lg xml:id="lg.71">
+<l rend="level_2" xml:id="l.631">Sással fedett házban,</l>
+<l xml:id="l.632">S’ gyakran nád hajlékban</l>
+<l xml:id="l.633">Találsz csendes nyugovást,</l>
+<l rend="level_2" xml:id="l.634">De friss Palotában,</l>
+<l xml:id="l.635">Szép kárpitos házban</l>
+<l xml:id="l.636">Láthatsz nagy viszsza vonást,</l>
+<l rend="level_2" xml:id="l.637">Mert nem szegénységért,</l>
+<l xml:id="l.638">Hanem nagy értekért</l>
+<l xml:id="l.639">Szerzenek kardoskodást.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">72</fw>
+<lg xml:id="lg.72">
+<l rend="level_2" xml:id="l.640">Hir postán menéssel,</l>
+<l xml:id="l.641">S’ hamar repüléssel</l>
+<l xml:id="l.642">Szokott sokat hazudni,</l>
+<l rend="level_2" xml:id="l.643">Noha igazat-is,</l>
+<l xml:id="l.644">Viszont hamissat-is</l>
+<l xml:id="l.645">Tud kösség közt hinteni;</l>
+<l rend="level_2" xml:id="l.646">Soha nem aluszik,</l>
+<l xml:id="l.647"><app xml:id="app.57">
+<lem wit="#KK" xml:id="lem.57">Oda-is férkez<corr>i</corr>k,</lem>
+<rdg wit="#W1" xml:id="rdg.94">férkezek</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.95">ferkezik</rdg>
+</app></l>
+<l xml:id="l.648">Hol nem kellene lenni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">73</fw>
+<lg xml:id="lg.73">
+<l rend="level_2" xml:id="l.649">Nem az akaroé,</l>
+<l xml:id="l.650">Sem pedig futójé</l>
+<l xml:id="l.651"><app xml:id="app.58">
+<lem wit="#KK" xml:id="lem.58">Pállyának el-nyeré<corr>se</corr>;</lem>
+<rdg wit="#W1" xml:id="rdg.96">el-nyerésére</rdg>
+<rdg wit="#W2" xml:id="rdg.97">el nyerisse</rdg>
+<rdg wit="#W3 #W4" xml:id="rdg.98">el-nyerése</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.652">Mert Isten rendeli,</l>
+<l xml:id="l.653">S’ egyedül viseli,</l>
+<l xml:id="l.654">Kinek meddig menése,</l>
+<l rend="level_2" xml:id="l.655">Ad a’ kinek akar,</l>
+<l xml:id="l.656">Mást meg porban takar,</l>
+<l xml:id="l.657">Nyilván legyen tetszése.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">74</fw>
+<lg xml:id="lg.74">
+<l rend="level_2" xml:id="l.658">Az álhatatlan sziv</l>
+<l xml:id="l.659">Magának-is nem hiv,</l>
+<l xml:id="l.660">Másnak-is jár vesztére.</l>
+<l rend="level_2" xml:id="l.661">Kuasz szénán fekszik,</l>
+<l xml:id="l.662">De benne nem eszik,</l>
+<l xml:id="l.663">Morog éhült ökörre.</l>
+<l rend="level_2" xml:id="l.664">Harang-is csak hirdet,</l>
+<l xml:id="l.665">De maga nem mehet</l>
+<l xml:id="l.666"><app xml:id="app.59">
+<lem wit="#KK" xml:id="lem.59">Templomba<corr>n</corr> az Misére.</lem>
+<rdg wit="#W1" xml:id="rdg.99">Templomba</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.100">Templomban</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">75</fw>
+<lg xml:id="lg.75">
+<l rend="level_2" xml:id="l.667">Irigység olly dolog,</l>
+<l xml:id="l.668">Az melly szivben bolyog,</l>
+<l xml:id="l.669">Van maga gyötrelmére:</l>
+<l rend="level_2" xml:id="l.670">Mert kire ma dúl s’ fúl,</l>
+<l xml:id="l.671">Holnap arra szorul,</l>
+<l xml:id="l.672">Nincs az-is örömére,</l>
+<l rend="level_2" xml:id="l.673">Ha más vesztén örül,</l>
+<l xml:id="l.674">Maga belé kerül,</l>
+<l xml:id="l.675">Lesz az-is sérelmére.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">76</fw>
+<lg xml:id="lg.76">
+<l rend="level_2" xml:id="l.676">Az kösség birája,</l>
+<l xml:id="l.677">Es igazgatoja</l>
+<l xml:id="l.678">Szükség adgyon jo példát;</l>
+<l rend="level_2" xml:id="l.679">Magát igazittsa,</l>
+<l xml:id="l.680">S’ életét jobbittsa,</l>
+<l xml:id="l.681">Jó rendbe végye dolgát;</l>
+<l rend="level_2" xml:id="l.682">Hogy alatta valók,</l>
+<l xml:id="l.683"><app xml:id="app.60">
+<lem wit="#KK" xml:id="lem.60"><corr>Kicsinyek és nagyok</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.101">Fö s’ köz renden állók</rdg>
+<rdg wit="#W2" xml:id="rdg.102">Kicsények és nagyok</rdg>
+</app></l>
+<l xml:id="l.684">Dicsirjék hivatallyát.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">77</fw>
+<lg xml:id="lg.77">
+<l rend="level_2" xml:id="l.685">Mostani igasság,</l>
+<l xml:id="l.686">Abrázólt ravaszság</l>
+<l xml:id="l.687">Hasonló pok hálóhoz,</l>
+<l rend="level_2" xml:id="l.688">Kit el-szaggatt bogár,</l>
+<l xml:id="l.689">Muskának<note type="critic" xml:id="note.10">légynek</note> erös zár,</l>
+<l xml:id="l.690">Szegénység ejt biróhoz,</l>
+<l rend="level_2" xml:id="l.691"><app xml:id="app.61">
+<lem wit="#KK" xml:id="lem.61">Kis ort<note type="critic" xml:id="note.11">lopót</note> kemény vas
+                                láncz,</lem>
+<rdg wit="#W2" xml:id="rdg.103">Kis eörvet az vas lancs</rdg>
+</app></l>
+<l xml:id="l.692">S’ nagy latrot pedig táncz</l>
+<l xml:id="l.693">Kötöz akasztó fához.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">78</fw>
+<lg xml:id="lg.78">
+<l rend="level_2" xml:id="l.694">Igaz törvént ne ronts,</l>
+<l xml:id="l.695">S’ jo rend tartást ne bónts,</l>
+<l xml:id="l.696">Ha kivánsz uralkodni:</l>
+<l rend="level_2" xml:id="l.697">Régi fel-hánt határt,</l>
+<l xml:id="l.698">Mellyet az ösöd járt,</l>
+<l xml:id="l.699">Ne engedgyed bontani:</l>
+<l rend="level_2" xml:id="l.700">Az hamist gyülöllyed,</l>
+<l xml:id="l.701"><app xml:id="app.62">
+<lem wit="#KK" xml:id="lem.62">S’ az igazt szeressed,</lem>
+<rdg wit="#W2" xml:id="rdg.104">S égazat</rdg>
+</app></l>
+<l xml:id="l.702">Ha akarsz sokat élni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">79</fw>
+<lg xml:id="lg.79">
+<l rend="level_2" xml:id="l.703">Az meg-kötöztetet,</l>
+<l xml:id="l.704">S’ fogságra vettetett</l>
+<l xml:id="l.705">Embernek az mentsége</l>
+<l rend="level_2" xml:id="l.706">Nem csak haszontalan,</l>
+<l xml:id="l.707">De ugyan oktalan</l>
+<l xml:id="l.708">Birónál könyörgése,</l>
+<l rend="level_2" xml:id="l.709">Mert birót vádolni,</l>
+<l xml:id="l.710">Es nem tanitani</l>
+<l xml:id="l.711">Láttatik az beszéde.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">80</fw>
+<lg xml:id="lg.80">
+<l rend="level_2" xml:id="l.712">Szerencsétlenségnek,</l>
+<l xml:id="l.713">Es szám ki vetésnek</l>
+<l xml:id="l.714">Nincs kedvesseb hazája,</l>
+<l rend="level_2" xml:id="l.715">Mint az vadon erdö,</l>
+<l xml:id="l.716">Puszta, barlang, s’ mezö,</l>
+<l xml:id="l.717">Az hól senki nem láttya,</l>
+<l rend="level_2" xml:id="l.718">Régi boldogságát,</l>
+<l xml:id="l.719">Vólt, s’ költ állapottyát</l>
+<l xml:id="l.720">Hogy többé ne ohajcsa.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">81</fw>
+<lg xml:id="lg.81">
+<l rend="level_2" xml:id="l.721">Nyomorúlt embernek,</l>
+<l xml:id="l.722">S’ gonosz esetinek</l>
+<l xml:id="l.723">Artalmas hizelkedni,</l>
+<l rend="level_2" xml:id="l.724">Bár legyen vak, vagy hat,<note type="critic" xml:id="note.12">A kockajáték két
+                            szélsőséges esetére történik a sorban utalás, mint Beniczkynél máskor is
+                            gyakran.</note></l>
+<l xml:id="l.725">Az mit üdö hozhat,</l>
+<l xml:id="l.726">Hasznossab meg-mondani:</l>
+<l rend="level_2" xml:id="l.727">Hogy az irigységet,</l>
+<l xml:id="l.728">S’ alá ásott vermet</l>
+<l xml:id="l.729">Tudhassa el-kerülni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">82</fw>
+<lg xml:id="lg.82">
+<l rend="level_2" xml:id="l.730">Az tömlöczi rabság</l>
+<l xml:id="l.731">Nem csak nyomorúság,</l>
+<l xml:id="l.732">De nehezebb halálnál,</l>
+<l rend="level_2" xml:id="l.733">Mert egyszer meg-halni,</l>
+<l xml:id="l.734">Hoszszú kintúl válni</l>
+<l xml:id="l.735">Könnyeb söt többet használ,</l>
+<l rend="level_2" xml:id="l.736">Hogy sem csak sinlödni,</l>
+<l xml:id="l.737">S’ azon sopánkodni,</l>
+<l xml:id="l.738">Hogy szabadsága masnál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">83</fw>
+<lg xml:id="lg.83">
+<l rend="level_2" xml:id="l.739">Barátság kötele,</l>
+<l xml:id="l.740">S’ egy máshoz hitele</l>
+<l xml:id="l.741">Igaz tanács sérelme,</l>
+<l rend="level_2" xml:id="l.742">Söt az törvényben-is,</l>
+<l xml:id="l.743">Még sulyos ügyben-is</l>
+<l xml:id="l.744">Nem férhet veszedelme:</l>
+<l rend="level_2" xml:id="l.745">Mert a’ szeretetnek,</l>
+<l xml:id="l.746">Es hitetlenségnek</l>
+<l xml:id="l.747">Nincsen semmi gyötrelme.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">84</fw>
+<lg xml:id="lg.84">
+<l rend="level_2" xml:id="l.748">Az mély gondolatok,</l>
+<l xml:id="l.749"><app xml:id="app.63">
+<lem wit="#KK" xml:id="lem.63">Es szivbéli titkok</lem>
+<rdg wit="#W2" xml:id="rdg.105">De</rdg>
+</app></l>
+<l xml:id="l.750">Tanácsal erösödnek,</l>
+<l rend="level_2" xml:id="l.751">Hadak vezérlése</l>
+<l xml:id="l.752">S’ népek intézése</l>
+<l xml:id="l.753">Nagy gondal viseltetnek:</l>
+<l rend="level_2" xml:id="l.754">Nyelv igazgatása,</l>
+<l xml:id="l.755">S’ annak zablázása</l>
+<l xml:id="l.756">Van kezében Istennek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">85</fw>
+<lg xml:id="lg.85">
+<l rend="level_2" xml:id="l.757">Keseredet szivel,</l>
+<l xml:id="l.758">S’ meg-bántódott üggyel</l>
+<l xml:id="l.759">Ha meg-atkoz valaki,</l>
+<l rend="level_2" xml:id="l.760"><app xml:id="app.64">
+<lem wit="#KK" xml:id="lem.64"><corr>Az</corr> meg-halgattatik,</lem>
+<rdg wit="#Wα" xml:id="rdg.106">Félly,</rdg>
+<rdg wit="#W2" xml:id="rdg.107">Az</rdg>
+</app></l>
+<l xml:id="l.761">S’ panaszban vétetik,</l>
+<l xml:id="l.762">Mert okot adtál neki,</l>
+<l rend="level_2" xml:id="l.763">Hadgya az Istenre,</l>
+<l xml:id="l.764">Nincsen más fegyvere,</l>
+<l xml:id="l.765">Nem fogja pártyát senki.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">86</fw>
+<lg xml:id="lg.86">
+<l rend="level_2" xml:id="l.766">Néked esedöket,</l>
+<l xml:id="l.767">S’ oltalom kéröket</l>
+<l xml:id="l.768">Meg ne utállyad soha,</l>
+<l rend="level_2" xml:id="l.769">S’ ne inkáb féllyenek,</l>
+<l xml:id="l.770">Hogy sem böcsüllyenek,</l>
+<l xml:id="l.771">Ne mongyák vagy mostoha,</l>
+<l rend="level_2" xml:id="l.772">De kegyességedért,</l>
+<l xml:id="l.773">S’ másokkal tett jóért</l>
+<l xml:id="l.774">Dicsirtessél mindenha.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">87</fw>
+<lg xml:id="lg.87">
+<l rend="level_2" xml:id="l.775">Nem jó eröszakkal,</l>
+<l xml:id="l.776">S’ csalárd hamis szokkal</l>
+<l xml:id="l.777">Masokat meg-bántani,</l>
+<l rend="level_2" xml:id="l.778">Ha te mit nem szeretsz,</l>
+<l xml:id="l.779">Abban miért eredsz,</l>
+<l xml:id="l.780">S’ kivánsz másnak ártani,</l>
+<l rend="level_2" xml:id="l.781">Mert mi neked fájhat,</l>
+<l xml:id="l.782">Másnak-is az árthat,</l>
+<l xml:id="l.783">Téged-is fog rontani.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">88</fw>
+<lg xml:id="lg.88">
+<l rend="level_2" xml:id="l.784">Az tisztességes kár</l>
+<l xml:id="l.785">Nagyob haszonnal jár</l>
+<l xml:id="l.786">Ektelen nyereségnél,</l>
+<l rend="level_2" xml:id="l.787">Noha meg-szomorit,</l>
+<l xml:id="l.788">De viszont bátorit,</l>
+<l xml:id="l.789">Nem-is vádól Istennél,</l>
+<l rend="level_2" xml:id="l.790">De az ragadomány</l>
+<l xml:id="l.791">Ualamennyi, és hány</l>
+<l xml:id="l.792">Gyülöltet embereknél.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">89</fw>
+<lg xml:id="lg.89">
+<l rend="level_2" xml:id="l.793">Boldogtalanságot,</l>
+<l xml:id="l.794">Mely nyakadra hágot,</l>
+<l xml:id="l.795">Azt békével szenvedgyed,</l>
+<l rend="level_2" xml:id="l.796">Hogy ha nem szenveded,</l>
+<l xml:id="l.797">S’ békével nem türöd,</l>
+<l xml:id="l.798">Bottal nyomát se verjed,</l>
+<l rend="level_2" xml:id="l.799">Az mig pedig el-jön,</l>
+<l xml:id="l.800">Nem az után késön</l>
+<l xml:id="l.801">Annak eleit vegyed.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">90</fw>
+<lg xml:id="lg.90">
+<l rend="level_2" xml:id="l.802">Mások veszedelmén,</l>
+<l xml:id="l.803">Botlásán, s’ el-estén</l>
+<l xml:id="l.804">Boldog szokott tanulni;</l>
+<l rend="level_2" xml:id="l.805">De reménség oly gyors,</l>
+<l xml:id="l.806">Nem fél mit hozzon Sors,</l>
+<l xml:id="l.807">S’ nem tud attúl rettegni,</l>
+<l rend="level_2" xml:id="l.808">Hogy szoros a’ kapcza,</l>
+<l xml:id="l.809"><app xml:id="app.65">
+<lem wit="#KK" xml:id="lem.65">S’ majd hátán lesz pálcza,</lem>
+<rdg wit="#W2" xml:id="rdg.108">les az palcsa</rdg>
+</app></l>
+<l xml:id="l.810">Azt nem tudgya el-hinni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">91</fw>
+<lg xml:id="lg.91">
+<l rend="level_2" xml:id="l.811">Háládatlan Világ,</l>
+<l xml:id="l.812">Jó tétedért-is rág,</l>
+<l xml:id="l.813">S’ gerjeszt ellened tüzet,</l>
+<l rend="level_2" xml:id="l.814"><app xml:id="app.66">
+<lem wit="#KK" xml:id="lem.66"><corr>Ha</corr> teszel kivel jól,</lem>
+<rdg wit="#W1" xml:id="rdg.109">Hogy ha teszel</rdg>
+<rdg wit="#W2" xml:id="rdg.110">Ha tészel kivel iot</rdg>
+<rdg wit="#W4" xml:id="rdg.111">Hogy ha tész</rdg>
+</app></l>
+<l xml:id="l.815">Még érette meg-szól,</l>
+<l xml:id="l.816">Erdemessen nem fizet,</l>
+<l rend="level_2" xml:id="l.817">Mert jól-tett helyében</l>
+<l xml:id="l.818">Innod sem hágy vizben,</l>
+<l xml:id="l.819">Hanem posványba vezet.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">92</fw>
+<lg xml:id="lg.92">
+<l rend="level_2" xml:id="l.820">Nem mindenkor hasznos,</l>
+<l xml:id="l.821">Ollykor inkább káros</l>
+<l xml:id="l.822">Szeget szeggel ki-verni,</l>
+<l rend="level_2" xml:id="l.823">Mert boszszút haraggal</l>
+<l xml:id="l.824">Vagy üstök vonással</l>
+<l xml:id="l.825">Nem jó gyakran követni:</l>
+<l rend="level_2" xml:id="l.826">Ne tartsd nyereségnek,</l>
+<l xml:id="l.827"><app xml:id="app.67">
+<lem wit="#KK" xml:id="lem.67">Hanem vak vetésnek</lem>
+<rdg wit="#W2" xml:id="rdg.112">vesztességnek</rdg>
+<rdg wit="#W3" xml:id="rdg.113">verésnek</rdg>
+</app></l>
+<l xml:id="l.828">Eben gubát cserélni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">93</fw>
+<lg xml:id="lg.93">
+<l rend="level_2" xml:id="l.829">Hasznos rabotának,</l>
+<l xml:id="l.830">Jutalmas munkának</l>
+<l xml:id="l.831">Fáratsága nem nehéz,</l>
+<l rend="level_2" xml:id="l.832">Mert ki jól vét ágyat,</l>
+<l xml:id="l.833">Talál nyugodalmat,</l>
+<l xml:id="l.834">Annak álma édes méz,</l>
+<l rend="level_2" xml:id="l.835">De remenség alatt</l>
+<l xml:id="l.836">Nehéz a’ szolgálat,</l>
+<l xml:id="l.837">Gyakran pénze benne vész.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">94</fw>
+<lg xml:id="lg.94">
+<l rend="level_2" xml:id="l.838">Pinteki vig tánczot,</l>
+<l xml:id="l.839">S’ meg-evett malaczot</l>
+<l xml:id="l.840">Vasárnapi bú talál,</l>
+<l rend="level_2" xml:id="l.841">Mert szép idö után</l>
+<l xml:id="l.842">Nagy menydörgés postán<note type="critic" xml:id="note.13">= gyorsan</note></l>
+<l xml:id="l.843">Nyomorusággal táplál,</l>
+<l rend="level_2" xml:id="l.844">Az illetlen öröm</l>
+<l xml:id="l.845">Lesz keserü üröm,</l>
+<l xml:id="l.846">Sok jajt fejedre számlál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">95</fw>
+<lg xml:id="lg.95">
+<l rend="level_2" xml:id="l.847">A’ szó sebbe<note type="critic" xml:id="note.14">olv. zsebbe</note> nem
+                        fér,</l>
+<l xml:id="l.848">Villámás meg nem tér,</l>
+<l xml:id="l.849">Repül nincs rokonczája,<note type="critic" xml:id="note.15">gátja, akadálya</note></l>
+<l rend="level_2" xml:id="l.850">A’ mi volt, és meg-let,</l>
+<l xml:id="l.851">Viszsza az nem térhet,</l>
+<l xml:id="l.852">Mert szemérmes orczája,</l>
+<l rend="level_2" xml:id="l.853">Igy el-lött nyil vasa</l>
+<l xml:id="l.854">Nem vonyatik viszsza,</l>
+<l xml:id="l.855">Mert romlana pálczája.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">96</fw>
+<lg xml:id="lg.96">
+<l rend="level_2" xml:id="l.856">A’ ki szegény, s’ kevély,</l>
+<l xml:id="l.857">Az a’ beteg személy</l>
+<l xml:id="l.858">Csufja lehet mindennek,</l>
+<l rend="level_2" xml:id="l.859">A’ ki gazdag fösvény,</l>
+<l xml:id="l.860">Igazán jövevény,</l>
+<l xml:id="l.861">Fia sovány életnek,</l>
+<l rend="level_2" xml:id="l.862">A’ ki vén, s’ parázna,</l>
+<l xml:id="l.863">Latorságnak vászna,<note type="critic" xml:id="note.16">Vö. „ő sem jobb a deákné vásznánál”
+                            szólásban a vászon szó értelmével.</note></l>
+<l xml:id="l.864">Pazarloja pénzének.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">97</fw>
+<lg xml:id="lg.97">
+<l rend="level_2" xml:id="l.865"><app xml:id="app.68">
+<lem wit="#KK" xml:id="lem.68">Ne verjed <corr>azt a fát</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.114">dió fád</rdg>
+<rdg wit="#W2" xml:id="rdg.115">azt a fat</rdg>
+</app></l>
+<l xml:id="l.866"><app xml:id="app.69">
+<lem wit="#KK" xml:id="lem.69">Mely <corr>diót bőven</corr> ád,</lem>
+<rdg wit="#Wα" xml:id="rdg.116">böv gyümölcsöt</rdg>
+<rdg wit="#W2" xml:id="rdg.117">diot büven</rdg>
+</app></l>
+<l xml:id="l.867">Söt töréstül örizzed:</l>
+<l rend="level_2" xml:id="l.868">Mert szelid intéssel,</l>
+<l xml:id="l.869">S’ nem pálcza veréssel</l>
+<l xml:id="l.870">Gonoszt jová teheted:</l>
+<l rend="level_2" xml:id="l.871">Veszszö árnyékával,</l>
+<l xml:id="l.872">Nem csak zabolával</l>
+<l xml:id="l.873">Az fö lovat térithed.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">98</fw>
+<lg xml:id="lg.98">
+<l rend="level_2" xml:id="l.874">Az olajt az tüzre</l>
+<l xml:id="l.875">Ha öntözöd, s’ szénre,</l>
+<l xml:id="l.876">Sebesseb lángot ereszt.</l>
+<l rend="level_2" xml:id="l.877">Haragot boszszúval</l>
+<l xml:id="l.878">Ne gyujtsd kemény szóval,</l>
+<l xml:id="l.879">Mert olykor romlást terjeszt.</l>
+<l rend="level_2" xml:id="l.880">De engedelmes szó,</l>
+<l xml:id="l.881">Mint jó étket a’ só,</l>
+<l xml:id="l.882"><app xml:id="app.70">
+<lem wit="#KK" xml:id="lem.70">Szokott izire gerjeszt.</lem>
+<rdg wit="#W2" xml:id="rdg.118">Sakatcz</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">99</fw>
+<lg xml:id="lg.99">
+<l rend="level_2" xml:id="l.883">Az paránnyi csupor</l>
+<l xml:id="l.884">Kicsiny tüznél fel for,</l>
+<l xml:id="l.885">Bár ne legyen nagy langnál.</l>
+<l rend="level_2" xml:id="l.886">Istentelen harag,</l>
+<l xml:id="l.887">Kit boszszúság farag,</l>
+<l xml:id="l.888">Nem hoz egyebet kárnál,</l>
+<l rend="level_2" xml:id="l.889">A’ tisztesség pedig</l>
+<l xml:id="l.890">Meg-becsültet fottig,</l>
+<l xml:id="l.891">Jobb a’ káposztás husnál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">100</fw>
+<lg xml:id="lg.100">
+<l rend="level_2" xml:id="l.892">Boszszuság olly dolog,</l>
+<l xml:id="l.893">Szüntelen csak lobog,</l>
+<l xml:id="l.894">Siet boszszu állásra:</l>
+<l rend="level_2" xml:id="l.895">Ertekét praedára</l>
+<l xml:id="l.896">S’ életét koczkára</l>
+<l xml:id="l.897">Veti, nem néz kárára:</l>
+<l rend="level_2" xml:id="l.898">Hogy ha kevés az-is,</l>
+<l xml:id="l.899">Még szegény lelkét-is</l>
+<l xml:id="l.900">Adgya az kárhozatra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">101</fw>
+<lg xml:id="lg.101">
+<l rend="level_2" xml:id="l.901">Természet hajlando,</l>
+<l xml:id="l.902">S’ mindenre vágyodo;</l>
+<l xml:id="l.903">Jár, s’ kerül minden bokrot,</l>
+<l rend="level_2" xml:id="l.904">A’ Szokást neveli,</l>
+<l xml:id="l.905">S’ tilalmat kerüli,</l>
+<l xml:id="l.906">Vészen gonoszra okot,</l>
+<l rend="level_2" xml:id="l.907"><app xml:id="app.71">
+<lem wit="#KK" xml:id="lem.71">Hogy ha engedcz néki,</lem>
+<rdg wit="#W2" xml:id="rdg.119">engedis</rdg>
+</app></l>
+<l xml:id="l.908">S’ nem lesz kemény féki,</l>
+<l xml:id="l.909">Talál vesztedre modot.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">102</fw>
+<lg xml:id="lg.102">
+<l rend="level_2" xml:id="l.910">Az gonoszért joval,</l>
+<l xml:id="l.911">S’ haragért szép szoval</l>
+<l xml:id="l.912">Tanully eleget tenni.</l>
+<l rend="level_2" xml:id="l.913">Boszszuság tételért,</l>
+<l xml:id="l.914">Es kár szenvedésért</l>
+<l xml:id="l.915">Ne kivány kardoskodni.</l>
+<l rend="level_2" xml:id="l.916">Ha kinek árthatnál,</l>
+<l xml:id="l.917">Es kárban hozhatnál,</l>
+<l xml:id="l.918">Tudgy annak meg-engedni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">103</fw>
+<lg xml:id="lg.103">
+<l rend="level_2" xml:id="l.919"><app xml:id="app.72">
+<lem wit="#KK" xml:id="lem.72">Ki vermet ás másnak,</lem>
+<rdg wit="#W2" xml:id="rdg.120">as vermet</rdg>
+</app></l>
+<l xml:id="l.920">Meg-lássa magának</l>
+<l xml:id="l.921">Ne légyen koporsoja:</l>
+<l rend="level_2" xml:id="l.922">Mert ki baráttyának</l>
+<l xml:id="l.923">Vagy attyafiának</l>
+<l xml:id="l.924">Lészen hamis vádlója,</l>
+<l rend="level_2" xml:id="l.925">Maga nyaka szegik,</l>
+<l xml:id="l.926">S’ méllyebb kutban esik,</l>
+<l xml:id="l.927">Légyen masok példája.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">104</fw>
+<lg xml:id="lg.104">
+<l rend="level_2" xml:id="l.928">Minden romlás elött</l>
+<l xml:id="l.929"><app xml:id="app.73">
+<lem wit="#KK" xml:id="lem.73">Az kevélység felhöt</lem>
+<rdg wit="#W2" xml:id="rdg.121">fölött</rdg>
+</app></l>
+<l xml:id="l.930"><app xml:id="app.74">
+<lem wit="#KK" xml:id="lem.74">Dagaszt ember szivében;</lem>
+<rdg wit="#W2" xml:id="rdg.122">embert</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.931">De az eset után,</l>
+<l xml:id="l.932">Noha késö osztán,</l>
+<l xml:id="l.933">Veszi magát esziben:</l>
+<l rend="level_2" xml:id="l.934">Hogy Isten elméjét</l>
+<l xml:id="l.935">El-vötte volt, s’ eszét,</l>
+<l xml:id="l.936">Ne maradgyon büntelen.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">105</fw>
+<lg xml:id="lg.105">
+<l rend="level_2" xml:id="l.937">A’ szerencse pörög,</l>
+<l xml:id="l.938">Es kincsével csörög,</l>
+<l xml:id="l.939">Szem bé-kötve ugy lézeng.</l>
+<l rend="level_2" xml:id="l.940">Igér gyakran gyöngyöt,</l>
+<l xml:id="l.941">De ád béka követ,<note type="critic" xml:id="note.17">A békakő a régiek hiedelme szerint a
+                            varangyos béka fejében található; a gyűrűk fejébe rakott különböző
+                            színű, nem értékes kő volt.</note></l>
+<l xml:id="l.942">Adománya csak kereng:</l>
+<l rend="level_2" xml:id="l.943">Triumfálo szekér<note type="critic" xml:id="note.18">diadalszekér</note></l>
+<l xml:id="l.944">Meg-fordul, s’ földhöz vér,</l>
+<l xml:id="l.945">Viszont a’ porban fetreng.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">106</fw>
+<lg xml:id="lg.106">
+<l rend="level_2" xml:id="l.946">Bocskorban keresni,</l>
+<l xml:id="l.947">Csismában költeni</l>
+<l xml:id="l.948">Esik becsülletedre:</l>
+<l rend="level_2" xml:id="l.949">Papucsban kezdeni,</l>
+<l xml:id="l.950">Mezitláb végezni</l>
+<l xml:id="l.951">Lészen nehézségedre:</l>
+<l rend="level_2" xml:id="l.952">Mert keserves inség</l>
+<l xml:id="l.953">Az utolsó szükség,</l>
+<l xml:id="l.954">Ha talál vénségedre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">107</fw>
+<lg xml:id="lg.107">
+<l rend="level_2" xml:id="l.955">Az ki nem tud türni,</l>
+<l xml:id="l.956">Nem tud uralkodni,</l>
+<l xml:id="l.957">Bár ne mennyen Udvarban,</l>
+<l rend="level_2" xml:id="l.958">Mert a’ nyomoruság,</l>
+<l xml:id="l.959">Oskola, s’ tanuság,</l>
+<l xml:id="l.960">Meg-tanit dolgaidban,</l>
+<l rend="level_2" xml:id="l.961">Keveset költeni,</l>
+<l xml:id="l.962"><app xml:id="app.75">
+<lem wit="#KK" xml:id="lem.75">Es sokat foldozni</lem>
+<rdg wit="#W2" xml:id="rdg.123">föltezny</rdg>
+</app></l>
+<l xml:id="l.963">S’ ugy élned ez világon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">108</fw>
+<lg xml:id="lg.108">
+<l rend="level_2" xml:id="l.964">Az nyomoruságot,</l>
+<l xml:id="l.965">Es sanyaruságot</l>
+<l xml:id="l.966">Azok tudgyák szenvedni,</l>
+<l rend="level_2" xml:id="l.967">Az kik csendességgel,</l>
+<l xml:id="l.968">S’ türö békességgel</l>
+<l xml:id="l.969">Azt el-tudgyák fedezni;</l>
+<l rend="level_2" xml:id="l.970">Mert az ösztön ellen</l>
+<l xml:id="l.971">Rugodozni fennyen</l>
+<l xml:id="l.972">Artalmadra fog-lenni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">109</fw>
+<lg xml:id="lg.109">
+<l rend="level_2" xml:id="l.973">Egy szál fa nem erdö,</l>
+<l xml:id="l.974"><app xml:id="app.76">
+<lem wit="#KK" xml:id="lem.76">Bár legyen <corr>is</corr> fenyö,</lem>
+<rdg wit="#Wα" xml:id="rdg.124">legyen a’</rdg>
+<rdg wit="#W2" xml:id="rdg.125">légyenis</rdg>
+</app></l>
+<l xml:id="l.975">Nem mondatik ligetnek;</l>
+<l rend="level_2" xml:id="l.976">Talyiga nem szekér,</l>
+<l xml:id="l.977">El-vonnya egy öszvér,</l>
+<l xml:id="l.978"><app xml:id="app.77">
+<lem wit="#KK" xml:id="lem.77">Kicsiny terh hat ökörnek,</lem>
+<rdg wit="#W2" xml:id="rdg.126">ökerre</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.979">Egy ember csak egy szám,</l>
+<l xml:id="l.980"><app xml:id="app.78">
+<lem wit="#KK" xml:id="lem.78">Nem férhet rá töb hám,</lem>
+<rdg wit="#W2" xml:id="rdg.127">[A <hi rend="italic">rá</hi> hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.981">Meg nem felel kettönek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">110</fw>
+<lg xml:id="lg.110">
+<l rend="level_2" xml:id="l.982">Az béles sütéshez,</l>
+<l xml:id="l.983">Es az Uri névhez</l>
+<l xml:id="l.984">Sok eszköz kivántatik:</l>
+<l rend="level_2" xml:id="l.985">Mert Ur nuszt subárul,</l>
+<l xml:id="l.986"><app xml:id="app.79">
+<lem wit="#KK" xml:id="lem.79">Nem czondra gubárul</lem>
+<rdg wit="#W2" xml:id="rdg.128">czondora</rdg>
+</app></l>
+<l xml:id="l.987">Méltán Urnak mondatik:</l>
+<l rend="level_2" xml:id="l.988">Es nem egy beresrül,</l>
+<l xml:id="l.989">Sok Udvari népröl</l>
+<l xml:id="l.990">Udvara dicsértetik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">111</fw>
+<lg xml:id="lg.111">
+<l rend="level_2" xml:id="l.991">Titulussal élni,</l>
+<l xml:id="l.992">S’ jószágot nem birni,</l>
+<l xml:id="l.993">Igen csekély méltoság:</l>
+<l rend="level_2" xml:id="l.994">Mert nem tituluson,</l>
+<l xml:id="l.995">Sem czifrán járáson</l>
+<l xml:id="l.996">Tetszik-meg az uraság:</l>
+<l rend="level_2" xml:id="l.997">Igy szölöt el-adni</l>
+<l xml:id="l.998"><app xml:id="app.80">
+<lem wit="#KK" xml:id="lem.80">Es <corr>prést</corr> vásárlani</lem>
+<rdg wit="#W1" xml:id="rdg.129">pört</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.130">prést</rdg>
+</app></l>
+<l xml:id="l.999">Nagy ostoba bolondság.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">112</fw>
+<lg xml:id="lg.112">
+<l rend="level_2" xml:id="l.1000">Mikor jövedelmed</l>
+<l xml:id="l.1001">Lészen csak egy pinzed,</l>
+<l xml:id="l.1002">S’ többet költesz kettönél,</l>
+<l rend="level_2" xml:id="l.1003">Akkor kezdesz fázni,</l>
+<l xml:id="l.1004">Mikor fogsz nyujtozni</l>
+<l xml:id="l.1005">Küllyeb rövid leplednél,</l>
+<l rend="level_2" xml:id="l.1006">Mert egy kettö hiján</l>
+<l xml:id="l.1007">Nincsen igaz számán,</l>
+<l xml:id="l.1008">Vólt az tékozlo kéznél.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">113</fw>
+<lg xml:id="lg.113">
+<l rend="level_2" xml:id="l.1009">Ha érteked vagyon,</l>
+<l xml:id="l.1010">Ne engedd szabadon</l>
+<l xml:id="l.1011">Másnak birni éltedben;</l>
+<l rend="level_2" xml:id="l.1012">Job tölled várjon más,</l>
+<l xml:id="l.1013">Hogy sem te nyavalyás</l>
+<l xml:id="l.1014">Kolduly mástul kenyérben:</l>
+<l rend="level_2" xml:id="l.1015">Mert nyomorult dolog,</l>
+<l xml:id="l.1016">Az hol panasz forog</l>
+<l xml:id="l.1017">Sajátodnak kertében.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">114</fw>
+<lg xml:id="lg.114">
+<l rend="level_2" xml:id="l.1018">Ha birsz gazdagsággal,</l>
+<l xml:id="l.1019">Ugy vess számot azzal,</l>
+<l xml:id="l.1020">Ne légy néki szolgája,</l>
+<l rend="level_2" xml:id="l.1021">Mert ha te töle vársz,</l>
+<l xml:id="l.1022"><app xml:id="app.81">
+<lem wit="#KK" xml:id="lem.81"><corr>Nem lészesz úr, sem társ,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.131">Nem lész Ur, s’ hogy ha jársz</rdg>
+<rdg wit="#W2" xml:id="rdg.132">Nem lészes Ur sem tars</rdg>
+</app></l>
+<l xml:id="l.1023"><app xml:id="app.82">
+<lem wit="#KK" xml:id="lem.82"><corr>Hanem tulajdon</corr> rabja,</lem>
+<rdg wit="#Wα" xml:id="rdg.133">Utánna, hanem</rdg>
+<rdg wit="#W2" xml:id="rdg.134">Hanem tulaydon</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1024">Azért job te költsed,</l>
+<l xml:id="l.1025">Hogy sem mástol féltsed,</l>
+<l xml:id="l.1026">Hogy más el ne prédállya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">115</fw>
+<lg xml:id="lg.115">
+<l rend="level_2" xml:id="l.1027">Náladnál nagyobnak,</l>
+<l xml:id="l.1028">Es hatalmassabnak</l>
+<l xml:id="l.1029">Ne add marhádat költsön,</l>
+<l rend="level_2" xml:id="l.1030">Mert farkas malaczot,</l>
+<l xml:id="l.1031"><app xml:id="app.83">
+<lem wit="#KK" xml:id="lem.83">Nem láttad, s’ hogy konczot</lem>
+<rdg wit="#W2" xml:id="rdg.135">lattal</rdg>
+</app></l>
+<l xml:id="l.1032">Nyálazatlan el-ejcsen,</l>
+<l rend="level_2" xml:id="l.1033">Igy ha urral perelsz,</l>
+<l xml:id="l.1034"><app xml:id="app.84">
+<lem wit="#KK" xml:id="lem.84"><corr>Hamar táskát<note type="critic" xml:id="note.19">ti.
+                                        koldustarisznyát</note> szerzesz,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.136">Csak hamar táskát lelsz</rdg>
+<rdg wit="#W2" xml:id="rdg.137">Hamar taszkat szörzös</rdg>
+</app></l>
+<l xml:id="l.1035"><app xml:id="app.85">
+<lem wit="#KK" xml:id="lem.85">Inkáb <corr>búval</corr> felejcse<corr>d</corr>.<note type="critic" xml:id="note.20">A sor utolsó szavát Pongrácz másolata alapján
+                                    azért javítottuk, mert az értelem így kívánja, bár így a rím nem
+                                    jó.</note></lem>
+<rdg wit="#Wα" xml:id="rdg.138">távul felejcsen</rdg>
+<rdg wit="#W2" xml:id="rdg.139">büval feleycsed</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">116</fw>
+<lg xml:id="lg.116">
+<l rend="level_2" xml:id="l.1036">Az nagy lakodalom</l>
+<l xml:id="l.1037">Csufoló jutalom,</l>
+<l xml:id="l.1038">Sopánkodó tékozlás:</l>
+<l rend="level_2" xml:id="l.1039">Az pompás temetés</l>
+<l xml:id="l.1040">Csak pénz vesztegetés,</l>
+<l xml:id="l.1041">Szántszándékkal kár vallás:</l>
+<l rend="level_2" xml:id="l.1042">Hadakozó költség</l>
+<l xml:id="l.1043">Ez immár dicsösség,</l>
+<l xml:id="l.1044"><app xml:id="app.86">
+<lem wit="#KK" xml:id="lem.86">S’ bölcseknél-is javallás.</lem>
+<rdg wit="#W2" xml:id="rdg.140">s bölcsektulis</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">117</fw>
+<lg xml:id="lg.117">
+<l rend="level_2" xml:id="l.1045">Az szegénység aláz,</l>
+<l xml:id="l.1046">S’ virtust nem koronáz,</l>
+<l xml:id="l.1047">Erdemed le-tapodgya,</l>
+<l rend="level_2" xml:id="l.1048">Bár légy vitéz, okos,</l>
+<l xml:id="l.1049">Gyors, és alkalmatos,</l>
+<l xml:id="l.1050">De szükséged el-nyomja:</l>
+<l rend="level_2" xml:id="l.1051">Mert nem az érdemre,</l>
+<l xml:id="l.1052">De teli erszényre</l>
+<l xml:id="l.1053"><app xml:id="app.87">
+<lem wit="#KK" xml:id="lem.87">Perdül a’ koczka hatra.<note type="critic" xml:id="note.21">Vö. a 724. sor
+                                    jegyzetével!</note></lem>
+<rdg wit="#W2" xml:id="rdg.141">hata</rdg>
+<rdg wit="#W3 #W4" xml:id="rdg.142">háta</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">118</fw>
+<lg xml:id="lg.118">
+<l rend="level_2" xml:id="l.1054">Vitézlö kösségnek,</l>
+<l xml:id="l.1055">S’ hadbéli embernek</l>
+<l xml:id="l.1056">Az a’ kedves hazája,</l>
+<l rend="level_2" xml:id="l.1057">Szerencse kedvének,</l>
+<l xml:id="l.1058">S’ nem maga kénnyének</l>
+<l xml:id="l.1059">Akarattyát hól láttya,</l>
+<l rend="level_2" xml:id="l.1060">Ott van Nemzetsége,</l>
+<l xml:id="l.1061">Es ismeretsége,</l>
+<l xml:id="l.1062">A’ hol sólgyát talállya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">119</fw>
+<lg xml:id="lg.119">
+<l rend="level_2" xml:id="l.1063">Az vitezlö kösség,</l>
+<l xml:id="l.1064">Es hadi erösség</l>
+<l xml:id="l.1065">Akar hól-is útat nyit,</l>
+<l rend="level_2" xml:id="l.1066"><app xml:id="app.88">
+<lem wit="#KK" xml:id="lem.88">De ketségben esset,</lem>
+<rdg wit="#W1 #W4" xml:id="rdg.143">estet</rdg>
+<rdg wit="#W2 #W3" xml:id="rdg.144">eset</rdg>
+</app></l>
+<l xml:id="l.1067">S’ árnyéktul ijettet</l>
+<l xml:id="l.1068">Vár, sem fegyver nem segit:</l>
+<l rend="level_2" xml:id="l.1069">Kis hertelenséggel,</l>
+<l xml:id="l.1070">S’ hintegetö<note type="critic" xml:id="note.22">Terjesztett? Mindenhol így található; talán
+                            sajtóhiba hitegető helyett?</note> hirrel</l>
+<l xml:id="l.1071">A’ félsz tunyát el-rémit.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">120</fw>
+<lg xml:id="lg.120">
+<l rend="level_2" xml:id="l.1072">Csak légyen érteked,</l>
+<l xml:id="l.1073">Bár ne légyen eszed,</l>
+<l xml:id="l.1074">Ültetnek felsö polczra.</l>
+<l rend="level_2" xml:id="l.1075">Szolhacz gyermek modon,</l>
+<l xml:id="l.1076">Neved lesz Salamon,</l>
+<l xml:id="l.1077">Vigyáznak tanácsodra:</l>
+<l rend="level_2" xml:id="l.1078">Fejért feketének,</l>
+<l xml:id="l.1079">Feketét fejérnek</l>
+<l xml:id="l.1080">Festhecz akaratodra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">121</fw>
+<lg xml:id="lg.121">
+<l rend="level_2" xml:id="l.1081">A’ ruha ékesség,</l>
+<l xml:id="l.1082">Pénz pedig tisztesség</l>
+<l xml:id="l.1083">E’ mostani idöben,</l>
+<l rend="level_2" xml:id="l.1084">Hogy ha ez hiános,</l>
+<l xml:id="l.1085">Magad sem vagy hasznos,</l>
+<l xml:id="l.1086">Alig eszel kenyérben,</l>
+<l rend="level_2" xml:id="l.1087">Mihez Virtus nem fér,</l>
+<l xml:id="l.1088">Ez a’ kettö rá ér,</l>
+<l xml:id="l.1089">Ez mosdat leg elsöben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">122</fw>
+<lg xml:id="lg.122">
+<l rend="level_2" xml:id="l.1090">Természet folyása</l>
+<l xml:id="l.1091">A’ kincs kivánása;</l>
+<l xml:id="l.1092">Noha igen félelmes:</l>
+<l rend="level_2" xml:id="l.1093">Jo lelki isméret</l>
+<l xml:id="l.1094">Hamis pénzt nem szeret,</l>
+<l xml:id="l.1095">Mert léleknek sérelmes,</l>
+<l rend="level_2" xml:id="l.1096">Mert kincset szerzeni,</l>
+<l xml:id="l.1097">Tartani s’ örzeni</l>
+<l xml:id="l.1098">Eletnek veszedelmes.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">123</fw>
+<lg xml:id="lg.123">
+<l rend="level_2" xml:id="l.1099">Beteg sokat kiván</l>
+<l xml:id="l.1100">Egésségest hiván,</l>
+<l xml:id="l.1101"><app xml:id="app.89">
+<lem wit="#KK" xml:id="lem.89"><corr>Ad csak néki</corr> azokban,</lem>
+<rdg wit="#Wα" xml:id="rdg.145">De kevést nyér</rdg>
+<rdg wit="#W2" xml:id="rdg.146">Ad csak néki</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1102">Mert méznek kevesse,</l>
+<l xml:id="l.1103">De nem a’ felesse</l>
+<l xml:id="l.1104"><app xml:id="app.90">
+<lem wit="#KK" xml:id="lem.90">Adhat jó izt szájadban.</lem>
+<rdg wit="#W2" xml:id="rdg.147">szayadnak</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1105">Hájat-is el-rejtik,</l>
+<l xml:id="l.1106">Szegre fel függesztik,</l>
+<l xml:id="l.1107"><app xml:id="app.91">
+<lem wit="#KK" xml:id="lem.91">Az eb ne egyék abban.</lem>
+<rdg wit="#W2" xml:id="rdg.148">egyek benne</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">124</fw>
+<lg xml:id="lg.124">
+<l rend="level_2" xml:id="l.1108">Ki akar jádzani,</l>
+<l xml:id="l.1109">Nem kell álmadozni,</l>
+<l xml:id="l.1110">Pénzét el ne veszesse:</l>
+<l rend="level_2" xml:id="l.1111">Mert szemesnek valo</l>
+<l xml:id="l.1112">Aratáskor sarló,</l>
+<l xml:id="l.1113">A’ kezét meg ne messe.</l>
+<l rend="level_2" xml:id="l.1114">Kovácsis tart fogót,</l>
+<l xml:id="l.1115">Mikor csinál patkot,</l>
+<l xml:id="l.1116">Magát meg ne égesse.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">125</fw>
+<lg xml:id="lg.125">
+<l rend="level_2" xml:id="l.1117">Szén égetö tökét,</l>
+<l xml:id="l.1118">Es nem szalma kévét</l>
+<l xml:id="l.1119">Nézdegel az erdöben;</l>
+<l rend="level_2" xml:id="l.1120">Macska-is egérrel,</l>
+<l xml:id="l.1121">De nem a’ medvével</l>
+<l xml:id="l.1122">Almodik kemenczében.</l>
+<l rend="level_2" xml:id="l.1123">Kinek mihez kedve,</l>
+<l xml:id="l.1124">Ott akad meg szive,</l>
+<l xml:id="l.1125">S’ arra czéloz mindenben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">126</fw>
+<lg xml:id="lg.126">
+<l rend="level_2" xml:id="l.1126">Nincs semmi bölcseség,</l>
+<l xml:id="l.1127">Es gondolt eszesség</l>
+<l xml:id="l.1128">Az Ur tanácsa ellen,</l>
+<l rend="level_2" xml:id="l.1129">Noha el-rendeli,</l>
+<l xml:id="l.1130">Az ember, s’ intézi,</l>
+<l xml:id="l.1131">Dolga miképpen kellyen,</l>
+<l rend="level_2" xml:id="l.1132">De Isten vezérli,</l>
+<l xml:id="l.1133">S’ egyedül viseli,</l>
+<l xml:id="l.1134">Uttya miként, s’ hogy mennyen.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">127</fw>
+<lg xml:id="lg.127">
+<l rend="level_2" xml:id="l.1135">A’ maga el-hitség,</l>
+<l xml:id="l.1136">Esztelen kevélység</l>
+<l xml:id="l.1137">Térit szégyen vallásra,</l>
+<l rend="level_2" xml:id="l.1138">Ha ez illyen botlik,</l>
+<l xml:id="l.1139">Hidgyed nagyot esik,</l>
+<l xml:id="l.1140">Majd nem mélto szánásra,</l>
+<l rend="level_2" xml:id="l.1141">Maga bolondságát,</l>
+<l xml:id="l.1142"><app xml:id="app.92">
+<lem wit="#KK" xml:id="lem.92">S’ akar<corr>t</corr>va lett dolgát</lem>
+<rdg wit="#W1" xml:id="rdg.149">akarva</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.150">akartva</rdg>
+</app></l>
+<l xml:id="l.1143">Nem-is kenheti másra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">128</fw>
+<lg xml:id="lg.128">
+<l rend="level_2" xml:id="l.1144">Ki bogár után jár,</l>
+<l xml:id="l.1145">Gyakran követi kár,</l>
+<l xml:id="l.1146">Süllyed, s’ gázol a’ sárban,</l>
+<l rend="level_2" xml:id="l.1147">Ha indul-is vizre,</l>
+<l xml:id="l.1148">De nem viszen készre,</l>
+<l xml:id="l.1149">Ott-is maradhacz szomjan,</l>
+<l rend="level_2" xml:id="l.1150">Azért Vén tanácsa</l>
+<l xml:id="l.1151">Job sem iffiu gáncsa,</l>
+<l xml:id="l.1152">Mert igazit jo karban.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">129</fw>
+<lg xml:id="lg.129">
+<l rend="level_2" xml:id="l.1153">Az ebet szöriröl,</l>
+<l xml:id="l.1154">Szamárt füleiröl</l>
+<l xml:id="l.1155">Könnyen meg-ismérhetni:</l>
+<l rend="level_2" xml:id="l.1156">Embert erkölcséröl,</l>
+<l xml:id="l.1157"><app xml:id="app.93">
+<lem wit="#KK" xml:id="lem.93">S’ maga viselé<corr>sr</corr>öl</lem>
+<rdg wit="#W1" xml:id="rdg.151">viseléséröl</rdg>
+<rdg wit="#W2" xml:id="rdg.152">véselliserul</rdg>
+<rdg wit="#Wβ" xml:id="rdg.153">viselésrül</rdg>
+</app></l>
+<l xml:id="l.1158">Bizvást meg-itélhetni.</l>
+<l rend="level_2" xml:id="l.1159">Ha érdemli jobra,</l>
+<l xml:id="l.1160">S’ ha nem méltó balra</l>
+<l xml:id="l.1161">Az ollyat kell ültetni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">130</fw>
+<lg xml:id="lg.130">
+<l rend="level_2" xml:id="l.1162">Pokol, s’ veszedelem,</l>
+<l xml:id="l.1163"><app xml:id="app.94">
+<lem wit="#KK" xml:id="lem.94"><corr>Mély és feneketlen,</corr></lem>
+<rdg wit="#W1 #W3 #W4" xml:id="rdg.154">S’ feneketlen verem</rdg>
+<rdg wit="#W2" xml:id="rdg.155">Mély és feneketlen</rdg>
+</app></l>
+<l xml:id="l.1164">Meg nem elégedhetnek,</l>
+<l rend="level_2" xml:id="l.1165">A’ vándorlo elme,</l>
+<l xml:id="l.1166">Es az ember szeme</l>
+<l xml:id="l.1167"><app xml:id="app.95">
+<lem wit="#KK" xml:id="lem.95">Illyen telhetetlenek:</lem>
+<rdg wit="#W2" xml:id="rdg.156">telhetlenek</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1168">Mint a’ Vizi korság</l>
+<l xml:id="l.1169">Halálos szomjuság</l>
+<l xml:id="l.1170">Kornyadozó betegnek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">131</fw>
+<lg xml:id="lg.131">
+<l rend="level_2" xml:id="l.1171">Maga kényén járó,</l>
+<l xml:id="l.1172">Mint a’ sebes ráró</l>
+<l xml:id="l.1173">Szabadság méltósága:</l>
+<l rend="level_2" xml:id="l.1174">Nem ismér rabságot,</l>
+<l xml:id="l.1175">S’ nem fizet birságot</l>
+<l xml:id="l.1176">Magános urasága,</l>
+<l rend="level_2" xml:id="l.1177">Mert kinyes akarat,</l>
+<l xml:id="l.1178">Mint futó agarat</l>
+<l xml:id="l.1179">Ugy hordoz mulatsága.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">132</fw>
+<lg xml:id="lg.132">
+<l rend="level_2" xml:id="l.1180">Kedvesen halgattyák,</l>
+<l xml:id="l.1181">Ha mások állattyák</l>
+<l xml:id="l.1182">Szabadságnak oltalmát:</l>
+<l rend="level_2" xml:id="l.1183">De kevesen vannak,</l>
+<l xml:id="l.1184">Az kik az ollyannak</l>
+<l xml:id="l.1185">Segétenék hatalmát,</l>
+<l rend="level_2" xml:id="l.1186"><app xml:id="app.96">
+<lem wit="#KK" xml:id="lem.96">Ki ki siros konczrul,</lem>
+<rdg wit="#W2" xml:id="rdg.157">koncztul</rdg>
+</app></l>
+<l xml:id="l.1187"><app xml:id="app.97">
+<lem wit="#KK" xml:id="lem.97">Más boros palaczkrul,</lem>
+<rdg wit="#W2" xml:id="rdg.158">palaczktul</rdg>
+</app></l>
+<l xml:id="l.1188">Félti el-vonszák orrát.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">133</fw>
+<lg xml:id="lg.133">
+<l rend="level_2" xml:id="l.1189">Udvar habzó tenger,</l>
+<l xml:id="l.1190">Mélly örvényben kever,</l>
+<l xml:id="l.1191">Ha nem tudsz hizelkedni,</l>
+<l rend="level_2" xml:id="l.1192">Gyakran más notáját,</l>
+<l xml:id="l.1193">Es szokatlan tánczát</l>
+<l xml:id="l.1194">Kedvetlen kell ugrani;</l>
+<l rend="level_2" xml:id="l.1195">Tökélletlenséggel,</l>
+<l xml:id="l.1196">Sok csél s’ csap beszéddel</l>
+<l xml:id="l.1197">Kell grátiát keresni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">134</fw>
+<lg xml:id="lg.134">
+<l rend="level_2" xml:id="l.1198">Job gonosz esetet,</l>
+<l xml:id="l.1199">S’ szerencsétlenséget</l>
+<l xml:id="l.1200">Embernek el-szenvedni,</l>
+<l rend="level_2" xml:id="l.1201">Hogy sem álnokságot,</l>
+<l xml:id="l.1202">S’ hamis csalárdságot</l>
+<l xml:id="l.1203">Pirulva szégyenleni:</l>
+<l rend="level_2" xml:id="l.1204">Mert sok fortély után</l>
+<l xml:id="l.1205">Böcstelenség méltán</l>
+<l xml:id="l.1206">Fog tégedet üldözni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">135</fw>
+<lg xml:id="lg.135">
+<l rend="level_2" xml:id="l.1207">Az virtus türéssel,</l>
+<l xml:id="l.1208">S’ erös reménléssel</l>
+<l xml:id="l.1209">Erdemel dicséretet,</l>
+<l rend="level_2" xml:id="l.1210">Mert a’ szabad türés</l>
+<l xml:id="l.1211">S’ kétséges reménlés</l>
+<l xml:id="l.1212">Csak Nemes vért illethet,</l>
+<l rend="level_2" xml:id="l.1213">Mert könnyen szenvedni,</l>
+<l xml:id="l.1214">S’ kétségel mit várni</l>
+<l xml:id="l.1215">Hozhat jó nyerességet.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">136</fw>
+<lg xml:id="lg.136">
+<l rend="level_2" xml:id="l.1216">Sok álom szakasztást,</l>
+<l xml:id="l.1217">Törödést, s’ udvarlást</l>
+<l xml:id="l.1218">Türve nyeg az magában,</l>
+<l rend="level_2" xml:id="l.1219">Az ki más asztalán,</l>
+<l xml:id="l.1220">S’ nem maga tányérán</l>
+<l xml:id="l.1221">Akar enni a’ konczban,</l>
+<l rend="level_2" xml:id="l.1222">Mert az kötelesség</l>
+<l xml:id="l.1223">Nem leg kissebb inség,</l>
+<l xml:id="l.1224">Ki van más birtokában.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">137</fw>
+<lg xml:id="lg.137">
+<l rend="level_2" xml:id="l.1225">Nem mondom uraság,</l>
+<l xml:id="l.1226">De azért boldogság,</l>
+<l xml:id="l.1227">Ki lakhatik házánál,</l>
+<l rend="level_2" xml:id="l.1228">Bár füstös legyen-is,</l>
+<l xml:id="l.1229">Es sással fedet-is,</l>
+<l xml:id="l.1230">Jobb más palotájánál,</l>
+<l rend="level_2" xml:id="l.1231">Ki ha azt nyerheti,</l>
+<l xml:id="l.1232">Magával hiteti,</l>
+<l xml:id="l.1233">Nincs jobb étek tormánál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">138</fw>
+<lg xml:id="lg.138">
+<l rend="level_2" xml:id="l.1234">Az út közönséges,</l>
+<l xml:id="l.1235">De a’ gyözedelmes</l>
+<l xml:id="l.1236">Járhat rajta bátrabban,</l>
+<l rend="level_2" xml:id="l.1237">Mert nem a’ félénk sziv,</l>
+<l xml:id="l.1238">De a’ ki bátor, s’ hiv,</l>
+<l xml:id="l.1239">Mehet az tilalmasban,</l>
+<l rend="level_2" xml:id="l.1240">Lám farkast hurittyák,<note type="critic" xml:id="note.23">riogattyák
+                            kiabálással, szidják</note></l>
+<l xml:id="l.1241">S’ gyakran rijogattyák,</l>
+<l xml:id="l.1242">Még-is el-kap juhokban.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">139</fw>
+<lg xml:id="lg.139">
+<l rend="level_2" xml:id="l.1243">Farkas ha koplal-is,</l>
+<l xml:id="l.1244">Nem cserélne még-is</l>
+<l xml:id="l.1245">Az kalmárok ebével:</l>
+<l rend="level_2" xml:id="l.1246">Ebnek vas láncz nyakán,</l>
+<l xml:id="l.1247">Kötve szekér farkán,</l>
+<l xml:id="l.1248">Noha lakik jó lével,</l>
+<l rend="level_2" xml:id="l.1249">Farkas úr magának,</l>
+<l xml:id="l.1250">Örül szabadságnak,</l>
+<l xml:id="l.1251">Ritkán ütik veszszövel.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">140</fw>
+<lg xml:id="lg.140">
+<l rend="level_2" xml:id="l.1252">Reménség ha rád néz,</l>
+<l xml:id="l.1253"><app xml:id="app.98">
+<lem wit="#KK" xml:id="lem.98">Edesb hogy sem nád méz,</lem>
+<rdg wit="#W2" xml:id="rdg.159">nem</rdg>
+</app></l>
+<l xml:id="l.1254">Biztat jövendö jókkal,</l>
+<l rend="level_2" xml:id="l.1255">Karón varjat mutat,</l>
+<l xml:id="l.1256">S’ igirettel úntat,</l>
+<l xml:id="l.1257">Hogy mindent ád marokkal,</l>
+<l rend="level_2" xml:id="l.1258"><app xml:id="app.99">
+<lem wit="#KK" xml:id="lem.99">De ha meg-kezd csalni,</lem>
+<rdg wit="#W2" xml:id="rdg.160">De mikor kösd</rdg>
+</app></l>
+<l xml:id="l.1259">Akkor fogsz te falni</l>
+<l xml:id="l.1260">Mérget teli torokkal.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">141</fw>
+<lg xml:id="lg.141">
+<l rend="level_2" xml:id="l.1261">Az boszszu állásnak,</l>
+<l xml:id="l.1262">S’ dühött haragjának</l>
+<l xml:id="l.1263">Tanácsa veszedelmes,</l>
+<l rend="level_2" xml:id="l.1264">Rosz feslett életnek,</l>
+<l xml:id="l.1265">S’ lelki isméretnek</l>
+<l xml:id="l.1266">Tanuja nem hiteles,</l>
+<l rend="level_2" xml:id="l.1267">Meg olynak szava-is</l>
+<l xml:id="l.1268">Bár volna igaz-is,</l>
+<l xml:id="l.1269">Bizonysága kétséges.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">142</fw>
+<lg xml:id="lg.142">
+<l rend="level_2" xml:id="l.1270">Soha nagy Urakkal</l>
+<l xml:id="l.1271">Cseresznyét marokkal</l>
+<l xml:id="l.1272">Te ne egyél egy tálbúl,</l>
+<l rend="level_2" xml:id="l.1273">Ha eszel szépiben,</l>
+<l xml:id="l.1274">Esel irigységben,</l>
+<l xml:id="l.1275"><app xml:id="app.100">
+<lem wit="#KK" xml:id="lem.100">Rád <corr>lődöz az</corr> magvábul.</lem>
+<rdg wit="#W1" xml:id="rdg.161">lövöldöz</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.162">lödöz az</rdg>
+<rdg wit="#W2" xml:id="rdg.163">magvaval</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1276">Ha csontot nem ront-is,</l>
+<l xml:id="l.1277">Jelt hágy rajtad még-is,</l>
+<l xml:id="l.1278"><app xml:id="app.101">
+<lem wit="#KK" xml:id="lem.101">Hogy nézd mászszor <corr>szegletbül</corr>.</lem>
+<rdg wit="#Wα" xml:id="rdg.164">távulrul</rdg>
+<rdg wit="#W2" xml:id="rdg.165">segletbül</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">143</fw>
+<lg xml:id="lg.143">
+<l rend="level_2" xml:id="l.1279">Nem jó boszszuságra</l>
+<l xml:id="l.1280">Urakat s’ haragra</l>
+<l xml:id="l.1281">Senkinek ingerleni,</l>
+<l rend="level_2" xml:id="l.1282">De hogy ha cselekszi,</l>
+<l xml:id="l.1283">Tanácslom hogy meszszi</l>
+<l xml:id="l.1284">Igyekezzék kerülni,</l>
+<l rend="level_2" xml:id="l.1285">Mert nehéz kö kertben</l>
+<l xml:id="l.1286">Kedv s’ akarat ellen</l>
+<l xml:id="l.1287">Urakkal tánczot járni.<note type="critic" xml:id="note.24">1285–1288 A sorok értelme: nehéz
+                            szabadság nélkül az urak kénye-kedve szerint mozogni (vö. <bibl><hi rend="smallcaps">Réthei Prikkel Marián</hi>: <title>Kőkertben
+                                    táncoltat</title>. <abbr>MNy</abbr> 1912.
+                        476–77.</bibl>)</note></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">144</fw>
+<lg xml:id="lg.144">
+<l rend="level_2" xml:id="l.1288">Nagy Urak szerelme,</l>
+<l xml:id="l.1289">S’ kedveknek öröme</l>
+<l xml:id="l.1290">Jár gyakrabban nyúl háton,</l>
+<l rend="level_2" xml:id="l.1291">Melly hol egyszer nyugszik,</l>
+<l xml:id="l.1292">Mászszor ott nem fekszik,</l>
+<l xml:id="l.1293">Nyomot sem hágy az hanton,</l>
+<l rend="level_2" xml:id="l.1294">Igy az Urak kedve</l>
+<l xml:id="l.1295">Egyszer volt nevetve,</l>
+<l xml:id="l.1296">Mászszor verettet nyakon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">145</fw>
+<lg xml:id="lg.145">
+<l rend="level_2" xml:id="l.1297">Szolgád fizetését,</l>
+<l xml:id="l.1298">S’ meg-érdemlett bérét</l>
+<l xml:id="l.1299">Meg ne tarcsad magadnál,</l>
+<l rend="level_2" xml:id="l.1300">Hogy meg ne átkozzon,</l>
+<l xml:id="l.1301">Vagy kárban ne hozzon,</l>
+<l xml:id="l.1302">Inkáb mondgya vólt Urnál,</l>
+<l rend="level_2" xml:id="l.1303">Mert boszszu állást kér</l>
+<l xml:id="l.1304">Meg-tartott igaz bér,</l>
+<l xml:id="l.1305">S’ vádol mindenkor másnál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">146</fw>
+<lg xml:id="lg.146">
+<l rend="level_2" xml:id="l.1306">Ha ki az Urához,</l>
+<l xml:id="l.1307">Avagy hazájához</l>
+<l xml:id="l.1308">Hivségét meg-mutattya,</l>
+<l rend="level_2" xml:id="l.1309">Minden több jóságit,</l>
+<l xml:id="l.1310">Es egyéb virtusit</l>
+<l xml:id="l.1311">Ezzel fellyül haladgya,</l>
+<l rend="level_2" xml:id="l.1312">S’ gyözedelmi pálmát,</l>
+<l xml:id="l.1313">S’ Laurus Coronáját</l>
+<l xml:id="l.1314">Méltán meg-kivánhattya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">147</fw>
+<lg xml:id="lg.147">
+<l rend="level_2" xml:id="l.1315">Igaz hivségedben,</l>
+<l xml:id="l.1316">S’ kötelességedben</l>
+<l xml:id="l.1317">Ligy álhatatos fottig;</l>
+<l rend="level_2" xml:id="l.1318">Mert az árultatás</l>
+<l xml:id="l.1319">S’ árulo habozás</l>
+<l xml:id="l.1320">Noha jol tart ideig,</l>
+<l rend="level_2" xml:id="l.1321">De árulo maga,</l>
+<l xml:id="l.1322">Nem lesz kedves soha,</l>
+<l xml:id="l.1323">Bár éllyen akar meddig.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">148</fw>
+<lg xml:id="lg.148">
+<l rend="level_2" xml:id="l.1324">Tüz azt melegiti,</l>
+<l xml:id="l.1325">Ki közel érheti,</l>
+<l xml:id="l.1326">Nem ki távul mutattya,</l>
+<l rend="level_2" xml:id="l.1327">Ki sarkallya Urát,</l>
+<l xml:id="l.1328">Inkáb veszi hasznát,</l>
+<l xml:id="l.1329">Mert méz magát nyalattya,</l>
+<l rend="level_2" xml:id="l.1330">De ki rosz magának,</l>
+<l xml:id="l.1331">Nem lehet jó másnak,</l>
+<l xml:id="l.1332"><app xml:id="app.102">
+<lem wit="#KK" xml:id="lem.102">Szolgát az úr választya.</lem>
+<rdg wit="#W1 #W2 #W4" xml:id="rdg.166">út</rdg>
+<rdg wit="#W3" xml:id="rdg.167">úr</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">149</fw>
+<lg xml:id="lg.149">
+<l rend="level_2" xml:id="l.1333">Az praktika kettös,</l>
+<l xml:id="l.1334">Ki nem érti ag nös,</l>
+<l xml:id="l.1335"><app xml:id="app.103">
+<lem wit="#KK" xml:id="lem.103">Bir az együgyü szivel,</lem>
+<rdg wit="#W2" xml:id="rdg.168">Vagy az</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1336">Mert csak maga sákját</l>
+<l xml:id="l.1337">S’ nem mások kosárját</l>
+<l xml:id="l.1338"><app xml:id="app.104">
+<lem wit="#KK" xml:id="lem.104">Alnok tölti eperrel,</lem>
+<rdg wit="#Wβ" xml:id="rdg.169">Tölti álnok</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1339"><app xml:id="app.105">
+<lem wit="#KK" xml:id="lem.105">Az hárst akkor hántya,</lem>
+<rdg wit="#W2" xml:id="rdg.170">Az harézt akkor haytia</rdg>
+</app></l>
+<l xml:id="l.1340">Az mikoron láttya,</l>
+<l xml:id="l.1341"><app xml:id="app.106">
+<lem wit="#KK" xml:id="lem.106">Teli vagyon mezgével.<note type="critic" xml:id="note.25">A mézge régebben
+                                    egyformán elterjedt volt a mézga alakkal; jelentése:
+                                    édesség.</note></lem>
+<rdg wit="#W2" xml:id="rdg.171">im vizzel</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">150</fw>
+<lg xml:id="lg.150">
+<l rend="level_2" xml:id="l.1342">Ne örüly bitangnak,</l>
+<l xml:id="l.1343">S’ hamis majorságnak,</l>
+<l xml:id="l.1344">Melly csak kedved gerjeszti,</l>
+<l rend="level_2" xml:id="l.1345">Száz igaz pinz között</l>
+<l xml:id="l.1346"><app xml:id="app.107">
+<lem wit="#KK" xml:id="lem.107">Egy hamissan <corr>szerzett</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.172">gyüjtött</rdg>
+<rdg wit="#W2" xml:id="rdg.173">szörzett</rdg>
+</app></l>
+<l xml:id="l.1347">Többit-is meg-emészti:</l>
+<l rend="level_2" xml:id="l.1348">Mert Esopus ebe</l>
+<l xml:id="l.1349">Arnyéknak örülve</l>
+<l xml:id="l.1350">Az konczot-is el-veszti.<note type="critic" xml:id="note.26">1348–1350 Aesopus Canis carnem
+                            ferens meséjére történik utalás. (I/4.)</note></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">151</fw>
+<lg xml:id="lg.151">
+<l rend="level_2" xml:id="l.1351">Gazdag ki sorsával,</l>
+<l xml:id="l.1352">S’ érteke javával</l>
+<l xml:id="l.1353">Panasz nélkül meg-nyugszik,</l>
+<l rend="level_2" xml:id="l.1354">De nyomorult, a’ kit</l>
+<l xml:id="l.1355">Fösvénység meg-vakit,</l>
+<l xml:id="l.1356">Sorsával nem elégszik;</l>
+<l rend="level_2" xml:id="l.1357">Mert ki usorával</l>
+<l xml:id="l.1358">Keresi záloggal,</l>
+<l xml:id="l.1359">Csendessen nem aluszik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">152</fw>
+<lg xml:id="lg.152">
+<l rend="level_2" xml:id="l.1360">Hamar gyüjtött marha</l>
+<l xml:id="l.1361">Ollyan mint füz moha,</l>
+<l xml:id="l.1362">Hertelen kevesedik;</l>
+<l rend="level_2" xml:id="l.1363">Mert hamis marhája,</l>
+<l xml:id="l.1364">Öszve gyült aranya</l>
+<l xml:id="l.1365">Az igaznak tartatik,</l>
+<l rend="level_2" xml:id="l.1366">De az kézi munka,</l>
+<l xml:id="l.1367"><app xml:id="app.108">
+<lem wit="#KK" xml:id="lem.108">Bár gyüllyön <corr>is soka</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.174">halomra</rdg>
+<rdg wit="#W2" xml:id="rdg.175">bar gyulljenis sokka</rdg>
+</app></l>
+<l xml:id="l.1368">Nö, terjed, s’ szaporodik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">153</fw>
+<lg xml:id="lg.153">
+<l rend="level_2" xml:id="l.1369">Ebül gyült szérdéknek,<note type="critic" xml:id="note.27">szerzeménynek</note></l>
+<l xml:id="l.1370">S’ hamis keresetnek</l>
+<l xml:id="l.1371">Prédára kell oszlani,</l>
+<l rend="level_2" xml:id="l.1372">Másod s’ harmad izig,</l>
+<l xml:id="l.1373">Rosz bitangnak addig,</l>
+<l xml:id="l.1374">Hellye sem fog láttzani,</l>
+<l rend="level_2" xml:id="l.1375">Mert átok fiakra</l>
+<l xml:id="l.1376">Hamar jün, s’ annyokra,</l>
+<l xml:id="l.1377">Az kik fognak kodulni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">154</fw>
+<lg xml:id="lg.154">
+<l rend="level_2" xml:id="l.1378">Igazat semmi kár,</l>
+<l xml:id="l.1379">Todullyon reá bár,</l>
+<l xml:id="l.1380">Meg nem szomorithattya,</l>
+<l rend="level_2" xml:id="l.1381">Kivánsága el-jön,</l>
+<l xml:id="l.1382">Ha lészen-is késön,</l>
+<l xml:id="l.1383">Kedvét meg-vidámittya,</l>
+<l rend="level_2" xml:id="l.1384">De az Istentelen</l>
+<l xml:id="l.1385">El-esik hirtelen,</l>
+<l xml:id="l.1386">Mert vétke meg-vakittya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">155</fw>
+<lg xml:id="lg.155">
+<l rend="level_2" xml:id="l.1387">Az ki tulajdonát,</l>
+<l xml:id="l.1388">Es igaz marháját</l>
+<l xml:id="l.1389">Osztya a’ szegényeknek,</l>
+<l rend="level_2" xml:id="l.1390">Inkább gazdagodik,</l>
+<l xml:id="l.1391">S’ jóbban mohosodik,</l>
+<l xml:id="l.1392">Nincs hija értekének,</l>
+<l rend="level_2" xml:id="l.1393">De kik másét lopják,</l>
+<l xml:id="l.1394">Koborollyák s’ fosztyák,</l>
+<l xml:id="l.1395">Nagy szükséget szenvednek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">156</fw>
+<lg xml:id="lg.156">
+<l rend="level_2" xml:id="l.1396">Midön szidalmazod,</l>
+<l xml:id="l.1397">S’ a’ szegént rongálod,</l>
+<l xml:id="l.1398">Káromlod Istenedet,</l>
+<l rend="level_2" xml:id="l.1399">Ha penig ruházod,</l>
+<l xml:id="l.1400">Szükségét táplálod,</l>
+<l xml:id="l.1401">Tiszteled teremtödet,</l>
+<l rend="level_2" xml:id="l.1402">Mert az alamisna</l>
+<l xml:id="l.1403">Lesz usora haszna,</l>
+<l xml:id="l.1404">El nem rejti béredet.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">157</fw>
+<lg xml:id="lg.157">
+<l rend="level_2" xml:id="l.1405">Nyomoruságában,</l>
+<l xml:id="l.1406">Nem boldogságában</l>
+<l xml:id="l.1407">Barátod látogassad,</l>
+<l rend="level_2" xml:id="l.1408">Te tanácsod jeles,</l>
+<l xml:id="l.1409">Nem gyönyörüséges</l>
+<l xml:id="l.1410">Legyen, kivel biztassad,</l>
+<l rend="level_2" xml:id="l.1411">Mert az hizelkedés</l>
+<l xml:id="l.1412">Hazug incselkedés,</l>
+<l xml:id="l.1413">Akar honnét fordittsad.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">158</fw>
+<lg xml:id="lg.158">
+<l rend="level_2" xml:id="l.1414">Hol jo szivel látnak,</l>
+<l xml:id="l.1415">Ott meg ne unnyanak,</l>
+<l xml:id="l.1416">Visely gondot jol arra,</l>
+<l rend="level_2" xml:id="l.1417">Mert ha ma itatnak,</l>
+<l xml:id="l.1418">Holnap nem kénálnak,</l>
+<l xml:id="l.1419">Találsz bé-zárt ajtora,</l>
+<l rend="level_2" xml:id="l.1420">Azért nem mindenkor,</l>
+<l xml:id="l.1421">De csak idejekor</l>
+<l xml:id="l.1422">Járhatsz az pap sajtyára.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">159</fw>
+<lg xml:id="lg.159">
+<l rend="level_2" xml:id="l.1423">Mint moly az ruhának,</l>
+<l xml:id="l.1424">Es féreg az fának,</l>
+<l xml:id="l.1425">Ugy árt bánat szivednek,</l>
+<l rend="level_2" xml:id="l.1426">Mert busulás fáraszt,</l>
+<l xml:id="l.1427">Az gond pedig bádgyaszt,</l>
+<l xml:id="l.1428">Sérelme-is lelkednek,</l>
+<l rend="level_2" xml:id="l.1429">Csontod hasogattya,</l>
+<l xml:id="l.1430">Velödet száraztya,</l>
+<l xml:id="l.1431">S’ gyilkossa életednek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">160</fw>
+<lg xml:id="lg.160">
+<l rend="level_2" xml:id="l.1432">Nem annyira hasznát</l>
+<l xml:id="l.1433">Mint élete hoszszát</l>
+<l xml:id="l.1434">Ember nézi mindenben,</l>
+<l rend="level_2" xml:id="l.1435">Ezért gyakran izzad,</l>
+<l xml:id="l.1436">S’ haja szála borzad,</l>
+<l xml:id="l.1437">Maradhasson életben,</l>
+<l rend="level_2" xml:id="l.1438">Leg inkáb éltéjért</l>
+<l xml:id="l.1439">S’ meg maradásáért</l>
+<l xml:id="l.1440"><app xml:id="app.109">
+<lem wit="#KK" xml:id="lem.109">Ki, ki, aggik lelkében.</lem>
+<rdg wit="#W2" xml:id="rdg.176"><sic>addigh</sic></rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">161</fw>
+<lg xml:id="lg.161">
+<l rend="level_2" xml:id="l.1441">Nagy hasznot kicsiny kár</l>
+<l xml:id="l.1442">Erdegellyen-is bár,</l>
+<l xml:id="l.1443">Azzal el nem fogyattya,</l>
+<l rend="level_2" xml:id="l.1444">Kis patak tengerben</l>
+<l xml:id="l.1445">Follyon bár szüntelen,</l>
+<l xml:id="l.1446">Ugyan meg nem árasztya,</l>
+<l rend="level_2" xml:id="l.1447">De apro fövenyet</l>
+<l xml:id="l.1448">Nagy ár viz el-lephet,</l>
+<l xml:id="l.1449">S’ végre széllyel oszlattya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">162</fw>
+<lg xml:id="lg.162">
+<l rend="level_2" xml:id="l.1450">Mondolás bélesnek</l>
+<l xml:id="l.1451">S’ téjfeles lepénnek</l>
+<l xml:id="l.1452"><app xml:id="app.110">
+<lem wit="#KK" xml:id="lem.110">Ha mindenét fel vetnéd,</lem>
+<rdg wit="#Wβ" xml:id="rdg.177">jedznéd</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1453">Sok költséggel lenne,</l>
+<l xml:id="l.1454">Nem-is ennel benne,</l>
+<l xml:id="l.1455">Csak vajatlan meg-sütnéd,</l>
+<l rend="level_2" xml:id="l.1456">Mert a’ rest többet jár,</l>
+<l xml:id="l.1457">Fösvént érhet töb kár,</l>
+<l xml:id="l.1458">Ha panaszszát értenéd.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">163</fw>
+<lg xml:id="lg.163">
+<l rend="level_2" xml:id="l.1459">Nem lészen gazdag dús</l>
+<l xml:id="l.1460">A’ szemérmes koldus,</l>
+<l xml:id="l.1461">Ritkán eszik kalácsban,</l>
+<l rend="level_2" xml:id="l.1462">Mert néma gyermeknek,</l>
+<l xml:id="l.1463">Es meg-kötött nyelvnek</l>
+<l xml:id="l.1464">Nincs értelem szavában,</l>
+<l rend="level_2" xml:id="l.1465">Sült galamb nem repül</l>
+<l xml:id="l.1466">Az tüz hellyen kivül</l>
+<l xml:id="l.1467">Senkinek-is szájában.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">164</fw>
+<lg xml:id="lg.164">
+<l rend="level_2" xml:id="l.1468">Ajándék marhának</l>
+<l xml:id="l.1469">Nincs odva fogának,</l>
+<l xml:id="l.1470">Kiért el ne vehessed:</l>
+<l rend="level_2" xml:id="l.1471">Hol adnak malaczot,</l>
+<l xml:id="l.1472">Ott ne tarcs tanácsot,</l>
+<l xml:id="l.1473">Azt miképpen mellyeszszed,<note type="critic" xml:id="note.28">Lásd az 546. sornál!</note></l>
+<l rend="level_2" xml:id="l.1474">Hanem mindgyárt sákkal,</l>
+<l xml:id="l.1475">Es az után nyársal</l>
+<l xml:id="l.1476">Forgolodgyál hogy süssed.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">165</fw>
+<lg xml:id="lg.165">
+<l rend="level_2" xml:id="l.1477">Adott jót felejtsed,</l>
+<l xml:id="l.1478">S’ panaszban ne ejtsed,</l>
+<l xml:id="l.1479">Ha kinek jóval voltál,</l>
+<l rend="level_2" xml:id="l.1480">El-vett jorul pedig</l>
+<l xml:id="l.1481">Emlekezzél holtig,</l>
+<l xml:id="l.1482">S’ hálá-dás mutatással.</l>
+<l rend="level_2" xml:id="l.1483">Ha adsz, adgy jó szivel,</l>
+<l xml:id="l.1484">Ha kérsz, ved jó kedvel,</l>
+<l xml:id="l.1485">Hogy meg ne utáltassál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">166</fw>
+<lg xml:id="lg.166">
+<l rend="level_2" xml:id="l.1486">Nem árt az illy átok,</l>
+<l xml:id="l.1487">Es illetlen szitok,</l>
+<l xml:id="l.1488">Melyre nem adtál okot,</l>
+<l rend="level_2" xml:id="l.1489">Mert a’ szamár rivás,</l>
+<l xml:id="l.1490">Es kuasz ugatás</l>
+<l xml:id="l.1491">Meszsze érni nem szokott,</l>
+<l rend="level_2" xml:id="l.1492">Gonosz jámborokért,</l>
+<l xml:id="l.1493">Hamis, igazakért</l>
+<l xml:id="l.1494">Mindenkoron adatott.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">167</fw>
+<lg xml:id="lg.167">
+<l rend="level_2" xml:id="l.1495">A’ szep csorgó forrás</l>
+<l xml:id="l.1496">Szemnek kedves látás,</l>
+<l xml:id="l.1497">Az elmét ujithattya,</l>
+<l rend="level_2" xml:id="l.1498">Szép gyönyörü pásit,</l>
+<l xml:id="l.1499">Melly ezer kedvet nyit,</l>
+<l xml:id="l.1500">Az szemet hizlalhattya,</l>
+<l rend="level_2" xml:id="l.1501">De igaz barátság,</l>
+<l xml:id="l.1502">S’ meg-rögzött<note type="critic" xml:id="note.29">állandósult, tartós</note> társaság</l>
+<l xml:id="l.1503">Eletet hoszszabbittya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">168</fw>
+<lg xml:id="lg.168">
+<l rend="level_2" xml:id="l.1504">Szeretet égö tüz,</l>
+<l xml:id="l.1505"><app xml:id="app.111">
+<lem wit="#KK" xml:id="lem.111">Öszve szerkeztet s’ füz,</lem>
+<rdg wit="#W2" xml:id="rdg.178">szerkeszet</rdg>
+</app></l>
+<l xml:id="l.1506">S’ egyben kapcsol két lelket,</l>
+<l rend="level_2" xml:id="l.1507">Evez egy hajóban,</l>
+<l xml:id="l.1508">Lépik igaz nyomban,</l>
+<l xml:id="l.1509">Tészen edgyé két szivet.</l>
+<l rend="level_2" xml:id="l.1510">Az mit beszéll nyelve,</l>
+<l xml:id="l.1511">Azt kivánnya szive,</l>
+<l xml:id="l.1512"><app xml:id="app.112">
+<lem wit="#KK" xml:id="lem.112">Terjeszsze jó hir nevét.</lem>
+<rdg wit="#W2" xml:id="rdg.179">io hert és nevet</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">169</fw>
+<lg xml:id="lg.169">
+<l rend="level_2" xml:id="l.1513">Régi barátodat,</l>
+<l xml:id="l.1514">Meg ismért társodat</l>
+<l xml:id="l.1515">Szeresd miként lelkedet,</l>
+<l rend="level_2" xml:id="l.1516">Gyakorta ag lovon</l>
+<l xml:id="l.1517">Verik farkast agyon,</l>
+<l xml:id="l.1518">S’ béllelhetik mentédet,</l>
+<l rend="level_2" xml:id="l.1519"><app xml:id="app.113">
+<lem wit="#KK" xml:id="lem.113">De mint délczeg vad ló,</lem>
+<rdg wit="#W2" xml:id="rdg.180">De a</rdg>
+</app></l>
+<l xml:id="l.1520">Az uj társ sem való,</l>
+<l xml:id="l.1521"><app xml:id="app.114">
+<lem wit="#KK" xml:id="lem.114">Félben szegi kedvedet.</lem>
+<rdg wit="#W2" xml:id="rdg.181">szegék</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">170</fw>
+<lg xml:id="lg.170">
+<l rend="level_2" xml:id="l.1522">Szeretönek sebe</l>
+<l xml:id="l.1523"><app xml:id="app.115">
+<lem wit="#KK" xml:id="lem.115">Nem idéz törvénybe,</lem>
+<rdg wit="#W2" xml:id="rdg.182">torvényre</rdg>
+</app></l>
+<l xml:id="l.1524">Job sem gyülölö csókja.</l>
+<l rend="level_2" xml:id="l.1525">Barátod mindenkor</l>
+<l xml:id="l.1526">Szeret, nem csak olykor,</l>
+<l xml:id="l.1527">Midön aranyad láttya,</l>
+<l rend="level_2" xml:id="l.1528">De Judás arúló</l>
+<l xml:id="l.1529">Csókjával ajánló</l>
+<l xml:id="l.1530">Rejtett mérgét mútattya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">171</fw>
+<lg xml:id="lg.171">
+<l rend="level_2" xml:id="l.1531">Atkozott szegénység</l>
+<l xml:id="l.1532">S’ fogyatkozott szükség</l>
+<l xml:id="l.1533">Nem talál barátságot;</l>
+<l rend="level_2" xml:id="l.1534">Mert a’ szükölködö,</l>
+<l xml:id="l.1535">Majd nem-is illendö</l>
+<l xml:id="l.1536">Ismérjen rokonságot:</l>
+<l rend="level_2" xml:id="l.1537">Hanem az Uraság,</l>
+<l xml:id="l.1538">Ajándék, s’ méltóság</l>
+<l xml:id="l.1539"><app xml:id="app.116">
+<lem wit="#KK" xml:id="lem.116">Nevel attyafiságot.</lem>
+<rdg wit="#W2" xml:id="rdg.183">attyafiusagot</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">172</fw>
+<lg xml:id="lg.172">
+<l rend="level_2" xml:id="l.1540">Szerencse erszényét,</l>
+<l xml:id="l.1541">S’ álhatatlan kincsét</l>
+<l xml:id="l.1542">Ha veled nem közlötte,</l>
+<l rend="level_2" xml:id="l.1543">Csendességben élhetsz,</l>
+<l xml:id="l.1544">S’ tölle nem-is félhetsz,</l>
+<l xml:id="l.1545">Hogy kedved nem nevelte,</l>
+<l rend="level_2" xml:id="l.1546">Mert ö senyvett házbúl</l>
+<l xml:id="l.1547">Szegény társaságbúl</l>
+<l xml:id="l.1548">Minden közit ki vette.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">173</fw>
+<lg xml:id="lg.173">
+<l rend="level_2" xml:id="l.1549">Prokátorra pered,</l>
+<l xml:id="l.1550"><app xml:id="app.117">
+<lem wit="#KK" xml:id="lem.117"><corr>És holt papra lelked</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.184">S’ uj orvosra élted</rdg>
+<rdg wit="#W2" xml:id="rdg.185">S holt papra lölköd<note type="critic" xml:id="note.30">A szótagszámot
+                                    javítottuk.</note></rdg>
+</app></l>
+<l xml:id="l.1551">Ne bizd tellyességesen.</l>
+<l rend="level_2" xml:id="l.1552">Lám Isten néked-is</l>
+<l xml:id="l.1553"><app xml:id="app.118">
+<lem wit="#KK" xml:id="lem.118"><corr>Ad eszet</corr> másnak-is,</lem>
+<rdg wit="#Wα" xml:id="rdg.186">Adott eszt, s’ másnak-is</rdg>
+<rdg wit="#W2" xml:id="rdg.187">Ad eszet masnakis</rdg>
+</app></l>
+<l xml:id="l.1554">Dolgod viseld eszesen,</l>
+<l rend="level_2" xml:id="l.1555">Mert szenet kovácstúl,</l>
+<l xml:id="l.1556">S’ lasnakot<note type="critic" xml:id="note.31">takarót (L. az 1691. sort is!)</note>
+                        czigántúl</l>
+<l xml:id="l.1557">Nem vehetni nyertesen.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">174</fw>
+<lg xml:id="lg.174">
+<l rend="level_2" xml:id="l.1558">Doctor a’ nyavalyát,</l>
+<l xml:id="l.1559">S’ Prokátor a’ Causát<note type="critic" xml:id="note.32">pört (Vö. a 2113. sorral!); két
+                            tagúnak ejtendő.</note></l>
+<l xml:id="l.1560">Igen ritkán enyhiti,</l>
+<l rend="level_2" xml:id="l.1561">Doctor purgátiót,<note type="critic" xml:id="note.33">beöntést</note></l>
+<l xml:id="l.1562">Másik exceptiót<note type="critic" xml:id="note.34">törvényes kifogást. (Vö. a 2114.
+                            sorral!)</note></l>
+<l xml:id="l.1563">Ad, kivel neheziti;</l>
+<l rend="level_2" xml:id="l.1564">Igy egésségedet,</l>
+<l xml:id="l.1565">S’ minden értekedet</l>
+<l xml:id="l.1566">Gyanó perrel emészti.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">175</fw>
+<lg xml:id="lg.175">
+<l rend="level_2" xml:id="l.1567">Mi nincs okosságbúl,</l>
+<l xml:id="l.1568">Van a’ kábaságbúl,</l>
+<l xml:id="l.1569"><app xml:id="app.119">
+<lem wit="#KK" xml:id="lem.119">Nem-is lészen állandó,</lem>
+<rdg wit="#W2" xml:id="rdg.188">Az nem</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1570">Minek nincs ereje,</l>
+<l xml:id="l.1571">Annak nincs gyökere,</l>
+<l xml:id="l.1572">Nem lehet maradandó,</l>
+<l rend="level_2" xml:id="l.1573">Mert jégre meczett kép</l>
+<l xml:id="l.1574">Nem lesz sokáig ép,</l>
+<l xml:id="l.1575">Mert széltülis olvadó.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">176</fw>
+<lg xml:id="lg.176">
+<l rend="level_2" xml:id="l.1576">Embert nevetésén,</l>
+<l xml:id="l.1577">S’ hahota szerzésén</l>
+<l xml:id="l.1578">Itilheted bolondnak,</l>
+<l rend="level_2" xml:id="l.1579">Ki minden beszédét,</l>
+<l xml:id="l.1580">Es cselekedetit</l>
+<l xml:id="l.1581">Meg neveti magának,</l>
+<l rend="level_2" xml:id="l.1582">Es csak kaczagásrúl,</l>
+<l xml:id="l.1583">Nem valami jórúl</l>
+<l xml:id="l.1584">Adhat tanácsot másnak.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">177</fw>
+<lg xml:id="lg.177">
+<l rend="level_2" xml:id="l.1585">Egyszeri dorgálás,</l>
+<l xml:id="l.1586">Vagy kemény rijasztás</l>
+<l xml:id="l.1587">Többet használ okosnak,</l>
+<l rend="level_2" xml:id="l.1588">Hogy sem száz vereség,<note type="critic" xml:id="note.35">verés</note></l>
+<l xml:id="l.1589">Avagy kemény inség</l>
+<l xml:id="l.1590">Altalkodott bolondnak;</l>
+<l rend="level_2" xml:id="l.1591">Mert bolond nem bársont,</l>
+<l xml:id="l.1592">Hanem hetes vászont</l>
+<l xml:id="l.1593">Erdemel csuhájának.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">178</fw>
+<lg xml:id="lg.178">
+<l rend="level_2" xml:id="l.1594">Hejában perselni</l>
+<l xml:id="l.1595">Ebet, s’ mellyeszteni,</l>
+<l xml:id="l.1596">Nem szalonnának való:</l>
+<l rend="level_2" xml:id="l.1597">Illyen az ostoba,</l>
+<l xml:id="l.1598">S’ tudatlan goromba</l>
+<l xml:id="l.1599">Ehez szintén hasonló:</l>
+<l rend="level_2" xml:id="l.1600">Akar mint tanitsad,</l>
+<l xml:id="l.1601">Bár pálczával csapjad,</l>
+<l xml:id="l.1602">Nem lészen botbul sarló.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">179</fw>
+<lg xml:id="lg.179">
+<l rend="level_2" xml:id="l.1603">Puha, s’ henyélö test</l>
+<l xml:id="l.1604">Ektelenséget fest,</l>
+<l xml:id="l.1605">S’ nevelöje romlásnak:</l>
+<l rend="level_2" xml:id="l.1606">Gonoszságnak vára</l>
+<l xml:id="l.1607">A’ köz jónak kára,</l>
+<l xml:id="l.1608">Fia a’ torkosságnak,</l>
+<l rend="level_2" xml:id="l.1609"><app xml:id="app.120">
+<lem wit="#KK" xml:id="lem.120">Mint vér szopó nadály,</lem>
+<rdg wit="#W2" xml:id="rdg.189">Mért</rdg>
+</app></l>
+<l xml:id="l.1610">Vagy méh rontó harkály,</l>
+<l xml:id="l.1611">Oka sok latorságnak.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">180</fw>
+<lg xml:id="lg.180">
+<l rend="level_2" xml:id="l.1612">Ha a’ szekér-kenöt,</l>
+<l xml:id="l.1613">Avagy lépes veszszöt</l>
+<l xml:id="l.1614">Forgatod a’ kezedben,</l>
+<l rend="level_2" xml:id="l.1615">Köntösödre ragad,</l>
+<l xml:id="l.1616">Szakállodban akad,</l>
+<l xml:id="l.1617">Kit le nem moshatz vizben,</l>
+<l rend="level_2" xml:id="l.1618">Igy gonosz barátság,</l>
+<l xml:id="l.1619"><app xml:id="app.121">
+<lem wit="#KK" xml:id="lem.121">Es lator társaság</lem>
+<rdg wit="#W2" xml:id="rdg.190">De lator</rdg>
+</app></l>
+<l xml:id="l.1620">Mocskol böcsületedben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">181</fw>
+<lg xml:id="lg.181">
+<l rend="level_2" xml:id="l.1621">Ne félly a’ kérkedö,</l>
+<l xml:id="l.1622">Csácsogó, s’ fecsegö</l>
+<l xml:id="l.1623"><app xml:id="app.122">
+<lem wit="#KK" xml:id="lem.122">Maga hányó <corr>embertül</corr>;</lem>
+<rdg wit="#Wα" xml:id="rdg.191">csél csaptúl</rdg>
+<rdg wit="#W2" xml:id="rdg.192">embertul</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1624">Mert ollyannak nyelve,</l>
+<l xml:id="l.1625">Versengö fegyvere,</l>
+<l xml:id="l.1626">S’ bizodalma ajtón túl,</l>
+<l rend="level_2" xml:id="l.1627"><app xml:id="app.123">
+<lem wit="#KK" xml:id="lem.123">Mint <corr>kuasz</corr> csak ugat,</lem>
+<rdg wit="#Wα" xml:id="rdg.193">az eb</rdg>
+<rdg wit="#W2" xml:id="rdg.194">kuasz</rdg>
+</app></l>
+<l xml:id="l.1628">De nem igen marhat,</l>
+<l xml:id="l.1629">Meg ijedvén farkastúl.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">182</fw>
+<lg xml:id="lg.182">
+<l rend="level_2" xml:id="l.1630">A’ korsót a’ vizre</l>
+<l xml:id="l.1631">Addig horgyák, s’ jégre,</l>
+<l xml:id="l.1632"><app xml:id="app.124">
+<lem wit="#KK" xml:id="lem.124">Mig cserépenkint törik,</lem>
+<rdg wit="#W2" xml:id="rdg.195">Cserepenkent el törek</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1633">Igy ember lopásra</l>
+<l xml:id="l.1634">Addig jár fosztásra,</l>
+<l xml:id="l.1635">Véletlen fel-függesztik,<note type="critic" xml:id="note.36">felakasztják</note></l>
+<l rend="level_2" xml:id="l.1636">Mert a’ tudni való,</l>
+<l xml:id="l.1637">Vizben nem lesz haló,</l>
+<l xml:id="l.1638">Ki kerékre<note type="critic" xml:id="note.37">a. m. kerékbetörésre</note> tartatik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">183</fw>
+<lg xml:id="lg.183">
+<l rend="level_2" xml:id="l.1639">A’ lator erkölcsnek,</l>
+<l xml:id="l.1640">S’ rosz igyekezetnek</l>
+<l xml:id="l.1641">Sok ajándék sem elég,</l>
+<l rend="level_2" xml:id="l.1642">Latornál nincs vétek,</l>
+<l xml:id="l.1643">Semmit nem tart bünnek,</l>
+<l xml:id="l.1644">Patvar tarcsa mind éltig;</l>
+<l rend="level_2" xml:id="l.1645">Mint az eb a’ Dunán</l>
+<l xml:id="l.1646">Egyszer által úszván</l>
+<l xml:id="l.1647">Keszül mászszor tengerig.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">184</fw>
+<lg xml:id="lg.184">
+<l rend="level_2" xml:id="l.1648">Ördögnek ideig,</l>
+<l xml:id="l.1649">De nem azért fottig</l>
+<l xml:id="l.1650">Kel gyertyát-is gyútani,</l>
+<l rend="level_2" xml:id="l.1651">Náladnál roszabnak,</l>
+<l xml:id="l.1652">Es aláb valónak</l>
+<l xml:id="l.1653">Olykor sokat kel türni,</l>
+<l rend="level_2" xml:id="l.1654">A’ jó eggyességért,</l>
+<l xml:id="l.1655">S’ csendesz békességért</l>
+<l xml:id="l.1656">Sokat el kel halgatni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">185</fw>
+<lg xml:id="lg.185">
+<l rend="level_2" xml:id="l.1657">Jobb más latorsága,</l>
+<l xml:id="l.1658">S’ titkos csalárdsága</l>
+<l xml:id="l.1659">Miat, embernek veszni,</l>
+<l rend="level_2" xml:id="l.1660"><app xml:id="app.125">
+<lem wit="#KK" xml:id="lem.125">Hogy sem félelmében</lem>
+<rdg wit="#W2" xml:id="rdg.196">filelemben</rdg>
+</app></l>
+<l xml:id="l.1661">Avagy ijettében</l>
+<l xml:id="l.1662">Gyalázattal meg-halni;</l>
+<l rend="level_2" xml:id="l.1663">Mert félénk harang szót,</l>
+<l xml:id="l.1664"><app xml:id="app.126">
+<lem wit="#KK" xml:id="lem.126">Avagy gyász koporsót</lem>
+<rdg wit="#W2" xml:id="rdg.197">Avagy hogy koporszot</rdg>
+</app></l>
+<l xml:id="l.1665">Miként tud érdemleni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">186</fw>
+<lg xml:id="lg.186">
+<l rend="level_2" xml:id="l.1666">Inkáb hidgy az ebnek,</l>
+<l xml:id="l.1667">S’ meg dühöt medvének,</l>
+<l xml:id="l.1668">Mint fecsegö embernek,</l>
+<l rend="level_2" xml:id="l.1669">Mert az fene vadak</l>
+<l xml:id="l.1670">Természetbül marnak,</l>
+<l xml:id="l.1671">S’ ártalmadra sietnek:</l>
+<l rend="level_2" xml:id="l.1672">De hamissak szive</l>
+<l xml:id="l.1673">Nem ott jár hól nyelve,</l>
+<l xml:id="l.1674">Orozva emésztenek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">187</fw>
+<lg xml:id="lg.187">
+<l rend="level_2" xml:id="l.1675">Noha kicsin a’ bors,</l>
+<l xml:id="l.1676">Melegsége nagy, s’ gyors,</l>
+<l xml:id="l.1677">A’ nagy babnál erösseb,</l>
+<l rend="level_2" xml:id="l.1678">Az oktalan nagy test</l>
+<l xml:id="l.1679">Ha félénk, s’ ahoz rest,</l>
+<l xml:id="l.1680"><app xml:id="app.127">
+<lem wit="#KK" xml:id="lem.127">Vasnál mivel tettetesb?<note type="critic" xml:id="note.38">erősebb</note></lem>
+<rdg wit="#W2" xml:id="rdg.198">tettesseb</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1681">Mert nagy, s’ tágas pajta</l>
+<l xml:id="l.1682">Ha üres, és puszta,</l>
+<l xml:id="l.1683">Olnál mivel böcsüsseb?</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">188</fw>
+<lg xml:id="lg.188">
+<l rend="level_2" xml:id="l.1684">Nem méltó az élni,</l>
+<l xml:id="l.1685">A’ ki csak henyélni</l>
+<l xml:id="l.1686">Szokott, mint a’ méh here:</l>
+<l rend="level_2" xml:id="l.1687">Mert az hazájának,</l>
+<l xml:id="l.1688">S’ közönséges jónak</l>
+<l xml:id="l.1689">Nem néz elö-mentére:</l>
+<l rend="level_2" xml:id="l.1690">Nyárban csak árnyékot,</l>
+<l xml:id="l.1691"><app xml:id="app.128">
+<lem wit="#KK" xml:id="lem.128">S’ télbe csak lasnakot</lem>
+<rdg wit="#W2" xml:id="rdg.199">S télben meg</rdg>
+</app></l>
+<l xml:id="l.1692">Keres, könyebségére.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">189</fw>
+<lg xml:id="lg.189">
+<l rend="level_2" xml:id="l.1693">A’ tehennek tején</l>
+<l xml:id="l.1694">Meg-tetszik idején,</l>
+<l xml:id="l.1695">Lészszé túró belölle,</l>
+<l rend="level_2" xml:id="l.1696">Jo vásáris estin,</l>
+<l xml:id="l.1697">Nyereség-is vesztin</l>
+<l xml:id="l.1698">Jelt mutathat környülle,</l>
+<l rend="level_2" xml:id="l.1699"><app xml:id="app.129">
+<lem wit="#KK" xml:id="lem.129">Igy virtus <corr>gyermekbül</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.200">iffiúbúl</rdg>
+<rdg wit="#W2" xml:id="rdg.201">gyermekbul</rdg>
+</app></l>
+<l xml:id="l.1700">Mint vas-szeg a’ sákbúl,</l>
+<l xml:id="l.1701"><app xml:id="app.130">
+<lem wit="#KK" xml:id="lem.130">Ki néz, hogy szól<corr>j</corr> felölle.</lem>
+<rdg wit="#W1" xml:id="rdg.202">szól</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.203">szolly</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">190</fw>
+<lg xml:id="lg.190">
+<l rend="level_2" xml:id="l.1702">Ha háborgattatik,</l>
+<l xml:id="l.1703">S’ ok nélkül bántatik</l>
+<l xml:id="l.1704">A’ Nemzetes Nemes vér,</l>
+<l rend="level_2" xml:id="l.1705"><app xml:id="app.131">
+<lem wit="#KK" xml:id="lem.131">Nehéz azt kér<corr>lel</corr>ni</lem>
+<rdg wit="#W1" xml:id="rdg.204">kérlleni</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.205">kérlelni</rdg>
+</app></l>
+<l xml:id="l.1706">Es meg-engesztelni,</l>
+<l xml:id="l.1707">Mig magában meg nem tér,</l>
+<l rend="level_2" xml:id="l.1708">Meft kigyó farkáért,</l>
+<l xml:id="l.1709">S’ az el vágásáért</l>
+<l xml:id="l.1710">Mindent mardos mihez fér.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">191</fw>
+<lg xml:id="lg.191">
+<l rend="level_2" xml:id="l.1711">Dorgalás, és veszszö</l>
+<l xml:id="l.1712">Csak ne légyen késö,</l>
+<l xml:id="l.1713">Jót nevel a’ gyermekbül,</l>
+<l rend="level_2" xml:id="l.1714">Ne bocsásd szájára,</l>
+<l xml:id="l.1715">Mert bút hoz Annyára,</l>
+<l xml:id="l.1716"><app xml:id="app.132">
+<lem wit="#KK" xml:id="lem.132">Rosz szokott <corr>vásottságbul</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.206">erkölcsébül</rdg>
+<rdg wit="#W2" xml:id="rdg.207">vasotsagbul</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1717">Fát-is mig fiatal,</l>
+<l xml:id="l.1718"><app xml:id="app.133">
+<lem wit="#KK" xml:id="lem.133">Hajthatsz akarattal,</lem>
+<rdg wit="#W2" xml:id="rdg.208">haythat</rdg>
+</app></l>
+<l xml:id="l.1719"><app xml:id="app.134">
+<lem wit="#KK" xml:id="lem.134">Ha nem rögzött törsökül.</lem>
+<rdg wit="#W1" xml:id="rdg.209">Hanem</rdg>
+<rdg wit="#W2" xml:id="rdg.210">Megh rögzöt törzekből</rdg>
+<rdg wit="#W3 #W4" xml:id="rdg.211">Ha nem</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">192</fw>
+<lg xml:id="lg.192">
+<l rend="level_2" xml:id="l.1720">Bóldogtalan ferfi</l>
+<l xml:id="l.1721">Oly Attya, kit rosz fi</l>
+<l xml:id="l.1722">Búval, s’ gondal keserit:</l>
+<l rend="level_2" xml:id="l.1723">Hasznosb ugy meg halnod,</l>
+<l xml:id="l.1724">S’ fi nélkül maradnod,</l>
+<l xml:id="l.1725">S’ el-törlened a’ nevét,</l>
+<l rend="level_2" xml:id="l.1726">Hogy sem Istentelen</l>
+<l xml:id="l.1727">Légyen, s’ engedetlen</l>
+<l xml:id="l.1728">Jobb ki vájjad a’ szemit.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">193</fw>
+<lg xml:id="lg.193">
+<l rend="level_2" xml:id="l.1729">Jó erkölcsel tellyes,</l>
+<l xml:id="l.1730">S’ jó hir nével ékes</l>
+<l xml:id="l.1731">Vén embert meg-böcsüllyed:</l>
+<l rend="level_2" xml:id="l.1732">Meg-fogadd tanácsát,</l>
+<l xml:id="l.1733">Örizzed hagyását,</l>
+<l xml:id="l.1734">S’ jó intését kövessed,</l>
+<l rend="level_2" xml:id="l.1735">Ne illesd haraggal,</l>
+<l xml:id="l.1736">S’ne boszszoncsad csuffal,</l>
+<l xml:id="l.1737">Meg ne átkozzon téged.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">194</fw>
+<lg xml:id="lg.194">
+<l rend="level_2" xml:id="l.1738">Miképpen tisztelted</l>
+<l xml:id="l.1739">Atyádat, s’ böcsülted,</l>
+<l xml:id="l.1740">Azont várjad magadra,</l>
+<l rend="level_2" xml:id="l.1741"><app xml:id="app.135">
+<lem wit="#KK" xml:id="lem.135">Mert Atyád sirása,</lem>
+<rdg wit="#W2" xml:id="rdg.212">Attyak</rdg>
+</app></l>
+<l xml:id="l.1742"><app xml:id="app.136">
+<lem wit="#KK" xml:id="lem.136">S’ Anyád átkozása</lem>
+<rdg wit="#W2" xml:id="rdg.213">s Annyak</rdg>
+</app></l>
+<l xml:id="l.1743">Ostort fonyhat nyakadra,</l>
+<l rend="level_2" xml:id="l.1744">S’ hol nem fog viszketni,</l>
+<l xml:id="l.1745">Ott fogod vakarni,</l>
+<l xml:id="l.1746">S’ nem lesz birád fiadra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">195</fw>
+<lg xml:id="lg.195">
+<l rend="level_2" xml:id="l.1747">Gyermeknek játékért,</l>
+<l xml:id="l.1748">S’ özvegynek sirásért</l>
+<l xml:id="l.1749">Ne süvegely te soha,</l>
+<l rend="level_2" xml:id="l.1750">Mert gyermek játékkal,</l>
+<l xml:id="l.1751">Az aszszony sirással</l>
+<l xml:id="l.1752">Fizet miként mustoha;</l>
+<l rend="level_2" xml:id="l.1753">De szolgály te olynak,</l>
+<l xml:id="l.1754">Hogy fáradságodnak</l>
+<l xml:id="l.1755">Legyen haszna valaha.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">196</fw>
+<lg xml:id="lg.196">
+<l rend="level_2" xml:id="l.1756">Minden ujság kedves,</l>
+<l xml:id="l.1757">Az ô pedig reves,<note type="critic" xml:id="note.39">ócska, nem kívánatos</note></l>
+<l xml:id="l.1758">Vetik a’ sib vásárra,</l>
+<l rend="level_2" xml:id="l.1759">Uj szita függ szegen,</l>
+<l xml:id="l.1760">Az ô hever földön,</l>
+<l xml:id="l.1761">Csak nem-is teszik polczra,</l>
+<l rend="level_2" xml:id="l.1762">Noha az ô bortul</l>
+<l xml:id="l.1763">Jobban, hogy sem mustúl</l>
+<l xml:id="l.1764">Mehetsz az ugró tánczra.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">197</fw>
+<lg xml:id="lg.197">
+<l rend="level_2" xml:id="l.1765">Szerelem, és a’ bor,</l>
+<l xml:id="l.1766">Kiben ez kettö for,</l>
+<l xml:id="l.1767">Nincsen ott nyugodalom;</l>
+<l rend="level_2" xml:id="l.1768"><app xml:id="app.137">
+<lem wit="#KK" xml:id="lem.137">Mert edgyik szivedben,</lem>
+<rdg wit="#W2" xml:id="rdg.214">szevedbul</rdg>
+</app></l>
+<l xml:id="l.1769"><app xml:id="app.138">
+<lem wit="#KK" xml:id="lem.138">Az másik elmédben</lem>
+<rdg wit="#W2" xml:id="rdg.215">elmédbul</rdg>
+</app></l>
+<l xml:id="l.1770">Hatalmazott hatalom:</l>
+<l rend="level_2" xml:id="l.1771">Mind kettö égö tüz,</l>
+<l xml:id="l.1772">Kedved ellen hajt, üz;</l>
+<l xml:id="l.1773">Ezek vége sir, s’ halom.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">198</fw>
+<lg xml:id="lg.198">
+<l rend="level_2" xml:id="l.1774">Nem lát a’ szerelem,</l>
+<l xml:id="l.1775">Nincs nálla értelem,</l>
+<l xml:id="l.1776">Nem néz Iffiat, sem aggot,</l>
+<l rend="level_2" xml:id="l.1777">Bolyogva kit talál,</l>
+<l xml:id="l.1778">Ottan kedve meg-száll,</l>
+<l xml:id="l.1779">Véli Diánát látott,</l>
+<l rend="level_2" xml:id="l.1780">Mint a’ torma féreg,</l>
+<l xml:id="l.1781">Nem rija hogy méreg,</l>
+<l xml:id="l.1782">Hanem mézben harapott.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">199</fw>
+<lg xml:id="lg.199">
+<l rend="level_2" xml:id="l.1783">Az nöszö legénnek,</l>
+<l xml:id="l.1784">S’ kincses erszényének</l>
+<l xml:id="l.1785">Nagyob hire sommanál,</l>
+<l rend="level_2" xml:id="l.1786">Férhez menö lyánnak,</l>
+<l xml:id="l.1787">S’ drága ruhájának</l>
+<l xml:id="l.1788">Több szekrénnye számánál,</l>
+<l rend="level_2" xml:id="l.1789">Mert pecsenye füsti</l>
+<l xml:id="l.1790">Nagyobb szokott lenni</l>
+<l xml:id="l.1791">Mindenkoron magánál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">200</fw>
+<lg xml:id="lg.200">
+<l rend="level_2" xml:id="l.1792">Ha feleséget vész,</l>
+<l xml:id="l.1793">Bútúl üres nem lész,</l>
+<l xml:id="l.1794">Fonnyadsz, száradsz mellette,</l>
+<l rend="level_2" xml:id="l.1795"><app xml:id="app.139">
+<lem wit="#KK" xml:id="lem.139"><corr> Órát hogyha vészel,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.216">Orát-is hogy ha vész</rdg>
+<rdg wit="#W2" xml:id="rdg.217">Orat hogy ha vesel</rdg>
+</app></l>
+<l xml:id="l.1796"><app xml:id="app.140">
+<lem wit="#KK" xml:id="lem.140"><corr>Nyughatatlan lészel,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.218">Hidd nyughatatlan lész</rdg>
+<rdg wit="#W2" xml:id="rdg.219">Nyughatatlan lészel</rdg>
+</app></l>
+<l xml:id="l.1797">Kell lenned környülötte,</l>
+<l rend="level_2" xml:id="l.1798">De mikor versz Papot,</l>
+<l xml:id="l.1799">Fel-jedzed az napot,</l>
+<l xml:id="l.1800">Mert lesz gondod érette.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">201</fw>
+<lg xml:id="lg.201">
+<l rend="level_2" xml:id="l.1801">Házasok szerelme,</l>
+<l xml:id="l.1802">S’ egyenlö értelme</l>
+<l xml:id="l.1803">Nincs a’ kendett<note type="critic" xml:id="note.40">kendőzött, festett</note> orczában,</l>
+<l rend="level_2" xml:id="l.1804">Mert a’ nagy pipesség,<note type="critic" xml:id="note.41">cifrálkodás,
+                            kicicomázottság</note></l>
+<l xml:id="l.1805"><app xml:id="app.141">
+<lem wit="#KK" xml:id="lem.141"><corr> S orca kenő festék</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.220">S’ a’ kendözött szépség</rdg>
+<rdg wit="#W2" xml:id="rdg.221">s Orcsa kenü festék</rdg>
+</app></l>
+<l xml:id="l.1806">Vénust vadász másokban,</l>
+<l rend="level_2" xml:id="l.1807">De tökélletesség,</l>
+<l xml:id="l.1808">Es szemérmetesség</l>
+<l xml:id="l.1809">Foglal szivet magában.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">202</fw>
+<lg xml:id="lg.202">
+<l rend="level_2" xml:id="l.1810">Beteget gyöngy vizzel,</l>
+<l xml:id="l.1811">S’ bádgyattat gyors kézzel</l>
+<l xml:id="l.1812">Segitvén gyogyithatnak,</l>
+<l rend="level_2" xml:id="l.1813"><app xml:id="app.142">
+<lem wit="#KK" xml:id="lem.142">Rabok vas békókbul,</lem>
+<rdg wit="#W2" xml:id="rdg.222">Rabot</rdg>
+</app></l>
+<l xml:id="l.1814">Láncz és kalodákbul</l>
+<l xml:id="l.1815">Sokan szabadulhatnak,</l>
+<l rend="level_2" xml:id="l.1816"><app xml:id="app.143">
+<lem wit="#KK" xml:id="lem.143"><corr>De rögzött bánatbul</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.223">Rögzött sérelembül</rdg>
+<rdg wit="#W2" xml:id="rdg.224">De rögsöt banatbul</rdg>
+</app></l>
+<l xml:id="l.1817">S’ bolond szerelembül</l>
+<l xml:id="l.1818"><app xml:id="app.144">
+<lem wit="#KK" xml:id="lem.144"><corr>Ritkán észre</corr> hozatnak.</lem>
+<rdg wit="#Wα" xml:id="rdg.225">Eszre ritkán</rdg>
+<rdg wit="#W2" xml:id="rdg.226">Ritkan ésre hozhatnak</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">203</fw>
+<lg xml:id="lg.203">
+<l rend="level_2" xml:id="l.1819"><app xml:id="app.145">
+<lem wit="#KK" xml:id="lem.145">Szép aszszony, és jó bor</lem>
+<rdg wit="#W3" xml:id="rdg.227">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1820"><app xml:id="app.146">
+<lem wit="#KK" xml:id="lem.146">Igen meg-hitt jámbor</lem>
+<rdg wit="#W3" xml:id="rdg.228">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1821"><app xml:id="app.147">
+<lem wit="#KK" xml:id="lem.147">Embert, kéván örzésre,</lem>
+<rdg wit="#W3" xml:id="rdg.229">[Kihagyva.]</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1822"><app xml:id="app.148">
+<lem wit="#KK" xml:id="lem.148">Mert az aszszony gyarló,</lem>
+<rdg wit="#W3" xml:id="rdg.230">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1823"><app xml:id="app.149">
+<lem wit="#KK" xml:id="lem.149">Engedelmes, s’ hajló,</lem>
+<rdg wit="#W3" xml:id="rdg.231">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1824"><app xml:id="app.150">
+<lem wit="#KK" xml:id="lem.150">Hamar felel kérdésre,</lem>
+<rdg wit="#W3" xml:id="rdg.232">[Kihagyva.]</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1825"><app xml:id="app.151">
+<lem wit="#KK" xml:id="lem.151">Bor-is kévánatos,</lem>
+<rdg wit="#W3" xml:id="rdg.233">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1826"><app xml:id="app.152">
+<lem wit="#KK" xml:id="lem.152">Nem kell hozzá lantos,</lem>
+<rdg wit="#W3" xml:id="rdg.234">[Kihagyva.]</rdg>
+</app></l>
+<l xml:id="l.1827"><app xml:id="app.153">
+<lem wit="#KK" xml:id="lem.153">Alkolcsot tart pinczédre.</lem>
+<rdg wit="#W2" xml:id="rdg.235">pincziben</rdg>
+<rdg wit="#W3" xml:id="rdg.236">[Kihagyva.]</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">204</fw>
+<lg xml:id="lg.204">
+<l rend="level_2" xml:id="l.1828">Nem kell ottan czégér,</l>
+<l xml:id="l.1829">Hanem torok, s’ hébér,<note type="critic" xml:id="note.42">lopótök</note></l>
+<l xml:id="l.1830">A’ hol jo bort kezdenek,</l>
+<l rend="level_2" xml:id="l.1831">Mert bort nem czégérrül,</l>
+<l xml:id="l.1832">Hanem jó izirül</l>
+<l xml:id="l.1833">Az korcsomán dicsirnek,</l>
+<l rend="level_2" xml:id="l.1834">Lyánt sem koszoruért,</l>
+<l xml:id="l.1835"><app xml:id="app.154">
+<lem wit="#KK" xml:id="lem.154">De <corr>jó</corr> erkölcsiért</lem>
+<rdg wit="#W1" xml:id="rdg.237">De a’ jó</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.238">De jo</rdg>
+</app></l>
+<l xml:id="l.1836">Leg hamarébb el-vésznek.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">205</fw>
+<lg xml:id="lg.205">
+<l rend="level_2" xml:id="l.1837">Fazekat kongásán,</l>
+<l xml:id="l.1838">Az ökröt vonásán</l>
+<l xml:id="l.1839">Válogattyák vásáron,</l>
+<l rend="level_2" xml:id="l.1840">Lyánt vak szerencsére,</l>
+<l xml:id="l.1841">S’ dicsért reménségre</l>
+<l xml:id="l.1842">Szerzik költséges árron,</l>
+<l rend="level_2" xml:id="l.1843">De ha fog hibázni,</l>
+<l xml:id="l.1844">Akkor fogsz te fázni,</l>
+<l xml:id="l.1845">Lepled rugta ágyadon.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">206</fw>
+<lg xml:id="lg.206">
+<l rend="level_2" xml:id="l.1846">Csalárd a’ kedvesség,</l>
+<l xml:id="l.1847">Hivságos a’ szépség,</l>
+<l xml:id="l.1848">Noha tünik szemedben:</l>
+<l rend="level_2" xml:id="l.1849">Urát félö Aszszony,</l>
+<l xml:id="l.1850"><app xml:id="app.155">
+<lem wit="#KK" xml:id="lem.155">Mint a’ drága bársony,</lem>
+<rdg wit="#W2" xml:id="rdg.239">[Hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.1851"><app xml:id="app.156">
+<lem wit="#KK" xml:id="lem.156">Marad dicsiretiben:</lem>
+<rdg wit="#W2" xml:id="rdg.240">[Hiányzik.]</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1852"><app xml:id="app.157">
+<lem wit="#KK" xml:id="lem.157">De az gonosz aszszony,</lem>
+<rdg wit="#W2" xml:id="rdg.241">[Hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.1853">Mint az hetes vászony,</l>
+<l xml:id="l.1854">Szapullást vár mindenben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">207</fw>
+<lg xml:id="lg.207">
+<l rend="level_2" xml:id="l.1855">Örökség, s’ majorság,</l>
+<l xml:id="l.1856">Ház, s’ minden gazdagság</l>
+<l xml:id="l.1857">Maradnak az Attyoktul,</l>
+<l rend="level_2" xml:id="l.1858">Az okos feleség,</l>
+<l xml:id="l.1859">Es jámbor segétség</l>
+<l xml:id="l.1860"><app xml:id="app.158">
+<lem wit="#KK" xml:id="lem.158">Adatik csak <corr>Istentül</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.242">az Urtúl</rdg>
+<rdg wit="#W2" xml:id="rdg.243">Istentul</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1861">Es ha olyra találsz,</l>
+<l xml:id="l.1862">Sok napokat számlálsz,</l>
+<l xml:id="l.1863">Ment vagy világi bútúl.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">208</fw>
+<lg xml:id="lg.208">
+<l rend="level_2" xml:id="l.1864">Jaj annak az háznak,</l>
+<l xml:id="l.1865">Hol tehén, bikának</l>
+<l xml:id="l.1866">Jármat vethet nyakában,</l>
+<l rend="level_2" xml:id="l.1867">Csak példa a’ bika,</l>
+<l xml:id="l.1868">Aszszonyokban ritka,</l>
+<l xml:id="l.1869">Mely nem szöne bordában,</l>
+<l rend="level_2" xml:id="l.1870">Hogy nyergellye Urát,</l>
+<l xml:id="l.1871">S’ félre tegye kontyát</l>
+<l xml:id="l.1872">S’ járja tánczát szomszédban.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">209</fw>
+<lg xml:id="lg.209">
+<l rend="level_2" xml:id="l.1873">Egy nyakon ütésböl,</l>
+<l xml:id="l.1874"><app xml:id="app.159">
+<lem wit="#KK" xml:id="lem.159">Vagy arczúl <corr>csapásbul</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.244">verésböl</rdg>
+<rdg wit="#W2" xml:id="rdg.245">csapasbul</rdg>
+</app></l>
+<l xml:id="l.1875">Történik üstök vonás;</l>
+<l rend="level_2" xml:id="l.1876">Olykor csak egy tánczbúl,</l>
+<l xml:id="l.1877">S’ tréfálódó szóbúl</l>
+<l xml:id="l.1878">Lészen házasság rontás,</l>
+<l rend="level_2" xml:id="l.1879">Hanem zárjad addig</l>
+<l xml:id="l.1880">Istállodat meddig</l>
+<l xml:id="l.1881">Nem esik a’ ló lopás.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">210</fw>
+<lg xml:id="lg.210">
+<l rend="level_2" xml:id="l.1882"><app xml:id="app.160">
+<lem wit="#KK" xml:id="lem.160"><corr>Az elrejtett</corr> kincset,</lem>
+<rdg wit="#Wα" xml:id="rdg.246">El-rejtett jót,</rdg>
+<rdg wit="#W2" xml:id="rdg.247">Az el röytet</rdg>
+</app></l>
+<l xml:id="l.1883">S’ gonosz feleséget</l>
+<l xml:id="l.1884">Elmédbül ki nem vethetsz,</l>
+<l rend="level_2" xml:id="l.1885">Mert mind kettö olly gond,</l>
+<l xml:id="l.1886">Kit a’ nyelv ki nem mond,</l>
+<l xml:id="l.1887">Mindeniktül epedhetsz;</l>
+<l rend="level_2" xml:id="l.1888">Hanem ha rosz hidon</l>
+<l xml:id="l.1889">Lész, vagy nyúlászaton,</l>
+<l xml:id="l.1890">Akkor ha mit felejthetsz.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">211</fw>
+<lg xml:id="lg.211">
+<l rend="level_2" xml:id="l.1891">Gonosz hir szárnyon jár,</l>
+<l xml:id="l.1892">Lót, fút, senkit nem vár,</l>
+<l xml:id="l.1893">Elözi a mentséget,</l>
+<l rend="level_2" xml:id="l.1894">Jó hir késön terül,</l>
+<l xml:id="l.1895">Gyakran sillyed, s’ merül,</l>
+<l xml:id="l.1896">Véle hordoz kétséget:</l>
+<l rend="level_2" xml:id="l.1897">Bár volna igaz-is,</l>
+<l xml:id="l.1898">Rostáltatik ugy-is,</l>
+<l xml:id="l.1899">Szerezzen irigységet.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">212</fw>
+<lg xml:id="lg.212">
+<l rend="level_2" xml:id="l.1900">Vén ember elméje,</l>
+<l xml:id="l.1901">S’ az iffiú ereje</l>
+<l xml:id="l.1902">Verik-meg az hadakot,</l>
+<l rend="level_2" xml:id="l.1903">Gyakran álnoksággal,</l>
+<l xml:id="l.1904">Es nem eröszakkal</l>
+<l xml:id="l.1905">Rontnak erös Várakot,</l>
+<l rend="level_2" xml:id="l.1906"><app xml:id="app.161">
+<lem wit="#KK" xml:id="lem.161">Mert <corr>gyakrabban az ész,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.248">az esz gyakrabban</rdg>
+<rdg wit="#W2" xml:id="rdg.249">gyakrabban az esz</rdg>
+</app></l>
+<l xml:id="l.1907"><app xml:id="app.162">
+<lem wit="#KK" xml:id="lem.162"><corr>Hogy sem az erős kéz,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.250">Mint kéz vadászatban</rdg>
+<rdg wit="#W2" xml:id="rdg.251">Hogy sem az eröss kéz</rdg>
+</app></l>
+<l xml:id="l.1908">Kötöz Oroszlányokat.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">213</fw>
+<lg xml:id="lg.213">
+<l rend="level_2" xml:id="l.1909">Erös az igazság,</l>
+<l xml:id="l.1910">Es az szép aszszonyság</l>
+<l xml:id="l.1911">S’ magát itató jó bor,</l>
+<l rend="level_2" xml:id="l.1912">Ezek kik meg-birták,</l>
+<l xml:id="l.1913">Es földre tapodták</l>
+<l xml:id="l.1914">Fejedelmeket sokszor,</l>
+<l rend="level_2" xml:id="l.1915">Gazdagság s’ bölcseség,</l>
+<l xml:id="l.1916">Erö és vitézség</l>
+<l xml:id="l.1917">Nem bir ezekkel ollykor.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">214</fw>
+<lg xml:id="lg.214">
+<l rend="level_2" xml:id="l.1918">Kár vitéz férfinak,</l>
+<l xml:id="l.1919">S’ kegyes jo aszszonynak</l>
+<l xml:id="l.1920">Meg-vénhedni üdötül;</l>
+<l rend="level_2" xml:id="l.1921">Kár a’ serény lonak,</l>
+<l xml:id="l.1922">Mint sebes solyomnak</l>
+<l xml:id="l.1923"><app xml:id="app.163">
+<lem wit="#KK" xml:id="lem.163"><corr>Elbénulni az hámtul,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.252">Bénnulni törödéstül,</rdg>
+<rdg wit="#W2" xml:id="rdg.253">El bennulni az hamtul,</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1924"><app xml:id="app.164">
+<lem wit="#KK" xml:id="lem.164"><corr>Mert másféle panasz,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.254">De igy jár e’ világ,</rdg>
+<rdg wit="#W2" xml:id="rdg.255">Mert mas file panasz,</rdg>
+</app></l>
+<l xml:id="l.1925"><app xml:id="app.165">
+<lem wit="#KK" xml:id="lem.165"><corr>Kit befog egy arasz,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.256">Melly csak tündér hivság,</rdg>
+<rdg wit="#W2" xml:id="rdg.257">Kit be fog egy arasz,</rdg>
+</app></l>
+<l xml:id="l.1926"><app xml:id="app.166">
+<lem wit="#KK" xml:id="lem.166"><corr>Messze esik ezektül.</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.258">S’ változó mindenestül</rdg>
+<rdg wit="#W2" xml:id="rdg.259">Meszszé eszek ezektul</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">215</fw>
+<lg xml:id="lg.215">
+<l rend="level_2" xml:id="l.1927">Kelletlen ott az kincs,</l>
+<l xml:id="l.1928">Hol jó egésség nincs,</l>
+<l xml:id="l.1929">Jaj fáj, csak azt dudollya,</l>
+<l rend="level_2" xml:id="l.1930">Mert gyöngy, gyémánt, s’ rubint</l>
+<l xml:id="l.1931">Nem ád kedvet máskint,</l>
+<l xml:id="l.1932">Csak szemedet hizlallya;</l>
+<l rend="level_2" xml:id="l.1933">De az jó egésség,</l>
+<l xml:id="l.1934">Epp kéz, láb; s’ békesség</l>
+<l xml:id="l.1935">Bús lelket-is táplállya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">216</fw>
+<lg xml:id="lg.216">
+<l rend="level_2" xml:id="l.1936">Számkivetést türni,</l>
+<l xml:id="l.1937">S’ gonosz hirben élni</l>
+<l xml:id="l.1938">Keservesseb halálnál,</l>
+<l rend="level_2" xml:id="l.1939"><app xml:id="app.167">
+<lem wit="#KK" xml:id="lem.167">Az <corr>mordáló</corr><note type="critic" xml:id="note.43">kegyetlen,
+                                    gyilkos</note> szükség,</lem>
+<rdg wit="#W1" xml:id="rdg.260">mardoso</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.261">mordalo</rdg>
+</app></l>
+<l xml:id="l.1940">Kit szenved az vénség,</l>
+<l xml:id="l.1941">Mind sullyossab azoknál,</l>
+<l rend="level_2" xml:id="l.1942">Mert ez három dolog</l>
+<l xml:id="l.1943">Már szokásbul forog</l>
+<l xml:id="l.1944">Az emberek házánál.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">217</fw>
+<lg xml:id="lg.217">
+<l rend="level_2" xml:id="l.1945">Kövön kigyo nyoma,</l>
+<l xml:id="l.1946">S’ repülö sas úttya</l>
+<l xml:id="l.1947">El-rejtetett látásban,</l>
+<l rend="level_2" xml:id="l.1948">De az iffiu úttya,</l>
+<l xml:id="l.1949">S’ el-tökélt szándékja</l>
+<l xml:id="l.1950">Titkosb ösveny magában;</l>
+<l rend="level_2" xml:id="l.1951">Mert titkát ki tudgya,</l>
+<l xml:id="l.1952">S’ rejtekét ki láttya,</l>
+<l xml:id="l.1953">S’ kit fogad tanácsában.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">218</fw>
+<lg xml:id="lg.218">
+<l rend="level_2" xml:id="l.1954"><app xml:id="app.168">
+<lem wit="#KK" xml:id="lem.168"><corr>A szép kinyílt rózsa</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.262">A’ fris tetszin szinnel</rdg>
+<rdg wit="#W2" xml:id="rdg.263">A szép ki nélt Rosa</rdg>
+</app></l>
+<l xml:id="l.1955"><app xml:id="app.169">
+<lem wit="#KK" xml:id="lem.169"><corr>Azt magával hozza,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.264">Ékes rosa reggel</rdg>
+<rdg wit="#W2" xml:id="rdg.265">Azt magaval hozza,</rdg>
+</app></l>
+<l xml:id="l.1956"><app xml:id="app.170">
+<lem wit="#KK" xml:id="lem.170"><corr>Ok legyen szeretetre,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.266">Mindent indit örömre</rdg>
+<rdg wit="#W2" xml:id="rdg.267">Ok legyen szeretettre</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1957">Koszorúban ékes,</l>
+<l xml:id="l.1958">S’ ajándékban kedves,</l>
+<l xml:id="l.1959">Méltó a’ dicsiretre,</l>
+<l rend="level_2" xml:id="l.1960"><app xml:id="app.171">
+<lem wit="#KK" xml:id="lem.171"><corr>Illetvén fájdalom,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.268">De mulo szépsége,</rdg>
+<rdg wit="#W2" xml:id="rdg.269">Illetven faydalom</rdg>
+</app></l>
+<l xml:id="l.1961"><app xml:id="app.172">
+<lem wit="#KK" xml:id="lem.172"><corr>Nézvén aggodalom</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.270">S’ hervado épsége</rdg>
+<rdg wit="#W2" xml:id="rdg.271">Nézven aggodalom</rdg>
+</app></l>
+<l xml:id="l.1962"><app xml:id="app.173">
+<lem wit="#KK" xml:id="lem.173"><corr>Ragad róla szivedre.</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.272">Bút hoz ottan szivedre</rdg>
+<rdg wit="#W2" xml:id="rdg.273">Ragad rola szévedre</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">219</fw>
+<lg xml:id="lg.219">
+<l rend="level_2" xml:id="l.1963"><app xml:id="app.174">
+<lem wit="#KK" xml:id="lem.174">Az <corr>cs</corr>engö méhecske,</lem>
+<rdg wit="#W1" xml:id="rdg.274">zengö</rdg>
+<rdg wit="#W2" xml:id="rdg.275">czöngö</rdg>
+<rdg wit="#W3 #W4" xml:id="rdg.276">csengö</rdg>
+</app></l>
+<l xml:id="l.1964">S’ gyapjatlan nyüvecske<note type="critic" xml:id="note.44">férgecske</note></l>
+<l xml:id="l.1965">Ha jút-is kemény télre,</l>
+<l rend="level_2" xml:id="l.1966">Noha nem szánt, el-él,</l>
+<l xml:id="l.1967">A’ szükségtül nem fél,</l>
+<l xml:id="l.1968">Ki telel kikeletre,</l>
+<l rend="level_2" xml:id="l.1969"><app xml:id="app.175">
+<lem wit="#KK" xml:id="lem.175"><corr>Azért nincs</corr> felejtve,</lem>
+<rdg wit="#Wα" xml:id="rdg.277">Nem vagy hidd</rdg>
+<rdg wit="#W2" xml:id="rdg.278">Azert néncs</rdg>
+</app></l>
+<l xml:id="l.1970"><app xml:id="app.176">
+<lem wit="#KK" xml:id="lem.176">Az ki va<corr>n</corr> teremtve,</lem>
+<rdg wit="#Wα" xml:id="rdg.279">vagy</rdg>
+<rdg wit="#W2" xml:id="rdg.280">van</rdg>
+</app></l>
+<l xml:id="l.1971">Csak ügyed bizd Istenre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">220</fw>
+<lg xml:id="lg.220">
+<l rend="level_2" xml:id="l.1972">Sokat fárad vadász,</l>
+<l xml:id="l.1973">S’ ritkán szárad halász,</l>
+<l xml:id="l.1974">Ugy keresi kenyerét,</l>
+<l rend="level_2" xml:id="l.1975">Kapás nyes irtovánt,</l>
+<l xml:id="l.1976">S’ madarász lépet hánt,</l>
+<l xml:id="l.1977">Elleszthesse éhségét,</l>
+<l rend="level_2" xml:id="l.1978">Az arató eped,</l>
+<l xml:id="l.1979">Kaszás hevet szénved,</l>
+<l xml:id="l.1980">Tengethesse életét.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">221</fw>
+<lg xml:id="lg.221">
+<l rend="level_2" xml:id="l.1981">Az gyomor ehsége,</l>
+<l xml:id="l.1982">Es kenyer szüksége</l>
+<l xml:id="l.1983"><app xml:id="app.177">
+<lem wit="#KK" xml:id="lem.177">Mindent fel tud forgatni,</lem>
+<rdg wit="#Wβ" xml:id="rdg.281">el túd</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.1984">Okost, bolondságra,</l>
+<l xml:id="l.1985">Jámbort-is lopásra</l>
+<l xml:id="l.1986">Gyakran szokott úntatni,</l>
+<l rend="level_2" xml:id="l.1987">Mert ott van az inség,</l>
+<l xml:id="l.1988">Hol süveget szükség</l>
+<l xml:id="l.1989">Kezd szitával fóldozni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">222</fw>
+<lg xml:id="lg.222">
+<l rend="level_2" xml:id="l.1990">A’ sok uj találmány</l>
+<l xml:id="l.1991"><app xml:id="app.178">
+<lem wit="#KK" xml:id="lem.178">Ki tudná mennyi, s’ hány,</lem>
+<rdg wit="#W2" xml:id="rdg.282">tudgya</rdg>
+</app></l>
+<l xml:id="l.1992">Mellyet az elme kohol,</l>
+<l rend="level_2" xml:id="l.1993">Torok mélységéjért</l>
+<l xml:id="l.1994">S’ kenyér szükségéjért</l>
+<l xml:id="l.1995">Ember mindent ki gondol,</l>
+<l rend="level_2" xml:id="l.1996">Mert hijános érték</l>
+<l xml:id="l.1997">Nem lesz teli mérték,</l>
+<l xml:id="l.1998">Torok jó hirt meg-mocskol.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">223</fw>
+<lg xml:id="lg.223">
+<l rend="level_2" xml:id="l.1999">Esznek, hogy éllyenek;</l>
+<l xml:id="l.2000">Elnek, hogy egyenek</l>
+<l xml:id="l.2001">Sokan emberek közzül,</l>
+<l rend="level_2" xml:id="l.2002">Mert soknak Istene</l>
+<l xml:id="l.2003">Hasban reménsége,</l>
+<l xml:id="l.2004">Van dicsössége ebbül,</l>
+<l rend="level_2" xml:id="l.2005">Ha szomju gégéjét,</l>
+<l xml:id="l.2006">S’ el-száradott inyét</l>
+<l xml:id="l.2007"><app xml:id="app.179">
+<lem wit="#KK" xml:id="lem.179">Olthattya borsos lé<corr>vbü</corr>l.</lem>
+<rdg wit="#W1" xml:id="rdg.283">lével</rdg>
+<rdg wit="#W2 #W3 #W4" xml:id="rdg.284">lévbül</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">224</fw>
+<lg xml:id="lg.224">
+<l rend="level_2" xml:id="l.2008">Etel, s’ ital, álom,</l>
+<l xml:id="l.2009">Szükséges ez három</l>
+<l xml:id="l.2010">Ez világi életre,</l>
+<l rend="level_2" xml:id="l.2011">Mértékelve hasznos,</l>
+<l xml:id="l.2012">Szükség kivül káros,</l>
+<l xml:id="l.2013">Ejt a’ soka veszélyre,</l>
+<l rend="level_2" xml:id="l.2014">Hol jó mód tartatik,</l>
+<l xml:id="l.2015">Ott sok jó adatik,</l>
+<l xml:id="l.2016">Hoz, kivánt egésségre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">225</fw>
+<lg xml:id="lg.225">
+<l rend="level_2" xml:id="l.2017">Az mértékletesség,</l>
+<l xml:id="l.2018">Mint jó levegö ég,</l>
+<l xml:id="l.2019">Hoz kedvet, s’ nyájasságot,</l>
+<l rend="level_2" xml:id="l.2020">Mind Istent dicsérni,</l>
+<l xml:id="l.2021">S’ egyéb dolgot tenni,</l>
+<l xml:id="l.2022">Nem restell fáratságot,</l>
+<l rend="level_2" xml:id="l.2023">Mert a’ józan elme</l>
+<l xml:id="l.2024">Eletnek szerelme,</l>
+<l xml:id="l.2025">Indit vig mulatságot.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">226</fw>
+<lg xml:id="lg.226">
+<l rend="level_2" xml:id="l.2026">Részegség olly étek,</l>
+<l xml:id="l.2027">Kibül minden vétek</l>
+<l xml:id="l.2028">Terjed egész világon,</l>
+<l rend="level_2" xml:id="l.2029"><app xml:id="app.180">
+<lem wit="#KK" xml:id="lem.180"><corr>Még a szenteket is</corr></lem>
+<rdg wit="#W1 #W3 #Wα" xml:id="rdg.285">Jó vitézeknek árt,</rdg>
+<rdg wit="#W2" xml:id="rdg.286">Meg a szenteketis</rdg>
+</app></l>
+<l xml:id="l.2030"><app xml:id="app.181">
+<lem wit="#KK" xml:id="lem.181"><corr>Mocskolta őket is,</corr></lem>
+<rdg wit="#W1 #W3 #Wα" xml:id="rdg.287">Rájok hoz bút és kárt,</rdg>
+<rdg wit="#W2" xml:id="rdg.288">Moczkolta öketis,</rdg>
+</app></l>
+<l xml:id="l.2031"><app xml:id="app.182">
+<lem wit="#KK" xml:id="lem.182"><corr>Mint történt jámbor Lóton,</corr></lem>
+<rdg wit="#W1 #W3 #Wα" xml:id="rdg.289">Mint történt Nagy Sándoron</rdg>
+<rdg wit="#W2" xml:id="rdg.290">Mint tertint jambor Loton</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.2032">Ha Bacchus pohárát</l>
+<l xml:id="l.2033">Gyakran töltöd, s’ borát,</l>
+<l xml:id="l.2034">Gázolsz te-is ez uton.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">227</fw>
+<lg xml:id="lg.227">
+<l rend="level_2" xml:id="l.2035">Az ki nyárba nem gyüjt,</l>
+<l xml:id="l.2036"><app xml:id="app.183">
+<lem wit="#KK" xml:id="lem.183">Télbe keveset <corr>süt</corr>,</lem>
+<rdg wit="#W1 #W4" xml:id="rdg.291">füjt</rdg>
+<rdg wit="#W2" xml:id="rdg.292">süt</rdg>
+<rdg wit="#W3" xml:id="rdg.293">füt</rdg>
+</app></l>
+<l xml:id="l.2037">Tiszta annak fazaka,</l>
+<l rend="level_2" xml:id="l.2038">Ritkán ül ebédhez,</l>
+<l xml:id="l.2039">Semmit nem tesz tüzhez,</l>
+<l xml:id="l.2040">Nem peniszül kaláttsa,</l>
+<l rend="level_2" xml:id="l.2041">Henyélésen morog,</l>
+<l xml:id="l.2042">Hogy a’ hasa korog,</l>
+<l xml:id="l.2043">Magára van panaszsza.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">228</fw>
+<lg xml:id="lg.228">
+<l rend="level_2" xml:id="l.2044">Ektelen fösvénység,</l>
+<l xml:id="l.2045">S’ rút telhetetlenség</l>
+<l xml:id="l.2046">Szörnyü vétek magában,</l>
+<l rend="level_2" xml:id="l.2047">Ki mint varas béka,</l>
+<l xml:id="l.2048">Noha földben lyuka,</l>
+<l xml:id="l.2049">Nem mer enni az porban,</l>
+<l rend="level_2" xml:id="l.2050">Sobrák<note type="critic" xml:id="note.45">zsobrák, a. m. fösvény</note>
+                        embernek-is</l>
+<l xml:id="l.2051">Csak zab kenyere-is</l>
+<l xml:id="l.2052">Mézes falat szájában.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">229</fw>
+<lg xml:id="lg.229">
+<l rend="level_2" xml:id="l.2053">Jobb egy száraz falat,</l>
+<l xml:id="l.2054">Bár ne egyél halat,</l>
+<l xml:id="l.2055">Csak lehess csendességben,</l>
+<l rend="level_2" xml:id="l.2056">De az teli pincze,</l>
+<l xml:id="l.2057">Rakott ház, pint, s’ ittze</l>
+<l xml:id="l.2058">A’ hol van versengésben,</l>
+<l rend="level_2" xml:id="l.2059"><app xml:id="app.184">
+<lem wit="#KK" xml:id="lem.184">Nem élet, de halál,</lem>
+<rdg wit="#W2" xml:id="rdg.294">[A <hi rend="italic">de</hi> szó hiányzik.]</rdg>
+</app></l>
+<l xml:id="l.2060">Hol annyi bú talál</l>
+<l xml:id="l.2061">Oránként te lelkedben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">230</fw>
+<lg xml:id="lg.230">
+<l rend="level_2" xml:id="l.2062">Jól van annak dolga,</l>
+<l xml:id="l.2063">Régi buza doha</l>
+<l xml:id="l.2064">Kinek járja udvarát,</l>
+<l rend="level_2" xml:id="l.2065">Tavalyi szalmája,</l>
+<l xml:id="l.2066"><app xml:id="app.185">
+<lem wit="#KK" xml:id="lem.185">S’ meg-maradt szénája</lem>
+<rdg wit="#W2" xml:id="rdg.295">s megmaradot</rdg>
+</app></l>
+<l xml:id="l.2067">Ekesitti pajtáját,</l>
+<l rend="level_2" xml:id="l.2068">Van olynál bor árra,</l>
+<l xml:id="l.2069"><app xml:id="app.186">
+<lem wit="#KK" xml:id="lem.186">Nem kél az táskára,<note type="critic" xml:id="note.46">A sor értelme: nem
+                                    kerül az koldustarisznyára.</note></lem>
+<rdg wit="#W2" xml:id="rdg.296">kir</rdg>
+</app></l>
+<l xml:id="l.2070">Csusztathattya bocskorát.<note type="critic" xml:id="note.47">A sor értelme:
+                        táncolhat.</note></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">23l</fw>
+<lg xml:id="lg.231">
+<l rend="level_2" xml:id="l.2071">Jámborság ékesit,</l>
+<l xml:id="l.2072">Szemérem tisztesit</l>
+<l xml:id="l.2073">Magad jó viseléssel,</l>
+<l rend="level_2" xml:id="l.2074">Ruha szem-fény vesztés,</l>
+<l xml:id="l.2075">Es külsö tettetés</l>
+<l xml:id="l.2076">Patikai festékkel,</l>
+<l rend="level_2" xml:id="l.2077">Természetén kivül,</l>
+<l xml:id="l.2078">Ki szépségnek örül,</l>
+<l xml:id="l.2079">Jele jár kettös szivel.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">232</fw>
+<lg xml:id="lg.232">
+<l rend="level_2" xml:id="l.2080">Sokan kapállással,</l>
+<l xml:id="l.2081"><app xml:id="app.187">
+<lem wit="#KK" xml:id="lem.187"><corr>Nékik</corr> him varrással</lem>
+<rdg wit="#Wα" xml:id="rdg.297">Vagy szép</rdg>
+<rdg wit="#W2" xml:id="rdg.298">Nékik</rdg>
+</app></l>
+<l xml:id="l.2082">Szoktanak vetekedni,</l>
+<l rend="level_2" xml:id="l.2083">De az igassággal,</l>
+<l xml:id="l.2084">S’ Istenes jósággal</l>
+<l xml:id="l.2085">Nem tudnak dicsekedni;</l>
+<l rend="level_2" xml:id="l.2086">Azért nem mivedet,</l>
+<l xml:id="l.2087">De jó életedet</l>
+<l xml:id="l.2088">Fogják az fontra vetni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">233</fw>
+<lg xml:id="lg.233">
+<l rend="level_2" xml:id="l.2089">Az mocskot mosással,</l>
+<l xml:id="l.2090">S’ gyakor szapullással<note type="critic" xml:id="note.48">lúgos vízben való
+                        áztatással</note></l>
+<l xml:id="l.2091">Ruhábol ki veszthetni,</l>
+<l rend="level_2" xml:id="l.2092">Igy az bünt sirással,</l>
+<l xml:id="l.2093">S’ igaz meg-bánással</l>
+<l xml:id="l.2094">Tudhatod el-törleni,</l>
+<l rend="level_2" xml:id="l.2095">Es boldogulsz akkor,</l>
+<l xml:id="l.2096">Halálodhoz mikor</l>
+<l xml:id="l.2097">Leg közellyebb fogsz járni.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">234</fw>
+<lg xml:id="lg.234">
+<l rend="level_2" xml:id="l.2098">Nappali rettegés,</l>
+<l xml:id="l.2099">S’ éjjeli rémülés</l>
+<l xml:id="l.2100">Az rosz lelki isméret,</l>
+<l rend="level_2" xml:id="l.2101">Fél az álomtul-is,</l>
+<l xml:id="l.2102">Retteg a’ széltül-is,</l>
+<l xml:id="l.2103">Tudgya bünnel fertezett,</l>
+<l rend="level_2" xml:id="l.2104">Ha valami mozdul,</l>
+<l xml:id="l.2105">Vére benne posdúl,</l>
+<l xml:id="l.2106">Mert vétke romlást szerzett.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">235</fw>
+<lg xml:id="lg.235">
+<l rend="level_2" xml:id="l.2107">Mikor törvénytül vársz,</l>
+<l xml:id="l.2108">Akkor jó uton jársz,</l>
+<l xml:id="l.2109">Nincsen abban rövidség,</l>
+<l rend="level_2" xml:id="l.2110">Perlekedö társnak,</l>
+<l xml:id="l.2111">S’ felebarátodnak</l>
+<l xml:id="l.2112">Ne légy azért ellenség,</l>
+<l rend="level_2" xml:id="l.2113">Hanem csak causának,</l>
+<l xml:id="l.2114">Es exceptionak</l>
+<l xml:id="l.2115">Légyen abbúl gyülölség.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">236</fw>
+<lg xml:id="lg.236">
+<l rend="level_2" xml:id="l.2116">Az ökröt a’ szarván,</l>
+<l xml:id="l.2117">Az harist a’ szaván</l>
+<l xml:id="l.2118">Gyakorta meg-foghatod,</l>
+<l rend="level_2" xml:id="l.2119">Embert szabad nyelvén,</l>
+<l xml:id="l.2120">Jobban mint lépésén,</l>
+<l xml:id="l.2121">Beszédén nyomozhatod,</l>
+<l rend="level_2" xml:id="l.2122">Elméje hol járjon,</l>
+<l xml:id="l.2123">Szive mit kévánnyon,</l>
+<l xml:id="l.2124">Könnyen meg-rostálhatod.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">237</fw>
+<lg xml:id="lg.237">
+<l rend="level_2" xml:id="l.2125">Paránnyi bimbóbul,</l>
+<l xml:id="l.2126">S’ kisded virágjábul</l>
+<l xml:id="l.2127">Nagy gyümölcs nevelkedik,</l>
+<l rend="level_2" xml:id="l.2128">Alázatos sziv-is,</l>
+<l xml:id="l.2129">Miként borostyán-is,</l>
+<l xml:id="l.2130">Magassan emelkedik:</l>
+<l rend="level_2" xml:id="l.2131">Mert együgyü szivben,</l>
+<l xml:id="l.2132">Nem kevély elmében</l>
+<l xml:id="l.2133">Az Isten gyönyörködik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">238</fw>
+<lg xml:id="lg.238">
+<l rend="level_2" xml:id="l.2134">Alázatos szivel,</l>
+<l xml:id="l.2135">S’ buzgó könyörgéssel</l>
+<l xml:id="l.2136">Meg-hatod az egeket,</l>
+<l rend="level_2" xml:id="l.2137">Az irgalmassággal,</l>
+<l xml:id="l.2138">Es az igassággal</l>
+<l xml:id="l.2139">Meg-váltod az vétkeket,</l>
+<l rend="level_2" xml:id="l.2140"><app xml:id="app.188">
+<lem wit="#KK" xml:id="lem.188">De álomtul félni</lem>
+<rdg wit="#W2" xml:id="rdg.299">De félny alomtul</rdg>
+</app></l>
+<l xml:id="l.2141">S’ büntöl nem rettegni</l>
+<l xml:id="l.2142">Nem találod ezeket.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">239</fw>
+<lg xml:id="lg.239">
+<l rend="level_2" xml:id="l.2143">Hadak meg-verését,</l>
+<l xml:id="l.2144">S’ népek büntetését</l>
+<l xml:id="l.2145">Isten maga forgattya,</l>
+<l rend="level_2" xml:id="l.2146">Az házasság szerzést</l>
+<l xml:id="l.2147">S’ két személy meg-kötést</l>
+<l xml:id="l.2148">Csak egyedül mutattya,</l>
+<l rend="level_2" xml:id="l.2149">Királyi koronát</l>
+<l xml:id="l.2150">S’ ország birodalmát</l>
+<l xml:id="l.2151">Kezébül osztogattya.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">240</fw>
+<lg xml:id="lg.240">
+<l rend="level_2" xml:id="l.2152">Uram gazdagságot</l>
+<l xml:id="l.2153">Ne adgy, oly joszágot</l>
+<l xml:id="l.2154">Hogy ellened dagadgyak,<note type="critic" xml:id="note.49">felfuvalkodjam</note></l>
+<l rend="level_2" xml:id="l.2155">Öriz szegénységtül,</l>
+<l xml:id="l.2156">S’ kolduló élettül,</l>
+<l xml:id="l.2157">Hogy másoktul ne lopjak,</l>
+<l rend="level_2" xml:id="l.2158">Hogy az te nevedre,</l>
+<l xml:id="l.2159">Es idvességemre</l>
+<l xml:id="l.2160">Hamis hütett ne szórjak!</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">241</fw>
+<lg xml:id="lg.241">
+<l rend="level_2" xml:id="l.2161">Az nyelv gonosz fegyver,</l>
+<l xml:id="l.2162"><app xml:id="app.189">
+<lem wit="#KK" xml:id="lem.189">Meg-öl, s’ büzben kever,</lem>
+<rdg wit="#W2" xml:id="rdg.300">bünben</rdg>
+</app></l>
+<l xml:id="l.2163">Szabadgyában hól úszhat,</l>
+<l rend="level_2" xml:id="l.2164">Ökör alatt borjút,</l>
+<l xml:id="l.2165"><app xml:id="app.190">
+<lem wit="#KK" xml:id="lem.190">Szüz leányban fattyút</lem>
+<rdg wit="#Wα" xml:id="rdg.301">Holló fészken hattyút</rdg>
+<rdg wit="#W2" xml:id="rdg.302">Szus leanyban fattyut</rdg>
+</app></l>
+<l xml:id="l.2166">Ha nincsen-is, de mondhat;</l>
+<l rend="level_2" xml:id="l.2167"><app xml:id="app.191">
+<lem wit="#KK" xml:id="lem.191"><corr>Ha vagy becsületben,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.303">Igy böcsülletedben,</rdg>
+<rdg wit="#W2" xml:id="rdg.304">Ha vagy becsuletben,</rdg>
+</app></l>
+<l xml:id="l.2168"><app xml:id="app.192">
+<lem wit="#KK" xml:id="lem.192"><corr>Jól érdemlett hírben,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.305">S’ érdemlett hiredben</rdg>
+<rdg wit="#W2" xml:id="rdg.306">Jol érdemlet hirben</rdg>
+</app></l>
+<l xml:id="l.2169"><app xml:id="app.193">
+<lem wit="#KK" xml:id="lem.193"><corr>Abban</corr> földre tapodhat.</lem>
+<rdg wit="#Wα" xml:id="rdg.307">Hamar</rdg>
+<rdg wit="#W2" xml:id="rdg.308">Abban</rdg>
+</app></l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">242</fw>
+<lg xml:id="lg.242">
+<l rend="level_2" xml:id="l.2170">A’ meg-hólt emberrül</l>
+<l xml:id="l.2171">Ne szóly éktelenül,</l>
+<l xml:id="l.2172">Hanem jobbitsd életed,</l>
+<l rend="level_2" xml:id="l.2173">Gondold utánna mégy,</l>
+<l xml:id="l.2174"><app xml:id="app.194">
+<lem wit="#KK" xml:id="lem.194">Kölcsönt <corr>veled</corr> ne végy,</lem>
+<rdg wit="#Wα" xml:id="rdg.309">félö</rdg>
+<rdg wit="#W2" xml:id="rdg.310">veled</rdg>
+</app></l>
+<l xml:id="l.2175">Mások nyelvét enyhitsed,</l>
+<l rend="level_2" xml:id="l.2176">Ha vólt mi ránkorod<note type="critic" xml:id="note.50">panaszod</note></l>
+<l xml:id="l.2177">Ellene, s’ haragod,</l>
+<l xml:id="l.2178">Aztat immár felejtsed.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">243</fw>
+<lg xml:id="lg.243">
+<l rend="level_2" xml:id="l.2179">Minden gyönyörüség,</l>
+<l xml:id="l.2180">Nyavalya, s’ egésség</l>
+<l xml:id="l.2181">All öt érzékenségbül,</l>
+<l rend="level_2" xml:id="l.2182">Ember alkotása,</l>
+<l xml:id="l.2183">S’ tagja formálása,</l>
+<l xml:id="l.2184">Föld, viz, ég és az tüzbül,</l>
+<l rend="level_2" xml:id="l.2185">Kikkel hogy ha jól élsz,</l>
+<l xml:id="l.2186">Hoszszu üdöket érsz,</l>
+<l xml:id="l.2187">Mert életed ezekbül.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">244</fw>
+<lg xml:id="lg.244">
+<l rend="level_2" xml:id="l.2188">Az ora folyton foly,</l>
+<l xml:id="l.2189">Meg nem eszi az moly,</l>
+<l xml:id="l.2190"><app xml:id="app.195">
+<lem wit="#KK" xml:id="lem.195"><corr>Ki az</corr>, ki határozza?</lem>
+<rdg wit="#Wα" xml:id="rdg.311">Vallyon</rdg>
+<rdg wit="#W2" xml:id="rdg.312">Ki az</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.2191">Kertben-is el-szárad,</l>
+<l xml:id="l.2192"><app xml:id="app.196">
+<lem wit="#KK" xml:id="lem.196"><corr>Változik</corr> s el-hervad</lem>
+<rdg wit="#Wα" xml:id="rdg.313">Szép rosa</rdg>
+<rdg wit="#W2" xml:id="rdg.314">Valtozik</rdg>
+</app></l>
+<l xml:id="l.2193"><app xml:id="app.197">
+<lem wit="#KK" xml:id="lem.197"><corr>A szép virágzó rózsa,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.315">Ki a’ ki oltaimazza?</rdg>
+<rdg wit="#W2" xml:id="rdg.316">A sep viragzo Rosa</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.2194">Igy ember el-tünik,</l>
+<l xml:id="l.2195">Elete el-mulik,</l>
+<l xml:id="l.2196">S’ teste földet halmozza.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">245</fw>
+<lg xml:id="lg.245">
+<l rend="level_2" xml:id="l.2197">Az unalmas vénség</l>
+<l xml:id="l.2198">Izetlen nevetség,</l>
+<l xml:id="l.2199">Mert ég kedve körmére,</l>
+<l rend="level_2" xml:id="l.2200">Koczodás, s’ irigység,</l>
+<l xml:id="l.2201">Benne az fösvénység;</l>
+<l xml:id="l.2202">Fél juthat zab kenyérre;</l>
+<l rend="level_2" xml:id="l.2203">Nincs ott vigasztalás,</l>
+<l xml:id="l.2204">Csak az álom látás</l>
+<l xml:id="l.2205">Patkoltat meszsze földre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">246</fw>
+<lg xml:id="lg.246">
+<l rend="level_2" xml:id="l.2206">Az kigyó meg-ujjul,</l>
+<l xml:id="l.2207"><app xml:id="app.198">
+<lem wit="#KK" xml:id="lem.198"><corr>Hangya szárnyon röpül,</corr></lem>
+<rdg wit="#Wα" xml:id="rdg.317">Az hangya szárnyasul</rdg>
+<rdg wit="#W2" xml:id="rdg.318">Hangya szarnyon röpül</rdg>
+</app></l>
+<l xml:id="l.2208">Ha érkezik vénségre;</l>
+<l rend="level_2" xml:id="l.2209">Szarvas meg-iffiúdik,</l>
+<l xml:id="l.2210">A’ sas le-vetkezik</l>
+<l xml:id="l.2211">Nagy hoszszu esztendökre,</l>
+<l rend="level_2" xml:id="l.2212">Csak ember nyomorult,</l>
+<l xml:id="l.2213"><app xml:id="app.199">
+<lem wit="#KK" xml:id="lem.199">&gt;Romlott <corr>és megsérült</corr></lem>
+<rdg wit="#W1" xml:id="rdg.319">s’ meg-szorult</rdg>
+<rdg wit="#W2" xml:id="rdg.320">és meg szérült</rdg>
+<rdg wit="#Wβ" xml:id="rdg.321">és meg szorúlt</rdg>
+</app></l>
+<l xml:id="l.2214">Kicsiny s’ rövid idökre.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">247</fw>
+<lg xml:id="lg.247">
+<l rend="level_2" xml:id="l.2215">Üveg romló cserép</l>
+<l xml:id="l.2216">El-tart, és lehet épp</l>
+<l xml:id="l.2217">Száz esztendö mulva-is,</l>
+<l rend="level_2" xml:id="l.2218">Az ember élete,</l>
+<l xml:id="l.2219">Ez világon léte</l>
+<l xml:id="l.2220">Bizontalan csak ma-is,</l>
+<l rend="level_2" xml:id="l.2221">Ha mára virradtál,</l>
+<l xml:id="l.2222"><app xml:id="app.200">
+<lem wit="#KK" xml:id="lem.200">Holnapra bucsuzzál;</lem>
+<rdg wit="#W2" xml:id="rdg.322">buczuztal</rdg>
+</app></l>
+<l xml:id="l.2223">Mert indulhatsz tovább-is.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">248</fw>
+<lg xml:id="lg.248">
+<l rend="level_2" xml:id="l.2224">Fö fájás szédelgés,</l>
+<l xml:id="l.2225">Csömör, s’ hideg lelés</l>
+<l xml:id="l.2226">Füvekkel üzettetik,</l>
+<l rend="level_2" xml:id="l.2227">Az halál félelme,</l>
+<l xml:id="l.2228">Szörnyü veszedelme</l>
+<l xml:id="l.2229">Meg-nem elöztethetik,</l>
+<l rend="level_2" xml:id="l.2230">Virágos kertekböl</l>
+<l xml:id="l.2231">S’ Grottás tó<note type="critic" xml:id="note.51">Grottás tó – barlangtó</note> vizekbül</l>
+<l xml:id="l.2232">Meg nem orvosoltatik.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">249</fw>
+<lg xml:id="lg.249">
+<l rend="level_2" xml:id="l.2233">Nincsen semmi újság,</l>
+<l xml:id="l.2234">Hanem minden ohság;</l>
+<l xml:id="l.2235">Mert volt, el-múlt üdökben,</l>
+<l rend="level_2" xml:id="l.2236">Voltak, és el-múltak,</l>
+<l xml:id="l.2237">Kikrül sokat szoltak,</l>
+<l xml:id="l.2238">S’ vannak szó beszéd közben;</l>
+<l rend="level_2" xml:id="l.2239">Ekképpen meg-löttek,</l>
+<l xml:id="l.2240">S’ meg-is történhetnek,</l>
+<l xml:id="l.2241">Es csak igy mennek végben.</l>
+</lg>
+<fw corresp="Beniczky Péter" type="lg">250</fw>
+<lg xml:id="lg.250">
+<l rend="level_2" xml:id="l.2242">Gyors nyelv-is meg-némúl,</l>
+<l xml:id="l.2243">S’ hamar elme tompúl</l>
+<l xml:id="l.2244">Visgálván az egeket,</l>
+<l rend="level_2" xml:id="l.2245">De én nem más okbul,</l>
+<l xml:id="l.2246"><app xml:id="app.201">
+<lem wit="#KK" xml:id="lem.201">Üdö meg-csalásbul</lem>
+<rdg wit="#Wβ" xml:id="rdg.323">Csak üdö csalásbúl</rdg>
+</app></l>
+<l xml:id="l.2247">Szerzettem ez verseket,</l>
+<l rend="level_2" xml:id="l.2248">Azért csak ugy fejtsed,</l>
+<l xml:id="l.2249">Hogy viszsza ne ércsed</l>
+<l xml:id="l.2250">Ez homályos igéket.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

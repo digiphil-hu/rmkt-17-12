@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">139.</title>
+<title key="body" n="139" type="main">PALAS s-ESTER KEDVES TÁNCZA</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-139</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény 55–58.
+                            lapján</bibl>. Kiad. <bibl><abbr><hi rend="smallcaps">Merényi</hi>, ItK
+                                1892</abbr>, 144–46.</bibl></p>
+<p xml:id="crit.1.p.3">A cím anagramma: „Esteras Pal” betűiből van összerakva.</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 139.</fw>
+<head type="title">PALAS s-ESTER KEDVES TÁNCZA</head>
+<fw corresp="Esterházy Pál" type="lg">179.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Fényes Palotákban ékes köfalokban</l>
+<l rend="level_2" xml:id="l.2">Vigagyunk</l>
+<l rend="level_2" xml:id="l.3">Vetet asztalhoz iárullyunk</l>
+<l rend="level_2" xml:id="l.4">Malosa borokat igyunk.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">180.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Az Soprony bortis ha elöl hozzákis</l>
+<l rend="level_2" xml:id="l.6">Nem bánom</l>
+<l rend="level_2" xml:id="l.7">Io keduel asztis megh iszom</l>
+<l rend="level_2" xml:id="l.8">Barátimatis iol tartom.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">181.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Hozzanak io étket, de nem turos étket</l>
+<l rend="level_2" xml:id="l.10">Házunkban</l>
+<l rend="level_2" xml:id="l.11">Légyen részünk az sült ludban,</l>
+<l xml:id="l.12">Auagy kouér Poka Husban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">182.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Bosporos<note type="critic" xml:id="note.1">= borsporos. (<persName>Jankovics J.<idno corresp="Jankovics József"/></persName>)</note> kappanis, sütt Malacz nyársbanis,</l>
+<l rend="level_2" xml:id="l.14">Io lészen</l>
+<l rend="level_2" xml:id="l.15">Maid szakaczom lepént uészen</l>
+<l rend="level_2" xml:id="l.16">Vaias béles légyen készen.</l>
+</lg>
+<p xml:id="p.1">AZ VGROIA:</p>
+<fw corresp="Esterházy Pál" type="lg">183.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Kellyünk föl asztaltol, ha iol laktunk bortol,</l>
+<l rend="level_2" xml:id="l.18">S-tánczollyunk</l>
+<l rend="level_2" xml:id="l.19">Szollyon Hegedü, setállyunk,</l>
+<l rend="level_2" xml:id="l.20">Dudásis bögiön mulassunk.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">184.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Gyer iáriunk egy tánczot, ki ne lásson ganczot</l>
+<l rend="level_2" xml:id="l.22">Lassaczkán,</l>
+<l rend="level_2" xml:id="l.23">Vgorgiunk bizuást uigaczkán</l>
+<l rend="level_2" xml:id="l.24">Labunkat rakiuk czifráczkán.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">185.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Az polepsit<note type="critic" xml:id="note.2">polepsi – <persName>Esterházy</persName> nótalistáján is szerepel.
+                                <persName>Rákóczi Erzsébet<idno type="ITIdata">Q48194</idno></persName> írja <persName>Esterházynak</persName>:
+                            „…ha az polepsin ot nem lehetnék, kérem értemis járjon egy táncot,
+                            magamis ugyan örömest eljárnám…” (<bibl>OLP 125, 39.3631.</bibl>)</note> uonnyák mert
+                        az Vrak hagyák</l>
+<l rend="level_2" xml:id="l.26">Rendessen</l>
+<l rend="level_2" xml:id="l.27">Hogy aszt iárhassák keduessen</l>
+<l rend="level_2" xml:id="l.28">Nézzékis egymást édessen.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">186.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Fordiczd már az tánczot, s-uony szép oláh tánczot</l>
+<l rend="level_2" xml:id="l.30">Ekessen</l>
+<l rend="level_2" xml:id="l.31">Had iáriuk esztis elméssen</l>
+<l rend="level_2" xml:id="l.32">Sött igen köllemetessen.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">187.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Magyar tánczot uonhacz te Dudásis fuihacz</l>
+<l rend="level_2" xml:id="l.34">Immáron</l>
+<l rend="level_2" xml:id="l.35">Az közrendis had tánczollyon,</l>
+<l rend="level_2" xml:id="l.36">Innét senki ne oszollyon.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">188.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Kobzos ide iáruly engem el ne áruly</l>
+<l rend="level_2" xml:id="l.38">s-Musikály,</l>
+<l rend="level_2" xml:id="l.39">Pöngesd huriaidat, s-itt álly</l>
+<l rend="level_2" xml:id="l.40">Lássad senkit megh ne trefály.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">189.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Trombita Dob szollyon uigasság had follyon</l>
+<l rend="level_2" xml:id="l.42">Ez házban</l>
+<l rend="level_2" xml:id="l.43">Légyen minden uigasságban</l>
+<l rend="level_2" xml:id="l.44">Senki nem lesz szomiuságban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">190.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Hagyák el az notát uerie Lantos lantyát</l>
+<l rend="level_2" xml:id="l.46">Had hallyuk,</l>
+<l rend="level_2" xml:id="l.47">Füleinket uigasztallyuk</l>
+<l rend="level_2" xml:id="l.48">Mesterségét magasztallyuk.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">191.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Énekes ier elöl, ne meny székem mellöl,</l>
+<l rend="level_2" xml:id="l.50">S-mongy notát</l>
+<l rend="level_2" xml:id="l.51">Hozd elöl Nymphák miuoltát</l>
+<l rend="level_2" xml:id="l.52">Szép Diana Vadászattyát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">192.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Megh köll immár szünni (mert le köll fekünni)</l>
+<l rend="level_2" xml:id="l.54">Musikának</l>
+<l rend="level_2" xml:id="l.55">Vegye ki ki szállásának</l>
+<l rend="level_2" xml:id="l.56">Uttyát elöl, s-io ágyának.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">193.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Oczák el az gyertyát, Cupido ö lantyát</l>
+<l rend="level_2" xml:id="l.58">Had uerie</l>
+<l rend="level_2" xml:id="l.59">Ember sziuét hogy neuellye</l>
+<l rend="level_2" xml:id="l.60">Örömétis föl emellye.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

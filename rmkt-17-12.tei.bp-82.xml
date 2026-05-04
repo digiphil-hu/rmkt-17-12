@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">82.</title>
+<title key="body" n="82" type="main">HOGY AZ SZABAD ZABOLA NÉLKÜL VALO NYELV MINDENEKET VISZSZA
+                    MAGYARÁZ</title>
+<author>
+<surname>Beniczky</surname>
+<forename>Péter</forename><idno type="ITIdata">Q41111</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bp-82</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bp-jegyzetek">Jegyzetek: Beniczky Péter élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar
+                                Rithmusok.</hi><placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName><date when="1670">1670</date></bibl>.<bibl><abbr>RMK
+                        I</abbr>, 1099., 125–28.</bibl></p>
+<p xml:id="crit.1.p.3">„Az szép Crocodilus éneke” címen megvan a Brassai-kódex-ben (XVIII. sz. 1.
+                        fele).</p>
+<p xml:id="crit.1.p.4">Aranka György gyűjteménye (<date from="1782" to="1790">1782–1790</date>) I, 48a–49a is tartalmazza.</p>
+<p xml:id="crit.1.p.5">Resetka János-ék.-ben (<date when="1801">1801</date>) a 22a–23b lapon
+                        olvasható. Latin nyelvű szabad átköltését 17 versszak terjedelemben találjuk
+                        meg <persName>Apáti M. Miklós<idno type="ITIdata">Q140232</idno></persName> a <title>Vita triumphans</title>
+                                (<placeName>Amsterdam<idno type="ITIdata">Q18486</idno></placeName>
+<date when="1668">1668</date>. – <bibl><abbr>RMK III</abbr>, 3491.</bibl>)
+                        c. munkájában a 83–87. lapokon.</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Magyar Rithmusok. Kolozsvár 1670. RMK I, 1099.</witness>
+<witness xml:id="W2">Szinnyey-Merse-kódex (Pongrácz Ferenc 1668-ban lemásolta
+                        Beniczky verseit).</witness>
+<witness xml:id="W3">Magyar Rithmusok. RMK I, 1611/b. (A címlap
+                        hiányzik.)</witness>
+<witness xml:id="W4">Magyar Rithmusok. Lőcse, 1675.</witness>
+<witness xml:id="Wα">A Stoll Béla által α-val jelölt, rekonstruált
+                        szövegváltozat. </witness>
+<witness xml:id="Wβ">A Stoll Béla által β-val jelölt, rekonstruált
+                        szövegváltozat. </witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 82.</fw>
+<head type="title">HOGY AZ SZABAD ZABOLA NÉLKÜL VALO NYELV MINDENEKET VISZSZA
+                    MAGYARÁZ</head>
+<lg xml:id="lg.1">
+<l rend="level_2" xml:id="l.1">Crokodilus mint kis gyermek</l>
+<l xml:id="l.2">Sir, s’ jaj szava merö ének:</l>
+<l xml:id="l.3">De notája a’ végének</l>
+<l xml:id="l.4">Lészen vesztére fejednek.</l>
+</lg>
+<lg xml:id="lg.2">
+<l rend="level_2" xml:id="l.5">Igy csácsogo nyelvnek inye,</l>
+<l xml:id="l.6">Csalárd, s’ hamis szo gégéje,</l>
+<l xml:id="l.7">Meg-hat álnok lehellete,</l>
+<l xml:id="l.8">Mert égö tüz foga fénye.</l>
+</lg>
+<lg xml:id="lg.3">
+<l rend="level_2" xml:id="l.9"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Mint az gyöngyöt erös eczet,</lem>
+<rdg wit="#W2" xml:id="rdg.1">erö</rdg>
+</app></l>
+<l xml:id="l.10">S’ el-olvasztya tüz az érczet,</l>
+<l xml:id="l.11">Igy gonosz nyelv égö tüzet</l>
+<l xml:id="l.12">Okád alád s’ forró vizet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l rend="level_2" xml:id="l.13">Olly ártalom nincs fegyverben,</l>
+<l xml:id="l.14">Sem lángozo sebes tüzben,</l>
+<l xml:id="l.15">Nincs olly méreg szelenczében,</l>
+<l xml:id="l.16">Mint az fondor gonosz nyelvben.</l>
+</lg>
+<lg xml:id="lg.5">
+<l rend="level_2" xml:id="l.17">Hol nem véled, ott kissebbit,</l>
+<l xml:id="l.18">A’ hol nem félsz, ott sebessit,</l>
+<l xml:id="l.19">Jo hiredben homályosit,</l>
+<l xml:id="l.20">S’ gyalázattal sirban taszit.</l>
+</lg>
+<lg xml:id="lg.6">
+<l rend="level_2" xml:id="l.21">Légy termetes<note type="critic" xml:id="note.1">szép; Absolom vagy Ábsálom
+                            Dávid fia volt</note> mint Absolon,</l>
+<l xml:id="l.22">Serény vitéz, mint a’ Sámson,</l>
+<l xml:id="l.23">Okos és bölcs, mint Salamon,</l>
+<l xml:id="l.24">Szó fér hozzád még-is nagyon.</l>
+</lg>
+<lg xml:id="lg.7">
+<l rend="level_2" xml:id="l.25">Mert ha szollasz csácsogonak,</l>
+<l xml:id="l.26">S’ halgatásrul tart bolondnak,</l>
+<l xml:id="l.27">Eteledröl tobzodonak,</l>
+<l xml:id="l.28">Es böjtödröl mond ravasznak.</l>
+</lg>
+<lg xml:id="lg.8">
+<l rend="level_2" xml:id="l.29">Ahitatos hogy ha lészesz,</l>
+<l xml:id="l.30">Képmutato nevet szerzesz:</l>
+<l xml:id="l.31">Ha pediglen elmés lészesz,</l>
+<l xml:id="l.32">Bolond nevet ottan vészesz.</l>
+</lg>
+<lg xml:id="lg.9">
+<l rend="level_2" xml:id="l.33">Szép köntösrül mond kevélynek,</l>
+<l xml:id="l.34">Es rongyosrul tart fösvénynek;</l>
+<l xml:id="l.35"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Honn ülésrül itil restnek,</lem>
+<rdg wit="#W2" xml:id="rdg.2">Othon</rdg>
+</app></l>
+<l xml:id="l.36">Kin járásrul néz fesletnek.</l>
+</lg>
+<lg xml:id="lg.10">
+<l rend="level_2" xml:id="l.37">Hogy ha mit adcz szegényeknek,</l>
+<l xml:id="l.38">Nem tart azért bö kezünek:</l>
+<l xml:id="l.39">Mond dicsiret keresönek;</l>
+<l xml:id="l.40">S’ kép mutato esztelennek.</l>
+</lg>
+<lg xml:id="lg.11">
+<l rend="level_2" xml:id="l.41">Ha marhádot ki nem osztod,</l>
+<l xml:id="l.42">S’ haszontalan nem tékozlod,</l>
+<l xml:id="l.43">Azt kiáltya fösvény markod,</l>
+<l xml:id="l.44">S’ telhetetlen szoros sákod.<note type="critic" xml:id="note.2">olv. zsákod</note></l>
+</lg>
+<lg xml:id="lg.12">
+<l rend="level_2" xml:id="l.45">Oh átkozott kicsiny falat,</l>
+<l xml:id="l.46">Látom nem pöksz te csak nyálat:</l>
+<l xml:id="l.47">Mert madárbul formálsz halat,</l>
+<l xml:id="l.48">Es gyékényböl róka málat.<note type="critic" xml:id="note.3">rókabőrt</note></l>
+</lg>
+<lg xml:id="lg.13">
+<l rend="level_2" xml:id="l.49">Nincs semmi csont te tagodban,</l>
+<l xml:id="l.50">Rakonczád<note type="critic" xml:id="note.4">gátad, korlátod</note> sincs fogaidban,</l>
+<l xml:id="l.51">Sik golyobis forog szádban,</l>
+<l xml:id="l.52">Mérged mézzel jár egy nyomban.</l>
+</lg>
+<lg xml:id="lg.14">
+<l rend="level_2" xml:id="l.53">Noha gyakran maga magát</l>
+<l xml:id="l.54">A’ nyelv veszti szegi nyakát,</l>
+<l xml:id="l.55">Mint az haris fészkét, s’ házát</l>
+<l xml:id="l.56">El-árullya fiát, s’ magát.</l>
+</lg>
+<lg xml:id="lg.15">
+<l rend="level_2" xml:id="l.57">Hol lehetne ö békével?</l>
+<l xml:id="l.58"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Addig csácsog <corr>részeg ésszel</corr>,</lem>
+<rdg wit="#Wα" xml:id="rdg.3">rezegéssel</rdg>
+<rdg wit="#W2" xml:id="rdg.4">rézeg éssel</rdg>
+</app></l>
+<l xml:id="l.59">Olykor fogják meg csak kézzel,</l>
+<l xml:id="l.60">S’ meg-mellyesztik<note type="critic" xml:id="note.5">megkoppasztják</note> forro vizzel.</l>
+</lg>
+<lg xml:id="lg.16">
+<l rend="level_2" xml:id="l.61">Azért nyelved zabolában</l>
+<l xml:id="l.62"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Tarcsad aczél <corr>kapocsánban</corr><note type="critic" xml:id="note.6">= féken</note>,</lem>
+<rdg wit="#W1" xml:id="rdg.5">varacskában</rdg>
+<rdg wit="#W2" xml:id="rdg.6">kapoczanban</rdg>
+<rdg wit="#W3" xml:id="rdg.7">kaponczában</rdg>
+<rdg wit="#W4" xml:id="rdg.8">kapoczában</rdg>
+</app></l>
+<l xml:id="l.63">Ne nyargallyon szabadgyában,</l>
+<l xml:id="l.64">Hogy ne hozzon gyalázatban.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

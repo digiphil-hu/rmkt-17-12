@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">129.</title>
+<title key="body" n="129" type="main">AZ HAD VERÉS EGYEDÖL ISTENTÖL VAN</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-129</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény I. része.
+                            67–70.</bibl></p>
+<p xml:id="crit.1.p.3">A 256–257. szakasz <persName>Beniczky<idno corresp="Beniczky Péter" type="ITIdata">Q41111</idno></persName> hasonló tárgyú versének
+                        ismeretében készült. (<ref target="rmkt-17-12.tei.bp-74">74. sz.</ref> 4–5. vsz.)</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 129.</fw>
+<head type="title">AZ HAD VERÉS EGYEDÖL ISTENTÖL VAN</head>
+<fw corresp="Esterházy Pál" type="lg">CCLI.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Körösztjény lelkeknek rendelt seregeknek</l>
+<l xml:id="l.2">Isten ö Vezérlöie.</l>
+<l xml:id="l.3">Erös Vitézeknek, és igaz sziueknek</l>
+<l xml:id="l.4">Bisztato Szemlélöie.</l>
+<l xml:id="l.5">Ö benne hiuöknek töredelmesseknek</l>
+<l xml:id="l.6">Legh nagyob segéttōie.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLII.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Algya Bátor sziuuel hathatos fegyuerrel</l>
+<l xml:id="l.8">Ki harczol szent neuében.</l>
+<l xml:id="l.9">Okos mesterséggel, Férfiui kézzel</l>
+<l xml:id="l.10">Ki hisz diczöségében.</l>
+<l xml:id="l.11">Algya nagy uig keduel, hatalmas eröuel,</l>
+<l xml:id="l.12">Ki uan reménségében.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLIII.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Mert egyedül Isten, kiben uagyon minden</l>
+<l xml:id="l.14">Nagy ö hatalmassága,</l>
+<l xml:id="l.15">Kinek mássa ninczen, Földi Vizi kinczen</l>
+<l xml:id="l.16">Örökös királysága,</l>
+<l xml:id="l.17">Ö Vitezzé tészen, hatalomra uészen</l>
+<l xml:id="l.18">Van Mindenhatosága.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLIV.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Nem harczol fegyuerrel, de czak tekéntettel</l>
+<l xml:id="l.20">Veri megh ellenségét,</l>
+<l xml:id="l.21">Nem Réz Dob zörgéssel, uagy Agyu döngéssel,</l>
+<l xml:id="l.22">Látattya keménségét,</l>
+<l xml:id="l.23">Hanem egy intéssel, menyei eröuel</l>
+<l xml:id="l.24">Mutattya Istenségét.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLV.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Ne fély tehát uértöl kemény ellenségtöl</l>
+<l xml:id="l.26">Czak bizzál Istenedben,</l>
+<l xml:id="l.27">Auagy éles törtöl nehéz ütközettöl,</l>
+<l xml:id="l.28">Ne hüly remenségedben,</l>
+<l xml:id="l.29">Váry az Nagy Istentöl édes Teremptödtöl</l>
+<l xml:id="l.30">Ki nem hágy el szükségedben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLVI.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Ellenséged louát, uagy éles szablyáiát</l>
+<l xml:id="l.32">Ne féllyed te sziuedben,</l>
+<l xml:id="l.33">Párducz börös hátát, hangos kiáltását</l>
+<l xml:id="l.34">Ne röttegied lelkedben,</l>
+<l xml:id="l.35">Puska roppogását sip szo harsagását</l>
+<l xml:id="l.36">Ne fussad az mezöben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLVII.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Agyunak bögése mint égnek dörgése</l>
+<l xml:id="l.38">Gyuicza inkáb keduedet</l>
+<l xml:id="l.39">Trombita zöngése sok kopia törése,</l>
+<l xml:id="l.40">Indecza fegyueredet,</l>
+<l xml:id="l.41">Vitézek esése, tisztesség nyerése</l>
+<l xml:id="l.42">Göriesze föl sziuedet.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLVIII.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Szép aranyos Czida uagy uér szopo Dárda</l>
+<l xml:id="l.44">Sulyosécza kezedet,</l>
+<l xml:id="l.45">Achyllesnek uasa, Vulcanus panczéllya</l>
+<l xml:id="l.46">Fögye bé tetemedet</l>
+<l xml:id="l.47">Tüzes Mársnak lángia söt uéres homállya</l>
+<l xml:id="l.48">Környékezze szemedet.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLIX.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Nézd Dauid király köszt, magas Goliat köszt</l>
+<l xml:id="l.50">Bai uiuás egy kö uala</l>
+<l xml:id="l.51">Szép Iudit Aszony köszt rosz Holofernes köszt</l>
+<l xml:id="l.52">Had uerés egy kés uala,</l>
+<l xml:id="l.53">Söt Samson Hadnagy köszt, Philistaeusok köszt</l>
+<l xml:id="l.54">Fegyuer Szamár ál uala.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLX.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Mert hol Isten harczol, ot az Pogány oszol</l>
+<l xml:id="l.56">Nem bizik ereiében,</l>
+<l xml:id="l.57">Mint áruiz ugy omol, nem marad megh sohol</l>
+<l xml:id="l.58">Fut, s-buik röitökiében</l>
+<l xml:id="l.59">Készen uaria Pokol, hol Belzebub kohol</l>
+<l xml:id="l.60">Sok kinokat mérgében.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXI.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Mélto tehát keduet, minden segedelmet</l>
+<l xml:id="l.62">Kérned az Nagy Istentöl,</l>
+<l xml:id="l.63">Irgalmas kegyelmet, hogy az ueszedelmet</l>
+<l xml:id="l.64">Táuoztassa testedtöl,</l>
+<l xml:id="l.65">Örök engedelmet, üduözitö hitet</l>
+<l xml:id="l.66">Hogy menczen minden büntöl.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXII.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.67">O te gyors Scytáknak uitéz Magyaroknak</l>
+<l xml:id="l.68">Örökös pártfogoia,</l>
+<l xml:id="l.69">Az Szent Háromságnak Attya, és Fiunak</l>
+<l xml:id="l.70">Szent Lélek Szolgáloia</l>
+<l xml:id="l.71">Hogy téged álgyanak Pogány uért onczanak</l>
+<l xml:id="l.72">Légy hazánk szoszolloia.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

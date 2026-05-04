@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">100.</title>
+<title key="body" n="100" type="main">CANTIO</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-100</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad. <bibl><hi rend="smallcaps">Balassa Bálint</hi>, Hazánk 1858, 215–17. </bibl>–
+                                    <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM II</abbr>,
+                            404–406.</bibl> – A szöveg után: „finis”. A
+                            <persName>Jankovich</persName>-féle másolatban nincs meg,
+                            <persName>Dézsi</persName> a Hazánk szövegét nyomtatta le.</p>
+<p xml:id="crit.1.p.3">A versfők: <hi rend="smallcaps">balassa baljnthe</hi>.</p><p xml:id="crit.1.p.4">Az utolsó versszak tartalmazza a keletkezés évét: <date when="1663">1663</date>. Azt is említi
+                        itt a költő, hogy a <placeName>Nyitra<idno type="ITIdata">Q12023</idno></placeName> vizénél állt lesben. Tehát az év tavaszán
+                        írhatta. <persName>Balassa</persName> ekkor <persName>de Souche</persName>
+                        parancsnoksága alatt harcolt a török ellen. <date when="1663-05-05">Május
+                            5-én</date> bevették <placeName>Nyitrát<idno type="ITIdata">Q12023</idno></placeName>. <date when="1663-05-15">15-én</date> a
+                        váradi basa seregével való összecsapásban tüntette ki magát
+                                <placeName>Bakabánya<idno type="ITIdata">Q19983</idno></placeName>
+                        alatt, 16-án<date when="1663-05-16">16-án</date> pedig
+                                <placeName>Zsarnócnál<idno type="ITIdata">Q20796</idno></placeName>
+                        verték meg az ellenséget. (Vö. <bibl><title>Hont vármegye és Selmecbánya
+                                szabad királyi város</title>. Szerk. <hi rend="smallcaps">Borovszky
+                                Samu</hi>. Bp. 1906. 333.</bibl>)</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 100.</fw>
+<head type="title">CANTIO</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">B</hi>atoricsad benned bizo, bus szivemet,</l>
+<l rend="level_2" xml:id="l.2">Ki engem teremtél, s- megh valtál lelkemet,</l>
+<l rend="level_2" xml:id="l.3">Szent nevedért viszem poganjra veremet,</l>
+<l rend="level_2" xml:id="l.4">Kerlek, oltalmazad mocsoktól hiremet.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">A</hi>z te szent nevedben kötöm fel kardomot,</l>
+<l rend="level_2" xml:id="l.6">Indullok szivessen, s- eresztem zazlomot,</l>
+<l rend="level_2" xml:id="l.7">Segitcségül hivom hadverö vramot,</l>
+<l rend="level_2" xml:id="l.8">Aldgja szerencsével el kezdet utamot.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">L</hi>ehetetlen nalad nélkül az vitességh,</l>
+<l rend="level_2" xml:id="l.10">Poganjok sziveben csak az vakmeröségh,</l>
+<l rend="level_2" xml:id="l.11">Attkot bocsasd reájok,<note type="critic" xml:id="note.1">A szótagszám kéttagú ejtést kíván.</note> roncsa megh erösségh,</l>
+<l rend="level_2" xml:id="l.12">Velünk aldas járjon, s- had vero dicsösségh.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">A</hi>ronnakis szaraz veszeje virághzot,<note type="critic" xml:id="note.2">Áron kivirágzott vesszőjéről lásd IV. Móz. 17. fejezetét.</note></l>
+<l rend="level_2" xml:id="l.14">Vitesség sok genge karokbol csirazot,</l>
+<l rend="level_2" xml:id="l.15">Hatalmadbol kis nep soktul predat hozot,</l>
+<l rend="level_2" xml:id="l.16">Ha szent nevedben jart, s- hiv szivel aldozot.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">S</hi>okat vonszon preda, én nem megyek azert,</l>
+<l rend="level_2" xml:id="l.18">De nevedert, igaz anja szent egyhazert,</l>
+<l rend="level_2" xml:id="l.19">Sok szégenj özvegyert, artatlan arvaért,</l>
+<l rend="level_2" xml:id="l.20"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Hazam s- házam nepe meghmaradas<corr>a</corr>ért.</lem>
+<rdg wit="#W1" xml:id="rdg.1">meghmaradasért</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold"> S</hi>e eles törömbe, se könjü lovamban,</l>
+<l rend="level_2" xml:id="l.22">Erömbe sem bizom, de szent hatalmadban,</l>
+<l rend="level_2" xml:id="l.23">Csalatik, kibizik emberben s- magaban,</l>
+<l rend="level_2" xml:id="l.24">Ha szerencsét engéts, te neved lesz abban.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">A</hi>ldgy megh és oltalmaz halalos vétektöl,</l>
+<l rend="level_2" xml:id="l.26">Rabsághtol s- veletlen karos essetektöl,</l>
+<l rend="level_2" xml:id="l.27"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Rút szegyen vallastul, cso<corr>n</corr>kito sebektül,</lem><rdg wit="#W1" xml:id="rdg.2">csokito</rdg></app></l>
+<l rend="level_2" xml:id="l.28">Menjej seregek megh mentnek ezektül.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">B</hi>izom read magyar kiraly fejedelmemet,</l>
+<l rend="level_2" xml:id="l.30">Póganj tüze miat el pusztult földemet,</l>
+<l rend="level_2" xml:id="l.31">Zazlom alat levö nemes seregemet,</l>
+<l rend="level_2" xml:id="l.32"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Hazam nepet s- r<corr>e</corr>ad bizom mindenemet.</lem><rdg wit="#W1" xml:id="rdg.3">rad</rdg></app></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">A</hi>rra melták vagyunk, hogy büntesz benünköt,</l>
+<l rend="level_2" xml:id="l.34">Adgyad térésünköt, szánd megh esetünköt,</l>
+<l rend="level_2" xml:id="l.35">Sok vetektöl hozad forditsad eszünköt,</l>
+<l rend="level_2" xml:id="l.36">Ved el ostorodat, s- töröld el bününköt.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">L</hi>atod, el bonta poganj az földünköt,</l>
+<l rend="level_2" xml:id="l.38">Tüzel megh emeszte sok eledelünköt,</l>
+<l rend="level_2" xml:id="l.39">S- kard s- tüz ala veti keresztyen népünköt,</l>
+<l rend="level_2" xml:id="l.40">Vér szopo eb ala névesd eletünkot.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">J</hi>nkab (ha megh nem szünt haragod) kezedben</l>
+<l rend="level_2" xml:id="l.42">Essünk, mind mas altal tet büntetesedben,</l>
+<l rend="level_2" xml:id="l.43">De sok özvedgy, arva, szüz jusson eszedben,</l>
+<l rend="level_2" xml:id="l.44">S- egyhazak rontási, s- iutas kegyelmedben.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">N</hi>agyob szent irgalmad világh büneinel,</l>
+<l rend="level_2" xml:id="l.46">S- egy iged poganjnak minden erejénel,</l>
+<l rend="level_2" xml:id="l.47">Ne hadgj diadalmad kevély kezeinel,</l>
+<l rend="level_2" xml:id="l.48">Plantály hived altal rettegést szivénel.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><hi rend="bold">T</hi>udom, hatalmodnak ezis egy ostora,</l>
+<l rend="level_2" xml:id="l.50">Hogy latczék töröknek s- tatarnak satora,</l>
+<l rend="level_2" xml:id="l.51">Eljon basilliscus tapoltalo<note type="critic" xml:id="note.3">eltaposó</note> óra,</l>
+<l rend="level_2" xml:id="l.52"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Midön valasztato<corr>d</corr><note type="critic" xml:id="note.4"><hi rend="italic">változtatod</hi>? Talán a
+                                    másoló hibázta el.</note> gonoszunkat jóra.</lem><rdg wit="#W1" xml:id="rdg.4">valasztatot</rdg></app></l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53"><hi rend="bold">H</hi>ad érjem hazanknak megh szabadullasát,</l>
+<l rend="level_2" xml:id="l.54"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">De ha most lelkemnek testül el valasa<corr>t</corr></lem><rdg wit="#W1" xml:id="rdg.5">valasa</rdg></app></l>
+<l rend="level_2" xml:id="l.55">Fegyverrel rendelted, ad vigasztalasat,</l>
+<l rend="level_2" xml:id="l.56">Szinjed elöt menjben szentekkel szallasat.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57"><hi rend="bold">E</hi>zerhatszáz hatvan harom esztendöben</l>
+<l rend="level_2" xml:id="l.58">Hirtelen iram eszt haború idöben,</l>
+<l rend="level_2" xml:id="l.59"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Lest Njittra vizenel alvan egy erdöben,</lem><rdg wit="#W1" xml:id="rdg.6">alva<del>l</del><add type="corr">n</add></rdg></app></l>
+<l rend="level_2" xml:id="l.60">Nevem vers fejeknek elsö betujiben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

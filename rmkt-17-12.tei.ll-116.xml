@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">116.</title>
+<title key="body" n="116" type="main">A’ BOLDOGHSÁGOS SZŰZ MÁRIÁHOZ MAGYAR ORSZÁG
+                    PATRONÁJÁHOZ</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-12.tei.ll-116</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar Márs.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1653">1653</date>. II. r. 72–78.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa
+                        Bálint, Listius László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 116.</fw>
+<head type="title">A’ BOLDOGHSÁGOS SZŰZ MÁRIÁHOZ MAGYAR ORSZÁG PATRONÁJÁHOZ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">O Te düchösségben s Jeriko kertében<note type="critic" xml:id="note.1">Sirák fia, Jézus
+                            könyvében <placeName>Jerikó<idno type="ITIdata">Q10550</idno></placeName> rózsaligetét említi. (<bibl>24,
+                                18.</bibl>)</note></l>
+<l rend="level_2" xml:id="l.2">Tündöklö Arany-alma,</l>
+<l rend="level_1" xml:id="l.3">Libanus,<note type="critic" xml:id="note.2">Szíria főhegysége, a bibliai
+                            időkben hatalmas erdők borították.</note> Erdején s Sion
+                        hegy-tetején</l>
+<l rend="level_2" xml:id="l.4">Ekessen föl-nölt Pálma,</l>
+<l rend="level_1" xml:id="l.5">Kinek e’ világra illy nagy tágasságra</l>
+<l rend="level_2" xml:id="l.6">El-terjede irgalma.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Fölyhökben tündöklö, éyel s nappal fénlö</l>
+<l rend="level_2" xml:id="l.8">Meny-beli világosságh,</l>
+<l rend="level_1" xml:id="l.9">Emberi nemzetre, és minden rendekre</l>
+<l rend="level_2" xml:id="l.10">Töled szálla boldogságh,</l>
+<l rend="level_1" xml:id="l.11">Kegyelemnek Annya s-Menyországh kapuja</l>
+<l rend="level_2" xml:id="l.12">Nálad az irgalmasságh.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Te-általad mennek mert valakik lépnek</l>
+<l rend="level_2" xml:id="l.14">Igéretnek földére,</l>
+<l rend="level_1" xml:id="l.15">Te vagy kalauzok s-bátorságos utok</l>
+<l rend="level_2" xml:id="l.16">Kanáánnak földére,</l>
+<l rend="level_1" xml:id="l.17">Mint szarvas forrásra s-örök boldogságra</l>
+<l rend="level_2" xml:id="l.18">S-Mennyei düchösségre.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">O’ szép ki-folyó kut, s-üdvösségünkre ut</l>
+<l rend="level_2" xml:id="l.20">Halgas-megh kéresünkben,</l>
+<l rend="level_1" xml:id="l.21">Sionnak kapuja<note type="critic" xml:id="note.3">Sion jelentette a
+                                    <placeName>jeruzsálemi<idno type="ITIdata">Q10246</idno></placeName> templomot, a mennyországot.</note>
+                        s-Noënak bárkája</l>
+<l rend="level_2" xml:id="l.22">Végy esedezésedben,</l>
+<l rend="level_1" xml:id="l.23">Emberi nemzetre, s-téged tisztölökre</l>
+<l rend="level_2" xml:id="l.24">Tekénch hát kegyelmedben.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Te Paradichomban s-örök-boldogságban</l>
+<l rend="level_2" xml:id="l.26">Szépen ki-nylt rosa szál,</l>
+<l rend="level_1" xml:id="l.27">Ki drága illattya, szemünk világétya</l>
+<l rend="level_2" xml:id="l.28">S-raytad kegyelmesség ál,</l>
+<l rend="level_1" xml:id="l.29">Kinek kebelébül s-születék méhébül</l>
+<l rend="level_2" xml:id="l.30">A’ Meny Országhi Királ.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Békeség szekrénnye, s bünösök reménnye</l>
+<l rend="level_2" xml:id="l.32">Kik hozád folyamodnak,</l>
+<l rend="level_1" xml:id="l.33">Mint egy bö-forráshoz irgalmasságodhoz</l>
+<l rend="level_2" xml:id="l.34">Valakik ragaszkodnák,</l>
+<l rend="level_1" xml:id="l.35">Bünök tömlöchébül, s-setét rekeszszébül</l>
+<l rend="level_2" xml:id="l.36">Kik hoszád kiáltanak.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Megh hallod kérések, es esedezések</l>
+<l rend="level_2" xml:id="l.38">Fogadod füleidben,</l>
+<l rend="level_1" xml:id="l.39">Kész vagy kégyelemre, s-fordétod örömre</l>
+<l rend="level_2" xml:id="l.40"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Bus sziveket minde<corr>n</corr>ben,</lem>
+<rdg wit="#W1" xml:id="rdg.1">mindeben</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.41">Végre hoszád vészes s-részesé-is tészed</l>
+<l rend="level_2" xml:id="l.42">Fiad örökségében.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2"><corr>Ó</corr> bünösok közöt mint rosa tövis köszt</lem>
+<rdg wit="#W1" xml:id="rdg.2">ö</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.44">Ekessen föl-nöt Virágh,</l>
+<l rend="level_1" xml:id="l.45">Kinek segedelmét s-Annyai kegyelmét</l>
+<l rend="level_2" xml:id="l.46">Vészi e’ széles Világh,</l>
+<l rend="level_1" xml:id="l.47">Te tüled származék s-világra ágázék</l>
+<l rend="level_2" xml:id="l.48">Meny-béli Irgalmasságh.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Te fényes est s haynal, a’ ki Hesperussal<note type="critic" xml:id="note.4">Hesperus –
+                            esthajnalcsillag</note></l>
+<l rend="level_2" xml:id="l.50">Fénlél világosságban,</l>
+<l rend="level_1" xml:id="l.51">A’ kinek eréje es tündöklö fénye</l>
+<l rend="level_2" xml:id="l.52">Megyen a’ magasságban,</l>
+<l rend="level_1" xml:id="l.53">A’ nap elöt fel-kél es kegyelemmel él</l>
+<l rend="level_2" xml:id="l.54">Bö irgalmasságában.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Te szép düchö forrás, ki kemény szivet ás.</l>
+<l rend="level_2" xml:id="l.56">Hozzád esedezökben,</l>
+<l rend="level_1" xml:id="l.57">Paradichombul szál, e’ világra ki-szál</l>
+<l rend="level_2" xml:id="l.58">Ö gyönyörüségében</l>
+<l rend="level_1" xml:id="l.59">Büneit világnak s-hoszád folyamoknak</l>
+<l rend="level_2" xml:id="l.60">El-mosod kegyelmedben.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.61">Te vagy az Egre út, minden általad fút</l>
+<l rend="level_2" xml:id="l.62">Meny Országh kapujára,</l>
+<l rend="level_1" xml:id="l.63">Méhednek gyümölchét, drágalátos kinchét</l>
+<l rend="level_2" xml:id="l.64"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Ki-n<corr>y</corr>itád e’ világra,</lem>
+<rdg wit="#W1" xml:id="rdg.3">ki-nitád</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.65">Fiadnak Vérével s Emlödnek tejével</l>
+<l rend="level_2" xml:id="l.66">Mosád ártatlanságra.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.67">Te vagy a’ reménségh, s büntetésünkben végh</l>
+<l rend="level_2" xml:id="l.68">Töredelmes szivekhez,</l>
+<l rend="level_1" xml:id="l.69">Mert malasztnak Annya, kit kegyelme vonnya</l>
+<l rend="level_2" xml:id="l.70">Az emberi nemzethez,</l>
+<l rend="level_1" xml:id="l.71">Isoppal megh hinted es megh nemeséted</l>
+<l rend="level_2" xml:id="l.72">Kik futnak kegyelmedhez.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.73">Tengernek Chillaga s Lelki vigasága</l>
+<l rend="level_2" xml:id="l.74">Vagy megh-keseredteknek,</l>
+<l rend="level_1" xml:id="l.75">Kegyes szo-szolloja és frigy találoja</l>
+<l rend="level_2" xml:id="l.76">Vagy bünös Embereknek,</l>
+<l rend="level_1" xml:id="l.77">Megh segétted öket s el-törlöd bünököt</l>
+<l rend="level_2" xml:id="l.78">Ninch végé kegyelmednek.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.79">Igy a’ mi Hazánknak, s romlot haylékinknak</l>
+<l rend="level_2" xml:id="l.80">Valál oltalmazoja,</l>
+<l rend="level_1" xml:id="l.81">Sok pártosi-ellen s ellenségi-ellen</l>
+<l rend="level_2" xml:id="l.82">Védelmezö bástyája,</l>
+<l rend="level_1" xml:id="l.83">Míg téged böchültek s Annyoknak tiszteltek</l>
+<l rend="level_2" xml:id="l.84">Edesgetö Aszszonya.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.85">A’ Boldogh Szent István Világbul ki-mulván</l>
+<l rend="level_2" xml:id="l.86"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Néked hagyá O<corr>r</corr>szágát</lem>
+<rdg wit="#W1" xml:id="rdg.4">Oszágát</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.87">A’ benne-lévöket, s következendöket</l>
+<l rend="level_2" xml:id="l.88">Magyar nemzet világát,</l>
+<l rend="level_1" xml:id="l.89">Igaz hitre hozá, s végre reád bizá</l>
+<l rend="level_2" xml:id="l.90">Világi Uraságát.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.91">Akkor fel-vállalád s szolgáidnak vallád</l>
+<l rend="level_2" xml:id="l.92">Mi édes Eleinket,</l>
+<l rend="level_1" xml:id="l.93">Meg-is oltalmazád s igaz utra hozád</l>
+<l rend="level_2" xml:id="l.94">Az el-têvelyedteket,</l>
+<l rend="level_1" xml:id="l.95">Chak hamar elö-vöd, s diadalmassá-töd</l>
+<l rend="level_2" xml:id="l.96">Régi jo-Vitezinket.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.97">Régi Királyinknak, s Gubérnatorinknak</l>
+<l rend="level_2" xml:id="l.98">Te valál éles-kardgyok</l>
+<l rend="level_1" xml:id="l.99">Pogány romlására, s el-pusztitására</l>
+<l rend="level_2" xml:id="l.100"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Lobogós szál-ko<corr>pj</corr>ájok.</lem>
+<rdg wit="#W1" xml:id="rdg.5">kopijájok</rdg>
+</app></l>
+<l rend="level_1" xml:id="l.101">Minden erössége s szivek mérészsége</l>
+<l rend="level_2" xml:id="l.102">Te valál erös karjok.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.103">Virágzék Országunk s helyén-is vólt dolgunk</l>
+<l rend="level_2" xml:id="l.104">Míg téged böchüllöttünk</l>
+<l rend="level_1" xml:id="l.105">Mint oltálmazonkat s erös baynokunkat</l>
+<l rend="level_2" xml:id="l.106">Vala-meddigh tiszteltünk</l>
+<l rend="level_1" xml:id="l.107">Te jel Zászlod-alat, s bisztatásod-alat</l>
+<l rend="level_2" xml:id="l.108">Bizvást-is vitezkedtünk.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.109">Omlot személyünktül, s reszketet hirünktül</l>
+<l rend="level_2" xml:id="l.110">Az Ottomán Nemzetségh,</l>
+<l rend="level_1" xml:id="l.111">Röttentö Hadakkal, s vér-szopo Zászlokkal</l>
+<l rend="level_2" xml:id="l.112">Nem jüt-réánk ellenségh,</l>
+<l rend="level_1" xml:id="l.113">Kedves haylékunkat s nem-lakta hunnyunkat<note type="critic" xml:id="note.5">honunkat</note></l>
+<l rend="level_2" xml:id="l.114">A’ Töröki dühösségh.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.115">Szép hirrel és névvel s vitézi erövel</l>
+<l rend="level_2" xml:id="l.116">Látád Nemzetségünket,</l>
+<l rend="level_1" xml:id="l.117">Hazánkat szélesztéd, s meszi el-terjesztéd</l>
+<l rend="level_2" xml:id="l.118">S ki árasztád hirünket</l>
+<l rend="level_1" xml:id="l.119">Mert kilench Országgal, illy drága Ioszággal</l>
+<l rend="level_2" xml:id="l.120">Ekesétél bennünket.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.121">Megh-mutattya pénzünk, Országban vért kinchünk</l>
+<l rend="level_2" xml:id="l.122">Tégedet mint tiszteltünk</l>
+<l rend="level_1" xml:id="l.123">Mellyet ném Iunonak, de Szüz Máriának,</l>
+<l rend="level_2" xml:id="l.124">Czimerére veréttünk,</l>
+<l rend="level_1" xml:id="l.125">Mi oltalmazonknak, s Földes Aszszonyunknak<note type="critic" xml:id="note.6">földi királynőnknek</note></l>
+<l rend="level_2" xml:id="l.126">Zengö szoval nevesztünk.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.127">Bizonysági ennek, s lesznek beszédémnek</l>
+<l rend="level_2" xml:id="l.128">Régi szép epületek,</l>
+<l rend="level_1" xml:id="l.129">Mellyek eleinktül, s kedves nemzetinktül</l>
+<l rend="level_2" xml:id="l.130">A’ végre szerzettettek,</l>
+<l rend="level_1" xml:id="l.131">Te Szent Fiad után, kikbe téged méltán</l>
+<l rend="level_2" xml:id="l.132">Buzgo szivel tiszteltek.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.133">Téged zengö szoval, s egyezö szép hangval</l>
+<l rend="level_2" xml:id="l.134">Dichért régi Magyarságh,</l>
+<l rend="level_1" xml:id="l.135">Téged reménségül, s hivot segétségül</l>
+<l rend="level_2" xml:id="l.136">Köztünk számos sokaságh,</l>
+<l rend="level_1" xml:id="l.137">Tégedet böchült, félt, s Isten után tisztelt</l>
+<l rend="level_2" xml:id="l.138">Szerzetben lévö Papságh.</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.139"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Miért<note type="critic" xml:id="note.7">Egytagúnak olvasandó a
+                                    szótagszám miatt. (Ugyanígy a 166., 168. sorokban is.)</note>
+                                tehát hagyánk-el, s kegyelmét hányán<corr>k-el</corr></lem>
+<rdg wit="#W1" xml:id="rdg.6">hányán-kel</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.140">Mi kegyes Patronánknak,</l>
+<l rend="level_1" xml:id="l.141">Vagyunk nám ollyanok, mint hálá-datlanok</l>
+<l rend="level_2" xml:id="l.142">Hogy mi Oltalmazonknak,</l>
+<l rend="level_1" xml:id="l.143">Jo tutorságában, s kegyes malasztyában</l>
+<l rend="level_2" xml:id="l.144">Nem lakánk Aszszonyunknak.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.145">Lévénk farkasokká, s goromba bakokká</l>
+<l rend="level_2" xml:id="l.146">Ki-ugránk az akolbol,</l>
+<l rend="level_1" xml:id="l.147">El-tévelyet Juhok, vagy mint Tigris fajok</l>
+<l rend="level_2" xml:id="l.148">Ki szökénk táborodbol,</l>
+<l rend="level_1" xml:id="l.149">Válánk Mustohákká, s nem szo-fogadokká</l>
+<l rend="level_2" xml:id="l.150">Ki-lépénk oltalmadbol.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.151">A’ sok visza-vonyo, s mint konkoly el hányo</l>
+<l rend="level_2" xml:id="l.152">Uyságok találmánnya;</l>
+<l rend="level_1" xml:id="l.153"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Kikkel Országunkban m<corr>os</corr>tan uyontában</lem>
+<rdg wit="#W1" xml:id="rdg.7">monstan</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.154">Minden fej magát hánnya,</l>
+<l rend="level_1" xml:id="l.155">Nem veszi eszében s ninchen elméjében</l>
+<l rend="level_2" xml:id="l.156">Hogy végtére megh-bánnya.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.157">Ez halálos méregh, s eszek-vestö féregh</l>
+<l rend="level_2" xml:id="l.158">Emészt most Országostul,</l>
+<l rend="level_1" xml:id="l.159">Ki Török torkában, s Pogány halojában</l>
+<l rend="level_2" xml:id="l.160">Kerét Tartományostul,</l>
+<l rend="level_1" xml:id="l.161">Ez emeszti eltünk, s kivánnya el-vesztünk</l>
+<l rend="level_2" xml:id="l.162">Egész sokaságostul.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.163">O te rosz esz-vesztö, s Országunk emésztö</l>
+<l rend="level_2" xml:id="l.164">Jrigységh meddigh rontasz?</l>
+<l rend="level_1" xml:id="l.165">Jgaz hamiséto, s hamis igazéto</l>
+<l rend="level_2" xml:id="l.166">Jgyenest myért<note type="critic" xml:id="note.8">olv. mért</note>
+                        horgasztasz?</l>
+<l rend="level_1" xml:id="l.167">Nemes Országunkban, s édés haylékinkban</l>
+<l rend="level_2" xml:id="l.168">Myért<note type="critic" xml:id="note.9">olv. mért</note> hogy éppet
+                        chorbétasz?</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.169">Azt szokták mondani, s beszédben forgatni</l>
+<l rend="level_2" xml:id="l.170">Magyari köz-példában,</l>
+<l rend="level_1" xml:id="l.171">Hogy ki-ki magára, s vigyáz chak hasznára</l>
+<l rend="level_2" xml:id="l.172">A’ Király Udvarában,</l>
+<l rend="level_1" xml:id="l.173">Egyenetlen jármok kiben vadnak Tulkok</l>
+<l rend="level_2" xml:id="l.174">Nem vonsznak-jol igában.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.175">De im visza térek, s mégh kegyelmet kérek</l>
+<l rend="level_2" xml:id="l.176">Régi Nagy Aszszonyunktol,</l>
+<l rend="level_1" xml:id="l.177">Mint egy tékozló-fi, Attyához fordult ki</l>
+<l rend="level_2" xml:id="l.178">S megh vált gonosságátul,</l>
+<l rend="level_1" xml:id="l.179">Jgy miis<note type="critic" xml:id="note.10">olv. mis</note> engedelmet, s
+                        vehetünk kegyelmet</l>
+<l rend="level_2" xml:id="l.180">Országh Pátronájátul.</l>
+</lg>
+<lg xml:id="lg.31">
+<l xml:id="l.181">Ved hoszád kérésünk, és esedezésünk</l>
+<l rend="level_2" xml:id="l.182">Fordéch ránk szemeidet,</l>
+<l rend="level_1" xml:id="l.183">Nyuch-ki kegyelmedbül, s düchö felségedbül</l>
+<l rend="level_2" xml:id="l.184">Kegyes engedelmedet,</l>
+<l rend="level_1" xml:id="l.185">Tégy frigyet mi velünk, s légyen ez a’ jelünk</l>
+<l rend="level_2" xml:id="l.186">Hogy tisztelunk tégedet.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.187">Mint Izraelt egyszer, vigy visza még töbször</l>
+<l rend="level_2" xml:id="l.188">Jgéretnek földére,</l>
+<l rend="level_1" xml:id="l.189">Mi kedves hazánkra, s régi határinkra</l>
+<l rend="level_2" xml:id="l.190">S Eleink örökére,</l>
+<l rend="level_1" xml:id="l.191">S végtére az után, s halálunkor osztán</l>
+<l rend="level_2" xml:id="l.192">Az örök düchösségre.</l>
+</lg>
+<lg xml:id="lg.33">
+<l xml:id="l.193">Jmádgy Istent-értünk, naponként kik vétünk</l>
+<l rend="level_2" xml:id="l.194">Hogy nekünk megh-bochássa</l>
+<l rend="level_1" xml:id="l.195">Pogány ellenséget ezt a’ dühösséget</l>
+<l rend="level_2" xml:id="l.196">Altálunk megh-rontassa.</l>
+<l rend="level_1" xml:id="l.197">Erejét el-végye, s lábunk-alá tégye</l>
+<l rend="level_2" xml:id="l.198">Hatalmát megh-mutassa.</l>
+</lg>
+<lg xml:id="lg.34">
+<l xml:id="l.199">Mondhassuk azt méltán, buydosásunk után</l>
+<l rend="level_2" xml:id="l.200">Hogy visza terétettél,</l>
+<l rend="level_1" xml:id="l.201">A’ kis Tobiással, s Raphaël Angyallal<note type="critic" xml:id="note.11">Az
+                            ifjú Tóbiás kísérője volt Ráfáel angyal. (Vö. <bibl>Tob. 5–12.</bibl>
+                            részeivel.)</note></l>
+<l rend="level_2" xml:id="l.202">Egy uton vezerlettél,</l>
+<l rend="level_1" xml:id="l.203">De végre békével, Szent Fiad hirével</l>
+<l rend="level_2" xml:id="l.204">Hazánkba segétettél.</l>
+</lg>
+<lg xml:id="lg.35">
+<l xml:id="l.205">Nám Àbráhámot-is, Lothot s másokot-is</l>
+<l rend="level_2" xml:id="l.206">Ellenségek kezébül,</l>
+<l rend="level_1" xml:id="l.207">Tengeri szél-vészben, s nagy kemény szelekben</l>
+<l rend="level_2" xml:id="l.208">Pétert-is<note type="critic" xml:id="note.12">Péter apostolról lásd <bibl>Máté
+                                14, 28–31.</bibl></note> örvénnyébül</l>
+<l rend="level_1" xml:id="l.209">Töb Tanitványokkal vizen hajozokkal</l>
+<l rend="level_2" xml:id="l.210">Szent Fiad kegyelmébül.</l>
+</lg>
+<lg xml:id="lg.36">
+<l xml:id="l.211">Véletlen megh-menté, kikért vérét önté</l>
+<l rend="level_2" xml:id="l.212">Kereszt sulyos Oltárán,</l>
+<l rend="level_1" xml:id="l.213">Vérrel izzadozot, s Attyának áldozot</l>
+<l rend="level_2" xml:id="l.214">Midön halál pohárán.</l>
+<l rend="level_1" xml:id="l.215">Jgy minket-is megh-ment mert irgalmával-kent,</l>
+<l rend="level_2" xml:id="l.216">Eltünk végsö határán.</l>
+</lg>
+<lg xml:id="lg.37">
+<l xml:id="l.217">Hogy édes Hazánkban, s régi haylekinkban</l>
+<l rend="level_2" xml:id="l.218">Fiaddal dichérhessünk</l>
+<l rend="level_1" xml:id="l.219">A’ ki Hadnagyunknak, s téged Aszszonyunknak</l>
+<l rend="level_2" xml:id="l.220">Örömmel nevezhessünk</l>
+<l rend="level_1" xml:id="l.221">Te oltalmad alat, s a’ te Zázlod alat</l>
+<l rend="level_2" xml:id="l.222">Pogányságra mehessünk.</l>
+</lg>
+<lg xml:id="lg.38">
+<l xml:id="l.223">Vége verseimnek, s e’ Könyörgésemnek,</l>
+<l rend="level_2" xml:id="l.224">Jsten után chak te légy,</l>
+<l rend="level_1" xml:id="l.225">Kegyes irgalmadban, s Anyai voltodban</l>
+<l rend="level_2" xml:id="l.226">Halálom kor chak te végy</l>
+<l rend="level_1" xml:id="l.227">Egész Nemzetemmel, miként Eleimmel</l>
+<l rend="level_2" xml:id="l.228">Kérlek téged illy jót tégy.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

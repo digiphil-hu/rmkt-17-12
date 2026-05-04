@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">117.</title>
+<title key="body" n="117" type="main">A’ NEMES MAGYAR ORSZÁGH CHIMERÉHEZ</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-117</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Nyomtatott kiadása: <bibl><hi rend="bold">Magyar Márs.</hi>
+<placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1653">1653</date>. II. r. 79–80.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Magyar Márs. Bécs, 1653.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 117.</fw>
+<head type="title">A’ NEMES MAGYAR ORSZÁGH CHIMERÉHEZ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Néppel bövelkedö s Mársal dühösködö</l>
+<l rend="level_2" xml:id="l.2">O’ te düchösséges Jel,</l>
+<l rend="level_1" xml:id="l.3">Mi régi Eleink, sok Nemes féleink</l>
+<l rend="level_2" xml:id="l.4">Dichekedhetet kivel,</l>
+<l rend="level_1" xml:id="l.5">Mert sebbel virágzot, s ereje ágazot</l>
+<l rend="level_2" xml:id="l.6">Diadalmadért mivel.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Mint ama kemény vas, s Egben repülö sas</l>
+<l rend="level_2" xml:id="l.8">Szemeit szikraztattya,</l>
+<l rend="level_1" xml:id="l.9">A’ napnak fényere, s sugár erejére</l>
+<l rend="level_2" xml:id="l.10">Ki fiait fordéttya</l>
+<l rend="level_1" xml:id="l.11">Ki reá nem-nézhet, s reá nem-érkezhet</l>
+<l rend="level_2" xml:id="l.12">Tudgya hogy nem sajáttya.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Mint a’ Mágnes vonszod s te magadhoz huzod</l>
+<l rend="level_2" xml:id="l.14">Hir-rel az Vitezséget</l>
+<l rend="level_1" xml:id="l.15">Mert ki-folyo éren, s a’ szép piros véren</l>
+<l rend="level_2" xml:id="l.16">Osztod a’ Nemességet,</l>
+<l rend="level_1" xml:id="l.17">Szarnyaidra vészed Rárovál-is tészed</l>
+<l rend="level_2" xml:id="l.18">Tanulo bölchésségét.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">A’ Kereszted duplás ki-bül szármad forrás</l>
+<l rend="level_2" xml:id="l.20">Határodat keréti,</l>
+<l rend="level_1" xml:id="l.21">Tisza, Duna, Száva ki-folyo szép Dráva</l>
+<l rend="level_2" xml:id="l.22">Sengejét rá-terjeszti,</l>
+<l rend="level_1" xml:id="l.23">Egh-is harmattyával, es bö malasztyával</l>
+<l rend="level_2" xml:id="l.24">Mint Gédeont elteti.<note type="critic" xml:id="note.1">Az Úr Gedeont megbízta
+                            a zsidó nép megszabadításával, és ő ezt a megbízatást teljesítette. Vö.
+                                <bibl>Bír. 6–8.</bibl> részével!</note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Te ékes lako-föld, a’ kivel vagy szép zöld</l>
+<l rend="level_2" xml:id="l.26">Méltán dichekedhetél,</l>
+<l rend="level_1" xml:id="l.27">Nemes, Czimereddel, s ki-omlot véreddel</l>
+<l rend="level_2" xml:id="l.28">Egh-igh föl-érkezhetél</l>
+<l rend="level_1" xml:id="l.29">Jeles Országokra és Tartományokra</l>
+<l rend="level_2" xml:id="l.30">Hireddel be-léphetél.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Kichoda Világon, s e’ romlando ágon</l>
+<l rend="level_2" xml:id="l.32">A’ ki téged föl-mullyon?</l>
+<l rend="level_1" xml:id="l.33">Illy szép Diadémát, s Angyali Koronát</l>
+<l rend="level_2" xml:id="l.34">Vallyon s ki hol talállyon?</l>
+<l rend="level_1" xml:id="l.35">Chak neked adatot, s Menybül bocháttatot</l>
+<l rend="level_2" xml:id="l.36">Hogy örökké fen-állyon.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

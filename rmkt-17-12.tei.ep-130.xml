@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">130.</title>
+<title key="body" n="130" type="main">AZ VADASZAT MADARÁSZAT MVLATSAGIROL</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-12.tei.ep-130</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény
+                        I. része. 71–76.</bibl> – <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> egyetlen keltezett verse.
+                        (<date when="1661-12-15">1661. december 15.</date>)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa
+                        Bálint, Listius László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 130.</fw>
+<head type="title">AZ VADASZAT MADARÁSZAT MVLATSAGIROL</head>
+<fw corresp="Esterházy Pál" type="lg">CCLXIII.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Az szép Vadászatban sokan gyönörködnek,</l>
+<l xml:id="l.2">Dögleletessége midön ninczen ködnek,</l>
+<l xml:id="l.3">Akkor nem láczik ki semmi része földnek,</l>
+<l xml:id="l.4">Az nagy fuuatagok mert mindent bé födnek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXIV.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Puskások megh állyák az köröszt utakat,</l>
+<l xml:id="l.6">Es nagy uigyázzással uáriák az Vadakat,</l>
+<l xml:id="l.7">Tartnak uadászokis futo agarakat,</l>
+<l xml:id="l.8">Auagy furiet fogo könyü madarakat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXV.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Szorgalmatossággal iáriák az hegyeket,</l>
+<l xml:id="l.10">Gyakran látogatnak dült fa melyékeket,</l>
+<l xml:id="l.11">Kopokkal haitatnak czalittás helyeket,</l>
+<l xml:id="l.12">Rendes szélben fognak barázdás földeket.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXVI.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Széllyel az erdökön sok uagásis uagyon,</l>
+<l xml:id="l.14">Vastag hálokatis rendelnek az fagyon,</l>
+<l xml:id="l.15">Sokszor haitok bottal Vadat ütnek agyon,</l>
+<l xml:id="l.16">Mert akármely Vadis nem futhat az lágyon.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXVII.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Allyák az mezöket mások Agarakkal</l>
+<l xml:id="l.18">Bokrosok mellyekét Ráro Madarakkal</l>
+<l xml:id="l.19">Foglyokat kergetnek sebes kis Solymokkal,</l>
+<l xml:id="l.20">Fürieketis kapnak könyü karuolyokkal.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXVIII.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Szép kereczenekkel Gémeket fogatnak,</l>
+<l xml:id="l.22">Variakat Hollokat ezekkel kapatnak,</l>
+<l xml:id="l.23">Egerészö kányát uélek szaggattatnak,</l>
+<l xml:id="l.24">Midön magas égben gyorsan ragattatnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXIX.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Iárnak szánto földen nagy füles Baglyokkal,</l>
+<l xml:id="l.26">Kinek légyen harcza égi madarakkal,</l>
+<l xml:id="l.27"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Végre megh ségétik io tanult Rárokkal,</lem>
+<rdg wit="#W1" xml:id="rdg.1">[Előbb:] megh tanult</rdg>
+</app></l>
+<l xml:id="l.28">Elik uilágokat ily mulatságokkal.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXX.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Vtakonis raknak sürü lép ágokat,</l>
+<l xml:id="l.30">Ottan széllyel hintuén sokféle magokat,</l>
+<l xml:id="l.31">Tésznek külömbféle kedues czont sip szokat,</l>
+<l xml:id="l.32">Fáknak árnyékiban Czinege fogokat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXI.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Veszökre röpüluén, ottan rá ragadnak,</l>
+<l xml:id="l.34">Szárnyokkal uerdöduén az lepben akadnak,</l>
+<l xml:id="l.35">Eröltetésekben czaknem megh fakadnak,</l>
+<l xml:id="l.36">Végre Vadász kézben szegénkék akadnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXII.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Agarak az nyulat hamarsággal fogiák,</l>
+<l xml:id="l.38">Mikoron Vadászok az nenyhot mongyák,</l>
+<l xml:id="l.39">De ha az Vad Farkast pallagokon láttyák,</l>
+<l xml:id="l.40">Erös Agarakat utánna boczáttyák.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXIII.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Hogy ha könyü ebek Farkast megh nem biriák,</l>
+<l xml:id="l.42">Az komondorokat reáia biztattyák,</l>
+<l xml:id="l.43">Kik el éruén ötet ualoban forgattyák,</l>
+<l xml:id="l.44">Ö gubanczos börét igen megh rángattyák.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXIV.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Némellyek Borzokat likakban kergetnek,</l>
+<l xml:id="l.46">Kiknek böreiuel haiduknak füzetnek,</l>
+<l xml:id="l.47">Vagy Heiuzok után erdökön sietnek,</l>
+<l xml:id="l.48">Kiket menték alat Vrakis uiselnek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXV.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Eszakon szép nusztok iáriák az nagy fákat,</l>
+<l xml:id="l.50">Fárasztyák hidekben kézias Muszkákat,</l>
+<l xml:id="l.51">Ezek löuésében töltnek sok orákat,</l>
+<l xml:id="l.52">Iáruán éiel nappal magas kösziklákat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXVI.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Folyo Vizek mellet Vidrákatis fognak,</l>
+<l xml:id="l.54">Midön bé czapodik foga az horognak,</l>
+<l xml:id="l.55">Oduas fákban néha Hodokis forognak,</l>
+<l xml:id="l.56">Vasas czaptatoban gyakran ökis lognak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXVII.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Nagy munkát szerzennek az emberi fönek,</l>
+<l xml:id="l.58">Vad keczkék likakbol midön elöl iönek,</l>
+<l xml:id="l.59">Mert magas helyekben kü szálakon nönek,</l>
+<l xml:id="l.60">De már ezekbennis nem keuesset lönek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXVIII.</fw>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Nézd megh mely czufossan fognak Mokusokat,</l>
+<l xml:id="l.62">Szemléld Maiom fogo paraszt Indusokat,</l>
+<l xml:id="l.63">Likak eleiben uisznek sok ásokat,</l>
+<l xml:id="l.64">Mellyekkel ki menuén fognak néha sokat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXIX.</fw>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Özet, Vad Maczkákat, tarka Dámuadakat,</l>
+<l xml:id="l.66">Nagyot ugro, s-gyorsan futo Szaruasokat,</l>
+<l xml:id="l.67">Nézzed amaz fene Erdei kanokat,</l>
+<l xml:id="l.68">Ezekis mint futnak, s-félik Vadászokat.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXX.</fw>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Gubanczos Meduének félelme mit tészen,</l>
+<l xml:id="l.70">Midön Vadász nyomot ö eszében uészen,</l>
+<l xml:id="l.71">Likiában bé buik, s-ottan uagyon készen,</l>
+<l xml:id="l.72">De uégtére öis Vadász praeda lészen.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXXI.</fw>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Vagyon ellenségek tarka Párduczoknak</l>
+<l xml:id="l.74">Dühös Tygriseknek nagy Strucz Madaraknak,</l>
+<l xml:id="l.75">Siuo Oroszlányok ellent nem álhatnak,</l>
+<l xml:id="l.76">Mérges Sárkányokis uégre megh rontatnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXXII.</fw>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Megh nem menekednek magas Elephantok,</l>
+<l xml:id="l.78">Vadász törben esnek Vad Rhinocerusok,</l>
+<l xml:id="l.79">El nem szaladhatnak könyü Leopardok,</l>
+<l xml:id="l.80">Vadász törben esnek ez Földi állatok.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXXIII.</fw>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Isten atta esztet ember hatalmában,</l>
+<l xml:id="l.82">Minden állat légyen néki igáiában</l>
+<l xml:id="l.83">Hogy ne essék öis Isten haragiában,</l>
+<l xml:id="l.84">Szorgalmatos légyen háláadásában.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXXIV.</fw>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Ez éneket szerzém egykor io laktomban,</l>
+<l xml:id="l.86">Midön nyargalodnám erdökön utomban,</l>
+<l xml:id="l.87">Vadakat kergetnék uig Vadászatomban,</l>
+<l xml:id="l.88">Ioszágim köszt léuö kedues határomban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXXXV.</fw>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Az mikoron irtam ezen esztendöben,</l>
+<l xml:id="l.90">Ugymint ezer hatszáz hatuan egyedikben</l>
+<l xml:id="l.91">Az holnapok közöt tizenkettödikben,</l>
+<l xml:id="l.92">Téli napok közöt tizenötödikben.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

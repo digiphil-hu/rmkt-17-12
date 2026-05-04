@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">23.</title>
+<title key="body" n="23" type="main">(Feleseget ne Végi magadnak ioszageért...)</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-23</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kéziratai:</p>
+<p xml:id="crit.1.p.3">I. <bibl><hi rend="bold">Rimay-Madách-k.</hi> I, 81–83.</bibl> Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                            216–18.</bibl> – Terjedelme 19 vsz.</p>
+<p xml:id="crit.1.p.4">II. <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 8.</bibl> Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                            215–16.</bibl> – Terjedelme 10 strófa.</p>
+<p xml:id="crit.1.p.5">A mottó Cato III. könyvének 12. disztichonja.</p>
+<p xml:id="crit.1.p.6">A rövidebb változat az utolsó versszak kivételével benne van a hosszabb
+                        kidolgozásban. Ezen kívül <title><hi rend="italic">A gonoz Aszoni
+                                alatrol</hi></title> című vers 4 strófáját is felhasználta Madách.
+                        (Lásd az előző ének jegyzetét.) így a versnek mindössze 6 új versszaka van
+                        (3., 4., 12., 13., 17., 19.).</p>
+<p xml:id="crit.1.p.7">A kéziratban mindkét változat tisztázatnak látszik néhány utólagos javítással.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I, 81–83.</witness>
+<witness xml:id="W2">Rimay-Madách-k. II, 8.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 23/I.</fw>
+<head type="motto">Vxorem fuge ne ducas sub nomine dotis</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Feleseget ne Végi magadnak ioszageért</l>
+<l xml:id="l.2">Szėm penig penzėrt S. aranias ruhaért</l>
+<l xml:id="l.3">Szereszed chiak ötet dragȧ io erkolczért</l>
+<l xml:id="l.4">Szemermės Jambor .S. Tokeletesegért.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Ki ioszagért weszėn Aszonẏ allatot.</l>
+<l xml:id="l.6">El kel szenuedni morgolodasokot.</l>
+<l xml:id="l.7">Nem Twrhettik azók eggiut lakaszokot.</l>
+<l xml:id="l.8">Hȧ Szintėn palczais vti az hatokot.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Mit az vrȧ wegez azt vissȧ czafollia<note type="critic" xml:id="note.1">vissȧ czafollia =
+                            megcáfolja, elutasítja. Ugyanez a kifejezés hasonló gondolat kapcsán
+                            előfordul a parázna életről szóló értekezés l) versbetétjében is (Hitit
+                            feriėnėk nem allia / S-hamiszan <hi rend="italic">visza chqffollia</hi>
+                        / Nem gondȯl az ö lelkere), valamint a <ref target="rmkt-17-12.tei.mg-26">26. sz. vers 11.
+                                sorában</ref>, némileg másképpen (Az ėlőbbem szawát mind <hi rend="italic">hatra chafolia</hi>).</note></l>
+<l xml:id="l.10">Emberek elött vele wissȧ hazuttollia</l>
+<l xml:id="l.11">Ha bechwletẏ wész, azt eö nem gondollia</l>
+<l xml:id="l.12">Czak boszuiat vrán Tolthesse S. Torollia</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Dul ful eö magabȧn ninczén sohȧ kedue</l>
+<l xml:id="l.14">Ha az ferie el kȯlt ladabol penzebe</l>
+<l xml:id="l.15">Mindėn kor morgodik niaualias feriere</l>
+<l xml:id="l.16"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Akarwȧn Tánirtis haitani<note type="critic" xml:id="note.2">= hajítani</note> feiere</lem><rdg wit="#W1" xml:id="rdg.1">Tánertis <del>vtni az</del> feie<del rend="overwritten">b</del><add type="corr">r</add>e <add type="insert">haitani</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Szemire hania mindėn nȧpi koltseget</lem>
+<rdg wit="#W1" xml:id="rdg.2">nap<del>p</del><add type="corr">i</add></rdg>
+</app></l>
+<l xml:id="l.18">Hogi Sokat kȯlt, S hoza nem keres Tőbbet</l>
+<l xml:id="l.19">Jzastia S. farastia gondal eö elmeiet,</l>
+<l xml:id="l.20">Elöle ki v̈ zuen nem szanuán eö vestit</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Ferienek nem nezẏ az ö bechẅletit</l>
+<l xml:id="l.22">Ha lattia ionie ferie io vendégit</l>
+<l xml:id="l.23">Minden kor mutatia ö beocztelensegit</l>
+<l xml:id="l.24">Moroguȧ kessiti minden fozelekit</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Azȯn Aszoni alat nem muttatia keduet</l>
+<l xml:id="l.26">Mellet az ferie leg inkablȧn Seret</l>
+<l xml:id="l.27">Haragiat neweli az ellėn ha lehett.</l>
+<l xml:id="l.28">S. wegre ferietis massalis giuleőltet</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Mert hȧ haragsik mergebėn eó reszkett</l>
+<l xml:id="l.30">Akorȯn gonoszȧg sziwibén veėr fesket</l>
+<l xml:id="l.31">Atkoza es Sidgia az Niaualias feriet</l>
+<l xml:id="l.32">Kiwȧnia szegennek egi oraban vestet.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Hogi hȧ nekie Tisteseghez ferne</l>
+<l xml:id="l.34">Busult alapatbȧn eö mit chelekedne</l>
+<l xml:id="l.35">Hȧ ferienek elte Sinorȯn lehettne</l>
+<l xml:id="l.36">Haragiaban eö azt mindgiart el meczene.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Affele embernek etele sem essik iol</l>
+<l xml:id="l.38">Mikȯr felesége haraggȧl dudol</l>
+<l xml:id="l.39">Noha teteti ferie es neki sepėn sol</l>
+<l xml:id="l.40">De azert mergė, Testebėn selel oszol.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Job ilẏ hazasagott neki el kerẅlni</lem>
+<rdg wit="#W1" xml:id="rdg.3">Job <del>effele</del>
+<add place="above" type="insert">ilẏ</add></rdg>
+</app></l>
+<l xml:id="l.42"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Eges eletebėn Neotelenu̇l lenni</lem><rdg wit="#W1" xml:id="rdg.4"><del>neki</del> lenni</rdg></app></l>
+<l xml:id="l.43">Hogi sem ez vilagon bu banatal elni</l>
+<l xml:id="l.44">S-gazdȧg Aszoniall magat koteleznẏ</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">El kel nekie mindeneket Tw̋ rni</l>
+<l xml:id="l.46">Ha penzebėn akar valamit költeni</l>
+<l xml:id="l.47">Feketėt feiernek kel mindent mondanÿ</l>
+<l xml:id="l.48">Jarombȧn ha fogia Niakat ot Tartanÿ</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Hire nelkẅl nem mér somsedgiahoz menni</lem>
+<rdg wit="#W1" xml:id="rdg.5"><del rend="overwritten">Ö</del><add type="overwrite">H</add>ire</rdg>
+</app></l>
+<l xml:id="l.50">Mindgiart masokhȯz Tudgia ö Toldanẏ</l>
+<l xml:id="l.51">Bőcztelenséggėll foggia eő Jllethnÿ</l>
+<l xml:id="l.52">Az hȯn akarattia ott kel neky v̋ lnÿ</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Boldog isten <unclear>ki</unclear> szokan vadnak effelek.</l>
+<l xml:id="l.54">Kiknek niakokȯn vadnak ilẏ kötelek</l>
+<l xml:id="l.55">Nagj haborusȧg miȧt el vess az essek.</l>
+<l xml:id="l.56">Mert egez eltekbėn nem bekesegesek.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Az olian ferfinak nincz göniörwsege</l>
+<l xml:id="l.58">Elete folitabȧn nagi keserẅseghe</l>
+<l xml:id="l.59"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Felesege ha iut S. gonoz voltȧ esebe.</lem><rdg wit="#W1" xml:id="rdg.6">gonoz <del>erkolcze</del> <add type="insert">voltȧ</add></rdg></app></l>
+<l xml:id="l.60">Mintgiart az banat ferkezik sziuibe.</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Felesege korẅl Teteti hogẏ eorẅl</l>
+<l xml:id="l.62"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">De se<corr>m</corr>ibeṅ giakrȧn ha lehet kakuczol.<note type="critic" xml:id="note.3">= kukucskál, néz</note></lem><rdg wit="#W1" xml:id="rdg.7">senniben [.]</rdg></app></l>
+<l xml:id="l.63">Ha lattia bortu̇l Orczaia piroszul</l>
+<l xml:id="l.64">Vigsagat el hadgia feltebėn meleje v̋l.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Diczirj hogi nem volt Seb .S. iob felesege</l>
+<l xml:id="l.66">Elöb felesegit<note type="critic" xml:id="note.4">Elöb felesegit = előbbi feleségét</note> oczarlia elötte</l>
+<l xml:id="l.67">Emeli az pohȧrt chokollia feltebe</l>
+<l xml:id="l.68">Eȯ mint oroslani v̋ l neki eolibe.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Jffiaknȧk Eözuegi<corr>et</corr> iob felesegül
+                                venni</lem>
+<rdg wit="#W1" xml:id="rdg.8">Eözueginek <note type="critic" xml:id="note.5">Értelem
+                                szerint.</note></rdg>
+</app></l>
+<l xml:id="l.70">Jo chendés erkolczén gionorkoduén niugodni</l>
+<l xml:id="l.71">Hogi sėm Nagi koniháiu sep Aszont chokolni</l>
+<l xml:id="l.72">Hat lȯwȯ szekeren szuhaitozwán v̋ lnÿ</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Keres te magadnak czendės io leanizót</l>
+<l xml:id="l.74">Ne neez nagi <unclear>chiffrȧra</unclear> , Iosagó<note type="critic" xml:id="note.6">= jószágú</note> S gazdagot.</l>
+<l xml:id="l.75">Ha szelid és Iambor, mindent meg talals ot.</l>
+<l xml:id="l.76">Meg ald az Istėn mindennel hazadot.</l>
+</lg></div>
+<div type="poem" xml:id="d.2" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 23/II.</fw>
+<head type="motto">Vxorem fuge ne ducas sub nomine dotis</head>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Felesziget ne Végi magadnak ioszaghért<note type="critic" xml:id="note.7"><ref target="rmkt-17-12.tei.mg-23">23/I. 1.</ref></note></l>
+<l xml:id="l.78"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Szem penigh draga fris Aranias ruhaeert,</lem><rdg wit="#W2" xml:id="rdg.9">penigh <del>nagi</del> <add type="insert">draga</add></rdg></app></l>
+<l xml:id="l.79">Sereszed aszoni alatot ió erkolczeert,</l>
+<l xml:id="l.80">Szemérmes Jambor S. Teőkeleteszegeert,</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81"> S kẏ Joszagert weszen Aszoni alatot,<note type="critic" xml:id="note.8"><ref target="rmkt-17-12.tei.mg-23">23/I. 2.</ref></note></l>
+<l xml:id="l.82"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">El kel szenvedni morgolodaszokot,</lem><rdg wit="#W2" xml:id="rdg.10">szenvedni <del>neky</del></rdg></app></l>
+<l xml:id="l.83"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Bekewel nem Tw̋rhetik <unclear>egiut</unclear> lakaszokat,</lem><rdg wit="#W2" xml:id="rdg.11"><del><gap extent="1" reason="illegible" unit="word"/></del><add type="insert"><unclear>egiut</unclear></add></rdg></app></l>
+<l xml:id="l.84">S. Giakran palczais kenegeti hatokat,</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Aféle embernek etele szem essik iol<note type="critic" xml:id="note.9"><ref target="rmkt-17-12.tei.mg-23">23/I. 10.</ref></note></l>
+<l xml:id="l.86">Mikor felesseghe haragȧl dudol</l>
+<l xml:id="l.87">Noha teteti az ferie S. nekẏ szépen sóól</l>
+<l xml:id="l.88"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">De azert merge tesztiben szelel oszol,</lem><rdg wit="#W2" xml:id="rdg.12">azert <del>az</del></rdg></app></l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Szémire hania minden Napẏ koltszeget<note type="critic" xml:id="note.10"><ref target="rmkt-17-12.tei.mg-23">23/I. 5.</ref></note></l>
+<l xml:id="l.90"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Hogi szokat keőltt Hozza nem keres teőbet.</lem><rdg wit="#W2" xml:id="rdg.13"><del rend="overwritten"><gap extent="1" reason="illegible" unit="word"/></del><add type="overwrite">Hozza</add></rdg></app></l>
+<l xml:id="l.91">Izasztia erolteti szeghinnek az feiett</l>
+<l xml:id="l.92">Elole kẏ vzẏ nem szania az vesztet,</l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Job effele hazaszagot el kerw̋ lnẏ<note type="critic" xml:id="note.11"><ref target="rmkt-17-12.tei.mg-23">23/I. 11.</ref></note></l>
+<l xml:id="l.94">Eghez eleteben neőtelenűl lenni,</l>
+<l xml:id="l.95">Hogi szem ez wilagon bu banatal élný</l>
+<l xml:id="l.96">S Gazdag aszoni alatal magat keőtelezni</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Boldogh Jsten kik szokan Vadnak effelek<note type="critic" xml:id="note.12"><ref target="rmkt-17-12.tei.mg-23">23/I. 14.</ref></note></l>
+<l xml:id="l.98">Kiknek niakokon wadnak illien kőtelek</l>
+<l xml:id="l.99">Nagẏ haboruszagh miat el wész az eszek.</l>
+<l xml:id="l.100">Mert egez eltekben nem bekeszegheszek</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101">Az olian embernek nincz gioneőrw̋ szėghe,<note type="critic" xml:id="note.13"><ref target="rmkt-17-12.tei.mg-23">23/I. 15.</ref></note></l>
+<l xml:id="l.102">Elete folytában nagẏ keszerw̋ szeghe,</l>
+<l xml:id="l.103">Felesseghenek ha iut gonoz erkolcze eszébe,</l>
+<l xml:id="l.104"><app xml:id="app.14">
+<lem wit="#KK" xml:id="lem.14">Mintgiarast nagi banat erkezik sziwibe,</lem>
+<rdg wit="#W2" xml:id="rdg.14">Mintgiar<del>
+                                        &gt;t</del><add place="above" type="insert">ast</add>;
+                                    sziwibe<del>n</del></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105">Noha teteti feleszeghe előt hogi eőrw̋ l<note type="critic" xml:id="note.14"><ref target="rmkt-17-12.tei.mg-23">23/I. 16.</ref></note></l>
+<l xml:id="l.106">De szeméwel giakran reaia kakuczol</l>
+<l xml:id="l.107">Ha latia hogi bȯrtul orczaia pirossu̇l</l>
+<l xml:id="l.108">Wigszagát el hadgia, felteben meleie v̋ l</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109">Szegheni alazatost, iob feleszégul venni<note type="critic" xml:id="note.15"><ref target="rmkt-17-12.tei.mg-23">23/I. 18.</ref></note></l>
+<l xml:id="l.110">Jo erkolczen gioniőrkodwéén niugodni</l>
+<l xml:id="l.111">Hogi szem Nagi konihaiú Aszont tsókolni</l>
+<l xml:id="l.112">Hat lowó szekeren nagi szuhaitozwan v̋ lni</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113">Jllienel az Jsten iobban megh ááld</l>
+<l xml:id="l.114">S Tsendes eletel tegedet megh láát</l>
+<l xml:id="l.115">Bu banatul eltedet Tawosztat</l>
+<l xml:id="l.116">Semmi keszerw̋ szegre neked okot nem áád</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

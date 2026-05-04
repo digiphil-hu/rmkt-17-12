@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">54.</title>
+<title key="body" n="54" type="main">(Szerelmessitöl valt Valoban...)</title>
+<author>
+<persName>
+                        Egy névtelen
+                    </persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-54</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.rm-k-jegyzetek">Jegyzetek a Rimay-Madách-kódexek ismeretlen szerzőtől származó verseihez.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> I,37.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr> 31–32.</bibl> –
+                        Címe: Maas.</p>
+<p xml:id="crit.1.p.3">Gondolatilag, a lírai alaphelyzetet tekintve ez a vers áll legközelebb a kódex szerelmes darabjai közül <persName>Rimaynak<idno type="ITIdata">Q155364</idno></persName> Ne
+                    csudáld szivemet kezdetű költeményéhez. (<bibl><abbr>RJÖM</abbr> 52.</bibl>) (Vö. <bibl><hi rend="smallcaps">Bóta</hi>: i. m. 11.</bibl>) Ebből a tekintetből vö. elsősorban a 3. vsz.-ot <persName>Rimay<idno corresp="Rimay János"/></persName>
+                énekének 5. strófájával.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I,37.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 54.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Szerelmessitöl valt Valoban nagi kint láát, nincz veghe keszerwenek,</l>
+<l xml:id="l.2">Butul bagiat, eped, Almotis nem enged Vehetni két szemenek,</l>
+<l xml:id="l.3">Ha megh enihitÿs, Nincz eep kedue megis, Nem kel ir bus lelkenek.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4">Jgi Vagion en dolgom, Mert chiak buslakodom, Nem latwan Szerelmemet,</l>
+<l xml:id="l.5">S. noha el tauoztam, De velem el hoztam Sziwemben Zart kepedet,</l>
+<l xml:id="l.6">Buzgo kiwanssaggal, Niughatatlanssagall ohait lelkem tegedet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7">Adia az io Isten, Szerenchjem lehessen, Egeszeghbe lassalak,<note type="critic" xml:id="note.1">Vö. az előbb említett gondolati és kifejezésbeli párhuzam
+                            mellett <persName>Rimaynál<idno type="ITIdata">Q155364</idno></persName>: „Jó szerencsés legyen / Hozzám jöveteled.”
+                                    (<bibl><abbr>RJÖM</abbr> 143.</bibl>)</note></l>
+<l xml:id="l.8">S. te hẅ szerelmedben, kit Irs leweledben, Hamar talalhassalak,</l>
+<l xml:id="l.9">Te Veled beszelwén, Es neked orw̋ lvéén Szassor chiokolhassalak!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

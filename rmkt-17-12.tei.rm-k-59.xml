@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">59.</title>
+<title key="body" n="59" type="main">AZ TEKINTETES ES NAGYSÁGOS HADADẎ WESELENŸ FERENCZ VRAM EÖ NAGYSÁGHA
+                    NEWÉRE SEREZTETET WERSEK</title>
+<author>
+<persName>
+                        Egy névtelen
+                    </persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-59</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.rm-k-jegyzetek">Jegyzetek a Rimay-Madách-kódexek ismeretlen szerzőtől származó verseihez.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> III, 48a–50a.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, ItK 1901</abbr>,
+                            151–52.</bibl></p>
+<p xml:id="crit.1.p.3">Bár a kézzel fogható képi párhuzam kevés, az ének <persName>Balassi<idno type="ITIdata">Q2101</idno></persName>
+                        vitézi-istenes énekeinek hatását: <hi rend="italic">Az
+                        Szentháromságnak</hi>, <hi rend="italic">Vitézek, mi lehet</hi>
+                                (<bibl><abbr>BBÖM</abbr> 83,112</bibl>) mutatja. De a fenti énekek
+                    mellett közel áll <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>
+<hi rend="italic">Jöjj mellém szent Isten</hi> kezdetű verséhez is.
+                                (<bibl><abbr>RJÖM</abbr> 69.</bibl>)</p>
+<p xml:id="crit.1.p.4">A versfők: <hi rend="smallcaps">hadadj weselenj ferencz</hi>.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. III, 48a–50a.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 59.</fw>
+<head type="title">AZ TEKINTETES ES NAGYSÁGOS HADADẎ WESELENŸ FERENCZ VRAM EÖ NAGYSÁGHA
+                    NEWÉRE SEREZTETET WERSEK.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">HADA</hi>kot wiszeleő,</l>
+<l xml:id="l.2">Jo Vtra wezeerleő</l>
+<l xml:id="l.3">Szent Jehowa Jstenem,</l>
+<l xml:id="l.4">Wisel<note type="critic" xml:id="note.1">viselj</note> egheszeggel,</l>
+<l xml:id="l.5">Szerény, bator sziwel</l>
+<l xml:id="l.6">Erőszicz lelkem bennem,</l>
+<l xml:id="l.7">Hogi az ellenszeggel</l>
+<l xml:id="l.8">Jo giors witezekkel</l>
+<l xml:id="l.9">Kedwem meg ne chw̋ kkennien!</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10"><hi rend="bold">D</hi>ericzd fel napomot,</l>
+<l xml:id="l.11">Teriezd Wilágomot</l>
+<l xml:id="l.12"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Jó hirrel bechw̋lettel,</lem><rdg wit="#W1" xml:id="rdg.1"><del rend="overwritten">B</del><add type="overwrite">J</add>ó</rdg></app></l>
+<l xml:id="l.13">Hogi az Poganiokon,</l>
+<l xml:id="l.14">Hatalmat azokon</l>
+<l xml:id="l.15">Wehessem dichirettel,</l>
+<l xml:id="l.16">Hiwán szegitszegűl,</l>
+<l xml:id="l.17">Newedet nagi szentűl,</l>
+<l xml:id="l.18">Járhassak szerenchewel.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19"><hi rend="bold">J</hi>oo elmét ahoz adgẏ,</l>
+<l xml:id="l.20">Engemet el ne hagi,</l>
+<l xml:id="l.21">Szálwán ellenszegemmel,</l>
+<l xml:id="l.22">Batorits sziwemet,</l>
+<l xml:id="l.23">Erőszits hitemet</l>
+<l xml:id="l.24">Egiűt az vitezimmel,</l>
+<l xml:id="l.25">Hogi harczolliák batran,</l>
+<l xml:id="l.26">Jó Lowamnak hatán</l>
+<l xml:id="l.27">Forgolodwán io Serrel.<note type="critic" xml:id="note.2">olv. jó szerrel = jó móddal, szerencsésen</note></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28"><hi rend="bold">W</hi>ram, welem woltál</l>
+<l xml:id="l.29">S.mellettem harczoltal,</l>
+<l xml:id="l.30">Serenchiessen aldottál,</l>
+<l xml:id="l.31">Jó hirrel es newel,</l>
+<l xml:id="l.32">Nagi io bechw̋ lettel</l>
+<l xml:id="l.33">Feiemet latogadtál,</l>
+<l xml:id="l.34">Jrgalmaszagodbol,</l>
+<l xml:id="l.35">Kedues io Woltodbol</l>
+<l xml:id="l.36">Pogant megis gialaztal.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37"><hi rend="bold">E</hi>nged ez Vtannis,</l>
+<l xml:id="l.38">Tegedet keremis,</l>
+<l xml:id="l.39">Wezerelied vtunkot,</l>
+<l xml:id="l.40">Hogi az Pogani nepet</l>
+<l xml:id="l.41">Megis Segieniczed,</l>
+<l xml:id="l.42">Wagia .S Eölie azokot,</l>
+<l xml:id="l.43">Az eő Sandekiokot,</l>
+<l xml:id="l.44">Weddel hatalmokot,</l>
+<l xml:id="l.45">Ne lasák meg hazokot!</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46"><hi rend="bold">SE</hi>renchiessen wezes,</l>
+<l xml:id="l.47">Mínket el ne weses<note type="critic" xml:id="note.3">olv. veszess = veszejts</note></l>
+<l xml:id="l.48">Pogani altal benűnket,</l>
+<l xml:id="l.49">Ellenben ne mondgia,</l>
+<l xml:id="l.50">S.kẏ oltalmazoӳa,</l>
+<l xml:id="l.51">Meg kotozwen kezűnket,</l>
+<l xml:id="l.52">Batran álẏ melettűnk,</l>
+<l xml:id="l.53">Mert wagi mi paizunk,<note type="critic" xml:id="note.4">három szótag: paizsunk. (Vö.
+                        <persName>Balassinál<idno type="ITIdata">Q2101</idno></persName>: „Te vagy szál kópiám, te vagy éles
+                            szablyám” <bibl><abbr>BBÖM</abbr> 83.</bibl>)</note></l>
+<l xml:id="l.54">Rád hadgiuk mi igiűnket.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.55"><hi rend="bold">LE</hi>gien hát io kedwem,</l>
+<l xml:id="l.56">Minden remeniszegem,</l>
+<l xml:id="l.57">Vram vėgik te benned.</l>
+<l xml:id="l.58">Fel fualkod<note type="critic" xml:id="note.5">olv. fualkott = fuvalkodott</note> sziwel,</l>
+<l xml:id="l.59">Nagi kėrkedesemmel</l>
+<l xml:id="l.60">Sziwem ne emelkedgien,</l>
+<l xml:id="l.61">Alazatossagal,</l>
+<l xml:id="l.62">Chendes allapattal</l>
+<l xml:id="l.63">Nagi hasnosȧn Teriedgien!</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.64"><hi rend="bold">NI</hi>nchen semmi alat<note type="critic" xml:id="note.6">olv.
+                        állat</note></l>
+<l xml:id="l.65">Főld es az Eegh alat,</l>
+<l xml:id="l.66">Az kẏ Te Tőled nem feel,</l>
+<l xml:id="l.67">Ha meg haragitnak,</l>
+<l xml:id="l.68">Bűnökkel meg Sértnek,</l>
+<l xml:id="l.69">Rut hire, neweis keel,</l>
+<l xml:id="l.70">De ha meg nem Sértnek,</l>
+<l xml:id="l.71">S.Te hozad siettnek,</l>
+<l xml:id="l.72">Aldod ió hirel, Newel.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.73"><hi rend="bold">FER</hi>geteges Selet</l>
+<l xml:id="l.74">S.Gialazatos newet</l>
+<l xml:id="l.75">Vram, forditsd en Tőlem,</l>
+<l xml:id="l.76">Pogáni ellenszeggem</l>
+<l xml:id="l.77">Tawostasd melőlem,</l>
+<l xml:id="l.78">Giozedelmet ne wegien,</l>
+<l xml:id="l.79">Segienitsed hartson,</l>
+<l xml:id="l.80">Mind Vitez piaczon</l>
+<l xml:id="l.81">V̋sd el<note type="critic" xml:id="note.7">olv. űzd el</note> messe en Tőlem.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.82"><hi rend="bold">E</hi>nnek előtteis</l>
+<l xml:id="l.83">Woltál melletemmis,</l>
+<l xml:id="l.84">Legien aldot szent newėd,</l>
+<l xml:id="l.85">Az Pogani nemzetet</l>
+<l xml:id="l.86">Altalunk meg werted,</l>
+<l xml:id="l.87">Az mint tettszet te neked,</l>
+<l xml:id="l.88">Sok seep mereszeggel,</l>
+<l xml:id="l.89">S.Tőb io witezekkel</l>
+<l xml:id="l.90">Latogadtad feiűnket.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.91"><hi rend="bold">N</hi>o Wítez Baratim,</l>
+<l xml:id="l.92">Jambor hw̋ szolgaim,</l>
+<l xml:id="l.93">Bator sziwel legietek!</l>
+<l xml:id="l.94">Tudom, hogi az Jsten</l>
+<l xml:id="l.95">Az vtannis welem</l>
+<l xml:id="l.96">Meg vidamit bennetek,</l>
+<l xml:id="l.97">Szerénẏ<note type="critic" xml:id="note.8">olv. serény = gyors</note> batorszaggal,</l>
+<l xml:id="l.98">Vitezẏ allapattal</l>
+<l xml:id="l.99">Mindent iol tess weletek.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.100"><hi rend="bold">CZ</hi>alard Alnoksagtol,</l>
+<l xml:id="l.101"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Rȧn<corr>k</corr> hozot nagi lesteől,</lem>
+<rdg wit="#W1" xml:id="rdg.2">Rán</rdg>
+</app></l>
+<l xml:id="l.102">Oẏ meg, vram, kegiesen,</l>
+<l xml:id="l.103">Eőriz az harts kőzőt,</l>
+<l xml:id="l.104">Vastagits kezunkőt,<note type="critic" xml:id="note.9">Vö. <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>
+<hi rend="italic">Katonák hadnagya</hi> 6. sorával: „Kópia rontásra
+                            karját vastagítja”. (<bibl><abbr>RJÖM</abbr> 70.</bibl>)</note></l>
+<l xml:id="l.105">Neez ránk nagi kegielmesen,</l>
+<l xml:id="l.106">Hogi hamis poganiszág,</l>
+<l xml:id="l.107">Hiteteö chalárdszágh,</l>
+<l xml:id="l.108">Hatalmat ne wehessen!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

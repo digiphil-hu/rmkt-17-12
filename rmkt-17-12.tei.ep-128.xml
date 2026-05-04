@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">128.</title>
+<title key="body" n="128" type="main">AZ SZERENCZE FORGANDOSÁGANAK NEM KÖL HINNI</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-128</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény I. része.
+                            61–66.</bibl></p>
+<p xml:id="crit.1.p.3">A 235–236. és 247. vsz. változata a <ref target="rmkt-17-12.tei.ep-136">136. sz. vers</ref> <persName>Zrínyin<idno type="ITIdata">Q247373</idno></persName> alapuló 116–117. és 124.
+                        szakasza. (Vö.!)</p>
+</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 128.</fw>
+<head type="title">AZ SZERENCZE FORGANDOSÁGANAK NEM KÖL HINNI</head>
+<fw corresp="Esterházy Pál" type="lg">CCXXX.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ô mely Boldogh az ki mások kárán tanul,</l>
+<l xml:id="l.2">Bölczeség uttyához mert az bátran iárul,</l>
+<l xml:id="l.3">Az gonosz szerencze uagyon attul táuul,</l>
+<l xml:id="l.4">El szép szabadságban, s-nem fél semmi kártul.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXI.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Sokszor bölczeknekis elméiek megh kábul,</l>
+<l xml:id="l.6">Miuel állandoság nem gyün gyarloságbul,</l>
+<l xml:id="l.7">Sokat uégez ember néha okosságbul,</l>
+<l xml:id="l.8">De leg ottan fordul szerencze uoltábul.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXII.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Vérrel uerétékez, s-fut az hituán fagyon,</l>
+<l xml:id="l.10">Véli hogy állando Boldogságot agyon,</l>
+<l xml:id="l.11">Nem hiszi szerencze markában szakagyon,</l>
+<l xml:id="l.12">Vagy egy kis édessért száz kesérüt aggyon.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXIII.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Kit szerenczétlenség igen táuul kerül</l>
+<l xml:id="l.14">Arrais uégtére rá döl uéletlenül,</l>
+<l xml:id="l.15">Mennél nagyob hegyen kinczes méltoság ül,</l>
+<l xml:id="l.16">Az szerencze miátt annál aláb merül.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXIV.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Örül az szerencze ember ueszésében,</l>
+<l xml:id="l.18">Azért föl emeli ö diczöségében,</l>
+<l xml:id="l.19">Hogy gyönyörködhessék szörnyü esésében,</l>
+<l xml:id="l.20">Mint kösziklán Iuhász könek görgésében.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXV.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Gonosz Istentelen szerencze egy nyomban,</l>
+<l xml:id="l.22">Nem iár mindenkoron, mert minden orában</l>
+<l xml:id="l.23">Változik, és uagyon néha uig orczában,</l>
+<l xml:id="l.24">Néha penigh futkos tellyes háboruban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXVI.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Semmiben nem örül czak az uáltozásban,</l>
+<l xml:id="l.26"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Mind éiel mind nappal, sött szempillantásban,</lem>
+<rdg wit="#W1" xml:id="rdg.1"><del><unclear>minden orában</unclear></del><add type="corr">szempillantásban</add></rdg>
+</app></l>
+<l xml:id="l.27">Változtattya magát álhatatlanságban</l>
+<l xml:id="l.28">Leghföképpen penigh kedues állapatban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXVII.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Mert ez minden ionak dühös ellensége,</l>
+<l xml:id="l.30">Altala megh romlik ember erössége,</l>
+<l xml:id="l.31">Vitéz Ferfiaknak lágyul kemensége,</l>
+<l xml:id="l.32">Midön esztendöknek el iöuend uénsége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXVIII.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Birodalmat igér széles Tengereken,</l>
+<l xml:id="l.34">Aranyal, ezustel biztat nagy hegyeken,</l>
+<l xml:id="l.35">Vigassággal hordoz leuegö egeken,</l>
+<l xml:id="l.36">De hamar el taszit az czuszos iegeken.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXIX.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Craesus királynakis mely nagy kinczet adot,</l>
+<l xml:id="l.38">Darius Czászárnak sok szépet mutatot,</l>
+<l xml:id="l.39"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Sött Nagy Sándornakis Országokot osztot,</lem>
+<rdg wit="#W1" xml:id="rdg.2">[Előbb:] sok Országot</rdg>
+</app></l>
+<l xml:id="l.40">De uégtére nézzed ezekkel mint iáczot.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXXXX.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Hectort Achylessel álnokul el ueszté,</l>
+<l xml:id="l.42">Ulyssest Aiaxot az törben ereszté,</l>
+<l xml:id="l.43">Priamus kiralytis halállal ieszté,</l>
+<l xml:id="l.44">Dido királynetis tüzzel megh emészté.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLI.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Ez az Szerenczének álnok mestersége,</l>
+<l xml:id="l.46">Hogy kinra uezessen mindent ö szépsége,</l>
+<l xml:id="l.47">Ideigh láttassék fényes diczösége,</l>
+<l xml:id="l.48">Egy szempillantásban halál légyen uége.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCLXII.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Tudatlannal szokot szerencze iárkálni,</l>
+<l xml:id="l.50">De mégh Bölczeketis tud néha trefálni,</l>
+<l xml:id="l.51">Bator sziuekkelis mér ö szemben álni,</l>
+<l xml:id="l.52">Isten féloketis megh szokot probálni.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLIII.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Forgo golyobissán nézi ez uilagot,</l>
+<l xml:id="l.54">Kezeiben hordoz békességes ágot,</l>
+<l xml:id="l.55">Sziuekben gerieszti az nagy kéuánságot,</l>
+<l xml:id="l.56">Igér mindeneknek örök Boldogságot.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLIV.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">De mely gyorsan fordul kinczes gazdagsága,</l>
+<l xml:id="l.58">Mely hamar el mulik álnok uigassága,</l>
+<l xml:id="l.59">Legh ottan ki teczik álhatatlansága,</l>
+<l xml:id="l.60">Ki mutattya magát himes bolondsága.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLV.</fw>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Kin az nagy szerencze birodalmot uészen</l>
+<l xml:id="l.62">Hirében neuében kissebséget tészen</l>
+<l xml:id="l.63">Kinczei köszt uagyon az koldulás készen,</l>
+<l xml:id="l.64">Sött ha most legh nagyob, maid legh kisseb lészen.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLVI.</fw>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Esztelen ki uészi ennek aiándekiát,</l>
+<l xml:id="l.66">Mert az nem ösméri gonosz állapattyát,</l>
+<l xml:id="l.67">Nem láttya szerencze ualtozando uoltát,</l>
+<l xml:id="l.68">Auagy szellel menö, s-el mulo iátékiát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLVII.</fw>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Mégis mint egy Echo hangos szozat után,</l>
+<l xml:id="l.70"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Vagy egy fekete uas kemény magnes után,</lem>
+<rdg wit="#W1" xml:id="rdg.3">[Előbb:] kemény magnes fekete uas</rdg>
+</app></l>
+<l xml:id="l.71"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Auagy Czinegéczke megh czalo sip után,</lem>
+<rdg wit="#W1" xml:id="rdg.4">[Előbb:] Auagy tudatlan füry</rdg>
+</app></l>
+<l xml:id="l.72">Emberek ugy futnak az Szerencze után.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLVIII.</fw>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Sokan kész akartua esnek háloiában,</l>
+<l xml:id="l.74">Öruendezue mennek nehéz fogságában,</l>
+<l xml:id="l.75">Bátrán mulatoznak szines igáiában,</l>
+<l xml:id="l.76">Mégh el burettatnak keserues hamuában.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXLIX.</fw>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Boldogh ki szerenczen el nem bizza magát,</l>
+<l xml:id="l.78">Sött kész sziuuel uária álhatatlanságát,</l>
+<l xml:id="l.79">Nem szemléli gyakran szines czalárdságát,</l>
+<l xml:id="l.80">Es táuul kerüli keserues rabságát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCL.</fw>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Ha anyra uiszed te méltoságodat</l>
+<l xml:id="l.82">Hogy minden czudállya hatalmasságodat,</l>
+<l xml:id="l.83">Lássad el ne roncza nagy gazdagságodat</l>
+<l xml:id="l.84">Az gonosz Szerencze, szép Ifiuságodat.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

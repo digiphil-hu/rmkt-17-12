@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">95.</title>
+<title key="body" n="95" type="main">[ÁTOK]</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-95</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM II</abbr>,
+                            398–402.</bibl>
+<title>Átok</title> címmel <persName>Balassi Bálint<idno type="ITIdata">Q2101</idno></persName> szerzeményeként közölte <bibl><hi rend="smallcaps">Toldy Ferenc</hi>: <title>Magyar költői
+                                régiségek</title>. Pest és Bécs 1828. 30–36.</bibl> Forrásáról
+                        semmit sem mondott. Később (<bibl><title>A magyar költészet
+                                története</title>. Pest 1854. II, 89</bibl>) helyesbítette
+                        tévedését.</p>
+<p xml:id="crit.1.p.3">A versfők értelme: <hi rend="smallcaps">éti ajándék helet vissavalo áldása</hi>. A szöveg után záradék:
+                        „Finis”.</p>
+<p xml:id="crit.1.p.4"> A lap alján őrszóként a Be jaro vers címszó olvasható.</p>
+<p xml:id="crit.1.p.5">A vers az elején csonka. Az ÉTI elől legalább a HÚSV betűket kiadó versszakok
+                        hiányoznak. De a birtokos személyraggal ellátott utolsó szó (ÁLDÁSA) arra
+                        enged következtetni, hogy a <hi rend="smallcaps">balassa bálint</hi> nevét formáló strófák is
+                        megelőzték a jelenleg csonka szerzeményt.</p>
+<p xml:id="crit.1.p.6">Ezt a feltevést megerősíti, hogy a Balassa család levéltárában egy
+                        paszkvillusra írt felelet található. (<bibl>OL P 1776. 19. cs. 11.
+                            tétel.</bibl>) A nehezen, helyenként egyáltalán nem olvasható megfakult
+                        írás betűvonásai, a betűk dűlésszöge <persName>Balassa Bálint</persName>
+                        kézírására emlékeztetnek. A fogalmazványnak tetsző írásnak korabeli, de más
+                        kéztől származó címe: „Versus Hungarici Valentini Balassiani.” A
+                            <persName>Balassa Antaltól</persName> készíttetett versmásolatokban
+                        kétszer is megvan (<bibl>P. 1761. 2. cs. 3. tétel.</bibl>) számos
+                        félreolvasással, több kihagyással; nemcsak szavak, egész sorok hiányoznak.
+                        Szövege a következő: <lg xml:id="crit.1.lg.1">
+<l xml:id="crit.1.l.1">Kosontem okossat,</l>
+<l rend="level_2" xml:id="crit.1.l.2">Nem bolongiat s rozzat</l>
+<l rend="level_4" xml:id="crit.1.l.3">Rendeknek az giolesben,</l>
+<l xml:id="crit.1.l.4">Kerdvén, mit mivelnek,</l>
+<l rend="level_2" xml:id="crit.1.l.5">Vélem sokan elnek,</l>
+<l rend="level_4" xml:id="crit.1.l.6">Hazontalan ülesben;</l>
+<l xml:id="crit.1.l.7">Sokan giololsegben</l>
+<l rend="level_2" xml:id="crit.1.l.8">Es njelveskedesben</l>
+<l rend="level_4" xml:id="crit.1.l.9">S vannak az henyelesben.</l>
+</lg>
+<lg xml:id="crit.1.lg.2">
+<l xml:id="crit.1.l.10">Latek egi pasquillust,</l>
+<l rend="level_2" xml:id="crit.1.l.11">Mockos disno stylust,</l>
+<l rend="level_4" xml:id="crit.1.l.12">S nem erdemel valaztot;</l>
+<l xml:id="crit.1.l.13">Noha ki ellen van,</l>
+<l rend="level_2" xml:id="crit.1.l.14">Tudhatom, hogi nilvan</l>
+<l rend="level_4" xml:id="crit.1.l.15">Vet Urtul olj malaztot,</l>
+<l xml:id="crit.1.l.16">Hogi meg felelhetne,</l>
+<l rend="level_2" xml:id="crit.1.l.17">S abba ganejt vetne,</l>
+<l rend="level_4" xml:id="crit.1.l.18">Kit ö most czak hallaztott.</l>
+</lg>
+<lg xml:id="crit.1.lg.3">
+<l xml:id="crit.1.l.19">De mivel en latom,</l>
+<l rend="level_2" xml:id="crit.1.l.20">Hogi nekem baratom,</l>
+<l rend="level_4" xml:id="crit.1.l.21">S Balassa Balinth sem vét,</l>
+<l xml:id="crit.1.l.22">Annak ki ellene</l>
+<l rend="level_2" xml:id="crit.1.l.23">Ir, mert hazud benne,</l>
+<l rend="level_4" xml:id="crit.1.l.24">Nem kereshetem kedvit,</l>
+<l xml:id="crit.1.l.25">S Pasquillus cinalot</l>
+<l rend="level_2" xml:id="crit.1.l.26">Mint fosos seg njalot</l>
+<l rend="level_4" xml:id="crit.1.l.27">Giolöl sivem s hatra vét.</l>
+</lg>
+<lg xml:id="crit.1.lg.4">
+<l xml:id="crit.1.l.28">Irs uram batiarul,</l>
+<l rend="level_2" xml:id="crit.1.l.29">S hazuts, mert en arrul</l>
+<l rend="level_4" xml:id="crit.1.l.30">Azt tudom, mas orzagban</l>
+<l xml:id="crit.1.l.31">S Lengielek kozot volt,</l>
+<l rend="level_2" xml:id="crit.1.l.32">S huzomban lakott ott</l>
+<l rend="level_4" xml:id="crit.1.l.33">Sok edeig az tajban,</l>
+<l xml:id="crit.1.l.34">Oztan Bethlehemnil,</l>
+<l rend="level_2" xml:id="crit.1.l.35">Azert, disno, ennil</l>
+<l rend="level_4" xml:id="crit.1.l.36">Job, sot veznél az sarban!</l>
+</lg>
+<lg xml:id="crit.1.lg.5">
+<l xml:id="crit.1.l.37">Bolond s fattiu voltod</l>
+<l rend="level_2" xml:id="crit.1.l.38">Irasodbul, latod,</l>
+<l rend="level_4" xml:id="crit.1.l.39">Ki teczik, mert azt vallod,</l>
+<l xml:id="crit.1.l.40">Eginek tob attia van.</l>
+<l rend="level_2" xml:id="crit.1.l.41">Magadrul irs nilvan,</l>
+<l rend="level_4" xml:id="crit.1.l.42">Masrul lenni nem hallod.</l>
+<l xml:id="crit.1.l.43">Iol tudta kurvanjad,</l>
+<l rend="level_2" xml:id="crit.1.l.44">Apad hanj. Ne banjad</l>
+<l rend="level_4" xml:id="crit.1.l.45">Az igazat, s be falod.</l>
+</lg>
+<lg xml:id="crit.1.lg.6">
+<l xml:id="crit.1.l.46">Ki Balinth ellen sol,</l>
+<l rend="level_2" xml:id="crit.1.l.47">(Ki ki gondold meg jol),</l>
+<l rend="level_4" xml:id="crit.1.l.48">Vagi eregi vagi <unclear>gioszse</unclear>.</l>
+<l xml:id="crit.1.l.49">Avagi hogi ellenseg,</l>
+<l rend="level_2" xml:id="crit.1.l.50">Avagi ros emberseg</l>
+<l rend="level_4" xml:id="crit.1.l.51">Vezerle, vagi nincz eze,</l>
+<l xml:id="crit.1.l.52">De ki jol ösmeri,</l>
+<l rend="level_2" xml:id="crit.1.l.53">Es rancor nem eri,</l>
+<l rend="level_4" xml:id="crit.1.l.54">Vele nem vis az ozze.</l>
+</lg>
+<lg xml:id="crit.1.lg.7">
+<l xml:id="crit.1.l.55">Mi, ö somzedsaga</l>
+<l rend="level_2" xml:id="crit.1.l.56">Velliuk, hazassaga</l>
+<l rend="level_4" xml:id="crit.1.l.57">Istenes s jo peldaju.</l>
+<l xml:id="crit.1.l.58">Ki hazud ez ellen,</l>
+<l rend="level_2" xml:id="crit.1.l.59">Mint it, mint mas helien</l>
+<l rend="level_4" xml:id="crit.1.l.60">Az czak kurva anjaju,</l>
+<l xml:id="crit.1.l.61">Fertelmes ileto,</l>
+<l rend="level_2" xml:id="crit.1.l.62">Gylkos s mast étetö,</l>
+<l rend="level_4" xml:id="crit.1.l.63">Rut njelvö, dohos saju.</l>
+</lg>
+<lg xml:id="crit.1.lg.8">
+<l xml:id="crit.1.l.64">Laknak egiessegben</l>
+<l rend="level_2" xml:id="crit.1.l.65">S nem vezekedesben,</l>
+<l rend="level_4" xml:id="crit.1.l.66">Tudgiuk s nezok, beselik,</l>
+<l xml:id="crit.1.l.67">Egi mast mint tiztelik,</l>
+<l rend="level_2" xml:id="crit.1.l.68">Seretik, beczülik,</l>
+<l rend="level_4" xml:id="crit.1.l.69">Isteneketis félik;</l>
+<l xml:id="crit.1.l.70">Noha kerestekben</l>
+<l rend="level_2" xml:id="crit.1.l.71">S megis seretetben</l>
+<l rend="level_4" xml:id="crit.1.l.72">Világokat mint élik.</l>
+</lg>
+<lg xml:id="crit.1.lg.9">
+<l xml:id="crit.1.l.73">Ö Tarsa olj Person,</l>
+<l rend="level_2" xml:id="crit.1.l.74">Hogi oveg, se barsonj;</l>
+<l rend="level_4" xml:id="crit.1.l.75">Se heveder ö nala</l>
+<l xml:id="crit.1.l.76">Nem kedves, s sovenjen,</l>
+<l rend="level_2" xml:id="crit.1.l.77">Mint mas, nem akad fen,</l>
+<l rend="level_4" xml:id="crit.1.l.78">...........ság halala,</l>
+<l xml:id="crit.1.l.79">Ura hivsegivel</l>
+<l rend="level_2" xml:id="crit.1.l.80">S egiezö sivivel</l>
+<l rend="level_4" xml:id="crit.1.l.81">Orvend, mert fel talalá.</l>
+</lg>
+<lg xml:id="crit.1.lg.10">
+<l xml:id="crit.1.l.82">Kurvanjad olj mokust</l>
+<l rend="level_2" xml:id="crit.1.l.83">Tartot, ki merö nust,</l>
+<l rend="level_4" xml:id="crit.1.l.84">S czafrangos also soknjat;</l>
+<l xml:id="crit.1.l.85">Azert ki oliat irt,</l>
+<l rend="level_2" xml:id="crit.1.l.86">S lud mergeuel nem birt,</l>
+<l rend="level_4" xml:id="crit.1.l.87">Botlot, s esetis hanjat.</l>
+<l xml:id="crit.1.l.88">Ki segitetteis</l>
+<l rend="level_2" xml:id="crit.1.l.89">S ki javallatais,</l>
+<l rend="level_4" xml:id="crit.1.l.90">Emlitik az kurvanját.</l>
+</lg>
+<lg xml:id="crit.1.lg.11">
+<l xml:id="crit.1.l.91">O kurva eletö</l>
+<l rend="level_2" xml:id="crit.1.l.92">S ördog termezeto,</l>
+<l rend="level_4" xml:id="crit.1.l.93">Sent hazassag rutito!</l>
+<l xml:id="crit.1.l.94">Nem irs hazonlokrul,</l>
+<l rend="level_2" xml:id="crit.1.l.95">S Hermophroditakrul</l>
+<l rend="level_4" xml:id="crit.1.l.96">Vagi ki mast haborito.</l>
+<l xml:id="crit.1.l.97">Vagi ura sakallat</l>
+<l rend="level_2" xml:id="crit.1.l.98">Tepo, és … fiat</l>
+<l rend="level_4" xml:id="crit.1.l.99">Törlö s harczal hodito.</l>
+</lg>
+<lg xml:id="crit.1.lg.12">
+<l xml:id="crit.1.l.100">Ha melj sajha ejel</l>
+<l rend="level_2" xml:id="crit.1.l.101">O egi testvérével</l>
+<l rend="level_4" xml:id="crit.1.l.102">Férfj köntozbe vala,</l>
+<l xml:id="crit.1.l.103">S szeren talaltatot,</l>
+<l rend="level_2" xml:id="crit.1.l.104">Süt meg fagattatot,</l>
+<l rend="level_4" xml:id="crit.1.l.105">Fegiveris uolt ö nala.</l>
+<l xml:id="crit.1.l.106">Nem sok heja annak,</l>
+<l rend="level_2" xml:id="crit.1.l.107">Hogi latorsaganak</l>
+<l rend="level_4" xml:id="crit.1.l.108">Zolgja nem lün halala.</l>
+</lg>
+<lg xml:id="crit.1.lg.13">
+<l xml:id="crit.1.l.109">Hajat, Parukajat</l>
+<l rend="level_2" xml:id="crit.1.l.110">Es valami Gombjat</l>
+<l rend="level_4" xml:id="crit.1.l.111">Mondod lenni masenak.</l>
+<l xml:id="crit.1.l.112">S hazucz, mestere él,</l>
+<l rend="level_2" xml:id="crit.1.l.113">Meg vallia, mert nem fél,</l>
+<l rend="level_4" xml:id="crit.1.l.114">O atta Balassinak.</l>
+<l xml:id="crit.1.l.115">Azert hazuksaktul</l>
+<l rend="level_2" xml:id="crit.1.l.116">.......................................</l>
+<l rend="level_4" xml:id="crit.1.l.117">Njeluek hatrab allianak.</l>
+</lg>
+<lg xml:id="crit.1.lg.14">
+<l xml:id="crit.1.l.118"> ......................... lovat</l>
+<l rend="level_2" xml:id="crit.1.l.119">Emlegetz olban, vagi</l>
+<l rend="level_4" xml:id="crit.1.l.120">Ha magadat ösmernéd,</l>
+<l xml:id="crit.1.l.121">Ros sotyros njelvednek</l>
+<l rend="level_2" xml:id="crit.1.l.122">S kurvas erkülczednek</l>
+<l rend="level_4" xml:id="crit.1.l.123">Mergét böven nem mernéd.</l>
+<l xml:id="crit.1.l.124">S hogi gialazatos vagj,</l>
+<l rend="level_2" xml:id="crit.1.l.125">Rut hired pedig nagj,</l>
+<l rend="level_4" xml:id="crit.1.l.126">Keves ezzel felerned.</l>
+</lg>
+<lg xml:id="crit.1.lg.15">
+<l xml:id="crit.1.l.127">Az te hazad nepé</l>
+<l rend="level_2" xml:id="crit.1.l.128">Bordél háznak kepé,</l>
+<l rend="level_4" xml:id="crit.1.l.129">Es hever undogsagban,</l>
+<l xml:id="crit.1.l.130">Mert karos vetekben</l>
+<l rend="level_2" xml:id="crit.1.l.131">S te minden ros bünben</l>
+<l rend="level_4" xml:id="crit.1.l.132">Torkig Usol rutsagban,</l>
+<l xml:id="crit.1.l.133">Semmi tekentetben,</l>
+<l rend="level_2" xml:id="crit.1.l.134">Fertelmes eletben,</l>
+<l rend="level_4" xml:id="crit.1.l.135">Mindenkor hazugsagban.</l>
+</lg>
+<lg xml:id="crit.1.lg.16">
+<l xml:id="crit.1.l.136">Azért eletednek</l>
+<l rend="level_2" xml:id="crit.1.l.137">S feslet erkülczednek</l>
+<l rend="level_4" xml:id="crit.1.l.138">Te mi vegét varhatod?</l>
+<l xml:id="crit.1.l.139">Menni vetket nevels,</l>
+<l rend="level_2" xml:id="crit.1.l.140">Istrangot erdemels,</l>
+<l rend="level_4" xml:id="crit.1.l.141">Karot s tüzet, jol latot,</l>
+<l xml:id="crit.1.l.142">Mert nincz olian vetek,</l>
+<l rend="level_2" xml:id="crit.1.l.143">Az meli mind egi étek</l>
+<l rend="level_4" xml:id="crit.1.l.144">Nem volt volna falatod.</l>
+</lg>
+<lg xml:id="crit.1.lg.17">
+<l xml:id="crit.1.l.145">Most maga nem felel,</l>
+<l rend="level_2" xml:id="crit.1.l.146">De mogiaval s helliel</l>
+<l rend="level_4" xml:id="crit.1.l.147">Talal mas ödöt arra,</l>
+<l xml:id="crit.1.l.148">Solgaja minap irt,</l>
+<l rend="level_2" xml:id="crit.1.l.149">Engem szoban is kirt,</l>
+<l rend="level_4" xml:id="crit.1.l.150">Megis irjak savara,</l>
+<l xml:id="crit.1.l.151">Felelliek disnonak</l>
+<l rend="level_2" xml:id="crit.1.l.152">S ros karomkodonak</l>
+<l rend="level_4" xml:id="crit.1.l.153">Bolond pasquillusara.</l>
+</lg>
+<lg xml:id="crit.1.lg.18">
+<l xml:id="crit.1.l.154">De vagion az umak</l>
+<l rend="level_2" xml:id="crit.1.l.155">Balassa Balinthnak</l>
+<l rend="level_4" xml:id="crit.1.l.156">Egi husvetj aldasa,</l>
+<l xml:id="crit.1.l.157">Melliet irt, s van abban</l>
+<l rend="level_2" xml:id="crit.1.l.158">Az vissa valoban</l>
+<l rend="level_4" xml:id="crit.1.l.159">Valas, akarki lassa,</l>
+<l xml:id="crit.1.l.160">Mind, mit irtak s irnak,</l>
+<l rend="level_2" xml:id="crit.1.l.161">S ellene irhatnak,</l>
+<l rend="level_4" xml:id="crit.1.l.162">Ot az valast adasa.</l>
+</lg>
+<lg xml:id="crit.1.lg.19">
+<l xml:id="crit.1.l.163">Olvasd azt, ros author!</l>
+<l rend="level_2" xml:id="crit.1.l.164">Vagi kurva, vagi lator,</l>
+<l rend="level_4" xml:id="crit.1.l.165">Ki irtad vagi irattad.</l>
+<l xml:id="crit.1.l.166">Es magadra erczed,</l>
+<l rend="level_2" xml:id="crit.1.l.167">S azutan ne serczed,</l>
+<l rend="level_4" xml:id="crit.1.l.168">Mi ninc rajtad s alattad,</l>
+<l xml:id="crit.1.l.169">Ordegnek lelkedet</l>
+<l rend="level_2" xml:id="crit.1.l.170">S kurvaknak testedet</l>
+<l rend="level_4" xml:id="crit.1.l.171">Valliad inkab, hogj attad!</l>
+</lg>
+<lg xml:id="crit.1.lg.20">
+<l xml:id="crit.1.l.172">De faratsagodat</l>
+<l rend="level_2" xml:id="crit.1.l.173">S sitkozodasodat</l>
+<l rend="level_4" xml:id="crit.1.l.174">Meg sem hagiom hejaban;</l>
+<l xml:id="crit.1.l.175">Az author fejere</l>
+<l rend="level_2" xml:id="crit.1.l.176">Irtam es njelvére,</l>
+<l rend="level_4" xml:id="crit.1.l.177">Sar s az serint sajaban;</l>
+<l xml:id="crit.1.l.178">S ha meg syd s ezt bannja,</l>
+<l rend="level_2" xml:id="crit.1.l.179">Felesege s anja</l>
+<l rend="level_4" xml:id="crit.1.l.180">Öis kurva magaban.</l>
+</lg> A 18. versszakból kétségtelenül kitűnik, hogy ott erről a „Balassa
+                        Bálintnak húsvéti ajándék helet vissavalo áldásá”-ról van szó, melyet a
+                        Balassát támadó ismeretlen paszkvillista feleletként könyvelhetetett el
+                        mocskolódó versére. Az alantasabb, durvább hang a paszkvillus műfaj
+                        jellemzője. Az „Átok” című vers tanúsága szerint költőnk előtt nem volt
+                        ismeretlen ez az írásmód.</p>
+<p xml:id="crit.1.p.7">A 17. strófából azonban az is nyilvánvaló, hogy a paszkvillusra írt fenti
+                        feleletet nem <persName>Balassa</persName> szerezte, hanem valaki, aki
+                        költőnk barátjának mondja magát, aki a szomszédságában élt. (Vö. a 4.
+                        versszakkal!) Személyét nem ismerjük, felelete keletkezésének pontos idejét
+                        sem. Ez utóbbira valamennyire következtethetünk az 1. versszakból. A
+                        „haszontalan ülés” bizonyára az <date when="1662">1662-es</date> országgyűlésre vonatkozik.
+                            <persName>Szunyogh András</persName> árvái ekkor fordultak panasszal a
+                        rendekhez, hogy <persName>Balassa Bálint</persName> jószágaikat,
+                        irományaikat hatalmasul elvette, azokat magánál tartja. (<bibl><hi rend="smallcaps">Jean
+                            Bérenger</hi>: <title>Les „Gravamina” Remontrances des Diètes de Hongrie de
+                                1655 à 1681</title>. Paris 1973. 261–62.</bibl>) Erre az időtájra
+                        utal a 8. strófa is, mely <persName>Balassa Bálintnak</persName>
+<persName>Szunyogh Katalinnal</persName> való harmonikus házasságáról
+                        beszél.</p>
+<p xml:id="crit.1.p.8">A versből az is kitűnik, hogy a paszkvillus nemcsak <persName>Balassa
+                            Bálintot</persName> támadta, hanem egyik atyafiát is, akit a vers „uram
+                        bátya”-ként említ, s azt mondja róla, hogy huzamosabban Lengyelországban
+                        lakott, azután meg <persName>Bethlennél</persName>. Ez a személy
+                            <persName>Balassa Zsigmond</persName>, költőnk nagyapja. Az ő felesége
+                        volt lengyel nő, ő volt <persName>Bethlen Gábor</persName> egyik főembere
+                        (†<date when="1623">1623</date>).</p>
+<p xml:id="crit.1.p.9">Egyébként a Balassák egymás közti kapcsolata, családi élete közismerten
+                        sokszor volt zilált és zavaros. (Vö. <bibl><hi rend="smallcaps">Varga Imre</hi>: <title>Tallózások
+                                Madách Gáspár körül</title>. <abbr>ItK</abbr> 1968, 72–73.</bibl>)
+                        Valamilyen felhánytorgatott „fertelmességre” célozhatnak a 12–13.
+                        versszakok. A „bordélyház undokságát”, a „rossz, fertelmes élet”, a „feslett
+                        erkölcs” vádjait a feleletíró, a műfaj szabályai szerint, természetesen a
+                        paszkvillástára fordítja vissza. (Vö. <bibl><hi rend="smallcaps">Varga Imre</hi>: <title>Egy Balassa
+                                Bálint védelmére írt paszkvillus</title>. <abbr>ItK</abbr> 1986. 1.
+                            szám.</bibl>)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2.
+                        tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 95.</fw>
+<head type="title"><supplied>ÁTOK</supplied></head>
+<app xml:id="app.1"><lem wit="#KK" xml:id="lem.1"><p xml:id="p.1">......................................................</p></lem><rdg wit="#W1" xml:id="rdg.1"><gap extent="unknown" reason="damaged" unit="line"/></rdg></app>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">E</hi>les elméd légyén, feleicsd el neuedet,</l>
+<l rend="level_2" xml:id="l.2">Mint Mesalla,<note type="critic" xml:id="note.1"><persName>Marcus Valerius Messala
+                                Corvinus</persName> (i. e. 64-i. sz. 13) római politikus, hadvezér,
+                            szónok.</note> ki nagj fáidalmat érezett,</l>
+<l rend="level_2" xml:id="l.3">Has csémer ki rágja teöböl köldokodet,</l>
+<l rend="level_2" xml:id="l.4">Hogj minden csudállya illj beteghségedet.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">T</hi>engeri csvdákis csudádra jeöjönek,</l>
+<l rend="level_2" xml:id="l.6">Hus euö madarak mind eözue gjüjönek,</l>
+<l rend="level_2" xml:id="l.7">Váruán, hogj hamarébb testeddel elljenek,</l>
+<l rend="level_2" xml:id="l.8">De roz széréncséden ökis el hüllyönek.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">I</hi>zzanju génjetcségh njuzza le keörmödet,</l>
+<l rend="level_2" xml:id="l.10">Keserues fáidalom gjeöteörje sziuedet,</l>
+<l rend="level_2" xml:id="l.11">Vér, holyagh es csipa el lepie szémedet,</l>
+<l rend="level_2" xml:id="l.12">S ne kivánnja senkj látnj rut szinedet.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">A</hi>ttkozzon, valakj halhattja hiredet,</l>
+<l rend="level_2" xml:id="l.14"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Szomjuhozza reghj barátod véredet,</lem>
+<rdg wit="#W1" xml:id="rdg.2"><del>sziue</del> véredet</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.15">Minden szolga-biro jria bé neuedet,</l>
+<l rend="level_2" xml:id="l.16">Kinzo laitoriára váruán széméljedet.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">J</hi>o szállás oztod léz, ezt számodra tartja,</l>
+<l rend="level_2" xml:id="l.18">Gyertjájátis mester csak keduedért mártja,</l>
+<l rend="level_2" xml:id="l.19">Sin vas<note type="critic" xml:id="note.2">Sin vas – a hóhér kínzó eszköze,
+                            vasabroncs.</note> miatt rajtad nem marad épp hártja,</l>
+<l rend="level_2" xml:id="l.20">Mert kéresben magát érted keués ártja.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">A</hi>kár lopo, fozto, akár gjlkos légjen,</l>
+<l rend="level_2" xml:id="l.22">De ualaki hohár<note type="critic" xml:id="note.3">hóhér</note> lajtorjára mégjen,</l>
+<l rend="level_2" xml:id="l.23">Ha égetö lezzis, de pajtársa<note type="critic" xml:id="note.4">pajtárssá, pajtásává</note>
+                        tégjen,</l>
+<l rend="level_2" xml:id="l.24">Es eö vallásának minden ember higjen.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">N</hi>e legjen hiteled sé feleségednel,</l>
+<l rend="level_2" xml:id="l.26">Sé pedigh más fele idegen embernél,</l>
+<l rend="level_2" xml:id="l.27">Vtálatosságod minden cselédednél,</l>
+<l rend="level_2" xml:id="l.28">Vnua légj magadis saját gjermekednél.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><hi rend="bold">D</hi>eneuér és bagolj ejjel kiálcsanak,</l>
+<l rend="level_2" xml:id="l.30">Almot szemeidre nejs bocsássonak,</l>
+<l rend="level_2" xml:id="l.31">Ez orzágh bolhaj ueled njugogjanak,</l>
+<l rend="level_2" xml:id="l.32">Njugodnod patkánjok ejjel se hagjonak.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><hi rend="bold">E</hi>ppen menj ártánj<note type="critic" xml:id="note.5">olv. mennyi ártány
+                            (herélt kandisznó)</note> orzágunkban vagjon,</l>
+<l rend="level_2" xml:id="l.34">Sábelliábannis,<note type="critic" xml:id="note.6">Sabelli a szabinok régies neve volt; az
+                            utalást azonban nem értjük.</note> azt mind üssék agjon,</l>
+<l rend="level_2" xml:id="l.35">Valakinek héja lézen, minden hagjon,</l>
+<l rend="level_2" xml:id="l.36">De sok kenesedtöl semmi sé maragjon.<note type="critic" xml:id="note.7">35–36 A sorok
+                            mondanivalója nem világos.</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">K</hi>vrua feleséged ollj fattyakat szülljön,</l>
+<l rend="level_2" xml:id="l.38">Kik keözül az egjk lábaidra dölljön,</l>
+<l rend="level_2" xml:id="l.39">Másik kezed fogva az njakadra üllyön,</l>
+<l rend="level_2" xml:id="l.40">Harmadik pátczázzon,<note type="critic" xml:id="note.8">pálcával verjen</note>
+                        csak hogj megh né ölljön.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3"><hi rend="bold">H</hi>alljon megh, kit keduelzz, éhel az
+                                öledben,</lem>
+<rdg wit="#W1" xml:id="rdg.3">keduel<del>s</del>zz</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.42">Vndok mérges féregh teremjen kebledben,</l>
+<l rend="level_2" xml:id="l.43">Jyeztö fantasma<note type="critic" xml:id="note.9">fantasma – agyrém</note> iárion
+                        szémelyedben,</l>
+<l rend="level_2" xml:id="l.44">Kuldusis öldezzen egéz életedben.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">E</hi>l táuozzon teöled minden gjönjörüségh,</l>
+<l rend="level_2" xml:id="l.46">Vralkogjék raitad gjeözhetetlen jnségh,</l>
+<l rend="level_2" xml:id="l.47">Emizze uelödet gond és keserüségh,</l>
+<l rend="level_2" xml:id="l.48">S ne táplálljon soha semmi io reménségh.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4"><hi rend="bold">L</hi>é tö<corr>r</corr>iék dérékad,
+                                lábayd fájjanak,</lem>
+<rdg wit="#W1" xml:id="rdg.4">Toiék</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.50">Egiczer smind sok heljen az férgek rágianak,</l>
+<l rend="level_2" xml:id="l.51">Minden felö czjpö állatok marionak,</l>
+<l rend="level_2" xml:id="l.52">Hogj valakj megh lát, monthassa jajjának.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53"><hi rend="bold">E</hi>gj lyuk mellet sé ménj, az kiben bé férnel,</l>
+<l rend="level_2" xml:id="l.54">Mingjárt njakra s feöre hogj bele né ternel,</l>
+<l rend="level_2" xml:id="l.55">Egy verem sé légjen, kiben bé nem esnel,</l>
+<l rend="level_2" xml:id="l.56">De teöbre tartatuán ott megis ne ueznél.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57"><hi rend="bold">T</hi>orkodonnis mérges varak fakagjonak,</l>
+<l rend="level_2" xml:id="l.58"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Jnayd testettöl mind el sza<corr>k</corr>agjanak,</lem>
+<rdg wit="#W1" xml:id="rdg.5">szagagjanak</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.59">Keö sziklák, teöreött fák beléd akagjonak,</l>
+<l rend="level_2" xml:id="l.60"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">S benne<corr>d</corr> csak egj egéz tagoth se
+                                haggjonak.</lem>
+<rdg wit="#W1" xml:id="rdg.6">bennet</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61"><hi rend="bold">V</hi>enusis kjnozzon, de haznod né légjen,</l>
+<l rend="level_2" xml:id="l.62">Csak hogj eöis prédat tagajdbol uégjen,</l>
+<l rend="level_2" xml:id="l.63">Cupido tegzeis semmit se éngeggjen,</l>
+<l rend="level_2" xml:id="l.64">Hogj minden állattol tested kint szenuegjen.</l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.65"><hi rend="bold">J</hi>gj kjnlongjál uégigh, s az földis sajnalljon,</l>
+<l rend="level_2" xml:id="l.66">Mjnden roz njaualja téged fel talaljon,</l>
+<l rend="level_2" xml:id="l.67">Kigjo, beka es gyk ueled sbenned hálljon,</l>
+<l rend="level_2" xml:id="l.68">Keönjebséggel soha senkj se kjnálljon.</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.69"><hi rend="bold">S</hi>zeörniü kinban hallod Titiust,<note type="critic" xml:id="note.10">Titüoszt Zeusz azzal büntette, hogy az alvilágban két keselyű újra meg
+                            újra kitépte kinövő máját.</note> Phylegiást,<note type="critic" xml:id="note.11">
+                            Phlegyas, a lapiták királya; mivel felgyújtotta Apollón templomát, az
+                            alvilágban azzal bűnhődött, hogy olyan szikla alatt kellett ülnie, mely
+                            már-már rászakad.</note></l>
+<l rend="level_2" xml:id="l.70">Aggja Jsten, hogj itt kinnal megh gjeöszzed azt,</l>
+<l rend="level_2" xml:id="l.71">Mjuel most roz uoltod engem buual fárazt,</l>
+<l rend="level_2" xml:id="l.72">S más magadnal jobbat bozzusággal szárazt.</l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.73"><hi rend="bold">S</hi>e uizen, se földön széréncsed né légjen,</l>
+<l rend="level_2" xml:id="l.74">Bocsattassál ala hordoban az hégjen,</l>
+<l rend="level_2" xml:id="l.75">Minden ellenséged roz uoltodrol tégjen,</l>
+<l rend="level_2" xml:id="l.76">S Herodes <unclear>Hidalma</unclear><note type="critic" xml:id="note.12">Herodes Hidalma – ? A sort nem tudjuk értelmezni. I. Herodes Agrippának
+                            férgek marták szét a testét. (<bibl>Ap. csel. 12,23.</bibl>) Talán a
+                            fájdalom szó rontott alakja.</note> rajtad praedát uégjen.</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.77"><hi rend="bold">A</hi>brázatod máshoz né légjen hasonlo,</l>
+<l rend="level_2" xml:id="l.78">Olljan légj, mint szamár uagj turos bénna lo,<note type="critic" xml:id="note.13">túros, azaz
+                            kisebesedett sánta ló</note></l>
+<l rend="level_2" xml:id="l.79"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Ez <corr>az</corr> kivánságom csak azoknak valo,</lem>
+<rdg wit="#W1" xml:id="rdg.7">Ez ez</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.80">Kik belém akadnak, mint eördöngös hállo.</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.81"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8"><hi rend="bold">V</hi>alamelire fordulz, Aeolus<note type="critic" xml:id="note.14">a szelek királya</note> kjnozza</lem>
+<rdg wit="#W1" xml:id="rdg.8"><del>mint</del> Aeolus</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.82">Megh dagatt orczádott fájdalomra hozza,</l>
+<l rend="level_2" xml:id="l.83">Orrodotjs hidegh Boreás<note type="critic" xml:id="note.15">északi szél</note> megh
+                        njuzza,</l>
+<l rend="level_2" xml:id="l.84">Es az egéz borét pofádnak le huzza.</l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.85"><hi rend="bold">A</hi>z té két füledis sok kjáltasokkal</l>
+<l rend="level_2" xml:id="l.86">S fantazmáktol szérzett nagj csattogásokkal,</l>
+<l rend="level_2" xml:id="l.87">Orrodis bé telljék undok foljásokkal,</l>
+<l rend="level_2" xml:id="l.88">S motczkologjék feyed rothat moslékokkal.</l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.89"><hi rend="bold">L</hi>ássad mind az által aztat szémejddel,</l>
+<l rend="level_2" xml:id="l.90">S halljad más dolgokra süket füleiddel,</l>
+<l rend="level_2" xml:id="l.91">Sött felis érhessed megh bodult elmeddel,</l>
+<l rend="level_2" xml:id="l.92"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Valamj kjnozhat, s az teobbit fel<corr>e</corr>iczd
+                                el.</lem>
+<rdg wit="#W1" xml:id="rdg.9">feliczd</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.24">
+<l xml:id="l.93"><hi rend="bold">O</hi>rrod péczkek<note type="critic" xml:id="note.16">vallatáskor használt
+                            feszítő fák</note> miatt éppen el szakagjon,</l>
+<l rend="level_2" xml:id="l.94">Vsteökéd mindén roz markában akagjon,</l>
+<l rend="level_2" xml:id="l.95">Olj bozzuságh miát epéd megh fakagjon,</l>
+<l rend="level_2" xml:id="l.96">De tested mégh nagjobb kjnokra maragjon.</l>
+</lg>
+<lg xml:id="lg.25">
+<l xml:id="l.97"><hi rend="bold">A</hi>lnoksággal telljes nyelued megh emizzen,</l>
+<l rend="level_2" xml:id="l.98">Ejjel, nappal Caron,<note type="critic" xml:id="note.17">Kharón szállította át az alvilági
+                            Sztüx folyón a megholtak lelkét.</note> Czerberus<note type="critic" xml:id="note.18">
+                            Kerberosz őrizte az alvilág bejáratát.</note> égessen,</l>
+<l rend="level_2" xml:id="l.99">Három furjának ostora verhessen,</l>
+<l rend="level_2" xml:id="l.100">Csak az egj lelkedböl praedát né uéhessen.</l>
+</lg>
+<lg xml:id="lg.26">
+<l xml:id="l.101"><hi rend="bold">L</hi>átásában két kint Szent János emlitett,</l>
+<l rend="level_2" xml:id="l.102">Az kiuel két angjal sokat megh emiztett,<note type="critic" xml:id="note.19">101–102 Vö. a
+                            Jelenések könyve 16. fejezetével; de hét angyalról és hét kínról van
+                            szó.</note></l>
+<l rend="level_2" xml:id="l.103">Abbays rézes légj, Pharaon hánj kint tett</l>
+<l rend="level_2" xml:id="l.104">Moses, Proserpina<note type="critic" xml:id="note.20">az alvilág királynője, de inkább
+                            jóindulatú</note> te reád<note type="critic" xml:id="note.21">egytagú!</note> ammit
+                        hintett.</l>
+</lg>
+<lg xml:id="lg.27">
+<l xml:id="l.105"><hi rend="bold">D</hi>obogjon szuntelen bus sziued féltedben,</l>
+<l rend="level_2" xml:id="l.106">Jajgatua ordicsáll keserüségedben,</l>
+<l rend="level_2" xml:id="l.107">Hasad mint kemenj dob álljon jjettedben,</l>
+<l rend="level_2" xml:id="l.108">S foházkoggjál sirván egéz életedben.</l>
+</lg>
+<lg xml:id="lg.28">
+<l xml:id="l.109"><hi rend="bold">A</hi>tkozott keönjveid ugj megh áragjonak,</l>
+<l rend="level_2" xml:id="l.110">Vak csipás szémejd hogj ki apagjonak,</l>
+<l rend="level_2" xml:id="l.111">Sok várakozások untigh fárazzanak,</l>
+<l rend="level_2" xml:id="l.112">Szintén utolsó csépp verigh fárazzonak.</l>
+</lg>
+<lg xml:id="lg.29">
+<l xml:id="l.113"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10"><hi rend="bold">S</hi>ziuedet annj rut mérges férégh
+                                jária,</lem>
+<rdg wit="#W1" xml:id="rdg.10">
+<del>f</del>
+<add type="corr">m</add>érges</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.114">Menny gondolatod gonozomat vária,</l>
+<l rend="level_2" xml:id="l.115">Vagj hiu barátomnak iauát nem akarja,</l>
+<l rend="level_2" xml:id="l.116">Eletedet párka uéghtére igj tarcsa.</l>
+</lg>
+<lg xml:id="lg.30">
+<l xml:id="l.117"><hi rend="bold">A</hi>z egéz házadbull három fa<note type="critic" xml:id="note.22">három fa –
+                            akasztófa</note> maragjon,</l>
+<l rend="level_2" xml:id="l.118">Kjre fiad által njakad fel akaggjon,</l>
+<l rend="level_2" xml:id="l.119">Féltedben hott ember harangja szot agjon,</l>
+<l rend="level_2" xml:id="l.120">S temetö varjaknak tested megh fakagjon,</l>
+<l rend="level_2" xml:id="l.121">Jstentöl illj átok feiedre szakaggjon.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

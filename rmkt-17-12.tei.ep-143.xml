@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">143.</title>
+<title key="body" n="143" type="main">AZ DRAGA KÖVEKRÖL VALO TÁNCZ ENEK</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-143</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény 70–75.
+                        lapján</bibl>.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 143.</fw>
+<head type="title">AZ DRAGA KÖVEKRÖL VALO TÁNCZ ENEK</head>
+<fw corresp="Esterházy Pál" type="lg">232.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">El táuozuán immár Télnek fergetege</l>
+<l xml:id="l.2">Keduetlen szeleknek fagyoszto hidege</l>
+<l rend="level_2" xml:id="l.3">Szép folyo uizeknek sok darabos iege</l>
+<l xml:id="l.4">Köuetkezuén Napnak hathatos melege.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">233.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Szemeimet uetém az szép kikeletre</l>
+<l xml:id="l.6">Lengedezö szellök gyonyörüségére,</l>
+<l rend="level_2" xml:id="l.7">Ligetes erdöknek ékes zöldségére,</l>
+<l xml:id="l.8">Kis Fulemileknek kedues énekére.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">234.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">De nagy aggodalom léuén bus sziuemben,</l>
+<l xml:id="l.10">Kinek Oruosságát keresuén füuekben</l>
+<l rend="level_2" xml:id="l.11">Ki ballagék gyorsan egy széles mezöben</l>
+<l xml:id="l.12">Hol el ragattatám Tundér sebességben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">235.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Hát imé czak hamar iuték egy pásitra,</l>
+<l xml:id="l.14">Ennek közepiben magas kösziklára,</l>
+<l rend="level_2" xml:id="l.15">Ki tündöklik uala minden czudáiára,</l>
+<l xml:id="l.16">Napnak rá szolgáluán aranyas sugára.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">236.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Feiér Alabastront szemlélém elsöben</l>
+<l xml:id="l.18">Tarka Máruánköis iuta én elömben</l>
+<l rend="level_2" xml:id="l.19">Ég szinö Türkisis kárt teue sziuemben,</l>
+<l xml:id="l.20">Szép Termés Cristaltis forgatám elmemben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">237.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Kasza köis hasznát igen magasztallya</l>
+<l xml:id="l.22">Lidius Aranyát gyakorta probállya,</l>
+<l rend="level_2" xml:id="l.23">Hályog kö embernek szemét oruosollya,</l>
+<l xml:id="l.24">Béka kö toroknak hogy használ aszt uallya.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">238.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Szines kigyo könek uagyon oruossága,</l>
+<l xml:id="l.26">Szép Cech gyemántnakis sok tulaidonsága</l>
+<l rend="level_2" xml:id="l.27">Aranyas gyántának kedues sárgasága,</l>
+<l xml:id="l.28">Porfiriusnakis ékes czifrasága.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">239.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Nézd Magnes ô Vasát miként hitegeti,</l>
+<l xml:id="l.30">Nagy titkos eröuel hozzá édesgeti</l>
+<l rend="level_2" xml:id="l.31">Nefriticus köis az mérget kergeti,</l>
+<l xml:id="l.32">Sött Porcellanais ezent el köueti.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">240.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Drága Carniolban uagyon szép Feiérség,</l>
+<l xml:id="l.34">Calcedoniusban hasonlo ékesség,</l>
+<l rend="level_2" xml:id="l.35">Agatus köbennis lakozik tisztesség,</l>
+<l xml:id="l.36">Hasznos Vérköbennis találtatik szépség.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">241.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Sok szinö Jaspisnak kedues tarkaságát,</l>
+<l xml:id="l.38">Spinel neuö könek látám drágaságát</l>
+<l rend="level_2" xml:id="l.39">Maczka szem könekis álhatatlanságát,</l>
+<l xml:id="l.40">Aqua Marinának kegyes mulatságát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">242.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Szép Rubin Pallastis föl czifrázta magát,</l>
+<l xml:id="l.42">Lazulis mutattya Arany eres uoltát,</l>
+<l rend="level_2" xml:id="l.43">Drága Berillusis kéuánya az Pállyát,</l>
+<l xml:id="l.44">Vörös Gránát köis nem alittya massát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">243.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Aiállya szépségét sárga Hiacintus,</l>
+<l xml:id="l.46">Testszinö festékét kedues Amatistus,</l>
+<l rend="level_2" xml:id="l.47">Királszinö uoltát uidám Crisolitus,</l>
+<l xml:id="l.48">Kék éghez hasonlo gyonyorü Zafirus.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">244.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Szép Vörös Clarisnak szemlélém festékét,</l>
+<l xml:id="l.50">Kegyes Arua könek külömbféle szinét,</l>
+<l rend="level_2" xml:id="l.51">Ki szépen magához haitya ember sziuét,</l>
+<l xml:id="l.52">Melyel alattomban mutattya szerelmét.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">245.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Mit mongyak immáron Tengernek habiárol,</l>
+<l xml:id="l.54">Ez széles Világnak egyk czudáiárol,</l>
+<l rend="level_2" xml:id="l.55">Tenger fenekének kinczes tárházárol,</l>
+<l xml:id="l.56">Az Szép drága Gyöngynek fényes Conkáiárol.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">246.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Zöldellö Smaragdus égre emelkedik,</l>
+<l xml:id="l.58">Tekéntetes uolta méltán neuelkedik,</l>
+<l rend="level_2" xml:id="l.59">Töb drága köueknél szebben fényeskedik,</l>
+<l xml:id="l.60">Nem alituán mássát igen diczekedik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">247.</fw>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Szép Piros Rubintis gondollya hogy legh szeb,</l>
+<l xml:id="l.62">Mindenféle könél gyonyörüségesseb,</l>
+<l rend="level_2" xml:id="l.63">Ember szeme elött ö légyen keduesseb,</l>
+<l xml:id="l.64">Kinczes Tárhazakban hogy kellemetesseb.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">248.</fw>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Mitt irion én pennám szép feiér gyemántrol,</l>
+<l xml:id="l.66">Szemeket uidito haragos lángiárol</l>
+<l rend="level_2" xml:id="l.67">Mindent megh hallado nagy drága uoltárol,</l>
+<l xml:id="l.68"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Lángal tusakodo szép ragyagásárol.</lem><rdg wit="#W1" xml:id="rdg.1">[Előbb:] Nappal tusakodo</rdg></app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">249.</fw>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Ez Drága köueknek látám szép királlyát,</l>
+<l xml:id="l.70">Kinek méltan adom kezében az Pállyát</l>
+<l rend="level_2" xml:id="l.71">Nem látuán sohultis sötétes homállyát</l>
+<l xml:id="l.72">Nappal uetekedö tündöklő uilágát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">250.</fw>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Tüzes Carbunculus, kiröl ir én pennám</l>
+<l xml:id="l.74">Ehez hasonlatost nemis látot Orczám</l>
+<l rend="level_2" xml:id="l.75">Diczéretet azért tészen felölle szám</l>
+<l xml:id="l.76">Ki szerenczés uolnék esztet ha kaphatnám.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">251.</fw>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Légyen ezzel immár uege Verseimnek,</l>
+<l xml:id="l.78">Drága szép köuekröl szerzet énekimnek,</l>
+<l rend="level_2" xml:id="l.79">Sziuemet enyhitö titkos beszedimnek</l>
+<l xml:id="l.80">Kikkel kedueskettem édes Sziueimnek.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

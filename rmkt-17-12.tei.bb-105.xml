@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">105.</title>
+<title key="body" n="105" type="main">MAS ENEK</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-105</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>.
+                        Kiad. <bibl><hi rend="smallcaps">Balassa Antal</hi>, Hazánk 1858,
+                            217–18.</bibl> – <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM
+                                II</abbr>, 407–409.</bibl> – A szöveg után: „finis”.</p>
+<p xml:id="crit.1.p.3">Vö. a <ref target="rmkt-17-12.tei.bb-101">101. számú ének</ref> jegyzetével, illetőleg a bevezetéssel! A
+                        szerzés helyét (<placeName>Vágbeszterce<idno type="ITIdata">Q14631</idno></placeName>) és idejét (<date when="1669">1669</date>) az
+                        utolsó versszak tartalmazza.</p>
+<p xml:id="crit.1.p.4">A cím alatti latin mondat magyarul: Légy irgalmas hozzám, bűnöshöz, én
+                        Istenem!</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 105.</fw>
+<head type="title">MAS ENEK</head>
+<head type="subtitle">Deus propitius esto mihi peccatory</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Az el mult esztendeök, megh nem tereö üdeök</l>
+<l rend="level_5" xml:id="l.2">Fordulanak eszemben,</l>
+<l rend="level_2" xml:id="l.3">Latvan büneimett, kikkel Jstenemett</l>
+<l rend="level_5" xml:id="l.4">Bantottam eletemben,</l>
+<l rend="level_2" xml:id="l.5">Teölleök megh remüllek, Uramhoz fordulek</l>
+<l rend="level_5" xml:id="l.6">.S. jgy keönyeörgek szivemben.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Jsten ki kezetül .s. gondviselesetül</l>
+<l rend="level_5" xml:id="l.8">Minden fügh .s. taplaltatik,</l>
+<l rend="level_2" xml:id="l.9">Kerek feöld, magas egh, tengeri szelessegh</l>
+<l rend="level_5" xml:id="l.10">Mozdul es forgattatik,</l>
+<l rend="level_2" xml:id="l.11">Minden halal .s. elett, szerencze .s. teörtenett</l>
+<l rend="level_5" xml:id="l.12">Teölle jgazgattatik.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.13">Kegyelmes termeszett, ki mordon nem nezhett</l>
+<l rend="level_5" xml:id="l.14">Az teöredelmes szüre,</l>
+<l rend="level_2" xml:id="l.15">Ohaitasom hald meg, esetemett szánd megh,</l>
+<l rend="level_5" xml:id="l.16">Ne ted keresem ferre,<note type="critic" xml:id="note.1">félre (Ugyanígy a 23. sorban is.)</note></l>
+<l rend="level_2" xml:id="l.17">Mutasd jrgalmadatt, .s. bocziasd harmatodatt</l>
+<l rend="level_5" xml:id="l.18">Ream, megh aszott füre.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.19">Bün fergetegeben, mintt hajos szel viszben</l>
+<l rend="level_5" xml:id="l.20">Remültt lelkem hanyatik,</l>
+<l rend="level_2" xml:id="l.21">Nagy veszelire szorultt, maid el vesz nyomorultt,</l>
+<l rend="level_5" xml:id="l.22">Ha-nem gyamolittatik,</l>
+<l rend="level_2" xml:id="l.23"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Ha te nem segited, szegeny<corr>t</corr> ferre veted,</lem><rdg wit="#W1" xml:id="rdg.1">szegeny</rdg></app></l>
+<l rend="level_5" xml:id="l.24">Egyebhez nem bizhatik.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.25">Cziak te vagy remennye, keödben merültt fennye</l>
+<l rend="level_5" xml:id="l.26">Altalad derülhett fel,</l>
+<l rend="level_2" xml:id="l.27">El üzven homalliatt, reghi ragyaghvanniatt</l>
+<l rend="level_5" xml:id="l.28">Kedvel virraszthattya fel,</l>
+<l rend="level_2" xml:id="l.29">Szive czükkenttsege .s. holtt elevenseghe</l>
+<l rend="level_5" xml:id="l.30">Altalad eledhett fel.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.31">Erdemlek büntetest .s. kemeny szamki vetestt</l>
+<l rend="level_5" xml:id="l.32">Jgaz jtelletedbül,</l>
+<l rend="level_2" xml:id="l.33">Mertt ellened vettem, .s. tilos uttra lepttem,</l>
+<l rend="level_5" xml:id="l.34">Teörvenyes eösvenyedbül,</l>
+<l rend="level_2" xml:id="l.35">De már vissza terttem, .s. boczianatott kerttem,</l>
+<l rend="level_5" xml:id="l.36">Szany kegyelmessegedbül.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.37">Ha füled megh hajla, miheltt egy szott halla</l>
+<l rend="level_5" xml:id="l.38">Kereszt fan az latortul,</l>
+<l rend="level_2" xml:id="l.39">Lattvan teöredelmett, büne engedelmett</l>
+<l rend="level_5" xml:id="l.40">Nyere tüled azontul,</l>
+<l rend="level_2" xml:id="l.41">Halgas megh engemis, .s. keönyhitczed lelkemis</l>
+<l rend="level_5" xml:id="l.42">Az erdemlett ostortul.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.43">Mondgyad, már megh szanttam, mertt eösmerttem .s. lattam</l>
+<l rend="level_5" xml:id="l.44">Teöredelmett szivednek,</l>
+<l rend="level_2" xml:id="l.45">Raitad keönyörülttem, el mostam .s. teörülttem</l>
+<l rend="level_5" xml:id="l.46">Undoksagatt büneödnek,</l>
+<l rend="level_2" xml:id="l.47">Lelked már megh szepültt, ruhaja el keszültt</l>
+<l rend="level_5" xml:id="l.48">Menyei eörömednek.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.49">Kiertt enis aldastt nyujtok .s. halaadastt</l>
+<l rend="level_5" xml:id="l.50">Neked, en Jstenemnek,</l>
+<l rend="level_2" xml:id="l.51">Mondvan: legyen aldott, ki kegyelmett adott</l>
+<l rend="level_5" xml:id="l.52">Szam ki vetett fejemnek,</l>
+<l rend="level_2" xml:id="l.53">Hogy teöbbe ne vetczen, veled edgyett erttczen,</l>
+<l rend="level_5" xml:id="l.54">Adgy oly ereött lelkemnek.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.55">Ezer hatt szaz utan hattvan kilencz folytan</l>
+<l rend="level_5" xml:id="l.56"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Aratasi üdeökor,</lem><rdg wit="#W1" xml:id="rdg.2">[Előbb:] üdeöben</rdg></app></l>
+<l rend="level_2" xml:id="l.57">Madarak zengesse .s. az vizek czeörgesse</l>
+<l rend="level_5" xml:id="l.58">Fel serkenttven hainalkor,</l>
+<l rend="level_2" xml:id="l.59">Az Vaágh vize parttyan egy fel neött keö sziklan</l>
+<l rend="level_5" xml:id="l.60">Jgy imatkozam egykor.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

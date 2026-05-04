@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">126.</title>
+<title key="body" n="126" type="main">AZ HALAKROL VALO VERSEK</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-126</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény I.
+                    része. 50–56.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 126.</fw>
+<head type="title">AZ HALAKROL VALO VERSEK</head>
+<fw corresp="Esterházy Pál" type="lg">CXC.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Halak királlyáuá Nagy Ceth halat tészem,</l>
+<l xml:id="l.2">Az többinél esztet méltán elöb uészem,</l>
+<l xml:id="l.3">Rettenetes uoltát ha elmémben uészem</l>
+<l xml:id="l.4">Ninczen Tengerekben higyed ollyan uér szem.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCI.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Nézzed mint forgattya Tengernek habiait,</l>
+<l xml:id="l.6">Száiábol böuiti Vizeknek áriait,</l>
+<l xml:id="l.7">Boczáttya szemének haragos lángiait,</l>
+<l xml:id="l.8">Agyukkal, Gállyákkal gyakorta ui bait.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCII.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Van egy Valrus<note type="critic" xml:id="note.1">Talán a német Walfisch (bálna) szóból
+                            magyarázható. (<persName>Jankovics J.<idno corresp="Jankovics József"/></persName>)</note> halis hideg Tengerekben,</l>
+<l xml:id="l.10">Lakik az mélységen föuenyes helyekben,</l>
+<l xml:id="l.11"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Ceth hal után ninczen nagyob az Vizekben</lem>
+<rdg wit="#W1" xml:id="rdg.1">Vizekben <del>,</del></rdg>
+</app></l>
+<l xml:id="l.12">Ennél, s-erössebis egész Tengerekben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCIII.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Crocodilusokis halak közöt vannak,</l>
+<l xml:id="l.14">Aegyptus földében Nylus mellet laknak,</l>
+<l xml:id="l.15">Delfinekis gyakran uizben találtatnak,</l>
+<l xml:id="l.16"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Agos Habarniczák<note type="critic" xml:id="note.2">Habarnicza – kis,
+                                    polip alakú édesvízi állat</note> sokzor fogattatnak.</lem>
+<rdg wit="#W1" xml:id="rdg.2"><add type="insert">sokszor</add></rdg>
+</app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCIV.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Nézd az Szegény Stokfist<note type="critic" xml:id="note.3">Stokfis = tőkehal</note> mely
+                        igen megh uerik,</l>
+<l xml:id="l.18">Széles Platáizokat<note type="critic" xml:id="note.4">Platáizok = lepény halak</note> nagy
+                        hálokkal merik,</l>
+<l xml:id="l.19"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Köuér Toninákat<note type="critic" xml:id="note.5">Tonina = tonhal</note>
+                                nagy funtokkal kérik,</lem>
+<rdg wit="#W1" xml:id="rdg.3"><del>m</del><add type="corr">k</add>érik</rdg>
+</app></l>
+<l xml:id="l.20">Kikkel esztendö ként emberek bé érik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCV.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Édes kalamárét<note type="critic" xml:id="note.6">kalamáré = tintahal</note> Tengerekröl
+                        uisznek,</l>
+<l xml:id="l.22">Spáda<note type="critic" xml:id="note.7"> = kardhal</note> néuö halat halaszok kergetnek,</l>
+<l xml:id="l.23">Tengeri kutyákat<note type="critic" xml:id="note.8">Tengeri kutya – nem tudtuk
+                            azonosítani</note> fogdozni sietnek,</l>
+<l xml:id="l.24"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Jeles Austrigatis Uelenczébül küldnek.</lem>
+<rdg wit="#W1" xml:id="rdg.4">[Előbb:] Edes Austrigatis</rdg>
+</app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCVI.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Hoszu Lamprétákat<note type="critic" xml:id="note.9">Lampréta –
+                                    kilencszemű hal</note> meszi földre uiszik,</lem>
+<rdg wit="#W1" xml:id="rdg.5">meni</rdg>
+</app></l>
+<l xml:id="l.26">Tengeri Boriunak<note type="critic" xml:id="note.10">Tengeri Boriu = fóka</note> az husát megh
+                        eszik,</l>
+<l xml:id="l.27"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Sos heringeketis nagy tongokkal<note type="critic" xml:id="note.11">tong =
+                                    hordó</note> ueszik,</lem>
+<rdg wit="#W1" xml:id="rdg.6">[Előbb:] Az sos heringetis</rdg>
+</app></l>
+<l xml:id="l.28"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Mellyek után ember io izöuett iszik.</lem>
+<rdg wit="#W1" xml:id="rdg.7">[Előbb:] Az után az ember</rdg>
+</app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCVII.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Más sok féle halat me<corr>sz</corr>i földrül
+                                hosznak,</lem>
+<rdg wit="#W1" xml:id="rdg.8">meni</rdg>
+</app></l>
+<l xml:id="l.30">Kiket az kalmárok drága pénzért oztnak,</l>
+<l xml:id="l.31">Kiért embereket penzektül megh fosztnak,</l>
+<l xml:id="l.32">Mert czak ez uilagon fösuények kapdoznak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCVIII.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Ládé az szép Uiza mint niugkzik az uizben,</l>
+<l xml:id="l.34"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Hüti ö lágy hasát az agyagos földben,</lem>
+<rdg wit="#W1" xml:id="rdg.9">hását [Előbb:] házát<note type="critic" xml:id="note.12">Az első <hi rend="italic">á</hi> javítatlan maradt.</note></rdg>
+</app></l>
+<l xml:id="l.35">Leg gyakrabban lakik tanyák mélységében,</l>
+<l xml:id="l.36">Uegre azért keröl öis halász kézben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CXCIX.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Nézd az husos Tokot mint örzi szállását,</l>
+<l xml:id="l.38">Gondolya nem tugyák halászok lakását,</l>
+<l xml:id="l.39">Törben ésuén tekénczd kötélen álását,</l>
+<l xml:id="l.40">Ide stova ualo szomoru iárássát.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CC.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Mely keuélyen uszkál szép sörög<note type="critic" xml:id="note.13"> = sőreg</note> az
+                        uizben,</l>
+<l xml:id="l.42">Mutattya szépségét mentöl lehet szebben,</l>
+<l xml:id="l.43">Jár ö töb halaknál sokkal ékesebben,</l>
+<l xml:id="l.44">Mind az által öis uigre essik törben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCI.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Tarka keczegékis nészed mint uszkálnak,</l>
+<l xml:id="l.46">Héüséges idökben az melységben iárnak,</l>
+<l xml:id="l.47">Gyakran néki esnek az fekete sárnak,</l>
+<l xml:id="l.48">De gyakortab mennek az sárga agyagnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCII.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Nagy feiü Harczakis seregekben mennek,</l>
+<l xml:id="l.50">Kiket az halászok halokban kerétnek,</l>
+<l xml:id="l.51">Szelyel Varasokban piaczokra uisznek,</l>
+<l xml:id="l.52">Melyekbül emberek örömost megh uesznek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCIII.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Nézd az tormás Czukát io izüuen eszik,</l>
+<l xml:id="l.54"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10">Néha lengyel léuben feét máiát teszik,</lem>
+<rdg wit="#W1" xml:id="rdg.10">
+<note type="critic" xml:id="note.14">A <hi rend="italic">teszik</hi>
+<hi rend="italic">e</hi>-je fölött egy áthúzott
+                                ékezet.</note></rdg>
+</app>
+</l>
+<l xml:id="l.55">Néha penigh ötet soba föue eszik,</l>
+<l xml:id="l.56">Haznát io Czukának ily sokkeppen ueszik.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCIV.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Potykák ficzkándoznak széles tekenyöben,</l>
+<l xml:id="l.58">Mint paczirta madar magas leuegöben,</l>
+<l xml:id="l.59">Czekély uizre mennek tauazi idöben,</l>
+<l xml:id="l.60">Feles iuast tesznek uizes eszendöben.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCV.</fw>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Széles kárászokat az halászok fognak,</l>
+<l xml:id="l.62">Kiket Várasokban nagy laitokban hordnak,</l>
+<l xml:id="l.63">Gyakortais pénzen ezekben el adnak,</l>
+<l xml:id="l.64">Ha drága idöben piarczokra iutnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCVI.</fw>
+<lg xml:id="lg.17">
+<l xml:id="l.65">Olaszok Tinkának<note type="critic" xml:id="note.15">Tinka = tömzsi, zöldeskék színű édesvízi
+                            hal.</note> Uarga halat hijak,</l>
+<l xml:id="l.66">Czontyaibul husát keduessen ki szyák,</l>
+<l xml:id="l.67">Kiért nagy halokkal az vizeket uiják,</l>
+<l xml:id="l.68">Czak az hituán tinkát ök minálunk siják.<note type="critic" xml:id="note.16">siják = óhajtják.
+                                    <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> talán azt
+                            akarta mondani, hogy az olaszok Magyarországon hiányolják a
+                            tinkát?</note></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCVII.</fw>
+<lg xml:id="lg.18">
+<l xml:id="l.69">Az Vágban Gáloczák fogatnak boséggel,</l>
+<l xml:id="l.70">Vrak asztalait töltik ékességgel,</l>
+<l xml:id="l.71">Járnak tiszta uiszben nagy gyönyörüseggel,</l>
+<l xml:id="l.72">Kiket megis esznek kedues egesseggel.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCVIII.</fw>
+<lg xml:id="lg.19">
+<l xml:id="l.73">Köuér Laszaczokis iárnak sebes Uágban,</l>
+<l xml:id="l.74">Illyen halat sokszor találnak Poprádban,</l>
+<l xml:id="l.75">Eszt böuséggel fogiák tiszta moltouában,</l>
+<l xml:id="l.76">Ki maga folyássát uiszi Cheh országban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCIX.</fw>
+<lg xml:id="lg.20">
+<l xml:id="l.77">Szép Pisztrángokatis az halaszok fognak,</l>
+<l xml:id="l.78">Kik forrásos uiszben nagy keduessen laknak,</l>
+<l xml:id="l.79">Sebes patakokban hamarsággal iárnak,</l>
+<l xml:id="l.80">Malom kerekekre gyakran föl ugrálnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCX.</fw>
+<lg xml:id="lg.21">
+<l xml:id="l.81">Vannak Szaiblingokis<note type="critic" xml:id="note.17">Szaibling – hegyi patakokban honos
+                            halféle.</note> fölsö Austriában,</l>
+<l xml:id="l.82">Kiket Urak tartnak széles halastokban,</l>
+<l xml:id="l.83">Küldnek sokszor illyent nagy Becz uarosában,</l>
+<l xml:id="l.84">Piarczon el agyák Pisztrangnál dragabban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXI.</fw>
+<lg xml:id="lg.22">
+<l xml:id="l.85">Lepény halakatis az hegyekbül küldnek,</l>
+<l xml:id="l.86">Ezekkel Vraknak gyakran kedueskednek,</l>
+<l xml:id="l.87">Gazdag ebedeket nagy keduessen esznek,</l>
+<l xml:id="l.88">Mikor ilyen halat az konyhákon sütnek,</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXII.</fw>
+<lg xml:id="lg.23">
+<l xml:id="l.89">Szárnyos keszegekis uiszben találtatnak,</l>
+<l xml:id="l.90">Sütö halakatis az Polgarok kapnak,</l>
+<l xml:id="l.91">Feies kophalakis patakokban iárnak,</l>
+<l xml:id="l.92">Köue halaczkákis uizekben uszkálnak.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXIII.</fw>
+<lg xml:id="lg.24">
+<l xml:id="l.93">Vadakrol, Halakrol immár eneklettem,</l>
+<l xml:id="l.94">Égy Madarakrol uerseket szerzettem,</l>
+<l xml:id="l.95">En igéretemnek már eleget tettem,</l>
+<l xml:id="l.96">Eszel uerseimnek uégétis uetettem.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">CCXIV.</fw>
+<lg xml:id="lg.25">
+<l xml:id="l.97">Köuetkeznek tehát kerteknek Virági,</l>
+<l xml:id="l.98">Kik ékes Nympháknak kedues mulatsági,</l>
+<l xml:id="l.99">Gazda embernekis minden uigassági,</l>
+<l xml:id="l.100">Kikben sok szineknek uannak méltosági.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

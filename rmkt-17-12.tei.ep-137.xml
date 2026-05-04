@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">137.</title>
+<title key="body" n="137" type="main">EGY SOLYOM MADÁROL VALO ÉNEK</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-137</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Az <bibl><date when="1670">1670-i</date> gyűjtemény II. részének 45–48. lapján</bibl>.
+                        A verset valamikor a XVII. században egy vizitációs jegyzőkönyv üres
+                        lapjaira másolták be. (<bibl>Esztergom, Prímási Levéltár. Canonica
+                            visitatio. Liber II. 261–264.</bibl> – <persName>Sz. Nagy
+                                László</persName> szíves közlése.)</p><p xml:id="crit.1.p.3"><persName><hi rend="smallcaps">Kanyaró</hi><idno type="ITIdata">Q51586</idno></persName>
+                            (<bibl>i. m.</bibl>) ebben a versben is talált <persName>Zrínyiből<idno type="ITIdata">Q247373</idno></persName> való kiírásokat: 1–2. sor =
+                        Id. II. 24. vsz., 145–146. vsz. = Id. I. 63– 64. vsz. A 149–150. szakasz
+                                <persName>Listius<idno type="ITIdata">Q244148</idno></persName> már
+                                    idézett versének, ,,A’ szerenchének álhatatlanságárúl” címűnek (<ref target="rmkt-17-12.tei.ll-115">115.
+                            sz.</ref>) 9–10. szakaszán alapul.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Az 1670-i kéziratos versgyűjtemény.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 137.</fw>
+<head type="title">EGY SOLYOM MADÁROL VALO ÉNEK</head>
+<fw corresp="Esterházy Pál" type="lg">141.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ály megh édes Solymom bátor ne sokáigh</l>
+<l xml:id="l.2">Am bár czak fél oráigh,</l>
+<l rend="level_2" xml:id="l.3">Ne irtozzál töllem,</l>
+<l rend="level_2" xml:id="l.4">Láddé mint ég sziuem,</l>
+<l xml:id="l.5">Lelkemet ne ueszessem.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">142.</fw>
+<lg xml:id="lg.2">
+<l xml:id="l.6">Száll le én Madarkám az én kezeimre,</l>
+<l xml:id="l.7">Halgass szép beszédimre,</l>
+<l rend="level_2" xml:id="l.8">El loptad sziuemet,</l>
+<l rend="level_2" xml:id="l.9">El uontad keduemet,</l>
+<l xml:id="l.10">Ne kinozd már lelkemet.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">143.</fw>
+<lg xml:id="lg.3">
+<l xml:id="l.11">Tarka tollaczkáid uannak ékességben,</l>
+<l xml:id="l.12">És gyönyörü szépségben</l>
+<l rend="level_2" xml:id="l.13">Ragyago szemeid,</l>
+<l rend="level_2" xml:id="l.14">Ki állo begjeid</l>
+<l xml:id="l.15">Tündöklö szép Füleid.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">144.</fw>
+<lg xml:id="lg.4">
+<l xml:id="l.16">Termetes Feieczkéd, czifornyás iárásod</l>
+<l xml:id="l.17">Es tánczra termet lábod,</l>
+<l rend="level_2" xml:id="l.18">Könyü röpülésed</l>
+<l rend="level_2" xml:id="l.19">Magassan menésed</l>
+<l xml:id="l.20"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Van, s-minden kegyességed.</lem><rdg wit="#W1" xml:id="rdg.1"><del>ékességed</del><add type="corr">kegyességed</add></rdg></app></l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">145.</fw>
+<lg xml:id="lg.5">
+<l xml:id="l.21">Az magas egekböl iöi le, ne fély töllem</l>
+<l xml:id="l.22">Mert már megh fogtál engem</l>
+<l rend="level_2" xml:id="l.23">Szép Ifiuságommal</l>
+<l rend="level_2" xml:id="l.24">Vitézi karommal</l>
+<l xml:id="l.25">Vgy bánhacz mint Praedáddal.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">146.</fw>
+<lg xml:id="lg.6">
+<l xml:id="l.26">Találok én néked kedues uigasságot,</l>
+<l xml:id="l.27">Sok féle mulatságot,</l>
+<l rend="level_2" xml:id="l.28">Akár Vadászatban</l>
+<l rend="level_2" xml:id="l.29">Vagy Madarászatban</l>
+<l xml:id="l.30">Akár szép halászatban.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">147.</fw>
+<lg xml:id="lg.7">
+<l xml:id="l.31"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Kerteimis uannak kikböl szépen folynak</lem><rdg wit="#W1" xml:id="rdg.2">ki<add type="insert">k</add>böl</rdg></app></l>
+<l xml:id="l.32">Erei forrásoknak,</l>
+<l rend="level_2" xml:id="l.33">Ott laknak szép Musák</l>
+<l rend="level_2" xml:id="l.34">Iárnak ékes Nimphák</l>
+<l xml:id="l.35">Vigadnakis Poëták.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">148.</fw>
+<lg xml:id="lg.8">
+<l xml:id="l.36">Phoebusis nem mesze lakik én házamtol</l>
+<l xml:id="l.37">Magas köfalaimtol,</l>
+<l rend="level_2" xml:id="l.38">Hol lantyát pöngeti</l>
+<l rend="level_2" xml:id="l.39">Hárfaiát zöngeti</l>
+<l xml:id="l.40">Hiueit serkengeti.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">149.</fw>
+<lg xml:id="lg.9">
+<l xml:id="l.41">Hainalban föl kelnek fekete kis Feczkék,</l>
+<l xml:id="l.42">Ékes Fülemiléczkék</l>
+<l rend="level_2" xml:id="l.43">Szépen énekelnek</l>
+<l rend="level_2" xml:id="l.44">Erdök ugyan zengnek</l>
+<l xml:id="l.45">Örök Istent diczérnek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">150.</fw>
+<lg xml:id="lg.10">
+<l xml:id="l.46">Az Vadak iárulnak ki folyo kutakhoz</l>
+<l xml:id="l.47">Gyönyörü forrásokhoz</l>
+<l rend="level_2" xml:id="l.48">Pásiton füuelnek</l>
+<l rend="level_2" xml:id="l.49">Keduessen legelnek</l>
+<l xml:id="l.50">Héuségekben delelnek.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">151.</fw>
+<lg xml:id="lg.11">
+<l xml:id="l.51">Sürü Cedrus fákis árnyekot tartannak</l>
+<l xml:id="l.52">Kiket öszue foglalnak,</l>
+<l rend="level_2" xml:id="l.53">Faknak czeresnyéie,</l>
+<l rend="level_2" xml:id="l.54">Edes Berkenyéie</l>
+<l xml:id="l.55">Böuen uan, s-Gesztenyéie.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">152.</fw>
+<lg xml:id="lg.12">
+<l xml:id="l.56">Ha uirágot kéuánsz Lilium, és Rosák</l>
+<l xml:id="l.57">Vannak Arua Violák</l>
+<l rend="level_2" xml:id="l.58">Szép Animoniák</l>
+<l rend="level_2" xml:id="l.59">Kedues Iunceliák</l>
+<l xml:id="l.60">Illatos Maioránnák.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">153.</fw>
+<lg xml:id="lg.13">
+<l xml:id="l.61">Fogyatkozás nem lesz hangos Musikában</l>
+<l xml:id="l.62">Hegedö, uagy Dudában,</l>
+<l rend="level_2" xml:id="l.63">Tánczotis iárhatunk</l>
+<l rend="level_2" xml:id="l.64">Többetis uárhatunk</l>
+<l xml:id="l.65">Képeketis irhatunk.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">154.</fw>
+<lg xml:id="lg.14">
+<l xml:id="l.66"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Labaidra kötök szép Arany lánczoczkát</lem><rdg wit="#W1" xml:id="rdg.3">lánczo<add place="above" type="insert">cz</add>kát</rdg></app></l>
+<l xml:id="l.67">Tündöklö gyémántoczkát</l>
+<l rend="level_2" xml:id="l.68">Hogy el ne szaladhas</l>
+<l rend="level_2" xml:id="l.69">En uelem maradhas</l>
+<l xml:id="l.70">Mindenkoron uigadhas.</l>
+</lg>
+<fw corresp="Esterházy Pál" type="lg">155.</fw>
+<lg xml:id="lg.15">
+<l xml:id="l.71">Végzém reménségben ez kis énekemet,</l>
+<l xml:id="l.72">Talám megh szánsz engemet,</l>
+<l rend="level_2" xml:id="l.73">En kedues Solymoczkám</l>
+<l rend="level_2" xml:id="l.74">Gyönyörü Madarkám</l>
+<l xml:id="l.75">Lészesz talám én Mátkám.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

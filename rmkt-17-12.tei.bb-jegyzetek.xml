@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="4" type="main">BALASSA BÁLINT</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">BALASSA BÁLINT</head>
+<head type="subtitle">ÉLETE</head>
+<p xml:id="p.1">Gróf <persName>Balassa Bálintról<idno type="ITIdata">Q238621 </idno></persName> (<date from="1626" to="1684">1626–1684</date>) mint költőről egyik leszármazottjának, <persName>Balassa
+                            Antalnak<idno type="ITIdata">Q140824</idno></persName> kutatásai révén szerzett irodalomtörténet-írásunk
+                    tájékozódást. Egyik versét <date when="1828">1828-ban</date> <persName><hi rend="smallcaps">Toldy Ferenc</hi><idno type="ITIdata">Q151328</idno></persName>
+<hi rend="italic">Átok</hi> címmel még <persName>Balassi Bálint<idno type="ITIdata">Q2101</idno></persName>
+                    szerzeményeként tette közzé. (<bibl><title>Magyar költői régiségek</title>. Pest
+                        és Bécs 1828. 30–36.</bibl>) A XIX. század első felében fedezett fel
+                    <persName><hi rend="smallcaps">Balassa Antal</hi></persName> a család kékkői levéltárában rá
+                    vonatkozó, tőle származó különböző írásokat, verseket, melyek közül hármat
+                    közölt a <hi rend="italic">Hazánk</hi> c. folyóiratban. (<bibl><title>II.
+                            Balassa Bálint legújabban felfedezett költeményei</title>. Hazánk 1858,
+                        72–74, 215–18.</bibl>) Azzal a tervvel foglalkozott, hogy megírja majd
+                    életrajzát, és kiadja valamennyi költeményét. Erre azonban nem került sor.</p>
+<p xml:id="p.2">Bővebb tájékoztatást <persName>Toldy Ferenc<idno type="ITIdata">Q151328</idno></persName> adott Balassáról.
+                    Forrásként azokat az adatokat, életrajzvázlatokat használta, melyeket ma a
+                    Balassa család levéltára őriz. (<bibl>OL P 1761. 2. cs. 4. tétel.</bibl>) Itt
+                    található az az iratcsomó, melynek borítólapjára <persName>Toldy<idno corresp="Toldy Ferenc"/></persName> az
+                    alábbi megjegyzést írta: „E kézirat b. Balassa Antalé, ki azt, eltávozván a
+                    hazából, 1860 hozzám küldte, minden levél nélkül. Tán hogy kiadjam, de az
+                    életrajz kidolgozatlan, s azért nem tehetem.” <persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName>
+                    számos egykorú dokumentumra hivatkozva, azokat teljes egészükben vagy
+                    részleteikben lemásolva többször készített életrajzvázlatot költőőséről. Az
+                    egyik legterjedelmesebb az egy ívnagyságú, sűrűn teleírt 31 félhasábra terjedő
+                    fogalmazvány. Erre támaszkodva adta ki <persName><hi rend="smallcaps">Toldy</hi><idno corresp="Toldy Ferenc"/></persName> az első magyar
+                    lexikonban (<bibl><title>Egyetemes Magyar Encyclopaedia. V.</title> Pest 1866,
+                        396–400</bibl>) <persName>Balassa Bálint</persName> életrajzát, melyet
+                    jelentéktelen változtatással még többször közzétett. (<bibl><title>Magyar költők
+                            élete</title>. Pest 1870. I, 110–16.</bibl> – <bibl><title>A magyar
+                            költészet kézikönyve</title>. Bp.<hi rend="super">2</hi> 1876. I,
+                        211–17.</bibl>)</p>
+<p xml:id="p.3">A különböző levéltárakból azóta előkerült vele kapcsolatos számos írás új
+                    adatokkal egészíti ki, de lényegében nem változtatja meg a <persName>Toldy
+                        Ferenctől<idno type="ITIdata">Q151328</idno></persName> róla megrajzolt képet.</p>
+<p xml:id="p.4"><persName>Balassa Bálint</persName> a költő <persName>Balassi<idno corresp="Balassi Bálint" type="ITIdata">Q2101</idno></persName>
+                    nagybátyjának, <persName>Andrásnak</persName> a családjából származott. Apja
+                        <persName>András</persName>, anyja <persName>Bakos Mária</persName>. Kékkő
+                    várában látta meg a napvilágot, s anyja a szülés után nemsokára meghalt. Apja
+                    hamarosan megnősült, feleségül vette <persName>Szunyogh Ilonát<idno corresp="Szunyogh Ilona"/></persName>. A
+                    mostoha, hogy Bálint anyai örökségét megszerezze, embertelen bánásmódban
+                    részesítette. Erről így ír <persName>Balassa<idno corresp="Balassa Bálint"/></persName>
+<date when="1642-02-16">1642. február 16-án</date> a Nógrád megye rendjeihez
+                    intézett panaszlevelében: „Nyilván vagyon, tudom, Nagyságtoknál és
+                    Kegyelmeteknél csudákozásra és szánakozásra méltó Arvái alapatom; az én Atyám,
+                    mostoha anyám kedvéért mint tartott; vagyon Kegyelmetek közt olly biro, ki azt
+                    nyilván tudja, nem egy, sem kettö; egyszer talam esztendeig eleget nem adtanak
+                    ennem, ugy annyira, hogy [ha] Balassy Imréné Aszonyom rendén elvolt jobbagyok és
+                    egyebek is hun zab s hun pohánka kenyeret nem adtak volna, talám éhel is meg
+                    kellett volna halnom, mert a kulcsár fejére nem mert volna egy cipót adni, sem
+                    egy italt; csak nem mezítelen jártam, lábombeli gyakrabban nem volt, csak nem az
+                    féreg ett meg, kit sok élö jámborokkal meg bizonyithatom, hogy inget esztendeig
+                    sem adtak; egy szoval nincs oly ember, az ki Nagyságtoknak és Kegyelmeteknek az
+                    en nyomoruságomat describálhatná; ebben hagyván azért én is, mert utoljára
+                    tanitani sem akartanak, az atyámtól el kellett jönnöm, mert Kékkőbenis egy
+                    boltban rekesztvén egyedül magamat csupa padimentumon hálattanak, holott csaknem
+                    desperáltam, mint gyermek félvén éjszakának idején.” (<bibl>Uo.</bibl>)</p>
+<p xml:id="p.5">Allegorikus önéletrajz drámájában így beszél erről:</p>
+<l xml:id="l.1">Nolia (az Ilona névből!) mostohád az anyád kincsében</l>
+<l xml:id="l.2">Kevélykedik ezüst, gyöngy s arany mivekben,</l>
+<l xml:id="l.3">Téged nyomorútul tart keménységében,</l>
+<l xml:id="l.4">Mert vashoz hasonló kegyetlenségében.</l>
+<l xml:id="l.5">Atyádnak nem enged adni oskolákban….</l>
+<p xml:id="p.6">Otthonról való elfutásának pontos idejét nem tudjuk. Bizonyára azután történt,
+                    hogy az apja nem fogadta el a gyermek anyai nagybátyjának ajánlatát, melyről
+                        <persName>Széchenyi Miklósnak</persName> <persName>Balassa
+                    Andráshoz</persName> <date when="1640-01-25">1640. január 25-én</date> írt
+                    leveléből tudunk. Benne beszámol <persName>Dersffy Borbála</persName> (Bálintnak
+                    anyai nagyanyja volt) temetéséről, s arról, hogy <persName>Bakos
+                        Gábor</persName>, amint régebben, „kéri most is, ha Nagyságod oda adná neki
+                    [ti. Bálintot]; mindjárást az erdélyi fejedelmi úrfiak mellé vinné tanitásra, és
+                    mint édes ötsének viselné gondját.” (<bibl>Uo.</bibl>)</p>
+<p xml:id="p.7"><persName>Bálint<idno corresp="Balassa Bálint"/></persName> – önéletrajzi drámája szerint –, mikor egyszer szülei
+                    nem voltak otthon, elszökött. Nagyszombatba ment a jezsuitákhoz, akik örömmel
+                    fogadták, s katolikus vallásra térítették a főrangú „eretneket”. Otthonról való
+                    eljövetele után nagybátyja, <persName>Balassi Ferenc</persName> vette gondjaiba.
+                    Ő biztathatta, hogy anyai örökségét kezébe vegye. Kerestette is a megye
+                    szolgabírái által, „de Uram Atyám mindenkor hatalmaskodott benne, praetendalván,
+                    hogy nem enyim; ez után ex consensu superioris magistratus ugy mint sajátomhoz,
+                    hozzá nyultam, és nem más, hanem én; és magam eszközök által; immár penig bátyám
+                    Uram ellen, Balassy Ferenc Uram ellen küldött az Apám quaerelakat ezért…”
+                        (<bibl>Uo.</bibl>)</p>
+<p xml:id="p.8">Ekkortájt, <date when="1642">1642-ben</date> <persName>Balassi Ferenc</persName>
+                    volt tehát a gyámja, ő segítette anyai örökségének megszerzésében. Segítése nem
+                    mondható önzetlennek. <persName>Bálint<idno corresp="Balassa Bálint"/></persName> „hálából” szerződést adott
+                    neki, hogy jószágainak egy részét halála esetén ráhagyja örökségként. A
+                    szerződés sok perpatvar, viszálykodás okozója lett, mivel azt <date when="1654-02-24">1654. február 24-én</date> visszavonta.</p>
+<p xml:id="p.9"><persName>Balassi Ferencnek</persName> azonban egyelőre érdekében állott
+                        <persName>Bálint<idno corresp="Balassa Bálint"/></persName> támogatása, az ellentétek szítása közte és az
+                    apa között. Ennek eredménye lett, hogy <date when="1643">1643-ban</date> Bálint
+                    ellene mondott apja végrendeletének.</p>
+<p xml:id="p.10">Ezekben az években <persName>Balassa<idno corresp="Balassa Bálint"/></persName> a
+                    <placeName>nagyszombati<idno type="ITIdata">Q14207</idno></placeName> jezsuiták keze alatt tanult. Majd
+                    <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>, az egyetemen folytatott filozófiai
+                    tanulmányokat.</p>
+<p xml:id="p.11"> Mikor apja <date when="1649">1649-ben</date> meghalt, <persName>Balassi
+                        Ferenc</persName> segítségével elfoglalta apja birtokait, elűzve belőlük
+                    mostoháját, mostohatestvéreit. Ezek az országgyűléshez fordultak, mely
+                    elrendelte visszahelyezésüket. <persName>Bálint<idno corresp="Balassa Bálint"/></persName> egyezséget kötött
+                    mostohatestvéreivel, de élete további folyamán is a veszekedések,
+                    hatalmaskodások, kiegyezések, pereskedések szakadatlan sora jellemzi életét.
+                    Igen sok dokumentum tanúskodik erről. Különösen sokat viszálykodott
+                        <persName>Ádám<idno corresp="Balassa Ádám"/></persName> nevű öccsével.</p>
+<p xml:id="p.12">Bizonyára a jezsuita szellemben történt nevelésének, az uralkodóház iránt
+                    belénevelt dinasztikus hűségének köszönhette, hogy <date when="1651">1651-ben</date> aranysarkantyús vitéz, császári kamarás lett. <date when="1653">1653-ban</date> jelen volt a birodalmi gyűlésen, mely <persName>III.
+                        Ferdinánd</persName> fiát római királlyá választotta.</p>
+<p xml:id="p.13">Ez idő tájra esik gróf <persName>Tarnovski Zsófia</persName> iránti szerelme,
+                    akinek a <ref target="rmkt-17-12.tei.bb-98">98. sz.</ref> alatt közölt vers tanúsága szerint azt ígéri, „még él, híven
+                    szolgálja”. Szerelmükről közelebbit nem tudunk. Házasságra nem került sor. De
+                    mikor <persName>Balassa<idno corresp="Balassa Bálint"/></persName>
+<date when="1678">1678-ban</date> (második feleségétől elváltan) végrendelkezik,
+                    lengyelországi jószágaiban mintegy százezer forintnyi értékben őt teszi
+                    örökösévé.</p>
+<p xml:id="p.14">Feleségül azt az özvegyi állapotra jutott <persName>Szunyogh Katalint</persName>
+                    (<persName>Jakusits Jánosnét<idno corresp="Szunyogh Katalin"/></persName>) veszi el, akit a saját apja
+                    legidősebb lánya vádaskodása miatt három évig fogságban őrizett. Egy <date when="1659-04-20">1659. április 20-án</date> kelt okmány szerint
+                        <persName>Szunyogh Katalin</persName> „tekentven az én szerelmes kedves Uram
+                    batyamnak, Tekintetes és Nagyságos Gyarmati Balassa Bálint Urnak hozzám való
+                    igaz szeretetét és az én gyámoltalan arvasagombeli faradsagat és minden erdemem
+                    felett való körülettem forgolódását”, ráruházza vagyonát, arany és ezüst
+                    drágaságait. <persName>Bálint<idno corresp="Balassa Bálint"/></persName> viszont <date when="1660">1660-ban</date> rendelkezik úgy, hogy ha gyermekei nem lennének,
+                        <persName>Szunyogh Katalinnak</persName> köti le saját szerzeményeit
+                    százezer forint értékben. (Született egy fiuk, de korán meghalt. Egy naplószerü
+                    feljegyzés számol be utolsó napjairól, haláláról: „Descriptio morbi et oblatus
+                    Comiti Valentini filij cum elogia subnexa.” <bibl>OL Balassa-lt. P 1761. 2. cs.
+                        2. tétel</bibl>. Az írás a kisgyerek preceptorától származik.)</p>
+<p xml:id="p.15">Az <date from="1660" to="1669">1660</date>-as évek táján
+                    <persName>Balassa<idno corresp="Balassa Bálint"/></persName> cselekvőleg belekapcsolódik a protestánsok
+                    „térítésébe”. A lutheránusok ezért birtokait háborgatják. <date when="1660">1660-ban</date> <placeName>Vágbeszterce<idno type="ITIdata">Q14631</idno></placeName> vidékét fegyverrel
+                    tisztítja meg <persName>Thököly István<idno type="ITIdata">Q166755</idno></persName> embereitől. <date when="1662">1662-ben</date> <placeName>Selmecbányával<idno type="ITIdata">Q18687</idno></placeName> van controversiája,
+                    mivel ő is segített a lutheránusok templomának elvételében. (<bibl><hi rend="smallcaps">Breznyik
+                        János</hi>: <title>A Selmecbányai ev. egyház és lyceum története. I–II.</title>
+                        Selmecbánya. 1883–1889. II, 47–49.</bibl>) Az <date from="1660">1660</date>-as évektől a <persName>Rákóczi György<idno type="ITIdata">Q249882</idno></persName> bukását követő
+                    török támadások ellen harcol. Előbb a Felső-Tisza vidékén, majd birtokai
+                    szomszédságában. Jószágai a török pusztításainak leginkább kitett részeken
+                    feküdtek. A 100. sz. alatt közölt énekben a török elleni küzdelemhez kéri Isten
+                    segítségét. A záróstrófa szerint <date when="1663">1663-ban</date> szerezte.
+                    Ebben az évben foglalta el a török <placeName>Érsekújvárt<idno type="ITIdata">Q16602</idno></placeName>, több
+                    felvidéki várost, pusztított el nagy kiterjedésű földet, hurcolt fogságba egy
+                    csomó embert. A háborúzás folytatódott <date when="1664">1664-ben</date>. Az
+                    időközben már királyi tanácsossá kinevezett <persName>Balassa Bálint</persName>
+<persName>de Souches</persName> fővezér parancsnoksága alatt egy magyar
+                    seregrészt vezet. Vitézségével <placeName>Nyitra<idno type="ITIdata">Q12023</idno></placeName> alatt, majd
+                    <placeName>Lévánál<idno type="ITIdata">Q16567</idno></placeName> tünteti ki magát; vitézül harcol a
+                    <placeName>Bakabánya<idno type="ITIdata">Q19983</idno></placeName>, <placeName>Zsarnóc<idno type="ITIdata">Q20796</idno></placeName>,
+                    <placeName>Párkány<idno type="ITIdata">Q21930</idno></placeName> melletti összecsapásokban is.
+                    <placeName>Kékkő<idno type="ITIdata">Q9987</idno></placeName> alól sikerül elűznie a törököt.</p>
+<p xml:id="p.16">A <placeName>Léva<idno type="ITIdata">Q16567</idno></placeName> alatti harcokban elesett <persName>Koháry
+                    István<idno type="ITIdata">Q155483</idno></persName> helyett <date when="1664-09-27">1664. szeptember
+                            27-én</date> <persName>Balassa Bálint</persName> lesz Hont
+                        megye főispánja. Ez év <date when="1664-12-19">december
+                        19-én</date> grófi címet nyer. A királyi diploma ősei és Bálint hadi
+                    tetteivel okolja meg e kitüntetést, amint erről <persName>Nádasi
+                        Jánosnak<idno type="ITIdata">Q159061</idno></persName> <date when="1675">1675-ben</date>
+<placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName> kinyomtatott, <persName>Balassa
+                        Bálintnak</persName> ajánlott munkája (<bibl><title><hi rend="italic">Punctum honoris aeterni</hi></title>. <abbr>RMK III</abbr>,
+                        269</bibl>) így emlékezik: „Laudat in augustissimo anni 1664. 19. Decembris
+                    diplomate Leopoldus majores Tuos, atque se vel ex eo propensiorem ad omnibus
+                    honoribus et beneficiis cumulandum. Ibidem lego Te sub arce Tua Kékkő cum Turca
+                    et Tartaro fortiter confligentem, magnam fuisse partem Souchianae ad Nitriam
+                    victoriae contra Turcam, ubi teste ipso Campi Mareschallo, multos illorum
+                    decapisti. In acri vero ad Levam pugna simul prudentissimi ducis ac militis
+                    fortissimi munia abeundo, praeclara generis et virtutis militari specimina
+                    edidisti…” (Kiad. <bibl><hi rend="smallcaps">Kemény József</hi>: <title>Második Balassa Bálint és elődei
+                            emlékezete 1675</title>. <abbr>MMúz</abbr> 1860, I, 355–56.</bibl>)</p>
+<p xml:id="p.17"><persName>De Souches</persName> később is barátilag támogatja, hozzá intézett
+                    leveleiben titkos hírekről, a <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>
+<persName>Balassa<idno corresp="Balassa Bálint"/></persName> ellen nemegyszer indított áskálódásokról
+                    tájékoztatja, hogy idejében felkészülhessen elhárításukra.
+                    <persName>Szelepcsényi<idno corresp="Szelepcsényi György" type="ITIdata">Q246310</idno></persName> érsek is pártját fogja. Az áskálódások
+                    ellenére <date when="1665-09-13">1665. szeptember 13-án</date> őt teszik meg
+                    <placeName>Kékkő<idno type="ITIdata">Q9987</idno></placeName> főkapitányává. Ezt a tisztséget csak rövid
+                    ideig tölti be, minthogy <date when="1667-10-01">1667. október 1-én</date>
+<placeName>Korponába<idno type="ITIdata">Q19770</idno></placeName> nevezik ki főkapitánynak. Utódja a
+                        kékkői kapitányságban öccse, <persName>Ádám<idno corresp="Balassa Ádám"/></persName> lesz. Ezt követőleg újra
+                    fellángolnak köztük az ellenségeskedések.</p>
+<p xml:id="p.18"><date when="1668">1668-ban</date> meghal <persName>Szunyogh Katalin</persName>.
+                    (<bibl><hi rend="smallcaps">Lampérth Géza</hi>: <title>Gróf Balassa Bálint jelentése neje, gróf
+                            Szunyogh Katalin haláláról és temetéséről – gróf Szunyogh
+                            Gyulához</title>. <abbr>ItK</abbr> 1908, 486–87.</bibl> – Halotti
+                    búcsúztatójának egy része megvan az <bibl>OL Balassa-cs. levéltárában P 1761. 2.
+                        cs. 2. tétel.</bibl>) Ez év <date when="1668-07-17">július 17-én</date>
+                    temetik el <placeName>Selmecbányán<idno type="ITIdata">Q18687</idno></placeName>. <persName>Balassa<idno corresp="Balassa Bálint" type="ITIdata">Q238621</idno></persName> már
+                    a következő esztendőben újra nősül. Gróf <persName>Altha-Thillner Anna
+                            Borbálát<idno corresp="Altha-Thillner Anna Borbála"/></persName> veszi
+                    feleségül. Házassága azonban nem sikerül, hamarosan elválnak. (Halála [<date when="1678">1678</date>] után Bálint harmadszor is megházasodik. <date when="1679-01-29">1679. január 29-én</date> veszi el gróf
+                        <persName>Eszterházy Ilonát<idno corresp="Eszterházy Ilona"/></persName>.)</p>
+<p xml:id="p.19"><persName>Balassa<idno corresp="Balassa Bálint"/></persName> a dinasztia és az ellenreformáció híveként nem vesz
+                    részt a felvidéki elégedetlenek szervezkedésében. Ellenkezőleg, a mozgalom
+                    ellenségeként közreműködik az összeesküvők felderítésében, az ellenük indított
+                    megtorlásban, a bujdosók elleni hadjáratban.</p>
+<p xml:id="p.20">Részben vallási és politikai okokból nem jött ki jól a
+                        korponaiakkal sem. Feletteseitől többször kapott
+                    megrovást katonáinak „préda utáni barangolásai”, fegyelmezetlenségei miatt, ami
+                    részben <persName>Balassa<idno corresp="Balassa Bálint"/></persName> gyakori távolmaradásainak volt a
+                    következménye. A korponai őrség nemcsak a polgárokat
+                    zsarolta, messzi földeket bebarangolt zsákmányért, le a
+                        Jászság, Kunság területéig. A
+                        török meg is fenyegette a <placeName>palojtai<idno type="ITIdata">Q18557</idno></placeName>,
+                    <placeName>kürtösi<idno type="ITIdata">Q11701</idno></placeName>, <placeName>sztracsnói<idno type="ITIdata">Q350134</idno></placeName>,
+                    <placeName>szentpéteri<idno type="ITIdata">Q8900</idno></placeName> és még több más falu bíróit, hogy rögtön
+                    hírt adjanak Balassa katonáiról, mert ha nem, „kész a karó, nyársban szárattok
+                    meg.” (Vö. <bibl><hi rend="smallcaps">Matunák Mihály</hi>: <title>Korpona vár kapitányai</title>. Korpona
+                        1901. 54–55.</bibl>)</p>
+<p xml:id="p.21"><placeName>Korpona<idno type="ITIdata">Q19770</idno></placeName> városa és a főkapitány egymás elleni harcában a
+                    katonaszállásolás és az élelmezés az állandóan visszatérő probléma.
+                    <persName>Balassa<idno corresp="Balassa Bálint"/></persName> ital- és húsmérést hoz be a városba; a falak
+                    mentén, az alsóvárosban, a temetőben, a lőporos hordók közelében a katonák
+                    házikókat építenek maguknak. Az utóbbiakat a Kamara elnökének rendelete
+                    értelmében le kell bontani (Kollonich rendeletét <date when="1674-06-04">1674.
+                        június 4</date>-ről lásd <bibl>uo. 61</bibl>), de a hús- és italméréssel
+                    szemben a város tehetetlennek bizonyul. Eléri viszont, hogy a város kulcsai –
+                    „propter pacis concordiam” – ne a kapitánynál legyenek. (Vö. <persName>Esterházy
+                        Pál<idno type="ITIdata">Q144463</idno></persName> iratával <date when="1678-10-14">1678. október 14</date>-ről.
+                        <bibl>Uo. 62– 63.</bibl>)</p>
+<p xml:id="p.22"> A kuruc bujdosók felvidéki portyázásai is sok gondot okoztak <persName>Balassa
+                    Bálintnak</persName>. Elkeserítette, hogy Hont vármegyét nem bírta
+                    megtartani a király iránti hűségben. Az udvar és a nádor intései egymást
+                    követték. Bálint legtöbbször nem tartózkodott <placeName>Korponán<idno type="ITIdata">Q19770</idno></placeName>,
+                    az őrséget helyettesére bízta. Ezért is tesz neki szemrehányást
+                    <persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName>: mintha szántszándékkal akarná a kurucok
+                    kezébe adni <placeName>Korponát<idno type="ITIdata">Q19770</idno></placeName>. <placeName>Fülek<idno type="ITIdata">Q16717</idno></placeName> eleste
+                    után a nádor az őrséget <placeName>Lévára<idno type="ITIdata">Q16567</idno></placeName> rendelte.
+                    <placeName>Korpona<idno type="ITIdata">Q19770</idno></placeName>
+<date when="1682">1682</date> őszén a kurucok kezére került. Elégtételül
+                    szolgált <persName>Balassának<idno corresp="Balassa Bálint"/></persName>, hogy <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+                    felszabadítása, a kurucok visszaszorítása után, <date when="1683">1683-ban</date> újra őt tették <placeName>Korpona<idno type="ITIdata">Q19770</idno></placeName> főkapitányává. A
+                    megbékélés azonban most sem következett el. <persName>Balassa</persName>
+<persName>Rabattának<idno corresp="Rudolf von Rabatta"/></persName> panaszkodik, hogy a város nem ad szállást a
+                    katonáknak, „a német katonaság iránt sincsenek semmi tekintettel”, a királyt nem
+                    tisztelik; tőle nem félnek, mivel kevés a katonája. A polgárok sértegetik a
+                    tiszteket, megtámadják embereit, a tisztek lakásait. A helyzet ismertetése
+                    végett <persName>Balassa</persName> a tábornokhoz indul <placeName>Besztercebányára<idno type="ITIdata">Q16875</idno></placeName>.
+                    Útközben azonban <placeName>Zólyomban<idno type="ITIdata">Q2102</idno></placeName> <date when="1684-01">1684
+                        januárjában</date> meghalt. (<bibl>Uo. 66–67.</bibl>)</p>
+<p xml:id="p.23">Élete utolsó éveiben sokat szenvedett a reumától. <date when="1678">1678-ban</date> végrendelkezett. Roppant vagyonának legnagyobb részét a
+                    különböző szerzetes rendekre (jezsuiták, ferencesek, pálosok, bencések),
+                    templomok, zárdák építésére hagyta. Később azt az intézkedést, hogy a
+                    <placeName>trencséni<idno type="ITIdata">Q16636</idno></placeName> jezsuiták templomába temessék,
+                    megváltoztatta, testét <placeName>Selmecbányán<idno type="ITIdata">Q18687</idno></placeName>, <persName>Szunyogh
+                        Katalin</persName> mellé helyezték. Vagyona miatt még hosszú ideig folyt a
+                    veszekedés a rokonok között.</p>
+<p xml:id="p.24">MŰVEI</p>
+<p xml:id="p.25"><persName>Balassa Bálint</persName> írásai közül egykorú nyomtatásban mindössze
+                    az a Szent László királyt dicsőítő oráció jelent meg, melyet egyetemi hallgató
+                    korában a bécsi Szent István-templomban mondott: <hi rend="italic">Ladislaus Rex
+                        Hungariae olim Felicitas, Panegyrice adumbrata …</hi> A Perillvstri Et
+                    Magnifico Domino Valentino Balassa, Hungaro, Libero Barone de Gyarmath, AA. LL.
+                    et Philosoph. Baccalaureo etc. In Festo ejusdem Divi Regis in Basilica D. Steph.
+                    dicta et dicata. <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName>
+<date when="1646">1646</date>. (<bibl><abbr>RMK III</abbr>, 1660.</bibl>) Bizonyára erről
+                    emlékezett meg említett végrendeletében, mikor így szól: „In Sancto Stephano pro
+                    festivitatibus Gentis peroravi.”</p>
+<p xml:id="p.26">A tizenegy lap terjedelmű szónoklat előtt <persName>Lippai György<idno corresp="Lippay György" type="ITIdata">Q244067</idno></persName>
+                    esztergomi érsekhez írt ajánlás olvasható.</p>
+<p xml:id="p.27">XVIII. századi másolatban három példányban is őrzi az OSzK kézirattára a
+                    „Tractatus Brevis de Locumtenentia Regali et Legali Hungariae Praesentatus”
+                    címet viselő értekezését, melyet <persName>Szelepcsényi György<idno type="ITIdata">Q246310</idno></persName>
+                    érseknek, <date from="1667" to="1673">1667 és 1673 között</date> Magyarország
+                    királyi helytartójának ajánlott. (<bibl>Quart. Lat. 390. és 391.</bibl> és
+                        <bibl>Quart. Lat. 2095.</bibl>)</p>
+<p xml:id="p.28"><persName> Balassa Bálint</persName> azonban írói működését tekintve költő volt,
+                    számos vers szerzője. Költői oeuvre-je csak részben maradt ránk. Nyomtatásban
+                    mind ez ideig csak részben látott napvilágot. Három énekét leszármazója,
+                    <persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName> publikálta a múlt század közepén.
+                        (<bibl>Hazánk 1858, 73–74, 215–18.</bibl>) Ezeket a család kékkői
+                    levéltárában talált kézirattöredékekből közölte. Közülük egy, a <hi rend="italic">Bujkálz s njluán uan szépséged</hi> kezdetű (<ref target="rmkt-17-12.tei.bb-92">92. sz.</ref>)
+                    megtalálható az OSzK kézirattárának Quart. Hung. 144. jelzetű Jankovich-féle
+                    gyűjteményben is. Ennek címlapján az alábbi tájékoztatás olvasható: „Gyarmathi
+                    Balassa Bálint Versei, Mellyek a’ Kékkői Levéltárban negyed formán, és 13.
+                    leveleken a’ XVII. Század írásmódjával írva találtattak, az Eredeti Példányból
+                    leírattattak Jankovich Miklós Számára 1826. Nem egy, hanem több Balassa Bálint
+                    volt, és azért itt két Balassa Bálint Versei öszve írattattak, amint hogy egyik
+                    ének készítését 1649. Esztendőben nyilvánn vallya.” A tájékoztatással
+                    ellentétben azonban a gyűjteményben csak gróf <persName>Balassa
+                        Bálint</persName> verseit találjuk. A fentebb említetten kívül nyolcat.</p>
+<p xml:id="p.29">A <persName>Balassa Antaltól<idno type="ITIdata">Q140824</idno></persName> közölt és a
+                    <persName>Jankovichtól<idno corresp="Jankovich Miklós" type="ITIdata">Q59830</idno></persName> lemásoltatott verseket <persName><hi rend="smallcaps">Dézsi
+                        Lajos</hi><idno type="ITIdata">Q143973</idno></persName> adta ki. (<bibl>BBMM II, 383–411.</bibl> Nyolcadik rész. A
+                    kékkői kézirat Balassa-énekei.) A tizenegy éneken felül publikálta azt a
+                    háromsoros töredéket is, melyet <persName><hi rend="smallcaps">Toldy</hi><idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno></persName> a <persName>Balassiról<idno corresp="Balassi Bálint" type="ITIdata">Q2101</idno></persName> írt
+                    életrajzban közölt (<bibl><title>A magyar költészet kézikönyve</title>. Bp.2
+                        1876. I, 85</bibl>), valamint egy tévesen Balassa-versnek tartott éneket
+                    Amadé Lászlótól, melynek versfői a <hi rend="smallcaps">balassa</hi> nevet formálják. (Vö. <bibl><hi rend="smallcaps">Eckhardt
+                        Sándor</hi>: <title>Balassi két verséhez</title>. <abbr>It</abbr> 1914,
+                        248–52.</bibl> – <bibl><hi rend="smallcaps">Gálos Rezső</hi>: <title>Balassa vagy Amadé?</title>
+<abbr>EPhK</abbr> 1936, 62–64.</bibl>) A XVII. század barokk udvari
+                    költészetének képviselőjeként ezzel a versállománnyal került bele <persName>Balassa Bálint</persName>
+                    a magyar irodalom történetébe, magával hordva több félreértést, tévedést.</p>
+<p xml:id="p.30">Mint fentebb említettük, <persName>Balassa Bálint</persName> költeményeinek a
+                    nyomára <persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName> talált rá a múlt század első felében.
+                    A felfedezés körülményeiről, további terveiről tájékoztat az a levele, melyet a
+                    három verssel együtt adott ki <date when="1858">1858-ban</date>. (Kiad.
+                    <persName><hi rend="smallcaps">Dézsi</hi><idno corresp="Dézsi Lajos" type="ITIdata">Q143973</idno></persName> is: <bibl><abbr>BBMM II</abbr>, 767–69.</bibl>)
+                    Itt számolt be róla, hogy a múlt iránti érdeklődést <persName>Horvát
+                        István<idno type="ITIdata">Q146357</idno></persName> (<date from="1784" to="1846">1784–1846</date>), a pesti
+                    egyetem tanára ébresztette fel benne, illetőleg tartotta fenn. Ennek
+                    következménye volt, hogy a tanév végén <placeName>Kékkőre<idno type="ITIdata">Q9987</idno></placeName> hazatérve,
+                    amint írja: „fölhánytam, fölforgattam, átnéztem hevenyében mindent, ami kezeim
+                    közé akadt. Egy alkalommal megpillantottam a rendetlenül felhányt irathalmot a
+                    zugban, odalépék, felveszek egy negyedrétűleg összehajtott csomagot; nézem,
+                    nézem, s nagy örömömre, a füzet magyar verseket tartalmazott! Reszketeg örömmel
+                    olvastam végig az első költeményt, s midőn a végső verssorban olvasám: »Nevem
+                    versfejeknek kezdő betüjében«, s ezeket összeillesztvén, belőlük e két szót:
+                    »Balassa Bálinthé« látám kifejleni, örömöm határtalan lőn, el valék ragadtatva!
+                    s nem kelle-e végtelenül örvendeznem? hiszen az utolsó versszakaszban foglalt
+                    évszámból az tűnt ki, hogy az ekkint történetesen fölfedeztem költő nem az a
+                    Balassa Bálint, kinek költeményeit oly gondos kegyelettel őrzi irodalmi
+                    történetünk; ő jóval későbben élt s róla, mint költőről, sehol sincs említés
+                    téve; véletlen fölfedezésem tehát régibb íróink számát szaporította s egy
+                    irodalmi kincset az enyészettől megmentett.</p>
+<p xml:id="p.31">A kutatást azután kettőzött eréllyel folytattam, s szerencsés is voltam – egyéb
+                    érdekes olvasmányokon kívül – a költőnek több költeményére ráakadni; el is
+                    határoztam azoknak kinyomtatását, mitől ez ideig csak azon remény tartott
+                    vissza, miszerint sikerülend talán valahol nyomába jutnom a hiányzóknak, azonban
+                    reményem több évi szorgalmas kutatásom mellett sem teljesült, mi okon eltökéltem
+                    magamban mind a két Balassa Bálint életrajzát kidolgozni, s költeményeikhez
+                    mellékelve, kiadni…”</p>
+<p xml:id="p.32"><persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName> terve azonban nem valósult meg. De ránk
+                    maradtak másolatai, életrajzvázlatai. Sőt a Balassa család levéltárában
+                    megvannak azok az egykorú írással készült eredeti füzetlapok is, melyekről
+                        <persName>Balassa Antal</persName> a verseket lemásoltatta. (<bibl>OL P
+                            1761. 2. cs. 3. tétel.</bibl>) (Vö. <bibl><hi rend="smallcaps">Varga Imre</hi>: <title>Balassa Bálint
+                            gróf újabban előkerült alkotásairól</title>. <abbr>MKsz</abbr> 1979,
+                        378–81.</bibl>)</p>
+<p xml:id="p.33">Bár <persName>Jankovich Miklós</persName> másolata 13 levél „eredeti szövegéről
+                    beszél, a levéltárban fennmaradt levelek száma pedig 31 (közülük 53 lapon
+                    olvasható versszöveg), és bár helyenként szövegeltérés van a Jankovich-féle
+                    másolat meg az eredeti gyűjtemény maradványa, illetőleg a <persName>Balassa
+                        Antal<idno type="ITIdata">Q140824</idno></persName>-féle másolatok között, <persName>Jankovich<idno corresp="Jankovich Miklós"/></persName> másolatának a ma is
+                    meglévő egykorú kézirat, jobban mondva annak egy része volt a forrása. A néhány
+                    kihagyott sor, szövegeltérés a másolónak köszönhető, aki félreolvasta, vagy
+                    talán „igazított” az eredeti szövegen. (A másolatnak, illetőleg <persName>Dézsi<idno corresp="Dézsi Lajos" type="ITIdata">Q143973</idno></persName> ezen
+                    alapuló kiadásának hibáit egyenként nem soroljuk fel.) A Jankovich-féle másolat
+                    korántsem tartalmazza az egész anyagot, melyre <persName>Balassa
+                        Antal</persName> ráakadt, és melyet másolatba vétetett.</p>
+<p xml:id="p.34">A jelek szerint <persName>Balassa Bálint</persName> lemásoltatta verseit egy
+                    negyedrét nagyságú füzetbe. Egy nyolc levélből álló füzetrész cérnával
+                    összefűzve ma is egyben van. Egy négy levélből és négyszer két-két levélből álló
+                    összefüggő lapokon kívül a gyűjtemény különálló, szétszakadt levelekből tevődik
+                    össze. Mostani állapotukban a levelek rendezetlenül következnek egymás után.</p>
+<p xml:id="p.35">A másolók közül legtöbbet írt a füzetbe a feltételezhetően elsőként író kéz. Tőle
+                    származik a <hi rend="italic">Békoban már</hi> (<ref target="rmkt-17-12.tei.bb-90">90. sz.</ref>) kezdetű
+                    vers, melyet az őrszó szerint a <hi rend="italic">Botlik az széréncse</hi>
+                    (eredetileg: <hi rend="italic">Pártos az széréncse</hi>; lásd hátul a
+                    jegyzetben!) vers (<ref target="rmkt-17-12.tei.bb-91">91. sz.</ref>) követ, amely az utolsó versszak szerint
+                        <date when="1649">1649-ben</date> íródott. A végén, a lap alján őrszóként a <hi rend="italic">Tündöklő Venusnál</hi> olvasható – egy elveszett, ismeretlen
+                    ének kezdőszavai.</p>
+<p xml:id="p.36">Az első kéz másolta le a <hi rend="italic">Bujkálz, s njluán uan szépséged</hi>
+                    (<ref target="rmkt-17-12.tei.bb-92">92. sz.</ref>,) kezdetű verset, melyet az őrszó szerint a <hi rend="italic">Bujdosuán tétoua rebdesek</hi> (<ref target="rmkt-17-12.tei.bb-93">93. sz.</ref>) követett.
+                    A következő lapon az első öt versszaka olvasható, a hatodikból már csak az őrszó
+                    van meg. Teljes egészében ránk maradt az első kéz írásával a <hi rend="italic">Botlaze uagy már régen elis estél</hi> kezdetű. (<ref target="rmkt-17-12.tei.bb-94">94. sz.</ref>) A lap
+                    alján álló őrszó: <hi rend="italic">Batorságoth</hi> – ismét egy elveszett,
+                    ismeretlen énekre utal. Ugyanennek a kéznek a másolata őrizte meg az elején
+                    csonka, <persName>Toldytól<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno></persName> <date when="1828">1828-ban</date> kiadott
+                        <hi rend="italic">Eles elméd légyén, feleicsd el neuedet</hi> indítású
+                    átkozódó verset (<ref target="rmkt-17-12.tei.bb-95">95. sz.</ref>), melyet az őrszó alapján a „Be járó vers”
+                    címet viselő <hi rend="italic">Etczer nem njughhatuán</hi> kezdetű versike
+                    (<ref target="rmkt-17-12.tei.bb-96">96. sz.</ref>) követ a végén <hi rend="italic">finis</hi> záradékkal,
+                    a lap alján pedig <hi rend="italic">Bimbojában</hi> őrszóval.
+                        <persName>Balassának</persName> ez az éneke is elveszett.</p>
+<p xml:id="p.37"><persName>Balassa<idno corresp="Balassa Bálint"/></persName> versgyűjteménye ránk maradt maradványának nagy
+                    részét, amint látható, az első kéz másolta. Olvasható, szép írással. Az őrszavak
+                    megléte is arra vall, hogy ez a másoló volt a leggondosabb.</p>
+<p xml:id="p.38">Egy másik kéz írásában maradt fenn két ének. A <hi rend="italic">Bánom hogy ugy
+                    buszulok</hi> (<ref target="rmkt-17-12.tei.bb-97">97. sz.</ref>), mely a lap közepén ér véget. Őrszót a
+                    másoló nem jegyzett a vers után. Bizonyos azonban, hogy utána nyomban a <hi rend="italic">Gyöngynél kegyesb sepet</hi> kezdetű ének (<ref target="rmkt-17-12.tei.bb-98">98. sz.</ref>)
+                    következett, bár a következő lap ennek a <persName>Tarnovski
+                    Zsófiához</persName> szóló versnek a második versszakával kezdődik; az előző lap
+                    üres részére más kéz (<persName>Balassa Bálint</persName>) írta be az első
+                    strófát. Mint a gyűjtemény további részében, itt sem található őrszó.</p>
+<p xml:id="p.39">Egy harmadik másoló kézírásában szintén két vers maradt fenn. A <hi rend="italic">Bumra vonta, latom, vak világh harangját</hi> (kiadatlan!) és a <hi rend="italic">Batoricsad benned bizo, bus szivemet</hi> kezdetűek.
+                    (<ref target="rmkt-17-12.tei.bb-99">99</ref>–<ref target="rmkt-17-12.tei.bb-100">100. sz.</ref>) <persName>Jankovich<idno corresp="Jankovich Miklós" type="ITIdata">Q59830</idno></persName> másolata egyiket sem tartalmazza.</p>
+<p xml:id="p.40">A negyedik kéztől származik a ma is egyben lévő nyolcleveles füzetrész öt istenes
+                    éneke. Az első háromnak közös címe: „Egy Teöredelmes, Szünek Bűne
+                    Boczianattyaertt s Boldogh Kj Mulasaertt Valo Harom Imatsaga Az Szentt
+                    Haromsaghnak Tisztessegere.” (<ref target="rmkt-17-12.tei.bb-101">101–103. sz.</ref> A Jankovich-féle
+                    gyűjtemény nem tartalmazza őket.) „Mas Rendbeli Istenes Enekek” cím után két
+                    ének következik (<ref target="rmkt-17-12.tei.bb-104">104.</ref>, <ref target="rmkt-17-12.tei.bb-105">105. sz.</ref>). Ezek közül
+                    <persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName> csak egyet közölt, <hi rend="italic">Az
+                        el mult esztendeök</hi> kezdetűt. (<ref target="rmkt-17-12.tei.bb-105">105. sz.</ref>) E két utóbbi ének
+                    sem található meg <persName>Jankovichnál<idno corresp="Jankovich Miklós" type="ITIdata">Q59830</idno></persName>.</p>
+<p xml:id="p.41">Új kézírással maradt ránk a kéziratnak mai állapotában utolsó darabja: <hi rend="italic">Mit tréfalsz Cupido</hi> kezdettel. (106. sz.) Tíz versszak
+                    van belőle a kéziratban; őrszó nem mutatja, következett-e utána több strófa. A
+                    XVIII. századból az éneknek hat változatát említi, ötöt közöl is belőlük
+                    <persName><hi rend="smallcaps">Stoll Béla</hi></persName> az <bibl><abbr>RMKT XVII/3</abbr>, 245.
+                        sz.</bibl> alatt. (A legrégibb szövege a <hi rend="italic">Komáromi-ék.</hi>-ből – <date when="1701">1701</date> – való.) Felmerül a
+                    kérdés, <persName>Balassa Bálint</persName> írta-e. <persName>Stoll</persName> a
+                    Cupidóval való veszekedés témájával kapcsolatban <persName>Balassi
+                        Bálint<idno type="ITIdata">Q2101</idno></persName> egyik énekére hivatkozik (<bibl><abbr>BBÖM</abbr> 60. sz.</bibl>), és a
+                    verset <persName>Balassa Bálint</persName> átkozódó szerzeményére emlékeztető jellegű alkotásnak
+                    mondja. Ez lenne <persName>Balassa</persName> egyetlen verse, mely népszerűvé vált. Hogy a
+                    gyűjteményben ez az ének is megvolt, nem bizonyítja feltétlenül <persName>Balassa</persName>
+                    szerzőségét, de valószínűsíti e feltevés helyességét.</p>
+<p xml:id="p.42">A lemásolt gyűjteményt <persName>Balassa Bálint</persName> átolvasta, egyes
+                    helyeken belejavított. Egy éneket pedig úgy átdolgozott, hogy a versfők
+                    „<hi rend="smallcaps">petroczj jstvan</hi>” helyett a „<hi rend="smallcaps">balassa balinte</hi>” értelmet adják. Ezen felül a
+                    gyűjteménybe, az üres helyekre <persName>Balassa<idno corresp="Balassa Bálint"/></persName> maga is írt három
+                    rövid verset: <hi rend="italic">Paranczolatodra küldöm hat kövemet</hi>
+                    (<ref target="rmkt-17-12.tei.bb-107">107. sz.</ref>); <hi rend="italic">Most elojaroul harom par
+                        kövemet</hi> (<ref target="rmkt-17-12.tei.bb-108">108. sz.</ref>) – és „Aliud” címmel a <hi rend="italic">Kegies Kupidonak bizonjos tegzeim</hi> (<ref target="rmkt-17-12.tei.bb-109">109. sz.</ref>) kezdetű
+                    versikéket. (Egyik sincs meg a Jankovich-féle gyűjteményben.)</p>
+<p xml:id="p.43">Az ismertetett gyűjtemény-töredéknek verseit <persName>Balassa Antal<idno type="ITIdata">Q140824</idno></persName>
+                    lemásoltatta. Jelenleg négy példányban találhatók ezek a Balassa család
+                    levéltárában. Az egyikről úgy tetszik, hogy az énekek kiadására gondolva,
+                        <persName>Balassa Antal</persName> témájuk szerint tervezte a versek
+                    közlését, „Szerelmes versek”, „Énekek” (ezek az istenes versek!), „Különféle
+                    költemények” cím alá csoportosította az egyes darabokat.</p>
+<p xml:id="p.44"> A másolatok tartalmazzák csupán <persName>Balassa Bálintnak</persName> az eddig
+                    csak <persName>Toldytól<idno corresp="Toldy Ferenc" type="ITIdata">Q151328</idno></persName> ismert, a tőle készült életrajzban
+                    „allegóriai játék”-ként említett drámáját, „mely fiatalkori viszontagságaira
+                    vonatkozik”. (Kiad. <bibl><hi rend="smallcaps">Varga Imre</hi>, <abbr>ItK</abbr> 1979, 427–46.</bibl>)</p>
+<p xml:id="p.45"><persName>Balassa Bálintnak</persName> ez a munkája témájánál és műfajánál fogva
+                    egyaránt egyedülálló mű. Önéletrajzi dráma a XVII. századi jezsuita iskoladrámák
+                    modorában. <persName>Balassa Bálint</persName> gyerekkorának valóságos élményeit
+                    vitte színpadra. Önmagát Genius néven személyesíti meg benne; szülőanyja (Mária)
+                    Armia, apja (András) Radenas, mostoha anyja (Ilona) Nolia néven szerepel a
+                    darabban. A narrátor szerepét Trivio játssza. Kívülük fellépnek allegorikus
+                    alakok: Invidia, Virtus, Tempus, Gratiae, Angelus custos, Morbi, Zephiri; az
+                    antik világ, a mitológia istenei: Mars, Pallas, Bacchus, Pluto, Cupido cum
+                    Venere, Apollo cum Musis.</p>
+<p xml:id="p.46">Az allegorikus önéletrajzdráma a XVII. századi magyar nyelvű, világi tárgyú
+                    drámai emlékeink számát növeli, bár van benne egy hosszabb lélegzetű latin vers
+                    Szűz Máriához, s helyenként 1–2 sornyi latin szöveg. A színpadon folyó
+                    cselekvésekre, a jövő-menő személyek eligazítására vonatkozó tájékoztatások,
+                    utasítások is latin nyelvűek. Ha az életrajzi vonatkozásokban gazdag passzusok
+                    világi jellegű tárggyá teszik is a cselekményt, az allegorikus küzdelem az
+                    életútja keresztezőpontjánál álló ifjúért, a pogány és a keresztény elemek
+                    keveredése, a jezsuita iskolai színjátszás erős hatására mutatnak. Az
+                    iskolajátékokban volt szokás hosszú monológok, okoskodások közbeiktatása is. Ezt
+                    a szerepet tölti be az a három költemény, melyet költőnk a darabba illesztett.
+                    Helyesebben szólva négy éneket fűzött a drámába, mivel ilyen az elindító ének
+                    is. A négy közül három magyar, egy latin nyelvű. Valamennyinek a versfői
+                    <persName>Balassa<idno corresp="Balassa Bálint"/></persName> nevét adják. Személyes jellege van a
+                    bevezetőversnek (<ref target="rmkt-17-12.tei.bb-87">87. sz.</ref>), ahol többek közt éppen <persName>Balassa</persName> eljárásának
+                    tudatosságáról győződhetünk meg, midőn azt írja, hogy néhány versét
+                    „belekeverte” munkájába. Még személyesebb jellegű a <hi rend="italic">Bátorságot
+                        veszek</hi> kezdetű ének, melyet az első felvonás elején énekel Genius.
+                        (<ref target="rmkt-17-12.tei.bb-88">88. sz.</ref>) Egészében magáról, gyerekkora életkörülményeiről
+                    szól. Utolsó strófájában azt mondja, hogy tizenhét esztendős korában írta, tehát
+                        <date when="1643">1643-ban</date>. Ez lehetett
+                    <placeName>Nagyszombaton<idno type="ITIdata">Q14207</idno></placeName> a jezsuitáknál töltött harmadik éve.
+                    Ebben az időben tizenhét éves korukban már nagyban verseltek a deákok, akik
+                    közül többről tudjuk, hogy előadásra kompilált darabot szerzett. Feltételezhető,
+                    hogy <persName>Balassa Bálint</persName> nemcsak ezt a verset, hanem az egész
+                    játékot <date when="1643">1643-ban</date> írta. Az <date when="1642">1642</date>
+                    elején írt leveléből is megállapítható, hogy világosan látta helyzetét,
+                    szüleinek hozzá való kapcsolatát. Az az érettség, mellyel magáról drámájában
+                    vall, az ő esetében természetes jelenség. Egy következő versbetét az után a
+                    jelenet után olvasható, melyben Mars, Venus, Cupido a Virtussal vetélkedik,
+                    milyen útra térítsék az útkeresztezésnél álló, életcélt kereső ifjút. (<hi rend="italic">Bátorságom indítója</hi> – <ref target="rmkt-17-12.tei.bb-89">89. sz.</ref> alatt.) Talán
+                    erre az énekre céloz bevezető versében, hogy a drámába „kevert” „szerelmes
+                    versei nem képemben vannak”, nem saját érzelmeit fejezik ki. Negyedik – ezúttal
+                    latin versében – még mindig a keresztútnál, Mária segítségéért esedezik, mutassa
+                    meg ő a helyes utat.</p>
+<p xml:id="p.47">Az említett versek közül a magyar nyelvűeket kiadásunkban önálló versekként
+                    közöljük, bár szervesen beleilleszkednek az önéletrajzdrámába. Azokat a befejező
+                    sorokat, mellyel a második tisztelendő atya költőnket
+                    <placeName>Nagyszombatban<idno type="ITIdata">Q14207</idno></placeName> fogadta, itt adjuk, mivel olvasható
+                    itt az a három sor is, melyre <persName>Toldy Ferenc<idno type="ITIdata">Q151328</idno></persName> hivatkozott, s
+                    amelyeket <persName>Dézsi<idno corresp="Dézsi Lajos" type="ITIdata">Q143973</idno></persName> „II. Balassának a költő Balassáról írt
+                    verses életrajzából” származó töredékként közölt. (<bibl><hi rend="smallcaps">Dézsi</hi>: <abbr>BBMM
+                            II</abbr>, 12. sz.</bibl> alatt; vö.<bibl> uo. a 771.</bibl> lappal is!)
+                    <persName>Balassa Bálint</persName> nem írt verses életrajzot
+                    <persName>Balassiról<idno corresp="Balassi Bálint" type="ITIdata">Q2101</idno></persName>, de megírta drámai formában saját gyermek-
+                    és ifjúkorának viszontagságait.</p>
+<l xml:id="l.6">Ki hasonló nevet viselt nemzetedben,</l>
+<l xml:id="l.7">Tudomány, vitézség, szerelem volt ebben.</l>
+<l xml:id="l.8">Tizenegy bajt egy nap vitt erős fegyverben,</l>
+<l xml:id="l.9">Annyiszor részesült az győzedelmekben,</l>
+<l xml:id="l.10">És annyi kópia vitéz törésekben.</l>
+<l xml:id="l.11">Mása sem volt eddig a magyar versekben;</l>
+<l xml:id="l.12">Mars, Pallas hivének írják az könyvekben.</l>
+<l xml:id="l.13">Annak képét látom lenni személyedben.</l>
+<l xml:id="l.14">Successora leszel, de nem csak nevedben,</l>
+<l xml:id="l.15">Kövessed két jóban egész életedben;</l>
+<l xml:id="l.16">Szerelmet ne bocsáss de jó erkölcsödben,</l>
+<l xml:id="l.17">Mert megbont és megront jó természetedben,</l>
+<l xml:id="l.18">Hogyha fészket verhet Cupido szivedben.</l>
+<l xml:id="l.19">Én meg nem csalatlak jó reménységedben,</l>
+<l xml:id="l.20">Apád és pártfogód leszek jó ügyedben;</l>
+<l xml:id="l.21">Azonban Palláshoz menj el fris idődben</l>
+<l xml:id="l.22">S bimbódban virágzó ékes esztendődben.</l>
+<p xml:id="p.48"><persName>Balassa Bálint</persName> énekgyűjteményének eredeti állapotát, a ránk
+                    maradt töredék alapján a benne lévő versek sorrendjét nem tudjuk rekonstruálni.
+                    Nem nyújtanak ehhez támaszpontot a másolatok sem. Néhány ének keletkezéséről
+                    tájékoztat csak a költő.</p>
+<p xml:id="p.49">Ha elfogadjuk, hogy a <hi rend="italic">Bátorságot veszek</hi> (<ref target="rmkt-17-12.tei.bb-88">88.
+                        sz.</ref>) kezdetű éneket valóban <date when="1643">1643-ban</date>
+                    szerezte, ez az eddig ismert legrégibb verse. Feltehetőleg ebben az időtájban
+                    keletkezett maga a dráma is, és a benne olvasható versbetétek: <hi rend="italic">Bujaságnak senki versemet ne vélje</hi> (<ref target="rmkt-17-12.tei.bb-87">87. sz.</ref>), <hi rend="italic">Bátorságom indítója</hi> (<ref target="rmkt-17-12.tei.bb-89">89. sz.</ref>). Az <date when="1649">1649</date>-es évben keletkezett a <persName>Petrőczi
+                        István</persName> nevében írt, utóbb átdolgozott <hi rend="italic">Botlik az
+                            széréncse</hi> (<ref target="rmkt-17-12.tei.bb-91">91. sz.</ref>) kezdetű ének. A <hi rend="italic">Batoricsad benned bizo, bus szivemet</hi> (<ref target="rmkt-17-12.tei.bb-100">100. sz.</ref>)
+                    szereztetési éve <date when="1663">1663</date>. Ismerjük még <hi rend="italic">Az el mult esztendeök</hi> kezdetű istenes ének keletkezési évét: <date when="1669">1669</date>. (<ref target="rmkt-17-12.tei.bb-105">105. sz.</ref>)</p>
+<p xml:id="p.50">Mindezek alapján azonban nem tudjuk kronológiai rendbe szedni
+                    <persName>Balassa<idno corresp="Balassa Bálint"/></persName> énekeit. Kiadásunkban ezért a kronológia,
+                    illetőleg a tematikus csoportosítás helyett a <persName>Balassa</persName> verseinek gyűjteményét
+                    összeíró másolók lejegyzéseinek egymás utáni rendjét követve közöljük a
+                    verseket. Elsőkként az önéletrajz dráma lírai betétjeit adjuk. Azért is, mivel
+                    ezek látszanak <persName>Balassa</persName> legkorábbi szerzeményeinek. Ezután hozzuk a gyűjtemény
+                    első másolójától ránk maradt énekeket, köztük az <date when="1649">1649-re</date> datált verset. A második kéz másolatából ismert,
+                    <persName>Tarnovski Zsófiához<idno corresp="Tarnovski Zsófia"/></persName> szóló vers is a korai szerzemények
+                    közé tartozhatik, mint ahogyan feltételezhetőleg, ebből az időtájból valók az
+                    első és második kéz feljegyzésében ránk maradt szerelmes dalok, melyek
+                    duzzogásai, szemrehányásai, kifakadásai <persName>Amadé Lászlót</persName>
+                    juttatják eszünkbe. A harmadik kéz írásai után következő istenes versek
+                    tematikailag szorosan összetartoznak. Közülük <hi rend="italic">Az el múlt
+                        esztendeök</hi> kezdetűt <date when="1669">1669-ben</date> írta a Vág vize
+                    partján. (<ref target="rmkt-17-12.tei.bb-105">105. sz.</ref>) Tipikusan Balassa-szerű az <hi rend="italic">Az
+                        ki az szelekre</hi> (<ref target="rmkt-17-12.tei.bb-104">104. sz.</ref>) záróstrófája is. Nincs okunk
+                    kételkedni, hogy az istenes énekek szerzője nem <persName>Balassa
+                        Bálint</persName>. Bizonytalanabbak vagyunk a <hi rend="italic">Mit tréfálsz
+                        Cupido</hi> szerzőségét illetőleg. Mivel azonban a gyűjtemény többi
+                    darabjának <persName>Balassa Bálinttól</persName> való származtatásához nem fér kétség, ezt is
+                    közöljük neve alatt. A XVIII. századból ismert változatok mellett ez a legrégibb
+                    forrás; szövegében is eléggé különbözik azoktól. Utolsókként közöljük a <persName>Balassa</persName>
+                    saját kezű írásában ránk maradt rövid verseket. Úgy gondoljuk, időrendben is
+                    szerzeményei végére tehetők. Akkor írhatta le őket, amikor verseinek elkészült
+                    gyűjteményét átolvasta, ellenőrizte, helyenként belejavított. Talán harmadik
+                    feleségéhez szólnak az ajándékversek. Csak <date when="1679">1679-ben</date>
+                    vette feleségül, de már az <date when="1678">1678-i</date> végrendeletében
+                    bizalmasan beszél róla, drága emlékeket hagy rá. Régi kapcsolat lehetett
+                    közöttük.</p>
+<p xml:id="p.51">*</p>
+<p xml:id="p.52"><persName>Balassa Bálint</persName> kézírása leveleinek, a gyűjteménybe tett
+                    javítgatásainak, négy versikéje írásának tanúsága szerint nehezen olvasható, de
+                    feltűnő különlegességeket nem mutat. A tőle származó verseket, javított részeket
+                    kiadásunkban hűen reprodukáljuk.</p>
+<p xml:id="p.53">Valamennyi másoló írása könnyen olvasható. Helyesírásuk azonban eléggé különbözik
+                    egymástól. A második kéz helyesírása mutat legtöbb furcsaságot. Ugyanazzal a
+                    betűvel több hangot is jelöl, illetőleg egy hangnak a jelölésére több betűjelet
+                    használ. Pl. <hi rend="italic">s</hi>-sel írja sokszor a <hi rend="italic">sz</hi> hangot (syvet, soltall, sokot), az <hi rend="italic">sz</hi> pedig
+                    számos esetben <hi rend="italic">s</hi> értékű (Bűszolok, vigaszág, moszt,
+                    laszad, szok). A ch hol <hi rend="italic">c</hi>-t (tanchot), hol meg <hi rend="italic">cs</hi>-t (chak, ninch, chokol) jelöl. A palatalizációt <hi rend="italic">i</hi>-vel, <hi rend="italic">j</hi>-vel, <hi rend="italic">y</hi>-nal jelöli, vagy egyáltalán nem jelzi. Bizonytalan a zöngés és
+                    zöngétlen hangok írásában. Ugyanakkor, amikor a mássalhangzók hosszúságával nem
+                    törődik (it, iratot, hoz = hozz), sokszor kettőzi a mássalhangzót a szóvégen
+                    (avall, triffabűll, sivemett, fell, soltall). Nyelvjárása íző: nyv (= név),
+                    jrdemljk, filtem, semiledett, néha űző jelleggel: kettü, süt. Ilyen egybeírási
+                    furcsaságai vannak: elnem, nehoz, admegh, snem, sversben.</p>
+<p xml:id="p.54">A szóvégi mássalhangzó kettőzését, az egybeírásokat, ugyanazzal a betűvel több
+                    hangnak a jelölését (szüzek, mezze, rozz), ennek a fordítottját stb. megtaláljuk
+                    az első másoló kézírásában is, de ő és a többi másoló a mai olvasóhoz jóval
+                    közelebb álló írásmóddal él. Általános vonásként megemlítjük még, hogy a
+                    kéziratban többször találkozunk azzal a jelenséggel, hogy az <hi rend="italic">l</hi> megnyújtja az előtte álló magánhangzót, ilyenkor megduplázva írják a
+                    mellette álló mássalhangzót: hott (= holt), ferre (= félre); a <hi rend="italic">g</hi> gyakran társul a <hi rend="italic">h</hi>-val: drágha uirágh, megh,
+                    hyuséghben.</p>
+<p xml:id="p.55"> A XIX. századi másolatok modernizálták az eredeti egykorú kézirat helyesírását,
+                    nemegyszer változtattak a kiejtésen is.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">118.</title>
+<title key="body" n="118" type="main">[A HUNOK VEZÉREI]</title>
+<author>
+<surname>Listius</surname>
+<forename>László</forename><idno type="ITIdata">Q244148</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-118</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ll-jegyzetek">Jegyzetek: Listius László élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><title>Külömbféle magyar verseknek
+                            gyűjteménye a XVIII-XIX. századból</title>. OSzK Fol. Hung. 135.
+                        22a–23b.</bibl></p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Külömbféle magyar verseknek gyűjteménye a XVIII-XIX.
+                        századból. OSzK Fol. Hung. 135. 22a–23b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 118.</fw>
+<head type="title"><supplied>A HUNOK VEZÉREI</supplied></head>
+<div xml:id="d.2">
+<head>KEVE PRIMUS DUX HUNNORUM</head>
+<lg xml:id="lg.31">
+<l xml:id="l.121">Tiz .s. kilencz száz ezer hunnus nemzet között</l>
+<l xml:id="l.122">Ez a’ vitézséggel olly érdemet szerzött,</l>
+<l xml:id="l.123">Német nemzete közt nem élt, ki ellenzett,<note type="critic" xml:id="note.16">ellenállt</note></l>
+<l xml:id="l.124">Ez az irigység-is ö néki kedvözett.</l>
+</lg>
+<lg xml:id="lg.32">
+<l xml:id="l.125"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Az ha<corr>t</corr> hadnagy közzül ö fövé
+                                    tétetett,</lem>
+<rdg wit="#W1" xml:id="rdg.6"><sic>hai</sic></rdg>
+</app></l>
+<l xml:id="l.126">Mivel természettül arra nemzettetett,</l>
+<l xml:id="l.127"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Dicséretes erkölcstül ö
+                                    vezett<corr>et</corr>ett,</lem>
+<rdg wit="#W1" xml:id="rdg.7">vezettetetett</rdg>
+</app></l>
+<l xml:id="l.128">Hadnagy társaitul méltán tiszteltetett.</l>
+</lg>
+<lg xml:id="lg.33">
+<l xml:id="l.129"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Az országra, <corr>mellyett</corr> téj .s. méz
+                                    böven folya,</lem>
+<rdg wit="#W1" xml:id="rdg.8">az mellyett<note type="critic" xml:id="note.17">A szótagszám miatt javítva.</note></rdg>
+</app></l>
+<l xml:id="l.130">Scithiábul utatt véletlen talála,</l>
+<l xml:id="l.131">Nöstény szarvas által népével indula,</l>
+<l xml:id="l.132">Szarmatokatt gyözvén, Tisza melle szálla.</l>
+</lg>
+<lg xml:id="lg.34">
+<l xml:id="l.133">Dunán hajo nélkul által kele éjjel,</l>
+<l xml:id="l.134">Magokat segitvén fel fuvott tömlökkel,</l>
+<l xml:id="l.135">Romaiakra üte nagy roppant erövel,</l>
+<l xml:id="l.136">Táborokat dulván lön nagy seregséggel.<note type="critic" xml:id="note.18">Talán <hi rend="italic">serénységgel</hi> volt az eredeti
+                                szövegben.</note></l>
+</lg>
+<lg xml:id="lg.35">
+<l xml:id="l.137">Potentiánál<note type="critic" xml:id="note.19">Potentia – képzelt város a Duna
+                                mellett.</note> vön dupla gyözedelmett,</l>
+<l xml:id="l.138">Romaiak vévén szörnyü veszedelmet,</l>
+<l xml:id="l.139">A’ gottusoknak is téve nagy sérelmet,</l>
+<l xml:id="l.140">Egész Europának ez szerze félelmet.</l>
+</lg>
+<lg xml:id="lg.36">
+<l xml:id="l.141">Az utolsó harczon vitézül meg hala,</l>
+<l xml:id="l.142">Kit soká nemzete siratván sajnála,</l>
+<l xml:id="l.143">Világ biro Roma hatalma csorbula,</l>
+<l xml:id="l.144">Pannonia nagyob része meg hodula.</l>
+</lg>
+</div>
+<div xml:id="d.3">
+<head>KADICHA SECUNDUS DUX HUNNORUM</head>
+<lg xml:id="lg.37">
+<l xml:id="l.145">Kadicha második hadnagya hunnoknak,</l>
+<l xml:id="l.146">Ö had viselése oskolája Mársnak,</l>
+<l xml:id="l.147">Nem csak tanitványa, társa lehet annak,</l>
+<l xml:id="l.148">Vigyázó szemei tüköre hadának.</l>
+</lg>
+<lg xml:id="lg.38">
+<l xml:id="l.149">Romai had közzül kétt száz ezer hulván,</l>
+<l xml:id="l.150">Talno völgyi<note type="critic" xml:id="note.20">Valószínűleg szórontás Tarno =
+                                        Tárnokvölgye
+                                helyett; a monda szerint itt ütköztek meg a hunok Detrik (lásd a 45.
+                                sorban) és Macrinus (lásd a 44. sorban) hadaival.</note> harczon
+                            hunnokis maradván,</l>
+<l xml:id="l.151">Száz huszon ött ezren vitézül meg halván,</l>
+<l xml:id="l.152">Keve is vérével az bajt koronázván.</l>
+</lg>
+<lg xml:id="lg.39">
+<l xml:id="l.153"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Nemzetsége alat akarván
+                                    ....................</lem>
+<rdg wit="#W1" xml:id="rdg.9"><gap extent="unknown" reason="illegible" unit="char"/><note type="critic" xml:id="note.21">A sor vége hiányzik.</note></rdg>
+</app></l>
+<l xml:id="l.154">For a’ méreg benne, nem tud nyugvást venni,</l>
+<l xml:id="l.155">Hanem az ellenség után kezd sietni,</l>
+<l xml:id="l.156">Hadainak hagya ujj harczhoz készülni.</l>
+</lg>
+<lg xml:id="lg.40">
+<l xml:id="l.157">Mind a’ Duna kétt félt<note type="critic" xml:id="note.22">két oldalát</note> szélyell
+                            be nyargalá,</l>
+<l xml:id="l.158">Valahol el ment, azt magának foglalá,</l>
+<l xml:id="l.159">Népét ellenségis Thulnátul<note type="critic" xml:id="note.23"><placeName>Tuln<idno type="ITIdata">Q18772</idno></placeName> a Duna jobb partján
+                                Alsó-Ausztriában.</note> mozditá,</l>
+<l xml:id="l.160">Az kiis<note type="critic" xml:id="note.24">olv. kis</note> már mezeitt eleiben<note type="critic" xml:id="note.25">olv. elejben</note> szállitá.</l>
+</lg>
+<lg xml:id="lg.41">
+<l xml:id="l.161">Az hol utolsó bajt Pannoniáért<note type="critic" xml:id="note.26">négytagúnak
+                                számít</note> vinnak,<note type="critic" xml:id="note.27">vívnak</note></l>
+<l xml:id="l.162">Végre az hunnusok diadalmaskodnak,</l>
+<l xml:id="l.163">Romai vitézek elöttök omlanak,</l>
+<l xml:id="l.164">Makrinus herczeggel föld alá tolatnak.</l>
+</lg>
+<lg xml:id="lg.42">
+<l xml:id="l.165">Az meg maradt néppel Detrik fut Romában,</l>
+<l xml:id="l.166">Egy nyilát véressen vivén homlokában,</l>
+<l xml:id="l.167">Hunnok lönek urak szép Pannoniában,</l>
+<l xml:id="l.168">A’ hol Kadicha-is szálla koporsóban.</l>
+</lg>
+</div>
+<div xml:id="d.4">
+<head>KEME TERTIUS DUX HUNNORUM IUDEX BELLICUS</head>
+<lg xml:id="lg.43">
+<l xml:id="l.169">Magyar, már szemléled, ha’ tekinted Kemét,</l>
+<l xml:id="l.170">Vitéz tekintetü csillagzo szép szemét,</l>
+<l xml:id="l.171">Herczeg ágbol való, ha visgálod nemét,</l>
+<l xml:id="l.172">Az kik közzött ö-is nem vólt gaz vagy szemét.</l>
+</lg>
+<lg xml:id="lg.44">
+<l xml:id="l.173">Nem tétovázott ott sereg, a’ hol ö vólt,</l>
+<l xml:id="l.174">Népe .s. vitézsége az ö példáján folyt,</l>
+<l xml:id="l.175">Bölts el rendelése néki el nem bomolt,</l>
+<l xml:id="l.176">Ellenség előtte hanyatt homlok omolt.</l>
+</lg>
+<lg xml:id="lg.45">
+<l xml:id="l.177">Bajra<note type="critic" xml:id="note.28">bajvívásra, harchoz</note> vér buzdito dob
+                            nem kivántatott,</l>
+<l xml:id="l.178">Valahol Kemének fegyvere láttatott,</l>
+<l xml:id="l.179">Oroszlány modgyára népe harczra futott,</l>
+<l xml:id="l.180">Noha nódetó szó tölle nem hallatott.</l>
+</lg>
+<lg xml:id="lg.46">
+<l xml:id="l.181">Mert inkáb láttattni, mint hallatni akart,</l>
+<l xml:id="l.182">Trombitája néki vólt vérrel festet kard,</l>
+<l xml:id="l.183">Illy elöl járótól az vitézlö rend tart,</l>
+<l xml:id="l.184">De melly hátul kiált, mutat ott az nep fart.</l>
+</lg>
+<lg xml:id="lg.47">
+<l xml:id="l.185">Scithia határán aliglan mozdula,</l>
+<l xml:id="l.186">Nemzetek hódito gottusok királlya,</l>
+<l xml:id="l.187">Az Hermánárikus alája hodula,</l>
+<l xml:id="l.188">Szerencse annyira kebeliben szálla.</l>
+</lg>
+<lg xml:id="lg.48">
+<l xml:id="l.189">Ostrogottusokon nagy diadalmat vett,</l>
+<l xml:id="l.190">Széles Scithiábul mihellyest killyeb jött,</l>
+<l xml:id="l.191">Vizi gottusoktul bövséges adótt vett,</l>
+<l xml:id="l.192">Azonban halálnak vitézül fia lett.</l>
+</lg>
+</div>
+<div xml:id="d.5">
+<head>BELA QUARTUS DUX HUNNORUM</head>
+<lg xml:id="lg.49">
+<l xml:id="l.193">Béla hunnusoknak negyedik hadnagya,</l>
+<l xml:id="l.194">Keme és Kadicha testvér attyafia,</l>
+<l xml:id="l.195">Mind a’ három Belonanak<note type="critic" xml:id="note.29">Bellona a harc
+                                istenasszonya.</note> vitez fia,</l>
+<l xml:id="l.196">Kinek kinek egyez szive .s. állapattya.</l>
+</lg>
+<lg xml:id="lg.50">
+<l xml:id="l.197">Mivel ö közöttök nincs semmi külömbség,</l>
+<l xml:id="l.198">Tiszt, termet, erkölcsök vala egyenlöség,</l>
+<l xml:id="l.199">Noha attyafi közt ritka az egyesség,</l>
+<l xml:id="l.200">Föképen az kikben egyez tiszt .s. vitézség.</l>
+</lg>
+<lg xml:id="lg.51">
+<l xml:id="l.201">Vélném, a’ természet hogy meg felejtkezett,</l>
+<l xml:id="l.202">Hogy illy virtusokat mindenikben nemzett,</l>
+<l xml:id="l.203">De mivel az érdem közöttök edjezett,</l>
+<l xml:id="l.204">Azért jutalmok-is tölle egyenlö lett.</l>
+</lg>
+<lg xml:id="lg.52">
+<l xml:id="l.205">Sziveket irigység soha nem mardosta,</l>
+<l xml:id="l.206">Elmejeket visza vonyás nem bántotta,</l>
+<l xml:id="l.207">Jo .s. gonosz szerencse meg nem változtatta,</l>
+<l xml:id="l.208">Sem élet, sem halál el nem választhatta.</l>
+</lg>
+<lg xml:id="lg.53">
+<l xml:id="l.209">Ez volt az ellenség fegyverének czéllya,</l>
+<l xml:id="l.210">Népének viszontag oltalom paisa,</l>
+<l xml:id="l.211">Egyszersmind népének volt zászló tartoja</l>
+<l xml:id="l.212">És jó igazgato vezére .s. hadnagya.</l>
+</lg>
+<lg xml:id="lg.54">
+<l xml:id="l.213">Mert mint phoenix magátt tüzzel meg emészti,</l>
+<l xml:id="l.214">S. holtával hamvábul fiaitt éleszti,</l>
+<l xml:id="l.215">Béla-is életét nemzetiért veszti,</l>
+<l xml:id="l.216">Lelkétt e világbul föld alá ereszti.</l>
+</lg>
+</div>
+<div xml:id="d.6">
+<head>BUDA QUINTUS DUX HUNNORUM</head>
+<lg xml:id="lg.55">
+<l xml:id="l.217">Buda hadnagyok közt tisztiben ötödik,</l>
+<l xml:id="l.218">De mereszsegiben Hercules második,</l>
+<l xml:id="l.219">Szivében vitézség nem nyughatott addig,</l>
+<l xml:id="l.220">A’ mig ellenségétt meg nem gyözte fottig.</l>
+</lg>
+<lg xml:id="lg.56">
+<l xml:id="l.221">Mert a’ gyözedelmes hunnoknak fegyvere</l>
+<l xml:id="l.222">Scithiatul fogva terjedt valamerre,</l>
+<l xml:id="l.223">Jelen volt mindenütt kiméletlen vére,</l>
+<l xml:id="l.224">Halálos tör elött nem szaladott félre.</l>
+</lg>
+<lg xml:id="lg.57">
+<l xml:id="l.225">Hódult országoknak végre öröksége,</l>
+<l xml:id="l.226">Sürü gyözedelmek fénylö dicsössége,</l>
+<l xml:id="l.227">A’ több hadnagyoknak minden nyeressége,</l>
+<l xml:id="l.228">Ö reájok szállott szörszött békessége.</l>
+</lg>
+<lg xml:id="lg.58">
+<l xml:id="l.229">De noha békével egyeztek felesen,</l>
+<l xml:id="l.230">Meg nem álhattanak Attillával ketten,</l>
+<l xml:id="l.231">Mert Attilla szive vala telhetetlen,</l>
+<l xml:id="l.232">Ver <app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">szomj<corr>u</corr>zo,</lem><rdg wit="#W1" xml:id="rdg.10">szomjuhozo</rdg></app> irigy, kevely és kegyetlen.</l>
+</lg>
+<lg xml:id="lg.59">
+<l xml:id="l.233">Ellenség fegyvere ött el nem ejthette,</l>
+<l xml:id="l.234">Báttya álnoksága ártatlan meg ölte,</l>
+<l xml:id="l.235">Az Duna vizében testet bé vetette,</l>
+<l xml:id="l.236">Olly illetlen sirban szegényt le temette.</l>
+</lg>
+<lg xml:id="lg.60">
+<l xml:id="l.237">Igy, ki lako helyett magyar királyoknak</l>
+<l xml:id="l.238">Épitet falait ö Sicambriának<note type="critic" xml:id="note.30">Sicambria volt
+                            <placeName>Aquincum<idno type="ITIdata">Q9383</idno></placeName>
+                                középkori neve.</note></l>
+<l xml:id="l.239">Meg ékesitette, nem lön helly tagjának,</l>
+<l xml:id="l.240">Egyedül az neve maradt várossának.</l>
+</lg>
+</div>
+</div>
+</body>
+</text>
+</TEI>

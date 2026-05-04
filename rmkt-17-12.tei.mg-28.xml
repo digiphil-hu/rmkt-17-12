@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">28.</title>
+<title key="body" n="28" type="main">(Az mi lehetseges oliban teőrd magadat...)</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-28</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 12.</bibl> Kiad.
+                                    <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                            224–25.</bibl></p>
+<p xml:id="crit.1.p.3">Cato IV. könyv 33. disztichon gondolatának fejtegetése.</p>
+<p xml:id="crit.1.p.4">A vers tisztázat, csekély, utólagos simításokkal.</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. II, 12.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 28.</fw>
+<head type="motto"><l xml:id="l.1">Qvod potes id tenta. nam litus carpere rémis</l>
+<l xml:id="l.2">Tutius est multo, qvam Velum tendere in Altum.</l></head>
+<lg xml:id="lg.1">
+<l xml:id="l.3">Az mi lehetseges oliban teőrd magadat,</l>
+<l xml:id="l.4">Jsapos meli Vizben ne vessed horgodot</l>
+<l xml:id="l.5">Hogi az vskalassal melėn be Torkodot</l>
+<l xml:id="l.6">Eȯrwenies heliben ne merits magadot,</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Mert az Tengeren nehez az v̇skaláás</l>
+<l xml:id="l.8">Seles S. méli wizekben walo az hal fogás</l>
+<l xml:id="l.9"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Job neked <corr>az</corr> tsekeli vizben Valo aláás</lem>
+<rdg wit="#W1" xml:id="rdg.1">neked <del>az</del></rdg>
+</app></l>
+<l xml:id="l.10"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Hogi sem Tengereken hal vtan buikalás</lem>
+<rdg wit="#W1" xml:id="rdg.2"><del>az</del> Tengeren <add place="above" type="insert">ken</add></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11">Kiczin vizben neked iob kis halat fogni</l>
+<l xml:id="l.12">Hogi sem meli vízben az Torkik bubogni</l>
+<l xml:id="l.13">Jsoniú habzassal szok vizettis nielni,</l>
+<l xml:id="l.14">Mikoron az Eőrweni teged le kezd niomnÿ</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.15">Vilaghi dolgokban oliban teörd magadat</l>
+<l xml:id="l.16">Hogi maszokis laszak hasznos szolgalatod</l>
+<l xml:id="l.17">Neis igiekezel nagi magosra hagnod</l>
+<l xml:id="l.18">Hanem chiak adig mig elmedet látod</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.19">Joban teőrd elmedet es ne hagẏ niugodni</l>
+<l xml:id="l.20">Roz gondolatokal né had azt le niomni</l>
+<l xml:id="l.21">Jstenes eletel azokat be fogni</l>
+<l xml:id="l.22">Chendes <unclear>elmetekben</unclear> seliden hon V̋lni</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.23">Ez wilag tengerin hogi hatal vszkalni</l>
+<l xml:id="l.24">Benned Valo hitben vegig meg maradni</l>
+<l xml:id="l.25">S Io teteminidert neked meg kőszőnnẏ</l>
+<l xml:id="l.26"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Eltem fottaig kes leszek neked halat adni</lem>
+<rdg wit="#W1" xml:id="rdg.3">El<del>e</del>tem</rdg>
+</app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

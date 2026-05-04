@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">34.</title>
+<title key="body" n="34" type="main">[CATO BÖLCS MONDÁSAINAK MAGYARÁZATAI]</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-34</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> I,
+                            89–95.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>,
+                                RJM</abbr> 235–45.</bibl></p>
+<p xml:id="crit.1.p.3">
+<persName>Madách Gáspár</persName> Cato mondásainak I. könyvéből a 2–10.,
+                        12–32., 34., 39–40. disztichonoknak a parafrázisait készítette el, jobban
+                        mondva ezeknek magyarításait írta be egyik füzetébe. Kéziratába nem első
+                        szövegezésként kerültek az írások. Ezt bizonyítja az a körülmény, hogy mikor
+                        latinul a 11. párverset leírta, a magyar szövegnek alatta helyet hagyott;
+                        még inkább azonban az a tény, hogy a 33. disztichon latin sorai alá
+                        tévedésből a 34. fordítását másolta le.</p>
+<p xml:id="crit.1.p.4">A latin nyelvű disztichonok, melyeket <persName>Madách</persName>
+                        parafrázisai előtt találunk, szövegileg megegyeznek azzal a XVI. század
+                        végi, <persName>Erasmusra</persName> támaszkodó debreceni kiadással, mely
+                        iskolai használatra készült, és a Cato-féle bölcs mondásoknak magyar prózai
+                        fordítását is tartalmazta. (<bibl><title>Libellvs Elegantissimus, qui
+                                inscribitur Cato, de praeceptis vitae communis. Az az, Igen Szép
+                                Könyueczke, mely neueztetik Catonak, …</title>
+<placeName>Debrecen<idno type="ITIdata">Q2117</idno></placeName>
+<date when="1591">1591</date></bibl>. <bibl><abbr>RMK I</abbr>,
+                            239.</bibl> A második kiadás ugyanott jelent meg <date when="1597">1597-ben</date>. Vö. <bibl><hi rend="smallcaps">Némethy Géza</hi>: Cato
+                            bölcs mondásai. Bp. 1891.</bibl>) <persName>Madách</persName> egy-két
+                        másolási hibát követett el (a 8.-ban: quem helyett quae; 9.-ben: Si helyett
+                        Sit; 22.-ben: Vitae helyett Vita; 29.-ben: ne helyett me; ezen kívül a
+                        quae-t írja que, saepe-t sepe alakban), és egyik-másik szókezdő nagybetűt
+                        írta kisbetűvel. A latin szöveggel való egyezésen kívül a debreceni kiadvány
+                        használatát bizonyítja az a körülmény, hogy a magyar szöveget forrásként
+                        használta parafrázisaihoz. Csupán a 8. és a 13. párvers magyarításában nem
+                        támaszkodott a fordításra. A 8.-nál azért nem, mivel átvette ennek a
+                        disztichonnak egy régebbi, hosszabb feldolgozásban már készen talált sorait
+                        (Ne hid minden kor 1–3. sorát). (Lásd a <ref target="rmkt-17-12.tei.mg-22">22. sz.</ref> alatt.) A felhasználás
+                        mértéke különböző. Általában a nekiindulásban a prózai fordításra
+                        támaszkodik, annak első sorát csaknem mindig belegyömöszöli a maga
+                        fejtegetéseibe, a második sort ritkábban használja fel. Van azonban olyan
+                        parafrázisa is, amely szinte szóról szóra való átvétel (pl. a 28.).</p>
+<p xml:id="crit.1.p.5">A debreceni fordítás nem nevezhető hibátlannak, de ahol
+                            <persName>Madách</persName> nem követi, még messzebbre kerül az eredeti
+                        disztichonok értelmétől (13., 15., 22., 27. mondások). Mivel azonban
+                            <persName>Madách</persName> nem fordít, hanem a catói mondás gondolatát
+                        fűzi tovább, ez az eltávolodás nem róható fel hibájául. A latin párversek
+                        mondanivalójának 4–4 soros (általában a tizenkettes sorokra való törekvés
+                        figyelhető meg) strófákban való kifejtése bőbeszédűvé tette Madáchot.</p>
+<p xml:id="crit.1.p.6">Valószínű, hogy Cato mondásainak debreceni kiadványa <persName>Rimay<idno type="ITIdata">Q155364</idno></persName> könyvei közül került
+                            <persName>Madách</persName> kezébe. Az az ismeretlen levélíró, aki őt
+                            <date when="1631-12-11">1631. december 11-én</date>
+<persName>Rimay</persName> haláláról tudósította, említést tesz egy
+                            <persName>Rimay</persName> birtokában lévő „Deóbreótczenben niomtatot
+                        Dictionariumia feleȯl, kyhez foglalua uagion á Cato moralis keónywetskeis”,
+                        és azt kéri, hogy juttassa el hozzá „ió emlekezetÿel, megtartásáért”.
+                        Feltehető, hogy Madách a könyvet megtartotta magának. (Vö. <bibl><hi rend="smallcaps">Varga Imre</hi>: <title>Tallózások Madách Gáspár
+                                körül</title>. <abbr>ItK</abbr> 1968, 74.</bibl>)</p>
+<p xml:id="crit.1.p.7">A <persName>Madáchnak</persName> forrásul szolgáló <date when="1591">1591-es</date> kiadás magyar szövege a szóban forgó catói párverseknél
+                        a következő:</p>
+<p xml:id="crit.1.p.8">I,2. Többet vigiaz mindenkoron, es ne adgiad magadat az alomnak, Mert az
+                        hoszszu ideig valo niugodalom az bünöknek taplalast szolgaltat.</p><p xml:id="crit.1.p.9"> I,3.
+                        Elsö ioszagnak alicziad lenni az nieluet meg tartoztatni, Mert leg közelb
+                        az, az Istenhez, az ki okossaggal tud halgatni.</p><p xml:id="crit.1.p.10"> I,4. Te vtald meg
+                        magaddal ellenkezni, tusakoduan, Mert senkiuel nem eggyezhet az, az ki ö
+                        magaual ellenkezik.</p><p xml:id="crit.1.p.11"> I,5. Ha az embereknek életeket, és vegezetre
+                        erköltsöket meg nezed, Mikoron egyebeket kárhoztatnak senki viteknelkül nem
+                        ely.</p><p xml:id="crit.1.p.12"> I,6. Az mellieket tudcz artalmasoknak lenni. iol lehet keduesek,
+                        el hadgyad, Az hasznot az kaszdagsagnal, idönel nagobnak kel
+                        betsüleni.</p><p xml:id="crit.1.p.13"> I,7. Alhatátosis engedelmesis legy, mikor az dolog
+                        kiuannya, Az idö szerint az eszes ember erköltset vetek nelkül el
+                        valtoztattya.</p><p xml:id="crit.1.p.14"> I,8. Az te felesegednek, mikor az szolga felöl
+                        panaszolkodik ne higy oknelkül Mert giakorta az aszszoniallat gyülöli azt,
+                        az kit az ö ferie szeret.</p><p xml:id="crit.1.p.15"> I,9. Mikoron te intesz valakit, es ö nem
+                        akaria hogy v̋ intessek, Hogy ha teneked szerelmes embered, meg ne szünniel
+                        az el kezdet (io intestül.)</p><p xml:id="crit.1.p.16"> I,10. Az czaczogo emberek ellen besziddel
+                        ne vetelkedgiel, Az szo adatik minden embernek, de az elmenek bölczessege
+                        keuesnek.</p><p xml:id="crit.1.p.17"> I,11. <supplied><persName>Madáchnál</persName> a magyar
+                            szöveg hiányzik.</supplied></p><p xml:id="crit.1.p.18"> I,12. El tauoztasd az hireket, ne
+                        kezgy vy talaloianak tartatni, Mert senkinek nem art az veszteg halgatas, az
+                        szollas pedig igen art.</p><p xml:id="crit.1.p.19"> I,13. Az neked igertetet marhat, bizoniossan
+                        masnak ne igerd, Ritka az hiüseg ezert, mert sokak sokakat szolnak.</p><p xml:id="crit.1.p.20">
+                        I,14. Mikoron teged valaki diczir, meg emleközzel te magad itelöinek lenni,
+                        Többet egiebeknek te felöled ne higi, hog nem mint te magadnak.</p><p xml:id="crit.1.p.21"> I,15.
+                        Mas embereknek io tetemeniet sokaknak beszelleni meg emlekezzel, Es te
+                        mikoron egyebekkel iol teiendesz magad halgas.</p><p xml:id="crit.1.p.22"> I,16. Te ven ember
+                        leuen mikoron sokaknak tselekedetit es mondasit elö számlalod, Iussanak
+                        eszedben, az mellieket theis ifiu leuen tselekettel.</p><p xml:id="crit.1.p.23"> I,17. Ne gondoli
+                        azzal ha valaki alattomba valo beszeddel szol, Az magahoz gyanos azt vely
+                        hogy mindeneket ö rola mondanak.</p><p xml:id="crit.1.p.24"> I,18. Miglen bodog vagy, addig
+                        minden ellenkezö dolgokat el tauoztas, Mert nem egyenlö foliassal felelnek
+                        az vtolsok az elsöknek.</p><p xml:id="crit.1.p.25"> I,19. Miuel hogy ketseges es giarlo elet
+                        adatot minekünk, Mas embernek halalaban remensegedet magadnak ne
+                        vessed.</p><p xml:id="crit.1.p.26"> I,20. Az te szegen baratod mikoron valami kisded aiandekot ad
+                        teneked, El vegyed nagy io keduel, eleg neuen, ditserni megis
+                        emlekezzel.</p><p xml:id="crit.1.p.27"> I,21. Miert hoǵ az termeszet tegedet meszitelenöl
+                        teremtet, Meg emlekezzel hogy az szegensegnek terhet bekesseggel
+                        szenuedgied.</p><p xml:id="crit.1.p.28"> I,22. Ne fely attul az mely az eletnek vtolso vege, Mert
+                        az ki az halaltul fel, aztis el vezti az mit el.</p><p xml:id="crit.1.p.29"> I,23. Ha te neked az
+                        te io tetemenedert egy baratod sem felel meg, Ne vadolliad az Istent, hanem
+                        te magadat tartoztasd meg.</p><p xml:id="crit.1.p.30"> I,24. Hogy valami szükseged ne legyen
+                        teneked az te keresmeniiddel szüköni elly, Es hogy azt az mi vagyon meg
+                        tarthassad, mindenkor vellied mint ha nem volna.</p><p xml:id="crit.1.p.31"> I,25. Az mit (etzer)
+                        meg adhacz, ketszer ne igired, senkinek. Ne legy szeles (álhatatlan) mikor
+                        embersegesnek, akarsz lattatni.</p><p xml:id="crit.1.p.32"> I,26. Az ki beszeddel tetteti magat,
+                        de sziueben nem hiü baratod, Theis hasonlo keppen tselekedgiel, igy az
+                        mesterseg mesterseggel tartottatik meg.</p><p xml:id="crit.1.p.33"> I,27. Ne iaualliad feleteb az
+                        hizelkedö szauu embereket, Az sip edessen szol mikor az madaraz meg akaria
+                        czalni az madarat.</p><p xml:id="crit.1.p.34"> I,28. Ha teneked fiaid vadnak, es gazdagsagod,
+                        nincz, tehat tudomaniokra taniczad, öket, hogy az ö szegeni eleteket
+                        oltalmazhassak.</p><p xml:id="crit.1.p.35"> I,29. Az mi alaualo, te azt itellied draganak, az mi
+                        penig draga azt alaualonak, Ez keppen sem magadnak fösuen nem leszesz sem
+                        penig egebek fösuennek nem tartanak teged.</p><p xml:id="crit.1.p.36"> I,30. Az mellieket szoktal
+                        büntetni, vgian azonokat te magad ne tselekedgied, Mert rut dolog az
+                        tanitonak, mikoron vgyan azon vétek ötet meg feddi.</p><p xml:id="crit.1.p.37"> I,31. Az mi igaz,
+                        azt keried, az vagy az mi lattatik tisztessegesnek lenni, Mert bolondsag
+                        olliat kerni, az mi igazan meg tagattathatik (tülönk.)</p><p xml:id="crit.1.p.38"> I,32. Az
+                        esmeretlent iobnak (nagiobnak) ne tartsad, az esmeröidnel, Mert az meg
+                        esmert (meg probalt) dolgok iteletböl allanak az esmeretlen dolgok penig
+                        törtenetböl.</p><p xml:id="crit.1.p.39"> I,33. <supplied><persName>Madáchnál</persName> a magyar
+                            szöveg hiányzik, illetőleg az I. 34-nek megfelelő magyarítás olvasható a
+                            latin sorok alatt.</supplied></p><p xml:id="crit.1.p.40"> I,34. Az <date when="1591">1591-i</date> debreceni kiadásban a latin sorok:</p><p xml:id="crit.1.p.41"> Vincere cum
+                        possis interdum cede sodalis</p><p xml:id="crit.1.p.42"> Obsequio quoniam dulces retinentur
+                        amici.</p><p xml:id="crit.1.p.43"> Magyarul: Ha mikor meg gözhetnedis, neha engeǵǵ az te
+                        tarsodnak,</p><p xml:id="crit.1.p.44"> Mert az szerelmes baratok engedelemmel tartatnak
+                        meg.</p><p xml:id="crit.1.p.45"> I,39. Meg tarczad inkab azokat, az mellyek immar munkaual
+                        kerestettenek, Mikor az munka karban vagyon, meg <sic>neuekedig</sic> ez
+                        vilagi szeginseg.</p><p xml:id="crit.1.p.46"> I,40. Neha neha legy adakozo az te esmeröidhöz,
+                        szerelmes emberidhez, es baratidhoz. De mikoron boldog vagy te magadhoz
+                        mindenkor közelb légy Id est, (Azokkal czak neha tegy iol, de te magaddal
+                        mindenkor.)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I, 89–95.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum"><supplied>RMKT XVII/12:</supplied> 34.</fw>
+<head type="title"><supplied>CATO BÖLCS MONDÁSAINAK MAGYARÁZATAI</supplied></head>
+<quote><l xml:id="l.1">Plus Vigila semper, nec somno deditus esto</l>
+<l xml:id="l.2">Nam diuturna quies vitẏs alimenta ministrat
+                    <supplied>I.2.</supplied></l></quote>
+<lg xml:id="lg.1">
+<l xml:id="l.3"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Tőbbet wigiáz S-tanuly teis mindenkoron</lem>
+<rdg wit="#W1" xml:id="rdg.1"><add type="insert">teis</add></rdg>
+</app></l>
+<l xml:id="l.4">Alomnak ne hagÿ, erőt venni magadon</l>
+<l xml:id="l.5"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Mert ha az resztség S-alom fogh niakadon</lem>
+<rdg wit="#W1" xml:id="rdg.2"><add type="insert">az</add></rdg>
+</app></l>
+<l xml:id="l.6">Semirekello. reszt lesz it ez vilagon</l>
+</lg>
+<quote><l xml:id="l.7">Virtutem primam esse puta, compescere linguam.</l>
+<l xml:id="l.8">Proximus ille Deo, qui scit ratione Tacere,
+                    <supplied>I.3.</supplied></l></quote>
+<lg xml:id="lg.2">
+<l xml:id="l.9">Elseö ioszágnak aliczad az Nielwet</l>
+<l xml:id="l.10">Zabolazaszal eȯtet fel ekesiczed.</l>
+<l xml:id="l.11">Tartoztatasal mindenben vezerellied</l>
+<l xml:id="l.12">Jgaz mondȧsal Jstenhez kozeliczed.</l>
+</lg>
+<quote><l xml:id="l.13">Sperne repugnando tibi tu contrarius esse.</l>
+<l xml:id="l.14">Conueniet nulli, qui secum dissidet ipse
+                    <supplied>I.4.</supplied></l></quote>
+<lg xml:id="lg.3">
+<l xml:id="l.15">Magaddal ha lehet ne ellenkezeel</l>
+<l xml:id="l.16">Masnak kárt S. bosut ne chelekedgiel.</l>
+<l xml:id="l.17">Az Jámborokkal mindenben edgiezzeel.</l>
+<l xml:id="l.18"><app xml:id="app.3">
+<lem wit="#KK" xml:id="lem.3">Diczird<note type="critic" xml:id="note.1">olv. dicsírt</note> dolgokra
+                                iozan igiekezéel.</lem>
+<rdg wit="#W1" xml:id="rdg.3">Diczir<del rend="overwritten">e<add type="overwrite">d</add></del>tes; <add type="insert">iozan</add></rdg>
+</app></l>
+</lg>
+<quote><l xml:id="l.19">Si Vitȧm inspicias hominum, si denique mores.</l>
+<l xml:id="l.20">Dum culpent alios, nemo sine crimine viuit
+                    <supplied>I.5.</supplied></l></quote>
+<lg xml:id="lg.4">
+<l xml:id="l.21">Embereknek erkolczét hȧ iol meg nezed.</l>
+<l xml:id="l.22"><app xml:id="app.4">
+<lem wit="#KK" xml:id="lem.4">Ellteket vizgalod S-megis mertekelled.</lem>
+<rdg wit="#W1" xml:id="rdg.4">El<del rend="overwritten">e</del><add type="overwrite">l</add>teket; <add type="insert">megis</add></rdg>
+</app></l>
+<l xml:id="l.23">Karhoztatnákis nékiek elteket</l>
+<l xml:id="l.24"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Nem Talals Senkitis veteknelkwl eőket</lem>
+<rdg wit="#W1" xml:id="rdg.5"><add type="insert">Senkitis</add>;
+                                    veteknelkwl<del>is</del></rdg>
+</app></l>
+</lg>
+<quote><l xml:id="l.25">Que nocitura tenes, quam Vis sint chara relinque</l>
+<l xml:id="l.26">Vtilitas opibus praeponi tempore debes <supplied>I.6.</supplied></l></quote>
+<lg xml:id="lg.5">
+<l xml:id="l.27"><app xml:id="app.6">
+<lem wit="#KK" xml:id="lem.6">Mellieket ha Tudts artalmaszoknak lennẏ.</lem>
+<rdg wit="#W1" xml:id="rdg.6"><add type="insert">ha</add>;
+                                artalmasz<del>ok</del>nak</rdg>
+</app></l>
+<l xml:id="l.28">Jgiekezeel tawȯl azoctol el ménnÿ</l>
+<l xml:id="l.29"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Nagiobra az hasnot kel neked
+                                bech<corr>ül</corr>ennÿ</lem>
+<rdg wit="#W1" xml:id="rdg.7"><add type="insert">az</add>; <add type="insert">neked</add> bech<gap extent="2" reason="damaged" unit="char"/>enny<note type="critic" xml:id="note.2">A szóból 2 betű
+                                kiszakadt.</note></rdg>
+</app></l>
+<l xml:id="l.30">Hogi sem fősueni gazdagnak szolgalnẏ</l>
+</lg>
+<quote><l xml:id="l.31">Constans et lenis ceu res expostulat esto</l>
+<l xml:id="l.32">Temporibus non est sapiens sine crimine mutat
+                    <supplied>I.7.</supplied></l></quote>
+<lg xml:id="lg.6">
+<l xml:id="l.33"><app xml:id="app.8">
+<lem wit="#KK" xml:id="lem.8">Legy Alhatatos S ahoz Engedelmesis</lem>
+<rdg wit="#W1" xml:id="rdg.8">Alhatatos <del>es</del>
+<add type="insert">S</add></rdg>
+</app></l>
+<l xml:id="l.34"><app xml:id="app.9">
+<lem wit="#KK" xml:id="lem.9">Hȧ kiuantatik chendes io Tw̋ rőis</lem>
+<rdg wit="#W1" xml:id="rdg.9">chendes <del>is</del> io</rdg>
+</app></l>
+<l xml:id="l.35">Mert az okos ember neha idő szerintis</l>
+<l xml:id="l.36">Valtoztattia gonosra io erkolczétis.</l>
+</lg>
+<quote><l xml:id="l.37">Nil temere Vxori de seruo crede querenti</l>
+<l xml:id="l.38">Sepe etenim Mulier <app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10">qu<corr>em</corr></lem>
+<rdg wit="#W1" xml:id="rdg.10">quae</rdg>
+</app> coniunx diligit odit <supplied>I.8.</supplied></l></quote>
+<lg xml:id="lg.7">
+<l xml:id="l.39">Ne hid minden kor az Aszonialatnak</l>
+<l xml:id="l.40">Jambor Szolgakrȧ hȧ panasolkodnak.</l>
+<l xml:id="l.41">Nemis kel helt adni kiwanszagoknak.<note type="critic" xml:id="note.3">25–27 Vö. <hi rend="italic">Ne hid minden kor</hi> (22/I. sz.) 1–3.
+                            sorával.</note></l>
+<l xml:id="l.42">Mert kit Vrȧ Seret azon kẏs<note type="critic" xml:id="note.4">kẏs – <hi rend="italic">ki
+                                is</hi> olvasat eseteben tizenkettes sort ad. Az előtte levő három
+                            sor azonban 11-es lévén, összevont alak is lehet.</note> adnak</l>
+</lg>
+<quote><l xml:id="l.43">Cumque mones aliquem nec se Velit ipse moneri</l>
+<l xml:id="l.44"><app xml:id="app.11">
+<lem wit="#KK" xml:id="lem.11"><corr>Si</corr></lem>
+<rdg wit="#W1" xml:id="rdg.11">Sit</rdg>
+</app> tibi sit charus, noli desistere caeptis
+                    <supplied>I.9.</supplied></l></quote>
+<lg xml:id="lg.8">
+<l xml:id="l.45"><app xml:id="app.12">
+<lem wit="#KK" xml:id="lem.12">Ha megh akarod Valakit Jntenÿ</lem>
+<rdg wit="#W1" xml:id="rdg.12">Valakit <del>te</del></rdg>
+</app></l>
+<l xml:id="l.46"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13">S. Nem akaria töled io Newenis Vénnÿ</lem>
+<rdg wit="#W1" xml:id="rdg.13">Newen<add place="above" type="insert">is</add></rdg>
+</app></l>
+<l xml:id="l.47"><app xml:id="app.14">
+<lem wit="#KK" xml:id="lem.14">Kezdet dolgodtul ne kezd hatra lepni,</lem>
+<rdg wit="#W1" xml:id="rdg.14">hatra <del>maradnÿ</del> lepni</rdg>
+</app></l>
+<l xml:id="l.48">Kedwes Baratod ne Szwnniel ősztőkőlnẏ</l>
+</lg>
+<quote><l xml:id="l.49">Contra Verbosos noli contendere Verbis</l>
+<l xml:id="l.50">Sermo datur cunctis animi Sapientia paucis
+                    <supplied>I.10.</supplied></l></quote>
+<lg xml:id="lg.9">
+<l xml:id="l.51"><app xml:id="app.15">
+<lem wit="#KK" xml:id="lem.15">Czaczogó emberrel te ne Vetekedgiel</lem>
+<rdg wit="#W1" xml:id="rdg.15"><add type="insert">te</add></rdg>
+</app></l>
+<l xml:id="l.52">Ellene mondo. S. Inteő beszedekel.</l>
+<l xml:id="l.53">Ragalmazó Szó foli az embereknel</l>
+<l xml:id="l.54">Elme bolczesegė Talaltatik kewesnel,</l>
+</lg>
+<quote><l xml:id="l.55">Dilige sic alios, ut sis tibj charus amicus</l>
+<l xml:id="l.56">Sic bonus esto bonis, ne te mala damna sequantur.
+                        <supplied>I.11.</supplied></l></quote>
+<lg xml:id="lg.10">
+<l xml:id="l.57">....................................................................</l>
+<l xml:id="l.58">....................................................................</l>
+<l xml:id="l.59">....................................................................</l>
+<l xml:id="l.60">....................................................................<note type="critic" xml:id="note.5">37–40 <persName>Madách</persName> a magyar szöveg számára
+                            üresen hagyta a helyet.</note></l>
+</lg>
+<quote><l xml:id="l.61">Rumores fuge, ne incipias Nouus Author haberj</l>
+<l xml:id="l.62">Nam nuli Tacuisse nocet, nocet esse locutum.
+                    <supplied>I.12.</supplied></l></quote>
+<lg xml:id="lg.11">
+<l xml:id="l.63">Tawostasd az monta mondo hireket<note type="critic" xml:id="note.6">monta mondo hireket =
+                            hazug híreket</note></l>
+<l xml:id="l.64">Vẏ Talalonak ne mondgianak tegedet</l>
+<l xml:id="l.65">Halgatasban Tartwan az te Nielwedet,</l>
+<l xml:id="l.66">Soo kẏ monduan giakran vestik elteket,</l>
+</lg>
+<quote><l xml:id="l.67">Rem tibi promissam certo promitere noli</l>
+<l xml:id="l.68">Rara fides ideo, quia multi multa loquuntur.
+                    <supplied>I.13.</supplied></l></quote>
+<lg xml:id="lg.12">
+<l xml:id="l.69">Az mit igirs azt meg ne reuocaliad,<note type="critic" xml:id="note.7">meg ne reuocaliad =
+                            vissza ne vond</note></l>
+<l xml:id="l.70">Jo kedwel igiretedėt megis adgiad</l>
+<l xml:id="l.71">Masnak azon marhat ne aiandekozad</l>
+<l xml:id="l.72">Mert giakorta meg pirul orczad azt Tudgiad</l>
+</lg>
+<quote><l xml:id="l.73">Cum te quis laudat, iudex tuus esse memento</l>
+<l xml:id="l.74">Plus alẏs de te, quam tu tibi, credere noli,
+                    <supplied>I.14.</supplied></l></quote>
+<lg xml:id="lg.13">
+<l xml:id="l.75">Ha diczirnek teged meg emlekezzeel.</l>
+<l xml:id="l.76">Te magad iteloienekis lenni igiekezeel,</l>
+<l xml:id="l.77">Magadnak sokat ne legi igerettell.</l>
+<l xml:id="l.78">Chak magadban mit lats azont hidgied el.</l>
+</lg>
+<quote><l xml:id="l.79">Officium alterius multis narare memento</l>
+<l xml:id="l.80">Atque alÿs cum tu benefeceris, ipse sileto.
+                    <supplied>I.15.</supplied></l></quote>
+<lg xml:id="lg.14">
+<l xml:id="l.81">Maas Baratidnak io Tetemenieket,</l>
+<l xml:id="l.82">Hirdesed mindenben bechw̋ leteket</l>
+<l xml:id="l.83">Az te magad io chėlekedeteket</l>
+<l xml:id="l.84">Emlitenẏ se hadgi dichirwén eőket</l>
+</lg>
+<quote><l xml:id="l.85">Multorum cum facta, senex et dicta recenses</l>
+<l xml:id="l.86">Fac tibi succurant, iuuenis que feceris ipse
+                    <supplied>I.16.</supplied></l></quote>
+<lg xml:id="lg.15">
+<l xml:id="l.87">Iffiunak dolgȧt, Wenségben ne Samlaliad</l>
+<l xml:id="l.88">Chelekedetit<note type="critic" xml:id="note.8">olv. cselekedetid</note> elotte, neis
+                            Jteralliad<note type="critic" xml:id="note.9">neis Jteralliad = ne
+                        ismételgesd</note></l>
+<l xml:id="l.89">Dolgait<note type="critic" xml:id="note.10">a. m. dolgaid</note> Jussanak esedben azokot
+                        rosztaliad</l>
+<l xml:id="l.90"><app xml:id="app.16">
+<lem wit="#KK" xml:id="lem.16">Gondolkodasal élodbȧn vessed S. haniad</lem>
+<rdg wit="#W1" xml:id="rdg.16">[A sor után:] <del>Infantem nudum</del></rdg>
+</app></l>
+</lg>
+<quote><l xml:id="l.91">Ne cures si quis tacito sermone loquatur,</l>
+<l xml:id="l.92">Conscius ipse sibi de se putat omnia dici
+                    <supplied>I.17.</supplied></l></quote>
+<lg xml:id="lg.16">
+<l xml:id="l.93">Ne gondoly azal, hogi ragalmazassal.</l>
+<l xml:id="l.94">Maria alatomban tegedet mondasal</l>
+<l xml:id="l.95">Ha magahoz gianós, őtet halgatasal<note type="critic" xml:id="note.11">őtet halgatasal – ti.
+                            az alattomban rágalmazót, mely az előtte való sor marja állítmánynak is
+                            odaértendő alanya.</note></l>
+<l xml:id="l.96">Magát meg emesti ketszeges voltaual,</l>
+</lg>
+<quote><l xml:id="l.97">Cum fueris felix, que sunt aduersa caueto</l>
+<l xml:id="l.98">Non eodem cursu respondent Vltima primis
+                    <supplied>I.18.</supplied></l></quote>
+<lg xml:id="lg.17">
+<l xml:id="l.99">Miglen boldogh wagi iol el Tauostasad</l>
+<l xml:id="l.100">Ellenkező dolgokat neis giamoliczad</l>
+<l xml:id="l.101">Haragrȧ Jngerlőt Toled el Tasiczad</l>
+<l xml:id="l.102">Vtolso vegedre elmedet fordiczad.</l>
+</lg>
+<quote><l xml:id="l.103">Cum dubia et fragilis sit nobis vita Tributȧ</l>
+<l xml:id="l.104">Jn morte alterius spem tu tibi ponere noli.
+                    <supplied>I.19</supplied></l></quote>
+<lg xml:id="lg.18">
+<l xml:id="l.105">Giarlosagos elet adatot mi nekűnk</l>
+<l xml:id="l.106">Ember halalaban ne legien remensegűnk.</l>
+<l xml:id="l.107">Mert mẏs<note type="critic" xml:id="note.12">a. m. mi is</note> Tengeren haiobȧn ewezunk.</l>
+<l xml:id="l.108">Kettszeges napiaink, hon<note type="critic" xml:id="note.13"> – hol</note> el merulűnk</l>
+</lg>
+<quote><l xml:id="l.109">Exiguum munus cum dat tibi pauper amicus</l>
+<l xml:id="l.110">Accipito placide, plene et laudare memento:
+                    <supplied>I.20.</supplied></l></quote>
+<lg xml:id="lg.19">
+<l xml:id="l.111">Szegheni Attiadfia es Reghi Baratod</l>
+<l xml:id="l.112">Mutat te neked kizdet<note type="critic" xml:id="note.14">a. m. kisded</note> Aiandekot:</l>
+<l xml:id="l.113">Ved keduesėn teölė bechw̋ luen azokot.</l>
+<l xml:id="l.114"><app xml:id="app.17">
+<lem wit="#KK" xml:id="lem.17">Dichiruén mutas kedues akaratodot,</lem>
+<rdg wit="#W1" xml:id="rdg.17"><del rend="overwritten"><gap extent="1" reason="illegible" unit="word"/></del><add type="corr">nutas</add>
+<note type="critic" xml:id="note.15">Javításként egy olvashatatlan szóra
+                                írva.</note></rdg>
+</app></l>
+</lg>
+<quote><l xml:id="l.115">Jnfantem nudum cum te natura creauit</l>
+<l xml:id="l.116">Paupertatis onus patienter ferre memento.
+                    <supplied>I.21.</supplied></l></quote>
+<lg xml:id="lg.20">
+<l xml:id="l.117">Termeset minket mezitelen Teremptet.</l>
+<l xml:id="l.118">Jt ez Vilagon rúhaual ekesitet</l>
+<l xml:id="l.119"><app xml:id="app.18">
+<lem wit="#KK" xml:id="lem.18">Gazdagsagban ne vesünk remeniseget</lem>
+<rdg wit="#W1" xml:id="rdg.18">Ga<del>d</del>zdagsagban</rdg>
+</app></l>
+<l xml:id="l.120">Chendesen viseliuk rank adot siginszeget,</l>
+</lg>
+<quote><l xml:id="l.121">Ne timeas illam quae <app xml:id="app.19">
+<lem wit="#KK" xml:id="lem.19">Vitae</lem>
+<rdg wit="#W1" xml:id="rdg.19">Vita</rdg>
+</app> est vltima finis</l>
+<l xml:id="l.122">Qui mortem metuit, quod Viuit perdit id ipsum.
+                    <supplied>I.22.</supplied></l></quote>
+<lg xml:id="lg.21">
+<l xml:id="l.123">Ne Tarts attol, kÿ az halaltol feél:</l>
+<l xml:id="l.124">Mert annakis weghe chiak hertelen iw̋ n el</l>
+<l xml:id="l.125">Napiait egienkint orankint vesti el.</l>
+<l xml:id="l.126">Nem Tartoztatia meg Niar, es hauaszos Teel,</l>
+</lg>
+<quote><l xml:id="l.127">Si tibi pro meritis nemo respondet Amicus</l>
+<l xml:id="l.128">Jncusare Deum noli, sed te ipse coerce <supplied>I.23.</supplied></l></quote>
+<lg xml:id="lg.22">
+<l xml:id="l.129">Baratod ha neked ioért meg nem felel<note type="critic" xml:id="note.16">– ha a jóért neked
+                            jóval nem fizet</note></l>
+<l xml:id="l.130">Ne Zugolodgial S. pórőli az Istennel.</l>
+<l xml:id="l.131">Tartoztasd meg magad S. ne Solẏ az Nielwedel.</l>
+<l xml:id="l.132">Had bosu alodrȧ halgatasal Neögd el,</l>
+</lg>
+<quote><l xml:id="l.133">Ne tibi quid desit, quesitis vtere parce</l>
+<l xml:id="l.134">Vtque quod est serues, semper tibi deesse putato.
+                        <supplied>I.24.</supplied></l>
+</quote>
+<lg xml:id="lg.23">
+<l xml:id="l.135">Kereset mȧrhawȧl ha lehet Sw̋ kön eelj,</l>
+<l xml:id="l.136">Nagi keduessėn eel kereszmenieddel.</l>
+<l xml:id="l.137">Tekozlas ne legien kóltuén bėchw̋ letel</l>
+<l xml:id="l.138">Minthȧ nem Volna: Tarthasad kezzeddel.</l>
+</lg>
+<quote><l xml:id="l.139">Quod praestare potes, ne bis promiseris ulli.</l>
+<l xml:id="l.140">Ne sis Ventosus, dum Vis vrbanus haberi
+                    <supplied>I.25.</supplied></l></quote>
+<lg xml:id="lg.24">
+<l xml:id="l.141">Az mit ėgiser adhacz ketser ne igiried</l>
+<l xml:id="l.142"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20">Senkinek igirni azont neis mėried,</lem>
+<rdg wit="#W1" xml:id="rdg.20">azon</rdg>
+</app></l>
+<l xml:id="l.143">Embersegedet inkablan newellied</l>
+<l xml:id="l.144"><app xml:id="app.21">
+<lem wit="#KK" xml:id="lem.21">Eselös voltodot baniad hogi el Teried<note type="critic" xml:id="note.17">Eselös a „ventosus” szónak a megfelelője, melynek jelentését a
+                                    debreceni kiadás <hi rend="italic">állhatatlan</hi>-nal adja
+                                    vissza.</note></lem>
+<rdg wit="#W1" xml:id="rdg.21"><del>n</del> hogi</rdg>
+</app></l>
+</lg>
+<quote>
+<l xml:id="l.145">Qui simulat uerbis, nec corde est fidus Amicus</l>
+<l xml:id="l.146">Tu quoque fac simile, sic ars deluditu̇ r Arte.
+                        <supplied>I.26.</supplied></l></quote>
+<lg xml:id="lg.25">
+<l xml:id="l.147">Ki Teteti magát ȧlnok besedewel.</l>
+<l xml:id="l.148">Sziwibennis nincz az ió emlekezettel.</l>
+<l xml:id="l.149">Teis hasomlowȧn chelekedeteddel.</l>
+<l xml:id="l.150">Tsufolliad meg ötet ollian mesterseggel.</l>
+</lg>
+<quote><l xml:id="l.151">Noli homines blandos nimium sermone probare</l>
+<l xml:id="l.152">Fistula dulce canit, Volucrem dum decipit auceps.
+                        <supplied>I.27.</supplied></l>
+</quote>
+<lg xml:id="lg.26">
+<l xml:id="l.153">Hizelkedö embert te neis iawalliad.</l>
+<l xml:id="l.154">Baratszagot wele hȧ lehet ne Tarczad</l>
+<l xml:id="l.155">Madaras sip Sowal fogia az Madarȧt</l>
+<l xml:id="l.156">Edesen mikor sól chialuan lépre magát</l>
+</lg>
+<quote><l xml:id="l.157">Si tibi sunt nati, nec opes, tunc artibus illos</l>
+<l xml:id="l.158">Jnstrue quo <app xml:id="app.22">
+<lem wit="#KK" xml:id="lem.22">possint</lem>
+<rdg wit="#W1" xml:id="rdg.22">poss<del rend="overwritten">u</del><add type="overwrite">i</add>nt</rdg>
+</app> inopem defendere vitȧm <supplied>I.28.</supplied></l></quote>
+<lg xml:id="lg.27">
+<l xml:id="l.159">Fiaid ha wadnak Taniczd Tudomanira</l>
+<l xml:id="l.160">Hogi legien az vtȧn haza oltalmara.</l>
+<l xml:id="l.161">Ellien bechw̋ letel io Tanulȧsara.</l>
+<l xml:id="l.162">Sẇleinek legien az vtán hasnara.</l>
+</lg>
+<quote><l xml:id="l.163">Quod Ville est, charum, quod charum est, ville putato.</l>
+<l xml:id="l.164">Sic tibi nec parcus, nec auarus habeberis ullj.
+                        <supplied>I.29.</supplied></l></quote>
+<lg xml:id="lg.28">
+<l xml:id="l.165">Mi az ala walo Te itild dragának</l>
+<l xml:id="l.166">Es az mi draghȧ azt ala walonak</l>
+<l xml:id="l.167">Ekeppen fősueni nem lehets mȧgádnak,</l>
+<l xml:id="l.168">Sem penig egiebek fosueninek nem Tartnak.</l>
+</lg>
+<quote><l xml:id="l.169">Que culpare soles, ea tu <app xml:id="app.23">
+<lem wit="#KK" xml:id="lem.23"><corr>né</corr></lem>
+<rdg wit="#W1" xml:id="rdg.23">me</rdg>
+</app> feceris ipse</l>
+<l xml:id="l.170">Turpe est doctorj, cum culpa redarguit ipsum
+                    <supplied>I.30.</supplied></l></quote>
+<lg xml:id="lg.29">
+<l xml:id="l.171"><app xml:id="app.24">
+<lem wit="#KK" xml:id="lem.24">Melliekreől soktal az előt bűntetnẏ</lem>
+<rdg wit="#W1" xml:id="rdg.24">Melliek<del>w</del>reőöl</rdg>
+</app></l>
+<l xml:id="l.172">Magad ne latasal ȧzokot chelekednÿ</l>
+<l xml:id="l.173">Rut dolog Tánitot<note type="critic" xml:id="note.18">olv. tanítód</note> ha kezdi
+                        Feddenÿ,</l>
+<l xml:id="l.174">Magȧ vetkeirȯl nem Tuduan kÿ Térnẏ</l>
+</lg>
+<quote><l xml:id="l.175">Quod iustum est petito, Vel quod Videatur honestum</l>
+<l xml:id="l.176">Nam Stultum est petere id, quod possit iure negari
+                        <supplied>I.31.</supplied></l></quote>
+<lg xml:id="lg.30">
+<l xml:id="l.177">Az mi Tisteseges latatik azt keried</l>
+<l xml:id="l.178">Ki hozȧd nem illik kiwȧnni ne meried</l>
+<l xml:id="l.179"><app xml:id="app.25">
+<lem wit="#KK" xml:id="lem.25">Bolondsagh azt kérni, ki nem adattatik neked.</lem>
+<rdg wit="#W1" xml:id="rdg.25">Bolon<del>sa</del>dsagh</rdg>
+</app></l>
+<l xml:id="l.180">Job el halgatny rá sem mennien Nielwed.</l>
+</lg>
+<quote><l xml:id="l.181">Jgnotum tibi nolito, praeponere notis</l>
+<l xml:id="l.182">Cognitȧ iudicio, constant, incognita casu,
+                    <supplied>I.32.</supplied></l></quote>
+<lg xml:id="lg.31">
+<l xml:id="l.183">Jo ismerösodőt igėn meg bechw̋ lyed</l>
+<l xml:id="l.184">Ismeretlent penig ne Tarts annȧl fellieb.</l>
+<l xml:id="l.185">Tortent dolgokbul igen megh esmėried</l>
+<l xml:id="l.186">Probalt Baratodot, Jozannon Tistellied</l>
+</lg>
+<quote><l xml:id="l.187">Cum dubia incertis, Versetur Vita periclis</l>
+<l xml:id="l.188">Pro lucro tibi pone diem, quicunque laboras.
+                    <supplied>I.33.</supplied></l></quote>
+<l xml:id="l.189"><app xml:id="app.26">
+<lem wit="#KK" xml:id="lem.26">............................................</lem>
+<rdg wit="#W1" xml:id="rdg.26"><note type="critic" xml:id="note.19">Alája a 34. disztichon fordítása
+                                került.</note></rdg>
+</app></l>
+<lg xml:id="lg.32">
+<l xml:id="l.190"><app xml:id="app.27">
+<lem wit="#KK" xml:id="lem.27">Kit nagi eroddel giőznelis, tw̋ resel meg giőzed</lem>
+<rdg wit="#W1" xml:id="rdg.27"><del>giozhecz</del>
+<add place="above" type="insert">giöznelis</add></rdg>
+</app></l>
+<l xml:id="l.191">Az igėn sep Iosagos chelekedet</l>
+<l xml:id="l.192">Mert az igėn engedelmes Twrėszed,</l>
+<l xml:id="l.193">Jo erkolcznek dragȧ io vezered.<note type="critic" xml:id="note.20">125–128 E sorok nem a 33.,
+                            hanem a 34. disztichonnak a fordítása. A latin szöveget lásd fentebb a
+                            jegyzetben.</note></l>
+</lg>
+<quote><l xml:id="l.194">Conserua potius que sunt iam parta labore</l>
+<l xml:id="l.195">Cum labor in damno est, crescit <app xml:id="app.28">
+<lem wit="#KK" xml:id="lem.28">mortalis</lem>
+<rdg wit="#W1" xml:id="rdg.28">mortale</rdg>
+</app> aegestas. <supplied>I.39.</supplied></l></quote>
+<lg xml:id="lg.33">
+<l xml:id="l.196"><app xml:id="app.29">
+<lem wit="#KK" xml:id="lem.29">Az kit nagi nehezėn munkawal kerestell</lem>
+<rdg wit="#W1" xml:id="rdg.29"><del rend="overwritten">Mit</del><add type="overwrite">Az</add>; kereste<add type="overwritten">ll</add></rdg>
+</app></l>
+<l xml:id="l.197">Azokot meg Tarczad azon igiekezzell.</l>
+<l xml:id="l.198">Mert hȧ kár walasban giakorta te essel</l>
+<l xml:id="l.199">Meg rakosol te vilaġon Seginszeggel.</l>
+</lg>
+<quote><l xml:id="l.200">Dapsilis interdum notis, charis et Amicis</l>
+<l xml:id="l.201">Cum fueris faelix, semper tibi proximus esto.
+                    <supplied>I.40.</supplied></l></quote>
+<lg xml:id="lg.34">
+<l xml:id="l.202">Mikorȯn boldog Vagi kozelb legi magadhoz</l>
+<l xml:id="l.203"><app xml:id="app.30">
+<lem wit="#KK" xml:id="lem.30">Magaddal vgi legi <supplied>?</supplied> mint io
+                                Akarodhoz.</lem>
+<rdg wit="#W1" xml:id="rdg.30">Magaddal <del>iol tegi</del>
+<add place="above" type="insert"><unclear>vgi
+                                legi</unclear></add></rdg>
+</app></l>
+<l xml:id="l.204">Adakozo legj, az Attiadfiaidhoz</l>
+<l xml:id="l.205">S. Ne hagi meg chw̋ kenni io Voltat Baratidhoz.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

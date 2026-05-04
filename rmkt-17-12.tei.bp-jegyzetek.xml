@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="3" type="main">BENICZKY PÉTER</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+<idno type="ITIdata"/></persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+<idno type="ITIdata"/></persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bp-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">BENICZKY PÉTER</head>
+<head type="subtitle">ÉLETE</head>
+<p xml:id="p.1">Találóan írja róla <persName><hi rend="smallcaps">Jenei Ferenc</hi><idno type="ITIdata">Q84191</idno></persName> „Ha személye egy nagy,
+                    félország főrangú családjait megmozgató örökösödési perbe nem keveredett volna,
+                    vajmi keveset tudnánk róla.” (<bibl>Beniczky Péter és a manierizmus. A Petőfi
+                        Irodalmi Múzeum Évkönyve 1971, 186.</bibl>) Életrajza valóban csak néhány
+                    dátum köré fonódna. <persName><hi rend="smallcaps">Komáromy András</hi><idno type="ITIdata">Q147389</idno></persName> sokéves levéltári
+                    kutatásainak és dolgozatainak köszönhetjük azt a számos kerülőúton felbukkant
+                    adatot, melyből <persName>Beniczky Péter<idno type="ITIdata">Q41111</idno></persName> életét legalább nagy
+                    vonalakban felvázolhatjuk. (<bibl><title>Adalékok Beniczky Péter életéhez</title>. <abbr>TT</abbr> 1885,
+                        420–26</bibl>. – <bibl> <title>Thurzó Mária végrendelete és Beniczky Péter a költő</title>.
+                        Száz 1887, 217–34, 321–47.</bibl> – <bibl><title>Adalékok Beniczky Péter életéhez</title>.
+                        TT 1888, 435–49.</bibl>) Nagyrészt ezeknek a segítségével rajzolta meg
+                    életpályáját <persName><hi rend="smallcaps">Kovács Dezső</hi></persName> <title>Beniczky Péter élete és
+                    költészete című munkájá</title>ban (<bibl><abbr>ItK</abbr> 1906, 385–424</bibl>).</p>
+<p xml:id="p.2">Nem ismerjük pontosan születési évét sem. A tizenötéves háborúban a törökök ellen
+                    hadakozó apja, <persName>Beniczky Ferenc</persName>
+<date when="1603">1603</date> táján nősülhetett. Nyolc gyermekük közül az
+                    elsőszülött <persName>Ferenc<idno corresp="Beniczky Ferenc"/></persName>
+<date when="1605">1605-ben</date> született. Péter második fiúként legfeljebb
+                        <date when="1606">1606-ban</date> látta meg a napvilágot. Mások azonban
+                    <date when="1603">1603-ra</date> teszik születését. (Vö. <bibl><hi rend="smallcaps">Kovács Dezső</hi>:
+                        i. m. 1. lap 1. jegyz.</bibl>)</p>
+<p xml:id="p.3">A Beniczky családnak jó összeköttetése volt a korban több gazdag, jelentős
+                    szerepet játszó főúri családdal. Az apa féltestvére volt pl. <persName>Koháry
+                        Péternek<idno type="ITIdata">Q53702</idno></persName>. Neve ott szerepelt a gróf <persName>Thurzó
+                            Borbála</persName> és gróf <persName>Erdődy Kristóf<idno type="ITIdata">Q470951</idno></persName> lakodalmára
+                        (<date when="1612-09">1612 szeptemberében</date>) meghívott fővendégek
+                    névsorában. (<bibl><hi rend="smallcaps">Radvánszky Béla</hi>: <title>Magyar családélet és háztartás a XVI. és
+                        XVII. században</title>. Bp. 1879. III, 12.</bibl>) Rokonságban volt
+                        <persName>Vizkelethy Mihállyal<idno corresp="Vizkelethy Mihály"/></persName>, akinek házában, <placeName>Esztergomban<idno type="ITIdata">Q2103</idno></placeName> tartózkodott
+                        <persName>Beniczkyné</persName> a háborús időkben, s aki <date when="1618">1618-ban</date> feleségül vette <persName>Thurzó György<idno type="ITIdata">Q160767</idno></persName> lányát,
+                    <persName>Máriát<idno corresp="Thurzó Mária" type="ITIdata">Q470954</idno></persName>.
+                    Tulajdonképpen Beniczky Péter később az ő familiáriusa volt, de <persName>Thurzó
+                            Máriát<idno corresp="Thurzó Mária"/></persName> szolgálták
+                            <persName>Ferenc<idno corresp="Beniczky Ferenc"/></persName> és
+                            <persName>Judit<idno corresp="Beniczky Judit"/></persName> nevű
+                    testvérei is.</p>
+<p xml:id="p.4"><persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> gyerek–, ifjúkoráról, iskoláiról nem rendelkezünk adatokkal. Az egyik énekében azt mondja magáról:
+                    „Nem laktam oskolát én az tanulásért.” Mikor <date when="1664">1664-ben</date> <persName>Bartók István<idno type="ITIdata">Q239223</idno></persName> kiadja <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> verseit, „A Kegyes Olvasóhoz” szóló
+                rövid ajánlásban olyan ember példájaként emlegeti, aki „sokat nem tanult és iskolában nem járt”, sokat deákul sem tudott; de nem
+                restellte az olvasást, és hasznos dolgot csinált.</p>
+<p xml:id="p.5">Ha intézményesen nem járt is iskolába, kétségtelen, hogy otthon, de talán főúri udvarban tanult. Ránk maradt az a göröglatin
+                szótár, mely <date when="1614">1614-ben</date> az apjáé volt. Ennek első szennylevelére írt be <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> <date when="1619">1619-ben</date> két rövid magyar verset, –
+                feltehetőleg saját szerzeményét. A könyv első táblájának belső oldalára ragasztott levélre meg <date when="1623-07-25">1623. július 25-i</date> kelettel ellátva az
+                alábbi latin sorokat:</p>
+<p xml:id="p.6">Memento Morj</p>
+<l xml:id="l.1">Vjlia qui quondam miseris alimenta negarett.</l>
+<l xml:id="l.2">Nunc mendicat pascitur ille cibo.</l>
+<l xml:id="l.3">Pascibus ambiguis fortuna volabilis erratt,</l>
+<l xml:id="l.4">Et manett in nullo certa tenaxque Loco.</l>
+<p xml:id="p.7">Petrus Beniczkiij M[anu pro]pria Anno 1623: die 25 July.</p>
+<p xml:id="p.8">(A szótárt az apa <date when="1632-06-12">1632. június 12-én</date> adományozta <persName>Duchoni János</persName> iskolarektornak.) A 16–18 esztendős <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> tehát feltehetőleg
+                saját szerzeményű latin sorokat írt be a görög-latin szótárába. Ez nem arra vall, hogy nem tanult, hiszen a görög-latin szótár
+                legalább öt esztendeig a keze között forgott.</p>
+<p xml:id="p.9">Ezekben az években (<date from="1614">1614-től</date> ténylegesen, <date from="1615-01-12">1615. január 12</date>-étől kinevezetten) apja
+                    <placeName>Vác<idno type="ITIdata">Q18239</idno></placeName> főkapitánya volt. Sokat tett a török előnyomulás
+                    feltartóztatására (vö. <bibl><hi rend="smallcaps">Fraknói Vilmos</hi>: <title>Pázmány Péter</title>. Bp. 1886.
+                    186</bibl>), és valószínűleg fiát is korán a katonaéletre fogta. Hogy ez „hadi
+                    érdemeiért” nádori birtokadományozásban részesült (vö. <bibl><hi rend="smallcaps">Nagy Iván</hi>:
+                        <title>Magyarország családai. I</title>. Pest 1857. 297</bibl>), arra is következtetni
+                    enged, hogy <persName>Bethlen Gábor<idno type="ITIdata">Q41495</idno></persName> támadásaival szemben a királyi
+                    Magyarország, a császár érdekeit szolgálta karddal. „Miles ob Heroica Facinora
+                    Laureatus” címmel illeti őt Apáti M. Miklós: Vita triumphans c. <date when="1688">1688-ban</date> kinyomtatott munkájának 82. lapján. (<bibl>RMK
+                        III, 3491.</bibl>)</p>
+<p xml:id="p.10">Konkrét adatunk azonban katonai, diplomáciai pályájáról csak <date when="1641">1641</date>-ből van. A Beniczky család levéltárában egy török útlevélre
+                        <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> saját kezűleg írta rá: „Török császár
+                    útlevele, mikor Konstantinápolyban voltam és kijöttem onnét. Anno 1641. die 22.
+                    Novembris indultam Konstantinápolyból.” Feltehetőleg azzal a követséggel ment a
+                    portára, mely <date when="1641-04-26">1641. április 26-án</date> ért oda
+                    <persName>Izdenczy András<idno type="ITIdata">Q37142</idno></persName> vezetésével. (Vö. <bibl><hi rend="smallcaps">Angyal Dávid</hi>:
+                        <title>Magyarország története II. Mátyástól III. Ferdinánd haláláig. A magyar
+                        nemzet története. VI.</title> Bp. 1898. 496.</bibl>) Homályossá teszi azonban az
+                    útlevél ügyet, hogy annak tartalma erdélyi követségre utal, erdélyiek részére
+                    szól. (Vö. <bibl><hi rend="smallcaps">Kovács</hi>: i. m. 6–7.</bibl>)</p>
+<p xml:id="p.11">A második <placeName>szőnyi<idno type="ITIdata">Q18480</idno></placeName> béke megkötésével (<date when="1642-03-19">1642. március 19.</date>) véget ért a törökkel folytatott
+                    hadviselés. <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> is búcsút mondhatott a
+                    katonaságnak. <date when="1645-12">1645/46</date> fordulója táján az apja
+                    meghalt. Valószínű, hogy költőnk jószágaival foglalatoskodott, s leginkább a
+                    Nyitra megyei <placeName>Újfaluban<idno type="ITIdata">Q20179</idno></placeName>
+                    tartózkodott, s ott gazdálkodott <persName>Ferenc<idno corresp="Beniczky Ferenc"/></persName> bátyjával együtt, ahogyan erre a
+                    <placeName>cinkotai<idno type="ITIdata">Q16951</idno></placeName> jobbágyok ez évből keltezett egyik leveléből
+                    következtetni lehet. <persName><hi rend="smallcaps">Kovács</hi><idno corresp="Kovács Dezső"/></persName>
+                    hivatkozik rá (<bibl>i. m. 8</bibl>).</p>
+<p xml:id="p.12">Ezek az idők a birtokszerzések évei s egyben a <persName>Thurzó Mária</persName>
+                    szolgálatában eltöltött esztendők voltak. A Pozsony
+                        megyei <placeName>Felsőlócon<idno type="ITIdata">Q472038</idno></placeName> örökös jószága volt.
+                    <persName>Illésházy Istvántól</persName> megszerezte hozzá zálogjogon annak
+                    meglehetősen elhanyagolt állapotban lévő ugyanitt fekvő birtokát, melyet nem is
+                    engedett ki többé a kezéből. (Vö. levelét <persName>Ocskay Ferenchez</persName>.
+                        <bibl>TT 1888,435–36, </bibl>– ezt a zálogos jószágot hagyta végrendeletileg
+                    <persName>Spáczay Imrére<idno corresp="Spáczay Imre"/></persName>.) <placeName>Lóc<idno corresp="Felsőlóc">Q472038</idno></placeName> kedvenc
+                    tartózkodása helyévé vált. Itt, a Dudvág berkében több éneket is szerzett
+                    verseinek záróstrófái szerint.</p>
+<p xml:id="p.13"><date when="1648">1648-ban</date> a testvérgyilkosság miatt elítélt <persName>Apponyi István</persName> jószágait: <placeName>Felsővecsét<idno type="ITIdata">Q18877</idno></placeName>, <placeName>Nagybábot<idno type="ITIdata">Q17184</idno></placeName> és <placeName>Tarnóc<idno type="ITIdata">Q11725</idno></placeName> községet kapta
+                    „pro fidelibus servitiis diversis in expeditionibus bellicis penes suam Majestatem factis”. <persName>Apponyi<idno corresp="Apponyi István"/></persName> ugyan pert indított ellene, a
+                jószágokat azonban négy esztendő múlva az újabb eljárások következtében megegyezéssel is átengedte <persName>Beniczkynek<idno corresp="Beniczky Péter"/></persName>.</p>
+<p xml:id="p.14"><persName>Beniczkynek<idno corresp="Beniczky Péter"/></persName> ekkor már jól kiépített kapcsolatai voltak,
+                    „nagy gróf emberek és egyéb renden lévők is sokak jóakarói”. Ezért fordul hozzá
+                    támogatásért rokona, <persName>Beniczky Gábor</persName> (dédapjuk volt testvér
+                    egymással!) <date when="1650">1650-ben</date>, hogy segítsen neki a
+                        micsinei jószágok visszaszerzésében: „kegyelmednek
+                    sok jóakarója lévén, sokat vihet véghez.” (<bibl>Beniczky-cs. lt. fasc. III. no
+                        5.</bibl>) Tekintélyét bizonyítja pl. <persName>Dienes Györgynek</persName>
+<date when="1656-07-08">1656. július 8-án</date> kelt levele is, melyben
+                    szintén bizonyos ügyek elintézését kéri, mivel „kegyelmed nagy szolga”.
+                    (<bibl><hi rend="smallcaps">Kovács</hi>: i. m. 11.</bibl>)</p>
+<p xml:id="p.15">„Nagy szolgává” <persName>Thurzó Mária</persName> (<persName>Vizkelethy
+                            Mihályné<idno corresp="Thurzó Mária"/></persName>) udvarában és
+                    szolgálatában lett <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName>. <date when="1644">1644</date> nyarán <persName>I. Rákóczi György<idno type="ITIdata">Q53757</idno></persName> katonái
+                        <persName>Vizkelethy Mihályt</persName> (buzgó katolikus, <persName>Thurzó
+                            György<idno type="ITIdata">Q160767</idno></persName> nádor veje!) elfogták, és <placeName>Fogaras<idno type="ITIdata">Q9076</idno></placeName>
+                    várából csak nagy üggyel-bajjal sikerült őt kiszabadítani. <persName>Thurzó
+                        Mária</persName> mozgósította minden előkelő rokonát. <persName>Beniczky
+                        Péter</persName> segítségét is igénybe vette, ő volt tanácsadója, a hatalmas
+                    zálogösszeg összehozásában segítője. <persName>Vizkelethy Mihály</persName>
+<date to="1645">1645</date> tavaszán kiszabadult. De beteges állapotban, s
+                    nemsokára meghalt (<date to="1649">1649</date>?). Halála előtt saját jószágaiból
+                    sokat hagyott feleségére, amiért hosszú pereskedés keletkezett <persName>Thurzó
+                        Mária</persName> és a nagyszámú előkelő rokonság között. Ezekben az időkben
+                    Thurzó Máriának megint nagy szüksége volt Beniczkyre. (Vö. <bibl><hi rend="smallcaps">Komáromy
+                        András</hi>: <title>Thurzó Mária végrendelete és Beniczky Péter a költő</title>. <abbr>Száz</abbr> 1887,
+                        220–24.</bibl>)</p>
+<p xml:id="p.16">Hűséges emberét <persName>Thurzó Mária</persName> nővérének is beajánlotta.
+                        <persName>Thurzó Borbála</persName>
+<date when="1648-08-06">1648. augusztus 6-án</date> lett özvegy, mivel férje
+                    <persName>Draskovich János<idno type="ITIdata">Q43151</idno></persName> nádor elhalálozott. Az özvegy haláláig
+                        (<date when="1651">1651</date>) <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> volt
+                    magyaróvári jószágainak „praefectus bonorum”-a. (<bibl><hi rend="smallcaps">Kovács</hi>: i. m.
+                    10.</bibl>)</p>
+<p xml:id="p.17">Az <date from="1650" to="1659">1650</date>-es években újabb birtokügyek
+                    (parcellázás, a Bars megyei
+                    Nempcen nádori adományként való átvétele, pereskedés a
+                    <placeName>Pozsonyban<idno type="ITIdata">Q468</idno></placeName> lakó <persName>Gosztonyi
+                    Jánossal</persName>, keszihóci kúriájának elzálogosítása stb.) foglalkoztatják.
+                    Eközben továbbra is <persName>Thurzó Mária</persName> rendelkezésére áll.
+                    Tanácsára köt szerződést <persName>Mária<idno corresp="Thurzó Mária"/></persName>
+<date when="1651-02-17">1651. február 17-én</date> a Vizkelethy-rokonokkal,
+                    lemondva az urától ráhagyott jószágok feletti rendelkezési jogáról egy
+                    meghatározott összeg kivételével. <date when="1654-05-28">1654. május
+                    28-án</date> meg annak arany és ezüst művekkel megrakott ládáját szállítja
+                    <placeName>Nagyszombatba<idno type="ITIdata">Q14207</idno></placeName>, letétbe helyezve azt az apácaasszonyok
+                    kolostorában. (<bibl><hi rend="smallcaps">Radvánszky</hi>: i. m. III, 317.</bibl>)</p>
+<p xml:id="p.18"><date when="1654">1654</date> nevezetes dátum <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> életében. Az <placeName>esztergomi<idno type="ITIdata">Q2103</idno></placeName> érseki udvar kapitányának (capitaneus aulae) hívták meg ez év
+                    elején. (<persName>Thurzó Mária</persName> jószágainak gondozója testvére, <persName>Ferenc<idno corresp="Beniczky Ferenc"/></persName> lett.) Nem tudjuk pontosan, miből állott ez a tisztség, valószínűleg ő
+                volt az érseki udvartartás vezetője: udvarmester. Itteni szolgálata alkalmat adott neki, hogy újabb, elmélyültebb ismeretséget
+                kössön az esztergomi káptalan tagjaival, akiknek jóakarata később lesz majd hasznára. Különösen jó barátság fejlődött közte és
+                    <persName>Bartók István<idno type="ITIdata">Q239223</idno></persName> meg <persName>Szily András<idno type="ITIdata">Q84374</idno></persName> kanonokok között.</p>
+<p xml:id="p.19">Valószínűleg <persName>Thurzó Mária</persName> kérésére hagyja ott az érseki udvarban betöltött kapitányságot <date when="1658">1658-ban</date>. Etájt újra
+                pereskedésben volt a rokonokkal, szüksége volt <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> segítésére. Annál inkább, mert <persName>Thurzó Mária</persName> már betegeskedett.
+                    Ekkor házában volt már özvegy <persName>Loboda Jánosné</persName> szül. <persName>Beniczky Judit</persName> is, Péternek és <persName>Ferencnek<idno corresp="Beniczky Ferenc"/></persName> a húga. Vagyoni ügyeit <persName>Beniczky
+                Ferenc</persName> intézte, ügyes-bajos gondjaiban, pereskedésében Péter segítette. Újabb engedmények árán <persName>Thurzó Mária</persName> és a rokonok ügye
+                <date when="1661">1661</date> őszén csendesedett el – egyezség révén.</p>
+<p xml:id="p.20"><persName>Thurzó Mária</persName> egyre súlyosabb beteg lett. <persName>Beniczky Pétert<idno corresp="Beniczky Péter"/></persName> hívatta, végrendeletet készíttetett. Mikor azonban a végrendelet
+                előttemezésére a hitelesítők megjelentek <persName>Thurzó Mária</persName> ágyánál, nem került sor a végrendelet felolvasására, enélkül írták alá,
+                elfogadva a beteg kijelentését, hogy az írás végakaratát tartalmazza. <persName>Thurzó Mária</persName> néhány hónap múlva, <date when="1662-02-11">1662. február 11-én</date>
+                meghalt.</p>
+<p xml:id="p.21">A végrendeletet <date when="1662-03-02">1662. március 2-án</date> bontották fel.
+                    (Kiad. <bibl><hi rend="smallcaps">Komáromy</hi>: i. m. 231–33.</bibl>)</p>
+<p xml:id="p.22">Benne <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> személyét a következő részek érintik: „…az én
+                    testemnek eltemettetését s annak gondviselését bízom és hagyom Beniczky Péter
+                    uramra, bízván ahhoz, hogy istenben elnyugott uramnak kedves attyafia volt, és
+                    nekem is mindez ideig sok dolgaimban tökéletes szívvel szolgált.” Meghagyja,
+                        <persName>Beniczky</persName> temettesse el, és „ezen testamentumom szerint
+                    az kinek mint és mit hattam, azt ő kegyelme az szerint kinek-kinek mindeneket
+                    kezére aggyon, ahhoz való levelekkel együtt.” Az anyagiakat illetőleg
+                        <persName>Beniczky Péter</persName> felől így rendelkezik: „Az felső- és
+                    alsó-behincei jószágot hagyom Beniczky Péter uramnak kilenc ezer forintban,
+                    mivel nekem tökéletesen szolgált sok dolgaimban, és az én testemnek temetését is
+                    mivel ő kegyelmére bíztam és hattam.” Neki hagyta az
+                        újlackói jószágot is ezer forintban, hogy azt a
+                    <placeName>nagyrépényi<idno type="ITIdata">Q17699</idno></placeName> templom és ispotály szükséges dolgaira
+                    fordítsa, az ura és az ő teste fölé síremléket állítson. Végezetül pedig „…az
+                    mirűl rendelést nem tettem volna … azokat bízom és hagyom éppen Beniczky Péter
+                    uramra, hogy őkegyelme azokat rendbe vegye, eligazítsa, és disponáljon azokrul.”
+                        (<bibl>Uo.</bibl>)</p>
+<p xml:id="p.23">A testamentum végrehajtásának feladata tehát <persName>Beniczkyre<idno corresp="Beniczky Péter"/></persName> várt. Ő eleget is tett a
+                    végrendelet pontjainak. Úgy látszik a későbbi tanúvallatásokból, hogy bizonyos
+                    terményekkel, pénzekkel – ami a testamentum szellemének nem mondott ellent –
+                    magának gazdálkodott. Az irigység és a gyanú nem hagyta nyugodni az atyafiságot.
+                    Hamisítással vádolták <persName>Beniczkyt<idno corresp="Beniczky Péter"/></persName>, hogy az önkényesen készített végrendeletet csellel íratta
+                    alá, <persName>Thurzó Mária</persName> halála után leveleket égettetett el, az
+                    elhunyt javaival szabadon töltözött. A rokonság nagyobb része
+                    <persName>Illésházy Gábort<idno type="ITIdata">Q470969</idno></persName> és <persName>Újfalussy
+                        Andrást</persName> hatalmazta fel, hogy a végrendelet megsemmisítését kérjék
+                    a nádortól. <persName>Újfalussy<idno corresp="Újfalussy András"/></persName>
+<persName>Wesselényi Istvántól</persName> tanúkihallgatás megejtését eszközölte
+                    ki <date when="1662-07-01">1662. július 1-én</date>. Beniczky a maga részéről
+                    ugyancsak az esztergomi főkáptalan előtt tartandó
+                    tanúkihallgatás tartását érte el <date when="1662-12-27">1662. december
+                        27-én</date>. Az első tanúvallomások <date when="1663-01-22">1663. január
+                        22-én</date> hangzottak el, és <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> teljes befeketítését
+                    eredményezték. (Vö. <bibl><hi rend="smallcaps">Komáromy András</hi>: <title>Adalékok Beniczky Péter életéhez</title>.
+                            <abbr>TT</abbr> 1888, 436–45.</bibl>) A <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> megkeresésére lefolytatott
+                    kihallgatásokból (<date when="1663-05-10">1663. május 10.</date>), melyeket
+                    <persName>Kisvárday Mihály<idno type="ITIdata">Q332487</idno></persName> esztergomi kanonok végzett, kitűnt,
+                    hogy szó sincs hamisításról, a végrendelet törvényes. Mikor a perfelvételi
+                    tárgyaláson a harmadik idézésre <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> megjelent, megesküdött, hogy a végrendeletet nem a maga kénye
+                    szerint csinálta, az özvegyet annak készítésekor nem befolyásolta,
+                        <persName>Thurzó Máriának<idno corresp="Thurzó Mária"/></persName>
+                    semmiféle, a végrendelettel kapcsolatos intézkedését el nem égette. A felperesek
+                    a tanúvallomási jegyzőkönyv ellen kifogást emeltek, igyekeztek a bíráskodó
+                    személyeket a maguk pártjára megnyerni. A káptalanban azonban
+                            <persName>Beniczkynek<idno corresp="Beniczky Péter"/></persName> is
+                    voltak pártfogói. Az ítélethozatalt <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> már nem élte meg. <date when="1664-02-08">1664. február 8-án</date> végrendelkezett, s még
+                    ugyanebben a hónapban meghalt. A per még évekig folyt. A felek végül is <date when="1678">1678-ban</date> egyezségre léptek.</p>
+<p xml:id="p.24">Végrendeletében (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>: i. m. <abbr>TT</abbr> 1888, 446–49</bibl>)
+                    jószágainak legnagyobb részét testvéreire, azok gyerekeire hagyta. Nem
+                    feledkezett meg jóakaró barátairól, <persName>Bartók István</persName> tinnini
+                    püspökről, <persName>Szily András</persName> esztergomi őrkanonokról,
+                        <persName>Spáczay Imréről<idno corresp="Spáczay Imre"/></persName>, akinél
+                    iratait, verseit tartalmazó ládáját tartotta, akinek a felesége betegségében
+                    ápolta. Az <placeName>esztergomi<idno type="ITIdata">Q2103</idno></placeName> káptalanon kívül egyéb vallási és
+                    emberbaráti intézményekre is hagyományozott, mint pl. a
+                    <placeName>korponai<idno type="ITIdata">Q19770</idno></placeName>, <placeName>zólyomi<idno type="ITIdata">Q2102</idno></placeName> ispotályra.
+                    Mint élete folyamán, utolsó akaratában is jó földesura volt jobbágyainak.
+                    Meghagyta, nehogy halála után eszébe jusson valakinek kinn lévő adósságait
+                    rajtuk követelni. „Mivel pedig mostan (az <date when="1663">1663</date>-as török
+                    pusztításokra céloz) elégette minden jószágomat az pogány, noha az szegénység
+                    között feles adósságom volna, de azt akármi névvel neveztessék, nem akarom, hogy
+                    senki megvehesse holtom után rajtok.”</p>
+<p xml:id="p.25">Irodalomtörténeti szempontból a végrendelet legérdekesebb pontjában verseinek a kiadatásáról rendelkezik: „Az minémű
+                magyar verseim vannak Vereskűben, adja Beniczky Pál öcsém uram nagypraepost uramnak, és adjon elegendő költséget az
+                kinyomtatására ő nagyságának.” A nagyprépost: <persName>Bartók István</persName>, <date when="1647">1647-től</date> <placeName>esztergomi<idno type="ITIdata">Q2103</idno></placeName> kanonok, <date when="1657">1657-től</date> <placeName>pécsváradi<idno type="ITIdata">Q12201</idno></placeName> apát, <date when="1663">1663-tól</date>
+                    nagyprépost, felszentelt <placeName>tinnini<idno type="ITIdata">Q472041</idno></placeName> püspök; meghalt <date when="1666-03-19">1666. március 19-én</date>.</p>
+<p xml:id="p.26">MŰVEI</p>
+<p xml:id="p.27"><persName>Bartók István</persName> eleget tett <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> végakaratának, és kinyomtatta
+                    azoknak a verseknek a gyűjteményét, melyeket Beniczky készített elő. A <hi rend="italic">Magyar Rithmusok</hi> ugyanis nemcsak Beniczky szerzeményeit
+                    tartalmazzák, hanem <persName>Nyéki Vörös Mátyásnak<idno type="ITIdata">Q159146</idno></persName> nyolc, és
+                    <persName>Rimay Jánosnak<idno type="ITIdata">Q155364</idno></persName> egy énekét is, nevük elhallgatásával,
+                    besorolva őket a Beniczky-versek közé. A kritikai kiadás hét Nyéki Vörös-éneknél
+                    említi, hogy ezek „bizonyos változtatásokkal és a szerző nevének
+                    elhallgatásával” belekerültek Beniczky Péter verseinek gyűjteményébe.
+                            (<bibl><abbr>RMKT XVII/2</abbr>, 76–82. sz.</bibl>) <persName>Nyéki
+                        Vörös<idno corresp="Nyéki Vörös Mátyás"/></persName> szerzeménye azonban a <hi rend="italic">Magyar
+                        Rithmusok</hi> „Istenhez való esedezéssel kegyelemkérés” című éneke is.
+                    (Lásd alább.) <persName>Rimay Jánostól<idno type="ITIdata">Q155364</idno></persName> a <hi rend="italic">Mennyekben
+                        lakozó imádandó fölség…</hi> kezdetű éneket (l. <bibl><abbr>RJÖM</abbr> 20.
+                        sz.</bibl>) vette fel <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> a ciklusába, „Mégis azon törödelemmel könyörög, hogy Isten
+                    legyen irgalmas vétkeinek” címmel. – A <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> által összeállított gyűjtemény
+                    után, a kiadvány legvégén <persName>Bartók István</persName> egy ismeretlen
+                    szerzőjű verset, az <hi rend="italic">Oh ki még élsz…</hi> kezdetűt nyomtatta
+                    le. (Vö. <bibl><abbr>RMKT XVII/10</abbr>.</bibl>)</p>
+<p xml:id="p.28">A kiadvány elé <persName>Bartók István</persName> az alábbi ajánló sorokat írta:
+                    „A’ KEGYES Olvasóhoz. Hogy ezeket a’ Magyar verseket kinyomtattattam oka ez,
+                    hogy meg-akartam mutatni, hogy ha Ember szintén sokat nem tanult, és Iskolákban
+                    nem járt-is, ha sokat Deákul nem tud-is, <hi rend="italic">privato stúdio</hi>
+                    csak a’ munkát, és olvasást ne restellye, sok hasznos dolgokat cselekedhetik, a’
+                    mint szegény Benyeczki Peter Uram. Megvallom hogy által olvasván néhol valami
+                    correctiot tettem benne, de nem sokat. Kérem a’ keresztyén Olvasót vegye jo
+                    neven, és éllyen maga lelkének és másoknak-is lelki javára véle. Nagy Szombatban
+                    1664. esztendőben. <hi rend="smallcaps">Bartok István</hi>, Esztergami Vicarius.”</p>
+<p xml:id="p.29">A <hi rend="italic">Magyar Rithmusok</hi>-nak <date to="1711">1711-i</date>g
+                    megjelent kiadásaiból ez ideig az alábbiakról tudunk:</p>
+<p xml:id="p.30">1. <placeName>Nagyszombat<idno type="ITIdata">Q14207</idno></placeName>
+<date when="1664">1664</date> – <bibl><abbr>RMK I</abbr>, 1015.</bibl>
+<persName>Szabó Károly<idno type="ITIdata">Q150607</idno></persName> az előszó keltéből következtette ezt a
+                    kiadást; példány nem ismeretes belőle. Az <bibl>OSzK <abbr>RMK I</abbr>,
+                        1611/b</bibl> jelzetű, címlap nélküli példányát <persName>Ján
+                            Čaplovic<idno type="ITIdata">Q42387</idno></persName> a <persName>Szabó Károly</persName> által
+                    kikövetkeztetett kiadással azonosította, s 75. lapját mint ilyennek reprodukálta
+                    <bibl><hi rend="smallcaps">Käfer István</hi> <title>Az Egyetemi Nyomda négyszáz éve</title> (Bp.
+                        1977)</bibl> c. munkájának 37. lapján. Az OSzK ezen címlap nélküli példánya
+                    már csak azért sem lehet az első kiadás, mivel a <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> szerzeményeit befejező záradéka az
+                        <date when="1670">1670</date>-es évet adja: „Ne<hi rend="italic">M</hi>zetes
+                        <hi rend="italic">B</hi>en<hi rend="italic">IC</hi>k<hi rend="italic">I</hi>
+                    Peter Szente<hi rend="italic">L</hi>t <hi rend="italic">VI</hi>téz <hi rend="italic">V</hi>erse<hi rend="italic">I</hi>
+<hi rend="italic">I</hi>tten <hi rend="italic">V</hi>égezö<hi rend="italic">D</hi>nek.”</p>
+<p xml:id="p.31">2. <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1670">1670</date> – <bibl><abbr>RMK I</abbr>, 1099.</bibl>
+                    (OSzK)</p>
+<p xml:id="p.32">3. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1675">1675</date>. – Egyetlen példánya a
+                    <placeName>győri<idno type="ITIdata">Q128</idno></placeName> püspöki könyvtárban. (<bibl><abbr>ItK</abbr> 1935,
+                        310.</bibl>) Mikrofilm-másolata: <bibl>OSzK FM 2/4215.</bibl></p>
+<p xml:id="p.33">4. <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1682">1682</date> – <bibl><abbr>RMK I</abbr>, 1284.</bibl>
+                    (OSzK)</p>
+<p xml:id="p.34">5. <placeName>Debrecen<idno type="ITIdata">Q2117</idno></placeName>
+<date when="1684">1684</date> – <bibl><abbr>RMK I</abbr>, 1314/a.</bibl>
+                    (OSzK)</p>
+<p xml:id="p.35">6. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1685">1685</date> – <bibl><abbr>RMK I</abbr>, 1337.</bibl>
+                    (OSzK)</p>
+<p xml:id="p.36">7. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1696">1696</date> – <bibl><abbr>RMK I</abbr>, 1491.</bibl> (OSzK) A
+                    lapszámok azonossága alapján valószínű, hogy <persName>Szabó Károly</persName>
+                    ezt a példányt vette föl <bibl><abbr>RMK I</abbr>, 1427. sz.</bibl> alatt is, a
+                    Széchényi Könyvtár régi katalógusa alapján. A tévedést az okozhatta, hogy a
+                    katalógusban a megjelenés éve sajtóhibából <date when="1692">1692</date>.</p>
+<p xml:id="p.37">8. <placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1700">1700</date> – <bibl><abbr>RMK I</abbr>, 1554.</bibl></p>
+<p xml:id="p.38">9. Az OSzK-ban az 1. sz. alatt említett példányon kívül még egy, címlapját
+                    vesztett kiadást őriznek, amely XVII. századinak látszik, de a felsoroltak
+                    egyikével sem azonos: <bibl><abbr>RMK I</abbr>, 1588/a.</bibl></p>
+<p xml:id="p.39">A XVIII. és XIX. századi kiadások felsorolását lásd <persName><hi rend="smallcaps">Petrik
+                    Géza</hi><idno type="ITIdata">Q249771</idno></persName> bibliográfiájában (<bibl><title>Bibliographia Hungariae</title>. I. Bp.
+                        1888. 230</bibl>).</p>
+<p xml:id="p.40">A <hi rend="italic">Magyar Rithmusok</hi> egyes darabjait több XVIII. századi
+                    kéziratos énekeskönyvbe bemásolták. Ezek a másolatok, melyekről az egyes versek
+                    jegyzeteiben szólunk, helyenként eltérnek a nyomtatott szövegtől, a szerzői
+                    szöveg helyreállítása szempontjából azonban nem vehetjük hasznukat.
+                    Szövegkritikai szempontból a <hi rend="italic">Divini István-ék.</hi>-ben (<date when="1707">1707</date>) található másolat is érdektelen. (Ezt az
+                    énekeskönyvet az egyes versek jegyzetében nem említjük.) A másoló
+                    énekeskönyvének 15b–103b levelére <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> verseit (a Példabeszédek
+                    kivételével) az 1684-i debreceni kiadásból másolta le.</p>
+<p xml:id="p.41">Forrásértékű viszont a <hi rend="italic">Szinnyey-Merse-kódex</hi>-ben található
+                    szöveg. A kódex 4a lapján olvasható feljegyzés szerint „ezen Benéczky Piter Uram
+                    Réthmusit írta le Orvasi és Szent Miklosi Pongracz Ferencz die 6 Xbris Anno
+                    1668”. A kódex nevét ajándékozójáról, <persName>Szinnyey-Merse
+                        Istvánról<idno type="ITIdata">Q49365</idno></persName> nyerte. A kézirat tulajdonképpen <persName>Thurzó
+                            Imre<idno type="ITIdata">Q160772</idno></persName>
+<date when="1616">1616-i</date> wittenbergi emlékkönyve, melynek üres lapjaira
+                    <persName>Pongrácz Ferenc<idno type="ITIdata">Q470950</idno></persName>
+<date when="1668">1668-ban</date> lemásolta <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> verseit. Előbb a Példabeszédeket
+                    írta le (6a–65b) az alábbi címmel: „Nemzetes Beniczky Piter Réthmusinak második
+                    része a közönséges Magyar példa beszédeknek.” A 66a–68b lapok üresek. A 91a
+                    lapon olvasható a <hi rend="italic">Magyar Rithmusok</hi> címlapjának a szövege.
+                    A 92. levél <persName>Bartók István</persName> ajánlását tartalmazza. Ez után
+                    következik a könyv első részének versállománya. A 155b–178b lapok üresek.</p>
+<p xml:id="p.42">A <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> által másolt
+                    szöveg számos helyen eltér a nyomtatványok szövegétől. Az előszóból tudjuk, hogy
+                    <persName>Bartók István</persName> a szövegben „néhol valami correctiot”
+                    tett. Kézenfekvő az a feltevés, hogy <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> kézirata a „correctio” előtti,
+                    tehát a <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> által írt
+                    változatot tartalmazza. Ez ellen az szól, hogy a <hi rend="italic">Szinnyey-Merse-k.</hi>-ben benne van <persName>Bartók István</persName>
+                    előszava is. Pongrácz (vagy másoló elődje) az előszót talán valamelyik
+                    nyomtatott kiadásból másolta. A versek másolata azonban nem készülhetett a
+                    nyomtatott szöveg alapján. Teljesen nyilvánvaló ez <persName>Nyéki Vörös
+                        Mátyás<idno type="ITIdata">Q159146</idno></persName> fentebb említett éneke esetében. <persName>Nyéki
+                        Vörös<idno corresp="Nyéki Vörös Mátyás"/></persName> így kezdte énekét: „Hozzám régen békélt, s’ jó kedvedből
+                    megh tért | Kegyes Isten tekinch meg.” (<bibl><abbr>RMKT XVII/2</abbr>,75.
+                        sz</bibl>.) Ez olvasható <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> másolatában is. Beniczky verseinek nyomtatott kiadásában az
+                    ének így kezdődik: „Oh te boldogságnak | S minden jók árjának | Kut feje, nagy
+                    Istenség.” Könnyebb azt feltételezni, hogy <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> az eredeti kezdősorral vette át
+                    <persName>Nyéki Vörös<idno corresp="Nyéki Vörös Mátyás"/><idno type="ITIdata">Q159146</idno></persName>
+                    szövegét, s ezt <persName>Bartók István</persName> módosította, mint azt, hogy a
+                    már <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> által
+                    módosított énekkezdetet <persName>Pongrácz Ferenc</persName> vagy másoló elődje
+                    az eredetinek megfelelően helyreállította.</p>
+<p xml:id="p.43"><persName>Nyéki Vörös<idno corresp="Nyéki Vörös Mátyás"/></persName> énekének 2.
+                    <persName>Balassi<idno type="ITIdata">Q2101</idno></persName>-sora az <hi rend="italic">inség</hi> szóval végződik. Az átdolgozás
+                    egyik oka az lehetett, hogy <persName>Bartók István</persName> nem volt megelégedve a rímmel. A
+                    legtöbb helyen azért írta át <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> szövegét, hogy a rímelést tisztábbá tegye.
+                            <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> pl.
+                    gyakran rímelteti a ragok magas és mély hangú változatait; <persName>Bartók
+                        István</persName>, ahol csak lehet, ezt megváltoztatja. A Példabeszédek
+                    1623. sorát <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> így
+                    írta: Maga hányó ember<hi rend="italic">tül</hi>. A másik két rímszó: <hi rend="italic">túl</hi>, illetőleg farkas<hi rend="italic">túl</hi>. Bartók
+                    István ezért az <hi rend="italic">embertül</hi> rímszót erre változtatta: <hi rend="italic">csélcsaptúl</hi>. További példák: 62, 86 légyke &gt; légyecske
+                    (rímszó: férgecske); 63,44 Másokat csábított &gt; Csábított mást szájod (rímszó:
+                    szempillantásod); 64,8 merült &gt; borult (rímszó: elfajult) stb.</p>
+<p xml:id="p.44">Szövegváltoztatásainak egy másik csoportját <persName>Bartók István</persName>
+                    papi volta magyarázza. A klérusra nézve sértőnek érezhette
+                            <persName>Beniczkynek<idno corresp="Beniczky Péter"/></persName> ezeket
+                    a sorait: Prókátorra pöröd és <hi rend="italic">holt papra lelked</hi> ne bizd
+                    teljességesen. (83, 1549–1551.) A kiemelt szavakat erre változtatta: <hi rend="italic">s új orvosra élted</hi>. Szemérmeskedés lehetett az oka annak,
+                    hogy ezt a sort: Kis örömért, <hi rend="italic">egy s két csókért</hi> metszéd
+                    meg torkát (76,23) erre módosította: Kis örömért <hi rend="italic">s
+                        vigasságért</hi> metszéd meg torkát. Hasonló indítékú változtatásokat
+                    láthatunk a Példabeszédek 2029–2031. és 2165. sorában is.</p>
+<p xml:id="p.45">A változatok egy harmadik csoportját az jellemzi, hogy a kézirat ritkább, nehezen érthető szavai helyett a
+                nyomtatványokban a megfelelő, közérthetőbb változatot találjuk: 63,11 ezennen &gt; ezennel; 75,71 Illy jól tött teremtődet &gt; Ilyen jó
+                teremtődet; 83,136 követ hajt &gt; követ vet; 83,1067 kétségben esset &gt; kétségben esőt. Ezek a módosítások származhatnak a
+                nyomdászoktól is. A „lectio difficilior” elve alapján a kézirat szövege a hiteles ezekben az esetekben is.</p>
+<p xml:id="p.46">A kézirat változatai között azonban számos olyan is van, amely nem
+                    <persName>Bartók István</persName> szövegátdolgozásának eredménye, hanem
+                        <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> másolási hibája. Néhány nyilvánvaló hiba talán
+                    azzal magyarázható, hogy <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> egy nehezen olvasható
+                    kéziratból másolt: 65, 17 <hi rend="italic">kelly elmedet</hi> kérni (<hi rend="italic">kegyelmedet</hi> kérni helyett); 80, 14 <hi rend="italic">s
+                        hevéthet</hi> étkemet (ehelyett: <hi rend="italic">s bővithedd</hi>
+                    étkemet); 63, 99 Istenem <hi rend="italic">kitleltem</hi> (ehelyett: <hi rend="italic">kérleltem</hi>) stb. Előfordult azonban az is, hogy a szöveg a
+                    hibás másolás után is értelmes maradt. Jó példa a szöveg banalizálására: 83,
+                    2162 bűzben kever &gt; bűnben kever. A kézirat néhány jellegtelen szócseréje is
+                    alighanem a másoló számlájára irandó. (83,919: Ki vermet ás &gt; Ki ás vermet; 83,
+                    2140: De álomtul félni &gt; De féli álomtul.) A <ref target="">62. sz.</ref> vers 34–35. sorát viszont
+                    <persName>Bartók István</persName> cserélhette fel, mert talán nem tetszett neki a közölő forma. Nem
+                    lett volna indokolt a <ref target="rmkt-17-12.tei.bp-64">64. sz.</ref> vers 33. sorát (Soha <hi rend="italic">nem is</hi>
+                    áldoztam) erre változtatni: Soha <hi rend="italic">én nem</hi> áldoztam, vagy
+                    ugyanott az 54. sorban az <hi rend="italic">az</hi> szót <hi rend="italic">csak</hi>-ra cserélni.</p>
+<p xml:id="p.47">A <persName>Pongrácz Ferenc</persName> által másolt kézirat szövege tehát
+                    független a nyomtatott szövegektől, s <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> eredeti szövegére megy vissza, míg
+                    a nyomtatványok a <persName>Bartók István</persName> által átdolgozott verziót
+                    tartalmazzák. Az a körülmény, hogy <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> másolata tartalmazza
+                    <persName>Nyéki Vörös<idno corresp="Nyéki Vörös Mátyás" type="ITIdata">Q159146</idno></persName> nyolc,
+                    valamint <persName>Rimay<idno corresp="Rimay János"/><idno type="ITIdata">Q155364</idno></persName> egy énekét is,
+                    ellene mond annak az irodalomtörténeti közfelfogásnak, hogy kettőjük énekeit
+                        <persName>Bartók István</persName> sorolta volna be <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> énekei közé, „mivel kevésnek
+                    találhatta a vallásos verseket”. – <bibl><hi rend="smallcaps">Bán Imre</hi> írja ezt <title>A magyar
+                            irodalom története 1600-tól 1772-ig</title> (Bp. 1964) 197.</bibl>
+                    lapján. Vö. még <bibl><hi rend="smallcaps">Jenei Ferenc</hi>: i. m. 187.</bibl> lapjával! Az énekeket már
+                            <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> beemelte
+                    saját versei közé.</p>
+<p xml:id="p.48">A kézirat segítségével megállapítható a nyomtatott szövegek egymáshoz való viszonya. Ez az összefüggés az alábbi
+                stemmával ábrázolható:</p>
+<!--Ábra: 743. o.-->
+<p xml:id="p.49"> A kézirat 22 helyen egyezik az I-gyel jelölt kiadáscsoporttal; ezek a helyek a
+                    másik két csoportban eltérnek. Az eltérések egyezők, tehát β-ban keletkeztek, s
+                    nemcsak mechanikus szövegromlások, hanem szándékos átdolgozások is találhatók
+                    közöttük. (65, 14; 67, 71 stb.) Az I-gyel jelzett csoportba tartozik az <date when="1682">1682-i</date> és <date when="1700">1700-i</date> kolozsvári,
+                   valamint az <date when="1684">1684-i</date> <placeName>debreceni<idno type="ITIdata">Q2117</idno></placeName>
+                    kiadás is. Ez utóbbi közvetlenül az <date when="1682">1682-i</date> kiadáson
+                    alapul, az <date when="1670">1670-i</date> és <date when="1682">1682-i</date>
+                    kiadás között talán közvetítő (azóta elveszett) kiadások is voltak. Érdekes,
+                    hogy e kiadáscsoport hibáinak egy részét a <placeName>debreceni<idno type="ITIdata">Q2117</idno></placeName>
+                    kiadásban kijavították, mégpedig olykor egy másik kiadás alapján. A 92. darabnak
+                    már α-ban hiányzó 11. sorát pl. a lőcsei kiadások egyikéből pótolták. (A
+                   <placeName>lőcsei<idno type="ITIdata">Q8066</idno></placeName> kiadásba a hiányzó sort a nyomdász a saját
+                   feje után írta be.) A <placeName>lőcsei<idno type="ITIdata">Q8066</idno></placeName> <date when="1685">1685-i</date> kiadás pontosan követi az <date when="1675">1675</date>-öst,
+                    még értelmetlenségeiben is: 71, 44-ben <hi rend="italic">Báttya</hi> helyett
+                    mindkét kiadás a <hi rend="italic">Láttya</hi> szót, 72, 35-ben <hi rend="italic">békó</hi> helyett a <hi rend="italic">cékó</hi> szót
+                    tartalmazza. Felületes vizsgálat alapján úgy látszik, hogy az <date when="1696">1696-i</date> lőcsei kiadás az I. csoportba tartozik, az <bibl><abbr>RMK
+                            I</abbr>, 1588/a</bibl> jelzetű, címlap nélküli kiadás pedig a lőcsei
+                    kiadásokhoz áll közel.</p>
+<p xml:id="p.50">A változatok hét helyen mondanak ellent a stemmának: 63, 1-ben, 81, 62-ben, 83, 459-ben és 83, 1066-ban a kézirat a
+                lőcsei kiadással egyezik; 72, 71-ben β szövege jobbnak látszik I–II-nél; 78, 38-ban és 83, 1053-ban pedig a kolozsvári stb. kiadás
+                a kézirattal és valamennyi többi kiadással szemben a helyes alakot tartalmazza. Mindegyik esetben könnyen feltételezhető, hogy
+                két szövegforrás egymástól függetlenül ugyanúgy rontotta el a szöveget.</p>
+<p xml:id="p.51">Az elmondottak alapján a kézirat szövegét kellene alapszövegül választani. Ez
+                    azonban két okból nem lenne célszerű. Az egyik ok az, hogy
+                            <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> igen
+                    hanyag másoló volt, nagy számban követett el értelmetlen másolási hibákat. A
+                    másik ok <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName>
+                    helyesírásának következetlensége. Elég általános pl. kéziratában mind az <hi rend="italic">i</hi>-zés, mind az <hi rend="italic">ő</hi>-zés. Az <hi rend="italic">ö</hi> állhat <hi rend="italic">ü</hi> helyett: sz<hi rend="italic">ö</hi>ntelen, t<hi rend="italic">ö</hi>zre, <hi rend="italic">ö</hi>tést, f<hi rend="italic">ö</hi>sd (= füst), eröll ( = örülj); <hi rend="italic">e</hi> helyett: r<hi rend="italic">ö</hi>it<hi rend="italic">ö</hi>zel, k<hi rend="italic">ö</hi>dve, k<hi rend="italic">eo</hi>rtembe,
+                        sz<hi rend="italic">ö</hi>rényen (= serényen). Ennek ellenére azonban
+                    találunk a <hi rend="italic">tigedet</hi> mellett <hi rend="italic">tegedet</hi>, az <hi rend="italic">insig</hi> mellett <hi rend="italic">inség</hi>et, az <hi rend="italic">itiletre</hi> mellett <hi rend="italic">étilet</hi> változatot, és ilyen ellentmondó írásalakokat: k<hi rend="italic">ö</hi>dve – k<hi rend="italic">e</hi>dvére, b<hi rend="italic">eö</hi>ntt – b<hi rend="italic">ü</hi>nömet, <hi rend="italic">e</hi>d<hi rend="italic">eö</hi>ben – <hi rend="italic">é</hi>d<hi rend="italic">ö</hi>
+                    – <hi rend="italic">ö</hi>d<hi rend="italic">ö</hi> – <hi rend="italic">ü</hi>d<hi rend="italic">ö</hi>t – <hi rend="italic">i</hi>d<hi rend="italic">ö</hi>kben.</p>
+<p xml:id="p.52">Ezek a következetlenségek a szavak értelmezését gyakran nehézzé teszik, továbbá
+                    olyan látszat keletkezhetik, hogy a kézirat variánsszöveget tartalmaz, pedig
+                    csak helyesírási, illetőleg ejtési sajátsággal van dolgunk. A 70. sz. vers 1.
+                    sorában pl. az <hi rend="italic">Öreöl s végad</hi> szavak nem kijelentő módot
+                    jelölnek, mert <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName>
+                    gyakran elhagyja a felszólító mód jelét. (Pl. 70, 64 eöröl = örülj; 74, 67
+                    Elesétcz = Élesítsd.) – A zöngés és zöngétlen mássalhangzót jelölő betűk
+                    felcserélése miatt arra gondolhatnánk, hogy a <ref target="rmkt-17-12.tei.bp-75">75. sz.</ref> vers 38. sora is
+                    ellentmond a stemmának: a kéziratban és az <bibl><abbr>RMK I</abbr>,
+                        1611/b</bibl> jelzetű nyomtatványban <hi rend="italic">Terited</hi>, a
+                    többi forrásban <hi rend="italic">Teritett</hi> áll. Valószínű azonban, hogy a
+                    kézirat <hi rend="italic">d</hi> betűje, mint gyakran másutt is, <hi rend="italic">t</hi> vagy <hi rend="italic">tt</hi> helyett áll. (63, 44
+                    czabitod = csábított; vagy fordítva: 83, 2154 tagadgyak = dagadgyak.) Sok
+                    félreértésre ad az is lehetőséget, hogy az <hi rend="italic">i</hi> helyett
+                    gyakran áll <hi rend="italic">e</hi> és <hi rend="italic">é</hi>, vagy fordítva:
+                    66, 58 lépisémet = lépésimet; 67, 71 téztecz = tisztíts; 68, 38 tirétsz =
+                    téríts; 70, 31 kévankozek = kívánkozik; 70, 37 meirt hoszszabodek = miért
+                    hosszabbodik; 73, 85 éri = ére; 73, 86 teri = tére; 81, 50 gyermekit =
+                    gyermekét; 83, 933 vessé = veszi; stb. stb.</p>
+<p xml:id="p.53">E nehézségek miatt célszerűnek látszott egy következetesebb és érthetőbb
+                    helyesírású nyomtatványt választani alapszövegül. A
+                        <placeName>Kolozsvárott<idno type="ITIdata">Q258</idno></placeName> <date when="1670">1670-ben</date>
+                    megjelent kiadást választottuk, minthogy ez áll a stemmában a legközelebb a
+                    szerzői szöveghez. A kiadás hátránya, hogy a többinél következetlenebbül jelöli
+                    a hangállapotot. A hangállapotot nem egységesítettük (rímhelyzetben sem),
+                    minthogy Beniczky szövegének eredeti hangállapota úgysem rekonstruálható.
+                    Javítottuk viszont az alapszöveget a következő esetekben:</p>
+<p xml:id="p.54">1. Minden külön jelölés nélkül pótoltuk a sorok végéről hiányzó vesszőket, illetőleg a gyakran értelmetlen pontot
+                vesszőre változtattuk.</p>
+<p xml:id="p.55">2. A nyilvánvaló sajtóhibákat jelölés és megjegyzés nélkül javítottuk. (Vö.
+                            <bibl><abbr>RMKT XVII/6</abbr>, 411.</bibl>) Ezek a következők: 62, 77
+                    jagatásán; 63, 12 Mett; 63, 98 szizel; 64, 68 vögsö; 65, 55 Chróré; 65, 58
+                    szüksék; 66, 49 ellesthersz; 66, 51 verhetz (= vethetz); 66, 57 Ninden; 67, 36
+                    Regtegted; 68, 81 bünümön; 69, 50 Szessed; 70, 28 Nyely; 71, 62 bünyös; 71, 76
+                    menese; 72, 14 fergetek; 72, 40 köpen; 72, 55 füld; 72, 76 hava; 73, 1 Valohol;
+                    74,1 hadnadgya; 74,20 sdgedelmét; 74, 40 sörü; 74, 42 elmédbén; 75, 27 Akár (=
+                    Akar); 75,31 Bárfüstös; 75, 72 szaladgon; 76, 7 mágan; 76, 9 váttatva (=
+                    vártatva); 77, 13 omnét; 77, 19 tatsolyodon; 78, 18 éltetü; 78, 58 keményen (=
+                    kéményen); 78, 60 kotyok; 79, 13 járasi; 79, 29 külümb; 79,53 tündüklö; 81,23
+                    nyakat; 82, 61 nyelvet; 83,24 estvéjig; 83, 140 kolond; 83, 282 tarrani; 83, 318
+                    mingyát; 83, 377 madaratt; 83, 400 vélék; 83, 402 kérülni; 83, 404 fegvertöl-is;
+                    83, 436 porbát; 83, 459 ohajva; 83, 471 Szábni; 83, 522 triumphálhát; 83, 557
+                    unszonlsz; 83, 684 Dicsirjéll; 83, 728 vermét (= vermet); 83, 753 viseltetnék (=
+                    viseltetnek); 83, 754 igazgatásá; 83, 771 vágy; 83, 774 dicsirtessel; 83, 804
+                    tánulni; 83, 873 terithed; 83, 877 buszszúval; 83,1062 sóglyát; 83,1075 gyérmek;
+                    83,1172 szebes; 83, 1215 nyerességget; 83,1240 farkást; 83, 1249 maganak; 83,
+                    1264 élétnek; 83, 1305 másnal; 83,1460 szemermes; 83, 1505 serkeztet; 83, 1593
+                    csuhájának; 83, 1618 báratság; 83, 1629 fárkastúl; 83,1683 Olnal; 83, 1695
+                    bellöle; 83, 1709 él (= el); 83, 1730 nevél; 83, 1973 szárád; 83, 1941
+                    sollyossabb; 83,1976 lepét (= lépet); 83, 1977 Ellészthesse; 83, 2012 kárós; 83,
+                    2090 szapullássul; 83, 2118 megfohatod; 83, 2147 meg-kötest; 83, 2163 úszhát;
+                    83, 2175 vólr; 83, 2222 Holnopra bucsuszzál; 84, 27 asztágit; 85, 10 Galám.</p>
+<p xml:id="p.56"> 3. Javítottuk a kolozsvári kiadás szövegét ott is, ahol valamennyi többi forrás egységesen eltér tőle. Mindössze két
+                esetben (78, 38 és 83, 1053) tételezhető fel, hogy a szerzői szöveget a többivel szemben a kolozsvári kiadás tartalmazza.</p>
+<p xml:id="p.57">4. Javítottuk az alapszöveget azokban az esetekben is, amelyekben a kézirat az
+                    összes nyomtatványtól eltér, s a kézirat <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> eredeti
+                    szövegét, a nyomtatványok pedig <persName>Bartók István</persName> módosított
+                    szövegét tartalmazzák. (Fentebb utaltunk már rá, hogy ezt nem mindig lehet
+                    egyértelműen eldönteni.) A kézirat szövegét mai helyesírással és köznyelvi
+                    alakban adjuk. <persName>Pongrácz<idno corresp="Pongrácz Ferenc"/></persName> sajátos helyesírása miatt ugyanis
+                    sokszor nem dönthető el, hogy milyen volt az ejtett alak. A kézirat betűhív
+                    szövegét ily esetekben amúgy is közöljük a lap alján.</p>
+<p xml:id="p.58">A lapalji apparátusban a kézirat valamennyi szövegváltozatát közöljük, minthogy
+                    nem mindig dönthető el teljes biztonsággal, hogy e változatok
+                            <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> szerzői
+                    szövegei vagy <persName>Pongrácz Ferenc</persName> másolási hibái. A
+                    nyomtatványok igen nagyszámú egyedi eltérését (néhány kivételtől eltekintve) nem
+                    közöljük, hanem csak α, illetőleg β rekonstruált szövegének variánsait. (Vö.
+                            <bibl><abbr>RMKT XVII/8</abbr>, 553.</bibl>)</p>
+<p xml:id="p.59">*</p>
+<p xml:id="p.60"><persName>Beniczky<idno corresp="Beniczky Péter"/></persName> Példabeszédei nagy népszerűségnek örvendtek.
+                    Lentebb szólunk majd a kéziratos gyűjteményekbe való bekerülésükről. Itt latin
+                    fordításáról és szlovák nyelvű változatáról emlékezünk meg. <date when="1725">1725-ben</date> <persName>Pottornyai Simon<idno type="ITIdata">Q470949</idno></persName> latin nyelvre ültette
+                    át őket. (<bibl>MTAK mikrofilmjének száma 311/II.</bibl>) A 250 példabeszédet
+                    <persName>Balassi<idno type="ITIdata">Q2101</idno></persName>-versszakban fordította le. (Az 1–69. strófa hiányzik a mikrofilmről.)
+                    Néha egészen ragaszkodva a magyar szöveghez, máskor attól egy kissé
+                    elrugaszkodva. Az elsőre példaként a 71. versszakot idézzük:</p>
+<l xml:id="l.5">Saepe in casula</l>
+<l xml:id="l.6">Arundine tecta</l>
+<l xml:id="l.7">Reperitur requies;</l>
+<l xml:id="l.8">Ast in palatiis,</l>
+<l xml:id="l.9">Aedibus superbis</l>
+<l xml:id="l.10">Magna est litis seges;</l>
+<l xml:id="l.11">Non enim paupertas,</l>
+<l xml:id="l.12">Sed ampla facultas</l>
+<l xml:id="l.13">Parit altercationes.</l>
+<p xml:id="p.61">A másodikra pedig a 75. strófát:</p>
+<l xml:id="l.14">Atrox invidia</l>
+<l xml:id="l.15">Torquet precordia,</l>
+<l xml:id="l.16">Ipsa qvae sibi nocet;</l>
+<l xml:id="l.17">Qvippe qvem hodie</l>
+<l xml:id="l.18">Insectantur dive,</l>
+<l xml:id="l.19">Cras illi genu ponet;</l>
+<l xml:id="l.20">Casus alterius,</l>
+<l xml:id="l.21">Si ei est carus,</l>
+<l xml:id="l.22">Ipse in eum ruet.</l>
+<p xml:id="p.62">Sokáig vitatkoztak arról, hogy vajon az a 220 szlovák nyelvű példabeszéd,
+                    melyeket <hi rend="smallcaps">V. František Sasinek</hi> <date when="1873">1873-ban</date> közölt
+                            (<bibl><title>Archív starých česko-slovenských listín písemností a
+                            dejepisných pôvodín</title>. Turč. Sv. Martin. Diel II. Sväzok I,
+                        1–50</bibl>) fordítás-e vagy Beniczkynek eredetileg is már szlovák nyelven
+                    versbe szedett műve. (Vö. <bibl><hi rend="smallcaps">Gáspár Imre</hi>: <title>Beniczky Péter XVII-dik
+                            századi magyar költő tót versei</title>. Vasárnapi Újság 1873. 45. sz.
+                        538–39</bibl>; <bibl><hi rend="smallcaps">Komáromy András</hi>: <title>Thurzó Mária végrendelete és
+                            Beniczky Péter a költő</title>. <abbr>TT</abbr> 1888, 336.</bibl>)</p>
+<p xml:id="p.63">A kézirat, melyből a verseket közzétették, <date when="1652">1652</date>-ből származnék. Bár útját a publikáció időpontjáig nyomon követhetjük,
+                azóta elveszett.</p>
+<p xml:id="p.64">A szlovák nyelvű példabeszédek témaköre, eszmei felfogása, stílusa, versformája ugyanaz, mint a magyar nyelvűeké. A
+                szlovákban azonban csak a versek egyharmada felel meg szó szerint a magyar példabeszédeknek, de még ezekben is csak
+                bizonyos verssorokról állapítható meg egyezés. A többi szlovák vers tematikájában más, mint a magyar. A szlovák példabeszédek
+                is Balassi-sorokban íródtak. A magyarban azonban három, a szlovákban viszont négy sor képez egy versszakot. Míg a magyar
+                sorok 6a6a7b / 6c6c7b / 6d6d7b strófaszerkezetet alkotnak, a szlovákban ez így fest: 6a6a7b / 6c6c7b / 6d6d7e / 6f6f7e.</p>
+<p xml:id="p.65">A formai és a tartalmi egybevetésekből többen, így <hi rend="smallcaps">Ján Mišianik</hi> is, azt a
+                    következtetést vonták le, hogy a szlovák versek esetében fordításról vagy
+                    átköltésről nem lehet szó. Két önálló szerkesztéssel állunk szemben, melyet egy
+                    szerző párhuzamosan írt. <persName>Beniczky Péter<idno corresp="Beniczky Péter"/></persName> kétnyelvű költő
+                    volt. (In <bibl><title>Dejiny staršej slovenskej literatúry</title>. Bratislava 1958.
+                        177.</bibl> Vö. <bibl><hi rend="smallcaps">Kovács</hi>: i. m. 20–21</bibl>; <bibl><hi rend="smallcaps">Sziklay László</hi>: <title>A
+                        szlovák irodalom története</title>. Bp. 1962. 94–96.</bibl>)</p>
+<p xml:id="p.66">A Példabeszédek kedveltségét mutatja, hogy mikor <date when="1713">1713-ban</date> a tanulóifjúság számára <persName>Kisviczay Péter<idno type="ITIdata">Q248806</idno></persName>
+                    kiadta a latin-magyar nyelvű <title><hi rend="italic">Selectiora
+                        Adagiá</hi></title>-ját, közmondásgyűjteményében minduntalan idézi őket.
+                    Amikor a <title><hi rend="italic">Külömb-külömbféle Autoroknak Görög és Deák
+                            Nyelvből most ujjra Magyar Nyelvre fordittatott Meséik</hi></title>
+<date when="1776">1776-ban</date> napvilágot látnak
+                        <placeName>Kolozsvárott<idno type="ITIdata">Q258</idno></placeName>, a fordító, ahol csak teheti, a
+                    tanulságot <persName>Beniczky<idno corresp="Beniczky Péter"/></persName>
+                    példabeszédeivel toldja meg.</p>
+<p xml:id="p.67">Kéziratos gyűjteményeinkbe is belekerültek a Példabeszédek. A <hi rend="italic">Tsorik András-ék.</hi> (<date from="1750" to="1751">1750–51</date>)
+                    huszonnégyet jegyzett fel belőlük ezzel a címmel: „A Benyitzkiböl válogatott és
+                    szedegetet édes Rythmusu Magyar Versek Melly Az Ifjúságnak dolgai közben elme
+                    élesítésért irattatott.” A <hi rend="italic">Nátly Ferenc-ék.</hi> (<date from="1795" to="1796">1795–96</date>) összeírója is leírt gyűjteményébe négy
+                    példabeszédet.</p>
+<p xml:id="p.68">A <hi rend="italic">Magyar Rhitmusok</hi> első részének énekeiből is több
+                    megtalálható a XVIII. században másolt énekeskönyvekben. A <hi rend="italic">Szikszai-ék.</hi> (<date from="1750" to="1752">1750–52</date>), a <hi rend="italic">Brassai-k.</hi> (XVIII. század első fele), a <hi rend="italic">Nátly-ék.</hi> egy-egy, az <hi rend="italic">Aranka György gyűjteménye</hi>
+                        (<date from="1782" to="1790">1782–90</date>) öt, az Egyetemi Könyvtár egyik
+                    kolligátuma (<hi rend="italic">Vegyes</hi> – G. 156. jelzettel a XVIII. század
+                    második feléből) két énekét tartalmazza; a XVIII. század végéről és a XIX.
+                    század elejéről származó <hi rend="italic">Thaly-kolligátum</hi> I. 46ab
+                    levelére egy, az <date when="1801">1801-ben</date> keletkezett <hi rend="italic">Resetka János-ék.</hi>-be szintén egy énekét jegyezték fel.</p>
+<p xml:id="p.69"><persName>Beniczky<idno corresp="Beniczky Péter"/></persName> költészetének népszerűségét mutatja, hogy
+                    <persName>Apáti M. Miklós<idno corresp="Apáti Madár Miklós" type="ITIdata">Q140232</idno></persName> (<date from="1662" to="1724">1662–1724</date>), az ismert nevű cartesianuscoccejanus gondolkodó,
+                    prédikátor, mikor <date when="1688">1688-ban</date>
+<placeName>Amsterdamban<idno type="ITIdata">Q18486</idno></placeName> kiadta a racionális gondolatokban gazdag
+                            <title><hi rend="italic">Vita triumphans</hi></title> c. munkáját
+                            (<bibl><abbr>RMK III</abbr>, 3491</bibl>), többször utalt Beniczkyre, és
+                    több verséből hosszabb részeket fordított latinra, az eredetihez hű
+                    versformában, epikus tizenkettesekben. (Vö. <bibl><hi rend="smallcaps">Turóczi-Trostler József</hi>:
+                            <title>Beniczky Péter latin fordításban</title>. <abbr>ItK</abbr> 1936,
+                        443–46.</bibl>)</p>
+<p xml:id="p.70">*</p>
+<p xml:id="p.71">Beniczky Péter <date when="1619">1619-ben</date> két rövid magyar nyelvű verset (versrészletet?) jegyzett be apjának görög-latin szótárába.
+                Ezeket az ő szerzeményének tartják, s minthogy máshonnét ez ideig nem kerültek elő, Beniczky-versekként közöljük. Ezek
+                maradtak ránk csupán Beniczky eredeti írásában. Ezért paleográfiai hűséggel adjuk ki.</p>
+<p xml:id="p.72"><persName>Beniczky<idno corresp="Beniczky Péter"/></persName> verseinek keletkezési idejét tekintve ezek az ő
+                    legrégibb írásai. A többi keletkezési idejéről nem rendelkezünk adatokkal. A
+                    „Hogy az Isten egyedül maga veri az hadakat és nem emberi erő által” című
+                    énekéről (<ref target="rmkt-17-12.tei.bp-74">74. sz.</ref>) gondolhatjuk, hogy <date when="1663">1663</date> táján
+                    szerezte, mivel benne a hazánk rablására készülő pogány elleni fegyverfogásra
+                    biztatja a magyarokat. „Régi vitézeknek / Scythiai vérnek” írta katonaénekét,
+                    hogy társul sietnének a hadakozó Márshoz. Marsnak <persName>Zrínyi
+                        Miklóst<idno type="ITIdata">Q247373</idno></persName> hívták. Az utalás vonatkozhatik őrá, és ez meghatározná a
+                    keletkezés időpontját. Próbálkoztak más verseinek időhöz és helyhez kötésével
+                    is. (<bibl><hi rend="smallcaps">Kovács</hi>: i. m. 32–33.</bibl>) Kétségtelen, hogy több énekét
+                    <placeName>Lócon<idno corresp="Felsőlóc">Q472038</idno></placeName> szerezte. Erről vallanak a záróstrófák.
+                    Időmegjelölést azonban nem tartalmaznak. A belőlük kikövetkeztethető életadatok
+                    kevés támpontot nyújtanak a versek keletkezési idejének megállapításához. Ezért
+                        <persName>Beniczky<idno corresp="Beniczky Péter"/></persName> verseit az első kettő kivételével nem
+                    keletkezésük kronológiai rendjében adjuk közzé, hanem abban a sorrendben,
+                    ahogyan a nyomtatványok és az <date when="1668">1668</date>-as kéziratos másolat
+                    tartalmazza (elhagyva, természetesen a <persName>Nyéki Vörös<idno corresp="Nyéki Vörös Mátyás" type="ITIdata">Q159146</idno></persName>- és
+                    <persName>Rimay<idno corresp="Rimay János" type="ITIdata">Q155364</idno></persName>-énekeket).</p>
+</div>
+</body>
+</text>
+</TEI>

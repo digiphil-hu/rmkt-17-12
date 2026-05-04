@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">96.</title>
+<title key="body" n="96" type="main">BE JARO VERS</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-96</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel</bibl>. Kiad. <bibl><hi rend="smallcaps">Toldy Ferenc</hi>: <title>Magyar költői
+                                régiségek</title>. Pest és Bécs, 1828. 29.</bibl> – <bibl><abbr><hi rend="smallcaps">Dézsi</hi>, BBMM II</abbr>, 397</bibl> – A
+                        szöveg után: „Finis”. A lap alján az őrszó: <hi rend="italic">Bimbojaban</hi>
+<persName>Balassa</persName> egy elveszett versének kezdőszava lehet.</p>
+<p xml:id="crit.1.p.3">A másolatokban, kiadásokban megelőzi az előző szám alatt közölt verset. Az
+                        eredeti kéziratban azonban külön versként másolták. Mind a kettőnek a végén
+                        a „Finis” záradék áll; a „Be jaro vers” az „Átok” után következik. Logikus
+                        feltevés lenne, hogy az átkozódó verset vezette be. Mivel azonban a <hi rend="italic">Bimbojaban</hi> kezdetű utána következő szerzeményt nem
+                        ismerjük, arra is gondolhatunk, annak volt a bevezető verse.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 96.</fw>
+<head type="title">BE JARO VERS</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Etczer nem njughatuán,</l>
+<l rend="level_2" xml:id="l.2">Almot sem kaphatván,</l>
+<l rend="level_4" xml:id="l.3">Ezt egj ejel szérzettem.</l>
+<l xml:id="l.4">Némelljek járását,</l>
+<l rend="level_3" xml:id="l.5">Es rágalmazásat</l>
+<l rend="level_5" xml:id="l.6">Ellenem hogj értettem,</l>
+<l rend="level_2" xml:id="l.7">Hogj vétnék szüntelen</l>
+<l rend="level_3" xml:id="l.8">Hiu barátom ellen,</l>
+<l rend="level_5" xml:id="l.9">Azt legh inkább érzettem.<note type="critic" xml:id="note.1">7–9 A sorok az előző verssel
+                            kapcsolatban említett paszkvillusra írt feleletre emlékezetnek.
+                            Feltehető, hogy most azért vét a feleletet megíró barátja ellen, hogy ő
+                            is válaszol ugyanarra a paszkvillusra. (Vö. <bibl><hi rend="smallcaps">Varga Imre</hi>: <title>Egy
+                                    Balassa Bálint védelmére írt paszkvillus</title>.
+                                    <abbr>ItK</abbr> 1986. 1. sz.</bibl>)</note></l>
+<l rend="level_2" xml:id="l.10">Jele vers fejekben,</l>
+<l rend="level_3" xml:id="l.11">Mjvel hogj ezekben</l>
+<l rend="level_5" xml:id="l.12">Egy jámbort sem sertettem.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

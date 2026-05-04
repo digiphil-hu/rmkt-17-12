@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="5" type="main">LISTIUS LÁSZLÓ</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ll-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">LISTIUS LÁSZLÓ</head>
+<head type="subtitle">ÉLETE</head>
+<p xml:id="p.1"><persName>Listius László<idno type="ITIdata">Q244148</idno></persName> azok közé a magyar költők közé tartozik,
+                    akivel irodalomtörténetírásunk munkásai régóta foglalkoztak. A múlt század
+                    közepe táján többet tudtak róla, mint pl. <persName>Balassi
+                        Bálintról<idno type="ITIdata">Q2101</idno></persName>. Néhány évtizednek kellett mégis eltelnie, hogy a
+                    személyével kapcsolatban napfényre került adatokból kiszűrjék a rávonatkozókat,
+                    és összeálljon életútja. Ezt a munkát elsősorban <persName>Komáromy
+                        András</persName> végezte el a múlt század utolsó évtizedeiben.</p>
+<p xml:id="p.2">Ő számolta fel a származásáról vallott téves nézeteket, melyeknek
+                    <persName><hi rend="smallcaps">Kemény József</hi></persName> volt első megfogalmazója (<bibl><title>A Nagyköpcsényi
+                    Listi család eredete, növekedése és hanyatlása</title>. <abbr>ÚMMúz</abbr> 1854, I, 489–511</bibl>),
+                    <persName><hi rend="smallcaps">Toldy Ferenc</hi><idno type="ITIdata">Q151328</idno></persName> pedig az elterjesztője (Irodalmi
+                    kézikönyvének különböző kiadásaiban és <bibl><title>Magyar költők élete. I.</title> Pest 1870.
+                    107–109</bibl>). Bebizonyította, hogy összetévesztették <persName>Listius
+                        Lászlót</persName>, a költőt az ennek anyjától adoptált <persName>Lászlóffi
+                            Györggyel<idno corresp="Lászlóffi (Listius) György"/></persName>. (<bibl><hi rend="smallcaps">Komáromy András</hi>: Vélemények Listi László
+                    származásáról. Listi László élete. Bp. 1887. Függelék. 55–62</bibl> és <bibl><title>Listi László
+                    munkái</title>. Bp. 1891. Függelék. 94–104.</bibl>) Ő mutatott rá, hogy nincs igaza
+                    <persName><hi rend="smallcaps">Csergheö Gézá</hi>nak<idno corresp="Csergheö Géza"/></persName>, aki szerint két Listius élt a XVII.
+                    században. (<bibl><title>Listhy László a költő s a gyilkos két külön személy.</title> Száz 1889,
+                        148–50.</bibl> – <bibl><hi rend="smallcaps">Komáromy András</hi>: <title>Költő-e vagy gonosztevő?</title> <abbr>Száz</abbr> 1889, 240–46</bibl> és <bibl><title>Listi
+                    László munkái</title>. Bp. 1891. Függelék. 104–12.</bibl>)</p>
+<p xml:id="p.3"><persName><hi rend="smallcaps">Komáromy András</hi></persName> több évtizedes kutatásai derítették a
+                    legtöbb fényt <persName>Listius<idno corresp="Listius László"/></persName> életére. (<bibl><title>Köpcsényi gróf Listi
+                    László</title>. Száz 1886, 32–53, 122–40.</bibl> – <bibl><title>Listi László élete. Irodalom-történeti
+                    tanulmány</title>. Bp. 1887.</bibl> – <bibl><title>Listi László és Wesselényi Ferenc nádor</title>. ItK
+                    1895,195–203.</bibl> – <bibl><title>Adatok Listi László életéhez</title>. <abbr>ItK</abbr> 1897, 335–45, 451–70.</bibl> – <bibl><title>Listi
+                    László munkái. Életrajzzal</title> bev. Bp. 1891. Olcsó Könyvtár.</bibl>)</p>
+<p xml:id="p.4">Az adatfeltáró munkából részt vállalt <persName><hi rend="smallcaps">Illéssy János</hi></persName> is.
+                    (<bibl><title>Gróf Listi László életéhez</title>. <abbr>ItK</abbr> 1894, 447–52.</bibl> – <bibl><title>Két oklevél Listiről</title>. <abbr>ItK</abbr> 1905,
+                    372–75.</bibl>)</p>
+<p xml:id="p.5"> A „színlelés költőjének” (<bibl><hi rend="smallcaps">Kováts Antal</hi>: <title>Listius László gróf a színlelés költője</title>. A nagykanizsai főgimn. értesítője.
+                    1910/11. Klny.</bibl> is), „a magyar irodalomtörténet legnagyobb gonosztevőjé”-nek (<bibl><hi rend="smallcaps">Reményi István</hi>, Literatura 1928, 325–27</bibl>), „a
+                    magyar Villon”-nak (<bibl><hi rend="smallcaps">Kunszery Gyula</hi>, Élet és Irodalom 1963, 52. sz.</bibl>), „a kalandorköltőnek” (<bibl><hi rend="smallcaps">Radnóti Miklós</hi>: <title>Egy
+                kalandorköltő a XVII. században. Tanulmányok, cikkek</title>. Bp. 1956. 232–41</bibl>) írói tevékenysége szinte független életétől. Költészete
+                semmit sem tükröz vissza rendkívül furcsa életéből, gonosztetteiből. Költői működésének egyetlen gyűjteményét 25 éves korában
+                nyomtatta ki. Semmit sem tudunk róla, hogy a költészettel ezt követőleg, tehát <date when="1653">1653</date> után is foglalkozott volna.</p>
+<p xml:id="p.6">Mivel költészete és élete között nincs összefüggés, életének ismertetésében nem térünk ki mindazokra a részletekre,
+                melyeket a kutatás eddig napfényre hozott. Nem látszott szükségesnek, hogy gyilkosságai, hamisításai, gyújtogatásai, az
+                alkímiával és pénzhamisítással való foglalkozásai, perei vagy szodomitasága ügyében széles körű levéltári kutatásokat
+                folytassunk. Az eddigiek eredményeit foglaljuk össze, illetőleg egészítjük ki néhány eddig ismeretlen adattal, hivatkozással.</p>
+<p xml:id="p.7"><persName>Listius László</persName> (ebben az alakban szerepel neve nemcsak
+                    könyvének ajánló levele végén, hanem ránkmaradt írásaiban, a különböző hatóságok
+                    és kortársak irataiban, leveleiben) születési idejét nem ismerjük dátumszerű
+                    pontossággal. A leleszi konvent egyik <date when="1631-08-15">1631. augusztus 15-i</date> keletű írása „puerum
+                    Ladislaum trium annorum integrorum vel circiter” nyilatkozatot tartalmaz
+                    születési idejét illetőleg (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, ItK 1897, 338</bibl>). Ebből következtetve
+                    <date when="1628">1628-ban</date> látta meg a napvilágot. Erdélyben született, de nem tudjuk közelebbről,
+                    hogy hol.</p>
+<p xml:id="p.8">Apja <persName>Listius Ferenc</persName> volt. <persName>Bethlen Gábor<idno type="ITIdata">Q41495</idno></persName>
+                    bizalmi embere, szamosújvári kapitány, aki <date when="1625">1625</date>-ből való két levelében így írta
+                    alá nevét: „Franz Listius Freyherr Fürst. Durchl. in Siebenbürgen, General
+                    Artilerie-Meister.” (<bibl>Kiad. <hi rend="smallcaps">Szabó Gyula</hi>, <abbr>TT</abbr> 1888, 641–43.</bibl>) A családi
+                    hagyományoknak megfelelően külföldi egyetemeken (Padova, Siena, Strassburg)
+                    tanult. Ő is tanúbizonyságát adta a Listiusokban meglévő irodalmi törekvéseknek.
+                    Qvaestionum, Praecipve Politicarum, Ex Agricola C. Cornelij collectarum címmel
+                    vizsgadolgozatot nyomtatott ki Strassburgban. (<bibl><abbr>RMK III</abbr>, 1178.</bibl>) <persName>Bethlen
+                        Gábor<idno type="ITIdata">Q41495</idno></persName> diplomáciai feladatokat is bízott rá, a
+                    <persName>Brandenburgi Katalinnal<idno type="ITIdata">Q60100</idno></persName> való házasságot előkészítők
+                    között is találkozunk vele. (Vö. <bibl><hi rend="smallcaps">Szabó Gyula</hi>: <title>Bethlen Gábor házassága
+                    Brandenburgi Katalinnal</title>. <abbr>TT</abbr> 1888, 440 skk.</bibl> – <bibl><title>Kemény János önéletírása és
+                        válogatott levelei</title>. Kiad. <hi rend="smallcaps">V. Windisch Éva</hi>. Bp. 1959. 157.</bibl>) Anyja az Erdély egyik
+                    neves családjából származott <persName>Gyulaffi Zsuzsanna</persName> volt. Előbb
+                        <persName>Wesselényi Pál</persName> felesége. <persName>Kemény
+                            János<idno type="ITIdata">Q153612</idno></persName> szavai szerint a fejedelem „szerezte neki”. Mikor
+                        <persName>Listius Ferenc</persName> <date when="1630">1630-ban</date> meghalt, az anya fiát kiküldte
+                    Magyarországba, ahol nagybátyja, <persName>Listius János</persName> volt a
+                    gondviselője. Egy <date when="1630-11-12">1630. november 12-i</date> keletű írás említi ilyenként: „az kis
+                    úrnak, Listius Lászlónak potentiariussa- és gondviselőjeként”. (Kiad. <bibl><hi rend="smallcaps">Komáromy</hi>,
+                    <abbr>ItK</abbr> 1897, 338.</bibl>)</p>
+<p xml:id="p.9">Gyermekkoráról, iskoláztatásáról nem rendelkezünk adatokkal. Amit erről itt-ott elszórva mondottak, téves, „s részint
+                Lászlóffy, helyesebben Listius Györgyre vonatkozik, akit sokáig egy személynek tartottak a költővel”. (Vö. <bibl>uo. 336.</bibl>) Csak
+                feltételezés, hogy apja és ősei példáját követve ő is járt külföldi egyetemeken.</p>
+<p xml:id="p.10">A Moson megyei <placeName>Köpcsény<idno type="ITIdata">Q19412</idno></placeName> volt a család fészke. Ezt még dédapja, a <placeName>győri<idno type="ITIdata">Q128</idno></placeName> püspök és
+                    kancellár szerezte adományul <persName>Miksa</persName> királytól <date when="1576">1576-ban</date>.
+                    <date when="1644">1644-ben</date> azonban <persName>III. Ferdinánd</persName> rendelkezése szerint minden
+                    jószágukat <persName>Lippay Gáspár</persName> kapta, mivel <persName>Listius
+                        János</persName> és <persName>László</persName>
+<persName>I. Rákóczi György<idno type="ITIdata">Q53757</idno></persName> pártjára kelt, a hűtlenség bűnébe esett
+                    (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 339</bibl>). Valószínűleg ennek is szerepe volt abban, hogy
+                    az erdélyi fejedelem egykori tanácsurának fia a királyi Magyarországon nem
+                    számított grata personának. Bár birtokait visszanyerte <persName>Listius
+                        László</persName>, sem katonai, sem közéleti pályán nem találkozunk nevével.
+                    Pedig a Listius család rokonságot tartott a leghatalmasabb és legelőkelőbb
+                    családokkal, a Thurzókkal, Draskovichokkal, Széchyekkel, <persName>Wesselényi
+                        Ferenccel<idno type="ITIdata">Q60670</idno></persName> stb. Rokonságba került a Bánffyakkal is. <date when="1645">1645-ben</date>
+                    László eljegyezte alsólindvai <persName>Bánffy Kristóf<idno type="ITIdata">Q62481</idno></persName> tárnokmester
+                    leányát, <persName>Hedviget</persName>. A következő évben – 18 éves korában –
+                    pedig feleségül vette őt, akit anyja kivett bátyja, <persName>Draskovich
+                        János<idno type="ITIdata">Q43151</idno></persName> (ekkor még csak horvát bán) gyámsága alól. (Vö. <persName>KOMÁROMY<idno corresp="Komáromy András"/></persName>
+                    IV. sz. dokumentumával; kiad. <bibl><abbr>ItK</abbr> 1897, 339–41.</bibl>)</p>
+<p xml:id="p.11">A nagykorú, nős <persName>Listius László</persName> is megszabadult nagybátyja
+                    gyámkodásától, aki Köpcsényből a Liptó megyei <placeName>Lipcsére<idno type="ITIdata">Q12147</idno></placeName> telepedett át. Az elválás
+                    nem lehetett túlságosan atyafiságos, ahogyan erre a kettőjük közti későbbi
+                    kapcsolatokból, ellenségeskedésekből visszakövetkeztethetünk.</p>
+<p xml:id="p.12"><persName>Listiust<idno corresp="Listius László"/></persName> a következő években az a terv foglalkoztatta, hogy felesége Zala megyei
+                    jószágait közelebb hozza a saját, Moson és Sopron (<placeName>Kabold<idno type="ITIdata">Q7359</idno></placeName>) megyei birtokaihoz. A
+                    Bánffy család leányága ekkor a fiscussal pereskedett. <persName>Listius<idno corresp="Listius László"/></persName> jobbnak látta
+                    eladni felesége jószágát. <date when="1647-02-06">1647. február 6-án</date> megjelent feleségével együtt a
+                    vasvári káptalan előtt, és 5000 tallérért eladta azt <persName>Draskovich
+                        János<idno type="ITIdata">Q43151</idno></persName> nádornak. Jó egy hónap múlva azonban <persName>Nádasdy
+                            Ferenccel<idno type="ITIdata">Q54595</idno></persName> kötött olyan szerződést, hogy felesége jószágait
+                    cserébe adja <persName>Nádasdy<idno corresp="Nádady Ferenc"/></persName> dörföli (Sopron m.) kastélyáért és
+                    uradalmáért. <persName>Bánffy Hedvig</persName> ugyanis olyan írást adott
+                        <persName>Nádasdynak<idno corresp="Nádasdy Ferenc"/></persName>, hogy a <persName>Draskovich
+                        Jánossal</persName> történt egyezség akarata ellenére, tudtán kívül történt
+                    („az én akaratomon és tudomásomon kívül is végzett uram ő kegyelme, az káptalan
+                    előtt is kényszerítésből köllött vallanom, nem is tudtam mit, melynek
+                    bizonyságára adva ez levelemet, nem mervén, uram ő kegyelme haragjától tartván,
+                    nilván ezent kijelenteni, ezt pedig az okra cselekszem, hogy részes ne legyek
+                    abban a penaban, melyet uram ő kegyelme palatínus urammal ő nagyságával
+                    végezett…” – kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 341</bibl>).</p>
+<p xml:id="p.13"><persName>Nádasdy<idno corresp="Nádasdy Ferenc" type="ITIdata">Q54595</idno></persName> a zálogos összeget is magához váltván, az egyezségre
+                    királyi jóváhagyást eszközölt ki, és <date when="1647-09-20">1647. szeptember 20-án</date> <persName>Sibrik
+                        Istvánnal</persName> együtt megosztozkodott <persName>Bánffy
+                            Kristóf</persName> hagyatékán.</p>
+<p xml:id="p.14">Másképpen folyt le <persName>Listius László</persName> pereskedése
+                        <persName>Sibrik Istvánnal</persName>. <persName>Sibrik<idno corresp="Sibrik István"/></persName> anyja
+                    révén Bánffy-jószágokat örökölt, s ezeket békésen bírta néhány évig. <date when="1647">1647-ben</date>
+                    azonban <persName>Listius<idno corresp="Listius László"/></persName>, feleségétől felhatalmazva, törvénybe idézte, hogy a javakat
+                    jogtalanul bitorolja; a kezében lévő oklevelek csak megőrzés céljából kerültek
+                    hozzá. Felszólította <persName>Sibrik Istvánt</persName>, adja őket vissza a
+                    szóban forgó jószágrészekkel együtt. <persName>Listius<idno corresp="Listius László"/></persName> a bíróság előtt kötelezvényt
+                    mutatott fel, melyben Sibrik keze írásával és pecsétje alatt elismeri, hogy a
+                    <persName>Bánffy Kristóf</persName> maradékait illető okleveleket csak
+                    megőrzés végett vette kézhez. <persName>Draskovich<idno corresp="Draskovich János" type="ITIdata">Q43151</idno></persName> nádor elküldte
+                    ítélőmesterét, hogy <persName>Sibrik<idno corresp="Sibrik István"/></persName> javait <persName>Bánffy
+                        Hedvig</persName> részére foglalja le. Az azonban ellenszegült, pártfogókat
+                    keresett. Ezt tette <persName>Listius<idno corresp="Listius László"/></persName> is. Emberét, <persName>Bella Ferencet</persName>
+                    Prágába küldte, hogy királyi parancsolatot eszközöljön ki. <persName>Batthyány
+                        Ádámhoz<idno type="ITIdata">Q239194</idno></persName> is folyamodott, pedig éppen őt használta fel
+                        <persName>Sibrik<idno corresp="Sibrik István"/></persName> <persName>Listius<idno corresp="Listius László"/></persName> ellen ütőkártyaként. A már addig is
+                    <persName>Batthyány<idno corresp="Batthyány Ádám"/></persName> által használt <placeName>Bozsok<idno type="ITIdata">Q12436</idno></placeName> mellé elzálogosította
+                    neki <placeName>Csákot<idno type="ITIdata">Q23228</idno></placeName> és <placeName>Velemet<idno type="ITIdata">Q475008</idno></placeName> is. <persName>Nádasdy Ferenc<idno type="ITIdata">Q54595</idno></persName> is meg volt
+                    győződve <persName>Sibrik<idno corresp="Sibrik István"/></persName> igazáról és <persName>Batthyány<idno corresp="Batthány Ádám"/></persName>
+                    által tájékoztatni igyekeztek <persName>Pálffy Pált<idno type="ITIdata">Q155109</idno></persName>, az
+                    országbírót.</p>
+<p xml:id="p.15">Mintha <persName>Listius<idno corresp="Listius László"/></persName> előre érezte volna a rá váró bajokat. <date when="1648-05-22">1648. május 22-én</date> levelet
+                    írt <persName>Batthyánynak<idno corresp="Batthyány Ádám" type="ITIdata">Q239194</idno></persName>, akiről azt hitte, hogy nincs beavatva a
+                    dolgokba, nemhogy azoknak főszereplője. Azt írta többek között: „… nem tudom,
+                    micsoda indulatbol artatlansagom minden Patronustul es io akaroimtul el
+                    hogyattatuan, Töruinyes igazságomban gatath vetettek…” (<bibl>OL Batthyánycsalád lt.
+                        Missiles 29559.</bibl>) Amint tízegynéhány esztendő múlva a <placeName>pozsonyi<idno type="ITIdata">Q468</idno></placeName> káptalan emberei
+                    előtt <persName>Bella Ferenc</persName> vallotta: Prágában az oklevelek
+                    átírásakor „ezek közül néhány Szelepcsényi György kanczellárnál gyanúsnak
+                    találtatott, s idő múltával Mikulich Tamás personalis hamisaknak is
+                    nyilvánította azokat”. (Vö. a tanúvallatási jegyzőkönyvvel; kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr>
+                    1897, 458–69.</bibl>)</p>
+<p xml:id="p.16">Amitől tehát <persName>Listius<idno corresp="Listius László"/></persName> félt, bekövetkezett. A <placeName>Pozsonyba<idno type="ITIdata">Q468</idno></placeName> hívott
+                    érdekelt felek meghallgatásakor <persName>Pálffy Pál</persName> meghallgatván a
+                    feleket, megvizsgálta a <persName>Listiustól<idno corresp="Listius László"/></persName> beterjesztett leveleket, és egyértelmű
+                    megállapítást nyert, hogy hamisítványok. Mindezeket elsősorban azokból a
+                    levelekből tudjuk, melyeket <persName>Sibrik István</persName> és
+                    <persName>Nádasdy Ferenc<idno type="ITIdata">Q54595</idno></persName> írt <persName>Batthyány
+                            Ádámnak<idno type="ITIdata">Q239194</idno></persName>, melyek az OL-ban a Batthyány család körmendi levéltára
+                    XVI–XVII. századi missilisei közt találhatók. <persName>Tarnóc
+                    Mártonnak</persName> kell köszönetet mondanunk, hogy a leveleket lemásolta,
+                    azokat rendelkezésünkre bocsátotta. (A 43122–7, 43131; 32121, 32125, 32128,
+                    32131. jelzetű levelekről van szó.)</p>
+<p xml:id="p.17">Hogy a per hogyan végződött, egyelőre nem tudjuk, de az előzményekből
+                    következtetni lehet, hogy <persName>Sibrik István</persName> birtoklási jogát
+                    elismerték. Akárhogyan is ért véget a per, <date when="1649">1649-ben</date> <persName>Listius<idno corresp="Listius László"/></persName>
+                    és <persName>Sibrik István</persName> egyezséget kötött, melynek értelmében
+                    <persName>Listius<idno corresp="Listius László"/></persName> a Sopron megyei Dörfölt 14000 forintért zálogba adta
+                        <persName>Sibriknek<idno corresp="Sibrik István"/></persName>. (<bibl>A pozsonyi káptalan előtt tett szerződés az
+                    OL Sibrik-cs. levéltárában 1649. évi cs.</bibl>)</p>
+<p xml:id="p.18">Sem ezekből, sem a következő évekből nem tudunk <persName>Listius
+                    László</persName> családi és magánéletéről jóformán semmit. Egy <date when="1658-03-18">1658.
+                    március 18-án</date> tartott tanúvallatáskor <persName>Pakay Benedek</persName>, Moson
+                    vármegye juratus assesora azt vallja, hogy <persName>Listius<idno corresp="Listius László"/></persName> szodomita életet folytatott;
+                    felesége neki arról panaszkodott, hogy „ő vele is sodomitául bánt, kiben meg is
+                    szakadkozott volna. Azt is mondotta, hogy ő neki az ura gonoszsága miatt kell
+                    meghalni”. (<bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 453–54.</bibl>)</p>
+<p xml:id="p.19">Felesége, <persName>Bánffy Hedvig</persName> <date when="1653">1653-ban</date> halhatott meg, ha nem már
+                    előbb. Egy töredékesen ránk maradt írásból ugyanis az derül ki, hogy második
+                    feleségével, <persName>Kecskés Évával</persName> együtt <date from="1653" to="1655">1653–1655</date> köztre
+                    datálható időben kölcsönt vettek fel <persName>Aszalay Istvántól</persName>, a
+                    Kamara tanácsosától. (Kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 451.</bibl>)</p>
+<p xml:id="p.20"><persName>Listius<idno corresp="Listius László"/></persName> botrányos életmódjáról ezekben az években azonban
+                    legfeljebb még csak suttogtak. Az ötvenes évek eleje még a sikerek idejének
+                    tekinthető, ha az eljövendőkre gondolunk.</p>
+<p xml:id="p.21"><date when="1653">1653-ban</date> Bécsben megjelenik költői műveinek gyűjteménye, a <hi rend="italic">Magyar Márs Avagy Mohách mezején történt veszedelemnek emlékezete</hi>.
+                    (<bibl><abbr>RMK I</abbr>, 869.</bibl>) Ezt követőleg <date when="1655">1655-ben</date> pedig a <persName>császár</persName> neki
+                    és <persName>György<idno corresp="Lászlóffi (Listius) György"/></persName> fiának a grófi címet adományozza. A diploma
+                    keltezés nélkül található a Liber Regius 11. pag. 439–441. levelein; az előtte
+                    lévő bejegyzés dátuma <date when="1655-06-25">1655. június 25</date>, az utána következőé <date when="1655-09-15">szeptember 15</date>. A
+                    bejegyzések azonban nincsenek szoros időrendben. De <persName>Listius<idno corresp="Listius László"/></persName>
+                    a grófi címert <date when="1655-09-01">1655. szeptember 1-én</date> már használja. Érdekes az oklevél a Listius
+                    család őseinek, érdemekben gazdag szolgálataiknak felsorolásáért, bár ez a
+                    genealógia nem mindenben egyezik a máshonnét ismert adatokkal. Az ősök
+                    érdemeiért, és nem <persName>Listius<idno corresp="Listius László"/></persName> szolgálataiért kapta költőnk és fia a grófi címet.
+                    (Az oklevelet kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 341–43.</bibl>)</p>
+<p xml:id="p.22">Ebben a minőségben írt, első ránk maradt levele, melyre az előbb céloztunk,
+                        <persName>II. Rákóczi György</persName> fejedelemhez szól, akit már régen
+                    akart „levelével meglátogatni”. Ingó és ingatlan jószágait ajánlja
+                        <persName>Rákóczi</persName> gráciájába, arra az esetre, ha tőle távol,
+                    Erdélyben élő anyja elhalálozna. (Kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 344.</bibl>)</p>
+<p xml:id="p.23">Ennek az évnek a vége felé, karácsony táján történt, hogy második felesége, aki
+                    pedig a tanúvallomások szerint többeknek „azon panaszkodott, hogy circiter
+                    másfél vagy fél esztendeje vagyon, véle nem hált az ura” (<bibl>uo. 454</bibl>), hogy „tiszta
+                    az urától”, aki nem keresztény módon él (<bibl>uo.</bibl>) – fiúörökössel ajándékozta meg a
+                    grófot. <persName>Listius János</persName> kételkedéssel fogadta a gyermek
+                    születését; felkereste a nádort, és azzal vádolta <persName>Lászlót</persName>,
+                    hogy egy idegen fiúgyermeket tett felesége színlelt gyermekágyába, és most
+                    törvényes utódjának nyilvánítja. A nádor azonban nem adott helyt keresletének.
+                    <date when="1656">1656-ban</date> pedig László megjelent a király előtt, és a becsületén ejtett gyalázat
+                    miatt a vádló megbüntetését kérte. <persName>Ferdinánd</persName> a pozsonyi
+                    káptalant bízta meg, hogy <persName>Listius Jánost</persName> idézze meg. Ez
+                    azonban elállt a vádtól.</p>
+<p xml:id="p.24">A gyermek hamarosan meghalt. De még egy év sem telt el, s <persName>Kecskés
+                        Éva</persName> megint fiúgyermekkel lepte meg a világot. <persName>Listius
+                        László</persName> a keresztelőre készült. (Vö. <date when="1656-09-19">1656. szeptember 19-i</date> keletű
+                    levelét és egy másik dátum nélkülit az <bibl><abbr>ItK</abbr> 1897, 451–52.</bibl> lapjain!) A
+                    sugdolódzások ezt az eseményt sem tartották különbözőnek az első fiú
+                    születésénél. Közben <persName>Listius László</persName> ellen <persName>Lidi (Liedel)
+                        Ulrik</persName> <placeName>köpcsényi<idno type="ITIdata">Q19412</idno></placeName> mészáros Moson megye hatóságaihoz fordult, hogy
+                    oltalmat kérjen ennek hatalmaskodásai, gyújtogatásai ellen. <persName>Kerekes
+                        Menyhért</persName>, a megye alispánja már régóta tisztázni akarta a Listius
+                    Lászlóról elterjedt vádakat, s több gyilkosságot, méregkeverést, gyújtogatást
+                    emlegetve a vármegye gyűlésén, megindította a vizsgálatot. Annál is inkább, mert
+                    <persName>Listius<idno corresp="Listius László"/></persName> a megye főispáni székére törekedett. Ezt sikerült ugyan <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>
+                    megakadályozni, de azok a tanúvallatások, melyeket <persName>Listius
+                        László</persName> fellépésére a <placeName>pozsonyi<idno type="ITIdata">Q468</idno></placeName> káptalan tartott <date when="1658-03-21">1658. március
+                    21-én</date>, hogy ti. az alispán gyalázta-e valóban őt a vármegyegyűlésen vagy másutt,
+                    hirdetvén felőle, hogy „az ördöggel bagzik, sodomita, méreggel eteti az
+                    embereket és égető”, meg hogy embereit kirekesztette a megyegyűlésről,
+                    megtörtént tényékként erősítették meg <persName>Kerekes Menyhért</persName>
+                    magatartását. Az ügy folytatását nem ismerjük világosan.
+                        <persName>Kerekes</persName> megmaradt alispáni tisztében; Listius pedig
+                    kiegyezett a mészárossal 400 Ft kártérítés ellenében, mire az visszavonta
+                    panaszát (az egyezség kiadva: <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 453</bibl>).</p>
+<p xml:id="p.25">Közben pedig folytatta gyilkosságait, gyilkolási terveit, elsősorban
+                        <persName>Listius János</persName> „kigyomlálására”, <persName>Kerekes
+                        Menyhért</persName> megmérgezésére. Szándékát azonban éppen a
+                    végrehajtásukkal megbízott szolgák fedezték fel a kiszemelt áldozatoknak.
+                    „Garabonciásságáról”, az ördöggel való cimborálásáról – amivel valószínűleg már
+                    ekkortájt is hamis pénz készítésből származó jövedelmének akarta az emberek
+                    előtt magyarázatát adni – ő maga csinált propagandát.</p>
+<p xml:id="p.26">Gonosztettei annyira közismertekké váltak, hogy az <date when="1659">1659-i</date> pozsonyi országgyűlésen
+                    külön törvénycikk foglalkozott velük. A 112. cikkelyben azt végezték, hogy a
+                    nádor vagy a fiscus, de akár magánszemély kívánságára is indítsanak ellene
+                    vizsgálatot. A nádor <persName>Madách Jánost</persName> bízta meg a vizsgálat
+                    lefolytatásával, melyről a jegyzőkönyv csak töredékesen maradt ránk (kiad.
+                    <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 453–58</bibl>). A 14 tanú fennmaradt vallomása a súlyos vádakat
+                    igazolta. <persName>Listius László</persName> a <persName>Sibrik
+                        István</persName> elleni perben hamis pecséteket készíttetett, leveleket
+                    hamisított; szodomita életet élt; meg akarta mérgezni <persName>Listius
+                        Jánost</persName>, <persName>Kerekes Menyhértet</persName>, sőt az anyját
+                    is; Bécsből hozatott leányanyákat, akiket a szülés után hamarosan meggyilkolt,
+                    gyermeküket pedig felesége szülötteiként tartotta; gyújtogatott, hatalmaskodott
+                    és még több gyilkosságot követett el.</p>
+<p xml:id="p.27">A vádakat megerősítette az a vizsgálat, melyet <persName>Majláth
+                        Miklós</persName> koronaügyész fellépésére egy esztendő múlva a <placeName>pozsonyi<idno type="ITIdata"/></placeName>
+                    káptalannál a nádor elrendelt. <date when="1661-04-30">1661. április 30-án</date> és a következő napokon
+                    <placeName>Köpcsényben<idno type="ITIdata">Q19412</idno></placeName>, <placeName>Czun<idno type="ITIdata">Q475009</idno></placeName> községben és a Moson megyei alispán házában 17 tanút
+                    hallgattak ki (a vallomások kiad. <bibl><abbr>ItK</abbr> 1897, 458–69</bibl>). A cégéres vétkek mellett az
+                    is beigazolódott, hogy <persName>Listius<idno corresp="Listius László"/></persName>
+<persName>Barcsay Ákos</persName> fejedelem pártján álló, a törökkel
+                    rokonszenvező ember volt. („Bár föl ne tegyen az római császár az török fényes
+                    portával” – mondotta; <bibl>uo. 464.</bibl>)</p>
+<p xml:id="p.28">Bűneire az ítélet csak fej- és jószágvesztés lehetett volna. <date when="1661-05-23">1661. május 23</date>-ára idézték törvénybe. (Kiad. <bibl><hi rend="smallcaps">Illéssy János</hi>:
+                <title>Gróf Listi László életéhez</title>. <abbr>ItK</abbr> 1894, 450–52.</bibl>)</p>
+<p xml:id="p.29"><date when="1661-04-26">1661. április 26-án</date> azonban, <persName>Listius László</persName> Bécsben
+                    szerződésre lépett <persName>Wesselényi Ferenc</persName> nádorral – miután erre
+                    anyjától felhatalmazást szerzett, (<bibl><title>A gyerőmonostori b. Kemény-család idősb,
+                    fejedelmi ágának okmánytára.</title> Az 1648–49-diki néplázadás által feldúlt levéltár
+                        maradványaiból összeszedte: <hi rend="smallcaps">P. Szathmáry Károly</hi>, <abbr>TT</abbr> 1895, XVIII, 126–27</bibl>) – s azt
+                    a 40 ezer forintot, mellyel a nádor az anyjának régóta tartozott, elengedte sok
+                    jó akaratjáért, „melyekkel ő nagysága ígéri magát minden istenes és törvény
+                    szerint való” igazságában (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1895, 198–99</bibl>). Az adományozó
+                    levelet a pozsonyi káptalan két kanonokja előtt <persName>Wesselényi</persName> kívánsága szerint
+                    <date when="1661-05-12">1661. május 12-én</date> hitelesítették is (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1895, 200–201</bibl>).</p>
+<p xml:id="p.30">Közben <date when="1661-05-02">1661. május 2-án</date> megjelent <persName>I. Lipót</persName> rendelete a <persName>Listius László</persName> elleni
+                    eljárás felfüggesztéséről: „Cum autem nos idem negotium, certis ex rationibus,
+                    pro hac vice omnino suspendendum et in alium differendum esse velimus.” (Kiad.
+                    <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 200–201.</bibl>) Ez volt <persName>Wesselényinek</persName>
+                    „kegyelmessége, s’ mind jelen lévő s’ mind peniglen jövendőbeli sok rendbeli jó
+                    akarattyá”-nak megnyilvánulása.</p>
+<p xml:id="p.31"><persName>Listius László</persName> pedig, részben anyja iránti hálából, részben
+                    a rá váró bizonytalan jövő miatt leköti anyjának <placeName>Köpcsény<idno type="ITIdata">Q19412</idno></placeName>, <placeName>Jarendorf<idno type="ITIdata">Q468</idno></placeName>,
+                    <placeName>Körtvélyes<idno type="ITIdata">Q13089</idno></placeName>, <placeName>Edlestal<idno type="ITIdata">Q14316</idno></placeName> jószágait közel százezer forint értékben. Nyíltan kijelenti
+                    a káptalan előtt, hogy a 40 ezer forintot azért ajándékozta <persName>Wesselényi
+                        Ferencnek</persName>, hogy nádori tekintélyével a fiscus által ellene
+                    támasztott perben segítse és megvédelmezze, (kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897, 201–
+                    203</bibl>).</p>
+<p xml:id="p.32"><persName>Listius László</persName> rövidesen ezután véglegesen lebukott. <date when="1661">1661</date>
+                    nyarán <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName> letartóztatták. Vitnyédi így tájékoztatta erről <persName>Zrínyi
+                        Miklóst<idno type="ITIdata">Q247373</idno></persName> <date when="1661-08-25">1661. augusztus 25-i</date> levelében: „Gróf Listius Lászlót az
+                    hamis pénzverésért Ausztriában megfogták és az Rumor mesternél vagyon.” (Kiad.
+                    <bibl><hi rend="smallcaps">[FABÓ ANDRÁS] GARÁDY</hi>, <abbr>MTT</abbr> 1871, XV, 172.</bibl>) <placeName>Bécs<idno type="ITIdata">Q99</idno></placeName> városának törvényszéke <date when="1662-12-22">1662.
+                    december 22-én</date> hagyta jóvá a halálos ítéletet: „Darumb gesagt unnd solle herr
+                    graf Ladislaus Listius mit dem schwert vom leben zum todt hingerichtet werden,
+                    benebens sein haab unnd güet der röm. kays. majest. unseren allergnädigsten herm
+                    und lanndts fürsten etc haimb gefallen seim.” (Kiad. <bibl><hi rend="smallcaps">Komáromy</hi>, <abbr>ItK</abbr> 1897,
+                    469.</bibl>)</p>
+<p xml:id="p.33">Mivel <persName>Listiust<idno corresp="Listius László"/></persName> nem a magyar törvények szerint ítélték
+                    halálra, s javait nem a magyar korona, hanem egyenesen őfelsége számára
+                    foglalták le, a rendek sérelmesnek tartották az eljárást. Az <date when="1662-05-01">1662. május 1-én</date>
+                    megnyílt országgyűlésen a rendek arra kérték az uralkodót, hogy a magyar
+                    törvények megkerülésével elítélt és kivégzett <persName>Listius
+                        László</persName> elkobzott javait adassa vissza törvényes örökösének, gróf
+                        <persName>Listius Jánosnak</persName>, <persName>Gyulaffi
+                        Zsuzsannának</persName> rá vonatkozó igényeit pedig vizsgáltassa meg a
+                    nádorral. (<bibl><hi rend="smallcaps">Jean Bérenger</hi>: <title>Les »Gravamina«. Remontrances des Diètes de Hongrie de
+                    1655 à 1681</title>. 263.</bibl>) Így is történt.</p>
+<p xml:id="p.34"><persName>Gyulaffi Zsuzsanna</persName> fiának ez idő tájt 5–6 éves törvénytelen
+                    örökösét, akit Lászlófi néven emlegettek, fiának fogadta, és <date when="1664-02-27">1664. február 27-én</date>
+                    kelt végrendeletében tisztességesen gondoskodott róla. A <placeName>pozsonyi<idno type="ITIdata">Q468</idno></placeName> jezsuiták
+                    felügyelete alatt nevelkedett. A Listius név balvégzete azonban nemsokára őt is
+                    utolérte. Véletlen pisztolylövéssel megölt egy embert. A szerencsétlenség miatt
+                    letartóztatták, elítélték. A börtönben halt meg <date when="1679">1679-ben</date>. (<bibl><hi rend="smallcaps">Komáromy András</hi>:
+                    <title>Listi László élete</title>. Bp. 1887. 48–51.</bibl> – Uő.: <bibl><title>Listi László munkái</title>. Bp. 1891.
+                    86–93.</bibl>)</p>
+<p xml:id="p.35">MŰVEI</p>
+<p xml:id="p.36"><persName>Listius László</persName> költői munkásságának termékei az életének 25. évében <placeName>Bécsben<idno type="ITIdata">Q99</idno></placeName>
+                    kinyomtatott <hi rend="italic">Magyar Márs Avagy Mohách mezején történt
+                        veszedelemnek emlékezete</hi> (<bibl><abbr>RMK I</abbr>, 869</bibl>) című kötetében maradtak ránk. A
+                        <persName>Cozmerovius Máté</persName>, „Chászár Urunk eö Fölsége Udvari
+                    könyv-nyomtatoja által” ízléses kiadásban kibocsátott könyv két fő részből áll.
+                    Ezeket egy üres levél választja el egymástól. A lapszámozás a második részben
+                    újra kezdődik.</p>
+<p xml:id="p.37">Az első rész a címlap, az ország rendjeihez és az olvasókhoz szóló prózai bevezető után az 1–154. folióleveleken a Cladis
+                Mohachianae 4242 sorát tartalmazza Balassi-versszakokban. A második rész Reges Hungariae ab Anno Christi CDI. ad Annum
+                MDCLII. Ungaricis Rhytmis Descripti címmel a magyar királyokról, majd a Magyarország két nevezetes gubernátoráról, illetőleg
+                hét kapitányáról írt 6–6 felező tizenkettes strófákból álló versciklusokat, ez után a szerencse állhatatlanságáról, hatalmáról szóló
+                szerzeményt, majd a Szűz Máriához mint Magyarország patronájához írt könyörgést és végül a Magyarország címeréről szerzett
+                verset hozza az 1–80. számozású leveleken. A „Laistrom mely Ez könyvben lévö nevezetésb dolgoknak fel-találására igazet” a
+                könyv végén 7 számozatlan lapot foglal el.</p>
+<p xml:id="p.38">Az egyes darabok ismételten visszautalásokat tartalmaznak a megelőzőkre, s bár az
+                    ajánló sorokban megmagyarázott tervtől némileg eltérő módon következnek
+                    egymásután, <persName>Listius<idno corresp="Listius László"/></persName> könyve tudatosan megszerkesztett műnek
+                    tűnik. Valószínű, hogy ahogyan a történeti tárgyú epikus mű megírására az
+                    <date when="1651">1651-ben</date> Bécsben, ugyanannál a kiadónál megjelent <hi rend="italic">Szigeti
+                        veszedelem</hi> adott ösztönzést, <persName>Zrínyi<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno></persName> hatását
+                    láthatjuk abban is, hogy a terjedelmes Magyar Márs-hoz lírai költeményeit is
+                    hozzácsatolta.</p>
+<p xml:id="p.39"><persName>Listius<idno corresp="Listius László"/></persName> műve keletkezési idejéről, körülményeiről nem
+                    nyilatkozik. Benne életrajzi utalás, egyéni vonatkozás (hacsak ilyennek nem
+                    tekintjük a Magyar Márs 2986. sorát, ahol megmondja, hogy járt a csata
+                    színhelyén) nincs, múltjából semmi nem tükröződik, jövője alakulására belőle
+                    semmit nem következtethetünk. A kézirat sorsa ismeretlen.</p>
+<p xml:id="p.40">Az irodalomtörténet-írás <persName>Listius<idno corresp="Listius László"/></persName> verstermésével ez ideig alig foglalkozott. Akik
+                    róla írtak, elvétve tesznek említést műveiről, s az egyre elítélőbb vélemény
+                    közhelyként él az irodalmi köztudatban. A kritikai kiadásnak nem feladata a
+                    versek értékelése. Keletkezési körülményeikkel, forrásukkal azonban
+                    foglalkoznunk kell, és vizsgálnunk kell <persName>Listius<idno corresp="Listius László"/></persName>
+                    eljárását.</p>
+<p xml:id="p.41">Ebben a tekintetben a felderítés munkáját <persName><hi rend="smallcaps">Pintér Jenő</hi><idno type="ITIdata">Q149650</idno></persName>
+                    végezte el két dolgozatában. (<bibl><title>Listius László Mohácsi Veszedelmének forrásai</title>. <abbr>ItK</abbr>
+                    1906, 152–71, 280–91.</bibl> – <bibl><title>Nagyköpcsényi Gróf Listius László (1628–1661)</title>. A bp.-i
+                    VI. ker. főreáliskola ért. 1910/11, 3–20.</bibl> – Klny. is.) A Magyar Márs-ról és
+                    <persName>Listius<idno corresp="Listius László"/></persName> történeti tárgyú verseiről, illetőleg
+                    forrásairól ő közölt igen részletező és általában helyes eredményeket,
+                    kimutatásokat, szövegösszevetéseket. Itt csupán megállapításainak a lényegét
+                    foglaljuk össze.</p>
+<p xml:id="p.42"> A Magyar Márs-nak „csak egy tizedrésze független más munka közvetlen hatásától. Ám ezen szigorúan megtizedelt
+                versszakokban is felmerülnek olykor, olyhelyütt a classicus és bibliai vonatkozások, Zrínyi eszméi, Balassi képei, a zsoltárok
+                hasonlatai, a kor divatos kifejezései és onnan kölcsönvett szólamok.” (<bibl>I. m. <abbr>ItK</abbr> 1906, 289.</bibl>)</p>
+<p xml:id="p.43"><persName>Brodarics Istvánnak<idno type="ITIdata">Q142886</idno></persName> <date when="1527">1527</date> március-áprilisában keletkezett és
+                    még ugyanebben az évben Krakkóban nyomtatásban is megjelent De conflictu
+                    Hungarorum Cum Turcis ad Mohacz (<bibl><abbr>RMK III</abbr>, 270</bibl>) című munkája volt
+                    <persName>Listius<idno corresp="Listius László"/></persName> fő forrása. <persName><hi rend="smallcaps">Pintér Jenő</hi></persName>
+                    ismételten hangsúlyozza, és emiatt elítéli <persName>Listiust<idno corresp="Listius László"/></persName>, hogy fő forrására nem utal
+                    (<bibl>i. m. <abbr>ItK</abbr> 1906, 157, 285</bibl> és <bibl>Nagyköpcsényi Gróf Listius László. 12</bibl>), illetőleg,
+                    hogy mindössze két helyéből olvasható ki <persName>Brodaricsra<idno corresp="Brodarics István"/></persName> vonatkozó „némi célzás”
+                    (<bibl><abbr>ItK</abbr> 1906, 285</bibl>). Valóban csak egyből! De ez több, mint célzás. Találkozunk ilyen
+                    általános kifejezésekkel: „Az Historiából… öszve-szedte, mint állott” (1095),
+                    „Igazán számlálom, valamint találom az írásba” (1404), „Mások írásából és
+                    Historiákból hogy történt, hírrel hallom” (3398), melyek csakugyan nem utalnak
+                    <persName>Brodaricsra<idno corresp="Brodarics István"/></persName>, de az 1039–41. sorokban világosan
+                    megnevezi őt:</p>
+<lg xml:id="lg.1"><l xml:id="l.1">Országh állapottyát, minden részét s táját Brodaricus igy iria,</l>
+<l xml:id="l.2">Hol történt esetünk, s el veszet nemzetünk, lássa haki akaria,</l>
+<l xml:id="l.3">A’ mint irásomban tettem mint homályban, ott bővebben talállya.</l></lg>
+<p xml:id="p.44"><persName>Pintér<idno corresp="Pintér Jenő"/></persName> elítélésének ennyiban igaza van: ahhoz képest, hogy
+                    1414 versszakból 957 lényegében verses fordítása <persName>Brodarics<idno corresp="Brodarics István" type="ITIdata">Q142886</idno></persName> történeti prózájának
+                    – nevének egyszeri említése félrevezető. Főleg, ha figyelembe vesszük, hogy
+                    ugyanakkor jegyzeteiben, mint forrásra kilencszer utal
+                    <persName>Bonfinire<idno corresp="Antonio Bonfini" type="ITIdata">Q41901</idno></persName>; s az 1032. sorban olyankor is őt idézi pl.,
+                    amikor <persName>Brodaricsot<idno corresp="Brodarics István" type="ITIdata">Q142886</idno></persName> írja át.</p>
+<p xml:id="p.45"><persName>Listius<idno corresp="Listius László"/></persName> a Magyar Márs szövegében sűrűn ad jegyzetet. Ezek
+                    kétfélék. Szöveg közt jelekkel (†, *, zárójelbe tett betűkkel) utal a lapaljai
+                    jegyzetekre. A könyv margóján a sorok végén mondatban, mondattöredékben
+                    tartalomszerű megjegyzéseket, rövid jellemzéseket, útbaigazító tájékoztatásokat
+                    közöl. Összesen 259 jegyzete van, ebből 159 magyarázó, tartalommutató.
+                    Legnagyobb részük felesleges, mert nem lényegbe vágó. Forrásmegjelölései
+                    általában antik történeti, mitológiai nevekre, bibliai személyekre vonatkoznak,
+                    de sokszor éppen nem illetékes írókra való utalással a tulajdonnevek
+                    magyarázataként. 100 forrásmutató jegyzetéből <persName>Ovidiusra<idno type="ITIdata">Q334278</idno></persName> 20,
+                    <persName>Vergiliusra<idno type="ITIdata">Q331190</idno></persName> 16, <persName>Plutarkhoszra<idno type="ITIdata">Q334364</idno></persName> 12,
+                    <persName>Martialisra<idno type="ITIdata">Q2012</idno></persName> 8, <persName>Pliniusra<idno type="ITIdata">Q346715</idno></persName> 7,
+                    <persName>Ciceróra<idno type="ITIdata">Q346710</idno></persName> 4, <persName>Senecára<idno type="ITIdata">Q346654</idno></persName> 3,
+                    <persName>Papinianusra<idno type="ITIdata">Q470939</idno></persName>, <persName>Horatiusra<idno type="ITIdata">Q334270</idno></persName>,
+                    <persName>Hérodotoszra<idno type="ITIdata">Q347320</idno></persName>, <persName>Claudianusra<idno type="ITIdata">Q470940</idno></persName> 2–2
+                    ízben, más 11 szerzőre 1–1 ízben hivatkozik. A Bibliának 16 könyvére utal.
+                    <persName>Listius<idno corresp="Listius László"/></persName> forrásmegjelölése néha túlságosan szűkszavú,
+                    egy-egy név csupán. Nem is mindig helytálló. A rómaiak katonai kitüntetésével a
+                    „hét ékes koronával” kapcsolatosan pl. Vergiliusra „De Lat. Reg.” utalással
+                    hivatkozik. <persName>Vergiliusnak</persName> nincs ilyen munkája; a 177. sor
+                    jegyzetében meg <persName>Ovidius</persName> Fastorum libri 9. könyvére
+                    hivatkozik, pedig csak hat készült el belőlük. Tehát látszat csak, hogy <persName>Listius<idno corresp="Listius László"/></persName>
+                    alaposan ismerte a görög és a latin irodalom termékeit, az antik
+                    hiedelemvilágot. Ott magyaráz legtöbbször, ahol erre nincs nagy szükség, a
+                    ritkább neveken, ismeretlen mozzanatokon átsiklik.</p>
+<p xml:id="p.46"> A Magyar Márs történetét <persName>Listius<idno corresp="Listius László"/></persName>
+<persName>Brodaricstól<idno corresp="Brodarics István" type="ITIdata">Q142886</idno></persName> vette át. Mikor azt versbe öntötte a Szigeti
+                    Veszedelem lebegett szeme előtt. <persName>Zrínyi<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno></persName> módján, az ő
+                    felfogásában írta meg munkáját. Ő is írt ajánlást, előszót, peroratiót. Nála is
+                    Isten hozta ki nemzetünket Szkitiából, térítette a keresztény hitre, áldotta meg
+                    sok jóval. Isten bűneinkért ront bennünket a törökkel. De ha hozzá térünk, újra
+                    életre hozza népünket. <persName>Zrínyit<idno corresp="Zrínyi Miklós"/></persName> követi az áthidalások
+                    módjában, az elmélkedő betoldásokban. Többször szól a szerencse
+                    állhatatlanságáról, <persName>Zrínyihez<idno corresp="Zrínyi Miklós"/></persName> hasonló gondolatkörben
+                    mozogva, néha még a szavakban is vele megegyezőleg: „Fut s fárad az ember…”
+                    (2914. sor; vö. a <hi rend="italic">Szigeti Veszedelem</hi> IV. énekével!).
+                    Többször sóhajt fel a török had egybegyűltekor (400–405., 565– 73., 2305–25.
+                    sorok, az utóbbiakban seregszemle!). A törökök <persName>Listiusnál<idno corresp="Listius László"/></persName> is áldozatot végeznek,
+                    főpapjuk győzelmüket jósolja meg (3229–85. sor). Van álomjelenet (241–43.,
+                    3265–79. sor), és II. Lajos apotheozisa is (3637–3726. sor) a Zrínyiász-ban
+                    gyökeredzik. (Vö. <bibl>PINTÉR: i. m. <abbr>ItK</abbr> 1906, 280–84.</bibl> lapokkal!)</p>
+<p xml:id="p.47">Nem mutat nagy önállóságot <persName>Listius<idno corresp="Listius László"/></persName> a magyar királyokról,
+                    vezérekről írt verseiben sem. Ahogyan <persName>Pintér<idno corresp="Pintér Jenő"/></persName> rámutatott,
+                    munkájának ebben a részében <persName>Zsámboki<idno corresp="Zsámboki János"/></persName> Reges Ungariae Ab Anno
+                    Christi CDI. usque ad MDXLVII… (Bécs <date when="1567">1567</date> – <bibl><abbr>RMK III</abbr>, 557</bibl>) és <persName>Baksay
+                        Ábrahám<idno type="ITIdata">Q238812</idno></persName> Chronologia De Regibus Hungaricis (Krakkó <date when="1567">1567</date> – <bibl><abbr>RMK III</abbr>,
+                    559</bibl>) c. munkáját forgatta. Megjelent a Zsámboki-féle
+                        <persName>Bonfinius</persName> kiadás függelékében: <bibl>Antonii Bonfinii
+                    Hungaricarum Decades Quatuor, Cum Dimidia. His accessere Joan. Sambuci Aliquot
+                    Appendices … 914–35.</bibl> (Hannoviae <date when="1606">1606</date> – <bibl><abbr>RMK III</abbr>, 570</bibl>); majd ezt követőleg még
+                    több ízben. (Vö. <bibl><abbr>RMK III</abbr>, 706, 3633.</bibl>) Belőlük többször szóról szóra átvesz
+                    szöveget. <persName>Zsámbokit<idno corresp="Zsámboki János"/></persName> követi abban, hogy egy versbe foglalja
+                    Vencelt és I. Károlyt, hogy királyaink sorába felveszi III. Frigyest és I.
+                    Miksát; vagy hogy ő sem ír Árpádról, Zsoltról. Mária és Erzsébet királynőkről
+                    viszont <persName>Zsámbokitól<idno corresp="Zsámboki János"/></persName> eltérőleg verset szerez. De így találta
+                    ezt <persName>Baksaynál<idno corresp="Baksay Ábrahám"/></persName>. Nem támaszkodott erre a két forrásra a II.
+                    Mátyás, I., II., III. és IV. Ferdinándról szóló részekben. Ezekben még kevesebb
+                    a kézzel fogható történeti tényanyag, mint az előzőkben. Annál több a
+                    Habsburgháznak hízelgő, dicsőítő magasztalás. „Valószínűleg a Habsburg-családnak
+                    rendkívül hízelgő verseiért” kapta meg <persName>Listius<idno corresp="Listius László"/></persName> a grófi címet, mondja
+                    <persName>Pintér<idno corresp="Pintér Jenő"/></persName>. (<bibl>Nagyköpcsényi Gróf Listius László. 5.</bibl> – A
+                    történeti versek forrásairól, a <persName>Zsámboki<idno corresp="Zsámboki János"/></persName> és
+                        <persName>Baksay<idno corresp="Baksay Ábrahám"/></persName> szövegéhez való viszonyulásról lásd uo. a 14–19.
+                    lapokat!)</p>
+<p xml:id="p.48">A’ szerenchének álhatatlanságárúl szóló szerzeményében az epikus művére való
+                    visszautalás („Fegyvert s hadi-ezközt mind-addig forgattam / Vér szomjuzo Mársot
+                    Versemben foglaltam …”), a Szerencse állhatatlanságának, hatalmának bemutatására
+                    szolgáló gondolatok és kifejezések szintén emlékeztetnek
+                    <persName>Zrínyire<idno corresp="Zrínyi Miklós" type="ITIdata">Q247373</idno></persName>, illetőleg elszórtan fellelhetők a Magyar
+                    Mársban. Jó részük közkeletű szólam volt a kor költészetében.</p>
+<p xml:id="p.49">A’ Boldogságos Szüz Máriához, Magyarország patronájához írott könyörgés a hajdani
+                    dicsőséget állítja szembe a jelen romlott állapotával. A dicső múlt, a régi
+                    győzelmek a törökön Mária oltalmazásának köszönhetők. „A’ sok visza-vonyo s mint
+                    konkoly el hányo uyságok találmánya” miatt azonban a török torkába kerültünk.
+                    <persName>Listius<idno corresp="Listius László"/></persName> azért könyörög, hogy Mária járjon közben
+                    fiánál. A költemény szemlélete a korban általános nemesi ideológiának katolikus
+                    vetülete.</p>
+<p xml:id="p.50"><persName>Listiusnak<idno corresp="Listius László"/></persName> a Magyar Mársban közzétett alkotásai tartalmilag
+                    ciklust alkotó versgyűjteményként foghatók fel. A második rész sorrendje azonban
+                    nem logikus. Nem világos, hogy az Attilával kezdődő, Csabával és Aladárral
+                    folytatódó magyar „királyok” sorába mért Taksony és Géza került be István király
+                    elé; mért vette külön csoportba „Magyarország két nevezetes gubernátorát”; és
+                    mért zárta a sort a magyarok hét kapitányáról szóló versekkel. Feltehetőleg
+                    azért, mert <persName>Zsámboki<idno corresp="Zsámboki János"/></persName>, de <persName>Baksay<idno corresp="Baksay Ábrahám"/></persName> is –
+                    elhagyta a hun vezérek és a magyar kapitányok tárgyalását.
+                    <persName>Baksay<idno corresp="Baksay Ábrahám"/></persName> a hunoknak Pannóniába való második bejövetele
+                    bevezetőjeként sorolja fel a hét kapitányt, akikről <persName>Listius<idno corresp="Listius László"/></persName> külön elógiumokat
+                    szerzett. De a hunok vezéreit egyikük sem említi. <persName>Listius<idno corresp="Listius László"/></persName> azonban a hunok hat
+                    vezéréről is írt verseket. Nyomtatásban, előttünk ismeretlen okokból ezeket nem
+                    adta ki, de fennmaradtak <persName>Jankovich Miklós<idno type="ITIdata">Q59830</idno></persName> egyik
+                    gyűjteményében.</p>
+<p xml:id="p.51">Az <bibl>OSzK Kt Fol. Hung. 135.</bibl> jelzetű Külömbféle magyar verseknek gyűjteménye a XVIII–XIX. századból címet viselő
+                kézirata a 22a–24b lapokon 6–6 strófás elógiumokat tartalmaz Attiláról, Kevéről, Kadicháról, Keméről, Béláról, Budáról – tehát a
+                hunok hat vezéréről (Dux Hunnorum), majd ezt követőleg Vérbulcsról, Örsről, Léiről – a magyarok kapitányairól. Az Attiláról,
+                Vérbulcsról, Örsről, Lélről szóló epigrammák egyeznek a Magyar Mars-ban közöltekkel. Azzal a különbséggel mégis, hogy az
+                Örsről szóló vers két utolsó strófája a nyomtatványtól eltérőleg így hangzik:</p>
+<lg xml:id="lg.2"><l xml:id="l.4">Hét Hadnagy közt noha ö rend szerint végső,</l>
+<l xml:id="l.5">De ő Dicsérete volt mindenűt első,</l>
+<l xml:id="l.6">Nem volt soha töre viadalon kesö,</l>
+<l xml:id="l.7">Hanem győzedelmes és mindenkor fölső.</l></lg>
+<lg xml:id="lg.3"><l xml:id="l.8">Hat Társ a’ Harczokon mellőlle el hulván,</l>
+<l xml:id="l.9">Marada egyedül a’ Nép közt Kapitány,</l>
+<l xml:id="l.10">De még-is elteig járt ellenség hátán,</l>
+<l xml:id="l.11">Fent maradott hire azért holta után.</l></lg>
+<p xml:id="p.52">Ha a kilenc vers közül négyet <persName>Listius<idno corresp="Listius László"/></persName> írt, logikus feltevés,
+                    hogy a többi öt is az ő szerzeménye. Egyébként a kézirat 25b levelén ezt a
+                    megjegyzést találjuk: „Lesznek a királyok”.</p>
+<p xml:id="p.53">A verseknek ez az egymásutáni rendje, a folytatást ígérő tájékoztatás arra vall,
+                    hogy <persName>Listiusnak<idno corresp="Listius László"/></persName> eredetileg más volt az elgondolása a
+                    királyversek ciklusáról. Az eredeti sorrend ugyanaz, mint a
+                    <persName>Nádasdy<idno corresp="Nádasdy Ferenc" type="ITIdata">Q54595</idno></persName>-féle Mausoleum-é, melynek anyagát <date when="1650">1650</date> táján
+                    állították össze. (Vö. <bibl><hi rend="smallcaps">Rózsa György</hi>: <title>A Nádasdy-Mausoleum és Nicolaus Avancini</title>.
+                    <abbr>ItK</abbr> 1970, 466–78.</bibl>) A királyversek magyar fordítását először <persName>Csernátoni
+                        Miklós</persName> készítette el. (Kiad. <bibl><abbr>RMKT XVII/10</abbr>, 42. sz.</bibl>) Meglepő
+                    felfogásbeli és kifejezésbeli párhuzamokat találhatunk a Csernátoni-féle
+                    megszövegezés és a Listius-versek között, amely jelenségre már
+                    <persName>Csernátoni<idno corresp="Csernátoni Miklós"/></persName> fordításának kiadásakor felhívtuk a
+                    figyelmet. (Lásd <bibl>uo.</bibl>)</p>
+<p xml:id="p.54">A hat hun vezér elógiumából <persName>Listius<idno corresp="Listius László"/></persName> csak az Attiláról szólót
+                    vette fel nyomtatásban megjelent kötetébe.</p>
+<p xml:id="p.55">A többi öt vezérről szerzett verset nem iktatjuk be a maguk logikus helyére, hogy ne bontsuk meg <persName>Listius<idno corresp="Listius László"/></persName> kötetének
+                szerkezetét, hanem a versek végén közöljük őket.</p>
+<p xml:id="p.56"> Irodalomtörténetírásunkban többször felvetették, olvasták-e
+                   <persName>Listius<idno corresp="Listius László"/></persName> művét a kortársak és az utódok, volt-e hatása a
+                    Magyar Márs-nak. Bizonyára. <persName>Listius<idno corresp="Listius László"/></persName> könyve megvolt <persName>Zrínyi
+                        Miklós<idno type="ITIdata">Q247373</idno></persName> birtokában. Az OSzK-ban található egyik példányban egykorú
+                    kézírással kijavították a Magyar Márs sajtó- és szótagszám hibáinak legnagyobb
+                    részét. <persName><hi rend="smallcaps">Tarnóc Márton</hi></persName> mutatott rá, hogy A’ szerencse
+                    álhatatlanságárúl c. szerzeményét Esterházy Pál szétszabdalta, s belőle öt
+                    verset kompilált; továbbá hogy egy ismeretlen kuruc énekszerző a Magyar Márs-ból
+                    átemelt versszakok csekély megváltoztatásával, néhány eredeti sor
+                    hozzátoldásával lírai telítettségű nemesi serkentő éneket állított össze a
+                    Rákóczi-szabadságharc megindulásakor. (<bibl><title>Egy kuruckori vers szövegtörténetéhez</title>.
+                    AHLH 1971, 149–55.</bibl>)</p>
+<p xml:id="p.57"><persName>Listius<idno corresp="Listius László"/></persName> műveinek nyomtatott kiadása másodszor csak a XIX.
+                    század közepén látott napvilágót: <bibl><title>Köpcsényi és jánosházai báró Listi László
+                        költői munkái</title>. Kiad. <hi rend="smallcaps">Ürményi József</hi>. Pest 1853. (Újabb Nemzeti Ktár.)</bibl> Az <date when="1653">1653</date>-as
+                    kiadás helyesírását <persName>Ürményi<idno corresp="Ürményi József" type="ITIdata">Q151707</idno></persName> éppenúgy modernizálta, mint
+                        <persName>Komáromy András</persName>, mikor sajtó alá rendezte Listius
+                    műveinek kiadását: <bibl><title>Listi László munkái, Életrajzzal</title> bev. <hi rend="smallcaps">Komáromy András</hi>. 3.
+                    kiad. Bp. 1891. (Olcsó Könyvtár 289.)</bibl></p>
+<p xml:id="p.58">Jelen kiadásunk alapszövegét a <ref target="rmkt-17-12.tei.ll-111">111</ref>–<ref target="rmkt-17-12.tei.ll-117">17.</ref> számú daraboknál az <date when="1653">1653</date>-as bécsi
+                    nyomtatványból vettük. A jegyzetben ennek a kiadásnak a lapszámait tüntetjük
+                    fel. Tekintettel arra, hogy <persName>Ürményi József</persName> is,
+                    <persName>Komáromy András</persName> is <persName>Listius<idno corresp="Listius László"/></persName> valamennyi művét ugyanabban
+                    a sorrendben közölte, mint a <persName>Listius<idno corresp="Listius László"/></persName> életében megjelent könyv, az egyes
+                    daraboknál sem a második, sem a harmadik kiadásra nem utalunk.</p>
+</div>
+</body>
+</text>
+</TEI>

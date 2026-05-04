@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">2.</title>
+<title key="body" n="2" type="main">JGHEN SZÉP ENEKEK CHÉ NIELWBOL MAGIARRA FORDITOT</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-2</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> III, 21a–22b.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, ItK 1901</abbr>,
+                            136–38.</bibl></p>
+<p xml:id="crit.1.p.3"> A versfők: <hi rend="smallcaps">anna c</hi>z<hi rend="smallcaps">obor</hi>.</p>
+<p xml:id="crit.1.p.4">Annak a csehből fordított 4 éneket tartalmazó ciklusnak az első darabja,
+                        melynek végén „For. 26. Junnÿ Ao 1636. MG. mp.” záradék áll.</p>
+<p xml:id="crit.1.p.5"><persName>Czobor Anna<idno type="ITIdata">Q254966</idno></persName>
+<persName>Czobor Imrének</persName> (<date from="1630">1630-tól</date>
+                        főtárnokmester) volt a lánya. <persName>Thurzó Szaniszló<idno type="ITIdata"/></persName> Szepes
+                        m. főispánja feleségeként <date when="1627">1627-ben</date> lett özvegy.
+                        Később a galíciai eredetű (<placeName>Tarnow<idno type="ITIdata">Q14865</idno></placeName>) <persName>Tarnowsky Mihály
+                            Szaniszlóhoz</persName> ment férjhez. Házasságkötésüknek pontos idejét
+                        nem ismerjük. <persName>Madáchnak</persName>
+<persName>Czobor Annához</persName> fűződő kapcsolatát sem. Amikor az
+                        énekeket <persName>Madách</persName> magyarra fordította, <persName>Czobor
+                            Anna</persName> még özvegy volt. A Balassa-lt.-ban <date when="1638-04-29">1638. április 29-i</date> kelettel fennmaradt Hont
+                        megye alispánjának hozzá szóló idézése, hogy személyesen jelenjen meg vagy
+                        képviseltesse magát <placeName>Nagyszombatban<idno type="ITIdata">Q14207</idno></placeName>
+<persName>Balassa Ferencnek</persName> ellene indított keresete
+                        tárgyalásakor. <persName>Balassa Ferenc</persName> azért indított pert
+                        ellene, mivel nem akarta visszaadni a jegyajándékot. Évekkel előbb ugyanis
+                            <persName>Balassa</persName> el akarta venni. <persName>Czobor
+                            Anna</persName> reménnyel biztatta, de „igéretéről megfeledkezve”, más
+                        házasságra gondolt. (<bibl>OL Balassa-lt. 9. cs.</bibl>) <date when="1638">1638</date> táján történhetett tehát <persName>Czobor Anna</persName>
+                        másodszori férjhezmenetele.</p>
+<p xml:id="crit.1.p.6">A nótajelzés, akárcsak a többi éneknél, itt sem a lefordított énekre utal,
+                        hanem csak a melódiára. A forrásul szolgáló cseh szöveg egyik éneknél sem
+                        ismeretes. Több szlovák kutató arra gondolt, hogy az eredeti énekeket
+                            <persName>Czobor Anna</persName> szerezte, és az eredeti
+                        akrosztichonjában is az ő neve volt. Ezeket a feltevéseket azonban nem lehet
+                        kellőképpen bizonyítani. (Vö. <bibl><hi rend="smallcaps">Ján Mišianik</hi>:
+                                <title>Adalékok a szlovák-magyar irodalmi kapcsolatokhoz a XVIII.
+                                század végéig. Tanulmányok a csehszlovák–magyar irodalmi kapcsolatok
+                                köréből</title>. Bp. 1965. 51.</bibl>)</p>
+<p xml:id="crit.1.p.7">A nótajelzésben idézett szlovák ének <persName>Luther</persName> 10. énekének
+                        fordítása. Nyomtatásban megjelent: <title>Katechysmus</title> D. M. Luthera.
+                                <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1634">1634</date>. (<bibl><abbr>RMK II</abbr>, 490</bibl>) és
+                        Tranowski: <title>Cithara sanctorum</title>. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1684">1684</date>. (<bibl><abbr>RMK II</abbr>,
+                    1551.</bibl>)</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. III, 21a–22b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 2.</fw>
+<head type="title">JGHEN SZÉP ENEKEK CHÉ NIELWBOL MAGIARRA FORDITOT</head>
+<head type="subtitle">ELSŐ ÉNEK</head>
+<head type="notation">Ad Notam Bud Boze muog sam Saudcze etc</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">A</hi>z isten magosaghbool</l>
+<l xml:id="l.2">Neez reank diczőségbeől</l>
+<l xml:id="l.3">Fordicza el haragiaat</l>
+<l xml:id="l.4">Mi feslet bw̋neinkteől</l>
+<l xml:id="l.5">Haicz fwleidet</l>
+<l xml:id="l.6">Eebrėzd lelkemet</l>
+<l xml:id="l.7">Dichirhessėm Tegedet.</l>
+<l xml:id="l.8">Jezu̇s Christus mi kegyelmes Vrunk</l>
+<l xml:id="l.9">Ėsedezél értűnk.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.10"><hi rend="bold">N</hi>e hagẏ hogi teőb bünt tegiünk.</l>
+<l xml:id="l.11">Mẏgh ez Vilȧgon eelűnk</l>
+<l xml:id="l.12">Agi mi nekunk mit kerűnk</l>
+<l xml:id="l.13">Mert te wagi az mi Vrunk</l>
+<l xml:id="l.14">Jóo remenszeget.</l>
+<l xml:id="l.15">Tista Vӳ sziwet.</l>
+<l xml:id="l.16">Jgaz S.wasztag ió hitet<note type="critic" xml:id="note.1">Vö. a <ref target="rmkt-17-12.tei.mg-7">7. sz. vers</ref> 9.
+                                sorával (Vasztag hittel).</note></l>
+<l xml:id="l.17">Jgazgazd S wezerellied eltemet</l>
+<l xml:id="l.18">Vekoni elmemet,</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.19"><hi rend="bold">N</hi>eweld raitam aldasod</l>
+<l xml:id="l.20">Fordiczd ream orczadot</l>
+<l xml:id="l.21">S.Vigaztȧld szolgálódot</l>
+<l xml:id="l.22">Maradgion aldomasod</l>
+<l xml:id="l.23">Hogi Jstenemet</l>
+<l xml:id="l.24">Vrr feőlsegedet</l>
+<l xml:id="l.25">Dichiriem Vegik teged<note type="critic" xml:id="note.2">Vö. az <ref target="rmkt-17-12.tei.mg-1">1. sz. ének</ref> 28.
+                                sorával (Teged dicziriem mind vegik).</note></l>
+<l xml:id="l.26">Mert te wagi nekem feȯ Vigaztalom</l>
+<l xml:id="l.27">Kegies Taplaloom:</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.28"><hi rend="bold">A</hi>z te hatalmasagod</l>
+<l xml:id="l.29">Niuiczd hozam te Szent karod</l>
+<l xml:id="l.30">Hogi hozad ragaskodgiam</l>
+<l xml:id="l.31">Keserwemben folliamiam.</l>
+<l xml:id="l.32">Ments szolgalodot</l>
+<l xml:id="l.33">Arwa voltomot</l>
+<l xml:id="l.34">Busult Allapatomot</l>
+<l xml:id="l.35"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Vram én Istenem ki wagi Menieghbėn</lem>
+<rdg wit="#W1" xml:id="rdg.1">Vram én Istenem ki wagi<note type="critic" xml:id="note.3"><hi rend="italic">Menieghbėn</hi> a kéziratban a következő sorba
+                                    került.</note></rdg>
+</app></l>
+<l xml:id="l.36"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Vegi kegielmedben,</lem>
+<rdg wit="#W1" xml:id="rdg.2">Menieghbėn Vegi kegielmedben,</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.37"><hi rend="bold">C</hi>zintalansagnak féske</l>
+<l xml:id="l.38">Eördőgnek az eö keble</l>
+<l xml:id="l.39">Vilagnak keweliseghe</l>
+<l xml:id="l.40">Raitam ne legien hellie</l>
+<l xml:id="l.41">Nem Reteghettek</l>
+<l xml:id="l.42">Mẏg alok S-éllek</l>
+<l xml:id="l.43">Hatalmoktol nem félek</l>
+<l xml:id="l.44">Istenemnek hatalmaban en bizom</l>
+<l xml:id="l.45">Less meg maradassom.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.46"><hi rend="bold">O</hi> vram S.ėn Wezerem</l>
+<l xml:id="l.47">Ohait tegedet Lelkem.</l>
+<l xml:id="l.48">Szwntelėn fohaskodik</l>
+<l xml:id="l.49">S-Te hȯzad ragaskodik.</l>
+<l xml:id="l.50">Eelezd lelkemet</l>
+<l xml:id="l.51">Megh hw̋lt sziwemet</l>
+<l xml:id="l.52">Eerczem te szent igedet</l>
+<l xml:id="l.53">Hogi szent newedet en Tistelliem</l>
+<l xml:id="l.54">Es diczirhessem,</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.55"><hi rend="bold">B</hi>oczasd meg bwneimet</l>
+<l xml:id="l.56">Vndok rut weetkeimet</l>
+<l xml:id="l.57">Kit naponkint vetkeztem</l>
+<l xml:id="l.58">Semeid előtt eelwėėn.</l>
+<l xml:id="l.59">Alazatossan</l>
+<l xml:id="l.60">Buzgosagossan</l>
+<l xml:id="l.61">Köniőrgök terdem haitwan</l>
+<l xml:id="l.62">Tegedet én istenemet Jmadom</l>
+<l xml:id="l.63">Ki wagi vduoziteom</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.64"><hi rend="bold">O</hi> Eördőg S.Te weėn kigio</l>
+<l xml:id="l.65">Karhozatrȧ vetendeö</l>
+<l xml:id="l.66">Kẏ eleinket chaltál</l>
+<l xml:id="l.67">S.Hamis practikaiddal</l>
+<l xml:id="l.68">Tolėd nem félwéén</l>
+<l xml:id="l.69">Mert hiwán melleem</l>
+<l xml:id="l.70">Kerest fȧn fwggöt ertem</l>
+<l xml:id="l.71">Iezus Christu̇s ki tegedet meg rontod<note type="critic" xml:id="note.4">olv.
+                        rontott</note></l>
+<l xml:id="l.72">S.Menibeȯl Tasitod<note type="critic" xml:id="note.5">olv. taszított</note></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.73"><hi rend="bold">R</hi>emeniszegemet vettem</l>
+<l xml:id="l.74">Te benned een İstenem</l>
+<l xml:id="l.75">Mig it romlot v̈ilagon</l>
+<l xml:id="l.76">Arniekaban elhetweén</l>
+<l xml:id="l.77">Hogi chendesseghben.</l>
+<l xml:id="l.78">Tista elettben</l>
+<l xml:id="l.79">Mehessek te elődben</l>
+<l xml:id="l.80">Adgi igaz hitet kerest viselésben</l>
+<l xml:id="l.81">Hozad menesbėn.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

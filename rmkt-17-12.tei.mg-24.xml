@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">24.</title>
+<title key="body" n="24" type="main">(Jo Szerencheben magadat el ne higÿ...)</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-24</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 9.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr> 219–20.</bibl></p>
+<p xml:id="crit.1.p.3">A latin vers <persName>Cato</persName> bölcs mondásai IV. könyvének 26.
+                        disztichonja. Fejtegetéseiben azonban Madáchot főként Máté evangéliumának a
+                        gonosz szolgáról szóló példabeszéde ihleti (<bibl>18,23–34.</bibl>); de a
+                        követésre a hamis (= okos!) sáfár példáját (<bibl>Luk. 16,1–9.</bibl>)
+                        ajánlja.</p>
+<p xml:id="crit.1.p.4">A kézirat tisztázat, utólagos simítgatásokkal.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. II, 9.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 24.</fw>
+<head type="motto"><l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Tranquilis in rebus 
+                                
+                                quae
+                             sunt aduersa caueto
+                </lem><rdg wit="#W1" xml:id="rdg.1"><add type="insert">in</add> rebus <choice>
+<orig>qua</orig>
+<corr>quae</corr>
+</choice><note type="critic" xml:id="note.1">A disztichon első
+                                sorában az <hi rend="italic">in</hi> utólagos beszúrás, ugyanazzal a
+                                halvány színű tintával javították ki a <hi rend="italic">quae</hi>-t
+                                    <hi rend="italic">qua</hi>ból.</note></rdg></app></l>
+<l xml:id="l.2">Rursus in aduersis melius sperare memento</l></head>
+<lg xml:id="lg.1">
+<l xml:id="l.3">Jo Szerencheben magadat el ne higÿ</l>
+<l xml:id="l.4">Mert olẏ az Szerenche mint az gonoz mirigi</l>
+<l xml:id="l.5">Lattia hogi masznak io, eö ahoz olẏ Jrigẏ</l>
+<l xml:id="l.6">Nintsen semmi Jóra eö keozoteők az frigÿ</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7">Mert az Serenchenek az eȯ kerekeÿ</l>
+<l xml:id="l.8">Meli feliul Vagion hamar alul eiti</l>
+<l xml:id="l.9">Ȧz kẏ alul wagion feliűl heliheztetẏ</l>
+<l xml:id="l.10">Vdwar tisztinekis igi wagion kelletẏ</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11">Gonoz Serenchietw̋ l magát<note type="critic" xml:id="note.2">olv. magad</note>
+                        oltalmazni</l>
+<l xml:id="l.12">Remenszeged legien ha kezdes el eszni</l>
+<l xml:id="l.13">Saphar peldaiaẇal magadat biztatni</l>
+<l xml:id="l.14">Mikor erös szamot teőled kezdnek wenni</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.15">Samadasban ha engednek fel ne fualkodgial</l>
+<l xml:id="l.16">Fele Baradtoddal meg ne haragudgial</l>
+<l xml:id="l.17">Adoszagott felȯl wele meg alkudgial</l>
+<l xml:id="l.18">Vradnak haragiát feiedre ne voniál<note type="critic" xml:id="note.3">11–16 Az okos sáfár
+                            példáját lásd <bibl>Luk. 16,1–9.</bibl></note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.19">Ne huzanak Zolgai kegietlen teőmlőtzben<note type="critic" xml:id="note.4">Ez a sor már a
+                            gonosz szolga esetére vonatkozik, akire a 45. sorban is utal. (Vö.
+                                <bibl>Máté 18,23–34.</bibl>)</note></l>
+<l xml:id="l.20">Kiknek semmi iowal nem Voltal eltedben</l>
+<l xml:id="l.21">Baratszagtalanul eltel mind ezekben</l>
+<l xml:id="l.22">Mamombul<note type="critic" xml:id="note.5"> = gazdagságból, földi javakból</note> te sedtel
+                        magadnak kebledben.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.23">Irigi moszt ez wilag azt minden iol tudgia</l>
+<l xml:id="l.24">Torkos Tisztartokon minden sem lathatia</l>
+<l xml:id="l.25">Mihent walamit lát eö hamar el rantia</l>
+<l xml:id="l.26">Ladaia feneket predawal Takarẏȧ.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.27">Mosztani Tisztartok chiak az pinzt giűtesben</l>
+<l xml:id="l.28">Kőweretik magokat hamis keressettben</l>
+<l xml:id="l.29"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Nem nezik azt iol meg mint vlnek az Tistben,</lem><rdg wit="#W1" xml:id="rdg.2">meg <del>hogi</del> <add place="above" type="insert">mint</add> vlnek az <del>Sekben</del><add place="above" type="insert">Tistben</add></rdg></app></l>
+<l xml:id="l.30"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Tistbwl le eszwėn hewernek Tőmleőczben</lem><rdg wit="#W1" xml:id="rdg.3"><del>Sekbẅl</del> <add place="below" type="insert">Tistbwl</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.31">Vroknak nem nezik sok karwalaszokat</l>
+<l xml:id="l.32">Tsak eök toltheszék meg buzawal kaszokat</l>
+<l xml:id="l.33">Penzel rakhaszak meg Vassonios Zakokat<note type="critic" xml:id="note.6">Vassonios Zakokat = vászonzsákjukat, pénzes zacskójukat</note></l>
+<l xml:id="l.34">Takarhaszak el szok niert predaiokat,</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.35">Vrok marhaiat el adgiák io pénzen</l>
+<l xml:id="l.36">Penzit magoknak tartiak erszeniekben</l>
+<l xml:id="l.37">S. Forgodik az szok ruhȧ serzeseben</l>
+<l xml:id="l.38">Sekreniel kw̋ ldozik maszuwȧ sekerben,</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.39">Tẏst wiszeleszekben baratsagtalannok.</l>
+<l xml:id="l.40">Attiafiaihoz haszontallannok.</l>
+<l xml:id="l.41">Gazdag hellien V ̋ lwen fel fualkodók</l>
+<l xml:id="l.42">Kewelszegekben ember nem bechw̋ leők</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.43">Okossak legietek Tisztartok tẏ ebben</l>
+<l xml:id="l.44">Sok Baratotok legien tẏ nektek az Tistben</l>
+<l xml:id="l.45">Mikor szamadaszra iuttok mind ezekben</l>
+<l xml:id="l.46">Meletetek fogianak igaz igietekben</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.47">Ne iariatak vgi mint az gonoz Saphar</l>
+<l xml:id="l.48">Melinek keözel woltat kerẇli az Hohár<note type="critic" xml:id="note.7"> = hóhér. Hasonló
+                        rímhelyzetben lásd a <ref target="rmkt-17-12.tei.mg-39">39. sz. ének</ref> 43. sorában.</note></l>
+<l xml:id="l.49">Noha meeg teli ál haragal az pohaar</l>
+<l xml:id="l.50">Kiknek niakaban haag az ket eleö poslar<note type="critic" xml:id="note.8">két eleö poslar = kétélű kard</note></l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.51">Oltalmazon Isten benetek ézekteől</l>
+<l xml:id="l.52">Az vratoknak haragȯs kezekteől</l>
+<l xml:id="l.53">Ne szakaszon el az eö Hwszegeteöl</l>
+<l xml:id="l.54">S kegies eletnek ioszagos voltatól</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="supplement" n="7" type="main">FRÁTER ISTVÁN</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-jegyzetek</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">FRÁTER ISTVÁN</head>
+<head type="subtitle">ÉLETE</head>
+<p xml:id="p.1">Életéről kevés adattal rendelkezünk. A család levéltárának egykor az OL-ban
+                    őrzött részlege <date when="1945">1945-ben</date> nagyrészt elpusztult. Más
+                    része Romániában a <placeName>nagyváradi<idno type="ITIdata">Q96</idno></placeName> Tartományi Múzeumban
+                    volt.</p>
+<p xml:id="p.2">Annak a <persName>Fráter Pálnak<idno type="ITIdata">Q145171</idno></persName> volt a fia, akinek egy versét az
+                        <abbr>RMKT XVII/9.</abbr> kötetében az 54. szám alatt közöltük.
+                    <persName><hi rend="smallcaps">Móricz Béla</hi></persName> szerint (<bibl><title>Két XVII. századi
+                            énekszerző életrajzához. Fráter Pál, Fráter István</title>.
+                            <abbr>ItK</abbr> 1975, 461–62</bibl>) <date when="1630">1630</date>
+                    körül született a Bihar megyei
+                    <placeName>Érkeserűben<idno type="ITIdata">Q16449</idno></placeName>. Jószágaiból a török <date when="1660">1660-ban</date> űzte el, amikor <placeName>Nagyváradot<idno type="ITIdata">Q96</idno></placeName>
+                    elfoglalta. <persName>Fráter István<idno type="ITIdata">Q41647</idno></persName> a
+                    Felvidékre bujdosott, egy ideig
+                        Abaújban élt. Az <date when="1670">1670</date>-es
+                    évek elején <persName>Apafi Mihály<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> szolgálatába állott. <date from="1675">1675-től</date> a <placeName>huszti<idno type="ITIdata">Q150</idno></placeName> vár alkapitánya
+                    volt.</p>
+<p xml:id="p.3"><placeName>Huszt<idno type="ITIdata">Q150</idno></placeName> a Thököly család jószága volt. <date when="1667-05">1667 májusában</date> az erdélyi fejedelem országos
+                    őrséget küldött oda, mely többé onnan nem vonult ki. <date when="1671-03">1671
+                        márciusában</date> pedig, nem sokkal <persName>Thököly Imrének<idno corresp="Thököly Imre" type="ITIdata">Q160737</idno></persName>
+                    az erdélyi bujdosásba való érkezése után, <persName>Apafi<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> elfoglalta
+                    a <placeName>huszti<idno type="ITIdata">Q150</idno></placeName> uradalmat, saját tisztjeire bízta annak
+                    igazgatását. Csak a birtokba vétel után kezdett alkudozást
+                    <persName>Thökölyvel<idno corresp="Thököly Imre"/></persName> és a többi örökössel. Ez sokáig elhúzódott,
+                        <date when="1673-06-16">1673. június 16-án</date> fogadta el
+                        <persName>Thököly<idno corresp="Thököly Imre"/></persName> kényszerűségből a felkínált egyezséget. Az ez
+                    évi <placeName>gyulafehérvári<idno type="ITIdata">Q16686</idno></placeName> országgyűlésen, <date when="1673-11-18">november 18-án</date> <placeName>Huszt<idno type="ITIdata">Q150</idno></placeName> várát a
+                    hozzátartozó jószágokkal, sóaknákkal s minden jövedelmekkel a fejedelem a
+                    feleségének inskribáltatta. (<bibl><hi rend="smallcaps">Angyal Dávid</hi>: <title>Thököly Imre</title>.
+                        Bp. 1888. I. 107–15.</bibl>) <persName>Thököly<idno corresp="Thököly Imre"/></persName> azonban még évek
+                    múlva is igényt támasztott <placeName>Husztra</placeName>. Az ügyet a portánál
+                    is tárgyalták, s csak <persName>Thököly<idno corresp="Thököly Imre"/></persName>
+<date when="1685">1685-i</date> nagyváradi
+                    letartóztatásával került le a napirendről. (<bibl><hi rend="smallcaps">Trócsányi Zsolt</hi>: <title>Teleki
+                            Mihály. Erdély és a kuruc mozgalom 1690-ig</title>. Bp. 1972.</bibl> Vö.
+                    a „Leszámolás Thökölyékkel” című fejezettel a 286–94. lapokon!)</p>
+<p xml:id="p.4"><persName>Fráter István</persName>
+                    huszti vicekapitányt éppen <date when="1685">1685-ben</date> gyanúsították azzal, hogy <persName>Thököly<idno corresp="Thököly Imre"/></persName> kezére
+                    dolgozik, mivel <persName>Thökölynek<idno corresp="Thököly Imre"/></persName> Erdélybe küldött követeit
+                    <persName>Apafi Mihály<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> akarata ellenére bebocsátotta az országba.
+                    (L. <bibl>uo. 289.</bibl>) Talán éppen felettesének (<persName>Teleki
+                        Mihály<idno type="ITIdata">Q47477</idno></persName> volt <placeName>Huszt<idno type="ITIdata"/></placeName> főkapitánya, de nem ott
+                    tartózkodott!) akarta megnyerni vagy visszaszerezni a bizalmát a számára
+                    letisztáztatott, neki ajánlott versekkel.</p>
+<p xml:id="p.5">Versein kívül huszti alkapitánysága idejéből mindössze
+                    néhány levél, jelentés ismert <persName>Fráter Istvántól</persName>. Ezeket
+                        <date from="1681" to="1686">1681–1686</date> közt küldte
+                    <persName>Bornemisza Annának<idno corresp="Bornemisza Anna" type="ITIdata">Q41904</idno></persName>, <persName>Apafi
+                            Mihálynak<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName>, <persName>Telekinek<idno corresp="Teleki Mihály"/></persName>. <date when="1681-09-04">1681. szeptember 4</date>-ről (<bibl><abbr>EOE XVII</abbr>, 218</bibl>),
+                        <date when="1683-11-24">1683. november 24</date>-ről (<bibl><abbr>EOE
+                            XVIII</abbr>, 170</bibl>) ránk maradt a fejedelemasszonyhoz írt levele.
+                        <date when="1683-11-29">1683. november 29-én</date> <persName>Teleki
+                            Mihálynak<idno type="ITIdata">Q47477</idno></persName> jelent <persName>Thökölyről<idno corresp="Thököly Imre" type="ITIdata">Q160737</idno></persName>, a kurucok
+                        Szatmár megyei foglalásairól (<bibl>uo.
+                    176–77</bibl>); ugyanőneki írja meg <date when="1685-04-20">1685. április
+                        20-i</date> kelettel, hogyan pusztítanak a németek az
+                    <placeName>ungvári<idno type="ITIdata">Q10453</idno></placeName> és a <placeName>munkácsi<idno type="ITIdata">Q10841</idno></placeName>
+                    krajnákon (<bibl>uo. 336–37</bibl>). <date when="1686-11-22">1686. november
+                        22-én</date> a fejedelemnek jelent <placeName>Munkács<idno type="ITIdata">Q10841</idno></placeName>
+                    ostromáról, <persName>Caraffáról<idno corresp="Antonio Caraffa"/></persName>. (<bibl><abbr>EOE XIX</abbr>,
+                        73–74.</bibl>)</p>
+<p xml:id="p.6">Az <bibl><abbr>EOE XVII</abbr>, 287–89.</bibl> lapjai tartalmazzák az <date when="1682-06-20">1682. június 20-án</date> kelt térítvényét, melyet
+                    <persName>Apafi Mihálynak<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> adott, hogy igaz szolgája lesz
+                    várukban, azt építi, munícióval ellátja és oltalmazza minden
+                        husztvári és mármarosi
+                    jószágával együtt. <date when="1683-10-19">1683. október 19-én</date>
+<persName>Naláczi István<idno type="ITIdata">Q166046</idno></persName> tanácsosnak arról számol be, hogy
+                    <placeName>Husztban<idno type="ITIdata">Q150</idno></placeName> félnek az arrafelé száguldozó tatároktól;
+                    egyúttal <persName>Thököly Imréről<idno corresp="Thököly Imre" type="ITIdata">Q160737</idno></persName> szóló híreket is közöl levelében.
+                            (<bibl><abbr>EOE XVIII</abbr>, 167.</bibl>)</p>
+<p xml:id="p.7"><persName><hi rend="smallcaps">Nagy Iván</hi></persName> szerint élete utolsó két évtizedét Huszton
+                    töltötte. Háromszor nősült, 12 gyermeke született, akik közt ingó és ingatlan
+                    jószágait lelkiismeretesen szétosztotta. (<bibl>Magyarország családai. IV. Pest
+                        1858. 460–61.</bibl>) <persName><hi rend="smallcaps">Móricz Béla</hi></persName> azt írja, hogy <date from="1675" to="1688">1675-től 1688-ig</date> volt
+                    <placeName>Huszton<idno type="ITIdata">Q150</idno></placeName> alkapitány. Ez utóbbi évben a várat a
+                    császáriak vették át. (<bibl>I. m. 462.</bibl>)</p>
+<p xml:id="p.8"> Adatunk van rá, hogy <persName>Teleki Mihály<idno type="ITIdata">Q47477</idno></persName>
+<date when="1689">1689</date> elején a <placeName>Fogaras<idno type="ITIdata">Q9076</idno></placeName> vidéki
+                        kercsesórai uradalomhoz tartozó
+                    <placeName>Holbákot<idno type="ITIdata">Q475038</idno></placeName> <persName>Fráter Istvántól</persName>
+                    magához váltotta. Az ez év <date when="1689-02-06">február 6-án</date> adott
+                    bizonyságlevél szerint <persName>Fráter István</persName> azért adta el ezt a
+                    falut <persName>Telekinek<idno corresp="Teleki Mihály"/></persName>, hogy a maga házához közelebb fekvő
+                    jószágot szerezzen. (<bibl><hi rend="smallcaps">Trócsányi</hi>: i. m. 303.</bibl>)
+                    <persName><hi rend="smallcaps">Trócsányi</hi><idno corresp="Trócsányi Zsolt"/></persName> a birtokügy mögött politikai indokot lát:
+                    „tény, hogy az alkapitány 1685-ben Thököly-pártiság
+                    gyanújába esett, s Teleki igényeivel 1689-ben egy
+                    familiarisszintű nemesnek jobb volt nem szembeszegülni” (<bibl>uo.</bibl>).</p>
+<p xml:id="p.9"><date when="1703">1703-ban</date> halt meg.</p>
+<p xml:id="p.10">
+                VERSEI</p>
+<p xml:id="p.11"><persName>Fráter István</persName> kötetünkben közölt verseinek (kiad.
+                    <bibl><hi rend="smallcaps">Alszeghy Zsolt</hi>: K. Fráter István versei Teleki Mihályhoz <date when="1684">1684</date>-ből. ItK 1917, 201–14</bibl>) másolatát az
+                        <bibl>MTA kézirattárának K 92.</bibl> (régebbi jelzete: RUI 4° 62.) jelzetű,
+                    aranyozott bőrkötésű, könyvírással írt kézirata tartalmazza. A tábláján kívül
+                    „A. M. V. SZ. TELEKI MIHÁLY V. A. K. F. I. 1684.”, belül a harmadik lapon mint
+                    címlapon: „PARAPHRASIS RHITHMICA AZ AZ VERSES MAGYARÁZAT K: F: I: H: K: (=
+                    Keserűi Fráter István huszti kapitány) által. MDCLXXXIV. Esztendöben. Descripta
+                    per manus Stephani Ujhelyi.” bejegyzések olvashatók.</p>
+<p xml:id="p.12">A bekötött füzet első és hátsó táblájára ragasztott leveleken csaknem azonos
+                    szövegű latin nyelvű ajánló sorokat találunk, melyeket <persName>Fráter
+                        István</persName>
+<persName>Teleki Mihályhoz<idno type="ITIdata">Q47477</idno></persName> írt.</p>
+<p xml:id="p.13">Dátuma szerint a hátsó táblán lévőt előbb írta. Így hangzik:</p>
+<p xml:id="p.14">„Jnclytissime Heros ac Domine Michael Teleki, Mihi et meis alta semper memoria Colendissime! Paraphrasin hanc
+                Rithmicam (:quo ad Hungaricum:) per me a primis usque ad ultimos characteres ecclypsante fateor ingenio inter otia compositam,
+                (:calamo tamen alieno descriptam.), Favoris et Gratiae Tuae Phoebo Luminandam subjcio ac quasi votivam tabellam appendo ad
+                aras Jllustrissimae Tuae dignitatis, rogans enixius, ut tesellum et Tanto quidem Nomine indignum munus propenso Benignus
+                suscipias animo. Ex Arce Huszt 12 Februarii 1685.</p>
+<p xml:id="p.15">Mittit Devotissimus Jllustrissimae Dominationis Vestrae Servus Stephanus Fráter mp.”</p>
+<p xml:id="p.16">Pár nappal későbbről kelt az első táblán olvasható szöveg:</p>
+<p xml:id="p.17">„Illustrissimo Domino Michaeli Teleki de Szék magna magnorum Titulorum Serie Spectatissimo etc.</p><p xml:id="p.18">
+                Jnclyte Heros ac Domine mihi et meis alta semper memoria ob tua in nos merita Colendissime! Paraphrasin hanc
+                rithmicam (:quo ad Huncaricum:) a Supremis ad extremos characteres ecclypsante fateor ingenio per me compositam, manu
+                quidem aliena descriptam, favoris, et gratiae Tuae Phoebo Luminandam subjicio ac quasi votivam Tabellam appendo ad aras
+                Jllustrissimi Tui nominis: rogans enixius ut tenellum et Tanta Dignitate indignum Munus, aequa mente gratoque suscipias animo.
+                Ex Arce Huszt 18 Februarii 1685. transmittit Devotissimus Illustrissimae [Dominationis] Vestrae Servus Stephanus Frater mp.”</p>
+<p xml:id="p.19">Az <date when="1684">1684-ben</date> letisztázott és szépen bekötött verseket
+                    tehát <persName>Fráter István</persName>
+<date when="1685-02-18">1685. február 18-án</date> küldte el <persName>Teleki
+                        Mihálynak<idno type="ITIdata">Q47477</idno></persName>.</p>
+<p xml:id="p.20">A kézirat első levele üres. A második levél rektóján az idézett címet
+                    olvashatjuk. Verzóján <persName>Fráter István</persName> címere foglal helyet:
+                    egy koronából derékig kiágaskodó ló, melynek a szügyén át behatolt kard hátul, a
+                    nyak alatt távozik a testből. Magában a rajzban S: F: D: K: C: H: betűk
+                    olvashatók. (Stephanus Fráter De Keserű Castrum Huszt.) A címert keretező kettős
+                    körvonal között: CHRISTUS SPES ET ANCHORA VITAE. A címer fölött és alatt két-két
+                    sor vers:</p>
+<lg xml:id="lg.1"><l xml:id="l.1">Régi Eleimnek, ez Példás Czimere,</l>
+<l xml:id="l.2">Hartzon jó Lovának szügyiben ment Tőre.</l>
+<l xml:id="l.3">Jele; Hazájáért, szakatt teste ere,</l>
+<l xml:id="l.4">–s– Az szép szabadságért, omlott piross vére.</l></lg>
+<p xml:id="p.21"> Az ötödik levéltől a tizenharmadikig négy csoportosításban ún. gnómaversek következnek számozatlanul. Mindenhol elöl
+                áll a latin szöveg, ezt követi a magyarra átültetés. Cím sehol sincs.</p>
+<p xml:id="p.22">Az első csoportot 41 versike képezi (1–123. sor). A 30. kivételével valamennyi
+                    egy-egy latin disztichonnak egy-egy Balassi-strófában való fordítása (5a–9a). A
+                    9a lapon már csak két strófa olvasható, utána záródísz következik. A 9b–10a
+                    lapon, fejlécdísz után nyolc versike van (124–147. sor). Hogy egységet alkotnak,
+                    az jelzi, hogy záródísz következik utánuk. Nyolc rövid prózai mondást és ezeknek
+                    magyarra való fordítását, jobban mondva parafrázisát találjuk ebben a csoportban
+                    szintén Balassi-versszakokban. Hasonló módon elkülönülnek a 10b–12a lapok
+                    versei, összesen 21. Közülük az 1–19. (148–185. sor) egy-egy disztichonnak
+                    kétsoros felező tizenkettesben, a 20–21. (186–189. sor) pedig egy-egy latin
+                    verssornak ugyancsak kétsoros tizenkettesben való fordításai. Ezt a versformát
+                    használta <persName>Fráter<idno corresp="Fráter István"/></persName> valamennyi további szerzeményében. Még a
+                    12a lapon kezdődik a következő csoport, mely a 13b lapon ér véget (190–239.
+                    sor). Nagyobbrészt disztichonokat (egy ízben párosat), négy esetben prózai
+                    szöveget fordít itt négysoros versszakokban. Az utolsó, a tizenkettedik
+                    közmondás fordítása azonban 12 sorból, azaz 3 versszakból áll.</p>
+<p xml:id="p.23"> A kézirat második darabja szentírási példákkal bizonyított tanítás különböző
+                    erényekről, vétkekről 46 négysoros versszakban a 14a–18b leveleken. A versikék
+                    képsorozat leírásának tetszenek magyarázó-tanító jelleggel. Ezt követi a 18b
+                    lapon Szent Pál korintusiakhoz írt második levelének (12. fejezet, 7–9. versek)
+                    gondolataiból kiinduló könyörgés Istenhez. A 19ab levélen olvasható cím nélküli
+                    fohász versfői <persName>Fráter István</persName> nevét adják. A 20. levél
+                    rektóján találjuk az olvasóhoz szóló ajánlóverset és a berekesztés két
+                    strófáját. Ez utóbbi a lap alján díszes keretben foglal helyet, a szereztetés
+                    körülményeiről, helyéről tájékoztat. A 20b–23b levelek üresek.</p>
+<p xml:id="p.24">Témájukat tekintve <persName>Fráter István</persName> versei az elmélkedő
+                    sztoikus költészetet képviselik. Elsősorban a latin sorok fordításai. Ezek
+                    egy-egy szentencia, közmondás, szállóige erkölcsi tanítását, életbölcsességét
+                    fejtegetik. A kézirat 7–10. számú darabjainak hangja személyes jellegű; míg a
+                    gnómák és „példás versek” latin szövegekre, illetőleg bibliai részekre
+                    támaszkodnak, ez utóbbiak eredeti alkotások.</p>
+<p xml:id="p.25"> A latin szentenciák magyarra ültetését a kézirat négy jól elkülönített részre osztva tartalmazza. Ezt a csoportosítást
+                bizonyára az eddig ismeretlen források értetnék meg. Az egyes részeken belül ugyanis bizonyos eszmei rokonság állapítható meg.
+                Minthogy azonban a négy csoport vers tematikailag mégis egységes elgondolás alapján állt össze egy kisebb ciklussá, a
+                „paraphrasis rhitmica” sorait folyamatosan számoztuk kiadásunkban, csillaggal elválasztva az elkülönülő részeket.</p>
+<p xml:id="p.26">Valószínű, hogy a latin gnómaverseket, bölcs mondásokat nem <persName>Fráter István</persName> válogatta össze, hanem már így találta őket összegyűjtve.
+                    A latin szentenciák között különböző eredetűeket találunk. Egyesek klasszikus
+                    szerzőkre nyúlnak vissza, a tőlük átvett sort vagy sorokat fordítja le
+                        <persName>Fráter István</persName>, illetőleg az ő gondolataikat fűzi
+                    tovább. <persName>Ovidiusból</persName> való pl. a 113/XXXIII. (<bibl>Ex Ponto ,
+                        I. 2,123–24.</bibl>), a 113/XLI. (<bibl>Amor. III. 8,55.</bibl>), a 115/III.
+                        (<bibl>Met. XIV. 113.</bibl>); <persName>Juvenalisból</persName> a 113/XVI.
+                        (<bibl>Sat. XIII. 20.</bibl>); <persName>Horatiusból</persName> a 114/VI.
+                        (<bibl>Carm. IV. 4,29.</bibl>); <persName>Claudianusból</persName> a
+                    113/XXI. (<bibl>Panegyr. de quarto cons. Honorii 290.</bibl>). Középkori eredetű
+                    a 113/XXXVII. (<bibl><hi rend="smallcaps">Edmond Faral</hi>: <title>Les Arts poétiques du 12e et du 13e
+                            siècles</title>. Paris 1924</bibl>); 115/I. (<bibl>W. A. PANTIN:
+                            <title>A Medieval Collection of Latin and English Proverbs and Riddles
+                            from the Rylands Latin Ms</title>. 394, 109</bibl>). Hasonlóképpen régi
+                    időkre nyúlik vissza a 113/XXXVIII. (<bibl><title>Carmina
+                            proverbialium...</title> Basiliae 1576. 298</bibl>; <bibl>De Seybold:
+                        Viridiarium selectissimis paroeminarum et sentionarum Latino-Germanicarum
+                        flosculis. Nurinbergae 1677. 298</bibl>); a 113/X. (<bibl>Hier. Megisero:
+                            <title>Poroimiologia Polyglottos, hoc estproverbia et
+                            sententiae...</title> Lipsiae 1605</bibl>); 115/IX. (<bibl>Uo.
+                        74.</bibl>)</p>
+<p xml:id="p.27">Néhány szállóigét forrásuk megjelölése nélkül megtalálunk pl. <persName><hi rend="smallcaps">Margalits
+                    Ede</hi><idno type="ITIdata">Q158659</idno></persName> gyűjteményeiben (<bibl><title>Florilegium proverbiorum
+                            universale latinitatis</title>. Bp. 1895</bibl> és
+                            <bibl><title>Supplementum ...</title> Bp. 1910</bibl>): 113/VII.,
+                    114/VIII., XVIII., XX., XXI. A 114/XX. megvan <bibl><hi rend="smallcaps">Thomas Benfield Harbotte</hi>
+<title>Dictionary of Quotations</title> (Classical) (New York.)</bibl>
+                    kiadványában. Többnek lelőhelyére bukkanunk <bibl><hi rend="smallcaps">Hans Walter</hi>: <title>Proverbia
+                            sententiaeque latinitatis medii aevi</title> (Göttingen <date when="1969">1969</date>)</bibl> köteteiben.</p>
+<p xml:id="p.28">Az egyes versikék jegyzeteiben a források kérdésével nem foglalkozunk.</p>
+<p xml:id="p.29">Az igen tetszetős verskézirat tisztázatát végző <persName>Újhelyi
+                    Istvánt<idno type="ITIdata">Q60768</idno></persName> meg kell különböztetnünk hasonnevű prédikátor
+                    kortársától. <persName>Újhelyi Pálnak</persName> (egy időben
+                    <placeName>huszti<idno type="ITIdata">Q150</idno></placeName> prefectus volt) volt a fia. Ifjú korában,
+                    valószínűleg <date from="1678" to="1683">1678 és 1683 közt</date>
+<persName>Apafi Mihály<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> fejedelemnek volt az íródeákja. Ilyen
+                    minőségben másolhatta le a fejedelem testvére, <persName>Apafi Anna</persName>
+                    számára <date when="1677">1677-ben</date> <placeName>Fogarasban<idno type="ITIdata">Q9076</idno></placeName> a
+                    szintén csinos kiállítású „Orvosságos könyvet”. (<bibl><hi rend="smallcaps">Debreczy Sándor</hi>:
+                            <title>Apafii Anna orvosságos könyve</title>. <abbr>ErdMúz</abbr> 1940,
+                        322–24.</bibl>)</p>
+<p xml:id="p.30">A fejedelmi pár kívánságára <persName>Ovári Keszei János<idno type="ITIdata">Q52164</idno></persName> nevű társával
+                    együtt hallás után lejegyezte <persName>Apafi<idno corresp="I. Apafi Mihály" type="ITIdata">Q140180</idno></persName> udvari papjának,
+                    <persName>Tofeus Mihálynak<idno type="ITIdata">Q66053</idno></persName> a fejedelmi udvar színe előtt <date from="1679-05-30" to="1682-05-12">1679. május 30-tól 1682. május
+                        12-ig</date> tartott zsoltármagyarázatait, melyek nyomtatásban is napvilágot
+                    láttak <title>A’ Sent Soltarok Resolutioja</title> címmel.
+                        (<placeName>Kolozsvár<idno type="ITIdata">Q258</idno></placeName>
+<date when="1683">1683</date> – <bibl><abbr>RMK I</abbr>, 1302.</bibl> – Vö.
+                    <bibl><hi rend="smallcaps">Esze Tamás</hi>: <title>Az első magyar gyorsíró</title>. Az Út 1952, 16.
+                        sz.</bibl>)</p>
+<p xml:id="p.31">A XVIII. század fordulóján magyarra ültette át <persName>Drexel János<idno/></persName>
+                    Heliotropium-át Magyar Napraforgóvirág címmel. Ennek kinyomtatásáért
+                    <persName>II. Rákóczi Ferenchez<idno type="ITIdata">Q155499</idno></persName> folyamodott, nyomtatásban azonban
+                    nem jelent meg. (<date when="1703-12-17">1703. december 17-i</date> keltezésű
+                    levelét kiad. <bibl><hi rend="smallcaps">Esze Tamás</hi>: <title>A Magyar Napraforgóvirág</title>.
+                            <abbr>Egyht</abbr> 1943, 334–35.</bibl>)</p>
+<p xml:id="p.32">
+<date from="1688">1688-tól</date> Ugocsa megye
+                    jegyzőjeként említik. <persName>Pekri Lőrinc<idno/></persName> egy levele szerint <date when="1706-04-18">1706. április 18-án</date> már nem élt. Ennek az évnek az
+                    elején halhatott meg. (Vö. <bibl>uo. 336.</bibl>)</p>
+</div>
+</body>
+</text>
+</TEI>

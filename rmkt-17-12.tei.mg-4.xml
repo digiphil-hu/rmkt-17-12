@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">4.</title>
+<title key="body" n="4" type="main">HARMADIK EENEK</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-4</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k</hi>. III, 23b–24b.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, ItK 1901</abbr>,
+                            140–401.</bibl></p>
+<p xml:id="crit.1.p.3">A versfők: <hi rend="smallcaps">anna czobor</hi>.</p>
+<p xml:id="crit.1.p.4">A nótautalása idézett énekeit 1.: <bibl><title><hi rend="italic">Cithara
+                                    sanctorum</hi></title>. <placeName>Lőcse<idno type="ITIdata">Q8066</idno></placeName>
+<date when="1684">1684</date>. 496.</bibl></p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. III, 23b–24b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 4.</fw>
+<head type="title">HARMADIK EENEK</head>
+<head type="notation">Ad Notam, O Mylosrdnẏ Ocze nass etc</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">A</hi>z Vtnak ha ereddűnk</l>
+<l xml:id="l.2">Zent haromsagnak koniorgűnk</l>
+<l xml:id="l.3">Attiahȯz Fiuhȯz kialczunk.</l>
+<l xml:id="l.4">Szent Lelek legien batoritonk</l>
+<l xml:id="l.5">Es ő wele iariu̇ nk.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6"><hi rend="bold">N</hi>e ketelkedgiűnk az vrbȧn</l>
+<l xml:id="l.7">Mi vrunk Jezus Christusban</l>
+<l xml:id="l.8">Aad nekunk szerenches vtȧt</l>
+<l xml:id="l.9">Zent Angiali kiket mutat</l>
+<l xml:id="l.10">Gonoztol minket Tauoztat.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11"><hi rend="bold">N</hi>ė retenczen bator minket</l>
+<l xml:id="l.12">Félben sakastwȧn Jgiu̇ nket</l>
+<l xml:id="l.13">Wezereld chiak te feiűnket</l>
+<l xml:id="l.14">Io remenszegünkben</l>
+<l xml:id="l.15">Dolgainkott viheszuk wėghben</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16"><hi rend="bold">A</hi>z te Eorző Angialidot</l>
+<l xml:id="l.17">Bochasd es helihesteszed ott</l>
+<l xml:id="l.18">Ellőtu̇ nk iarion oszlopod</l>
+<l xml:id="l.19">Ne hadgion iőnni felenk gonozt</l>
+<l xml:id="l.20">Te hatalmasagod</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.21"><hi rend="bold">C</hi>zak az ioo chendeseghben</l>
+<l xml:id="l.22">Vton iarwán bekeseghben</l>
+<l xml:id="l.23">Sarniad ala minket végien</l>
+<l xml:id="l.24">Ellenszegektöl Eőrizween.</l>
+<l xml:id="l.25">Jol hazȧ Teritween.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.26"><hi rend="bold">Z</hi>ent Souetneket<note type="critic" xml:id="note.1">szövétneked,
+                            fáklyád</note> ellőtűnk</l>
+<l xml:id="l.27">Vilagosagot adgion nekűnk</l>
+<l xml:id="l.28">Te legi nekünk mi vezerűnk</l>
+<l xml:id="l.29">Mert neked mi keniorgűnk</l>
+<l xml:id="l.30">EIogi ne Tewelliedgiűnk</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.31"><hi rend="bold">O</hi> Vru̇ nk mi Jezusunk.</l>
+<l xml:id="l.32">Legi mi vtunkban feö Tarsu̇ nk</l>
+<l xml:id="l.33">Semmiwel teged meg ne banchunk.</l>
+<l xml:id="l.34">Legien maradasod velűnk</l>
+<l xml:id="l.35"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Eȯrdogh ne Archon mi nekűnk</lem><rdg wit="#W1" xml:id="rdg.1"><del>Hogi ne Tewelliediűnk</del> Eȯrdogh </rdg></app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.36"><hi rend="bold">B</hi>irr<note type="critic" xml:id="note.2">= Birj</note> es igázgȧs
+                        benűnket.</l>
+<l xml:id="l.37">Félre ne hȧgi vonni minket</l>
+<l xml:id="l.38"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Eoriz ejel nappal helliu<corr>n</corr>ket</lem><rdg wit="#W1" xml:id="rdg.2">helliumket</rdg>
+</app></l>
+<l xml:id="l.39">Kőniebits Lelkẏ Terhűnket</l>
+<l xml:id="l.40">Santalan bwnűnket</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.41"><hi rend="bold">O</hi> ne hagi ez mi vtunkban.</l>
+<l xml:id="l.42">Terits meg io Egeszeghben.</l>
+<l xml:id="l.43">Serenches Allapattunkban.</l>
+<l xml:id="l.44">S.Te kedwes aldȧszodban.</l>
+<l xml:id="l.45">Ioo Ȧldomasodban.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.46"><hi rend="bold">R</hi>aȧm Teriezd aldasodot</l>
+<l xml:id="l.47">Kegies Irgalmasagodot</l>
+<l xml:id="l.48">Hogi vegezhesűk vtunkot</l>
+<l xml:id="l.49">Hasnossan mi dolgainkot.</l>
+<l xml:id="l.50">Dichirwén teged vrunkot,</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

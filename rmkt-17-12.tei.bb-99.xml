@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">99.</title>
+<title key="body" n="99" type="main">(Bumra vonta latom vak világh harangját...)</title>
+<author>
+<surname>Balassa</surname>
+<forename>Bálint</forename><idno type="ITIdata">Q238621</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.bb-99</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.bb-jegyzetek">Jegyzetek: Balassa Bálint élete és művei.</ref></p>
+<p xml:id="crit.1.p.2">Kézirata: <bibl>OL Balassa-család levéltára. P 1761. 2. cs. 2.
+                        tétel</bibl>.</p>
+<p xml:id="crit.1.p.3">A versfők értelme: <hi rend="smallcaps">balassa baljnthe</hi>.</p>
+<p xml:id="crit.1.p.4"><persName>Balassának</persName> ezt a világ romlottságáról szóló szerelmi
+                        kicsengésű énekét eddig nem ismertük.</p>
+</note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: OL Balassa-család levéltára. P 1761. 2. cs. 2. tétel.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 99.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><hi rend="bold">B</hi>umra vonta latom vak világh harangját,</l>
+<l rend="level_2" xml:id="l.2">Keserüsegemnek gerjesztvén nagy langját,</l>
+<l rend="level_5" xml:id="l.3">Terjeszti haragját,</l>
+<l rend="level_4" xml:id="l.4">Hervasztván szivemben életem virágját.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><hi rend="bold">A</hi>rany idök vóltak neha, de el múltak,</l>
+<l rend="level_2" xml:id="l.6">Gyermek esztendeink azokhoz nem nyúltak,</l>
+<l rend="level_5" xml:id="l.7">Mert réghen el húltak,</l>
+<l rend="level_4" xml:id="l.8">Jstenes napjai melyekben nem dúltak.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><hi rend="bold">L</hi>angozó haraghnak tavol járt ereje,</l>
+<l rend="level_2" xml:id="l.10">Az vólt ez világhnak ki kellet ideje,<note type="critic" xml:id="note.1">ki
+                            kellet ideje – tavasza</note></l>
+<l rend="level_5" xml:id="l.11">S- nem romlot veleje,</l>
+<l rend="level_4" xml:id="l.12">Sok jóerkölczökel viragzott mezeje.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13"><hi rend="bold">A</hi>rany üdö után ezüszt következet,</l>
+<l rend="level_2" xml:id="l.14">S- viragzó kikelet után nyár érkezet,</l>
+<l rend="level_5" xml:id="l.15">Melly haragot szerzet,</l>
+<l rend="level_4" xml:id="l.16">De töb úndokságrúl nemis emlekezet.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><hi rend="bold">S</hi>zem latomásúnkra ezek mind elmúltak,</l>
+<l rend="level_2" xml:id="l.18">S- áláb való részbül más idök fordúltak,</l>
+<l rend="level_5" xml:id="l.19">S- mint egy ösz ugy vóltak,</l>
+<l rend="level_4" xml:id="l.20">Mert haszonért harczon sok emberek húltak.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21"><hi rend="bold">S</hi>em arany, sem ezüszt, sem réz idö immár,</l>
+<l rend="level_2" xml:id="l.22">Telbe jár ez világh, s- utólsó véghin jár,</l>
+<l rend="level_5" xml:id="l.23">Elis romol hamar,</l>
+<l rend="level_4" xml:id="l.24">S- meghis vaksághában magára jókat vár.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25"><hi rend="bold">A</hi>gyaggal öszve vert kemény vaszbúl vagyon,</l>
+<l rend="level_2" xml:id="l.26">Szép intésnek békét minden ember hagyon,</l>
+<l rend="level_5" xml:id="l.27">S- hogy ne verjék agyon,</l>
+<l rend="level_4" xml:id="l.28">Az igaz mondástúl bár hatra maragyon.</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1"><hi rend="bold">B</hi>ünre lagy mint az sár, de vasz megh
+                                    térés<corr>r</corr>e,</lem>
+<rdg wit="#W1" xml:id="rdg.1">térése</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.30">Aczél szive vagyon minden jó kérésre,</l>
+<l rend="level_5" xml:id="l.31">S- hajlandó sértésre,</l>
+<l rend="level_4" xml:id="l.32">Jótis magjarazni szokot gonosz részre.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2"><hi rend="bold">A</hi>tok alat hever, ninczén
+                                igasságha,</lem>
+<rdg wit="#W1" xml:id="rdg.2">Atok <del>helyet</del></rdg>
+</app></l>
+<l rend="level_2" xml:id="l.34">Ruczághban<note type="critic" xml:id="note.2">rútságban</note> megh rögzött, s- nagy azö rabságha,</l>
+<l rend="level_5" xml:id="l.35">S- nem látya vakságha,</l>
+<l rend="level_4" xml:id="l.36">Minthogy vak világhnak nincz világhossága.</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><hi rend="bold">L</hi>opások kisirtik türhetetlenségit,</l>
+<l rend="level_2" xml:id="l.38">Férje halál által veszti felesegit,</l>
+<l rend="level_5" xml:id="l.39">Nezed irigyczegit,</l>
+<l rend="level_4" xml:id="l.40">En megh nem foghatom undok dühössegit.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><hi rend="bold">J</hi>steni félelem igaz szeretettel,</l>
+<l rend="level_2" xml:id="l.42">Nincz józanságh, hivsegh jó igyekezettel,</l>
+<l rend="level_5" xml:id="l.43">S- szemérmes élettel,</l>
+<l rend="level_4" xml:id="l.44">Fiu sincz attyárúl jó emlekezettel.</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45"><hi rend="bold">N</hi>inczén tudománynak köztünk tisztességhe,</l>
+<l rend="level_2" xml:id="l.46"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Gazdagtúl szeginynek ninczén bekességhe,</lem><rdg wit="#W1" xml:id="rdg.3">Gaz<del>g</del><add type="corr">d</add>agtúl</rdg></app></l>
+<l rend="level_5" xml:id="l.47">S- sok sziv föszvényseghe,</l>
+<l rend="level_4" xml:id="l.48">Cselekszi, hogy pénzben világh reménséghe.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49"><hi rend="bold">T</hi>obzódás, hamisz hit, fosztás gyilkossagal,</l>
+<l rend="level_2" xml:id="l.50">Ragalmazás terem vasztagh hazugsaghal,</l>
+<l rend="level_5" xml:id="l.51">Rakva czalardczagal,</l>
+<l rend="level_4" xml:id="l.52">Ez világh kereszvén vegét hamarsághal.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53"><hi rend="bold">H</hi>ohár<note type="critic" xml:id="note.3">hóhér</note> szülének fia, s-
+                        az fianak,</l>
+<l rend="level_2" xml:id="l.54">Szaló gazdájanak,<note type="critic" xml:id="note.4">szállást adó gazdájának</note> öcze az battyának,</l>
+<l rend="level_5" xml:id="l.55">Jótúl tavol vannak,</l>
+<l rend="level_4" xml:id="l.56">S- sok helyen méreggel telyes pohárt adnak.</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57"><hi rend="bold">E</hi>n az vak vilagot eppen megh vetettem,</l>
+<l rend="level_2" xml:id="l.58">De benne egy kegyes rárónak s- kedveltem,<note type="critic" xml:id="note.5">A sor értelme: egy kegyes rárónak kedveztem, hízelegtem.</note></l>
+<l rend="level_5" xml:id="l.59">S- igazán szerettem,</l>
+<l rend="level_4" xml:id="l.60">Tarczad megh Ur Isten, az mint könyörgöttem.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

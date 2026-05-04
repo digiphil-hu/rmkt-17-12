@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">40.</title>
+<title key="body" n="40" type="main">BENDEȮ PANNȦ KOMAROMI ASZONI ENEKE</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-40</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 33.</bibl> Kiad.
+                                <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                        129–30.</bibl></p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. II, 33.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 40.</fw>
+<head type="title">BENDEȮ PANNȦ KOMAROMI ASZONI ENEKE</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Komaromban lako te Bendȯ Panna</l>
+<l xml:id="l.2">Igaz ember Volnȧ ki semedre hanná</l>
+<l xml:id="l.3">Faitalan eletedet elődbén szamlalna.</l>
+<l xml:id="l.4">Mint egi Twkorból dolgaidot abrazolna,</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Eszedben nem veszed mikint alapatod.</l>
+<l xml:id="l.6">Belȯl az Tesztedre rut fekeli fakadot,</l>
+<l xml:id="l.7">Ragadȯ Boitorian ruhadra akadot</l>
+<l xml:id="l.8">Hamaris miatta leszen bodulaszod,</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Jambȯr Aszoniok köze nemis samlalhatnak</l>
+<l xml:id="l.10">Gonoz erkoltsők mert teged buritnak.</l>
+<l xml:id="l.11">Chegerés<note type="critic" xml:id="note.1">olv. cégéres (ugyanígy a 25. sorban).</note> vetkekben nagi giakorta latnak</l>
+<l xml:id="l.12">Latȯr Tarszaid te weled mind bannak,</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Pesteni Heuizben<note type="critic" xml:id="note.2">Pesteni Heuizben –
+                                    <placeName>Pöstyén<idno type="ITIdata">Q7583</idno></placeName>
+                            híres gyógyfürdő Nyitra megyében.</note> te mit chelekedtell.</l>
+<l xml:id="l.14">Faitalan Ifiakra giakortȧ semleltel,</l>
+<l xml:id="l.15">Kamokȧ<note type="critic" xml:id="note.3">Kamokȧ – damasztszerű ruhaanyag</note> kődmȯnben
+                        igėn friszen leptél</l>
+<l xml:id="l.16"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Egi <unclear>izben</unclear><note type="critic" xml:id="note.4"><persName>Radvánszky<idno type="ITIdata">Q149913</idno></persName>
+<hi rend="italic">Egy ingben</hi> olvasatát a szöveg nem engedi
+                        meg.</note> setaluan igen giȯniörkȯdtel,</lem><rdg wit="#W1" xml:id="rdg.1">i<del><unclear>gy</unclear></del>zben<note type="critic" xml:id="note.5"><hi rend="italic">ízben</hi> szóban az <hi rend="italic">i</hi> és a <hi rend="italic">z</hi> között 2 áthúzgált betű,
+                            talán <hi rend="italic">gy</hi>, minthogy a száruk kivehető</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Feö rendek kőzűl tegedet szamlaltak.</l>
+<l xml:id="l.18">Nagi Josagu̇ Vagi felőled Tartottak,</l>
+<l xml:id="l.19">Gonoz erkolczodott peniglen hogi latták</l>
+<l xml:id="l.20">Vegre Lowáskakis<note type="critic" xml:id="note.6">Lowáskakis – közönséges lovászok
+                            is.</note> az haszadra hagtak,</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Jttis komaromban az Ser arulashoz,</l>
+<l xml:id="l.22">Ȧz Serere iartanak mint egi bordelẏ hazhoz.<note type="critic" xml:id="note.7">21–22 A
+                            ser-cégér (vö. a 25. sorral!) a bordélyházak jelzéséül szolgált.
+                        <persName>Szepsi Csombor Márton<idno type="ITIdata">Q51500</idno></persName> írja
+                        <placeName>Prágáról<idno type="ITIdata">Q22802</idno></placeName>: „meg látya az kerités mellet az sok
+                            bordély házakat, ahol nihol zab czegért, ser czegert auagy egyéb valami
+                            el adó marhának iegyet töttek ki” (<bibl>Sz. Cs. M. <title>Összes
+                                művei</title> S. a. rend. <hi rend="smallcaps">Kovács Sándor Iván</hi> és <hi rend="smallcaps">Kulcsár Péter</hi>.
+                                Bp. 1969. 274.</bibl>)</note></l>
+<l xml:id="l.23">Noha nem mindennek volt kedue ferdőhoz</l>
+<l xml:id="l.24">De azert sokaknak ȧz Testet<note type="critic" xml:id="note.8">tested</note> volt keőz</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Két felöl hazadnak Serednek chegerét</l>
+<l xml:id="l.26">Araniul<note type="critic" xml:id="note.9">aranyban</note> mėg adtak az Testednek beerét</l>
+<l xml:id="l.27">Noha Vallotad nem kiczin segienéét</l>
+<l xml:id="l.28">Feieden meg latod vegre itíletét,</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Buia termeseted haszonlȯ dísznohoz.</l>
+<l xml:id="l.30">Ki eletėdnek fertelemeskedest hoz.</l>
+<l xml:id="l.31">Paraznȧ voltod semmi iot nem hoz</l>
+<l xml:id="l.32">Haszonlo vagj koslató<note type="critic" xml:id="note.10">koslató – igei alakja előfordul a
+                        <ref target="rmkt-17-12.tei.mg-32">32. sz.</ref> ének 14. sorában is.</note> kutiahoz.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Kleopatrat kȯwetet<note type="critic" xml:id="note.11">követed; Cleopatrát említi a <title><hi rend="italic">Sodomahoz haszonlo ének</hi></title> 2. sora is.
+                        (<ref target="rmkt-17-12.tei.mg-39">39. sz.</ref>)</note> te ebben,</l>
+<l xml:id="l.34">Parazna eletbén be merűluén igen,</l>
+<l xml:id="l.35">Nem alas meg azȯn hogi tsak égik menien</l>
+<l xml:id="l.36">Egik ha le czus maas agiban heuerien</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37">Vrádat ha haznál te nem erezed,</l>
+<l xml:id="l.38">Egi meli foldre ha el eredet.</l>
+<l xml:id="l.39"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Meli nem meltȯ Meled fektetet.<note type="critic" xml:id="note.12">olv. fekteted</note></lem><rdg wit="#W1" xml:id="rdg.2">meltó <del rend="overwritten">fek</del><add type="overwrite">Meled</add></rdg></app></l>
+<l xml:id="l.40">Chiak telhessek Niers bȯrel hiweled.<note type="critic" xml:id="note.13">Vö. a parázna életről
+                            szóló értekezés egyik versbetétjének – m) – utolsó sorával: „Telhessék
+                            eleven késsel hivele”; lásd még a <hi rend="italic">Szerelemtől chiak
+                                kaár</hi> kezdetű vers (<ref target="rmkt-17-12.tei.mg-47">47. sz.</ref>) 16. sorát: S kittöl
+                            lehet kestis cherellien hẅwellin.</note></l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41">Sep fris ruhakbȧn setals az vczakȯn</l>
+<l xml:id="l.42"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Arȧni lanczȧl kotozeöd magad niakon.</lem><rdg wit="#W1" xml:id="rdg.3">Semedėt idestowȧ haniod az Jffiakon.</rdg></app></l>
+<l xml:id="l.43"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Semedėt idestowȧ haniod az Jffiakon.</lem><rdg wit="#W1" xml:id="rdg.4">Arȧni lanczȧl kotozeöd magad <del>ot</del> niakon.</rdg><note type="critic" xml:id="note.14">42–43 A sorok rendje eredetileg fordítva.</note></app></l>
+<l xml:id="l.44"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Labadnak niomát Hogi meriek ȧz Agion</lem><rdg wit="#W1" xml:id="rdg.5"><del rend="overwritten">talpat</del> <add type="overwrite">niomát</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Nints olẏ Jffiu kit te meg nem chals</l>
+<l xml:id="l.46"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Semed Hunioritȧszal ha te meg probals.</lem><rdg wit="#W1" xml:id="rdg.6"><del rend="overwritten"><gap extent="1" reason="illegible" unit="word"/></del><add type="overwrite">ha</add></rdg></app></l>
+<l xml:id="l.47"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Ha ni<corr>n</corr>czenis pinze te meg nem vtals.</lem>
+<rdg wit="#W1" xml:id="rdg.7">niczenis; <del rend="overwritten">d</del><add type="corr">t</add>e</rdg>
+</app></l>
+<l xml:id="l.48"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Iteőie<note type="critic" xml:id="note.15">= ütője</note> ha nagi wele oromest hals.</lem><rdg wit="#W1" xml:id="rdg.8"><del rend="overwritten"><gap extent="1" reason="illegible" unit="char"/></del><add type="overwrite">I</add>teöie</rdg></app></l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

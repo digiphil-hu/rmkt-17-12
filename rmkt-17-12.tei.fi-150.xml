@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">150.</title>
+<title key="body" n="150" type="main">(Szent Pál óldalában hegyes ösztön sátán...)</title>
+<author>
+<surname>Fráter</surname>
+<forename>István</forename><idno type="ITIdata">Q41647</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-150</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.fi-jegyzetek">Jegyzetek: Fráter István élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <hi rend="bold">Paraphrasis rhithmica</hi>. <date when="1684">1684</date>. MTAK
+                K 92. 18b. Kiad. <bibl><abbr><hi rend="smallcaps">Alszeghy</hi>, ItK 1917</abbr>, 212.</bibl></p>
+<p xml:id="crit.1.p.3">Kiadásunkban címként a vers élén álló bibliai utalást szerepeltetjük. Az első két versszakban tulajdonképpen az idézett
+                levél 7–9. verséből merített <persName>Fráter István</persName>. A 3–6. strófa Istenhez fohászkodása személyes jellegű.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: Paraphrasis rhithmica. 1684.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 150.</fw>
+<head type="motto">IN LOCUM 2. CORINTH. 12. v. 7. 8.</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Szent Pál óldalában hegyes ösztön<note type="critic" xml:id="note.1">itt: tüske, tövis</note> sátán,</l>
+<l xml:id="l.2">Ki miatt tsak nem lén, mondgya, hiti fottán;</l>
+<l xml:id="l.3">Háromszor könyörge ezért szibül, -s- osztán</l>
+<l xml:id="l.4">Illy válasz adaték könyörgése után:</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Elég légyen néked, Pál, az én kegyelmem,</l>
+<l xml:id="l.6">Mert erötlenségben erömet végezem.</l>
+<l xml:id="l.7">Hitekben gyengékhez jelen segedelmem,</l>
+<l xml:id="l.8">Hol fogy az reménség, ott van gyözedelmem.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Szegény lelkemetis, im, ez ösztön sérti,</l>
+<l xml:id="l.10">Tántorodott hitem habja el meriti,</l>
+<l xml:id="l.11">Kételkedö szivem pokollal ijeszti,</l>
+<l xml:id="l.12">Ha isteni erö hamar nem segiti.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Jövel azért Jesus, szent atyámnak fia,</l>
+<l xml:id="l.14">Bünnel terhelteket ki magához hijja,</l>
+<l xml:id="l.15">Kergesse el sátánt eröss karod ijja,</l>
+<l xml:id="l.16">Ki mind untalanul lelkem várát vijja.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Siess – is, ne késsél véred harmattyával,</l>
+<l xml:id="l.18">Meg sebhetett szivem mosogassad azzal,</l>
+<l xml:id="l.19">Ne hadd el fojtatni szövevényes gazzal,</l>
+<l xml:id="l.20">Tisztits, jutalmaztass egek bü sóldgyaval.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Erre téged, Uram, nem érdemem vigyen,</l>
+<l xml:id="l.22">Mert az régen meg hült, nálam edgy csepp sintsen,</l>
+<l xml:id="l.23">De irgalmasságod ebben eszköz légyen,</l>
+<l xml:id="l.24">Kiért neked lelkem mond ditsöseg -s- amen.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

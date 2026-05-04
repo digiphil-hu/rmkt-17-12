@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title key="introduction" n="1" type="main">ELŐSZÓ</title>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.eloszo</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="d.1">
+<head type="title">ELŐSZÓ</head>
+<p xml:id="p.1">Hét költő verseit adjuk itt közre. Mind a hét az udvari epigon költészet
+                    képviselője. „Apró madarak” tehát a sasok után: <persName>Madách Gáspár<idno type="ITIdata">Q155937</idno></persName>, egy névtelen, gróf
+                        <persName>Balassa Bálint<idno type="ITIdata">Q238621</idno></persName> és
+                        <persName>Beniczky Péter<idno type="ITIdata">Q41111</idno></persName>
+<persName>Balassinak<idno type="ITIdata">Q2101</idno></persName>,
+                        <persName>Listius László<idno type="ITIdata">Q244148</idno></persName> és
+                        <persName>Esterházy Pál<idno type="ITIdata">Q144463</idno></persName>
+<persName>Zrínyinek<idno type="ITIdata">Q247373</idno></persName> a követője.
+                    Hasonló nemesi világszemlélet, azonos témák jellemzik költészetüket, néha szó
+                    szerint átveszik egymás sorait. Működésük nagyjából a század harmadik negyedére
+                    esik. Művészi tekintetben kiemelkedik közülük gróf <persName>Balassa
+                        Bálint</persName>, de a többinek is akad néhány szebb verse. Legtöbbjük műve
+                    nem került a nyilvánosság elé: verseik kéziratai a családi levéltárakban
+                    maradtak meg. A nyomtatásban megjelent <persName>Listius László</persName> és
+                        <persName>Beniczky Péter</persName> (különösen az utóbbi) viszont
+                    hallatlanul népszerü volt az olvasóközönség körében.</p>
+<p xml:id="p.2">A versek legnagyobb részét gondozó <persName>Varga Imrén<idno type="ITIdata">Q160060</idno></persName> kívül mások is részt vettek a sajtó alá
+                    rendezés munkájában. <persName>Esterházy Pál</persName> verseinek gondozása és a
+                    hozzájuk fűzött jegyzetek <persName>Cs. Havas Ágnes<idno type="ITIdata">Q470936</idno></persName> munkája; <persName>Stoll Béla<idno type="ITIdata">Q253314</idno></persName> gondozta <persName>Beniczky
+                        Péter</persName> verseinek szövegét és írta meg a műveiről szóló fejezet
+                    csillagig terjedő részét.</p>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">147.</title>
+<title key="body" n="147" type="main">(Ugy vagyon az hire...)</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.ep-147</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2"><persName>Jankovics József<idno type="ITIdata">Q242990</idno></persName> hívta fel figyelmünket erre a versre, amely ugyanott található, ahol <persName>Esterházy<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> többi költeménye, egy
+                különálló papírlapon, de nem a költő autográf írásával. Formailag azonban mindenképpen rá jellemzőnek tetszik. Ugyancsak
+                <persName>Jankovich<idno corresp="Jankovics József"/></persName> megállapítása szerint verses levél lehetett, a 25. sor szövege pedig <persName>Esterházyra<idno corresp="Esterházy Pál" type="ITIdata">Q144463</idno></persName> enged következtetni, mint szerzőre. Itt
+                minden bizonnyal <persName>Zrínyire<idno type="ITIdata">Q247373</idno></persName> történik utalás!</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">OL, Pál nádor iratai, P 125. 54. cs. 11896., különálló papírlapon.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 147.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Ugy vagyon az hire</l>
+<l rend="level_2" xml:id="l.2">Biszonyosan Bécsben</l>
+<l rend="level_4" xml:id="l.3">Iegiesz tarsot maganak</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.4"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Szandé<corr>k</corr>ia hallagion</lem>
+<rdg wit="#W1" xml:id="rdg.1">Szandéia</rdg>
+</app></l>
+<l rend="level_2" xml:id="l.5">Egy kevesse mulion,</l>
+<l rend="level_4" xml:id="l.6">Mortiot rendelt az Isten</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.7">Az ki lesz hasznára</l>
+<l rend="level_2" xml:id="l.8">Szivinek nyuktára</l>
+<l rend="level_4" xml:id="l.9">Lölki üdvosségére,</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.10">Hamar azt kivánná,</l>
+<l rend="level_2" xml:id="l.11">Örömet is tudna,</l>
+<l rend="level_4" xml:id="l.12">Hol is mikor udvarolhat</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.13">Ez uttán egy hittel</l>
+<l rend="level_2" xml:id="l.14">Örömest egy hittel</l>
+<l rend="level_4" xml:id="l.15">Gyuröyvel iedcseny</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.16">Katécsát maganak</l>
+<l rend="level_2" xml:id="l.17">Magat Katecsának</l>
+<l rend="level_4" xml:id="l.18">Holtég oda engedny</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.19">Szép lako heley</l>
+<l rend="level_2" xml:id="l.20">S alkalmtoságy</l>
+<l rend="level_4" xml:id="l.21">Mindenüt készen vannak</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.22">Országoghban hire</l>
+<l rend="level_2" xml:id="l.23">Ambár nincsen tiszte</l>
+<l rend="level_4" xml:id="l.24">Volna modgia aban is</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.25">Marsnak attya fia</l>
+<l rend="level_2" xml:id="l.26">Sémmi adoságha</l>
+<l rend="level_4" xml:id="l.27">Ertékeis nem szegény</l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.28">Kivánnia válászát</l>
+<l rend="level_2" xml:id="l.29">Istennek aldasat</l>
+<l rend="level_4" xml:id="l.30">Az marss hamar el vária</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

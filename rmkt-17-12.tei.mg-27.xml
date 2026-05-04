@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">27.</title>
+<title key="body" n="27" type="main">(Borral szerelemmel ha lehet iól éél...)</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-27</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 11–12.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr> 223–24.</bibl></p><p xml:id="crit.1.p.3">A
+                        latin féldisztichon Cato mondásai IV. könyv 30-ból való.</p><p xml:id="crit.1.p.4">A 17–20. sorokat tartalmazó 5. versszak kevés módosítással megvan a <hi rend="italic">Részeges
+                            embernek czégére az pohár</hi> kezdetű versike 5–8. sorában (lásd 21.
+                        sz. alatt).</p><p xml:id="crit.1.p.5">A
+                    kéziratban tisztázat, egy másolási hibával (11. sorban: okol – okot helyett) és
+                    a 10. sorban utólagos javítgatással.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. II, 11–12.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 27.</fw>
+<head type="mott">Cum Venere et Bacho lis est et Vincta voluptas.
+</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Borral szerelemmel ha lehet iól éél<note type="critic" xml:id="note.1">olv. jól élj</note></l>
+<l xml:id="l.2">Mind az kettőben okkal tselekedgiel</l>
+<l xml:id="l.3">Hogi keszerw̋ banatal kenieret ne egiel</l>
+<l xml:id="l.4">S. Halal hozó helire hogj ne heweredgiel</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Jozan embernek walo az Serelem</l>
+<l xml:id="l.6">Kẏ okossaggal bir S-mindent el fedezzen</l>
+<l xml:id="l.7">Chiatsogaszawal<note type="critic" xml:id="note.2"><persName>Radvánszky<idno type="ITIdata">Q149913</idno></persName> tévesen <hi rend="italic">Csattogásával</hi>-t olvasott.</note> hire semmi hellien</l>
+<l xml:id="l.8">Kẏ ne teriedheszen dolga mibe legien</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Mert ȧz Serelemben nints iob halgatasnál</l>
+<l xml:id="l.10"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Seretodnek awal <corr>teis</corr> hasznalhatnál</lem><rdg wit="#W1" xml:id="rdg.1">Seretodnek<del>is</del> awal <del>teis</del></rdg></app></l>
+<l xml:id="l.11"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Hogi ragalmazasra oko<corr>t</corr> nem adhatnál</lem><rdg wit="#W1" xml:id="rdg.2">okol; nem <add type="insert"><unclear>ha</unclear></add></rdg></app></l>
+<l xml:id="l.12">Vgi maradhatnál meg tsendessen meg haznál</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Ha az Serelemmel okall nem tudts eelni,</l>
+<l xml:id="l.14">Hamar eö Hatarul le kezd teged wettni</l>
+<l xml:id="l.15">Jsaposs rut Sarban kezdess heweredný</l>
+<l xml:id="l.16">Labad talpaira nem tudhats fel kelnẏ,</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17">Borban ha szokat issol, élmed el tawozẏk.</l>
+<l xml:id="l.18">Mint az fa Balwán kep Vgian eö alúszik.</l>
+<l xml:id="l.19">Rut Vndok gȧneiban nem gondol hȧ feksik.</l>
+<l xml:id="l.20">Mint egi fele alat Sarban keweressik.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Ressegseg vtan ember mikor fel kéél</l>
+<l xml:id="l.22">Sarga es halowani reszket mint niar lewel</l>
+<l xml:id="l.23">Tekereg elmeie mint az forgando Szeél</l>
+<l xml:id="l.24">Feie faidalmitol neez mint az Vak szelel<note type="critic" xml:id="note.3">olv. széjjel</note></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Ȧz bornakis io az kewesse Jnnia</l>
+<l xml:id="l.26">Kottiogos V̈ ueghbeől igėn lassan siwnia</l>
+<l xml:id="l.27">Nem haiol meg azert reszegsegtol Jnna<note type="critic" xml:id="note.4">olv. ina</note></l>
+<l xml:id="l.28">Mikor ágibol regel akar allania;</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">Bortul szerelemteöl Jsten oion engem</l>
+<l xml:id="l.30">Nagi reszeghsegektől engemet meg mentsen</l>
+<l xml:id="l.31">Serelem teőritól oion meg kegiessen</l>
+<l xml:id="l.32">Mint az kettőtw̋ l ment ember lehessem,</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

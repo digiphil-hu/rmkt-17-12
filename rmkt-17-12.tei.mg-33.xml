@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">33.</title>
+<title key="body" n="33" type="main">(Ha te iol éls masznak gonoz eletiwel ne gondoli...)</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-33</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> II, 15.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr> 229–30.</bibl>
+</p> <p xml:id="crit.1.p.3"> A latin vers Cato mondásai III. könyvének 2. disztichonja.
+</p> <p xml:id="crit.1.p.4">A rágalmazó, hazug nyelv ellen írt fejtegetés 13–24., 29., 32. és 33. sora a
+                        „Kronẏka. etc” c. vers (lásd <ref target="rmkt-17-12.tei.mg-38">38. sz.</ref> alatt) 85– 96., 97., 100., 101.
+                        soraival mutat egyezést. A másolaton <persName>Madách</persName> utólag sok
+                        javítást végzett, melyek arra vallanak, hogy az eredetileg tizenkettes
+                        sorokat tizenegyesekké akarta átformálni. A vers ütemezése, a sorok
+                        szótagszáma azonban így is nagy ingadozást mutat.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. II, 15.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 33.</fw>
+<head type="motto"><l xml:id="l.1"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Cum tu recte uiuas ne cur<corr>e</corr>s Verba malorum</lem><rdg wit="#W1" xml:id="rdg.1">curas</rdg></app></l>
+<l xml:id="l.2">Non est arbitrẏ nostri, quid quisque loqvatur.</l></head>
+<lg xml:id="lg.1">
+<l xml:id="l.3">Ha te iol éls masznak gonoz eletiwel ne gondoli</l>
+<l xml:id="l.4">Mert az ragalmazas lator nėlweken folẏ</l>
+<l xml:id="l.5">Ninczėn hatalmunkba beszedek es olẏ</l>
+<l xml:id="l.6">Hogi ragalmazaszert embereket meg őlẏ<note type="critic" xml:id="note.1">olv. megöl</note></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.7"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Gonoz erkolczrull S neis gondolkodgial.</lem>
+<rdg wit="#W1" xml:id="rdg.2">erkolcz<del>ekrull</del><add type="insert">rull</add>
+<del>te ne</del><add type="insert">S neis</add></rdg>
+</app></l>
+<l xml:id="l.8">S-ki, ki, mint él, arull Tudakozzȧll<note type="critic" xml:id="note.2">arull Tudakozȧll –
+                            értelmileg a két szó közé <hi rend="italic">ne</hi>
+                        kívánkozik</note></l>
+<l xml:id="l.9"><app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Mert feslett erkȯlts ki nilatkozassal</lem><rdg wit="#W1" xml:id="rdg.3">Mert <del>az</del></rdg></app></l>
+<l xml:id="l.10"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Mint aár az Sákbúl ki Jűn, es altal ál<note type="critic" xml:id="note.3">altal ál = akadályul szolgál, útban áll</note></lem><rdg wit="#W1" xml:id="rdg.4">Mint <del>az</del>; <del rend="overwritten"><gap extent="1" reason="illegible" unit="char"/></del><add type="corr">J</add>ün</rdg></app></l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11"><app xml:id="app.5">
+<lem wit="#KK" xml:id="lem.5">Tekincz te magad beszed folliassara</lem>
+<rdg wit="#W1" xml:id="rdg.5">Tekincz <del>az</del></rdg>
+</app></l>
+<l xml:id="l.12">Ne szollion nielwed masznak gilazasra</l>
+<l xml:id="l.13"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Mert <corr>az</corr> <unclear>gonoz</unclear> nielw̋<note type="critic" xml:id="note.4">olv. nyelv</note> nagi ragalmazȧszra</lem><rdg wit="#W1" xml:id="rdg.6">Mert <del>az</del> <add place="above" type="insert"><unclear>gonoz</unclear></add> nielw̋ <del><add place="above" type="insert">okot ad</add></del></rdg></app></l>
+<l xml:id="l.14">Okot ád Barátodnak nagi romlaszara</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.15">Job az nielwett Szaiban kewesse meg fogni</l>
+<l xml:id="l.16">Hogi sem az vtan szók vtan bankodni</l>
+<l xml:id="l.17">Az beolcz emberekkul<note type="critic" xml:id="note.5">A „Kronẏka. etc” 87. sorában itt
+                            embereknek áll. Értelmes az <hi rend="italic">emberekkül</hi> is
+                            (emberekként), de ez a határozó mondattanilag zavarossá teszi a sort. A
+                            „bölcs emberek” közt <persName>Madách</persName> Jézus, Sirák fiának
+                            könyvéből is merített. A megelőző sorok gondolatai ott megtalálhatók:
+                            5,15–17., 20,5–8. és 13.</note> mondaszawal élni</l>
+<l xml:id="l.18">Halgatasnal nincz iob, azon meg niugodni</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.19">Azert az ki halgat az iol vralkodik</l>
+<l xml:id="l.20">Nielwe fekemleőin<note type="critic" xml:id="note.6"> = nyelve zabláin, kötőfékén. (Vö. a
+                        42. sorral és a <ref target="rmkt-17-12.tei.mg-26">26. sz. ének</ref> 15. és a <ref target="rmkt-17-12.tei.mg-39">39.
+                                számú ének</ref> 32. sorával.)</note> nem igėn hankȯdik</l>
+<l xml:id="l.21">Feksik czendeszen eőrűl nem bankodik</l>
+<l xml:id="l.22">Nielwenek miatta nemis teőrwénkedik</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.23"><app xml:id="app.7">
+<lem wit="#KK" xml:id="lem.7">Halgataszaat ember szoha meg nem banta</lem>
+<rdg wit="#W1" xml:id="rdg.7">Halgatasza<del>mat</del><add place="above" type="insert">at ember</add>; banta<del>m</del></rdg>
+</app></l>
+<l xml:id="l.24"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">De szolaszát giakran meg sziradta</lem><rdg wit="#W1" xml:id="rdg.8">szolasz<del>om</del>át; sziradta<del>m</del></rdg></app></l>
+<l xml:id="l.25"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Mikor nielwéétt folitaban boczata</lem><rdg wit="#W1" xml:id="rdg.9">nielwé<del rend="overwritten">me</del><add type="overwrite">étt</add>; boczata<del>m</del></rdg></app></l>
+<l xml:id="l.26"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Bȯlcznek Sep mondassat ebben helin hadta</lem><rdg wit="#W1" xml:id="rdg.10"><del>Az</del> bȯlcznek <add type="insert">Sep</add>; hadta<del>m</del></rdg></app></l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.27">Nielwenek miata ember elis weéss</l>
+<l xml:id="l.28">Ha rea rohannik minden felől szeel Veéss</l>
+<l xml:id="l.29">Elesbet nem fȯghat az Aczelos nagi keess</l>
+<l xml:id="l.30"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Ragalmazo nielwėd ha foli mint lepes meez.</lem><rdg wit="#W1" xml:id="rdg.11">mint <del>az</del></rdg></app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.31">Az embert az Nielwe felette meg gialaz,</l>
+<l xml:id="l.32">Ollian les miatta mint az Jiezteȯ waas<note type="critic" xml:id="note.7">Jiezteȯ waas =
+                            madárijesztő</note></l>
+<l xml:id="l.33">Barati el hadgiak marȧd mind<note type="critic" xml:id="note.8"> a. m. mint</note> az kalas</l>
+<l xml:id="l.34">Vigaszȧg helliet szal rea somoru giaaz</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.35">Nielwed miat neha nem mėrs semben nezni</l>
+<l xml:id="l.36">Kit az előtt rutul soktal ragalmaznẏ</l>
+<l xml:id="l.37">Nem Vetted eszedben hogi magat<note type="critic" xml:id="note.9">a. m. magad</note>
+                        gialazni</l>
+<l xml:id="l.38">Rut Jsapos Sarat az Niakadban hanni<note type="critic" xml:id="note.10">35–36 A sorok értelme: nem vetted eszedbe, hogy mást rágalmazni annyi, mint magadat gyalázni.</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.39">Nielẇ miat Vestenek io Erkolcző Sw̋ zek.</l>
+<l xml:id="l.40"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Ragalmazȯ <unclear>Szotul</unclear> vesset Tisteszegek.</lem><rdg wit="#W1" xml:id="rdg.12"><unclear>Szo<del>kal</del></unclear> <unclear>tul</unclear> </rdg></app></l>
+<l xml:id="l.41">Ektelenszegre iutȯt Tisztȧ Eltek.</l>
+<l xml:id="l.42"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13">Bőcztelensegre marȧd<corr>t</corr> hirek newek.</lem>
+<rdg wit="#W1" xml:id="rdg.13">marad <del>io</del> hirek <del>es</del></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.43">Nielwėskedesewel tisztéseget westẏ</l>
+<l xml:id="l.44">Hȧ fekemleöit Nielwenek ereztẏ</l>
+<l xml:id="l.45">Töle eö Baratit Tasitia S. Terieztẏ</l>
+<l xml:id="l.46">Io hirit newit feoldbėn be Sw̋ lestẏ</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.47">Ninczėn nagiob ragalmazó szonál</l>
+<l xml:id="l.48">Mikoron hazugnak nielwe igen Szolgal.</l>
+<l xml:id="l.49">Hazugnak vagion bőchẏ az vduarnal.</l>
+<l xml:id="l.50">Jȯ Erkolcznek ottȧn soldgja le szaall.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

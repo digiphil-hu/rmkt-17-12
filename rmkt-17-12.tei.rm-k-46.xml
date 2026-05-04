@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">46.</title>
+<title key="body" n="46" type="main">(Birja bár akárki nagy jószágú Lévát...)</title>
+<author>
+<persName>
+                        Egy névtelen
+                    </persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.rm-k-46</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.rm-k-jegyzetek">Jegyzetek a Rimay-Madách-kódexek ismeretlen szerzőtől származó verseihez.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> I, 33.</bibl> Kiad.
+                                <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                        25.</bibl> – Címe: Maas.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. I, 33.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 46.</fw>
+<lg xml:id="lg.1">
+<l xml:id="l.1"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1"><corr>Birja bár akárki nagy jószágú Lévát</corr>,</lem>
+<rdg wit="#W1" xml:id="rdg.1">
+<gap extent="1" reason="damaged" unit="line"/>
+<note type="critic" xml:id="note.1"><persName>Radvánszky<idno type="ITIdata">Q149913</idno></persName> közlése alapján adjuk, mivel
+                                    kötéskor ezt a sort levágták.</note>
+</rdg>
+</app></l>
+<l xml:id="l.2">Bechw̋ liek Szok pinzre erdelibenis Dewáát,</l>
+<l xml:id="l.3">Tsak en olelhessem kariaimmal Ewáát,</l>
+<l xml:id="l.4">Kit lelkem S keet szemem nagi kincze giȧnant láát.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Az eö feiér mellie merö alabasztrom,</l>
+<l xml:id="l.6">Szerelme elmemben olẏ forgo, mind malom,</l>
+<l xml:id="l.7">Eőrleszenek kiniat mert elmemben Vallom,</l>
+<l xml:id="l.8">Meltaán azert neki magamot aianlom.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.2">
+<lem wit="#KK" xml:id="lem.2">Ellien, de ne vgi, hogi <corr>chiak</corr> verjen S
+                                kinozon,</lem>
+<rdg wit="#W1" xml:id="rdg.2"><add type="i">ne</add> vgi hogi <del>chiak</del> verjen
+                                    <add type="i">S</add></rdg>
+</app></l>
+<l xml:id="l.10">De hogi szok kinomnak köniebszeget hozzon,</l>
+<l xml:id="l.11">Kőtőzőt voltombul máár kẏs<note type="critic" xml:id="note.2">olv. ki is</note> oldozon,</l>
+<l xml:id="l.12">Es Szerelme vthán<note type="critic" xml:id="note.3">szerelme útján</note> Tagannis hordozzon.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Adgion Szabadszagot, hogi één Szerethessem,</l>
+<l xml:id="l.14">Es szolgalatommal keduit neuelhessem,</l>
+<l xml:id="l.15">Engedgie, szep niakat hogi en Eolelhessem,</l>
+<l xml:id="l.16">S. Nieltem merge vthȧn mezitis nielhessem.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

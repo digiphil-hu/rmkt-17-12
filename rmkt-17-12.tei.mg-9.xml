@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">9.</title>
+<title key="body" n="9" type="main">PATIENTIA</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-9</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Lelőhelye: <bibl>OL<hi rend="bold"> Radvánszky család lt.</hi> P. 568. 16. cs.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>, RJM</abbr>
+                        109.</bibl> A <ref target="rmkt-17-12.tei.mg-9">9</ref>–<ref target="rmkt-17-12.tei.mg-21">21.</ref> számú versek egy egységet alkotnak. Az első hét a főerényekről,
+                utána hat a főbűnökről szól. A versfüzérrel kapcsolatosan <persName>Jankovics József<idno type="ITIdata">Q242990</idno></persName>
+                        arra a megállapításra jutott, hogy ennek részei képmagyarázatok. Egy-egy
+                        picturához kapcsolódnak. A picturát részemblémákra bontva, alájuk <persName>Madách</persName>
+                        magyarázó jellegű tanításokat szerkesztett. Az erényekről szóló versekhez
+                        legközelebb áll <persName>Hans Sebald Beham<idno type="ITIdata">Q479313</idno></persName>: „Cognitio and Seven Virtues” című
+                        allegorikus ábrázolása. Ez lehetett <persName>Madách</persName> előtt. A főbűnökről írt versek
+                        mintája <persName>Dietrich vagy Theodor Mayer</persName>: „The Seven Vices” című alkotása
+                        lehetett. Lásd <bibl><hi rend="smallcaps">F. K. H. Holstein</hi>: <title>Germán engravings, Etchings and Woodcuts
+                            Ch. 1400–1700</title>. Amsterdam [1955] III. 79., XXVII. 168.</bibl> (<bibl><hi rend="smallcaps">Jankovics József</hi>:
+                        <title>„Akadtam egy picturára…” Rimay János és Madách Gáspár allegorikus versének
+                        képzőművészeti vonatkozásai</title>. <abbr>ItK</abbr> 1982. 652–56.</bibl>)</p>
+<p xml:id="crit.1.p.3">Patientia = türelem.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">OL Radvánszky család lt. P. 568. 16. cs.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 9.</fw>
+<head type="title">PATIENTIA</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Nagy ioszág emberben az Patientia,</l>
+<l xml:id="l.2">Szok haboruiat eö szenuedesel birya,</l>
+<l xml:id="l.3">Chendes elmewel rá vesseliet varya,</l>
+<l xml:id="l.4"><app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">Mikor rohannik ra veszedelmes arya.</lem><rdg wit="#W1" xml:id="rdg.1">[Előbb:] Mikor raa rohanik</rdg></app></l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Neȯg nagi tereh alat, twreszel viszely,</l>
+<l xml:id="l.6"><app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Sittokkal, atkokkal embert nem terhely,</lem><rdg wit="#W1" xml:id="rdg.2">[Előbb:] Szomszedoktul tiltia tölök</rdg></app></l>
+<l xml:id="l.7">Raita töt boszukot bekesegell niely,<note type="critic" xml:id="note.1">boszukot bekesegell
+                            niely – vö. <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>: „Encomium et effecta virtutum”
+                                    (<bibl><abbr>RJÖM</abbr> 135–40</bibl>) 123. sorával: csak nyeli
+                            fájdalmát.</note></l>
+<l xml:id="l.8">Alazatossaggall mindent el szenwedy.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

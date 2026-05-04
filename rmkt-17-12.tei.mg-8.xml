@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">8.</title>
+<title key="body" n="8" type="main">ENEK</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-8</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kéziratai:</p>
+<p xml:id="crit.1.p.3">I. <bibl><hi rend="bold">Rimay-Madách-k.</hi> I, 84–88.</bibl> Kiad. <bibl><abbr><hi rend="smallcaps">Radvánszky</hi>,
+                                RJM</abbr> 133–35.</bibl></p>
+<p xml:id="crit.1.p.4">II. <bibl><hi rend="bold">Rimay-Madách-k.</hi> I, 79.</bibl> Csak a 9–12. sorokat
+                    tartalmazza. A nótautalás <persName>Rimaynak<idno type="ITIdata">Q155364</idno></persName> egyik énekére utal
+                                (<bibl><abbr>RJÖM</abbr> 62– 63</bibl>), dallama megegyezik
+                    <persName>Huszti Péter<idno type="ITIdata">Q60747</idno></persName> Aeneis-ének dallamával.
+                                (<bibl><abbr>RMK I</abbr>, 185</bibl>). Ez a nótajelzés a XVI.
+                        század egyik legelterjedtebb históriás dallamtípusa, melyen belül több
+                        variáns fordul elő. E dallamcsoport összefüggéseihez lásd <bibl><abbr>RMDT
+                                I</abbr>, 23. sz.</bibl> szövegjegyzetét. (Vö. <bibl><abbr>RMKT
+                                XVII) 1</abbr>, 86. sz. ének</bibl> jegyzetével.)</p>
+<p xml:id="crit.1.p.5">Tartalmilag <persName>Rimaynak</persName> Nem lehet szebb dolog
+                            (<bibl><abbr>RJÖM</abbr> 64–65</bibl>) kezdetű énekét követi. A gondolati
+                        párhuzamokon kívül (Ábrahám példájára, Pál apostol levelére való hivatkozás)
+                        a kifejezésbeli egyezések is mutatják ezt. Madách azonban több mozzanatot
+                        vesz át Pál leveléből. <persName>Rimayra</persName> emlékeztet a Madáchnál
+                        ritkán található, nem első személyű szerzőre utaló argumentum is.</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k.  I, 84–88.</witness>
+<witness xml:id="W2">Rimay-Madách-k.  I, 79.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 8.</fw>
+<head type="subtitle">Ȧz Author iria meg hogj az <app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">ember</lem><rdg wit="#W1" xml:id="rdg.1"><del>E</del><add type="corr">e</add>mber</rdg></app> igaz hitte altȧl teczhettik az Istennek. Zent Palnak mondasa szerint ės
+                    hogj az Istent igaz hitti altal foghattia mėg Tellies bizodalommal es remensegell lewén eȯ Zent feölsegehez.
+                    <app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Az</lem><rdg wit="#W1" xml:id="rdg.2">A<del>tt</del>z</rdg></app> fiu Istenhez igaz hitj altal iarulhatt az ember, es az eȯ érdemit es Szent Szacramentomatt, ȧz az <app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">Szent</lem><rdg wit="#W1" xml:id="rdg.3"><del rend="overwritten">T</del><add type="overwrite">S</add>zent</rdg></app>
+                    Testet es veret hitti altȧl vehetti bw̋nenėk meg bochanatiará maghahoz. vduösseget <app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">nierve</lem><rdg wit="#W1" xml:id="rdg.4">nier<del>l</del>ve<del>n</del> <del>lelkenek es
+                            az orok eletet</del></rdg></app> es az Eorők eletet
+                    lelkenek,</head>
+<head type="title">ENEK</head>
+<head type="notation">ad Notam Az jo hiteȯ embër selid ez vilaghon</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Az hit remelendő dolgoknak allattia</l>
+<l xml:id="l.2">Lathatatlanoknak semes bizoniszaga.</l><note type="critic" xml:id="note.1">1–2 Vö. Pál apostol levele a Zsidókhoz 11, 1.</note>
+<l xml:id="l.3">Szent Pal azt Vallattia<note type="critic" xml:id="note.2">Vallattia – itt: kijelenti</note></l>
+<l xml:id="l.4">Boldog azȯn ember az ki azt mėg Tartia</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Hittėl ertetűk, hogi <unclear>Wilagot</unclear> Teremptet,<note type="critic" xml:id="note.3">Vö. Pál levele a Zsidókhoz 11, 3.</note></lem><rdg wit="#W1" xml:id="rdg.5"><del rend="overwritten">Wilagis</del><add type="corr"><unclear>Wilagot</unclear></add></rdg></app></l>
+<l xml:id="l.6">Jstėn igeiewel lathatowȧis leott</l>
+<l xml:id="l.7">Moizes igi beszelget.</l>
+<l xml:id="l.8">Az szent Irasnak aduàn bechw̋letet.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Aldoztanak hitbeöl Istennek fiaÿ</lem><rdg wit="#W2" xml:id="rdg.6"> Hitbeöl aldoztanak</rdg></app></l>
+<l xml:id="l.10"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Miniaian kik woltak Adam Vnokaÿ</lem><rdg wit="#W2" xml:id="rdg.7">volta<del>na</del>k</rdg></app></l>
+<l xml:id="l.11"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Hiw igȧz szolgaẏ</lem><rdg wit="#W2" xml:id="rdg.8">Hiteles szolgaẏ Hiw</rdg></app></l>
+<l xml:id="l.12"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Kik az igeretet Vartak eö hiweÿ<note type="critic" xml:id="note.4">9–12 a sorokra vonatkozólag vö. uo. a 4–5. versekkel.</note></lem><rdg wit="#W2" xml:id="rdg.9"> <note type="critic" xml:id="note.5">9-12 Itt csak ezek a sorok vannak meg.</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Szenkӳ hitt nelkw̋l istennel nem kédwes<note type="critic" xml:id="note.6">Lásd
+                                    <persName>Rimay<idno type="ITIdata">Q155364</idno></persName>:
+                                <hi rend="italic">Nem lehet szebb dolog</hi> kezdetű éneke 33–34.
+                            sorait (<bibl><abbr>RJÖM</abbr> 65</bibl>).</note></l>
+<l xml:id="l.14">Hȧ gazdȧg leszennis ott nem kelemetes.</l>
+<l xml:id="l.15">S.nem mehet Szekihez,</l>
+<l xml:id="l.16">Ha Hitbeȯl Világón nem tess epw̋letet<note type="critic" xml:id="note.7">epw̋letet = épülést, bizonyságot</note></l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.17"><app xml:id="app.10">
+<lem wit="#KK" xml:id="lem.10">Hitbeȯl kel ȧz<corr>t</corr> Tudnod hogi Vagion egi
+                                Isten,<note type="critic" xml:id="note.8">Vö. Pál levele 6. versének második részét.</note></lem>
+<rdg wit="#W1" xml:id="rdg.10">ȧz</rdg>
+</app></l>
+<l xml:id="l.18">Attia fiu, Szent lelek. az harȯm szemeliben.</l>
+<l xml:id="l.19">Chiȧk egi Istenszégben.</l>
+<l xml:id="l.20">Az igȧz embernek meg tartoia legien</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.21">Noe, es Abraham legiėn neked peldat</l>
+<l xml:id="l.22">Kik hittel biztanak Varuan Istėn fiat<note type="critic" xml:id="note.9">21–22. Lásd uo. a 7–8. verset.</note></l>
+<l xml:id="l.23">Christús Aldozattiát</l>
+<l xml:id="l.24">Ȧbbȧn az niomdokbȧn foglaliad te magad.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.25">Hittel fogod meg Istennek orszagát</l>
+<l xml:id="l.26">Tolczed hȧ lehėt Istėn akarattiát</l>
+<l xml:id="l.27">Te raad aldast bochát</l>
+<l xml:id="l.28">Hitedbėn iól elwén io Aldomasokót lát</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.29">El hidgied hogi Christu̇s legiėn Istėn fia</l>
+<l xml:id="l.30">Mert ö bẇnȯszököt chiak hozaia hÿa</l>
+<l xml:id="l.31">Szent Janos azt Iria:</l>
+<l xml:id="l.32">Remenszeged legiėn Hited biztatoiȧ.<note type="critic" xml:id="note.10">Vö.
+                        <persName>Rimay<idno type="ITIdata">Q155364</idno></persName> fent idézett énekének 52. sorával:
+                            Biztasson másfelől bennünk ép reménség.</note></l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.33">Hiteles legien nalad hogi te eretted.</l>
+<l xml:id="l.34">Jezu̇s Christús, ki viszelt keresztet</l>
+<l xml:id="l.35">Eretted szenuėdet</l>
+<l xml:id="l.36">Jszoniu nagi kínt el viszelt vegetet.<note type="critic" xml:id="note.11">olv. végetted</note></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.37"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Hitel im iaruluȧn Istėnnek fẏahoz.</lem><rdg wit="#W1" xml:id="rdg.11"><add type="insert">im</add></rdg></app></l>
+<l xml:id="l.38"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Nagi draga es Szent Sacramentomahoz.</lem><rdg wit="#W1" xml:id="rdg.12"><add type="insert">es</add></rdg></app></l>
+<l xml:id="l.39">S-Testamentomahoz.</l>
+<l xml:id="l.40"><app xml:id="app.13">
+<lem wit="#KK" xml:id="lem.13">Bwnöd bȯchanat<corr>á</corr>t Szent Teste vére
+                                hoz<note type="critic" xml:id="note.12"><persName>Radvánszky<idno type="ITIdata">Q149913</idno></persName> a <hi rend="italic">Bwnöd</hi>-et tévesen <hi rend="italic">Várnod</hi>-nak
+                                    olvasta.</note></lem>
+<rdg wit="#W1" xml:id="rdg.13">bochanatot</rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.41"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Ȧz igaz hitből mindeneket meg niers</lem><rdg wit="#W1" xml:id="rdg.14">hit<del rend="overwritten"><gap extent="2" reason="illegible" unit="char"/></del><add type="overwrite">b</add></rdg></app></l>
+<l xml:id="l.42">Mintgiart ellenszeggel bait vinia meg mers.</l>
+<l xml:id="l.43">Hitbeöl hȧ kőniörges.</l>
+<l xml:id="l.44">Chak meg ne niomjȯn karomlȯ Teweliges</l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.45">Azert hitbeöl Talals bẅned bochanatiat</l>
+<l xml:id="l.46">Mikorȯn aianlia Christús őnőn magát</l>
+<l xml:id="l.47"><app xml:id="app.15"><lem wit="#KK" xml:id="lem.15">Ragaskogj hȯzȧ haát</lem><rdg wit="#W1" xml:id="rdg.15"><del rend="overwritten"><gap extent="1" reason="illegible" unit="word"/></del><add type="overwrite">hȯzȧ</add></rdg></app></l>
+<l xml:id="l.48">Nėm uon be teged pokolrȧ karhozat.</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.49">Ȧz hitnek eeli verẏ ellenszígit</l>
+<l xml:id="l.50">Mikorȯn giotri az ö io hiweit</l>
+<l xml:id="l.51">Aklabȧn Iuhait</l>
+<l xml:id="l.52">Meg örzi az vr kichindet<note type="critic" xml:id="note.13">olv. kicsinded</note> szeregit.</l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.53">Jgȧz hittel mẏs Jstenunkhöz menűnk<note type="critic" xml:id="note.14">mẏs Jstenunkhöz menűnk = mi is Istenünkhöz menjünk</note></l>
+<l xml:id="l.54"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Kik romlot vilagnak arniekaban lakúnk</lem><rdg wit="#W1" xml:id="rdg.16">Kik <del>arniek</del> <add type="insert">romlot</add></rdg></app></l>
+<l xml:id="l.55">Tole aldast wegiunk</l>
+<l xml:id="l.56">Keriuk azert otėt hogi legien mi velűnk</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.57">Epicze mi benu̇nk az iokat hit altal.</l>
+<l xml:id="l.58">Lelkunket Vÿcza eö Zent lelke altal.</l>
+<l xml:id="l.59">Ȧz eo Zent aldaszal.</l>
+<l xml:id="l.60"><app xml:id="app.17"><lem wit="#KK" xml:id="lem.17">Vduöszeget aduȧn meg boldogulasal.</lem><rdg wit="#W1" xml:id="rdg.17">Vduöszeg<del>ünket</del><add place="above" type="insert">et</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.61">Diczirteszek Istėn ȯrőké szent Newed.</l>
+<l xml:id="l.62">Kik eros hittel bizunk mi te benned.</l>
+<l xml:id="l.63">Mig vilagbȧn eltėt.</l>
+<l xml:id="l.64">Amėn mondgion mindėn legien Tisteletėd.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

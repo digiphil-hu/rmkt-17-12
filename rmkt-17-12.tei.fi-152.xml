@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">152.</title>
+<title key="body" n="152" type="main">AZ OLVASOHOZ</title>
+<author>
+<surname>Fráter</surname>
+<forename>István</forename><idno type="ITIdata">Q41647</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.fi-152</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.fi-jegyzetek">Jegyzetek: Fráter István élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <hi rend="bold">Paraphrasis rhithmica</hi>. <date when="1684">1684</date>. MTAK
+                K 92. 20a. Kiad. <bibl><abbr><hi rend="smallcaps">Alszeghy</hi>, ItK 1917</abbr>, 213–14.</bibl></p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">Kézirat: Paraphrasis rhithmica. 1684.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 152.</fw>
+<head type="title">AZ OLVASOHOZ</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Mint setét bányábúl aranyat széd bányász,</l>
+<l xml:id="l.2">Zavaros vizbenis fris halat fog halász,</l>
+<l xml:id="l.3">Berkes<note type="critic" xml:id="note.1">bozótos, nádas</note> rút erdöben szép vadat öl vadász,</l>
+<l xml:id="l.4">Madarat éjjelis tud fogni madarasz,</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.5">Ugy Ennius<note type="critic" xml:id="note.2">Ennius Quintus (i. e. 239–169) Annales címmel 18 könyvben történeti eposzt írt a rómaiakról Aeneastól saját koráig.
+                        Vergilius Aeneis-ének a tárgyáról is írt tehát; a „gyöngyöt” az ő „gazzá”-ból szedte ki Vergilius.</note> gazzan Maró gyöngyöt szedett,</l>
+<l xml:id="l.6">Illatlan viragján mint méh gyüjtött lépet,</l>
+<l xml:id="l.7">Kiben illy posványrúl hordott edes mezet,</l>
+<l xml:id="l.8">-S- Mint drága festekkel verset vele szinlett.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.9">Borzas rithmusimnak igy salakja között,</l>
+<l xml:id="l.10">(Kit tudatlanságom til túl edgyben tüdzött</l>
+<l xml:id="l.11">Elmem penyeszt, rosdát rúllok le sem üzött),</l>
+<l xml:id="l.12">Ha mi olyat talász, kit jó végre füzött,</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.13">Vedd, mint illik tülem, -s- élly hasznodra véle,</l>
+<l xml:id="l.14">Ne fujjon rám érte mérges nyelved szele,</l>
+<l xml:id="l.15">Zoilussal<note type="critic" xml:id="note.3">Zoilus – a gáncsoskodás megtestesítője</note> se szólly rágalmat felöle,</l>
+<l xml:id="l.16">Fedezze hibáit szereteted jele!</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>

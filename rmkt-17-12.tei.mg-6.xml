@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">6.</title>
+<title key="body" n="6" type="main">AZ 1638 ESTENDŐBEN...</title>
+<author>
+<persName><surname>Madách
+                    </surname><forename>Gáspár</forename><idno type="ITIdata">Q155937</idno></persName></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability><p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p></availability>
+<idno type="PID">rmkt-17-12.tei.mg-6</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title><idno type="ISSN">0324-2323</idno><idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt><note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.mg-jegyzetek">Jegyzetek: Madách Gáspár élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: <bibl><hi rend="bold">Rimay-Madách-k.</hi> III, 30a–33b.</bibl> Kiad. <bibl><hi rend="smallcaps">Radvánszky</hi>, ItK 1901, 144–47.</bibl></p>
+<p xml:id="crit.1.p.3">Az <date when="1638">1638-i</date> calabriai földrengést megverselő cseh ének, melyet Madách
+                        magyarra fordított, nem ismeretes. (Vö. <bibl><hi rend="smallcaps">Ján
+                                Mišianik</hi>: i. m. 52.</bibl>) A 11. vsz.-ból arra
+                        következtethetünk, hogy a vers, ill. a fordítás a szerencsétlenség után
+                        hamarosan készült. Míg azonban az ének címében Madách <date when="1638-04-09">1638. április
+                            9-ben</date> jelöli meg a szerencsétlenség időpontját, egy másik egykorú
+                        magyar feljegyzésben <date when="1638-03-27">március 27-e</date> szerepel. <persName>Haller
+                            Gábor<idno type="ITIdata">Q242495</idno></persName> írja <hi rend="italic">Napló</hi>jában <date when="1638-03">1638
+                            márciusának</date> a végén: „Ebben az holnapban Olaszországban sülyedt
+                        el földindulás miatt 30 város és sok falu, kikben veszett több 50 000
+                        embernél, úgymint die 27 praesentis circa quartam pomeridianam.” (Kiad.
+                                <bibl><abbr>ETA IV</abbr>. Kolozsvár 1862. 45.</bibl>)</p></note></notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa Bálint, Listius
+                        László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege. </witness>
+<witness xml:id="W1">Rimay-Madách-k. III, 30a–33b.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 6.</fw>
+<head type="title">AZ 1638 ESTENDŐBEN</head>
+<head type="subtitle">9 die Aprilis Az Vr istėn minemeő osztorȧt <app xml:id="app.1"><lem wit="#KK" xml:id="lem.1">bochatta</lem><rdg wit="#W1" xml:id="rdg.1">bochat<add type="corr">ta</add></rdg></app> legien, Olas Orszagban Egi Calabria neweő
+                    Tartomanira Meli <app xml:id="app.2"><lem wit="#KK" xml:id="lem.2">Tartomaniban Waraszok Faluk Nagi feold Indulas miat</lem><rdg wit="#W1" xml:id="rdg.2"><add type="insert">Tartomaniban</add> Waraszok<del>kal</del> Faluk<del>kal, es
+                            benne lakoző Emberekkel,</del> <add type="insert">Nagi feold Indulas miat</add></rdg></app> Swlliedtenek el, es mindgiarast
+                    Tengër Wiziwel el <app xml:id="app.3"><lem wit="#KK" xml:id="lem.3">buritattanak</lem><rdg wit="#W1" xml:id="rdg.3"><del>merẅltenek</del><add type="insert">buritattanak</add></rdg></app> kit ez ide alȧ walo werszekbeől meg ertheted Chehbol Magiarrá forditatot,</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Halgazd keresztien ember,</l>
+<l xml:id="l.2">Mit fogok eleö hoznÿ</l>
+<l xml:id="l.3">Jstennek nagi haragiát</l>
+<l xml:id="l.4">Latwán rank Teriedeznӳ</l>
+<l xml:id="l.5"><app xml:id="app.4"><lem wit="#KK" xml:id="lem.4">Ez romlot Allapatban,</lem><rdg wit="#W1" xml:id="rdg.4">Ez <del>mosztani Vilaghban</del><add type="insert">romlot Allapatban</add></rdg></app></l>
+<l xml:id="l.6"><app xml:id="app.5"><lem wit="#KK" xml:id="lem.5">Ninczen kin Eorwendeznÿ</lem><rdg wit="#W1" xml:id="rdg.5"><del rend="overwritten">m</del><add type="overwrite">k</add>in</rdg></app></l>
+<l xml:id="l.7">Sw̋ eped es hasád</l>
+<l xml:id="l.8">Jlý czúdakot hallanẏ</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.9">Wilag el haniatlot maar.</l>
+<l xml:id="l.10">Szantalan gonoszágban.</l>
+<l xml:id="l.11">Naprol naprȧ chiak viul</l>
+<l xml:id="l.12">Feslet Allapatiaban.</l>
+<l xml:id="l.13">Tobzodas es Hamiszág</l>
+<l xml:id="l.14">Hailó Paraznaszagban.</l>
+<l xml:id="l.15">Nagi harág io rendet bont,</l>
+<l xml:id="l.16">Búnre walo haẏlasban.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.17">Howȧ szemed forditod</l>
+<l xml:id="l.18">Körw̋ l Tartomaniokra.</l>
+<l xml:id="l.19">Eonti Isten haragiát</l>
+<l xml:id="l.20">Feszlet bw̋ nős fiakra.</l>
+<l xml:id="l.21"><app xml:id="app.6"><lem wit="#KK" xml:id="lem.6">Lȧtwȧn nagi Szok vetkekre</lem><rdg wit="#W1" xml:id="rdg.6">Lȧtwȧn <del>az</del><add type="insert">nagi</add></rdg></app></l>
+<l xml:id="l.22"><app xml:id="app.7"><lem wit="#KK" xml:id="lem.7">Hailadozaszokra.</lem><rdg wit="#W1" xml:id="rdg.7"><del>Nagi</del> hailadozaszokra</rdg></app></l>
+<l xml:id="l.23">Megien chiak az elmeiek</l>
+<l xml:id="l.24"><app xml:id="app.8"><lem wit="#KK" xml:id="lem.8">Vndok gonoszagokra.</lem><rdg wit="#W1" xml:id="rdg.8"><del>Jsoniu</del>
+<add type="insert">Vndok</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.25">El hadtak az emberek,</l>
+<l xml:id="l.26">Jstenẏ Tisteletet,</l>
+<l xml:id="l.27">Egihazẏ emberektől</l>
+<l xml:id="l.28">Meg wontak bechw̋ letet</l>
+<l xml:id="l.29"><app xml:id="app.9"><lem wit="#KK" xml:id="lem.9">Attiafiak kozőttis</lem><rdg wit="#W1" xml:id="rdg.9"><del>Az</del> Attiafiak</rdg></app></l>
+<l xml:id="l.30">Ninczen igaz szeretet,</l>
+<l xml:id="l.31">Tistatalȧn eletre.</l>
+<l xml:id="l.32">Minden chiak wetemedet,</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.33">Jgẏ soktȧ osztoroznÿ</l>
+<l xml:id="l.34">Az bẅnert az vr Isten.</l>
+<l xml:id="l.35">Ember gonos vetkeben.</l>
+<l xml:id="l.36">Chudak. altal rettennien,</l>
+<l xml:id="l.37">Vtalatos bwneőkbeől</l>
+<l xml:id="l.38">Jóo elettre Terhessen.</l>
+<l xml:id="l.39"><app xml:id="app.10"><lem wit="#KK" xml:id="lem.10">Sorniű weszedelmektől</lem><rdg wit="#W1" xml:id="rdg.10"><del>Jlẏ</del> Sorniű</rdg></app></l>
+<l xml:id="l.40">Hogi meg menekedhessen,</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.41">Wesek egi nehani peldat</l>
+<l xml:id="l.42">Ȧz Szentek iraszaból</l>
+<l xml:id="l.43">Mint bw̋ ntete az embert</l>
+<l xml:id="l.44"><app xml:id="app.11"><lem wit="#KK" xml:id="lem.11">Igaz Jttiletibeől</lem><rdg wit="#W1" xml:id="rdg.11"><del>Jstėn</del> igaz</rdg></app></l>
+<l xml:id="l.45"><app xml:id="app.12"><lem wit="#KK" xml:id="lem.12">Hogj hailottak wetkekre</lem><rdg wit="#W1" xml:id="rdg.12"><del>hogi</del> <add place="above" type="insert">Hogj</add> hailott <del>az</del><add place="above" type="insert">ak</add></rdg></app></l>
+<l xml:id="l.46"><app xml:id="app.13"><lem wit="#KK" xml:id="lem.13">Gonȯs chelékedetből</lem><rdg wit="#W1" xml:id="rdg.13">chelékedet<del>ek</del>ből</rdg></app></l>
+<l xml:id="l.47">Jsteneket el hagiwán</l>
+<l xml:id="l.48">Wesnẏ Tertek ezenteől</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.49">Az elseö wilagotis</l>
+<l xml:id="l.50">Wiz Eozonnel el wesztet</l>
+<l xml:id="l.51">Sodomȧt, es Gomorrath</l>
+<l xml:id="l.52">Wizel mert el szwlesztet</l>
+<l xml:id="l.53">Keni kowės Twzekkel</l>
+<l xml:id="l.54">Waraszokat egetet</l>
+<l xml:id="l.55">Hatalmaszagat raitok</l>
+<l xml:id="l.56">Haragiawal Terieztet,</l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.57">Szok Szantalan Waraszok.</l>
+<l xml:id="l.58">Romlandoszaghban. iuttak</l>
+<l xml:id="l.59">Troia es az Babilon.</l>
+<l xml:id="l.60">Foldel be burittatak.</l>
+<l xml:id="l.61">Carthago S teöb Waraszok</l>
+<l xml:id="l.62">Mind semisze<note type="critic" xml:id="note.1">semissé, semmivé</note> iutottak.</l>
+<l xml:id="l.63">Szeep dragà epw̋ letek.</l>
+<l xml:id="l.64">Foldig mind el romlottak.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.65">Jora walo sep Intest</l>
+<l xml:id="l.66">Nem Akartak hallani</l>
+<l xml:id="l.67">Bunokbol megh Tereset</l>
+<l xml:id="l.68">Poenitentiat Tartani</l>
+<l xml:id="l.69">Istennek Szent Sauat</l>
+<l xml:id="l.70">Hatra kezdetek vetni</l>
+<l xml:id="l.71"><app xml:id="app.14"><lem wit="#KK" xml:id="lem.14">Haragẏaban igi kezdet</lem><rdg wit="#W1" xml:id="rdg.14">Haragẏa<del>u</del>ba<del>l</del>n</rdg></app></l>
+<l xml:id="l.72"><app xml:id="app.15">
+<lem wit="#KK" xml:id="lem.15">Osztorawal rontani</lem>
+<rdg wit="#W1" xml:id="rdg.15"> <note>65–72 A 4 oldallal alább olvasható versszak
+                                    idetartozására Madách O jellel
+                                    utalt.</note></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.10">
+<l xml:id="l.73">Jm nem reghi idoben</l>
+<l xml:id="l.74">Tengernek melliekiben.</l>
+<l xml:id="l.75">Haszomlo keppėn Tőrtent</l>
+<l xml:id="l.76">Waraszok Swledésben,</l>
+<l xml:id="l.77">Noha soksor latatot</l>
+<l xml:id="l.78">Nekiek Jeleneesben,</l>
+<l xml:id="l.79">Terienek igaz hittel</l>
+<l xml:id="l.80">Bizwȧn Istenszegeben.</l>
+</lg>
+<lg xml:id="lg.11">
+<l xml:id="l.81">Mosztani Ezer hat szaas.</l>
+<l xml:id="l.82"><app xml:id="app.16"><lem wit="#KK" xml:id="lem.16">Harmints Niolcz Taiban</lem><rdg wit="#W1" xml:id="rdg.16">Niolcz <del>esztendo</del> Tai<add place="above" type="insert">i</add>ban</rdg></app></l>
+<l xml:id="l.83">Ez nagi czudȧ Tortenet</l>
+<l xml:id="l.84">Löt Szȧnt giőrginek hauaban.<note type="critic" xml:id="note.2">Szent György hava – április</note></l>
+<l xml:id="l.85"><app xml:id="app.17"><lem wit="#KK" xml:id="lem.17">Calabria Tartomani.</lem><rdg wit="#W1" xml:id="rdg.17">Calabria <del>neweö Tartomani</del> <add place="above" type="insert">Tartomani</add></rdg></app></l>
+<l xml:id="l.86">Az Nagi olas orszaghban.</l>
+<l xml:id="l.87">Negiuen méli foldnire</l>
+<l xml:id="l.88"><app xml:id="app.18"><lem wit="#KK" xml:id="lem.18">Teriedwȧn hosataban.<note type="critic" xml:id="note.3">a. m. hosszában</note></lem><rdg wit="#W1" xml:id="rdg.18">Teriedwȧn <del>Tartomaniban</del><add place="above" type="insert">hotaraban</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.12">
+<l xml:id="l.89"><app xml:id="app.19"><lem wit="#KK" xml:id="lem.19">Jsten ráiok</lem><rdg wit="#W1" xml:id="rdg.19"><del>boczátot</del><add type="corr">boczátwán</add></rdg></app></l>
+<l xml:id="l.90">Nagi föld indulaszokot</l>
+<l xml:id="l.91">Rontot sok sép falukot</l>
+<l xml:id="l.92"><app xml:id="app.20">
+<lem wit="#KK" xml:id="lem.20">S Torniot szentegjhazakat,</lem>
+<rdg wit="#W1" xml:id="rdg.20"><del>Keritet waroszokot</del>
+<add type="insert">S Torniot szentegjhazakat</add></rdg>
+</app></l>
+<l xml:id="l.93">Az Tengeris mozditot</l>
+<l xml:id="l.94">Nagi Sw̋ rőwen<note type="critic" xml:id="note.4">= sűrűn</note> habokot</l>
+<l xml:id="l.95">Wizėl embert es Barmot</l>
+<l xml:id="l.96">Sorniűszeggel Buritot,</l>
+</lg>
+<lg xml:id="lg.13">
+<l xml:id="l.97">Az feöld kett fele walt</l>
+<l xml:id="l.98"><app xml:id="app.21"><lem wit="#KK" xml:id="lem.21">Tűz lȧng belöle ment</lem><rdg wit="#W1" xml:id="rdg.21"><del>kÿ iőt</del> ment</rdg></app></l>
+<l xml:id="l.99"><app xml:id="app.22"><lem wit="#KK" xml:id="lem.22">Mindeneket el nielt</lem><rdg wit="#W1" xml:id="rdg.22">Varaszt őreg falukot</rdg></app></l>
+<l xml:id="l.100"><app xml:id="app.23"><lem wit="#KK" xml:id="lem.23">Varaszt őreg falukot</lem><rdg wit="#W1" xml:id="rdg.23">Mindeneket <del>ot</del> el nielt<note type="critic" xml:id="note.5">99–100 Eredetileg a sorok rendje felcserélve.</note></rdg></app></l>
+<l xml:id="l.101"><app xml:id="app.24"><lem wit="#KK" xml:id="lem.24">Tengernek czatornaÿ<corr>a</corr></lem><rdg wit="#W1" xml:id="rdg.24">czatornaÿ</rdg></app></l>
+<l xml:id="l.102"><app xml:id="app.25"><lem wit="#KK" xml:id="lem.25">Azombȧn ot meg nilt</lem><rdg wit="#W1" xml:id="rdg.25">Azombȧn <del>meg niltak</del> ot</rdg></app></l>
+<l xml:id="l.103">Viznek az ö szoksagá.</l>
+<l xml:id="l.104"><app xml:id="app.26"><lem wit="#KK" xml:id="lem.26">Buritá mind feienkint,</lem><rdg wit="#W1" xml:id="rdg.26">mind <del>azokot</del><add type="i">feienkint</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.14">
+<l xml:id="l.105">Szeep Eeep dragȧ Tartománt</l>
+<l xml:id="l.106">Az Tenger el buritot</l>
+<l xml:id="l.107"><app xml:id="app.27"><lem wit="#KK" xml:id="lem.27">Tizėn Negi Eoregh Waraszt</lem><rdg wit="#W1" xml:id="rdg.27"><del rend="overwritten">feo</del><add type="overwrite">Eoregh</add></rdg></app></l>
+<l xml:id="l.108"><app xml:id="app.28"><lem wit="#KK" xml:id="lem.28">Aban Szok Sep falukot.</lem><rdg wit="#W1" xml:id="rdg.28"><del>Isten
+                        el Szwlesztet ot</del><add type="i">Aban Szok Sep falukot</add></rdg></app></l>
+<l xml:id="l.109"><app xml:id="app.29"><lem wit="#KK" xml:id="lem.29">Sok ezer embert</lem><rdg wit="#W1" xml:id="rdg.29"><del>Faluknak szoksagȧ</del><add place="below" type="insert"/></rdg></app></l>
+<l xml:id="l.110"><app xml:id="app.30"><lem wit="#KK" xml:id="lem.30">Isten el Sülestet ott</lem><rdg wit="#W1" xml:id="rdg.30"><del>Az mint el szamlaltatott.</del><add place="below" type="insert"/></rdg></app></l>
+<l xml:id="l.111">Most Sẇrẅ keod raitȧ</l>
+<l xml:id="l.112">Gozologwėn fw̋ steolog,</l>
+</lg>
+<lg xml:id="lg.15">
+<l xml:id="l.113">Maas Tartomȧnokbolis</l>
+<l xml:id="l.114"><app xml:id="app.31">
+<lem wit="#KK" xml:id="lem.31">Raktak eö haioiokoth,</lem>
+<rdg wit="#W1" xml:id="rdg.31">Gazdag feö fö kalmarok</rdg>
+</app></l>
+<l xml:id="l.115"><app xml:id="app.32"><lem wit="#KK" xml:id="lem.32">Gazdag feö fö kalmarok</lem><rdg wit="#W1" xml:id="rdg.32">Raktak eö haioiokoth,<note type="critic" xml:id="note.6">114–115 A sorok rendje eredetileg
+                                    felcserélve.</note></rdg></app></l>
+<l xml:id="l.116"><app xml:id="app.33"><lem wit="#KK" xml:id="lem.33">Benek draga marhaiok</lem><rdg wit="#W1" xml:id="rdg.33"><del>aruiok</del> marhaiok</rdg></app></l>
+<l xml:id="l.117">Azomban Tenger habia</l>
+<l xml:id="l.118"><app xml:id="app.34"><lem wit="#KK" xml:id="lem.34">Iőth weletlen reaiok</lem><rdg wit="#W1" xml:id="rdg.34">[Előbb:] Weletlen reaiok iőth</rdg></app></l>
+<l xml:id="l.119">Nagi hertelen buritot</l>
+<l xml:id="l.120">Eoszwe Tőrwėn haioiok</l>
+</lg>
+<lg xml:id="lg.16">
+<l xml:id="l.121"><app xml:id="app.35"><lem wit="#KK" xml:id="lem.35">Nagi Siwas Riwas</lem><rdg wit="#W1" xml:id="rdg.35"><del>Siralmas yai
+                        sokot</del><add place="above" type="insert">Nagi Siwas Riwas</add></rdg></app></l>
+<l xml:id="l.122">Emberektol hallatot</l>
+<l xml:id="l.123">Weletlėn veszedelem.</l>
+<l xml:id="l.124">Hogi eöket niomoritot</l>
+<l xml:id="l.125">Wenet es sep Jffiakot</l>
+<l xml:id="l.126">Egiarȧnt az fold niomot</l>
+<l xml:id="l.127">Nagi hertelenszeggelis</l>
+<l xml:id="l.128"><app xml:id="app.36"><lem wit="#KK" xml:id="lem.36">Az Fold .S wys buritot</lem><rdg wit="#W1" xml:id="rdg.36"><del>Sok ezer embert vesztet ot</del><add place="above" type="insert">Az Fold .S wys buritot</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.17">
+<l xml:id="l.129">Weletlen nagi veszeliben,</l>
+<l xml:id="l.130">Szokan fel kialtottak,</l>
+<l xml:id="l.131">Bunokre szirankozwán</l>
+<l xml:id="l.132">Keszerweszėn iaigadtak,</l>
+<l xml:id="l.133"><app xml:id="app.37">
+<lem wit="#KK" xml:id="lem.37">Jaẏ mit ertu̇nk<note type="critic" xml:id="note.7">ti. mit értünk
+                                    meg</note> monduan</lem>
+<rdg wit="#W1" xml:id="rdg.37"><note type="critic" xml:id="note.8"><hi rend="italic">Jaẏ</hi> az <hi rend="italic">Ach</hi>
+                                szó elé írva.</note></rdg>
+</app></l>
+<l xml:id="l.134">Ȧz haiokat szagadtak.</l>
+<l xml:id="l.135">Haragrȧ Inditottuk</l>
+<l xml:id="l.136">Mi kegies meg Valtonkat</l>
+</lg>
+<lg xml:id="lg.18">
+<l xml:id="l.137">Jay nekúnk Bunoszoknek</l>
+<l xml:id="l.138">Hogi vilagrȧ Szw̋ lettűnk.</l>
+<l xml:id="l.139"><app xml:id="app.38"><lem wit="#KK" xml:id="lem.38">A kor lőtt volnȧ holtunk</lem><rdg wit="#W1" xml:id="rdg.38">Job volt wolna mi nekünk</rdg></app></l>
+<l xml:id="l.140"><app xml:id="app.39">
+<lem wit="#KK" xml:id="lem.39">Job volt wolna mi nekünk</lem>
+<rdg wit="#W1" xml:id="rdg.39">A kor lőtt volnȧ holtunk<note type="critic" xml:id="note.9">139–140
+                                    Eredetileg a sorok felcserélve.</note></rdg>
+</app></l>
+<l xml:id="l.141">Jm mire hozot</l>
+<l xml:id="l.142">Ȧz mi szantalan vetkűnk,</l>
+<l xml:id="l.143">Mint Abiron es Tobbi</l><note type="critic" xml:id="note.10">Kóré, Dátán, Abiron 250 társával fellázadt Mózes és Áron ellen; tűz égette meg
+                        őket és elnyelte testüket a föld. (<bibl>Móz. IV. 16, 1–35.</bibl>)</note>
+<l xml:id="l.144"><app xml:id="app.40"><lem wit="#KK" xml:id="lem.40">Pokolrȧ Tasitatunk</lem><rdg wit="#W1" xml:id="rdg.40"> <note type="critic" xml:id="note.11">A 17–18. vsz. eredetileg a 19. után állt.</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.19">
+<l xml:id="l.145"><app xml:id="app.41"><lem wit="#KK" xml:id="lem.41">Bűntelen az Bűnősek</lem><rdg wit="#W1" xml:id="rdg.41">[Előbb:] Bűnősek <del>es</del> az Büntelen<del>ek</del> </rdg></app></l>
+<l xml:id="l.146">Nem menekedtenek</l>
+<l xml:id="l.147">Jok es az Gonoszok.</l>
+<l xml:id="l.148">Mind egiarant vesztenek</l>
+<l xml:id="l.149">Erdemlet Iutalmokot</l>
+<l xml:id="l.150">Egiut eök el vettenek</l>
+<l xml:id="l.151"><app xml:id="app.42"><lem wit="#KK" xml:id="lem.42">Istennek Intėszere</lem><rdg wit="#W1" xml:id="rdg.42"><del>Mert az Isten szawará</del><add place="above" type="insert">Istennek Intėszere</add></rdg></app></l>
+<l xml:id="l.152">Akartwȧ nem Tertenek</l>
+</lg>
+<lg xml:id="lg.20">
+<l xml:id="l.153"><app xml:id="app.43"><lem wit="#KK" xml:id="lem.43">Peldat ez Tartomanirol,</lem><rdg wit="#W1" xml:id="rdg.43">Peldat <del>olaz Orszagrol</del><add place="above" type="insert">ez Tartomanirol</add></rdg></app></l>
+<l xml:id="l.154">Mẏs ez szerint végiűnk</l>
+<l xml:id="l.155">Koniőrogiunk Istennek</l>
+<l xml:id="l.156">Ezent ne Tegie velunk</l>
+<l xml:id="l.157"><app xml:id="app.44"><lem wit="#KK" xml:id="lem.44">Illi szorniű Veszedelmet</lem><rdg wit="#W1" xml:id="rdg.44">[Előbb:] Illi
+                        Veszedelmet szorniű</rdg></app></l>
+<l xml:id="l.158">Tawoztasza mí Tolunk.</l>
+<l xml:id="l.159">Sarniaiwal fődėzwén</l>
+<l xml:id="l.160">Bekesegbėn hogi elliunk</l>
+</lg>
+<lg xml:id="lg.21">
+<l xml:id="l.161">Tẅr szenued az vr Isten</l>
+<l xml:id="l.162">Varia meg Teresunket</l>
+<l xml:id="l.163">Kegielmewel meg eloz</l>
+<l xml:id="l.164">Hozaia hiw benűnket</l>
+<l xml:id="l.165">Ha latia peniglen</l>
+<l xml:id="l.166">Mi kemeniszeghűnket</l>
+<l xml:id="l.167">Ront S-wer ostoroz</l>
+<l xml:id="l.168"><app xml:id="app.45"><lem wit="#KK" xml:id="lem.45">Bűnteti feiűnket</lem><rdg wit="#W1" xml:id="rdg.45"><note type="critic" xml:id="note.12">161–168 A 21. vsz. ide tartozására Madách # jellel utalt.</note></rdg></app></l>
+</lg>
+<lg xml:id="lg.22">
+<l xml:id="l.169">Az vr Istėn mi koron,</l>
+<l xml:id="l.170">Maas Tartomant osztoroz</l>
+<l xml:id="l.171">Kialcz fel Teremtodhoz,</l><note type="critic" xml:id="note.13">Föléje van írva az eredetileg is így hangzó, de áthúzott sornak.</note>
+<l xml:id="l.172">Ȧz bunokben ne haboz</l>
+<l xml:id="l.173">Penitentiat Tartwȧn</l>
+<l xml:id="l.174">Bizȧl Te Istenedhez</l>
+<l xml:id="l.175">Ne bochasza osztorat.</l>
+<l xml:id="l.176"><app xml:id="app.46"><lem wit="#KK" xml:id="lem.46">Segeni eö hiweihez.</lem><rdg wit="#W1" xml:id="rdg.46"><del>Hozad bunȯs fiahoz</del><add place="below" type="i">Segeni eö hiweihez</add></rdg></app></l>
+</lg>
+<lg xml:id="lg.23">
+<l xml:id="l.177">Minden szem pilantasban</l>
+<l xml:id="l.178">Jstenhez Esedezűnk</l>
+<l xml:id="l.179">Alȧzatos <sic>sziwunkëll</sic></l>
+<l xml:id="l.180">Az foldre le buruliűnk</l>
+<l xml:id="l.181"><app xml:id="app.47"><lem wit="#KK" xml:id="lem.47">Santalan szók vetkunket</lem><rdg wit="#W1" xml:id="rdg.47"><del type="overwritten">mi</del><add type="overwrite">szók</add></rdg></app></l>
+<l xml:id="l.182">Bochasȧ meg mi nekunk</l>
+<l xml:id="l.183">Holtunk vtȧnis tegedet</l>
+<l xml:id="l.184">Vram Isten dicziriunk</l>
+</lg>
+<lg xml:id="lg.24"><l xml:id="l.185">O Irgalmas Istenűnk</l>
+<l xml:id="l.186">Adgi hogi hozad Terhessűnk</l>
+<l xml:id="l.187">Sirwan mi buneinkre</l>
+<l xml:id="l.188">Siwbol wallast tehessűnk</l>
+<l xml:id="l.189"><app xml:id="app.48">
+<lem wit="#KK" xml:id="lem.48"> It ez vilagon elwen</lem>
+<rdg wit="#W1" xml:id="rdg.48"><del>Tebenned biz</del><note>A sorban csak ennyi áll,
+                                    áthúzva; alatta:</note> It ez</rdg>
+</app></l>
+<l xml:id="l.190"><app xml:id="app.49"><lem wit="#KK" xml:id="lem.49">Jgaz hitbol elhessűnk</lem><rdg wit="#W1" xml:id="rdg.49"><del type="overwritten">Isten</del><add type="overwrite">Jgaz</add></rdg></app></l>
+<l xml:id="l.191">Te benned bizwan</l>
+<l xml:id="l.192">Istenessėn megh halliunk</l></lg>
+</div>
+</body>
+</text>
+</TEI>

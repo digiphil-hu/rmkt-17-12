@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="num">146.</title>
+<title key="body" n="146" type="main">EGY GONDOLOM TÁNCZ ENEK EGY SZÉP ROSA
+                    VIRÁGRUL</title>
+<author>
+<surname>Esterházy</surname>
+<forename>Pál</forename><idno type="ITIdata">Q144463</idno></author>
+</titleStmt>
+<editionStmt>
+<edition>digital edition</edition>
+<respStmt>
+<resp>editor in chief</resp>
+<persName>
+<surname>Palkó</surname>
+<forename>Gábor</forename>
+<idno type="ITIdata">Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>XML-editor</resp>
+<persName>
+<surname>Hernády</surname>
+<forename>Judit</forename><idno type="ITIdata">Q349962</idno><idno type="ORCID">0009-0000-2513-8311</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>TEI specification</resp>
+<persName>
+<surname>Fellegi</surname>
+<forename>Zsófia</forename><idno type="ITIdata">Q349971</idno><idno type="ORCID">0000-0001-9199-1759</idno>
+</persName>
+</respStmt>
+<respStmt>
+<resp>creator</resp>
+<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>
+<orgName>Irodalomtudományi Kutatóintézet<idno type="ITIdata">Q2256</idno></orgName>
+<ref type="url">https://iti.abtk.hu</ref>
+</publisher>
+<pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+<date when="2025">2025</date>
+<availability>
+<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+</availability>
+<idno type="PID">rmkt-17-12.tei.ep-146</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12/">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref></publicationStmt>
+<seriesStmt>
+<title level="s">Régi Magyar Költők Tára XVII. század</title>
+<idno type="ISSN">0324-2323</idno>
+<idno type="ITIdata">Q349972</idno>
+</seriesStmt>
+<notesStmt>
+<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1"><ref target="rmkt-17-12.tei.ep-jegyzetek">Jegyzetek: Esterházy Pál élete és művei.</ref></p><p xml:id="crit.1.p.2">Kézirata: Egy külön lapon, a nyomtatott betűket utánzó
+                    kézírással.</p></note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<title type="main">Madách Gáspár, egy névtelen, Beniczky Péter, gróf Balassa
+                        Bálint, Listius László, Esterházy Pál és Fráter István versei</title>
+<title type="sub">Régi Magyar Költők Tára XVII. század, 12.</title>
+<author>
+<persName>
+<surname>Madách</surname>
+<forename>Gáspár</forename>
+<idno type="ITIdata">Q155937</idno>
+</persName>
+<persName>Egy névtelen</persName>
+<persName>
+<surname>Beniczky</surname>
+<forename>Péter</forename>
+<idno type="ITIdata">Q41111</idno>
+</persName>
+<persName>
+<surname>gróf Balassa</surname>
+<forename>Bálint</forename>
+<idno type="ITIdata">Q238621</idno>
+</persName>
+<persName>
+<surname>Listius</surname>
+<forename>László</forename>
+<idno type="ITIdata">Q244148</idno>
+</persName>
+<persName>
+<surname>Esterházy</surname>
+<forename>Pál</forename>
+<idno type="ITIdata">Q144463</idno>
+</persName>
+<persName>
+<surname>Fráter</surname>
+<forename>István</forename>
+<idno type="ITIdata">Q41647</idno>
+</persName>
+</author>
+<respStmt>
+<resp>arranged for publication: </resp>
+<persName>
+<surname>Varga</surname>
+<forename>Imre</forename>
+<idno type="ITIdata">Q160060</idno>
+</persName>
+<persName>
+<surname>Cs. Havas</surname>
+<forename>Ágnes</forename>
+<idno type="ITIdata">Q470936</idno>
+</persName>
+<persName>
+<surname>Stoll </surname>
+<forename>Béla</forename>
+<idno type="ITIdata">Q253314</idno>
+</persName>
+</respStmt>
+<date when="1987">1987</date>
+<pubPlace>Budapest</pubPlace>
+<publisher>Akadémiai Kiadó</publisher>
+<idno type="ITIdata">Q479527</idno>
+<ref target="https://github.com/digiphil-hu/rmkt-17-12" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"/>
+</bibl>
+<listWit>
+<witness xml:id="KK">A kritikai kiadás szövege.</witness>
+<witness xml:id="W1">OL, Pál nádor iratai, P 125. 54. cs. 11896., különálló
+                        papírlapon.</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="poem" xml:id="d.1" xml:lang="hu">
+<fw type="originalNum">[RMKT XVII/12:] 146.</fw>
+<head type="title">EGY GONDOLOM TÁNCZ ENEK EGY SZÉP ROSA VIRÁGRUL</head>
+<lg xml:id="lg.1">
+<l xml:id="l.1">Buidosásban lévén elmélkedésemben,</l>
+<l xml:id="l.2">Midön volnék egykor belsö gyötrelemben</l>
+<l rend="level_2" xml:id="l.3">Nÿlat löve kis Cupido</l>
+<l rend="level_2" xml:id="l.4">Nÿlat löve kis Cupido</l>
+<l rend="level_4" xml:id="l.5">Keserves szivemben.</l>
+</lg>
+<lg xml:id="lg.2">
+<l xml:id="l.6">Kiért el lankadván le kölleték feknem</l>
+<l xml:id="l.7">Fárodságom miátt mély álomban esnem</l>
+<l rend="level_2" xml:id="l.8">De az tüzes sebek miátt</l>
+<l rend="level_2" xml:id="l.9">De az tüzes sebek miátt</l>
+<l rend="level_4" xml:id="l.10">Nem nyughaték lelkem.</l>
+</lg>
+<lg xml:id="lg.3">
+<l xml:id="l.11">Mert elöttem Rosa ö magát mutattya</l>
+<l xml:id="l.12">Kinek meszireölis teried szép illattya</l>
+<l rend="level_2" xml:id="l.13">Mint kevánnám hogy haiolna</l>
+<l rend="level_2" xml:id="l.14">Mint kevánnám hogy haiolna</l>
+<l rend="level_4" xml:id="l.15">Hozzám akarattya.</l>
+</lg>
+<lg xml:id="lg.4">
+<l xml:id="l.16">Kinek mint egy Rubint aiaka ugy fénlik</l>
+<l xml:id="l.17">Vagy mint Cárbunculus szépen veresellik</l>
+<l rend="level_2" xml:id="l.18">Két ragyago szemeczkéie</l>
+<l rend="level_2" xml:id="l.19">Két ragyago szemeczkéie</l>
+<l rend="level_4" xml:id="l.20">Mint tüz ugy villámlik.</l>
+</lg>
+<lg xml:id="lg.5">
+<l xml:id="l.21">Feiér liliumhoz hasonlo ö torka</l>
+<l xml:id="l.22">Mint fényes nap villott tündöklö homloka</l>
+<l rend="level_2" xml:id="l.23">Minden kerti virágoknál</l>
+<l rend="level_2" xml:id="l.24">Minden kerti virágoknál</l>
+<l rend="level_4" xml:id="l.25">Ékesb ábrázattya.</l>
+</lg>
+<lg xml:id="lg.6">
+<l xml:id="l.26">Ezért az kevánságh szivemet kergeti</l>
+<l xml:id="l.27">Sok gondolatimat minden felé veti</l>
+<l rend="level_2" xml:id="l.28">De fáidalmas gyötrelmemnek</l>
+<l rend="level_2" xml:id="l.29">De fáidalmas gyötrelmemnek</l>
+<l rend="level_4" xml:id="l.30">Végét nem érheti.</l>
+</lg>
+<lg xml:id="lg.7">
+<l xml:id="l.31">Mert nagy sebet csinált Cupido szivemben</l>
+<l xml:id="l.32">Kivel kinoztatik kegyetlenül lelkem</l>
+<l rend="level_2" xml:id="l.33">Midön látom hogy szép Rosám</l>
+<l rend="level_2" xml:id="l.34">Midön látom hogy szép Rosám</l>
+<l rend="level_4" xml:id="l.35"><app xml:id="app.1">
+<lem wit="#KK" xml:id="lem.1">Idegen <corr>en</corr>töllem.</lem>
+<rdg wit="#W1" xml:id="rdg.1">Idegen töllem.<note type="critic" xml:id="note.1">A szótagszámhibát
+                                    hozzávetőleg jav.</note></rdg>
+</app></l>
+</lg>
+<lg xml:id="lg.8">
+<l xml:id="l.36">Aly megh kis Cupido fordéczd kézÿadat</l>
+<l xml:id="l.37">Ne uÿétcsad továb keserves kinomat</l>
+<l rend="level_2" xml:id="l.38">Haicsad hozzám szép nÿladdal</l>
+<l rend="level_2" xml:id="l.39">Haicsad hozzám szép nyladdal</l>
+<l rend="level_4" xml:id="l.40">Kedves Virágodat.</l>
+</lg>
+<lg xml:id="lg.9">
+<l xml:id="l.41">Egy magános helyben szomoru elmémben</l>
+<l xml:id="l.42">Versemet igy végzém lévén reménséghben</l>
+<l rend="level_2" xml:id="l.43">Hogy megh busult feiem lészen</l>
+<l rend="level_2" xml:id="l.44">Hogy megh busult feiem lészen</l>
+<l rend="level_4" xml:id="l.45">Szép Rosám kedvében.</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI>
